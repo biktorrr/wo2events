@@ -1,0 +1,244 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_0t_1t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_22t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_32t_33t_34t_35t_36t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_47t_48>,
+        bgn:Person-700 ;
+    ore:proxyFor bgn:Person-700 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w1> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w23> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w30> nif:lemma "blad" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w33> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w45> nif:lemma "inhoud" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w48> nif:lemma "uit" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-700__Aan_den_dijk#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-700__Aan_den_dijk .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-700 ;
+    bgn:aggregatedPerson bgn:Person-700 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-700__Aan_den_dijk ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-700__Aan_den_dijk ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w18> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w22> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_22t_23t_24> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_11> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_19> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w4> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_0t_1t_2> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w31> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_28t_29> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_32t_33t_34t_35t_36t_37> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w42> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_39> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w46> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_43t_44> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_47t_48> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w12> nif:anchorOf "dat" ;
+    nif:beginIndex "61" ;
+    nif:endIndex "64" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w12" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w14w15> nif:anchorOf "najaar 1944" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w18> nif:anchorOf "1945" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "94" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w1w2w3> nif:anchorOf "den dijk" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "12" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w1" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w20> nif:anchorOf "Schagen" ;
+    nif:beginIndex "98" ;
+    nif:endIndex "105" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w22> nif:BeginIndex "111" ;
+    nif:anchorOf "uitgegeven" ;
+    nif:endIndex "121" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w23w24w25> nif:anchorOf "door de landbouwer" ;
+    nif:beginIndex "122" ;
+    nif:endIndex "140" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w23" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w26w27> nif:anchorOf "S. Borst" ;
+    nif:beginIndex "141" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w29w30> nif:anchorOf "Het blad" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "159" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w30" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w31> nif:BeginIndex "160" ;
+    nif:anchorOf "verscheen" ;
+    nif:endIndex "169" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w32> nif:anchorOf "dagelijks" ;
+    nif:beginIndex "170" ;
+    nif:endIndex "179" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w33w34w35w36w37w38> nif:anchorOf "in een oplage van 15 exemplaren" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "211" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w33" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w4> nif:BeginIndex "13" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "16" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w40> nif:anchorOf "Het" ;
+    nif:beginIndex "213" ;
+    nif:endIndex "216" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w40" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w42> nif:BeginIndex "222" ;
+    nif:anchorOf "getypt" ;
+    nif:endIndex "228" ;
+    nif:lemma "typen" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w44w45> nif:anchorOf "de inhoud" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "241" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w46> nif:BeginIndex "242" ;
+    nif:anchorOf "bestond" ;
+    nif:endIndex "249" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w47> nif:anchorOf "voornamelijk" ;
+    nif:beginIndex "250" ;
+    nif:endIndex "262" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w47" ;
+    nif:lemma "voornamelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w48w49> nif:anchorOf "uit nieuwsberichten" ;
+    nif:beginIndex "263" ;
+    nif:endIndex "282" ;
+    nif:head "bgnProc:700__Aan_den_dijk.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w9w10> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "59" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_0t_1t_2> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w1w2w3> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_11> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w12> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w14w15> ;
+    xs:gYearMonth "1944-H2" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_22t_23t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w23w24w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_31> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w32> ;
+    xs:date "XXXX-XX-XX" .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_32t_33t_34t_35t_36t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w33w34w35w36w37w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w48w49> .
+
+bgn:Person-700 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/700__Aan_den_dijk.naf#w9w10> .
+

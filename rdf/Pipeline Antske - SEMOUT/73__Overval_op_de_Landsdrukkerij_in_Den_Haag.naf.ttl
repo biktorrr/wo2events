@@ -1,0 +1,658 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_118t_119t_120t_121t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_11t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_150t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_195t_196t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_202t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_28t_29t_30t_31t_32t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_30t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_99>,
+        bgn:Person-73 ;
+    ore:proxyFor bgn:Person-73 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w116> nif:lemma "personeel_lid" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w119> nif:lemma "vel" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w192> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w196> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w203> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w212> nif:lemma "oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w29> nif:lemma "iedereen" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w37> nif:lemma "persoonsbewijs" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w38> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w43> nif:lemma "overval" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w98> nif:lemma "verzet_groep" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-73__Overval_op_de_Landsdrukkerij_in_Den_Haag#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-73__Overval_op_de_Landsdrukkerij_in_Den_Haag .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-73 ;
+    bgn:aggregatedPerson bgn:Person-73 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-73__Overval_op_de_Landsdrukkerij_in_Den_Haag ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-73__Overval_op_de_Landsdrukkerij_in_Den_Haag ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w109> ;
+    pb:A0 bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w114> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_112> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w118> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_112> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_118t_119t_120t_121t_122t_123> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_139t_140t_141> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w140w141w142> ;
+    xs:date "1944-04-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_147t_148> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w148w149> ;
+    xs:date "2017-04-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w155> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_164>,
+        bgn:Person-73 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_150t_151t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w17> ;
+    pb:Arg0 bgn:Person-73 ;
+    pb:Arg1 bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_168> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w169> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_167> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_150t_151t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w175> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_180>,
+        bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_176> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w177> ;
+    pb:Arg1 bgn:Person-73 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_175> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w182> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_180> ;
+    pb:Arg1 bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w186> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_190>,
+        bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w187> ;
+    pb:A1 bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w194> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_190> ;
+    pb:Arg1 bgn:Person-73 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_191t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w201> ;
+    pb:Arg1 bgn:Person-73 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_195t_196t_197> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w206> ;
+    pb:Arg0 bgn:Person-73 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_210t_211> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_202t_203t_204> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w23> ;
+    pb:Arg0 bgn:Person-73 ;
+    pb:Arg1 bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w27> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_23> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_24> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_30t_31> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w31w32> ;
+    xs:period "P14Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w40> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_28t_29t_30t_31t_32t_33> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_35t_36> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_37t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w45> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_41t_42> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_52>,
+        bgn:Person-73 ;
+    pb:ArgM-TMP bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w74> ;
+    pb:ArgM-LOC bgn:Person-73 .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_8> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w9> ;
+    pb:Arg0 bgn:Person-73 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_9> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_11t_12t_13t_14> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w99> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_96t_97> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_99> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w10> nif:anchorOf "plaats" ;
+    nif:beginIndex "49" ;
+    nif:endIndex "55" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w10" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w100> nif:anchorOf "zich" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "599" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w100" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w107> nif:anchorOf "Duitse" ;
+    nif:beginIndex "633" ;
+    nif:endIndex "639" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w108> nif:anchorOf "Badrian" ;
+    nif:beginIndex "640" ;
+    nif:endIndex "647" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w109> nif:BeginIndex "648" ;
+    nif:anchorOf "optrad" ;
+    nif:endIndex "654" ;
+    nif:lemma "op_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w111> nif:anchorOf "SS-officier" ;
+    nif:beginIndex "659" ;
+    nif:endIndex "670" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w113> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "672" ;
+    nif:endIndex "674" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w113" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w114> nif:BeginIndex "675" ;
+    nif:anchorOf "overmeesterden" ;
+    nif:endIndex "689" ;
+    nif:lemma "overmeesteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w115w116> nif:anchorOf "enkele personeelsleden" ;
+    nif:beginIndex "690" ;
+    nif:endIndex "712" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w118> nif:BeginIndex "716" ;
+    nif:anchorOf "namen" ;
+    nif:endIndex "721" ;
+    nif:lemma "mee_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w119w120w121w122w123w124> nif:anchorOf "vellen met in totaal 10.000 persoonsbewijzen" ;
+    nif:beginIndex "722" ;
+    nif:endIndex "766" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w12w13w14w15> nif:anchorOf "zaterdag 29 april 1944" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "81" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w134w135w136w137> nif:anchorOf "Gerrit van der Veen" ;
+    nif:beginIndex "816" ;
+    nif:endIndex "835" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w138> nif:BeginIndex "836" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "840" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w140w141w142> nif:anchorOf "Een dag later" ;
+    nif:beginIndex "842" ;
+    nif:endIndex "855" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w148w149> nif:anchorOf "30 april" ;
+    nif:beginIndex "873" ;
+    nif:endIndex "881" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w151w152w153> nif:anchorOf "1 mei 1944" ;
+    nif:beginIndex "885" ;
+    nif:endIndex "895" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w155> nif:BeginIndex "897" ;
+    nif:anchorOf "mislukte" ;
+    nif:endIndex "905" ;
+    nif:lemma "mislukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w160w161w162w163> nif:anchorOf "Huis van Bewaring Weteringschans" ;
+    nif:beginIndex "925" ;
+    nif:endIndex "957" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w165> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "961" ;
+    nif:endIndex "970" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w168> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "979" ;
+    nif:endIndex "982" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w168" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w169> nif:BeginIndex "983" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "991" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w17> nif:BeginIndex "85" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "88" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w172w173w174> nif:anchorOf "Hans van Gogh" ;
+    nif:beginIndex "997" ;
+    nif:endIndex "1010" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w175> nif:BeginIndex "1011" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1015" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w176> nif:anchorOf "later" ;
+    nif:beginIndex "1016" ;
+    nif:endIndex "1021" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w176" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w177> nif:BeginIndex "1022" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "1030" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w181> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1050" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w182> nif:BeginIndex "1051" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1063" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w184w185> nif:anchorOf "Gerhard Badrian" ;
+    nif:beginIndex "1065" ;
+    nif:endIndex "1080" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w186> nif:BeginIndex "1081" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1085" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w187> nif:BeginIndex "1086" ;
+    nif:anchorOf "verraden" ;
+    nif:endIndex "1094" ;
+    nif:lemma "verraden" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w191> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1106" ;
+    nif:endIndex "1114" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w192w193> nif:anchorOf "op straat" ;
+    nif:beginIndex "1115" ;
+    nif:endIndex "1124" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w192" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w194> nif:BeginIndex "1125" ;
+    nif:anchorOf "doodgeschoten" ;
+    nif:endIndex "1138" ;
+    nif:lemma "dood_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w196w197w198> nif:anchorOf "Bij die actie" ;
+    nif:beginIndex "1140" ;
+    nif:endIndex "1153" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w196" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w20> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "98" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w200> nif:anchorOf "Boverhuis" ;
+    nif:beginIndex "1159" ;
+    nif:endIndex "1168" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w201> nif:BeginIndex "1169" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "1181" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w203w204w205> nif:anchorOf "Van de overvallers" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1201" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w203" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w206> nif:BeginIndex "1202" ;
+    nif:anchorOf "overleefden" ;
+    nif:endIndex "1213" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w208> nif:anchorOf "Meijer" ;
+    nif:beginIndex "1221" ;
+    nif:endIndex "1227" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w210> nif:anchorOf "Verbiest" ;
+    nif:beginIndex "1231" ;
+    nif:endIndex "1239" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w211w212> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "1240" ;
+    nif:endIndex "1249" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w23> nif:BeginIndex "130" ;
+    nif:anchorOf "bemachtigen" ;
+    nif:endIndex "141" ;
+    nif:lemma "bemachtigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w24> nif:anchorOf "die" ;
+    nif:beginIndex "142" ;
+    nif:endIndex "145" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w24" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w25> nif:anchorOf "hier" ;
+    nif:beginIndex "146" ;
+    nif:endIndex "150" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w25" ;
+    nif:lemma "hier" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w27> nif:BeginIndex "158" ;
+    nif:anchorOf "gedrukt" ;
+    nif:endIndex "165" ;
+    nif:lemma "drukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w29w30w31w32w33w34> nif:anchorOf "Iedereen van veertien jaar of ouder" ;
+    nif:beginIndex "167" ;
+    nif:endIndex "202" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w31w32> nif:anchorOf "veertien jaar" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "193" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w36w37> nif:anchorOf "een persoonsbewijs" ;
+    nif:beginIndex "209" ;
+    nif:endIndex "227" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w38w39> nif:anchorOf "bij zich" ;
+    nif:beginIndex "228" ;
+    nif:endIndex "236" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w38" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w40> nif:BeginIndex "237" ;
+    nif:anchorOf "hebben" ;
+    nif:endIndex "243" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w42w43> nif:anchorOf "De overval" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "256" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w43" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w45> nif:BeginIndex "262" ;
+    nif:anchorOf "voorbereid" ;
+    nif:endIndex "272" ;
+    nif:lemma "voor_bereiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w5> nif:anchorOf "Landsdrukkerij" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w51> nif:anchorOf "Persoonsbewijzencentrale" ;
+    nif:beginIndex "298" ;
+    nif:endIndex "322" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w53> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "326" ;
+    nif:endIndex "335" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w59w60> nif:anchorOf "Frits Boverhuis" ;
+    nif:beginIndex "352" ;
+    nif:endIndex "367" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w65> nif:anchorOf "Landsdrukkerij" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "395" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w74> nif:BeginIndex "459" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "462" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w78> nif:BeginIndex "479" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "484" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w79w80> nif:anchorOf "Gerhard Badrian" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "500" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w7w8> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w82w83w84w85> nif:anchorOf "Gerrit van der Veen" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "521" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w87w88> nif:anchorOf "Cornelis Verbiest" ;
+    nif:beginIndex "523" ;
+    nif:endIndex "540" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w9> nif:BeginIndex "44" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "48" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w90w91w92> nif:anchorOf "Hans van Gogh" ;
+    nif:beginIndex "542" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w94w95> nif:anchorOf "Frans Meijers" ;
+    nif:beginIndex "559" ;
+    nif:endIndex "572" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w97w98> nif:anchorOf "De verzetsgroep" ;
+    nif:beginIndex "574" ;
+    nif:endIndex "589" ;
+    nif:head "bgnProc:73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w98" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w99> nif:BeginIndex "590" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "594" ;
+    nif:lemma "voor_doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_118t_119t_120t_121t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w119w120w121w122w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_11t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w12w13w14w15> ;
+    xs:date "1944-04-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_191t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w192w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_195t_196t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w196w197w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_202t_203t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w203w204w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_210t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w211w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_23> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_28t_29t_30t_31t_32t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w29w30w31w32w33w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_37t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w38w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_41t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w42w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_9> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w10> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w97w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#t_150t_151t_152> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w151w152w153> ;
+    xs:date "1944-05-01" .
+
+bgn:Person-73 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w108>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w134w135w136w137>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w160w161w162w163>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w172w173w174>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w181>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w184w185>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w191>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w200>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w208>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w210>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w59w60>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w79w80>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w7w8>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w82w83w84w85>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w87w88>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w90w91w92>,
+        <http://data.biographynet.nl/rdf/170506221754/73__Overval_op_de_Landsdrukkerij_in_Den_Haag.naf#w94w95> .
+

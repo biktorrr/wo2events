@@ -1,0 +1,294 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_102t_103t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_54t_55t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_77t_78t_79t_80t_81t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_80t_81t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_9t_10t_11>,
+        bgn:Person-1414 ;
+    ore:proxyFor bgn:Person-1414 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w36> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w81> nif:lemma "bij" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1414__Jan_van_Oudheusden#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1414__Jan_van_Oudheusden .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1414 ;
+    bgn:aggregatedPerson bgn:Person-1414 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1414__Jan_van_Oudheusden ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1414__Jan_van_Oudheusden ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_102t_103t_104> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w103w104w105> ;
+    xs:date "1979-04-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w16w17w18> ;
+    xs:date "1943-02-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w20> ;
+    pb:ArgM-LOC bgn:Person-1414 .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w38> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_23> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_35t_36> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_34>,
+        bgn:Person-1414 .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w65> ;
+    pb:Arg1 bgn:Person-1414 ;
+    pb:Arg2 bgn:Person-1414 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_54t_55t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w77> ;
+    pb:Arg0 bgn:Person-1414 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_77t_78t_79t_80t_81t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w80> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_80t_81t_82t_83t_84t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w98> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_96>,
+        bgn:Person-1414 .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w10w11w12> ;
+    xs:date "1906-01-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w101> nif:anchorOf "Juliana" ;
+    nif:beginIndex "666" ;
+    nif:endIndex "673" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w103w104w105> nif:anchorOf "10 april 1979" ;
+    nif:beginIndex "677" ;
+    nif:endIndex "690" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w108w109w110> nif:anchorOf "Korporaal Van Oudheusdenkazerne" ;
+    nif:beginIndex "705" ;
+    nif:endIndex "736" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w10w11w12> nif:anchorOf "10 januari 1906" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w16w17w18> nif:anchorOf "20 februari 1943" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "102" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w20> nif:BeginIndex "104" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "107" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w22> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "112" ;
+    nif:endIndex "122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w24> nif:anchorOf "die" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "135" ;
+    nif:head "bgnProc:1414__Jan_van_Oudheusden.naf#w24" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w27> nif:anchorOf "Duitse" ;
+    nif:beginIndex "147" ;
+    nif:endIndex "153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w2w3w4w5w6> nif:anchorOf "Johannes Martinus Petrus van Oudheusden" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w30> nif:anchorOf "Nederland" ;
+    nif:beginIndex "163" ;
+    nif:endIndex "172" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w35> nif:anchorOf "1940" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w36w37> nif:anchorOf "als ziekenverzorger" ;
+    nif:beginIndex "197" ;
+    nif:endIndex "216" ;
+    nif:head "bgnProc:1414__Jan_van_Oudheusden.naf#w36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w38> nif:BeginIndex "217" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "223" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w47> nif:anchorOf "Ypenburg" ;
+    nif:beginIndex "283" ;
+    nif:endIndex "291" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w50w51> nif:anchorOf "Koninklijk Besluit" ;
+    nif:beginIndex "298" ;
+    nif:endIndex "316" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w55w56w57> nif:anchorOf "19 juli 1946" ;
+    nif:beginIndex "327" ;
+    nif:endIndex "339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w62w63> nif:anchorOf "Van Oudheusden" ;
+    nif:beginIndex "388" ;
+    nif:endIndex "402" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w65> nif:BeginIndex "411" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "418" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w68w69> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "452" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w73w74w75w76> nif:anchorOf "Het Regiment Geneeskundige Troepen" ;
+    nif:beginIndex "465" ;
+    nif:endIndex "499" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w77> nif:BeginIndex "500" ;
+    nif:anchorOf "houdt" ;
+    nif:endIndex "505" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w78w79w80w81w82w83w84w85w86> nif:anchorOf "haar jaarlijkse herdenking bij het graf van de korporaal" ;
+    nif:beginIndex "506" ;
+    nif:endIndex "562" ;
+    nif:head "bgnProc:1414__Jan_van_Oudheusden.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w8> nif:anchorOf "Tilburg" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w80> nif:BeginIndex "522" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "532" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w81w82w83w84w85w86> nif:anchorOf "bij het graf van de korporaal" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "562" ;
+    nif:head "bgnProc:1414__Jan_van_Oudheusden.naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w90> nif:BeginIndex "579" ;
+    nif:anchorOf "ereveld" ;
+    nif:endIndex "586" ;
+    nif:lemma "ere_veld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w91> nif:anchorOf "Grebbeberg" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "597" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w95> nif:anchorOf "Marine-opleidingskamp" ;
+    nif:beginIndex "614" ;
+    nif:endIndex "635" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w97> nif:anchorOf "Hilversum" ;
+    nif:beginIndex "639" ;
+    nif:endIndex "648" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w98> nif:BeginIndex "649" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "651" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_23> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_34> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w35> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_54t_55t_56> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w55w56w57> ;
+    xs:date "1946-07-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_77t_78t_79t_80t_81t_82t_83t_84t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w78w79w80w81w82w83w84w85w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#t_80t_81t_82t_83t_84t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w81w82w83w84w85w86> .
+
+bgn:Person-1414 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w108w109w110>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w2w3w4w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w62w63>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w68w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w73w74w75w76>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w91>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w95>,
+        <http://data.biographynet.nl/rdf/170506221754/1414__Jan_van_Oudheusden.naf#w97> .
+

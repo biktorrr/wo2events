@@ -1,0 +1,869 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_105t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_117t_118t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_122t_123t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_126t_127t_128t_129t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_156t_157t_158t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_174t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_176t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_186t_187t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_237t_238t_239t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_254t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_264t_265t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_48t_49t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_53t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_77t_78t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_81>,
+        bgn:Person-1773 ;
+    ore:proxyFor bgn:Person-1773 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w106> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w119> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w123> nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w127> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w157> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w172> nif:lemma "voordat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w176> nif:lemma "meer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w177> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w187> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w192> nif:lemma "vergadering" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w211> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w238> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w254> nif:lemma "iets" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w255> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w49> nif:lemma "over" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w55> nif:lemma "niets" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w78> nif:lemma "voor" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1773__Jan_Hendrikx_(verzetsstrijder)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-1773__Jan_Hendrikx_(verzetsstrijder)> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1773 ;
+    bgn:aggregatedPerson bgn:Person-1773 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-1773__Jan_Hendrikx_(verzetsstrijder)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-1773__Jan_Hendrikx_(verzetsstrijder)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w105> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_105t_106t_107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w11w12w13> ;
+    xs:date "1917-02-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w113> ;
+    pb:A0 bgn:Person-1773 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_117t_118t_119t_120> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_126t_127t_128t_129t_130t_131> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_122t_123t_124t_125> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_110t_111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w141> ;
+    pb:Arg1 bgn:Person-1773 .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w145> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w17> ;
+    xs:gYear "1944",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w163> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_161>,
+        bgn:Person-1773 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_156t_157t_158t_159> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w170> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w182> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_172> ;
+    pb:AM-EXT <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_174t_175> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_176t_177t_178> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w184> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_184> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_190t_191> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_186t_187t_188t_189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w207> ;
+    pb:Arg1 bgn:Person-1773 .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_213> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w219> ;
+    pb:Arg0 bgn:Person-1773 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_210t_211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_221> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w222> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w226> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_224> ;
+    pb:AM-LOC bgn:Person-1773 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_228> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w233> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_224> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_237t_238t_239t_240> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_236> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_240> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_243> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w244> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_244> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_256> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w257> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_252t_253> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_254t_255> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_264t_265t_266> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w265w266w267> ;
+    xs:date "1946-05-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_269> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w270> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w28> ;
+    pb:ArgM-TMP bgn:Person-1773 .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_274> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w275> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w276> ;
+    pb:Arg1 bgn:Person-1773 ;
+    pb:Arg2 bgn:Person-1773 ;
+    pb:ArgM-TMP bgn:Person-1773 .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w53> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_53t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w56> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_48t_49t_50t_51> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_53t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w74> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w81> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_81> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_92> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_77t_78t_79> ;
+    pb:AM-PRD bgn:Person-1773 .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w102> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "615" ;
+    nif:endIndex "618" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w102" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w105> nif:BeginIndex "629" ;
+    nif:anchorOf "verkozen" ;
+    nif:endIndex "637" ;
+    nif:lemma "verkiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w106w107w108> nif:anchorOf "tot leider daarvan" ;
+    nif:beginIndex "638" ;
+    nif:endIndex "656" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w111w112> nif:anchorOf "augustus 1943" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "677" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w113> nif:BeginIndex "678" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "684" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w115> nif:anchorOf "Limburgse" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "698" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w118w119w120w121> nif:anchorOf "mede door zijn inzet" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "732" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w11w12w13> nif:anchorOf "2 februari 1917" ;
+    nif:beginIndex "41" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w123w124w125w126> nif:anchorOf "samen met vergelijkbare groeperingen" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "770" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w127w128w129w130w131w132> nif:anchorOf "in andere delen van het land" ;
+    nif:beginIndex "771" ;
+    nif:endIndex "799" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w135w136w137w138> nif:anchorOf "Landelijke Organisatie voor Hulp" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "836" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w140> nif:anchorOf "Onderduikers" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "853" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w141> nif:BeginIndex "854" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "857" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w144> nif:anchorOf "Hendrikx" ;
+    nif:beginIndex "867" ;
+    nif:endIndex "875" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w145> nif:BeginIndex "876" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "881" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w146> nif:anchorOf "ook" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "885" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w146" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w15> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w151> nif:anchorOf "Limburgse" ;
+    nif:beginIndex "903" ;
+    nif:endIndex "912" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w157w158w159w160> nif:anchorOf "Na verloop van tijd" ;
+    nif:beginIndex "944" ;
+    nif:endIndex "963" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w157" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w162> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "969" ;
+    nif:endIndex "972" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w162" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w163> nif:BeginIndex "973" ;
+    nif:anchorOf "gezocht" ;
+    nif:endIndex "980" ;
+    nif:lemma "zoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w166> nif:anchorOf "Sicherheitsdienst" ;
+    nif:beginIndex "989" ;
+    nif:endIndex "1006" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w17> nif:anchorOf "1944/1945" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "79" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w170> nif:BeginIndex "1021" ;
+    nif:anchorOf "onderduiken" ;
+    nif:endIndex "1032" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w172w173w174w175w176w177w178w179w180w181w182> nif:anchorOf "Voordat hij zich wat meer op de achtergrond zou gaan houden" ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1093" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w172" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w173> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1045" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w173" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w174> nif:anchorOf "zich" ;
+    nif:beginIndex "1046" ;
+    nif:endIndex "1050" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w174" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w175w176> nif:anchorOf "wat meer" ;
+    nif:beginIndex "1051" ;
+    nif:endIndex "1059" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w176" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w177w178w179> nif:anchorOf "op de achtergrond" ;
+    nif:beginIndex "1060" ;
+    nif:endIndex "1077" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w177" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w182> nif:BeginIndex "1087" ;
+    nif:anchorOf "houden" ;
+    nif:endIndex "1093" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w184> nif:BeginIndex "1095" ;
+    nif:anchorOf "bezocht" ;
+    nif:endIndex "1102" ;
+    nif:lemma "bezoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w185> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1103" ;
+    nif:endIndex "1106" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w185" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w186> nif:anchorOf "nog" ;
+    nif:beginIndex "1107" ;
+    nif:endIndex "1110" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w186" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w187w188w189w190> nif:anchorOf "voor de laatste keer" ;
+    nif:beginIndex "1111" ;
+    nif:endIndex "1131" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w187" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w19> nif:BeginIndex "81" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "84" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w191w192> nif:anchorOf "een vergadering" ;
+    nif:beginIndex "1132" ;
+    nif:endIndex "1147" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w192" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w198> nif:anchorOf "Limburgse" ;
+    nif:beginIndex "1175" ;
+    nif:endIndex "1184" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w1w2> nif:anchorOf "Jacobus" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w203w204> nif:anchorOf "Sint Louis" ;
+    nif:beginIndex "1220" ;
+    nif:endIndex "1230" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w206> nif:anchorOf "Weert" ;
+    nif:beginIndex "1234" ;
+    nif:endIndex "1239" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w207> nif:BeginIndex "1240" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1243" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w21> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w211w212> nif:anchorOf "In totaal" ;
+    nif:beginIndex "1261" ;
+    nif:endIndex "1270" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w211" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w214> nif:BeginIndex "1278" ;
+    nif:anchorOf "acht" ;
+    nif:endIndex "1282" ;
+    nif:lemma "acht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w218> nif:anchorOf "Sicherheitsdienst" ;
+    nif:beginIndex "1298" ;
+    nif:endIndex "1315" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w219> nif:BeginIndex "1316" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "1324" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w222> nif:anchorOf "Jan" ;
+    nif:beginIndex "1336" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w222w223> nif:anchorOf "Jan Hendrikx" ;
+    nif:beginIndex "1336" ;
+    nif:endIndex "1348" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w225> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1350" ;
+    nif:endIndex "1353" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w225" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w226> nif:BeginIndex "1354" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1358" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w229> nif:BeginIndex "1366" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1382" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w230> nif:anchorOf "Vught" ;
+    nif:beginIndex "1383" ;
+    nif:endIndex "1388" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w231> nif:anchorOf "terecht" ;
+    nif:beginIndex "1389" ;
+    nif:endIndex "1396" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w231" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w233> nif:BeginIndex "1400" ;
+    nif:anchorOf "belandde" ;
+    nif:endIndex "1408" ;
+    nif:lemma "belanden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w234> nif:anchorOf "vervolgens" ;
+    nif:beginIndex "1409" ;
+    nif:endIndex "1419" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w234" ;
+    nif:lemma "vervolgens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w237> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "1430" ;
+    nif:endIndex "1439" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w238w239w240w241> nif:anchorOf "in een ander concentratiekamp" ;
+    nif:beginIndex "1440" ;
+    nif:endIndex "1469" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w241> nif:BeginIndex "1453" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1469" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w244> nif:BeginIndex "1476" ;
+    nif:anchorOf "moet" ;
+    nif:endIndex "1480" ;
+    nif:lemma "moeten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w245> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1481" ;
+    nif:endIndex "1484" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w245" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w246> nif:BeginIndex "1485" ;
+    nif:anchorOf "zijn" ;
+    nif:beginIndex "1485" ;
+    nif:endIndex "1489" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w246" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w252> nif:anchorOf "nooit" ;
+    nif:beginIndex "1514" ;
+    nif:endIndex "1519" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w252" ;
+    nif:lemma "nooit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w253w254> nif:anchorOf "meer iets" ;
+    nif:beginIndex "1520" ;
+    nif:endIndex "1529" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w254" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w255w256> nif:anchorOf "van hem" ;
+    nif:beginIndex "1530" ;
+    nif:endIndex "1537" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w255" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w257> nif:BeginIndex "1538" ;
+    nif:anchorOf "vernomen" ;
+    nif:endIndex "1546" ;
+    nif:lemma "vernemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w260w261> nif:anchorOf "Koninklijk Besluit" ;
+    nif:beginIndex "1553" ;
+    nif:endIndex "1571" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w265w266w267> nif:anchorOf "7 mei 1946" ;
+    nif:beginIndex "1583" ;
+    nif:endIndex "1593" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "129" ;
+    nif:endIndex "148" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w270> nif:anchorOf "Jan" ;
+    nif:beginIndex "1603" ;
+    nif:endIndex "1606" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w270w271> nif:anchorOf "Jan Hendrikx" ;
+    nif:beginIndex "1603" ;
+    nif:endIndex "1615" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w274> nif:anchorOf "Verzetskruis" ;
+    nif:beginIndex "1628" ;
+    nif:endIndex "1640" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w275> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "1641" ;
+    nif:endIndex "1650" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w276> nif:BeginIndex "1651" ;
+    nif:anchorOf "toegekend" ;
+    nif:endIndex "1660" ;
+    nif:lemma "toe_kennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w28> nif:BeginIndex "149" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "152" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w34w35w36w37> nif:anchorOf "Landelijke Organisatie voor Hulp" ;
+    nif:beginIndex "183" ;
+    nif:endIndex "215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w4> nif:anchorOf "Jan" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w42> nif:BeginIndex "238" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "241" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w47> nif:anchorOf "Ambrosius" ;
+    nif:beginIndex "269" ;
+    nif:endIndex "278" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w49w50w51w52> nif:anchorOf "Over de herkomst hiervan" ;
+    nif:beginIndex "280" ;
+    nif:endIndex "304" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w53> nif:BeginIndex "305" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "307" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w54w55> nif:anchorOf "vrijwel niets" ;
+    nif:beginIndex "308" ;
+    nif:endIndex "321" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w55" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w56> nif:BeginIndex "322" ;
+    nif:anchorOf "bekend" ;
+    nif:endIndex "328" ;
+    nif:lemma "bekennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w6> nif:anchorOf "Hendrikx" ;
+    nif:beginIndex "23" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w65> nif:anchorOf "Britse" ;
+    nif:beginIndex "383" ;
+    nif:endIndex "389" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w67w68> nif:anchorOf "Ambrosius Aurelianus" ;
+    nif:beginIndex "397" ;
+    nif:endIndex "417" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w72> nif:anchorOf "dagelijks" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "436" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w74> nif:BeginIndex "443" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "446" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w75> nif:anchorOf "Hendrikx" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "455" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w78w79w80> nif:anchorOf "Voor het verzet" ;
+    nif:beginIndex "469" ;
+    nif:endIndex "484" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w78" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w81> nif:BeginIndex "485" ;
+    nif:anchorOf "zette" ;
+    nif:endIndex "490" ;
+    nif:lemma "op_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w82> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "491" ;
+    nif:endIndex "494" ;
+    nif:head "bgnProc:1773__Jan_Hendrikx_(verzetsstrijder).naf#w82" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w86w87> nif:anchorOf "Jac Naus" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "522" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w9> nif:anchorOf "Venlo" ;
+    nif:beginIndex "34" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w90w91> nif:anchorOf "Venlose Sint-Martinusparochie" ;
+    nif:beginIndex "530" ;
+    nif:endIndex "559" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w93> nif:anchorOf "Limburgs" ;
+    nif:beginIndex "564" ;
+    nif:endIndex "572" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_105t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w106w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_110t_111> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w111w112> ;
+    xs:gYearMonth "1943-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_117t_118t_119t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w118w119w120w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_122t_123t_124t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w123w124w125w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_126t_127t_128t_129t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w127w128w129w130w131w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_156t_157t_158t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w157w158w159w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w172w173w174w175w176w177w178w179w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_174t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w175w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_176t_177t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w177w178w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_186t_187t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w187w188w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_210t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w211w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_230> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w231> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_237t_238t_239t_240> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w238w239w240w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_244> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_245> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_252t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w253w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_254t_255> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w255w256> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_48t_49t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w49w50w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_71> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w72> ;
+    xs:date "XXXX-XX-XX" .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_77t_78t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w78w79w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#t_53t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w54w55> .
+
+bgn:Person-1773 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w135w136w137w138>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w203w204>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w206>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w218>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w230>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w260w261>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w270w271>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w274>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w34w35w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w67w68>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w86w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w90w91>,
+        <http://data.biographynet.nl/rdf/170506221754/1773__Jan_Hendrikx_(verzetsstrijder).naf#w93> ;
+    xs:gYearMonth "2017-01" .
+

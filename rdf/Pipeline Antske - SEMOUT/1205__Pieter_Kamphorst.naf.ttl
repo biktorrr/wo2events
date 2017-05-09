@@ -1,0 +1,258 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_34t_35t_36t_37t_38t_39t_40t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_60t_61t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_73>,
+        bgn:Person-1205 ;
+    ore:proxyFor bgn:Person-1205 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w35> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w61> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1205__Pieter_Kamphorst#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1205__Pieter_Kamphorst .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1205 ;
+    bgn:aggregatedPerson bgn:Person-1205 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1205__Pieter_Kamphorst ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1205__Pieter_Kamphorst ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w16> ;
+    pb:A0 bgn:Person-1205 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_25> ;
+    pb:AM-TMP bgn:Person-1205 .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w46> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_44> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_34t_35t_36t_37t_38t_39t_40t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w64> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_57> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_60t_61t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w73> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_71> ;
+    pb:Arg1 bgn:Person-1205 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w10> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "55" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w16> nif:BeginIndex "75" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "81" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w19w20> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "93" ;
+    nif:endIndex "112" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w1w2> nif:anchorOf "Kamphorst" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w22w23w24> nif:anchorOf "Special Operations Executive" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w26> nif:anchorOf "Engeland" ;
+    nif:beginIndex "150" ;
+    nif:endIndex "158" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w28> nif:anchorOf "Kamphorst" ;
+    nif:beginIndex "161" ;
+    nif:endIndex "170" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w29> nif:BeginIndex "171" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "174" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w32w33> nif:anchorOf "Plan Holland" ;
+    nif:beginIndex "189" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w35w36w37w38w39w40w41w42w43> nif:anchorOf "In de nacht van 21 op 22 oktober 1942" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "240" ;
+    nif:head "bgnProc:1205__Pieter_Kamphorst.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w4> nif:anchorOf "Ermelo" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w45> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "249" ;
+    nif:head "bgnProc:1205__Pieter_Kamphorst.naf#w45" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w46> nif:BeginIndex "250" ;
+    nif:anchorOf "geparachuteerd" ;
+    nif:endIndex "264" ;
+    nif:lemma "geparachuteerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w51> nif:anchorOf "Voorthuizen" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "292" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w58> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "323" ;
+    nif:endIndex "326" ;
+    nif:head "bgnProc:1205__Pieter_Kamphorst.naf#w58" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w60> nif:anchorOf "meteen" ;
+    nif:beginIndex "332" ;
+    nif:endIndex "338" ;
+    nif:head "bgnProc:1205__Pieter_Kamphorst.naf#w60" ;
+    nif:lemma "meteen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w61w62w63> nif:anchorOf "na zijn landing" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:1205__Pieter_Kamphorst.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w64> nif:BeginIndex "355" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "367" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w66> nif:BeginIndex "371" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "374" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w70> nif:anchorOf "Englandspiel" ;
+    nif:beginIndex "395" ;
+    nif:endIndex "407" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w72> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "410" ;
+    nif:endIndex "413" ;
+    nif:head "bgnProc:1205__Pieter_Kamphorst.naf#w72" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w73> nif:BeginIndex "414" ;
+    nif:anchorOf "gebruikte" ;
+    nif:endIndex "423" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w74> nif:anchorOf "ook" ;
+    nif:beginIndex "424" ;
+    nif:endIndex "427" ;
+    nif:head "bgnProc:1205__Pieter_Kamphorst.naf#w74" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w77w78> nif:anchorOf "Peter Kampenhorst" ;
+    nif:beginIndex "437" ;
+    nif:endIndex "454" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w80w81> nif:anchorOf "Pieter Kerkhof" ;
+    nif:beginIndex "456" ;
+    nif:endIndex "470" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w83w84w85> nif:anchorOf "Pieter van Putten" ;
+    nif:beginIndex "474" ;
+    nif:endIndex "491" .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_34t_35t_36t_37t_38t_39t_40t_41t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w35w36w37w38w39w40w41w42w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_60t_61t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w61w62w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w74> .
+
+bgn:Person-1205 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w19w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w22w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w70>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w80w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1205__Pieter_Kamphorst.naf#w83w84w85> .
+

@@ -1,0 +1,931 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_124t_125t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_129t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_134t_135t_136t_137t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_168t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_172t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_209t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_215t_216t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_327>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_332>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_334>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_340>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_341t_342>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_346>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_44t_45t_46t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_4t_5t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_52t_53t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_95t_96t_97t_98t_99t_100t_101t_102t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_96t_97t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_98>,
+        bgn:Person-218 ;
+    ore:proxyFor bgn:Person-218 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w125> nif:lemma "veel" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w130> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w135> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w169> nif:lemma "min" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w173> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w216> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w47> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w53> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w59> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w97> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-218__Willem_Hendrik_Dingeldein#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-218__Willem_Hendrik_Dingeldein .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-218 ;
+    bgn:aggregatedPerson bgn:Person-218 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-218__Willem_Hendrik_Dingeldein ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-218__Willem_Hendrik_Dingeldein ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w104> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_88> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_101> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w107> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_120> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_122> ;
+    pb:ArgM-MNR bgn:Person-218 .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_12> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w13> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w129> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_127> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w133> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_123> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_124t_125t_126t_127t_128> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_129t_130t_131> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w142> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_142> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_134t_135t_136t_137t_138t_139t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w149> ;
+    pb:A1 bgn:Person-218 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_153> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w165> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_160> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_161> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_162> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_176> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w177> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_160> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_172t_173t_174> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_168t_169t_170> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_171> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_167> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w205> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_202> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w215> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_209t_210> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_212> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_215t_216t_217> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_229> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w230> ;
+    xs:gYear "1988" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_246> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w247> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_248> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w249> ;
+    pb:Arg1 bgn:Person-218 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_249> ;
+    pb:ArgM-LOC bgn:Person-218 .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_272> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w273> ;
+    pb:Arg0 bgn:Person-218 .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_276> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w277> ;
+    pb:A1 bgn:Person-218 ;
+    pb:A2 bgn:Person-218 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_267> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w29> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_24> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_25> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_284> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_298> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w299> ;
+    xs:gYear "1923" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_315> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w316> ;
+    xs:gYear "1947" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_327> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w328> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_332> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w333> ;
+    xs:period "PAST_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_334> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w335> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_340> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w341> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_341t_342> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w342w343> ;
+    xs:period "P8CE" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_346> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w347> ;
+    xs:gYear "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_4t_5t_6> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w5w6w7> ;
+    xs:date "1894-08-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w56> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_44t_45t_46t_47> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_52t_53t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w61> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_57> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w9w10w11> ;
+    xs:date "1953-01-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w95> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_95t_96t_97t_98t_99t_100t_101t_102t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w96> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_88> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_96t_97t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w102> nif:anchorOf "toch" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "591" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w102" ;
+    nif:lemma "toch" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w103> nif:anchorOf "populair" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "600" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w103" ;
+    nif:lemma "populair" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w104> nif:BeginIndex "601" ;
+    nif:anchorOf "geschreven" ;
+    nif:endIndex "611" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w106> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "613" ;
+    nif:endIndex "616" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w106" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w107> nif:BeginIndex "617" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "623" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w111w112w113w114> nif:anchorOf "J. J. van Deinse" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "668" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w116w117> nif:anchorOf "Albert Meyling" ;
+    nif:beginIndex "672" ;
+    nif:endIndex "686" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w121> nif:anchorOf "Twente" ;
+    nif:beginIndex "711" ;
+    nif:endIndex "717" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w123> nif:anchorOf "waarbij" ;
+    nif:beginIndex "719" ;
+    nif:endIndex "726" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w123" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w124> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "730" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w124" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w125w126w127w128w129> nif:anchorOf "veel van wat hij zag" ;
+    nif:beginIndex "731" ;
+    nif:endIndex "751" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w127> nif:anchorOf "wat" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "743" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w127" ;
+    nif:lemma "wat" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w128> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "744" ;
+    nif:endIndex "747" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w128" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w129> nif:BeginIndex "748" ;
+    nif:anchorOf "zag" ;
+    nif:endIndex "751" ;
+    nif:lemma "zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w13> nif:BeginIndex "62" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "65" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w130w131w132> nif:anchorOf "op de foto" ;
+    nif:beginIndex "752" ;
+    nif:endIndex "762" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w130" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w133> nif:BeginIndex "763" ;
+    nif:anchorOf "vastlegde" ;
+    nif:endIndex "772" ;
+    nif:lemma "vast_leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w135w136w137w138w139w140w141> nif:anchorOf "Als bestuurslid van een groot aantal verenigingen" ;
+    nif:beginIndex "774" ;
+    nif:endIndex "823" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w142> nif:BeginIndex "824" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "827" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w143> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "828" ;
+    nif:endIndex "831" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w143" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w148> nif:anchorOf "Dingeldein" ;
+    nif:beginIndex "856" ;
+    nif:endIndex "866" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w149> nif:BeginIndex "867" ;
+    nif:anchorOf "liet" ;
+    nif:endIndex "871" ;
+    nif:lemma "na_laten" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w154> nif:anchorOf "1953" ;
+    nif:beginIndex "888" ;
+    nif:endIndex "892" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w157> nif:anchorOf "Denekamper" ;
+    nif:beginIndex "908" ;
+    nif:endIndex "918" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w161> nif:anchorOf "dat" ;
+    nif:beginIndex "931" ;
+    nif:endIndex "934" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w161" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w162> nif:anchorOf "echter" ;
+    nif:beginIndex "935" ;
+    nif:endIndex "941" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w162" ;
+    nif:lemma "echter" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w163> nif:anchorOf "niet" ;
+    nif:beginIndex "942" ;
+    nif:endIndex "946" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w163" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w165> nif:BeginIndex "952" ;
+    nif:anchorOf "gepubliceerd" ;
+    nif:endIndex "964" ;
+    nif:lemma "publiceren" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w168> nif:anchorOf "2009" ;
+    nif:beginIndex "972" ;
+    nif:endIndex "976" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w169w170w171> nif:anchorOf "min of meer" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "988" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w169" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w172> nif:anchorOf "onopgemerkt" ;
+    nif:beginIndex "989" ;
+    nif:endIndex "1000" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w172" ;
+    nif:lemma "onopgemerkt" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w173w174w175> nif:anchorOf "in een archief" ;
+    nif:beginIndex "1001" ;
+    nif:endIndex "1015" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w177> nif:BeginIndex "1022" ;
+    nif:anchorOf "liggen" ;
+    nif:endIndex "1028" ;
+    nif:lemma "liggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w190> nif:anchorOf "Denekamp" ;
+    nif:beginIndex "1101" ;
+    nif:endIndex "1109" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w1w2w3> nif:anchorOf "Hendrik Dingeldein" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w20> nif:anchorOf "Denekamp" ;
+    nif:beginIndex "110" ;
+    nif:endIndex "118" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w203> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1188" ;
+    nif:endIndex "1190" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w203" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w205> nif:BeginIndex "1194" ;
+    nif:anchorOf "voorkomen" ;
+    nif:endIndex "1203" ;
+    nif:lemma "voor_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w207> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1207" ;
+    nif:endIndex "1218" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w210w211> nif:anchorOf "Dit levenswerk" ;
+    nif:beginIndex "1232" ;
+    nif:endIndex "1246" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w211" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w211> nif:BeginIndex "1236" ;
+    nif:anchorOf "levenswerk" ;
+    nif:endIndex "1246" ;
+    nif:lemma "leven_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w213> nif:anchorOf "zelfs" ;
+    nif:beginIndex "1253" ;
+    nif:endIndex "1258" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w213" ;
+    nif:lemma "zelfs" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w214> nif:anchorOf "niet" ;
+    nif:beginIndex "1259" ;
+    nif:endIndex "1263" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w214" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w215> nif:BeginIndex "1264" ;
+    nif:anchorOf "genoemd" ;
+    nif:endIndex "1271" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w216w217w218> nif:anchorOf "in het boek" ;
+    nif:beginIndex "1272" ;
+    nif:endIndex "1283" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w216" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w220w221w222w223> nif:anchorOf "Uit leven en werk" ;
+    nif:beginIndex "1285" ;
+    nif:endIndex "1302" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w225> nif:anchorOf "W.H" ;
+    nif:beginIndex "1307" ;
+    nif:endIndex "1310" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w227> nif:anchorOf "Dingeldein" ;
+    nif:beginIndex "1312" ;
+    nif:endIndex "1322" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w22w23> nif:anchorOf "Willem Dingeldein" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "138" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w230> nif:anchorOf "1988" ;
+    nif:beginIndex "1325" ;
+    nif:endIndex "1329" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w237> nif:anchorOf "Dingeldein" ;
+    nif:beginIndex "1350" ;
+    nif:endIndex "1360" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w243w244> nif:anchorOf "Hendrik Entjes" ;
+    nif:beginIndex "1386" ;
+    nif:endIndex "1400" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w247> nif:BeginIndex "1407" ;
+    nif:anchorOf "uitputtende" ;
+    nif:endIndex "1418" ;
+    nif:lemma "uit_putten" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w249> nif:BeginIndex "1432" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "1437" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w25> nif:anchorOf "die" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "143" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w25" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w250> nif:anchorOf "wel" ;
+    nif:beginIndex "1438" ;
+    nif:endIndex "1441" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w250" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w256> nif:anchorOf "Denekamper" ;
+    nif:beginIndex "1478" ;
+    nif:endIndex "1488" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w26> nif:anchorOf "zich" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "148" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w26" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w268> nif:anchorOf "2009" ;
+    nif:beginIndex "1545" ;
+    nif:endIndex "1549" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w272> nif:anchorOf "Dingeldein" ;
+    nif:beginIndex "1565" ;
+    nif:endIndex "1575" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w273> nif:BeginIndex "1576" ;
+    nif:anchorOf "opgetekende" ;
+    nif:endIndex "1587" ;
+    nif:lemma "opgetekend" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w277> nif:BeginIndex "1613" ;
+    nif:anchorOf "opgenomen" ;
+    nif:endIndex "1622" ;
+    nif:lemma "op_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w284w285> nif:anchorOf "Dialexicon Twents" ;
+    nif:beginIndex "1653" ;
+    nif:endIndex "1670" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w285> nif:BeginIndex "1664" ;
+    nif:anchorOf "Twents" ;
+    nif:endIndex "1670" ;
+    nif:lemma "Twents" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w29> nif:BeginIndex "164" ;
+    nif:anchorOf "ontwikkelde" ;
+    nif:endIndex "175" ;
+    nif:lemma "ontwikkelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w295> nif:anchorOf "Denekamp" ;
+    nif:beginIndex "1719" ;
+    nif:endIndex "1727" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w299> nif:anchorOf "1923" ;
+    nif:beginIndex "1742" ;
+    nif:endIndex "1746" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w302w303> nif:anchorOf "Losse Hoes" ;
+    nif:beginIndex "1753" ;
+    nif:endIndex "1763" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w305w306> nif:anchorOf "Groot Bavel" ;
+    nif:beginIndex "1765" ;
+    nif:endIndex "1776" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w313> nif:anchorOf "Twentsch" ;
+    nif:beginIndex "1806" ;
+    nif:endIndex "1814" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w316> nif:anchorOf "1947" ;
+    nif:beginIndex "1820" ;
+    nif:endIndex "1824" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w321> nif:anchorOf "Dinkel" ;
+    nif:beginIndex "1842" ;
+    nif:endIndex "1848" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w326> nif:anchorOf "Noordoost-Twente" ;
+    nif:beginIndex "1869" ;
+    nif:endIndex "1885" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w328> nif:anchorOf "1948" ;
+    nif:beginIndex "1887" ;
+    nif:endIndex "1891" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w329> nif:anchorOf "Singraven" ;
+    nif:beginIndex "1893" ;
+    nif:endIndex "1902" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w333> nif:anchorOf "verleden" ;
+    nif:beginIndex "1916" ;
+    nif:endIndex "1924" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w335> nif:anchorOf "heden" ;
+    nif:beginIndex "1928" ;
+    nif:endIndex "1933" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w338> nif:anchorOf "Twentsche" ;
+    nif:beginIndex "1942" ;
+    nif:endIndex "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w341> nif:anchorOf "1948" ;
+    nif:beginIndex "1962" ;
+    nif:endIndex "1966" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w342w343> nif:anchorOf "Acht eeuwen" ;
+    nif:beginIndex "1968" ;
+    nif:endIndex "1979" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w344w345> nif:anchorOf "Stift Weerselo" ;
+    nif:beginIndex "1980" ;
+    nif:endIndex "1994" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w347> nif:anchorOf "1951" ;
+    nif:beginIndex "1996" ;
+    nif:endIndex "2000" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w35> nif:anchorOf "Twentse" ;
+    nif:beginIndex "200" ;
+    nif:endIndex "207" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w362w363w364w365w366w367> nif:anchorOf "Verslagen en mededeelingen van de Vereeniging" ;
+    nif:beginIndex "2085" ;
+    nif:endIndex "2130" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w371> nif:anchorOf "Overijssels" ;
+    nif:beginIndex "2150" ;
+    nif:endIndex "2161" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w372> nif:anchorOf "Regt" ;
+    nif:beginIndex "2162" ;
+    nif:endIndex "2166" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w374> nif:anchorOf "Geschiedenis" ;
+    nif:beginIndex "2170" ;
+    nif:endIndex "2182" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w45w46w47w48> nif:anchorOf "een groot aantal publicaties" ;
+    nif:beginIndex "267" ;
+    nif:endIndex "295" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w52> nif:anchorOf "Twente" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w53w54w55> nif:anchorOf "op zijn naam" ;
+    nif:beginIndex "320" ;
+    nif:endIndex "332" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w53" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w56> nif:BeginIndex "333" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "338" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w58> nif:anchorOf "die" ;
+    nif:beginIndex "340" ;
+    nif:endIndex "343" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w58" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w59w60> nif:anchorOf "onder meer" ;
+    nif:beginIndex "344" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w5w6w7> nif:anchorOf "18 augustus 1894" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w61> nif:BeginIndex "355" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "359" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w66> nif:anchorOf "Denekamp" ;
+    nif:beginIndex "385" ;
+    nif:endIndex "393" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w69> nif:anchorOf "Oldenzaal" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "410" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w72> nif:anchorOf "Singraven" ;
+    nif:beginIndex "417" ;
+    nif:endIndex "426" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w75> nif:anchorOf "Springendal" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "443" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w89> nif:anchorOf "Dinkel" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "516" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w93> nif:BeginIndex "531" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "533" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w95> nif:BeginIndex "535" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "540" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w96> nif:BeginIndex "541" ;
+    nif:anchorOf "gebaseerd" ;
+    nif:endIndex "550" ;
+    nif:lemma "baseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w96w97w98w99w100w101w102w103w104> nif:anchorOf "gebaseerd op wetenschappelijk onderzoek maar toch populair geschreven" ;
+    nif:beginIndex "541" ;
+    nif:endIndex "611" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w97w98w99> nif:anchorOf "op wetenschappelijk onderzoek" ;
+    nif:beginIndex "551" ;
+    nif:endIndex "580" ;
+    nif:head "bgnProc:218__Willem_Hendrik_Dingeldein.naf#w97" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w99> nif:BeginIndex "571" ;
+    nif:anchorOf "onderzoek" ;
+    nif:endIndex "580" ;
+    nif:lemma "onderzoek" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w9w10w11> nif:anchorOf "8 januari 1953" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "60" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_124t_125t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w125w126w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_129t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w130w131w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_134t_135t_136t_137t_138t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w135w136w137w138w139w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_153> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w154> ;
+    xs:gYear "1953" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_167> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w168> ;
+    xs:gYear "2009" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_168t_169t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w169w170w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_172t_173t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w173w174w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_209t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w210w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_215t_216t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w216w217w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_249> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_267> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w268> ;
+    xs:gYear "2009" .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_44t_45t_46t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w45w46w47w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_52t_53t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w53w54w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_95t_96t_97t_98t_99t_100t_101t_102t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w96w97w98w99w100w101w102w103w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_96t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w97w98w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w161> .
+
+bgn:Person-218 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w111w112w113w114>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w121>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w148>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w157>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w207>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w220w221w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w225>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w243w244>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w256>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w284w285>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w295>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w302w303>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w305w306>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w313>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w321>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w326>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w329>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w338>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w344w345>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w362w363w364w365w366w367>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w371>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w372>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w374>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/218__Willem_Hendrik_Dingeldein.naf#w89> .
+

@@ -1,0 +1,779 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_107t_108t_109t_110t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_121t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_157t_158t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_18t_19t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_213t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_239t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_253t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_9t_10t_11>,
+        bgn:Person-1602 ;
+    ore:proxyFor bgn:Person-1602 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w105> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w110> nif:lemma "rol" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w127> nif:lemma "verzet_groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w158> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w214> nif:lemma "vanaf" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1602__Gerard_Boekhoven#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1602__Gerard_Boekhoven .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1602 ;
+    bgn:aggregatedPerson bgn:Person-1602 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1602__Gerard_Boekhoven ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1602__Gerard_Boekhoven ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w104> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_102> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_107t_108t_109t_110t_111t_112> ;
+    pb:Arg2 bgn:Person-1602 ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_104t_105t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_121t_122t_123> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w122w123w124> ;
+    xs:date "1945-01-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w132> ;
+    pb:Arg0 bgn:Person-1602 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_125t_126> ;
+    pb:ArgM-TMP bgn:Person-1602 .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w134> ;
+    pb:Arg1 bgn:Person-1602 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_138> ;
+    pb:ArgM-TMP bgn:Person-1602 .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w142> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_140> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_147> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w148> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_149> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w150> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w161> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_161> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_157t_158t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_167> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w168> ;
+    xs:gYear "1975" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w175> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_175> ;
+    pb:ArgM-ADV bgn:Person-1602 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_182> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w183> ;
+    xs:gYear "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_184> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w185> ;
+    xs:gYear "1952" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_187> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w188> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_18t_19t_20> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w19w20w21> ;
+    xs:date "2002-03-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_192> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w193> ;
+    xs:gYear "1959" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w196> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w212> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_213t_214t_215t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w223> ;
+    pb:Arg1 bgn:Person-1602 .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_239t_240t_241> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w240w241w242> ;
+    xs:date "1965-04-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w245> ;
+    pb:ArgM-PNC bgn:Person-1602 .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_251> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w252> ;
+    xs:gYear "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_253t_254> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w254w255> ;
+    xs:gYearMonth "1982-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w29> ;
+    pb:ArgM-CAU bgn:Person-1602 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_37> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_32> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w33> ;
+    xs:gYear "1952" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_35> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w36> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w54> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w58> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_58> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_59>,
+        bgn:Person-1602 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w88> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w97> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w10w11w12> ;
+    xs:date "1909-11-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w1> nif:anchorOf "Gerardus" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "8" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w103> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "549" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w103" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w104> nif:BeginIndex "550" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "557" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w105w106w107> nif:anchorOf "in de oorlogsjaren" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "576" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w108w109w110w111w112w113> nif:anchorOf "een belangrijke rol in het verzet" ;
+    nif:beginIndex "577" ;
+    nif:endIndex "610" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w110" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w10w11w12> nif:anchorOf "30 november 1909" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "60" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w119> nif:anchorOf "Groningen" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "637" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w122w123w124> nif:anchorOf "12 januari 1945" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "657" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w126w127> nif:anchorOf "de verzetsgroep" ;
+    nif:beginIndex "663" ;
+    nif:endIndex "678" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w130> nif:anchorOf "Duitse" ;
+    nif:beginIndex "687" ;
+    nif:endIndex "693" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w132> nif:BeginIndex "703" ;
+    nif:anchorOf "opgerold" ;
+    nif:endIndex "711" ;
+    nif:lemma "op_rollen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w134> nif:BeginIndex "715" ;
+    nif:anchorOf "belandde" ;
+    nif:endIndex "723" ;
+    nif:lemma "belanden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w135> nif:anchorOf "Boekhoven" ;
+    nif:beginIndex "724" ;
+    nif:endIndex "733" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w138> nif:BeginIndex "741" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "757" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w139> nif:anchorOf "Neuengamme" ;
+    nif:beginIndex "758" ;
+    nif:endIndex "768" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w14> nif:anchorOf "Haren" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w141> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "771" ;
+    nif:endIndex "774" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w141" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w142> nif:BeginIndex "775" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "778" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w145w146> nif:anchorOf "Nieuwe Pekela" ;
+    nif:beginIndex "796" ;
+    nif:endIndex "809" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w148> nif:anchorOf "1945" ;
+    nif:beginIndex "814" ;
+    nif:endIndex "818" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w150> nif:anchorOf "1958" ;
+    nif:beginIndex "823" ;
+    nif:endIndex "827" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w154> nif:anchorOf "Hoogezand-Sappemeer" ;
+    nif:beginIndex "846" ;
+    nif:endIndex "865" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w156> nif:anchorOf "1974" ;
+    nif:beginIndex "870" ;
+    nif:endIndex "874" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w158w159w160> nif:anchorOf "Na zijn pensionering" ;
+    nif:beginIndex "876" ;
+    nif:endIndex "896" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w16> nif:anchorOf "Groningen" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "79" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w161> nif:BeginIndex "897" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "900" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w162> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "901" ;
+    nif:endIndex "904" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w162" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w163> nif:BeginIndex "905" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "915" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w166> nif:anchorOf "Appingedam" ;
+    nif:beginIndex "933" ;
+    nif:endIndex "943" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w168> nif:anchorOf "1975" ;
+    nif:beginIndex "948" ;
+    nif:endIndex "952" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w170> nif:anchorOf "1977" ;
+    nif:beginIndex "957" ;
+    nif:endIndex "961" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w174> nif:anchorOf "PvdA" ;
+    nif:beginIndex "973" ;
+    nif:endIndex "977" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w175> nif:BeginIndex "978" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "981" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w176> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "982" ;
+    nif:endIndex "985" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w176" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w180w181> nif:anchorOf "Tweede Kamer" ;
+    nif:beginIndex "997" ;
+    nif:endIndex "1009" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w183> nif:anchorOf "1951" ;
+    nif:beginIndex "1014" ;
+    nif:endIndex "1018" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w185> nif:anchorOf "1952" ;
+    nif:beginIndex "1023" ;
+    nif:endIndex "1027" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w188> nif:anchorOf "1956" ;
+    nif:beginIndex "1035" ;
+    nif:endIndex "1039" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w190> nif:anchorOf "1959" ;
+    nif:beginIndex "1044" ;
+    nif:endIndex "1048" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w193> nif:anchorOf "1959" ;
+    nif:beginIndex "1054" ;
+    nif:endIndex "1058" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w195> nif:anchorOf "1970" ;
+    nif:beginIndex "1063" ;
+    nif:endIndex "1067" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w196> nif:BeginIndex "1068" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1071" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w19w20w21> nif:anchorOf "25 maart 2002" ;
+    nif:beginIndex "82" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w201w202> nif:anchorOf "Provinciale Staten" ;
+    nif:beginIndex "1087" ;
+    nif:endIndex "1105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w206> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1123" ;
+    nif:endIndex "1132" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w210w211> nif:anchorOf "Rudi Boekhoven" ;
+    nif:beginIndex "1145" ;
+    nif:endIndex "1159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w212> nif:BeginIndex "1160" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1163" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w213> nif:anchorOf "al" ;
+    nif:beginIndex "1164" ;
+    nif:endIndex "1166" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w213" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w214w215w216w217> nif:anchorOf "vanaf zijn 29e burgemeester" ;
+    nif:beginIndex "1167" ;
+    nif:endIndex "1194" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w214" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w221w222> nif:anchorOf "Hans Boekhoven" ;
+    nif:beginIndex "1207" ;
+    nif:endIndex "1221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w223> nif:BeginIndex "1222" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1224" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w23> nif:BeginIndex "97" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "100" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w232w233w234w235> nif:anchorOf "Orde van Oranje Nassau" ;
+    nif:beginIndex "1274" ;
+    nif:endIndex "1296" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w237> nif:anchorOf "ON.4" ;
+    nif:beginIndex "1298" ;
+    nif:endIndex "1302" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w240w241w242> nif:anchorOf "29 april 1965" ;
+    nif:beginIndex "1306" ;
+    nif:endIndex "1319" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w245> nif:BeginIndex "1350" ;
+    nif:anchorOf "gespen" ;
+    nif:endIndex "1356" ;
+    nif:lemma "gespen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w248w249> nif:anchorOf "Bijzondere Verdiensten" ;
+    nif:beginIndex "1363" ;
+    nif:endIndex "1385" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w25> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "105" ;
+    nif:endIndex "115" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w252> nif:anchorOf "1949" ;
+    nif:beginIndex "1390" ;
+    nif:endIndex "1394" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w254w255> nif:anchorOf "maart 1982" ;
+    nif:beginIndex "1422" ;
+    nif:endIndex "1432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w263w264w265> nif:anchorOf "Orde van Verdienste" ;
+    nif:beginIndex "1471" ;
+    nif:endIndex "1490" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w268w269w270> nif:anchorOf "Bondsrepubliek Duitsland Ereburger" ;
+    nif:beginIndex "1498" ;
+    nif:endIndex "1533" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w272> nif:anchorOf "Hoogezand-Sappemeer" ;
+    nif:beginIndex "1538" ;
+    nif:endIndex "1557" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w29> nif:BeginIndex "131" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "134" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w3> nif:anchorOf "Gerard" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w31> nif:anchorOf "1951" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "143" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w33> nif:anchorOf "1952" ;
+    nif:beginIndex "148" ;
+    nif:endIndex "152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w36> nif:anchorOf "1956" ;
+    nif:beginIndex "160" ;
+    nif:endIndex "164" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w38> nif:anchorOf "1959" ;
+    nif:beginIndex "169" ;
+    nif:endIndex "173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w41w42w43w44> nif:anchorOf "Partij van de Arbeid" ;
+    nif:beginIndex "184" ;
+    nif:endIndex "204" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w48w49w50w51> nif:anchorOf "Tweede Kamer der Staten-Generaal" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "248" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w5> nif:anchorOf "Boekhoven" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w53> nif:anchorOf "Tevens" ;
+    nif:beginIndex "250" ;
+    nif:endIndex "256" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w53" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w54> nif:BeginIndex "257" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "260" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w58> nif:BeginIndex "281" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "287" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w59> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "288" ;
+    nif:endIndex "291" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w59" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w60> nif:anchorOf "deel" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "296" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w60" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w64w65> nif:anchorOf "Provinciale Staten" ;
+    nif:beginIndex "308" ;
+    nif:endIndex "326" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w67> nif:anchorOf "Groningen" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "340" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w69> nif:anchorOf "Boekhoven" ;
+    nif:beginIndex "343" ;
+    nif:endIndex "352" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w70> nif:BeginIndex "353" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "356" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w74w75> nif:anchorOf "Gerardus Boekhoven" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "388" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w77w78w79> nif:anchorOf "Johanna Frederika Nanninga" ;
+    nif:beginIndex "392" ;
+    nif:endIndex "418" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w8> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w84w85> nif:anchorOf "Gerrit Boekhoven" ;
+    nif:beginIndex "436" ;
+    nif:endIndex "452" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w87> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "454" ;
+    nif:endIndex "457" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w87" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w88> nif:BeginIndex "458" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "461" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w91w92> nif:anchorOf "Johanna Keizer" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "487" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w94> nif:anchorOf "Groningen" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "501" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w97> nif:BeginIndex "507" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "510" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w98> nif:anchorOf "aanvankelijk" ;
+    nif:beginIndex "511" ;
+    nif:endIndex "523" ;
+    nif:head "bgnProc:1602__Gerard_Boekhoven.naf#w98" ;
+    nif:lemma "aanvankelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w105w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_107t_108t_109t_110t_111t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w108w109w110w111w112w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_155> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w156> ;
+    xs:gYear "1974" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_157t_158t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w158w159w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w170> ;
+    xs:gYear "1977" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_189> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w190> ;
+    xs:gYear "1959" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_194> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w195> ;
+    xs:gYear "1970" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_213t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w214w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_30> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w31> ;
+    xs:gYear "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_37> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w38> ;
+    xs:gYear "1959" .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w87> ;
+    stevensFam:isPartnerIn bgn:Person-1602 .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w53> .
+
+bgn:Person-1602 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w130>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w135>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w139>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w145w146>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w154>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w180w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w201w202>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w206>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w210w211>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w221w222>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w232w233w234w235>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w248w249>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w263w264w265>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w268w269w270>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w41w42w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w48w49w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w64w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w74w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w77w78w79>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w84w85>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w91w92>,
+        <http://data.biographynet.nl/rdf/170506221754/1602__Gerard_Boekhoven.naf#w94> .
+

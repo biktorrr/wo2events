@@ -1,0 +1,977 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_107t_108t_109t_110t_111t_112t_113t_114t_115t_116t_117t_118t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_144t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_164t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_168t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_199t_200t_201t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_205t_206t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_220t_221t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_225t_226t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_46t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_49t_50t_51t_52t_53t_54t_55t_56t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_51t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_79t_80t_81t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_87t_88t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_98t_99t_100>,
+        bgn:Person-1622 ;
+    ore:proxyFor bgn:Person-1622 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w108> nif:lemma "hoewel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w110> nif:lemma "bezetter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w118> nif:lemma "wet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w126> nif:lemma "gevaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w128> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w145> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w200> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w206> nif:lemma "dysenterie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w221> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w242> nif:lemma "gedenk_steen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w41> nif:lemma "preek" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w43> nif:lemma "duizenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w51> nif:lemma "boek" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w52> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w58> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w70> nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w76> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w89> nif:lemma "uitspraak" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1622__Dirk_Arie_van_den_Bosch#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1622__Dirk_Arie_van_den_Bosch .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1622 ;
+    bgn:aggregatedPerson bgn:Person-1622 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1622__Dirk_Arie_van_den_Bosch ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1622__Dirk_Arie_van_den_Bosch ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w106> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_103> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_96> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_98t_99t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w114> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_108t_109> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_111> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w121> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_115> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_116t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w123> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_123> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_107t_108t_109t_110t_111t_112t_113t_114t_115t_116t_117t_118t_119t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w136> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_134> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w149> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_141> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_143> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_144t_145t_146> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w15w16w17> ;
+    xs:date "1942-03-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w152> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_162> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_176> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_150> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_164t_165t_166> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w165w166w167> ;
+    xs:date "1940-12-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_168t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w169w170> ;
+    xs:date "2017-10-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_170> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w171> ;
+    xs:gYearMonth "1942-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w180> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_180> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187t_188t_189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w187> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_178> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w193> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_191> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_194> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w197> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_191> ;
+    pb:A1 bgn:Person-1622 .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_203> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w204> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_204> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_205t_206t_207t_208> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_199t_200t_201t_202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w213> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_213> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_211> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_214> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_216t_217t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w232> ;
+    pb:Arg1 bgn:Person-1622 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_220t_221t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_225t_226t_227> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w237> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_240t_241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_260> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w261> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_261> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w42> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_39t_40> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_42t_43> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w49> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_49t_50t_51t_52t_53t_54t_55t_56t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_51t_52t_53> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_46t_47> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w57> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_55> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_54> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_69t_70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w64> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_65t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w81> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_73> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_79t_80t_81t_82t_83t_84t_85> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_75t_76t_77> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w9w10w11> ;
+    xs:date "1884-10-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w92> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_87t_88t_89t_90> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_103> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w104> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "569" ;
+    nif:endIndex "577" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w106> nif:BeginIndex "583" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "595" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w108w109w110w111w112w113w114w115w116w117w118w119w120w121> nif:anchorOf "Hoewel de bezetter niet hard kon maken dat hij de wet zou hebben overtreden" ;
+    nif:beginIndex "597" ;
+    nif:endIndex "672" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w108" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w109w110> nif:anchorOf "de bezetter" ;
+    nif:beginIndex "604" ;
+    nif:endIndex "615" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w110" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w111> nif:anchorOf "niet" ;
+    nif:beginIndex "616" ;
+    nif:endIndex "620" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w111" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w112> nif:anchorOf "hard" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "625" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w112" ;
+    nif:lemma "hard" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w114> nif:BeginIndex "630" ;
+    nif:anchorOf "maken" ;
+    nif:endIndex "635" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w116> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "640" ;
+    nif:endIndex "643" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w116" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w117w118> nif:anchorOf "de wet" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "650" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w121> nif:BeginIndex "662" ;
+    nif:anchorOf "overtreden" ;
+    nif:endIndex "672" ;
+    nif:lemma "overtreden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w123> nif:BeginIndex "674" ;
+    nif:anchorOf "zagen" ;
+    nif:endIndex "679" ;
+    nif:lemma "in_zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w124> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "680" ;
+    nif:endIndex "683" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w124" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w125w126> nif:anchorOf "het gevaar" ;
+    nif:beginIndex "684" ;
+    nif:endIndex "694" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w128w129w130w131w132w133w134w135w136> nif:anchorOf "van zijn woorden en de invloed die hij had" ;
+    nif:beginIndex "698" ;
+    nif:endIndex "740" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w13> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w134> nif:anchorOf "die" ;
+    nif:beginIndex "729" ;
+    nif:endIndex "732" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w134" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w135> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "733" ;
+    nif:endIndex "736" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w135" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w136> nif:BeginIndex "737" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "740" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w142> nif:anchorOf "Men" ;
+    nif:beginIndex "766" ;
+    nif:endIndex "769" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w142" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w144> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "779" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w144" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w145w146w147> nif:anchorOf "uit de samenleving" ;
+    nif:beginIndex "780" ;
+    nif:endIndex "798" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w148> nif:anchorOf "weg" ;
+    nif:beginIndex "799" ;
+    nif:endIndex "802" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w148" ;
+    nif:lemma "weg" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w149> nif:BeginIndex "803" ;
+    nif:anchorOf "hebben" ;
+    nif:endIndex "809" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w151> nif:anchorOf "zo" ;
+    nif:beginIndex "813" ;
+    nif:endIndex "815" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w151" ;
+    nif:lemma "zo" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w152> nif:BeginIndex "816" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "820" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w15w16w17> nif:anchorOf "20 maart 1942" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "81" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w163> nif:anchorOf "Scheveningen" ;
+    nif:beginIndex "866" ;
+    nif:endIndex "878" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w165w166w167> nif:anchorOf "11 december 1940" ;
+    nif:beginIndex "880" ;
+    nif:endIndex "896" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w169w170> nif:anchorOf "28 oktober/december" ;
+    nif:beginIndex "901" ;
+    nif:endIndex "920" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w171> nif:anchorOf "1942" ;
+    nif:beginIndex "921" ;
+    nif:endIndex "925" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w173> nif:anchorOf "terecht" ;
+    nif:beginIndex "927" ;
+    nif:endIndex "934" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w173" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w177> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "947" ;
+    nif:endIndex "957" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w179> nif:anchorOf "Hier" ;
+    nif:beginIndex "959" ;
+    nif:endIndex "963" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w179" ;
+    nif:lemma "hier" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w179w180w181w182w183w184w185w186w187w188w189w190> nif:anchorOf "Hier bleek hij een grote morele steun te zijn voor de gevangenen" ;
+    nif:beginIndex "959" ;
+    nif:endIndex "1023" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w180> nif:BeginIndex "964" ;
+    nif:anchorOf "bleek" ;
+    nif:endIndex "969" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w181> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "970" ;
+    nif:endIndex "973" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w181" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w187> nif:BeginIndex "1000" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1004" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w19> nif:BeginIndex "83" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "86" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w192> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1025" ;
+    nif:endIndex "1028" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w192" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w193> nif:BeginIndex "1029" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "1034" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w194> nif:anchorOf "er" ;
+    nif:beginIndex "1035" ;
+    nif:endIndex "1037" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w194" ;
+    nif:lemma "er" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w195> nif:BeginIndex "1038" ;
+    nif:anchorOf "kerkdiensten" ;
+    nif:beginIndex "1038" ;
+    nif:endIndex "1050" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w195" ;
+    nif:lemma "kerk_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w197> nif:BeginIndex "1054" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "1057" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w198> nif:anchorOf "Bijbelles" ;
+    nif:beginIndex "1058" ;
+    nif:endIndex "1067" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w1w2w3w4w5> nif:anchorOf "Arie van den Bosch" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w200w201w202w203> nif:anchorOf "Door de slechte leefomstandigheden" ;
+    nif:beginIndex "1069" ;
+    nif:endIndex "1103" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w200" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w204> nif:BeginIndex "1104" ;
+    nif:anchorOf "liep" ;
+    nif:endIndex "1108" ;
+    nif:lemma "op_lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w205> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1109" ;
+    nif:endIndex "1112" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w205" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w206w207w208w209> nif:anchorOf "dysenterie en een kaakontsteking" ;
+    nif:beginIndex "1113" ;
+    nif:endIndex "1145" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w21> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "91" ;
+    nif:endIndex "101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w212> nif:anchorOf "hieraan" ;
+    nif:beginIndex "1152" ;
+    nif:endIndex "1159" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w212" ;
+    nif:lemma "hieraan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w213> nif:BeginIndex "1160" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1168" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w214> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1169" ;
+    nif:endIndex "1172" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w214" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w215> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "1173" ;
+    nif:endIndex "1185" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w215" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w217w218w219> nif:anchorOf "20 maart 1942" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1202" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w221w222w223> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "1205" ;
+    nif:endIndex "1217" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w226w227w228> nif:anchorOf "7 mei 1946" ;
+    nif:beginIndex "1226" ;
+    nif:endIndex "1236" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w231> nif:anchorOf "Verzetskruis" ;
+    nif:beginIndex "1249" ;
+    nif:endIndex "1261" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w232> nif:BeginIndex "1262" ;
+    nif:anchorOf "toegekend" ;
+    nif:endIndex "1271" ;
+    nif:lemma "toe_kennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w235w236> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "1276" ;
+    nif:endIndex "1284" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w237> nif:BeginIndex "1285" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1287" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w241w242> nif:anchorOf "een gedenksteen" ;
+    nif:beginIndex "1313" ;
+    nif:endIndex "1328" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w242" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w246w247w248> nif:anchorOf "Grote of Sint-Jacobskerk" ;
+    nif:beginIndex "1347" ;
+    nif:endIndex "1371" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w253> nif:anchorOf "Hazerswoude" ;
+    nif:beginIndex "1391" ;
+    nif:endIndex "1402" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w255> nif:anchorOf "Rijswijk" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1412" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w257> nif:anchorOf "ZH" ;
+    nif:beginIndex "1414" ;
+    nif:endIndex "1416" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w25w26> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "129" ;
+    nif:endIndex "148" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w260> nif:anchorOf "Zwijndrecht" ;
+    nif:beginIndex "1421" ;
+    nif:endIndex "1432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w261> nif:BeginIndex "1433" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1437" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w262> nif:anchorOf "straten" ;
+    nif:beginIndex "1438" ;
+    nif:endIndex "1445" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w262" ;
+    nif:lemma "straat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w267> nif:anchorOf "Bosch" ;
+    nif:beginIndex "1466" ;
+    nif:endIndex "1471" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w272w273w274> nif:anchorOf "Gemeentelijke Begraafplaats Rusthof" ;
+    nif:beginIndex "1492" ;
+    nif:endIndex "1527" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w276> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "1531" ;
+    nif:endIndex "1541" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w28w29w30> nif:anchorOf "Van den Bosch" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "164" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w31> nif:BeginIndex "165" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "168" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w34> nif:anchorOf "Hervormd" ;
+    nif:beginIndex "182" ;
+    nif:endIndex "190" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w38> nif:anchorOf "s-Gravenhage" ;
+    nif:beginIndex "205" ;
+    nif:endIndex "217" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w40w41> nif:anchorOf "Zijn preken" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "230" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w42> nif:BeginIndex "231" ;
+    nif:anchorOf "trokken" ;
+    nif:endIndex "238" ;
+    nif:lemma "trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w43w44> nif:anchorOf "duizenden mensen" ;
+    nif:beginIndex "239" ;
+    nif:endIndex "255" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w47w48> nif:anchorOf "november 1940" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w49> nif:BeginIndex "274" ;
+    nif:anchorOf "verscheen" ;
+    nif:endIndex "283" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w50w51w52w53w54w55w56w57w58w59w60w61w62w63w64w65w66w67w68w69w70w71> nif:anchorOf "een boek van zijn hand waarin hij waarschuwde voor het gebrek aan menselijkheid geheten 666 Het getal eens menschen" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "402" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w52w53w54> nif:anchorOf "van zijn hand" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "306" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w55> nif:anchorOf "waarin" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "313" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w55" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w56> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "314" ;
+    nif:endIndex "317" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w56" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w57> nif:BeginIndex "318" ;
+    nif:anchorOf "waarschuwde" ;
+    nif:endIndex "329" ;
+    nif:lemma "waarschuwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w58w59w60w61w62w63w64w65w66w67w68w69> nif:anchorOf "voor het gebrek aan menselijkheid geheten 666 Het getal" ;
+    nif:beginIndex "330" ;
+    nif:endIndex "388" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w64> nif:BeginIndex "365" ;
+    nif:anchorOf "geheten" ;
+    nif:endIndex "372" ;
+    nif:lemma "geheten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w7> nif:anchorOf "Hazerswoude" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w70w71> nif:anchorOf "eens menschen" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "402" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w74> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "408" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w74" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w76w77w78> nif:anchorOf "in zijn preken" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "429" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w79> nif:anchorOf "mensen" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "436" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w79" ;
+    nif:lemma "mens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w80w81w82w83w84w85w86> nif:anchorOf "bewust maken van het belang van humaniteit" ;
+    nif:beginIndex "437" ;
+    nif:endIndex "479" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w81> nif:BeginIndex "444" ;
+    nif:anchorOf "maken" ;
+    nif:endIndex "449" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w88w89w90w91> nif:anchorOf "Zijn uitspraken en boek" ;
+    nif:beginIndex "481" ;
+    nif:endIndex "504" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w92> nif:BeginIndex "505" ;
+    nif:anchorOf "leidden" ;
+    nif:endIndex "512" ;
+    nif:lemma "leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w94> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "516" ;
+    nif:endIndex "528" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w94" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w97> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "537" ;
+    nif:endIndex "540" ;
+    nif:head "bgnProc:1622__Dirk_Arie_van_den_Bosch.naf#w97" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w99w100w101> nif:anchorOf "11 december 1940" ;
+    nif:beginIndex "544" ;
+    nif:endIndex "560" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w9w10w11> nif:anchorOf "23 oktober 1884" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_107t_108t_109t_110t_111t_112t_113t_114t_115t_116t_117t_118t_119t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w108w109w110w111w112w113w114w115w116w117w118w119w120w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w117w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_124t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w125w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w128w129w130w131w132w133w134w135w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_144t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w145w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w179w180w181w182w183w184w185w186w187w188w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_199t_200t_201t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w200w201w202w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_205t_206t_207t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w206w207w208w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_216t_217t_218> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w217w218w219> ;
+    xs:date "1942-03-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_220t_221t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w221w222w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_225t_226t_227> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w226w227w228> ;
+    xs:date "1946-05-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_240t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w241w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_261> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w262> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_42t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w43w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_46t_47> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w47w48> ;
+    xs:gYearMonth "1940-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_49t_50t_51t_52t_53t_54t_55t_56t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w50w51w52w53w54w55w56w57w58w59w60w61w62w63w64w65w66w67w68w69w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_51t_52t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w52w53w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w58w59w60w61w62w63w64w65w66w67w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w76w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_79t_80t_81t_82t_83t_84t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w80w81w82w83w84w85w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_87t_88t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w88w89w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_98t_99t_100> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w99w100w101> ;
+    xs:date "1940-12-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w192> .
+
+bgn:Person-1622 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w104>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w163>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w1w2w3w4w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w231>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w235w236>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w246w247w248>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w253>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w255>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w257>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w25w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w260>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w267>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w272w273w274>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w276>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w28w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1622__Dirk_Arie_van_den_Bosch.naf#w7> .
+

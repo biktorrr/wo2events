@@ -1,0 +1,805 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_112t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_118t_119t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_190t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_193t_194t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_20t_21t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_215t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_237t_238t_239t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_242t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_51t_52t_53t_54t_55t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_84t_85t_86t_87t_88t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_92t_93t_94t_95t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_98>,
+        bgn:Person-1050 ;
+    ore:proxyFor bgn:Person-1050 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w113> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w121> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w194> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w212> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w216> nif:lemma "huis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w239> nif:lemma "en" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w243> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w49> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w52> nif:lemma "wegens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w65> nif:lemma "straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w69> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w85> nif:lemma "zodat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w88> nif:lemma "straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w95> nif:lemma "jaar" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1050__Dirk_Hoogendam#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1050__Dirk_Hoogendam .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1050 ;
+    bgn:aggregatedPerson bgn:Person-1050 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1050__Dirk_Hoogendam ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1050__Dirk_Hoogendam ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w109> ;
+    pb:Arg1 bgn:Person-1050 ;
+    pb:ArgM-LOC bgn:Person-1050 .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w116> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_118t_119t_120t_121t_122>,
+        bgn:Person-1050 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_117> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_112t_113t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w120> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_120t_121t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w127> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_128t_129> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w129w130> ;
+    xs:gYearMonth "2002-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w137> ;
+    pb:Arg0 bgn:Person-1050 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_154>,
+        bgn:Person-1050 ;
+    pb:Arg2 bgn:Person-1050 ;
+    pb:ArgM-TMP bgn:Person-1050 .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w156> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w160> ;
+    pb:A1 bgn:Person-1050 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_154> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w168> ;
+    pb:Arg0 bgn:Person-1050 ;
+    pb:ArgM-PNC bgn:Person-1050 ;
+    pb:ArgM-TMP bgn:Person-1050 .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w198> ;
+    pb:Arg0 bgn:Person-1050 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_190t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_193t_194t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w200> ;
+    pb:ArgM bgn:Person-1050 .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_203> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w204> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_20t_21t_22> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w21w22w23> ;
+    xs:date "2003-08-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w211> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_215t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_220> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_214> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_227> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_211t_212t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_229> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_233> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w234> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_227> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_227> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w245> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_237t_238t_239t_240t_241> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_242t_243> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w51> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_47> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_48t_49> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_51t_52t_53t_54t_55t_56> ;
+    pb:ArgM-TMP bgn:Person-1050 .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w6w7w8> ;
+    xs:date "1922-05-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w68> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_63t_64> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_68t_69> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w74> ;
+    pb:Arg0 bgn:Person-1050 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w79> ;
+    pb:A0 bgn:Person-1050 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_82> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_74> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_84t_85t_86t_87t_88t_89t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w81> ;
+    pb:Arg0 bgn:Person-1050 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_82> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_74> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_84t_85t_86t_87t_88t_89t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w90> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_85> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_86t_87> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_93t_94> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w94w95> ;
+    xs:period "PXY" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w99> ;
+    pb:Arg0 bgn:Person-1050 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_92t_93t_94t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w100w101> nif:anchorOf "De Telegraaf" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "579" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w103> nif:anchorOf "Hoogendam" ;
+    nif:beginIndex "584" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w107w108> nif:anchorOf "Dieter Hohendamm" ;
+    nif:beginIndex "614" ;
+    nif:endIndex "630" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w109> nif:BeginIndex "631" ;
+    nif:anchorOf "leefde" ;
+    nif:endIndex "637" ;
+    nif:lemma "leven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w111> nif:anchorOf "Ringgau" ;
+    nif:beginIndex "641" ;
+    nif:endIndex "648" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w113w114w115> nif:anchorOf "Na zijn ontmaskering" ;
+    nif:beginIndex "650" ;
+    nif:endIndex "670" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w113" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w116> nif:BeginIndex "671" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "676" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w117> nif:anchorOf "Hoogendam" ;
+    nif:beginIndex "677" ;
+    nif:endIndex "686" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w118> nif:anchorOf "alsnog" ;
+    nif:beginIndex "687" ;
+    nif:endIndex "693" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w118" ;
+    nif:lemma "alsnog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w119w120w121w122w123> nif:anchorOf "een beroepsprocedure tegen zijn veroordeling" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "738" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w120> nif:BeginIndex "698" ;
+    nif:anchorOf "beroepsprocedure" ;
+    nif:endIndex "714" ;
+    nif:lemma "beroep_procedure" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w121w122w123> nif:anchorOf "tegen zijn veroordeling" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "738" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w126> nif:anchorOf "dit" ;
+    nif:beginIndex "745" ;
+    nif:endIndex "748" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w126" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w127> nif:BeginIndex "749" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "751" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w129w130> nif:anchorOf "oktober 2002" ;
+    nif:beginIndex "755" ;
+    nif:endIndex "767" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w13> nif:anchorOf "Ringgau" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "77" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w135> nif:anchorOf "Hoogendams" ;
+    nif:beginIndex "789" ;
+    nif:endIndex "799" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w137> nif:BeginIndex "805" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "809" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w139> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "813" ;
+    nif:endIndex "824" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w145> nif:anchorOf "Duitse" ;
+    nif:beginIndex "852" ;
+    nif:endIndex "858" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w148> nif:anchorOf "Hoogendam" ;
+    nif:beginIndex "871" ;
+    nif:endIndex "880" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w155> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "909" ;
+    nif:endIndex "918" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w156> nif:BeginIndex "919" ;
+    nif:anchorOf "levende" ;
+    nif:endIndex "926" ;
+    nif:lemma "levend" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w158> nif:anchorOf "alsnog" ;
+    nif:beginIndex "946" ;
+    nif:endIndex "952" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w158" ;
+    nif:lemma "alsnog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w16> nif:anchorOf "Hessen" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w160> nif:BeginIndex "956" ;
+    nif:anchorOf "vervolgen" ;
+    nif:endIndex "965" ;
+    nif:lemma "vervolgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w165> nif:BeginIndex "979" ;
+    nif:anchorOf "overlijden" ;
+    nif:endIndex "989" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w167> nif:anchorOf "Hoogendam" ;
+    nif:beginIndex "994" ;
+    nif:endIndex "1003" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w168> nif:BeginIndex "1004" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "1010" ;
+    nif:lemma "bekend_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w170> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1014" ;
+    nif:endIndex "1020" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w178w179> nif:anchorOf "Herbertus Bikker" ;
+    nif:beginIndex "1054" ;
+    nif:endIndex "1070" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w18> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "99" ;
+    nif:endIndex "108" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w187> nif:anchorOf "Ommen" ;
+    nif:beginIndex "1101" ;
+    nif:endIndex "1106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w191w192w193> nif:anchorOf "8 september 2003" ;
+    nif:beginIndex "1112" ;
+    nif:endIndex "1128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w194w195w196> nif:anchorOf "voor de rechtbank" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1146" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w194" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w198> nif:BeginIndex "1153" ;
+    nif:anchorOf "verschijnen" ;
+    nif:endIndex "1164" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w1w2> nif:anchorOf "Hoogendam" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w200> nif:BeginIndex "1170" ;
+    nif:anchorOf "moord" ;
+    nif:endIndex "1175" ;
+    nif:lemma "moord" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w204> nif:anchorOf "Jan" ;
+    nif:beginIndex "1193" ;
+    nif:endIndex "1196" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w204w205> nif:anchorOf "Jan Houtman" ;
+    nif:beginIndex "1193" ;
+    nif:endIndex "1204" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w210> nif:anchorOf "Hoogendam" ;
+    nif:beginIndex "1220" ;
+    nif:endIndex "1229" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w211> nif:BeginIndex "1230" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "1235" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w212w213w214> nif:anchorOf "in de oorlog" ;
+    nif:beginIndex "1236" ;
+    nif:endIndex "1248" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w215> nif:anchorOf "vooral" ;
+    nif:beginIndex "1249" ;
+    nif:endIndex "1255" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w215" ;
+    nif:lemma "vooral" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w216w217w218w219> nif:anchorOf "huis in het zuiden" ;
+    nif:beginIndex "1256" ;
+    nif:endIndex "1274" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w21w22w23> nif:anchorOf "8 augustus 2003" ;
+    nif:beginIndex "111" ;
+    nif:endIndex "126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w221> nif:anchorOf "Drenthe" ;
+    nif:beginIndex "1279" ;
+    nif:endIndex "1286" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w228> nif:anchorOf "Hollandscheveld" ;
+    nif:beginIndex "1319" ;
+    nif:endIndex "1334" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w230> nif:BeginIndex "1339" ;
+    nif:anchorOf "verhoor" ;
+    nif:endIndex "1346" ;
+    nif:lemma "verhoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w234> nif:BeginIndex "1365" ;
+    nif:anchorOf "diende" ;
+    nif:endIndex "1371" ;
+    nif:lemma "dienen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w236> nif:anchorOf "Daar" ;
+    nif:beginIndex "1373" ;
+    nif:endIndex "1377" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w236" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w238w239w240w241w242> nif:anchorOf "joden en verdachten van verzetsactiviteiten" ;
+    nif:beginIndex "1385" ;
+    nif:endIndex "1428" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w239" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w243w244> nif:anchorOf "in elkaar" ;
+    nif:beginIndex "1429" ;
+    nif:endIndex "1438" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w243" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w245> nif:BeginIndex "1439" ;
+    nif:anchorOf "geslagen" ;
+    nif:endIndex "1447" ;
+    nif:lemma "slaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w247> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1450" ;
+    nif:endIndex "1459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w250w251> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "1466" ;
+    nif:endIndex "1485" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w29> nif:anchorOf "Bokser" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w32> nif:BeginIndex "148" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "151" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w34> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "166" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w37w38> nif:anchorOf "Dirk Hoogendam" ;
+    nif:beginIndex "187" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w4> nif:anchorOf "Vlaardingerambacht" ;
+    nif:beginIndex "16" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w42w43> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "213" ;
+    nif:endIndex "232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w48> nif:anchorOf "Assen" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "259" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w49w50> nif:anchorOf "ter dood" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "268" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w51> nif:BeginIndex "269" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "280" ;
+    nif:lemma "veroordeeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w52w53w54w55w56w57> nif:anchorOf "wegens het plegen van ernstige mishandelingen" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "326" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w54> nif:BeginIndex "292" ;
+    nif:anchorOf "plegen" ;
+    nif:endIndex "298" ;
+    nif:lemma "plegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w62> nif:BeginIndex "350" ;
+    nif:anchorOf "krijgsdienst" ;
+    nif:endIndex "362" ;
+    nif:lemma "krijg_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w64w65> nif:anchorOf "De straf" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "372" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w67> nif:anchorOf "later" ;
+    nif:beginIndex "378" ;
+    nif:endIndex "383" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w67" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w68> nif:BeginIndex "384" ;
+    nif:anchorOf "omgezet" ;
+    nif:endIndex "391" ;
+    nif:lemma "om_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w69w70> nif:anchorOf "in levenslang" ;
+    nif:beginIndex "392" ;
+    nif:endIndex "405" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w69" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w6w7w8> nif:anchorOf "18 mei 1922" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w72w73> nif:anchorOf "Dirk Hoogendam" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "421" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w74> nif:BeginIndex "422" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "425" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w75> nif:anchorOf "echter" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "432" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w75" ;
+    nif:lemma "echter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w77> nif:anchorOf "1946" ;
+    nif:beginIndex "436" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w78> nif:anchorOf "al" ;
+    nif:beginIndex "441" ;
+    nif:endIndex "443" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w78" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w79> nif:BeginIndex "444" ;
+    nif:anchorOf "ontsnapt" ;
+    nif:endIndex "452" ;
+    nif:lemma "ontsnappen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w81> nif:BeginIndex "456" ;
+    nif:anchorOf "ontkomen" ;
+    nif:endIndex "464" ;
+    nif:lemma "ontkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w83> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "470" ;
+    nif:endIndex "479" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w85w86w87w88w89w90w91> nif:anchorOf "zodat hij zijn straf nooit uitgezeten heeft" ;
+    nif:beginIndex "481" ;
+    nif:endIndex "524" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w86> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "487" ;
+    nif:endIndex "490" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w86" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w87w88> nif:anchorOf "zijn straf" ;
+    nif:beginIndex "491" ;
+    nif:endIndex "501" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w89> nif:anchorOf "nooit" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "507" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w89" ;
+    nif:lemma "nooit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w90> nif:BeginIndex "508" ;
+    nif:anchorOf "uitgezeten" ;
+    nif:endIndex "518" ;
+    nif:lemma "uit_zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w93w94w95w96w97w98> nif:anchorOf "Pas enkele jaren voor zijn dood" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "557" ;
+    nif:head "bgnProc:1050__Dirk_Hoogendam.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w94w95> nif:anchorOf "enkele jaren" ;
+    nif:beginIndex "530" ;
+    nif:endIndex "542" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w99> nif:BeginIndex "558" ;
+    nif:anchorOf "ontdekte" ;
+    nif:endIndex "566" ;
+    nif:lemma "ontdekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_112t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w113w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_118t_119t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w119w120w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_190t_191t_192> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w191w192w193> ;
+    xs:date "2003-09-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_193t_194t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w194w195w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_215t_216t_217t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w216w217w218w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_235> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_237t_238t_239t_240t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w238w239w240w241w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_242t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w243w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_51t_52t_53t_54t_55t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w52w53w54w55w56w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_86t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w87w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_92t_93t_94t_95t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w93w94w95w96w97w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_76> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w77> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#t_84t_85t_86t_87t_88t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w85w86w87w88w89w90w91> .
+
+bgn:Person-1050 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w100w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w107w108>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w117>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w135>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w139>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w148>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w155>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w178w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w204w205>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w210>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w221>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w228>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w250w251>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w42w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1050__Dirk_Hoogendam.naf#w83> .
+

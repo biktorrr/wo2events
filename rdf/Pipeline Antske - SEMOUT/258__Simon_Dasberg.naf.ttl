@@ -1,0 +1,725 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_128t_129t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_144t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_201t_202t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_206t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_217t_218t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_226t_227t_228t_229t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_54t_55t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_68t_69t_70t_71t_72t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_98>,
+        bgn:Person-258 ;
+    ore:proxyFor bgn:Person-258 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w34> ;
+    stevensFam:isPartnerIn bgn:Person-258 .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w115> nif:lemma "moré_titel" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w129> nif:lemma "leider" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w150> nif:lemma "installatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w207> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w227> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w45> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w50> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w56> nif:lemma "gymnasium" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w69> nif:lemma "door" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-258__Simon_Dasberg#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-258__Simon_Dasberg .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-258 ;
+    bgn:aggregatedPerson bgn:Person-258 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-258__Simon_Dasberg ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-258__Simon_Dasberg ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w112> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_112> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_113t_114> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w12w13w14> ;
+    xs:date "1945-02-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w124> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_127> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w128> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_128t_129t_130t_131> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w138> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_141>,
+        bgn:Person-258 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_134> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w148> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_148t_149> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_144t_145t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_158> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w159> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_157> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_164>,
+        bgn:Person-258 .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w172> ;
+    pb:A0 bgn:Person-258 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_167> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w179> ;
+    pb:ArgM-TMP bgn:Person-258 .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_198> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w199> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_189> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_197> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w213> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_205> ;
+    pb:Arg2 bgn:Person-258 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_206t_207t_208> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_201t_202t_203> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_217t_218t_219> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w218w219w220> ;
+    xs:date "1944-01-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w225> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_223> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_226t_227t_228t_229t_230> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_36> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w37> ;
+    xs:gYear "1929" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_41> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w42> ;
+    xs:gYear "1906",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w51> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_48t_49> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_44t_45t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w54> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_52> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_54t_55t_56t_57t_58> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w6w7w8> ;
+    xs:date "1902-11-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w61> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_52> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_62>,
+        bgn:Person-258 ;
+    pb:AM-LOC bgn:Person-258 .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w68> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_68t_69t_70t_71t_72t_73> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w96> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_94> ;
+    pb:Arg1 bgn:Person-258 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w99> ;
+    pb:ArgM bgn:Person-258 .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w10> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w102> nif:anchorOf "Semitische" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "597" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w106w107w108> nif:anchorOf "Universiteit van Amsterdam" ;
+    nif:beginIndex "611" ;
+    nif:endIndex "637" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w111> nif:anchorOf "1927" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "646" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w112> nif:BeginIndex "647" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "652" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w113> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "656" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w113" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w114w115> nif:anchorOf "zijn moré-titel" ;
+    nif:beginIndex "657" ;
+    nif:endIndex "672" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w118> nif:BeginIndex "678" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "682" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w122> nif:anchorOf "Isr" ;
+    nif:beginIndex "696" ;
+    nif:endIndex "699" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w124> nif:BeginIndex "701" ;
+    nif:anchorOf "Godsdienstschool" ;
+    nif:endIndex "717" ;
+    nif:lemma "godsdienst_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w126> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "721" ;
+    nif:endIndex "730" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w128> nif:BeginIndex "734" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "737" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w129w130w131w132> nif:anchorOf "leider van mizrachistische jeugdgroepen" ;
+    nif:beginIndex "738" ;
+    nif:endIndex "777" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w12w13w14> nif:anchorOf "24 februari 1945" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w135> nif:anchorOf "1929" ;
+    nif:beginIndex "783" ;
+    nif:endIndex "787" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w137> nif:anchorOf "Dasberg" ;
+    nif:beginIndex "793" ;
+    nif:endIndex "800" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w138> nif:BeginIndex "801" ;
+    nif:anchorOf "geïnstalleerd" ;
+    nif:endIndex "814" ;
+    nif:lemma "installeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w142> nif:anchorOf "Friesland" ;
+    nif:beginIndex "836" ;
+    nif:endIndex "845" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w145w146w147> nif:anchorOf "20 maart 1932" ;
+    nif:beginIndex "850" ;
+    nif:endIndex "863" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w148> nif:BeginIndex "864" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "870" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w149w150> nif:anchorOf "zijn installatie" ;
+    nif:beginIndex "871" ;
+    nif:endIndex "887" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w150" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w156> nif:anchorOf "Groningen" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "929" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w158> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "931" ;
+    nif:endIndex "934" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w158" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w159> nif:BeginIndex "935" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "940" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w16> nif:BeginIndex "78" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "81" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w160> nif:anchorOf "daarnaast" ;
+    nif:beginIndex "941" ;
+    nif:endIndex "950" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w160" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w165> nif:anchorOf "Friesland" ;
+    nif:beginIndex "969" ;
+    nif:endIndex "978" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w168> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "984" ;
+    nif:endIndex "987" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w168" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w170> nif:anchorOf "1935" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "995" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w172> nif:BeginIndex "1001" ;
+    nif:anchorOf "opgevolgd" ;
+    nif:endIndex "1010" ;
+    nif:lemma "op_volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w174w175w176> nif:anchorOf "Abraham Salomon Levisson" ;
+    nif:beginIndex "1016" ;
+    nif:endIndex "1040" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w178> nif:anchorOf "Dasberg" ;
+    nif:beginIndex "1043" ;
+    nif:endIndex "1050" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w179> nif:BeginIndex "1051" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1054" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w182w183> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "1066" ;
+    nif:endIndex "1085" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w187w188> nif:anchorOf "Joodsche Raad" ;
+    nif:beginIndex "1097" ;
+    nif:endIndex "1110" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w190> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1112" ;
+    nif:endIndex "1115" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w190" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w193> nif:anchorOf "1942" ;
+    nif:beginIndex "1124" ;
+    nif:endIndex "1128" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w198> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "1167" ;
+    nif:endIndex "1176" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w199> nif:BeginIndex "1177" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "1184" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w1w2> nif:anchorOf "Dasberg" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w202w203w204> nif:anchorOf "29 september 1943" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1206" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w206> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1212" ;
+    nif:endIndex "1215" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w206" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w207w208w209> nif:anchorOf "met zijn gezin" ;
+    nif:beginIndex "1216" ;
+    nif:endIndex "1230" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w207" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w21> nif:anchorOf "Dasberg" ;
+    nif:beginIndex "113" ;
+    nif:endIndex "120" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w212> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "1241" ;
+    nif:endIndex "1251" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w213> nif:BeginIndex "1252" ;
+    nif:anchorOf "gedeporteerd" ;
+    nif:endIndex "1264" ;
+    nif:lemma "deporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w218w219w220> nif:anchorOf "11 januari 1944" ;
+    nif:beginIndex "1283" ;
+    nif:endIndex "1298" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w22> nif:BeginIndex "121" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "124" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w222> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "1304" ;
+    nif:endIndex "1317" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w224> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1319" ;
+    nif:endIndex "1322" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w224" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w225> nif:BeginIndex "1323" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1331" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w227w228w229w230w231> nif:anchorOf "aan uitputting en een hartaanval" ;
+    nif:beginIndex "1335" ;
+    nif:endIndex "1367" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w227" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w27w28> nif:anchorOf "Samuel Dasberg" ;
+    nif:beginIndex "146" ;
+    nif:endIndex "160" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w30w31w32> nif:anchorOf "Dina de Vries" ;
+    nif:beginIndex "164" ;
+    nif:endIndex "177" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w34> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "179" ;
+    nif:endIndex "182" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w37> nif:anchorOf "1929" ;
+    nif:beginIndex "194" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w39w40> nif:anchorOf "Isabella Franck" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "218" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w4> nif:anchorOf "Dordrecht" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w42> nif:anchorOf "1906-1945" ;
+    nif:beginIndex "220" ;
+    nif:endIndex "229" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w45w46w47> nif:anchorOf "uit dit huwelijk" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "248" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w49w50> nif:anchorOf "vier kinderen" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "269" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w51> nif:BeginIndex "270" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "277" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w53> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "280" ;
+    nif:endIndex "283" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w53" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w54> nif:BeginIndex "284" ;
+    nif:anchorOf "bezocht" ;
+    nif:endIndex "291" ;
+    nif:lemma "bezoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w55w56w57w58w59> nif:anchorOf "het gymnasium in zijn geboorteplaats" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "328" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w56" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w61> nif:BeginIndex "332" ;
+    nif:anchorOf "trok" ;
+    nif:endIndex "336" ;
+    nif:lemma "trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w63> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "351" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w67> nif:anchorOf "daartoe" ;
+    nif:beginIndex "362" ;
+    nif:endIndex "369" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w67" ;
+    nif:lemma "daartoe" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w68> nif:BeginIndex "370" ;
+    nif:anchorOf "voorbereid" ;
+    nif:endIndex "380" ;
+    nif:lemma "voorbereid" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w69w70w71w72w73w74> nif:anchorOf "door jarenlange studie bij zijn vader" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "418" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w69" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w6w7w8> nif:anchorOf "13 november 1902" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w80w81w82> nif:anchorOf "Nederlands Israëlietisch Seminarium" ;
+    nif:beginIndex "444" ;
+    nif:endIndex "479" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w86> nif:anchorOf "Ph.J.B" ;
+    nif:beginIndex "494" ;
+    nif:endIndex "500" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w88> nif:anchorOf "Gobits" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "508" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w92w93> nif:anchorOf "Lion Wagenaar" ;
+    nif:beginIndex "527" ;
+    nif:endIndex "540" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w95> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "542" ;
+    nif:endIndex "545" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w95" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w96> nif:BeginIndex "546" ;
+    nif:anchorOf "behaalde" ;
+    nif:endIndex "554" ;
+    nif:lemma "behalen" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w97> nif:anchorOf "daarnaast" ;
+    nif:beginIndex "555" ;
+    nif:endIndex "564" ;
+    nif:head "bgnProc:258__Simon_Dasberg.naf#w97" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w99> nif:BeginIndex "570" ;
+    nif:anchorOf "kandidaats" ;
+    nif:endIndex "580" ;
+    nif:lemma "kandidaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w111> ;
+    xs:gYear "1927" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_128t_129t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w129w130w131w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_134> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w135> ;
+    xs:gYear "1929" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_144t_145t_146> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w145w146w147> ;
+    xs:date "1932-03-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w170> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_192> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w193> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_201t_202t_203> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w202w203w204> ;
+    xs:date "1943-09-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_206t_207t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w207w208w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_226t_227t_228t_229t_230> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w227w228w229w230w231> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_44t_45t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w45w46w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_54t_55t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w55w56w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_68t_69t_70t_71t_72t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w69w70w71w72w73w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w53> .
+
+bgn:Person-258 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w106w107w108>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w126>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w142>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w156>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w174w175w176>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w182w183>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w187w188>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w212>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w222>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w27w28>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w30w31w32>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w80w81w82>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w86>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/258__Simon_Dasberg.naf#w92w93> .
+

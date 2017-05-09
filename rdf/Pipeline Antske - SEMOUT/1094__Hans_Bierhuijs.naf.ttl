@@ -1,0 +1,976 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_144t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_230t_231t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_235t_236t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_254t_255t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_257>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_283t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_287t_288t_289>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_297t_298t_299>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_300t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_306t_307t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_309>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_310t_311t_312t_313t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_321>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_82t_83t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_87t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_97t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_99>,
+        bgn:Person-1094 ;
+    ore:proxyFor bgn:Person-1094 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w145> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w285> nif:lemma "oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w288> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w301> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w312> nif:lemma "voltrekking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w58> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w88> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w99> nif:lemma "sabotage_poging" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1094__Hans_Bierhuijs#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1094__Hans_Bierhuijs .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1094 ;
+    bgn:aggregatedPerson bgn:Person-1094 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1094__Hans_Bierhuijs ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1094__Hans_Bierhuijs ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w102> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_97t_98> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_110>,
+        bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w105> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_110>,
+        bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w120> ;
+    pb:Arg0 bgn:Person-1094 ;
+    pb:Arg1 bgn:Person-1094 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w12w13w14> ;
+    xs:date "1941-09-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w148> ;
+    pb:Arg1 bgn:Person-1094 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_144t_145t_146> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_143> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w165> ;
+    pb:Arg0 bgn:Person-1094 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_163> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w181> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_167> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_177> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w184> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_182> ;
+    pb:A2 bgn:Person-1094 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w215> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_212> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_216> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w217> ;
+    pb:Arg0 bgn:Person-1094 ;
+    pb:ArgM-CAU bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_221> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w222> ;
+    pb:Arg0 bgn:Person-1094 ;
+    pb:ArgM-DIS bgn:Person-1094 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_230t_231t_232> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w231w232w233> ;
+    xs:date "1941-05-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_238> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w239> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_243>,
+        bgn:Person-1094 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_235t_236t_237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_246> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w247> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_254t_255t_256> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w255w256w257> ;
+    xs:date "1941-05-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_257> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w258> ;
+    pb:Arg1 bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_276> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w277> ;
+    pb:Arg1 bgn:Person-1094 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_279> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_282> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w283> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_283t_284>,
+        bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_286> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w287> ;
+    pb:Arg1 bgn:Person-1094 ;
+    pb:Arg2 bgn:Person-1094 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_287t_288t_289> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_303> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w304> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_295> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_300t_301> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_297t_298t_299> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_309> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w310> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_310t_311t_312t_313t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_315> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_306t_307t_308> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w32> ;
+    pb:Arg0 bgn:Person-1094 ;
+    pb:ArgM-LOC bgn:Person-1094 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_321> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w322> ;
+    pb:Arg1 bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w34> ;
+    pb:Arg0 bgn:Person-1094 ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_38> ;
+    pb:ArgM-TMP bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w46> ;
+    pb:A1 bgn:Person-1094 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w49> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_47> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_49>,
+        bgn:Person-1094 ;
+    pb:AM-TMP bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w6w7w8> ;
+    xs:date "1918-11-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w61> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_56> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_57t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_79t_80> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w80w81> ;
+    xs:date "2017-04-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w86> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_86> ;
+    pb:ArgM-CAU bgn:Person-1094 .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w92> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_86> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_87t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_89> ;
+    pb:AM-LOC bgn:Person-1094 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_82t_83t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w100> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_97t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w10> nif:anchorOf "Waalsdorpervlakte" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w100> nif:BeginIndex "572" ;
+    nif:anchorOf "mislukte" ;
+    nif:endIndex "580" ;
+    nif:lemma "mislukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w102> nif:BeginIndex "584" ;
+    nif:anchorOf "leidde" ;
+    nif:endIndex "590" ;
+    nif:lemma "leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w105> nif:BeginIndex "599" ;
+    nif:anchorOf "schietpartij" ;
+    nif:endIndex "611" ;
+    nif:lemma "schiet_partij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w108w109> nif:anchorOf "Prinsen Bolwerk" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "634" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w111> nif:anchorOf "Haarlem" ;
+    nif:beginIndex "638" ;
+    nif:endIndex "645" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w113> nif:anchorOf "Hierbij" ;
+    nif:beginIndex "647" ;
+    nif:endIndex "654" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w113" ;
+    nif:lemma "hierbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w116> nif:anchorOf "Bierhuijs" ;
+    nif:beginIndex "665" ;
+    nif:endIndex "674" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w118> nif:anchorOf "Duitse" ;
+    nif:beginIndex "679" ;
+    nif:endIndex "685" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w120> nif:BeginIndex "698" ;
+    nif:anchorOf "neergeschoten" ;
+    nif:endIndex "711" ;
+    nif:lemma "neer_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w122w123> nif:anchorOf "Henk Schoenmaker" ;
+    nif:beginIndex "714" ;
+    nif:endIndex "730" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w12w13w14> nif:anchorOf "30 september 1941" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "80" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w132> nif:anchorOf "Joseph" ;
+    nif:beginIndex "778" ;
+    nif:endIndex "784" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w134w135> nif:anchorOf "Willem Zietse" ;
+    nif:beginIndex "786" ;
+    nif:endIndex "799" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w138> nif:anchorOf "nadien" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "814" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w138" ;
+    nif:lemma "nadien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w140w141w142> nif:anchorOf "6 mei 1941" ;
+    nif:beginIndex "818" ;
+    nif:endIndex "828" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w144> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "832" ;
+    nif:endIndex "841" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w145w146w147> nif:anchorOf "in de val" ;
+    nif:beginIndex "842" ;
+    nif:endIndex "851" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w148> nif:BeginIndex "852" ;
+    nif:anchorOf "gelokt" ;
+    nif:endIndex "858" ;
+    nif:lemma "lokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w152w153w154w155> nif:anchorOf "Anton van der Waals" ;
+    nif:beginIndex "872" ;
+    nif:endIndex "891" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w158w159> nif:anchorOf "De Wilde" ;
+    nif:beginIndex "894" ;
+    nif:endIndex "902" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w16> nif:BeginIndex "82" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "85" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w163> a bgn:pron_3p ;
+    nif:anchorOf "hen" ;
+    nif:beginIndex "909" ;
+    nif:endIndex "912" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w163" ;
+    nif:lemma "hen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w164> nif:anchorOf "wijs" ;
+    nif:beginIndex "913" ;
+    nif:endIndex "917" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w164" ;
+    nif:lemma "wijs" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w165> nif:BeginIndex "918" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "925" ;
+    nif:lemma "wijs_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w168> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "936" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w168" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w178> nif:anchorOf "Engeland" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "999" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w181> nif:BeginIndex "1010" ;
+    nif:anchorOf "vertrekken" ;
+    nif:endIndex "1020" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w183> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "1022" ;
+    nif:endIndex "1024" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w183" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w184> nif:BeginIndex "1025" ;
+    nif:anchorOf "vielen" ;
+    nif:endIndex "1031" ;
+    nif:lemma "vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w185> nif:anchorOf "echter" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1038" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w185" ;
+    nif:lemma "echter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w194> nif:anchorOf "SD" ;
+    nif:beginIndex "1082" ;
+    nif:endIndex "1084" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w198> nif:BeginIndex "1094" ;
+    nif:anchorOf "verhoor" ;
+    nif:endIndex "1101" ;
+    nif:lemma "verhoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w1w2> nif:anchorOf "Bierhuijs" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w204w205w206> nif:anchorOf "Van der Waals" ;
+    nif:beginIndex "1125" ;
+    nif:endIndex "1138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w208> nif:anchorOf "Schoenmaker" ;
+    nif:beginIndex "1143" ;
+    nif:endIndex "1154" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w210> nif:anchorOf "Zietse" ;
+    nif:beginIndex "1158" ;
+    nif:endIndex "1164" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w212> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1170" ;
+    nif:endIndex "1172" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w212" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w213> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1173" ;
+    nif:endIndex "1176" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w213" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w214> nif:anchorOf "nog" ;
+    nif:beginIndex "1177" ;
+    nif:endIndex "1180" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w214" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w215> nif:BeginIndex "1181" ;
+    nif:anchorOf "vertrouwden" ;
+    nif:endIndex "1192" ;
+    nif:lemma "vertrouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w217> nif:BeginIndex "1194" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1198" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w220> nif:anchorOf "vast" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1217" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w220" ;
+    nif:lemma "vast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w222> nif:BeginIndex "1221" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "1226" ;
+    nif:lemma "vast_staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w228w229> nif:anchorOf "Prinsen Bolwerk" ;
+    nif:beginIndex "1250" ;
+    nif:endIndex "1265" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w22w23> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "129" ;
+    nif:endIndex "148" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w231w232w233> nif:anchorOf "Drie weken later" ;
+    nif:beginIndex "1267" ;
+    nif:endIndex "1283" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w236w237w238> nif:anchorOf "11 mei 1941" ;
+    nif:beginIndex "1288" ;
+    nif:endIndex "1299" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w239> nif:BeginIndex "1300" ;
+    nif:anchorOf "arresteerde" ;
+    nif:endIndex "1311" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w241w242> nif:anchorOf "Sicherheitsdienst Bierhuijs" ;
+    nif:beginIndex "1315" ;
+    nif:endIndex "1342" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w244> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "1346" ;
+    nif:endIndex "1355" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w246> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1357" ;
+    nif:endIndex "1360" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w246" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w247> nif:BeginIndex "1361" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1364" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w250w251w252w253> nif:anchorOf "Anton van der Waals" ;
+    nif:beginIndex "1381" ;
+    nif:endIndex "1400" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w255w256w257> nif:anchorOf "twee weken later" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1420" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w258> nif:BeginIndex "1421" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1424" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w25w26> nif:anchorOf "Johannes Bierhuijs" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "169" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w265> nif:anchorOf "Joseph" ;
+    nif:beginIndex "1461" ;
+    nif:endIndex "1467" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w268> nif:anchorOf "Bierhuijs" ;
+    nif:beginIndex "1479" ;
+    nif:endIndex "1488" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w270w271> nif:anchorOf "Henk Schoenmaker" ;
+    nif:beginIndex "1490" ;
+    nif:endIndex "1506" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w274w275> nif:anchorOf "Joseph Klingen" ;
+    nif:beginIndex "1518" ;
+    nif:endIndex "1532" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w277> nif:BeginIndex "1540" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1552" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w280> nif:anchorOf "Waalsdorpervlakte" ;
+    nif:beginIndex "1559" ;
+    nif:endIndex "1576" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w282> nif:anchorOf "Zietse" ;
+    nif:beginIndex "1578" ;
+    nif:endIndex "1584" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w283> nif:BeginIndex "1585" ;
+    nif:anchorOf "overleefde" ;
+    nif:endIndex "1595" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w284w285> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "1596" ;
+    nif:endIndex "1605" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w285" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w287> nif:BeginIndex "1609" ;
+    nif:anchorOf "getuigde" ;
+    nif:endIndex "1617" ;
+    nif:lemma "getuigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w288w289w290> nif:anchorOf "in het proces" ;
+    nif:beginIndex "1618" ;
+    nif:endIndex "1631" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w288" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w29> nif:anchorOf "1918" ;
+    nif:beginIndex "178" ;
+    nif:endIndex "182" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w292w293w294> nif:anchorOf "Van der Waals" ;
+    nif:beginIndex "1638" ;
+    nif:endIndex "1651" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w296> nif:anchorOf "die" ;
+    nif:beginIndex "1653" ;
+    nif:endIndex "1656" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w296" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w298w299w300> nif:anchorOf "7 mei 1948" ;
+    nif:beginIndex "1660" ;
+    nif:endIndex "1670" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w301w302> nif:anchorOf "ter dood" ;
+    nif:beginIndex "1671" ;
+    nif:endIndex "1679" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w301" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w304> nif:BeginIndex "1685" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "1696" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w307w308w309> nif:anchorOf "26 januari 1950" ;
+    nif:beginIndex "1701" ;
+    nif:endIndex "1716" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w31> nif:anchorOf "Batavia" ;
+    nif:beginIndex "186" ;
+    nif:endIndex "193" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w310> nif:BeginIndex "1717" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "1721" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w311w312w313w314w315> nif:anchorOf "de voltrekking van het vonnis" ;
+    nif:beginIndex "1722" ;
+    nif:endIndex "1751" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w312" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w316> nif:anchorOf "plaats" ;
+    nif:beginIndex "1752" ;
+    nif:endIndex "1758" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w316" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w32> nif:BeginIndex "194" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "201" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w321> nif:anchorOf "Bierhuijs" ;
+    nif:beginIndex "1776" ;
+    nif:endIndex "1785" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w322> nif:BeginIndex "1786" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1788" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w34> nif:BeginIndex "205" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "209" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w39> nif:anchorOf "Nederland" ;
+    nif:beginIndex "240" ;
+    nif:endIndex "249" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w4> nif:anchorOf "Batavia" ;
+    nif:beginIndex "16" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w41> nif:anchorOf "daar" ;
+    nif:beginIndex "253" ;
+    nif:endIndex "257" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w41" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w43> nif:anchorOf "Haarlemse" ;
+    nif:beginIndex "261" ;
+    nif:endIndex "270" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w44> nif:anchorOf "MTS" ;
+    nif:beginIndex "271" ;
+    nif:endIndex "274" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w46> nif:BeginIndex "278" ;
+    nif:anchorOf "volgen" ;
+    nif:endIndex "284" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w48> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "289" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w48" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w49> nif:BeginIndex "290" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "296" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w50> nif:anchorOf "deel" ;
+    nif:beginIndex "297" ;
+    nif:endIndex "301" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w50" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w56> nif:anchorOf "Heemstede" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "338" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w57> nif:anchorOf "die" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w57" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w58w59w60> nif:anchorOf "onder de leiding" ;
+    nif:beginIndex "343" ;
+    nif:endIndex "359" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w61> nif:BeginIndex "360" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "365" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w64> nif:anchorOf "Joseph" ;
+    nif:beginIndex "378" ;
+    nif:endIndex "384" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w66w67> nif:anchorOf "Johannes Klingen" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "402" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w69> nif:anchorOf "Bierhuijs" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w6w7w8> nif:anchorOf "15 november 1918" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "41" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w70> nif:BeginIndex "414" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "417" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w80w81> nif:anchorOf "20 april" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "469" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w83w84w85> nif:anchorOf "21 april 1941" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "486" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w86> nif:BeginIndex "487" ;
+    nif:anchorOf "probeerde" ;
+    nif:endIndex "496" ;
+    nif:lemma "proberen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w87> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "500" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w87" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w88w89> nif:anchorOf "met anderen" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "512" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w90> nif:anchorOf "sabotage" ;
+    nif:beginIndex "513" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w90" ;
+    nif:lemma "sabotage" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w92> nif:BeginIndex "525" ;
+    nif:anchorOf "plegen" ;
+    nif:endIndex "531" ;
+    nif:lemma "plegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w95> nif:anchorOf "Duitse" ;
+    nif:beginIndex "539" ;
+    nif:endIndex "545" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w98w99> nif:anchorOf "Die sabotagepoging" ;
+    nif:beginIndex "553" ;
+    nif:endIndex "571" ;
+    nif:head "bgnProc:1094__Hans_Bierhuijs.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_139t_140t_141> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w140w141w142> ;
+    xs:date "1941-05-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_144t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w145w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_235t_236t_237> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w236w237w238> ;
+    xs:date "1941-05-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_28> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w29> ;
+    xs:gYear "1918" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_283t_284> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w284w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_287t_288t_289> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w288w289w290> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_295> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w296> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_297t_298t_299> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w298w299w300> ;
+    xs:date "1948-05-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_300t_301> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w301w302> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_306t_307t_308> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w307w308w309> ;
+    xs:date "1950-01-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_310t_311t_312t_313t_314> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w311w312w313w314w315> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_315> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w316> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_82t_83t_84> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w83w84w85> ;
+    xs:date "1941-04-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_87t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w88w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w98w99> .
+
+bgn:Person-1094 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w108w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w122w123>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w152w153w154w155>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w158w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w204w205w206>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w208>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w210>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w228w229>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w241w242>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w244>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w250w251w252w253>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w25w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w265>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w268>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w270w271>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w274w275>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w280>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w282>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w292w293w294>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w321>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w66w67>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1094__Hans_Bierhuijs.naf#w95> .
+

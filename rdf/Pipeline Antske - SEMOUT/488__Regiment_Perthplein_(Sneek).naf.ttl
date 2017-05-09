@@ -1,0 +1,256 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_13t_14t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_72t_73t_74t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_79t_80t_81t_82t_83t_84t_85t_86t_87t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_84t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_87>,
+        bgn:Person-488 ;
+    ore:proxyFor bgn:Person-488 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w15> nif:lemma "rotonde" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w54> nif:lemma "plein" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w73> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w81> nif:lemma "gedenken_zuil" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-488__Regiment_Perthplein_(Sneek)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-488__Regiment_Perthplein_(Sneek)> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-488 ;
+    bgn:aggregatedPerson bgn:Person-488 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-488__Regiment_Perthplein_(Sneek)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-488__Regiment_Perthplein_(Sneek)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w19> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_13t_14t_15t_16t_17> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w30> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_13t_14t_15t_16t_17> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w4> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w51> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_40> ;
+    pb:Arg1 bgn:Person-488 ;
+    pb:Arg2 bgn:Person-488 .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w55> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_52t_53> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_56> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w57> ;
+    xs:gYear "1990" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w60> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_52t_53> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w79> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_79t_80t_81t_82t_83t_84t_85t_86t_87t_88> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_72t_73t_74t_75t_76t_77> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_84t_85t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w85w86w87> ;
+    xs:date "1995-05-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w88> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w10> nif:anchorOf "Zwetteplan" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w12> nif:anchorOf "Sneek" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w14w15w16w17w18> nif:anchorOf "De rotonde op dit plein" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "101" ;
+    nif:head "bgnProc:488__Regiment_Perthplein_(Sneek).naf#w15" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w19> nif:BeginIndex "102" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "104" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w2w3> nif:anchorOf "Regiment Perthplein" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w30> nif:BeginIndex "159" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "161" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w34> nif:anchorOf "Canadese" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "188" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w38w39> nif:anchorOf "Regiment Perth" ;
+    nif:beginIndex "208" ;
+    nif:endIndex "222" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w4> nif:BeginIndex "24" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "26" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w41> nif:anchorOf "die" ;
+    nif:beginIndex "224" ;
+    nif:endIndex "227" ;
+    nif:head "bgnProc:488__Regiment_Perthplein_(Sneek).naf#w41" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w42> nif:anchorOf "Sneek" ;
+    nif:beginIndex "228" ;
+    nif:endIndex "233" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w48w49> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w51> nif:BeginIndex "281" ;
+    nif:anchorOf "bevrijd" ;
+    nif:endIndex "288" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w53w54> nif:anchorOf "Het plein" ;
+    nif:beginIndex "290" ;
+    nif:endIndex "299" ;
+    nif:head "bgnProc:488__Regiment_Perthplein_(Sneek).naf#w54" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w55> nif:BeginIndex "300" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "302" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w57> nif:anchorOf "1990" ;
+    nif:beginIndex "306" ;
+    nif:endIndex "310" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w60> nif:BeginIndex "322" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "324" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w70w71> nif:anchorOf "Maple Leaf" ;
+    nif:beginIndex "369" ;
+    nif:endIndex "379" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w73w74w75w76w77w78> nif:anchorOf "Aan de rand van de rotonde" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "407" ;
+    nif:head "bgnProc:488__Regiment_Perthplein_(Sneek).naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w79> nif:BeginIndex "408" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "413" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w80w81w82w83w84w85w86w87w88w89> nif:anchorOf "een gedenkzuil die op 1 mei 1995 is onthuld" ;
+    nif:beginIndex "414" ;
+    nif:endIndex "458" ;
+    nif:head "bgnProc:488__Regiment_Perthplein_(Sneek).naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w83> nif:anchorOf "die" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "433" ;
+    nif:head "bgnProc:488__Regiment_Perthplein_(Sneek).naf#w83" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w85w86w87> nif:anchorOf "1 mei 1995" ;
+    nif:beginIndex "437" ;
+    nif:endIndex "447" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w88> nif:BeginIndex "448" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "450" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_72t_73t_74t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w73w74w75w76w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_79t_80t_81t_82t_83t_84t_85t_86t_87t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w80w81w82w83w84w85w86w87w88w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_13t_14t_15t_16t_17> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w14w15w16w17w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#t_52t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w53w54> .
+
+bgn:Person-488 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w48w49>,
+        <http://data.biographynet.nl/rdf/170506221754/488__Regiment_Perthplein_(Sneek).naf#w70w71> .
+

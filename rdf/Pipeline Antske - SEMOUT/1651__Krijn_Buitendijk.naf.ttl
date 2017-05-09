@@ -1,0 +1,793 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_117t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_152t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_162t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_195t_196t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_231t_232t_233t_234t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_254t_255t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_263t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_29t_30t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_45t_46t_47t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_99>,
+        bgn:Person-1651 ;
+    ore:proxyFor bgn:Person-1651 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w119> nif:lemma "verzet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w144> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w154> nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w162> nif:lemma "vliegtuig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w163> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w187> nif:lemma "leven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w196> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w232> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w265> nif:lemma "gegeven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w70> nif:lemma "bemanning" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1651__Krijn_Buitendijk#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1651__Krijn_Buitendijk .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1651 ;
+    bgn:aggregatedPerson bgn:Person-1651 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1651__Krijn_Buitendijk ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1651__Krijn_Buitendijk ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w114> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_99> ;
+    pb:A2 bgn:Person-1651 ;
+    pb:AM-LOC bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w12w13w14> ;
+    xs:date "1998-01-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w121> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_117t_118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_130> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w131> ;
+    xs:gYear "1922",
+        "1987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_137> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w138> ;
+    xs:gYear "1909",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w146> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_142t_143t_144> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w16> ;
+    pb:ArgM-TMP bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w155> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_152t_153> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_156> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w160> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_160t_161> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_162t_163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_168> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w169> ;
+    pb:ArgM bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_173> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w174> ;
+    pb:Arg1 bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w185> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_180t_181t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_185t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w192> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_180t_181t_182t_183> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_198> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w199> ;
+    pb:A1 bgn:Person-1651 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_195t_196t_197> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w206> ;
+    pb:Arg0 bgn:Person-1651 ;
+    pb:Arg1 bgn:Person-1651 ;
+    pb:ArgM-LOC bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_219> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w223> ;
+    pb:Arg1 bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_229> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w230> ;
+    pb:A0 bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_235> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_237> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w238> ;
+    pb:Arg1 bgn:Person-1651 ;
+    pb:Arg4 bgn:Person-1651 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_231t_232t_233t_234t_235> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w245> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_245> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_248> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_246> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_243> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_251> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w252> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_252> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_258> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_254t_255t_256> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_261> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w262> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_263t_264> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_260> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_29t_30t_31> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w30w31w32> ;
+    xs:date "1944-08-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w33> ;
+    pb:A0 bgn:Person-1651 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_45t_46t_47t_48t_49> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w46w47w48w49w50> ;
+    xs:date "2017-05-02T21:56" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w6w7w8> ;
+    xs:date "1921-11-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w71> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_68t_69> ;
+    pb:Arg2 bgn:Person-1651 .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w92> ;
+    pb:Arg1 bgn:Person-1651 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w100> nif:anchorOf "die" ;
+    nif:beginIndex "538" ;
+    nif:endIndex "541" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w100" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w104w105w106> nif:anchorOf "Bureau Bijzondere Opdrachten" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "586" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w109> nif:anchorOf "Hendrik" ;
+    nif:beginIndex "604" ;
+    nif:endIndex "611" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w111> nif:anchorOf "Hedel" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "624" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w113> nif:anchorOf "Deurne" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "634" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w114> nif:BeginIndex "635" ;
+    nif:anchorOf "gedropt" ;
+    nif:endIndex "642" ;
+    nif:lemma "droppen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w118w119> nif:anchorOf "het verzet" ;
+    nif:beginIndex "660" ;
+    nif:endIndex "670" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w121> nif:BeginIndex "674" ;
+    nif:anchorOf "ondersteunen" ;
+    nif:endIndex "686" ;
+    nif:lemma "ondersteunen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w123w124> nif:anchorOf "Krijn Buitendijk" ;
+    nif:beginIndex "688" ;
+    nif:endIndex "704" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w126w127w128w129> nif:anchorOf "Jacky van der Meer" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "724" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w12w13w14> nif:anchorOf "13 januari 1998" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w131> nif:anchorOf "1922-1987" ;
+    nif:beginIndex "726" ;
+    nif:endIndex "735" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w135w136> nif:anchorOf "Gerrit Kroon" ;
+    nif:beginIndex "750" ;
+    nif:endIndex "762" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w138> nif:anchorOf "1909-1945" ;
+    nif:beginIndex "764" ;
+    nif:endIndex "773" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w141> nif:anchorOf "Ook" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "779" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w141" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w143w144w145> nif:anchorOf "een aantal containers" ;
+    nif:beginIndex "787" ;
+    nif:endIndex "808" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w146> nif:BeginIndex "809" ;
+    nif:anchorOf "afgeworpen" ;
+    nif:endIndex "819" ;
+    nif:lemma "af_werpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w149> nif:anchorOf "Buitendijk" ;
+    nif:beginIndex "828" ;
+    nif:endIndex "838" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w150> nif:BeginIndex "839" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "842" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w153w154> nif:anchorOf "Zo ver" ;
+    nif:beginIndex "866" ;
+    nif:endIndex "872" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w154" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w155> nif:BeginIndex "873" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "877" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w157> nif:anchorOf "niet" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "886" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w157" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w16> nif:BeginIndex "75" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "78" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w160> nif:BeginIndex "902" ;
+    nif:anchorOf "schoot" ;
+    nif:endIndex "908" ;
+    nif:lemma "schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w161w162> nif:anchorOf "het vliegtuig" ;
+    nif:beginIndex "909" ;
+    nif:endIndex "922" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w162" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w163w164> nif:anchorOf "in brand" ;
+    nif:beginIndex "923" ;
+    nif:endIndex "931" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w169> nif:BeginIndex "947" ;
+    nif:anchorOf "crash-landing" ;
+    nif:endIndex "960" ;
+    nif:lemma "crash_landing" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w172> nif:anchorOf "Henriëttewaard" ;
+    nif:beginIndex "967" ;
+    nif:endIndex "981" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w174> nif:BeginIndex "987" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "994" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w176w177> nif:anchorOf "Norman Slade" ;
+    nif:beginIndex "996" ;
+    nif:endIndex "1008" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "83" ;
+    nif:endIndex "94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w180w181w182w183w184> nif:anchorOf "F/O Arnold Keith Michael Dean" ;
+    nif:beginIndex "1026" ;
+    nif:endIndex "1055" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w185> nif:BeginIndex "1056" ;
+    nif:anchorOf "verloren" ;
+    nif:endIndex "1064" ;
+    nif:lemma "verliezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w186w187> nif:anchorOf "het leven" ;
+    nif:beginIndex "1065" ;
+    nif:endIndex "1074" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w187" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w191> nif:anchorOf "Engelen" ;
+    nif:beginIndex "1088" ;
+    nif:endIndex "1095" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w192> nif:BeginIndex "1096" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "1104" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w194> nif:anchorOf "Huntley" ;
+    nif:beginIndex "1106" ;
+    nif:endIndex "1113" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w196w197w198> nif:anchorOf "in een ziekenhuis" ;
+    nif:beginIndex "1119" ;
+    nif:endIndex "1136" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w196" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w199> nif:BeginIndex "1137" ;
+    nif:anchorOf "opgenomen" ;
+    nif:endIndex "1146" ;
+    nif:lemma "op_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w1w2> nif:anchorOf "Buitendijk" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w201> nif:anchorOf "Green" ;
+    nif:beginIndex "1148" ;
+    nif:endIndex "1153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w203w204w205> nif:anchorOf "F/O C Carter" ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1169" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w206> nif:BeginIndex "1170" ;
+    nif:anchorOf "overleefden" ;
+    nif:endIndex "1181" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w211w212> nif:anchorOf "Luft I" ;
+    nif:beginIndex "1210" ;
+    nif:endIndex "1216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w214> nif:anchorOf "Barth" ;
+    nif:beginIndex "1221" ;
+    nif:endIndex "1226" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w216w217> nif:anchorOf "Gerrit Kroon" ;
+    nif:beginIndex "1228" ;
+    nif:endIndex "1240" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w220> nif:BeginIndex "1254" ;
+    nif:anchorOf "gewond" ;
+    nif:endIndex "1260" ;
+    nif:lemma "gewond" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w223> nif:BeginIndex "1269" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "1281" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w225> nif:anchorOf "Buitendijk" ;
+    nif:beginIndex "1283" ;
+    nif:endIndex "1293" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w227w228w229> nif:anchorOf "Van der Meer" ;
+    nif:beginIndex "1297" ;
+    nif:endIndex "1309" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w230> nif:BeginIndex "1310" ;
+    nif:anchorOf "ontsnapten" ;
+    nif:endIndex "1320" ;
+    nif:lemma "ontsnappen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w232w233w234w235w236> nif:anchorOf "Toen de oorlog voorbij was" ;
+    nif:beginIndex "1323" ;
+    nif:endIndex "1349" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w236> nif:BeginIndex "1346" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1349" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w238> nif:BeginIndex "1351" ;
+    nif:anchorOf "emigreerde" ;
+    nif:endIndex "1361" ;
+    nif:lemma "emigreren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w239> nif:anchorOf "Buitendijk" ;
+    nif:beginIndex "1362" ;
+    nif:endIndex "1372" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w241> nif:anchorOf "Australië" ;
+    nif:beginIndex "1378" ;
+    nif:endIndex "1387" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w244> nif:anchorOf "1974" ;
+    nif:beginIndex "1396" ;
+    nif:endIndex "1400" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w245> nif:BeginIndex "1401" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1405" ;
+    nif:lemma "terug_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w246> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1406" ;
+    nif:endIndex "1409" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w246" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w247> nif:anchorOf "terug" ;
+    nif:beginIndex "1410" ;
+    nif:endIndex "1415" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w247" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w249> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1421" ;
+    nif:endIndex "1430" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w251> nif:anchorOf "Daarna" ;
+    nif:beginIndex "1432" ;
+    nif:endIndex "1438" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w251" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w252> nif:BeginIndex "1439" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "1445" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w253> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1446" ;
+    nif:endIndex "1449" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w253" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w254> nif:anchorOf "weer" ;
+    nif:beginIndex "1450" ;
+    nif:endIndex "1454" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w254" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w255w256w257> nif:anchorOf "een paar jaar" ;
+    nif:beginIndex "1455" ;
+    nif:endIndex "1468" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w259> nif:anchorOf "Vlaardingen" ;
+    nif:beginIndex "1472" ;
+    nif:endIndex "1483" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w261> nif:anchorOf "Verder" ;
+    nif:beginIndex "1485" ;
+    nif:endIndex "1491" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w261" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w262> nif:BeginIndex "1492" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1496" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w264w265> nif:anchorOf "geen gegevens" ;
+    nif:beginIndex "1500" ;
+    nif:endIndex "1513" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w265" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w30w31w32> nif:anchorOf "28 augustus 1944" ;
+    nif:beginIndex "157" ;
+    nif:endIndex "173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w33> nif:BeginIndex "174" ;
+    nif:anchorOf "vertrok" ;
+    nif:endIndex "181" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w36w37w38> nif:anchorOf "Halifax MkV MA-W" ;
+    nif:beginIndex "198" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w4> nif:anchorOf "Vlaardingen" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w40> nif:anchorOf "van" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "224" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w40" ;
+    nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w43w44w45> nif:anchorOf "Special Duties Squadron" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "256" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w46w47w48w49w50> nif:anchorOf "om 21 : 56 uur" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "269" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w53> nif:anchorOf "Tempsford" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "293" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w59w60w61> nif:anchorOf "Special Duties Squadrons" ;
+    nif:beginIndex "318" ;
+    nif:endIndex "342" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w67> nif:anchorOf "Squadron" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "372" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w69w70> nif:anchorOf "De bemanning" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "386" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w6w7w8> nif:anchorOf "28 november 1921" ;
+    nif:beginIndex "31" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w71> nif:BeginIndex "387" ;
+    nif:anchorOf "bestond" ;
+    nif:endIndex "394" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w73> nif:BeginIndex "399" ;
+    nif:anchorOf "zeven" ;
+    nif:endIndex "404" ;
+    nif:lemma "zeven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w74> nif:anchorOf "Engelsen" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w79> nif:anchorOf "P" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "428" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w84> nif:anchorOf "Huntley" ;
+    nif:beginIndex "443" ;
+    nif:endIndex "450" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w87w88w89> nif:anchorOf "Norman Frances Slade" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "484" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w91> nif:anchorOf "Verder" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "492" ;
+    nif:head "bgnProc:1651__Krijn_Buitendijk.naf#w91" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w92> nif:BeginIndex "493" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "498" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w95> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "507" ;
+    nif:endIndex "518" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_117t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w118w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_152t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w153w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_160t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w161w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_162t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w163w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_195t_196t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w196w197w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_231t_232t_233t_234t_235> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w232w233w234w235w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_243> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w244> ;
+    xs:gYear "1974" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_246> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w247> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_252> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_254t_255t_256> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w255w256w257> ;
+    xs:period "PXY" .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_260> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w261> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_263t_264> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w264w265> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w100> .
+
+bgn:Person-1651 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w104w105w106>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w123w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w126w127w128w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w135w136>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w172>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w176w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w180w181w182w183w184>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w191>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w201>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w203w204w205>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w211w212>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w214>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w216w217>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w225>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w227w228w229>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w241>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w249>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w259>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w36w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w43w44w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w59w60w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w87w88w89>,
+        <http://data.biographynet.nl/rdf/170506221754/1651__Krijn_Buitendijk.naf#w95> .
+

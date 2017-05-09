@@ -1,0 +1,700 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_114t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_118t_119t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_135t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_144t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_157t_158t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_171t_172t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_183t_184t_185t_186t_187t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_193t_194t_195t_196t_197t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_195t_196t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_220t_221t_222t_223t_224t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_9t_10t_11>,
+        bgn:Person-220 ;
+    ore:proxyFor bgn:Person-220 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w116> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w120> nif:lemma "reis" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w137> nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w145> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w158> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w172> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w185> nif:lemma "omroeper" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w196> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w221> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w60> nif:lemma "broer" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-220__Max_Groen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-220__Max_Groen .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-220 ;
+    bgn:aggregatedPerson bgn:Person-220 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-220__Max_Groen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-220__Max_Groen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w112> ;
+    pb:A1 bgn:Person-220 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_114t_115t_116> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w117> ;
+    pb:Arg0 bgn:Person-220 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w129> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_124> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_118t_119t_120t_121t_122> ;
+    pb:ArgM-MNR bgn:Person-220 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_127> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w139> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_155>,
+        bgn:Person-220 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_135t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_149> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w144> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_144t_145t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w16w17w18> ;
+    xs:date "2004-07-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w163> ;
+    pb:A0 bgn:Person-220 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_157t_158t_159> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w175> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_175> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_183t_184t_185t_186t_187t_188> ;
+    pb:ArgM-PRD bgn:Person-220 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_171t_172t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_177> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_188> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w189> ;
+    xs:period "PT1H" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w192> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_192> ;
+    pb:ArgM-DIS bgn:Person-220 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_190> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_193t_194t_195t_196t_197t_198t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w195> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_195t_196t_198t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w219> ;
+    pb:A1 bgn:Person-220 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_220t_221t_222t_223t_224t_225> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w27> ;
+    pb:ArgM-LOC bgn:Person-220 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_24> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w33> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_31> ;
+    pb:ArgM-LOC bgn:Person-220 .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w41> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_31> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_46>,
+        bgn:Person-220 .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w68> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_62> ;
+    pb:ArgM-TMP bgn:Person-220 .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w75> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w78> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_78> ;
+    pb:AM-LOC bgn:Person-220 ;
+    pb:AM-TMP bgn:Person-220 .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w85> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_83> ;
+    pb:ArgM-PNC bgn:Person-220 .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w10w11w12> ;
+    xs:date "1918-01-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w1> nif:anchorOf "Max" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w101> nif:BeginIndex "560" ;
+    nif:anchorOf "vervaardigen" ;
+    nif:endIndex "572" ;
+    nif:lemma "vervaardigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w10w11w12> nif:anchorOf "25 januari 1918" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w112> nif:BeginIndex "623" ;
+    nif:anchorOf "hoopten" ;
+    nif:endIndex "630" ;
+    nif:lemma "hopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w114> nif:anchorOf "Engelse" ;
+    nif:beginIndex "634" ;
+    nif:endIndex "641" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w115> nif:anchorOf "economie" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "650" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w115" ;
+    nif:lemma "economie" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w115w116w117> nif:anchorOf "economie te ontwrichten" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "665" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w117> nif:BeginIndex "654" ;
+    nif:anchorOf "ontwrichten" ;
+    nif:endIndex "665" ;
+    nif:lemma "ontwrichten" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w119w120w121w122w123> nif:anchorOf "Zijn reis langs de concentratiekampen" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "704" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w123> nif:BeginIndex "686" ;
+    nif:anchorOf "concentratiekampen" ;
+    nif:endIndex "704" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w125> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "711" ;
+    nif:endIndex "714" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w125" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w127> nif:anchorOf "1989" ;
+    nif:beginIndex "718" ;
+    nif:endIndex "722" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w128> nif:anchorOf "opnieuw" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "730" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w128" ;
+    nif:lemma "opnieuw" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w129> nif:BeginIndex "731" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "738" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w133w134> nif:anchorOf "Ton Kors" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "764" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w136w137w138> nif:anchorOf "Van die reis" ;
+    nif:beginIndex "766" ;
+    nif:endIndex "778" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w139> nif:BeginIndex "779" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "781" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w141> nif:anchorOf "1990" ;
+    nif:beginIndex "785" ;
+    nif:endIndex "789" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w144> nif:BeginIndex "799" ;
+    nif:anchorOf "verschenen" ;
+    nif:endIndex "809" ;
+    nif:lemma "verschenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w145w146w147> nif:anchorOf "onder de titel" ;
+    nif:beginIndex "810" ;
+    nif:endIndex "824" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w148w149w150> nif:anchorOf "De Tocht Opnieuw" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "841" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w152w153w154> nif:anchorOf "uitgeverij Van Gennep" ;
+    nif:beginIndex "846" ;
+    nif:endIndex "867" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w156> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "871" ;
+    nif:endIndex "880" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w158w159w160> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "895" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w162> nif:anchorOf "Groen" ;
+    nif:beginIndex "902" ;
+    nif:endIndex "907" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w163> nif:BeginIndex "908" ;
+    nif:anchorOf "gewerkt" ;
+    nif:endIndex "915" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w169w170> nif:anchorOf "Radio Veronica" ;
+    nif:beginIndex "949" ;
+    nif:endIndex "963" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w16w17w18> nif:anchorOf "30 juli 2004" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w172w173w174> nif:anchorOf "Bij die omroep" ;
+    nif:beginIndex "965" ;
+    nif:endIndex "979" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w172" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w175> nif:BeginIndex "980" ;
+    nif:anchorOf "vormde" ;
+    nif:endIndex "986" ;
+    nif:lemma "vormen" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w176> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "987" ;
+    nif:endIndex "990" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w176" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w178> nif:anchorOf "1960" ;
+    nif:beginIndex "994" ;
+    nif:endIndex "998" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w181w182w183> nif:anchorOf "Ellen van Eck" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1022" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w184w185w186w187w188w189> nif:anchorOf "de omroepers van het eerste uur" ;
+    nif:beginIndex "1023" ;
+    nif:endIndex "1054" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w185" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w189> nif:anchorOf "uur" ;
+    nif:beginIndex "1051" ;
+    nif:endIndex "1054" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w191> nif:anchorOf "Verder" ;
+    nif:beginIndex "1056" ;
+    nif:endIndex "1062" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w191" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w192> nif:BeginIndex "1063" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "1070" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w193> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1074" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w193" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w194w195w196w197w198w199w200w201> nif:anchorOf "enkele gastrollen in tv-producties onder meer in" ;
+    nif:beginIndex "1075" ;
+    nif:endIndex "1124" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w195" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w195> nif:BeginIndex "1082" ;
+    nif:anchorOf "gastrollen" ;
+    nif:endIndex "1092" ;
+    nif:lemma "gast_rol" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w196w197w199w200w201> nif:anchorOf "in tv-producties onder meer in" ;
+    nif:beginIndex "1093" ;
+    nif:endIndex "1124" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w196" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w20> nif:BeginIndex "77" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "80" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w209> nif:anchorOf "VARA" ;
+    nif:beginIndex "1155" ;
+    nif:endIndex "1159" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w211w212> nif:anchorOf "Max Groen" ;
+    nif:beginIndex "1161" ;
+    nif:endIndex "1170" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w217> nif:anchorOf "Zorgvlied" ;
+    nif:beginIndex "1202" ;
+    nif:endIndex "1211" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w219> nif:BeginIndex "1215" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1220" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w220> nif:anchorOf "daar" ;
+    nif:beginIndex "1221" ;
+    nif:endIndex "1225" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w220" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w221w222w223w224w225w226> nif:anchorOf "op de lijst van bekende personen" ;
+    nif:beginIndex "1226" ;
+    nif:endIndex "1258" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w25> nif:anchorOf "later" ;
+    nif:beginIndex "125" ;
+    nif:endIndex "130" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w25" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w27> nif:BeginIndex "142" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "146" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w29w30> nif:anchorOf "Radio Veronica" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "165" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w32> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "168" ;
+    nif:endIndex "171" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w32" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w33> nif:BeginIndex "172" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "176" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w37> nif:anchorOf "Amsterdams" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "203" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w38> nif:anchorOf "Joods" ;
+    nif:beginIndex "204" ;
+    nif:endIndex "209" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w3w4> nif:anchorOf "Meijer Louis" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w41> nif:BeginIndex "219" ;
+    nif:anchorOf "overleefde" ;
+    nif:endIndex "229" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w43> nif:BeginIndex "234" ;
+    nif:anchorOf "concentratiekampen" ;
+    nif:endIndex "252" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w45> nif:anchorOf "Ebensee" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "261" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w47> nif:anchorOf "Redl-Zipf" ;
+    nif:beginIndex "263" ;
+    nif:endIndex "272" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w49> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "284" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w51> nif:anchorOf "Oranienburg" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w53> nif:anchorOf "Auschwitz" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "308" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w55w56> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "312" ;
+    nif:endIndex "322" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w59w60> nif:anchorOf "zijn broertje" ;
+    nif:beginIndex "332" ;
+    nif:endIndex "345" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w6> nif:anchorOf "Groen" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w61> nif:anchorOf "Rudi" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "350" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w63> nif:anchorOf "die" ;
+    nif:beginIndex "352" ;
+    nif:endIndex "355" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w63" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w68> nif:BeginIndex "375" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "383" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w74> nif:anchorOf "Sobibór" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "414" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w75> nif:BeginIndex "415" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "419" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w78> nif:BeginIndex "430" ;
+    nif:anchorOf "ontsnapte" ;
+    nif:endIndex "439" ;
+    nif:lemma "ontsnappen" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w79w80> nif:anchorOf "Groen aan" ;
+    nif:beginIndex "440" ;
+    nif:endIndex "449" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w8> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "35" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w84> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "471" ;
+    nif:endIndex "474" ;
+    nif:head "bgnProc:220__Max_Groen.naf#w84" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w85> nif:BeginIndex "475" ;
+    nif:anchorOf "geselecteerd" ;
+    nif:endIndex "487" ;
+    nif:lemma "selecteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w91> nif:anchorOf "Bernard" ;
+    nif:beginIndex "512" ;
+    nif:endIndex "519" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_114t_115t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w115w116w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_118t_119t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w119w120w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_126> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w127> ;
+    xs:gYear "1989" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_135t_136t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w136w137w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_140> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w141> ;
+    xs:gYear "1990" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_144t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w145w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_157t_158t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w158w159w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_171t_172t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w172w173w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_177> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w178> ;
+    xs:gYear "1960" .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_183t_184t_185t_186t_187t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w184w185w186w187w188w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_193t_194t_195t_196t_197t_198t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w194w195w196w197w198w199w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_195t_196t_198t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w196w197w199w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_220t_221t_222t_223t_224t_225> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w221w222w223w224w225w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w32> .
+
+bgn:Person-220 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w133w134>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w148w149w150>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w152w153w154>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w156>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w162>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w169w170>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w181w182w183>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w209>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w211w212>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w79w80>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/220__Max_Groen.naf#w91> .
+

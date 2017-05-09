@@ -1,0 +1,958 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_10t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_126t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_131t_132t_133t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154t_155t_156t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_172t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_210t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_227t_228t_229t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_247t_248t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_253t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_256t_257>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_26t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_270>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_294t_295t_296t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_300t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_302>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_310t_311>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_312>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_313>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_319t_320>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_322>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_336>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_339t_340>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_33t_34t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_342t_343t_344>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_57t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_74t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_79>,
+        bgn:Person-114 ;
+    ore:proxyFor bgn:Person-114 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w12> nif:lemma "museum" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w128> nif:lemma "diorama" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w132> nif:lemma "over" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w146> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w173> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w211> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w228> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w250> nif:lemma "locatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w258> nif:lemma "museum" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w28> nif:lemma "museum" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w295> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w312> nif:lemma "museum" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w321> nif:lemma "vliegtuig" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w34> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w47> nif:lemma "slag" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w58> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w69> nif:lemma "oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w76> nif:lemma "museum" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-114__Museum_Bevrijdende_Vleugels#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-114__Museum_Bevrijdende_Vleugels .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-114 ;
+    bgn:aggregatedPerson bgn:Person-114 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-114__Museum_Bevrijdende_Vleugels ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-114__Museum_Bevrijdende_Vleugels ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_12> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w13> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_10t_11> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w126> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_126t_127> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_144> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154t_155t_156t_157> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w131> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_131t_132t_133t_134> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w137> ;
+    pb:Arg1 bgn:Person-114 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w161> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_163> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w168> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w176> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_172t_173t_174> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_171> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w195> ;
+    pb:Arg1 bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w200> ;
+    pb:A0 bgn:Person-114 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_186> ;
+    pb:AM-PNC bgn:Person-114 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_188> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_202> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w203> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_205> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w206> ;
+    xs:gYear "1921",
+        "2010" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_219> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w220> ;
+    pb:Arg1 bgn:Person-114 ;
+    pb:Arg2 bgn:Person-114 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_210t_211t_212t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w233> ;
+    pb:Arg1 bgn:Person-114 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_227t_228t_229t_230t_231> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_242> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w243> ;
+    pb:A0 bgn:Person-114 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_247t_248t_249> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_241> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_248> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w249> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_267> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w268> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_256t_257> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_253t_254>,
+        bgn:Person-114 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_260> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_270> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w271> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_291>,
+        bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_271> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w272> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_291>,
+        bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w29> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_26t_27> ;
+    pb:A2 bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_301> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w302> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_302> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w303> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_300t_301> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_294t_295t_296t_297>,
+        bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_312> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w313> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_310t_311> ;
+    pb:Arg1 bgn:Person-114 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_313> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_322> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w323> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_319t_320> ;
+    pb:ArgM-TMP bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_336> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w337> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_342t_343t_344> ;
+    pb:ArgM bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_339t_340> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w340w341> ;
+    xs:date "2017-05-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w5> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w43> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_32>,
+        bgn:Person-114 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_33t_34t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w51> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_45t_46> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_48> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_49> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w53> ;
+    pb:Arg0 bgn:Person-114 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_56> ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_62> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_57t_58t_59t_60> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w73> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_67t_68> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w79> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_74t_75t_76t_77> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w80> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_74t_75t_76t_77> ;
+    pb:Arg2 bgn:Person-114 .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w108w109> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "632" ;
+    nif:endIndex "651" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w111> nif:anchorOf "Nederland" ;
+    nif:beginIndex "655" ;
+    nif:endIndex "664" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w11w12> nif:anchorOf "Het museum" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "65" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w12" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w126> nif:BeginIndex "744" ;
+    nif:anchorOf "In" ;
+    nif:endIndex "746" ;
+    nif:lemma "innen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w127w128> nif:anchorOf "verschillende diorama" ;
+    nif:beginIndex "747" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w129> nif:anchorOf "'s" ;
+    nif:beginIndex "768" ;
+    nif:endIndex "770" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w129" ;
+    nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w13> nif:BeginIndex "66" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "68" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w131> nif:BeginIndex "772" ;
+    nif:anchorOf "verdeeld" ;
+    nif:endIndex "780" ;
+    nif:lemma "verdeeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w132w133w134w135> nif:anchorOf "over een aantal hallen" ;
+    nif:beginIndex "781" ;
+    nif:endIndex "803" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w132" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w137> nif:BeginIndex "805" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "809" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w141w142> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "824" ;
+    nif:endIndex "843" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w143> nif:anchorOf "opgezet" ;
+    nif:beginIndex "844" ;
+    nif:endIndex "851" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w143" ;
+    nif:lemma "opgezet" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w145> nif:anchorOf "compleet" ;
+    nif:beginIndex "853" ;
+    nif:endIndex "861" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w145" ;
+    nif:lemma "compleet" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w146w147w148w149w150w151w152w153w154w155w156w157w158> nif:anchorOf "met originele uniformen voertuigen vliegtuigen en andere voorwerpen uit de oorlogstijd" ;
+    nif:beginIndex "862" ;
+    nif:endIndex "950" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w161> nif:BeginIndex "956" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "960" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w164> nif:anchorOf "'s" ;
+    nif:beginIndex "968" ;
+    nif:endIndex "970" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w164" ;
+    nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w166> nif:anchorOf "films" ;
+    nif:beginIndex "974" ;
+    nif:endIndex "979" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w166" ;
+    nif:lemma "film" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w168> nif:BeginIndex "983" ;
+    nif:anchorOf "bekijken" ;
+    nif:endIndex "991" ;
+    nif:lemma "bekijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w170> nif:anchorOf "Regelmatig" ;
+    nif:beginIndex "993" ;
+    nif:endIndex "1003" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w170" ;
+    nif:lemma "regelmatig" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w172> nif:anchorOf "rondleidingen" ;
+    nif:beginIndex "1011" ;
+    nif:endIndex "1024" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w172" ;
+    nif:lemma "rondleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w173w174w175> nif:anchorOf "door het museum" ;
+    nif:beginIndex "1025" ;
+    nif:endIndex "1040" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w176> nif:BeginIndex "1041" ;
+    nif:anchorOf "verzorgd" ;
+    nif:endIndex "1049" ;
+    nif:lemma "verzorgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w178w179w180> nif:anchorOf "Museum Bevrijdende Vleugels" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1079" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w17w18> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "83" ;
+    nif:endIndex "102" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w181> nif:BeginIndex "1080" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1082" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w186> nif:BeginIndex "1111" ;
+    nif:anchorOf "tentoonstelling" ;
+    nif:endIndex "1126" ;
+    nif:lemma "tentoonstelling" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w187> nif:anchorOf "die" ;
+    nif:beginIndex "1127" ;
+    nif:endIndex "1130" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w187" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w189> nif:anchorOf "1984" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1138" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w195> nif:BeginIndex "1172" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "1182" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w197w198w199> nif:anchorOf "Operatie Market Garden" ;
+    nif:beginIndex "1187" ;
+    nif:endIndex "1209" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w200> nif:BeginIndex "1210" ;
+    nif:anchorOf "georganiseerd" ;
+    nif:endIndex "1223" ;
+    nif:lemma "organiseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w203> nif:anchorOf "Jan" ;
+    nif:beginIndex "1234" ;
+    nif:endIndex "1237" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w203w204> nif:anchorOf "Jan Driessen" ;
+    nif:beginIndex "1234" ;
+    nif:endIndex "1246" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w206> nif:anchorOf "1921-2010" ;
+    nif:beginIndex "1248" ;
+    nif:endIndex "1257" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w209> nif:anchorOf "Veghel" ;
+    nif:beginIndex "1262" ;
+    nif:endIndex "1268" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w211w212w213w214> nif:anchorOf "Vanwege het grote succes" ;
+    nif:beginIndex "1270" ;
+    nif:endIndex "1294" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w211" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w219> nif:anchorOf "Driessen" ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1325" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w220> nif:BeginIndex "1326" ;
+    nif:anchorOf "ondergebracht" ;
+    nif:endIndex "1339" ;
+    nif:lemma "onder_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w226> nif:anchorOf "Veghel" ;
+    nif:beginIndex "1367" ;
+    nif:endIndex "1373" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w228w229w230w231w232> nif:anchorOf "Door uitbreiding van de collectie" ;
+    nif:beginIndex "1375" ;
+    nif:endIndex "1408" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w228" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w233> nif:BeginIndex "1409" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1413" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w237> nif:anchorOf "Veghel" ;
+    nif:beginIndex "1427" ;
+    nif:endIndex "1433" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w23w24w25> nif:anchorOf "Operatie Market Garden" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "141" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w242> nif:anchorOf "1996" ;
+    nif:beginIndex "1449" ;
+    nif:endIndex "1453" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w243> nif:BeginIndex "1454" ;
+    nif:anchorOf "stelde" ;
+    nif:endIndex "1460" ;
+    nif:lemma "stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w247> nif:anchorOf "Defensie" ;
+    nif:beginIndex "1480" ;
+    nif:endIndex "1488" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w248w249w250> nif:anchorOf "de huidige locatie" ;
+    nif:beginIndex "1489" ;
+    nif:endIndex "1507" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w250" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w249> nif:anchorOf "huidige" ;
+    nif:beginIndex "1492" ;
+    nif:endIndex "1499" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w254w255> nif:anchorOf "september 1997" ;
+    nif:beginIndex "1524" ;
+    nif:endIndex "1538" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w257w258> nif:anchorOf "het museum" ;
+    nif:beginIndex "1544" ;
+    nif:endIndex "1554" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w258" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w261> nif:anchorOf "huidige" ;
+    nif:beginIndex "1563" ;
+    nif:endIndex "1570" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w267> nif:anchorOf "Bernhard" ;
+    nif:beginIndex "1605" ;
+    nif:endIndex "1613" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w268> nif:BeginIndex "1614" ;
+    nif:anchorOf "geopend" ;
+    nif:endIndex "1621" ;
+    nif:lemma "openen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w271> nif:BeginIndex "1627" ;
+    nif:anchorOf "zien" ;
+    nif:endIndex "1631" ;
+    nif:lemma "zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w272> nif:BeginIndex "1632" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1636" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w276> nif:anchorOf "V1" ;
+    nif:beginIndex "1654" ;
+    nif:endIndex "1656" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w279> nif:anchorOf "Waco" ;
+    nif:beginIndex "1662" ;
+    nif:endIndex "1666" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w27w28> nif:anchorOf "Het museum" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "154" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w28" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w283> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "1696" ;
+    nif:endIndex "1707" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w285> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1711" ;
+    nif:endIndex "1717" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w29> nif:BeginIndex "155" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "160" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w292> nif:anchorOf "Duits" ;
+    nif:beginIndex "1766" ;
+    nif:endIndex "1771" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w295w296w297w298> nif:anchorOf "In een link trainer" ;
+    nif:beginIndex "1783" ;
+    nif:endIndex "1802" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w295" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w2w3w4> nif:anchorOf "Museum Bevrijdende Vleugels" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w301w302> nif:anchorOf "een simulatievlucht" ;
+    nif:beginIndex "1810" ;
+    nif:endIndex "1829" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w302" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w302> nif:BeginIndex "1814" ;
+    nif:anchorOf "simulatievlucht" ;
+    nif:endIndex "1829" ;
+    nif:lemma "simulatie_vlucht" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w303> nif:BeginIndex "1830" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "1840" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w308> nif:anchorOf "Dakota" ;
+    nif:beginIndex "1861" ;
+    nif:endIndex "1867" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w311w312> nif:anchorOf "Het museum" ;
+    nif:beginIndex "1878" ;
+    nif:endIndex "1888" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w312" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w313> nif:BeginIndex "1889" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1892" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w314> nif:anchorOf "ook" ;
+    nif:beginIndex "1893" ;
+    nif:endIndex "1896" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w314" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w316> nif:anchorOf "Dakota" ;
+    nif:beginIndex "1901" ;
+    nif:endIndex "1907" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w320w321> nif:anchorOf "dat vliegtuig" ;
+    nif:beginIndex "1919" ;
+    nif:endIndex "1932" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w321" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w323> nif:BeginIndex "1938" ;
+    nif:anchorOf "vernield" ;
+    nif:endIndex "1946" ;
+    nif:lemma "vernielen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w33> nif:anchorOf "waarin" ;
+    nif:beginIndex "175" ;
+    nif:endIndex "181" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w33" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w333w334w335> nif:anchorOf "Soldaat van Oranje" ;
+    nif:beginIndex "2000" ;
+    nif:endIndex "2018" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w337> nif:BeginIndex "2021" ;
+    nif:anchorOf "Tentoonstelling" ;
+    nif:endIndex "2036" ;
+    nif:lemma "tentoonstelling" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w340w341> nif:anchorOf "8 mei" ;
+    nif:beginIndex "2061" ;
+    nif:endIndex "2066" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w343w344w345> nif:anchorOf "6 juni 2012" ;
+    nif:beginIndex "2071" ;
+    nif:endIndex "2082" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w348> nif:anchorOf "Buitenhuys" ;
+    nif:beginIndex "2090" ;
+    nif:endIndex "2100" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w34w35w36> nif:anchorOf "tijdens de operatie" ;
+    nif:beginIndex "182" ;
+    nif:endIndex "201" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w34" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w350w351w352w353> nif:anchorOf "Museum Bevrijdende Vleugels Museumwebsite" ;
+    nif:beginIndex "2105" ;
+    nif:endIndex "2147" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w40> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "220" ;
+    nif:endIndex "231" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w41w42> nif:anchorOf "101e Luchtlandingsdivisie" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "257" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w43> nif:BeginIndex "258" ;
+    nif:anchorOf "landden" ;
+    nif:endIndex "265" ;
+    nif:lemma "landen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w46w47> nif:anchorOf "de slag" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "281" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w49> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "292" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w5> nif:BeginIndex "32" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "34" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w50> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "305" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w50" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w51> nif:BeginIndex "306" ;
+    nif:anchorOf "mislukte" ;
+    nif:endIndex "314" ;
+    nif:lemma "mislukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w53> nif:BeginIndex "316" ;
+    nif:anchorOf "bracht" ;
+    nif:endIndex "322" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w55w56> nif:anchorOf "Market Garden" ;
+    nif:beginIndex "332" ;
+    nif:endIndex "345" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w57> nif:anchorOf "hoop" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "350" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w57" ;
+    nif:lemma "hoop" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w58w59w60w61> nif:anchorOf "voor het bezette deel" ;
+    nif:beginIndex "351" ;
+    nif:endIndex "372" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w63> nif:anchorOf "Nederland" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "386" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w66> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "391" ;
+    nif:endIndex "403" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w66" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w68w69> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "409" ;
+    nif:endIndex "418" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w69" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w71w72> nif:anchorOf "een jaar" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "434" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w73> nif:BeginIndex "435" ;
+    nif:anchorOf "beëindigd" ;
+    nif:endIndex "444" ;
+    nif:lemma "beëindigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w75w76w77w78> nif:anchorOf "Het museum dat" ;
+    nif:beginIndex "446" ;
+    nif:endIndex "461" ;
+    nif:head "bgnProc:114__Museum_Bevrijdende_Vleugels.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w79> nif:BeginIndex "462" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "464" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w80> nif:BeginIndex "465" ;
+    nif:anchorOf "ondergebracht" ;
+    nif:endIndex "478" ;
+    nif:lemma "onder_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w84> nif:anchorOf "MOB-complex" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "507" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w89> nif:anchorOf "Best" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "530" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w9> nif:anchorOf "Best" ;
+    nif:beginIndex "49" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w91> nif:anchorOf "Son" ;
+    nif:beginIndex "534" ;
+    nif:endIndex "537" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_10t_11> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w11w12> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_126t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w127w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_131t_132t_133t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w132w133w134w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154t_155t_156t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w146w147w148w149w150w151w152w153w154w155w156w157w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_169> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_172t_173t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w173w174w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_188> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w189> ;
+    xs:gYear "1984" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_210t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w211w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_227t_228t_229t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w228w229w230w231w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_241> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w242> ;
+    xs:gYear "1996" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_247t_248t_249> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w248w249w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_253t_254> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w254w255> ;
+    xs:gYearMonth "1997-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_256t_257> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w257w258> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_260> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w261> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_26t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w27w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_294t_295t_296t_297> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w295w296w297w298> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_300t_301> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w301w302> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_310t_311> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w311w312> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_313> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w314> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_319t_320> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w320w321> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_33t_34t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w34w35w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_342t_343t_344> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w343w344w345> ;
+    xs:date "2012-06-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_45t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w46w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_57t_58t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w58w59w60w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_70t_71> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w71w72> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#t_74t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w75w76w77w78> .
+
+bgn:Person-114 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w108w109>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w141w142>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w178w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w17w18>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w197w198w199>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w203w204>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w209>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w219>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w226>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w23w24w25>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w247>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w267>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w276>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w279>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w283>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w285>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w292>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w308>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w316>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w333w334w335>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w348>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w350w351w352w353>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w40>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w41w42>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w89>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/114__Museum_Bevrijdende_Vleugels.naf#w91> .
+

@@ -1,0 +1,775 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_101t_102t_103t_104t_105t_106t_97t_98t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_140t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_157t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_166t_167t_168t_169t_170t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_170t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_181t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_191t_192t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_32t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_83t_84t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_91t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_96>,
+        bgn:Person-864 ;
+    ore:proxyFor bgn:Person-864 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w103> nif:lemma "werker" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w123> nif:lemma "nadat" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w125> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w132> nif:lemma "spoor_weg" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w146> nif:lemma "stationschef" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w159> nif:lemma "burgemeester" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w161> nif:lemma "spoorweg_medewerker" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w167> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w171> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w182> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w192> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w217> nif:lemma "jood" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w51> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w84> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w92> nif:lemma "aan" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-864__Tjeerd_van_der_Weide#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-864__Tjeerd_van_der_Weide .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-864 ;
+    bgn:aggregatedPerson bgn:Person-864 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-864__Tjeerd_van_der_Weide ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-864__Tjeerd_van_der_Weide ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w110> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_108> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_119>,
+        bgn:Person-864 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_110> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_127> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w128> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_123> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_124t_125t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w136> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_130t_131> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_138> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w150> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_148> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_144t_145> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_140t_141t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w15w16w17> ;
+    xs:date "1947-06-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w154> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w157> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_157t_158> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_159t_160>,
+        bgn:Person-864 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_166t_167t_168t_169t_170t_171t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w170> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_167> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_170t_171t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w185> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_181t_182t_183> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_180> ;
+    pb:ArgM-MNR bgn:Person-864 ;
+    pb:ArgM-PNC bgn:Person-864 .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w195> ;
+    pb:A0 bgn:Person-864 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_191t_192t_193> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_201> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w202> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w213> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_203> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_211> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w218> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_214t_215t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_32t_33> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w33w34> ;
+    xs:gYearMonth "1942-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_38> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w39> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w45> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_45>,
+        bgn:Person-864 .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w53> ;
+    pb:Arg0 bgn:Person-864 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_45> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_50t_51> ;
+    pb:ArgM-TMP bgn:Person-864 .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w59> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_45> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_55t_56t_57>,
+        bgn:Person-864 .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w64> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w82> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w88> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_88> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_91t_92> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_89> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_83t_84t_85t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w9w10w11> ;
+    xs:date "1885-10-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w97> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_101t_102t_103t_104t_105t_106t_97t_98t_99> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w102w103w104w105w106w107w98w99w100> nif:anchorOf "illegale werkers en willekeurig verdachte personen van ondergedoken joden" ;
+    nif:beginIndex "545" ;
+    nif:endIndex "619" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w103" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w109> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "622" ;
+    nif:endIndex "625" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w109" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w110> nif:BeginIndex "626" ;
+    nif:anchorOf "arresteerde" ;
+    nif:endIndex "637" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w111> nif:anchorOf "persoonlijk" ;
+    nif:beginIndex "638" ;
+    nif:endIndex "649" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w111" ;
+    nif:lemma "persoonlijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w112w113> nif:anchorOf "Herman Pieter" ;
+    nif:beginIndex "650" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w115> nif:anchorOf "Noo" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "670" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w120> nif:anchorOf "IJmuiden" ;
+    nif:beginIndex "692" ;
+    nif:endIndex "700" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w122> nif:anchorOf "1943" ;
+    nif:beginIndex "704" ;
+    nif:endIndex "708" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w123w124w125w126w127w128w129w130w131w132w133w134w135w136w137w138w139> nif:anchorOf "nadat deze in het openbaar aangegeven had dat de spoorwegen deel hadden moeten uitmaken van de april-meistakingen" ;
+    nif:beginIndex "709" ;
+    nif:endIndex "822" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w123" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w124> nif:anchorOf "deze" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "719" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w124" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w125w126w127> nif:anchorOf "in het openbaar" ;
+    nif:beginIndex "720" ;
+    nif:endIndex "735" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w127> nif:BeginIndex "727" ;
+    nif:anchorOf "openbaar" ;
+    nif:endIndex "735" ;
+    nif:lemma "openbaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w128> nif:BeginIndex "736" ;
+    nif:anchorOf "aangegeven" ;
+    nif:endIndex "746" ;
+    nif:lemma "aan_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w13> nif:anchorOf "Weesperkarspel" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w131w132> nif:anchorOf "de spoorwegen" ;
+    nif:beginIndex "755" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w132" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w133> nif:anchorOf "deel" ;
+    nif:beginIndex "769" ;
+    nif:endIndex "773" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w133" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w136> nif:BeginIndex "788" ;
+    nif:anchorOf "uitmaken" ;
+    nif:endIndex "796" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w139> nif:anchorOf "april-meistakingen" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "822" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w141w142w143> nif:anchorOf "De volgende dag" ;
+    nif:beginIndex "824" ;
+    nif:endIndex "839" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w145w146> nif:anchorOf "de stationschef" ;
+    nif:beginIndex "845" ;
+    nif:endIndex "860" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w149> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "869" ;
+    nif:endIndex "877" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w150> nif:BeginIndex "878" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "890" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w154> nif:BeginIndex "903" ;
+    nif:anchorOf "spoorwegstaking" ;
+    nif:endIndex "918" ;
+    nif:lemma "spoor_weg_staking" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w156> nif:anchorOf "1944" ;
+    nif:beginIndex "922" ;
+    nif:endIndex "926" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w157> nif:BeginIndex "927" ;
+    nif:anchorOf "dreigde" ;
+    nif:endIndex "934" ;
+    nif:lemma "dreigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w158w159> nif:anchorOf "de burgemeester" ;
+    nif:beginIndex "935" ;
+    nif:endIndex "950" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w159" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w15w16w17> nif:anchorOf "6 juni 1947" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "86" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w160w161> nif:anchorOf "alle spoorwegmedewerkers" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "975" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w161" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w166> nif:anchorOf "SS" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1001" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w167w168w169w170w171w172w173> nif:anchorOf "als ze zouden deelnemen aan de staking" ;
+    nif:beginIndex "1002" ;
+    nif:endIndex "1040" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w167" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w168> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1006" ;
+    nif:endIndex "1008" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w168" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w170> nif:BeginIndex "1016" ;
+    nif:anchorOf "deelnemen" ;
+    nif:endIndex "1025" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w171w172w173> nif:anchorOf "aan de staking" ;
+    nif:beginIndex "1026" ;
+    nif:endIndex "1040" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w171" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w178> nif:anchorOf "pro-Duitse" ;
+    nif:beginIndex "1060" ;
+    nif:endIndex "1070" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w181> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1083" ;
+    nif:endIndex "1086" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w181" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w182w183w184> nif:anchorOf "door de bezetter" ;
+    nif:beginIndex "1087" ;
+    nif:endIndex "1103" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w185> nif:BeginIndex "1104" ;
+    nif:anchorOf "beloond" ;
+    nif:endIndex "1111" ;
+    nif:lemma "belonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w188> nif:anchorOf "Kriegsverdienstkreuz" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1140" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w19> nif:BeginIndex "88" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "91" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w192w193w194> nif:anchorOf "Tijdens zijn berechting" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1176" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w192" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w195> nif:BeginIndex "1177" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "1180" ;
+    nif:lemma "aan_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w196w197w198> nif:anchorOf "Van Der Weide" ;
+    nif:beginIndex "1181" ;
+    nif:endIndex "1194" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w1w2> nif:anchorOf "Ottes" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w201> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1203" ;
+    nif:endIndex "1206" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w201" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w202> nif:BeginIndex "1207" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "1211" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w204> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1216" ;
+    nif:endIndex "1219" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w204" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w210> nif:BeginIndex "1256" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1259" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w212> nif:anchorOf "niet" ;
+    nif:beginIndex "1263" ;
+    nif:endIndex "1267" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w212" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w213> nif:BeginIndex "1268" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "1272" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w215w216w217> nif:anchorOf "de gedeporteerde joden" ;
+    nif:beginIndex "1277" ;
+    nif:endIndex "1299" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w217" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w218> nif:BeginIndex "1300" ;
+    nif:anchorOf "omgebracht" ;
+    nif:endIndex "1310" ;
+    nif:lemma "om_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w22> nif:anchorOf "Velsen" ;
+    nif:beginIndex "109" ;
+    nif:endIndex "115" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w25> nif:anchorOf "NSB" ;
+    nif:beginIndex "126" ;
+    nif:endIndex "129" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w27w28w29> nif:anchorOf "Van der Weide" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w30> nif:BeginIndex "146" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "149" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w33w34> nif:anchorOf "augustus 1942" ;
+    nif:beginIndex "167" ;
+    nif:endIndex "180" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w39> nif:anchorOf "1945" ;
+    nif:beginIndex "202" ;
+    nif:endIndex "206" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w43w44> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "214" ;
+    nif:endIndex "233" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w45> nif:BeginIndex "234" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "238" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w46> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "239" ;
+    nif:endIndex "242" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w46" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w49w50> nif:anchorOf "Bijzondere Rechtspleging" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "275" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w5> nif:anchorOf "Weide" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w51w52> nif:anchorOf "ter dood" ;
+    nif:beginIndex "276" ;
+    nif:endIndex "284" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w51" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w53> nif:BeginIndex "285" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "296" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w56w57w58> nif:anchorOf "6 juni 1947" ;
+    nif:beginIndex "303" ;
+    nif:endIndex "314" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w59> nif:BeginIndex "315" ;
+    nif:anchorOf "geëxecuteerd" ;
+    nif:endIndex "327" ;
+    nif:lemma "executeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w61w62w63> nif:anchorOf "Van der Weide" ;
+    nif:beginIndex "330" ;
+    nif:endIndex "343" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w64> nif:BeginIndex "344" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "347" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w7> nif:anchorOf "Wonseradeel" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w72> nif:anchorOf "IJmuiden" ;
+    nif:beginIndex "395" ;
+    nif:endIndex "403" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w74> nif:anchorOf "Velsen" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w80> nif:anchorOf "Atlantikwall" ;
+    nif:beginIndex "434" ;
+    nif:endIndex "446" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w82> nif:BeginIndex "450" ;
+    nif:anchorOf "faciliteren" ;
+    nif:endIndex "461" ;
+    nif:lemma "faciliteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w84w85w86w87> nif:anchorOf "In zijn vrije tijd" ;
+    nif:beginIndex "463" ;
+    nif:endIndex "481" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w84" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w88> nif:BeginIndex "482" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "485" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w89> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "489" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w89" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w90> nif:anchorOf "actief" ;
+    nif:beginIndex "490" ;
+    nif:endIndex "496" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w90" ;
+    nif:lemma "actief" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w91> nif:anchorOf "deel" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "501" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w91" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w92w93> nif:anchorOf "aan huiszoekingen" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "519" ;
+    nif:head "bgnProc:864__Tjeerd_van_der_Weide.naf#w92" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w97> nif:BeginIndex "536" ;
+    nif:anchorOf "verhoren" ;
+    nif:endIndex "544" ;
+    nif:lemma "verhoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w9w10w11> nif:anchorOf "27 oktober 1885" ;
+    nif:beginIndex "41" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_101t_102t_103t_104t_105t_106t_97t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w102w103w104w105w106w107w98w99w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_121> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w122> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w123w124w125w126w127w128w129w130w131w132w133w134w135w136w137w138w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w131w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_138> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w139> ;
+    xs:gYearMonth "2017-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_140t_141t_142> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w141w142w143> ;
+    xs:date "1947-06-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_157t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w158w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_166t_167t_168t_169t_170t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w167w168w169w170w171w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_170t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w171w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_181t_182t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w182w183w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_191t_192t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w192w193w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_55t_56t_57> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w56w57w58> ;
+    xs:date "1947-06-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_83t_84t_85t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w84w85w86w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_91t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w92w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_155> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w156> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w46> .
+
+bgn:Person-864 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w112w113>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w188>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w196w197w198>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w27w28w29>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w49w50>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w61w62w63>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/864__Tjeerd_van_der_Weide.naf#w80> .
+

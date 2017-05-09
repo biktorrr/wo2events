@@ -1,0 +1,751 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_107t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_111t_112t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_152t_153t_154t_155t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_202t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_219t_220t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_24t_25t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_49t_50t_51t_52t_53t_54t_55t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_67t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_88>,
+        bgn:Person-417 ;
+    ore:proxyFor bgn:Person-417 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w108> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w112> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w140> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w153> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w204> nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w220> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w25> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w51> nif:lemma "carrière" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w67> nif:lemma "keer" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-417__Harry_Davis#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-417__Harry_Davis .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-417 ;
+    bgn:aggregatedPerson bgn:Person-417 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-417__Harry_Davis ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-417__Harry_Davis ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w110> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_107t_108> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_111t_112t_113>,
+        bgn:Person-417 .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w118> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_116> ;
+    pb:AM-LOC bgn:Person-417 .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w127> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_124>,
+        bgn:Person-417 .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w13w14w15> ;
+    xs:date "2011-10-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w132> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_124> ;
+    pb:ArgM-PNC bgn:Person-417 .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_142> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w143> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_143> ;
+    pb:A2 bgn:Person-417 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_154t_155> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w155w156> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w161> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_151> ;
+    pb:ArgM-ADV bgn:Person-417 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_150>,
+        bgn:Person-417 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_152t_153t_154t_155t_156> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w168> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_168> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_183>,
+        bgn:Person-417 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_166> ;
+    pb:AM-MNR bgn:Person-417 .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w200> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w205> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_202t_203> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_207> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_206> ;
+    pb:ArgM-LOC bgn:Person-417 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_205> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_216> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w217> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_217> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_219t_220t_221t_222t_223> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_215> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_220> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w221> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_23> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w24> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_21> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_24t_25t_26> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w42> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_42> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w49> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_47> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_49t_50t_51t_52t_53t_54t_55t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w60> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_60> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w6w7w8> ;
+    xs:date "1924-03-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w65> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_58> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_67t_68t_69> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_73> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w74> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w84> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_84> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_85> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w88> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_88> ;
+    pb:AM-MNR bgn:Person-417 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w101w102> nif:anchorOf "Stéphane Grappelli" ;
+    nif:beginIndex "529" ;
+    nif:endIndex "547" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w104w105> nif:anchorOf "Django Reinhardt" ;
+    nif:beginIndex "551" ;
+    nif:endIndex "567" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w108w109> nif:anchorOf "Als zangeres" ;
+    nif:beginIndex "570" ;
+    nif:endIndex "582" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w108" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w10w11> nif:anchorOf "Los Angeles" ;
+    nif:beginIndex "39" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w110> nif:BeginIndex "583" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "587" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w112w113w114> nif:anchorOf "tijdens de oorlogsjaren" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "614" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w112" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w117> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "629" ;
+    nif:endIndex "631" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w117" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w118> nif:BeginIndex "632" ;
+    nif:anchorOf "optrad" ;
+    nif:endIndex "638" ;
+    nif:lemma "op_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w120> nif:anchorOf "Engelse" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "651" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w125> a bgn:pron_3fs ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "677" ;
+    nif:endIndex "679" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w125" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w127> nif:BeginIndex "685" ;
+    nif:anchorOf "ontdekt" ;
+    nif:endIndex "692" ;
+    nif:lemma "ontdekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w129w130> nif:anchorOf "Glenn Miller" ;
+    nif:beginIndex "698" ;
+    nif:endIndex "710" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w132> nif:BeginIndex "714" ;
+    nif:anchorOf "zong" ;
+    nif:endIndex "718" ;
+    nif:lemma "zingen" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w135w136w137w138> nif:anchorOf "Army Air Force Orchestra" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "751" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w13w14w15> nif:anchorOf "28 oktober 2011" ;
+    nif:beginIndex "52" ;
+    nif:endIndex "67" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w140w141w142> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "753" ;
+    nif:endIndex "765" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w143> nif:BeginIndex "766" ;
+    nif:anchorOf "vertrok" ;
+    nif:endIndex "773" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w144> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "774" ;
+    nif:endIndex "776" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w144" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w146w147> nif:anchorOf "Los Angeles" ;
+    nif:beginIndex "782" ;
+    nif:endIndex "793" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w149> nif:anchorOf "Amerika" ;
+    nif:beginIndex "797" ;
+    nif:endIndex "804" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w151> nif:anchorOf "waar" ;
+    nif:beginIndex "806" ;
+    nif:endIndex "810" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w151" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w152> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "813" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w152" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w153w154w155w156w157> nif:anchorOf "onder meer een jaar lang" ;
+    nif:beginIndex "814" ;
+    nif:endIndex "838" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w155w156> nif:anchorOf "een jaar" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "833" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w159w160> nif:anchorOf "Frank Sinatra" ;
+    nif:beginIndex "845" ;
+    nif:endIndex "858" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w161> nif:BeginIndex "859" ;
+    nif:anchorOf "zong" ;
+    nif:endIndex "863" ;
+    nif:lemma "zingen" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w163w164> nif:anchorOf "Your Hit" ;
+    nif:beginIndex "867" ;
+    nif:endIndex "875" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w167> nif:anchorOf "Ook" ;
+    nif:beginIndex "884" ;
+    nif:endIndex "887" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w167" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w168> nif:BeginIndex "888" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "894" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w169> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "895" ;
+    nif:endIndex "897" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w169" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w17> nif:BeginIndex "69" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "72" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w171w172> nif:anchorOf "Jane Russell" ;
+    nif:beginIndex "902" ;
+    nif:endIndex "914" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w174w175> nif:anchorOf "Connie Haines" ;
+    nif:beginIndex "916" ;
+    nif:endIndex "929" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w177w178> nif:anchorOf "Della Russell" ;
+    nif:beginIndex "933" ;
+    nif:endIndex "946" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w181w182> nif:anchorOf "Rhonda Fleming" ;
+    nif:beginIndex "954" ;
+    nif:endIndex "968" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w184> nif:anchorOf "deel" ;
+    nif:beginIndex "970" ;
+    nif:endIndex "974" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w184" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w19> nif:anchorOf "Britse" ;
+    nif:beginIndex "77" ;
+    nif:endIndex "83" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w190w191w192> nif:anchorOf "The Four Girls" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1018" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w1w2> nif:anchorOf "Davis" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "11" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w200> nif:BeginIndex "1054" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "1060" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w203w204> nif:anchorOf "De groep" ;
+    nif:beginIndex "1074" ;
+    nif:endIndex "1082" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w204" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w205> nif:BeginIndex "1083" ;
+    nif:anchorOf "bracht" ;
+    nif:endIndex "1089" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w206> nif:anchorOf "later" ;
+    nif:beginIndex "1090" ;
+    nif:endIndex "1095" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w206" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w207> nif:anchorOf "ook" ;
+    nif:beginIndex "1096" ;
+    nif:endIndex "1099" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w207" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w208> nif:anchorOf "gospels" ;
+    nif:beginIndex "1100" ;
+    nif:endIndex "1107" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w208" ;
+    nif:lemma "gospels" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w212w213w214> nif:anchorOf "Hollywood Christian Group" ;
+    nif:beginIndex "1122" ;
+    nif:endIndex "1147" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w216> nif:anchorOf "Verder" ;
+    nif:beginIndex "1149" ;
+    nif:endIndex "1155" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w216" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w217> nif:BeginIndex "1156" ;
+    nif:anchorOf "trad" ;
+    nif:endIndex "1160" ;
+    nif:lemma "op_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w218> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1161" ;
+    nif:endIndex "1163" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w218" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w22> a bgn:pron_3fs ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "103" ;
+    nif:endIndex "105" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w22" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w220w221w222w223w224> nif:anchorOf "in variety-shows en in films" ;
+    nif:beginIndex "1167" ;
+    nif:endIndex "1195" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w220" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w221> nif:BeginIndex "1170" ;
+    nif:anchorOf "variety-shows" ;
+    nif:endIndex "1183" ;
+    nif:lemma "variety_show" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w24> nif:BeginIndex "111" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "118" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w25w26w27> nif:anchorOf "in een showbusiness-familie" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "146" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w25" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w31> nif:BeginIndex "159" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "162" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w34w35> nif:anchorOf "Harry Davis" ;
+    nif:beginIndex "177" ;
+    nif:endIndex "188" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w39w40w41> nif:anchorOf "Lisa Davis Waltz" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "217" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w4> nif:anchorOf "Plymouth" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "21" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w42> nif:BeginIndex "218" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "222" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w43> nif:anchorOf "later" ;
+    nif:beginIndex "223" ;
+    nif:endIndex "228" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w43" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w48> a bgn:pron_3fs ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "250" ;
+    nif:endIndex "252" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w48" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w49> nif:BeginIndex "253" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "258" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w50w51w52w53w54w55w56w57> nif:anchorOf "haar carrière in de band van haar vader" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "298" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w51" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w59> a bgn:pron_3fs ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "302" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w59" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w60> nif:BeginIndex "303" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "306" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w61> nif:anchorOf "ook" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "310" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w61" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w65> nif:BeginIndex "328" ;
+    nif:anchorOf "won" ;
+    nif:endIndex "331" ;
+    nif:lemma "winnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w66w67> nif:anchorOf "twee keer" ;
+    nif:beginIndex "332" ;
+    nif:endIndex "341" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w67" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w68w69w70> nif:anchorOf "de nationale tapdans-kampioenschappen" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "379" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w6w7w8> nif:anchorOf "16 maart 1924" ;
+    nif:beginIndex "23" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w70> nif:BeginIndex "355" ;
+    nif:anchorOf "tapdans-kampioenschappen" ;
+    nif:endIndex "379" ;
+    nif:lemma "tapdans_kampioenschap" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w74> nif:anchorOf "1938" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "398" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w81> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "423" ;
+    nif:endIndex "431" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w83> nif:anchorOf "Frankrijk" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "444" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w84> nif:BeginIndex "445" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "451" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w85> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "452" ;
+    nif:endIndex "454" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w85" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w86> nif:BeginIndex "455" ;
+    nif:anchorOf "geluidsopnames" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "469" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w86" ;
+    nif:lemma "geluid_opname" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w88> nif:BeginIndex "473" ;
+    nif:anchorOf "trad" ;
+    nif:endIndex "477" ;
+    nif:lemma "op_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w89> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "478" ;
+    nif:endIndex "480" ;
+    nif:head "bgnProc:417__Harry_Davis.naf#w89" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w93w94w95w96w97w98> nif:anchorOf "Quintette du Hot Club de France" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "523" .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_107t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w108w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_111t_112t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w112w113w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_139t_140t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w140w141w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_152t_153t_154t_155t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w153w154w155w156w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_202t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w203w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_21> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_215> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_219t_220t_221t_222t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w220w221w222w223w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_24t_25t_26> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w25w26w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_49t_50t_51t_52t_53t_54t_55t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w50w51w52w53w54w55w56w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_67t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w68w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w125> .
+
+bgn:Person-417 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w101w102>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w104w105>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w10w11>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w129w130>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w135w136w137w138>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w146w147>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w159w160>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w163w164>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w171w172>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w174w175>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w177w178>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w181w182>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w190w191w192>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w212w213w214>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w34w35>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w39w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/417__Harry_Davis.naf#w93w94w95w96w97w98> .
+

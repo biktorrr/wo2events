@@ -1,0 +1,274 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_62t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_7t_8t_9>,
+        bgn:Person-1338 ;
+    ore:proxyFor bgn:Person-1338 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w69> nif:lemma "naam" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1338__Pieter_van_der_Wilden#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1338__Pieter_van_der_Wilden .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1338 ;
+    bgn:aggregatedPerson bgn:Person-1338 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1338__Pieter_van_der_Wilden ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1338__Pieter_van_der_Wilden ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w14w15w16> ;
+    xs:date "1944-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w18> ;
+    pb:ArgM-TMP bgn:Person-1338 .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w48> ;
+    pb:A1 bgn:Person-1338 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_49> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_44t_45t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w56> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_52> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_53> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w66> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_57> ;
+    pb:ArgM-LOC bgn:Person-1338 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_62t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w70> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_67t_68> ;
+    pb:A2 bgn:Person-1338 .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w8w9w10> ;
+    xs:date "1914-05-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w12> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "55" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w14w15w16> nif:anchorOf "6 september 1944" ;
+    nif:beginIndex "57" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w18> nif:BeginIndex "75" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "78" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w1w2w3w4> nif:anchorOf "van der Wilden" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w21w22> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w26> nif:BeginIndex "125" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "128" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w33> nif:anchorOf "Englandspiel" ;
+    nif:beginIndex "161" ;
+    nif:endIndex "173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w35w36w37w38> nif:anchorOf "Pieter van der Wilden" ;
+    nif:beginIndex "176" ;
+    nif:endIndex "197" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w42> nif:anchorOf "Willem" ;
+    nif:beginIndex "211" ;
+    nif:endIndex "217" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w45w46w47> nif:anchorOf "18 februari 1943" ;
+    nif:beginIndex "228" ;
+    nif:endIndex "244" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w48> nif:BeginIndex "245" ;
+    nif:anchorOf "gedropt" ;
+    nif:endIndex "252" ;
+    nif:lemma "droppen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w50> nif:anchorOf "Holten" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "263" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w52> nif:anchorOf "waar" ;
+    nif:beginIndex "265" ;
+    nif:endIndex "269" ;
+    nif:head "bgnProc:1338__Pieter_van_der_Wilden.naf#w52" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w53> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "270" ;
+    nif:endIndex "273" ;
+    nif:head "bgnProc:1338__Pieter_van_der_Wilden.naf#w53" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w54> nif:anchorOf "meteen" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "280" ;
+    nif:head "bgnProc:1338__Pieter_van_der_Wilden.naf#w54" ;
+    nif:lemma "meteen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w56> nif:BeginIndex "288" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "300" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w58> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "304" ;
+    nif:head "bgnProc:1338__Pieter_van_der_Wilden.naf#w58" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w6> nif:anchorOf "Haarlem" ;
+    nif:beginIndex "23" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w61> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "315" ;
+    nif:endIndex "325" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w63w64w65> nif:anchorOf "6 september 1944" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "345" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w66> nif:BeginIndex "346" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "358" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w68w69> nif:anchorOf "Hun namen" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "369" ;
+    nif:head "bgnProc:1338__Pieter_van_der_Wilden.naf#w69" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w70> nif:BeginIndex "370" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "375" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w75> nif:anchorOf "Engelandvaarders" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "409" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w78> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "414" ;
+    nif:endIndex "424" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w80w81> nif:anchorOf "Erelijst Monument" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "445" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w83> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "449" ;
+    nif:endIndex "459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w8w9w10> nif:anchorOf "8 mei 1914" ;
+    nif:beginIndex "32" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_44t_45t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w45w46w47> ;
+    xs:date "1943-02-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_62t_63t_64> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w63w64w65> ;
+    xs:date "1944-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w68w69> .
+
+bgn:Person-1338 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w21w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w35w36w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w80w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1338__Pieter_van_der_Wilden.naf#w83> .
+

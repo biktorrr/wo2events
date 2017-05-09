@@ -1,0 +1,868 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_106t_107t_108t_109t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_113t_114t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_185t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_193t_194t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_202t_203t_204t_205t_206t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_215t_216t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_235t_236t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_257>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_262t_263t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_26t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_277t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_30t_31t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_9t_10t_11>,
+        bgn:Person-1628 ;
+    ore:proxyFor bgn:Person-1628 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w107> nif:lemma "hoewel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w109> nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w114> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w186> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w190> nif:lemma "einde" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w203> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w211> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w216> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w236> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w83> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w92> nif:lemma "inlichting" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1628__Dick_Bouwense#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1628__Dick_Bouwense .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1628 ;
+    bgn:aggregatedPerson bgn:Person-1628 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1628__Dick_Bouwense ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1628__Dick_Bouwense ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w112> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_108t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w118> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_118> ;
+    pb:A1 bgn:Person-1628 ;
+    pb:A3 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_113t_114t_115t_116> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_120t_121t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w137> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_128> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_132>,
+        bgn:Person-1628 .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w141> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_141> ;
+    pb:Arg4 bgn:Person-1628 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w152> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w16w17w18> ;
+    xs:date "1997-06-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_165> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w173> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_178> ;
+    pb:A2 bgn:Person-1628 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w191> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_188t_189> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_185t_186t_187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w209> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_197>,
+        bgn:Person-1628 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_202t_203t_204t_205t_206t_207> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_193t_194t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w219> ;
+    pb:A1 bgn:Person-1628 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_215t_216t_217> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_210t_211t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w223> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_221> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_238> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w239> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_234> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_235t_236t_237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_257> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w258> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_262t_263t_264> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w263w264w265> ;
+    xs:date "1952-09-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_26t_27t_28> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w27w28w29> ;
+    xs:date "1948-12-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_277t_278> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w278w279> ;
+    xs:period "P20Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_30t_31t_32> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w31w32w33> ;
+    xs:date "1971-07-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w36> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_34> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w48> ;
+    pb:A0 bgn:Person-1628 ;
+    pb:AM-LOC bgn:Person-1628 .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_54> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w55> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_61> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w62> ;
+    xs:period "P1M" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w67> ;
+    pb:ArgM-TMP bgn:Person-1628 .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w77> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_75> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_77> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w86> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w88> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_88> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_106t_107t_108t_109t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_96>,
+        bgn:Person-1628 .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w100> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_90t_91> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_96>,
+        bgn:Person-1628 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_97> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w10w11w12> ;
+    xs:date "1908-09-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w100> nif:BeginIndex "584" ;
+    nif:anchorOf "geven" ;
+    nif:endIndex "589" ;
+    nif:lemma "door_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w104> nif:anchorOf "Duits" ;
+    nif:beginIndex "599" ;
+    nif:endIndex "604" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w107w108w109w110w111w112> nif:anchorOf "hoewel burgers niet meer mochten varen" ;
+    nif:beginIndex "616" ;
+    nif:endIndex "654" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w109w110> nif:anchorOf "niet meer" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "640" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w10w11w12> nif:anchorOf "24 september 1908" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "64" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w112> nif:BeginIndex "649" ;
+    nif:anchorOf "varen" ;
+    nif:endIndex "654" ;
+    nif:lemma "varen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w114w115w116w117> nif:anchorOf "Voor zijn getoonde moed" ;
+    nif:beginIndex "656" ;
+    nif:endIndex "679" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w114" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w118> nif:BeginIndex "680" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "687" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w119> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "688" ;
+    nif:endIndex "691" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w119" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w121w122w123> nif:anchorOf "24 juni 1954" ;
+    nif:beginIndex "695" ;
+    nif:endIndex "707" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w125w126w127> nif:anchorOf "Kruis van Verdienste" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "732" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w129> nif:anchorOf "Deze" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "738" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w129" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w133> nif:anchorOf "Paleis" ;
+    nif:beginIndex "751" ;
+    nif:endIndex "757" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w136> nif:anchorOf "Dam" ;
+    nif:beginIndex "764" ;
+    nif:endIndex "767" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w137> nif:BeginIndex "768" ;
+    nif:anchorOf "uitgereikt" ;
+    nif:endIndex "778" ;
+    nif:lemma "uit_reiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w14> nif:anchorOf "Koudekerke" ;
+    nif:beginIndex "67" ;
+    nif:endIndex "77" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w140> nif:anchorOf "1945" ;
+    nif:beginIndex "784" ;
+    nif:endIndex "788" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w141> nif:BeginIndex "789" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "792" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w142> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "793" ;
+    nif:endIndex "796" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w142" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w147w148> nif:anchorOf "Militair Gezag" ;
+    nif:beginIndex "815" ;
+    nif:endIndex "829" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w151> nif:anchorOf "1945-1948" ;
+    nif:beginIndex "836" ;
+    nif:endIndex "845" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w152> nif:BeginIndex "846" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "849" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w157w158w159> nif:anchorOf "Stichting Herstel Zeeland" ;
+    nif:beginIndex "871" ;
+    nif:endIndex "896" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w166> nif:BeginIndex "925" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "928" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w16w17w18> nif:anchorOf "7 juni 1997" ;
+    nif:beginIndex "79" ;
+    nif:endIndex "90" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w171w172> nif:anchorOf "juli 1971" ;
+    nif:beginIndex "950" ;
+    nif:endIndex "959" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w173> nif:BeginIndex "960" ;
+    nif:anchorOf "gingen" ;
+    nif:endIndex "966" ;
+    nif:lemma "op_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w177> nif:anchorOf "Sint-Maartensdijk" ;
+    nif:beginIndex "994" ;
+    nif:endIndex "1011" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w179> nif:anchorOf "Scherpenisse" ;
+    nif:beginIndex "1015" ;
+    nif:endIndex "1027" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w184> nif:anchorOf "Tholen" ;
+    nif:beginIndex "1046" ;
+    nif:endIndex "1052" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w186w187w188> nif:anchorOf "aan zijn burgemeesterschap" ;
+    nif:beginIndex "1061" ;
+    nif:endIndex "1087" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w186" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w189w190> nif:anchorOf "een einde" ;
+    nif:beginIndex "1088" ;
+    nif:endIndex "1097" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w190" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w191> nif:BeginIndex "1098" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1102" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w194w195w196> nif:anchorOf "12 februari 1953" ;
+    nif:beginIndex "1108" ;
+    nif:endIndex "1124" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w198> nif:anchorOf "koningin" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1138" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w198" ;
+    nif:lemma "koningin" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w199> nif:anchorOf "Juliana" ;
+    nif:beginIndex "1139" ;
+    nif:endIndex "1146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w2> nif:anchorOf "Cornelis" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w20> nif:BeginIndex "92" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "95" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w201w202> nif:anchorOf "St Annaland" ;
+    nif:beginIndex "1152" ;
+    nif:endIndex "1163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w203w204w205w206w207w208> nif:anchorOf "om de gevolgen van de watersnood" ;
+    nif:beginIndex "1165" ;
+    nif:endIndex "1197" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w203" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w209> nif:BeginIndex "1198" ;
+    nif:anchorOf "bekijken" ;
+    nif:endIndex "1206" ;
+    nif:lemma "bekijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w211w212w213> nif:anchorOf "Bij die gelegenheid" ;
+    nif:beginIndex "1208" ;
+    nif:endIndex "1227" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w211" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w215> nif:anchorOf "Bouwense" ;
+    nif:beginIndex "1233" ;
+    nif:endIndex "1241" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w216w217w218> nif:anchorOf "aan de majesteit" ;
+    nif:beginIndex "1242" ;
+    nif:endIndex "1258" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w219> nif:BeginIndex "1259" ;
+    nif:anchorOf "voorgesteld" ;
+    nif:endIndex "1270" ;
+    nif:lemma "voor_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w222> nif:anchorOf "1956" ;
+    nif:beginIndex "1276" ;
+    nif:endIndex "1280" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w223> nif:BeginIndex "1281" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1284" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w23> nif:anchorOf "Sint-Maartensdijk" ;
+    nif:beginIndex "113" ;
+    nif:endIndex "130" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w230w231w232w233> nif:anchorOf "1ste Nederlandse Internationale zeehengelwedstrijd" ;
+    nif:beginIndex "1323" ;
+    nif:endIndex "1373" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w233> nif:BeginIndex "1355" ;
+    nif:anchorOf "zeehengelwedstrijd" ;
+    nif:endIndex "1373" ;
+    nif:lemma "zee_hengel_wedden_strijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w235> nif:anchorOf "die" ;
+    nif:beginIndex "1375" ;
+    nif:endIndex "1378" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w235" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w236w237w238> nif:anchorOf "op tweede pinksterdag" ;
+    nif:beginIndex "1379" ;
+    nif:endIndex "1400" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w236" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w239> nif:BeginIndex "1401" ;
+    nif:anchorOf "gehouden" ;
+    nif:endIndex "1409" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w245w246w247> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "1430" ;
+    nif:endIndex "1452" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w249> nif:anchorOf "ON.5" ;
+    nif:beginIndex "1454" ;
+    nif:endIndex "1458" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w25> nif:anchorOf "Scherpenisse" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w251w252w253> nif:anchorOf "Kruis van Verdienste" ;
+    nif:beginIndex "1461" ;
+    nif:endIndex "1481" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w255> nif:anchorOf "KV" ;
+    nif:beginIndex "1483" ;
+    nif:endIndex "1485" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w258> nif:BeginIndex "1488" ;
+    nif:anchorOf "K." ;
+    nif:endIndex "1490" ;
+    nif:lemma "K." .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w258w259> nif:anchorOf "K. B." ;
+    nif:beginIndex "1488" ;
+    nif:endIndex "1492" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w263w264w265> nif:anchorOf "11 september 1952" ;
+    nif:beginIndex "1503" ;
+    nif:endIndex "1520" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w266> nif:anchorOf "Oorlogsherinneringskruis" ;
+    nif:beginIndex "1522" ;
+    nif:endIndex "1546" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w270> nif:anchorOf "Verzetsherdenkingskruis" ;
+    nif:beginIndex "1556" ;
+    nif:endIndex "1579" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w272> nif:anchorOf "VHK" ;
+    nif:beginIndex "1581" ;
+    nif:endIndex "1584" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w274w275w276> nif:anchorOf "Nederland Rode Kruis" ;
+    nif:beginIndex "1587" ;
+    nif:endIndex "1607" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w278w279> nif:anchorOf "20 jaar" ;
+    nif:beginIndex "1609" ;
+    nif:endIndex "1616" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w27w28w29> nif:anchorOf "16 december 1948" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "167" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w283> nif:anchorOf "NRKT.xx" ;
+    nif:beginIndex "1632" ;
+    nif:endIndex "1639" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w285> nif:anchorOf "MVR.1" ;
+    nif:beginIndex "1642" ;
+    nif:endIndex "1647" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w31w32w33> nif:anchorOf "1 juli 1971" ;
+    nif:beginIndex "172" ;
+    nif:endIndex "183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w35> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "188" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w35" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w36> nif:BeginIndex "189" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "195" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w38> nif:anchorOf "Sint-Maartensdijk" ;
+    nif:beginIndex "199" ;
+    nif:endIndex "216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w4> nif:anchorOf "Dick" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w40w41> nif:anchorOf "Dick Bouwense" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w42> nif:BeginIndex "233" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "236" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w46> nif:BeginIndex "253" ;
+    nif:anchorOf "Marinestoomvaartdienst" ;
+    nif:beginIndex "253" ;
+    nif:endIndex "275" ;
+    nif:lemma "marine_stoom_vaart_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w48> nif:BeginIndex "279" ;
+    nif:anchorOf "diende" ;
+    nif:endIndex "285" ;
+    nif:lemma "dienen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w53> nif:anchorOf "Hr.Ms" ;
+    nif:beginIndex "303" ;
+    nif:endIndex "308" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w55> nif:anchorOf "Jan" ;
+    nif:beginIndex "310" ;
+    nif:endIndex "313" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w55w56w57> nif:anchorOf "Jan van Galen" ;
+    nif:beginIndex "310" ;
+    nif:endIndex "323" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w6> nif:anchorOf "Bouwense" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w62> nif:anchorOf "maanden" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "352" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w65w66> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "379" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w67> nif:BeginIndex "380" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "383" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w72> nif:anchorOf "Ordedienst" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "425" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w74> nif:anchorOf "West-Zeeuws-Vlaanderen" ;
+    nif:beginIndex "429" ;
+    nif:endIndex "451" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w76> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "453" ;
+    nif:endIndex "456" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w76" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w77> nif:BeginIndex "457" ;
+    nif:anchorOf "onderhield" ;
+    nif:endIndex "467" ;
+    nif:lemma "onderhouden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w78> nif:anchorOf "radiocontact" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "480" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w78" ;
+    nif:lemma "radio_contact" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w8> nif:anchorOf "Middelburg" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "45" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w80> nif:anchorOf "Walcheren" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "494" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w83w84w85w86> nif:anchorOf "toen dat verstoord was" ;
+    nif:beginIndex "499" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w83" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w84> nif:anchorOf "dat" ;
+    nif:beginIndex "504" ;
+    nif:endIndex "507" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w84" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w86> nif:BeginIndex "518" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "521" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w88> nif:BeginIndex "523" ;
+    nif:anchorOf "stak" ;
+    nif:endIndex "527" ;
+    nif:lemma "over_steken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w89> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "531" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w89" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w91w92> nif:anchorOf "zijn inlichtingen" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "552" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w92" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w95> nif:anchorOf "OD" ;
+    nif:beginIndex "560" ;
+    nif:endIndex "562" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w97> nif:anchorOf "Walcheren" ;
+    nif:beginIndex "566" ;
+    nif:endIndex "575" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w98> nif:anchorOf "door" ;
+    nif:beginIndex "576" ;
+    nif:endIndex "580" ;
+    nif:head "bgnProc:1628__Dick_Bouwense.naf#w98" ;
+    nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_106t_107t_108t_109t_110t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w107w108w109w110w111w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_113t_114t_115t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w114w115w116w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_120t_121t_122> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w121w122w123> ;
+    xs:date "1954-06-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_139> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w140> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_150> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w151> ;
+    xs:gYear "1945",
+        "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_170t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w171w172> ;
+    xs:gYearMonth "1971-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_185t_186t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w186w187w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_193t_194t_195> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w194w195w196> ;
+    xs:date "1953-02-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_202t_203t_204t_205t_206t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w203w204w205w206w207w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_210t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w211w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_215t_216t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w216w217w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_221> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w222> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_234> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w235> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_235t_236t_237> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w236w237w238> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_82t_83t_84t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w83w84w85w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w98> .
+
+bgn:Person-1628 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w104>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w125w126w127>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w136>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w147w148>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w157w158w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w199>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w201w202>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w230w231w232w233>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w245w246w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w249>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w251w252w253>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w255>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w258w259>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w266>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w270>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w274w275w276>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w283>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w285>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w55w56w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w65w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w80>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w95>,
+        <http://data.biographynet.nl/rdf/170506221754/1628__Dick_Bouwense.naf#w97> .
+

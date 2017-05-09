@@ -1,0 +1,480 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_132t_133t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_25t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_30t_31t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_94t_95t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_99>,
+        bgn:Person-813 ;
+    ore:proxyFor bgn:Person-813 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w130> nif:lemma "aanwezig" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w133> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w27> nif:lemma "boer_beroep" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w77> nif:lemma "stam_boek_nummer" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w95> nif:lemma "namens" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-813__Gerhardus_Dieters#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-813__Gerhardus_Dieters .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-813 ;
+    bgn:aggregatedPerson bgn:Person-813 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-813__Gerhardus_Dieters ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-813__Gerhardus_Dieters ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w131> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_115> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_128t_129> ;
+    pb:ArgM-LOC bgn:Person-813 .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w136> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_136> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_132t_133t_134> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w14w15w16> ;
+    xs:date "1980-01-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w25> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_25t_26>,
+        bgn:Person-813 .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w34> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_30t_31t_32> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w45> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_42t_43> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w58> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w7w8w9> ;
+    xs:date "1902-08-17" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w75> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_73> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_75t_76t_77> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w83> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_83> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_88> ;
+    pb:Arg2 bgn:Person-813 ;
+    pb:ArgM-ADV bgn:Person-813 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_87> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w99> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_99> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_100> ;
+    pb:Arg2 bgn:Person-813 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_94t_95t_96t_97> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_107> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w100> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "577" ;
+    nif:endIndex "580" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w100" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w101> nif:anchorOf "zitting" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "588" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w101" ;
+    nif:lemma "zitting" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w104w105> nif:anchorOf "Drentse Provinciale" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "614" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w106> nif:anchorOf "Staten" ;
+    nif:beginIndex "615" ;
+    nif:endIndex "621" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w108> nif:anchorOf "1935" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "632" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w110> nif:anchorOf "Dieters" ;
+    nif:beginIndex "635" ;
+    nif:endIndex "642" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w111> nif:BeginIndex "643" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "646" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w116> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "670" ;
+    nif:endIndex "673" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w116" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w11w12> nif:anchorOf "Nieuw Annerveen" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w123w124w125> nif:anchorOf "Landbouw en Maatschappij" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "736" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w128> nif:anchorOf "NSB" ;
+    nif:beginIndex "744" ;
+    nif:endIndex "747" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w129w130> nif:anchorOf "de aanwezigen" ;
+    nif:beginIndex "748" ;
+    nif:endIndex "761" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w130" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w131> nif:BeginIndex "762" ;
+    nif:anchorOf "toegesproken" ;
+    nif:endIndex "774" ;
+    nif:lemma "toe_spreken" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w133w134w135> nif:anchorOf "In de oorlogsjaren" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "794" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w136> nif:BeginIndex "795" ;
+    nif:anchorOf "meldde" ;
+    nif:endIndex "801" ;
+    nif:lemma "aan_melden" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w137> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "802" ;
+    nif:endIndex "805" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w137" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w138> nif:anchorOf "zich" ;
+    nif:beginIndex "806" ;
+    nif:endIndex "810" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w138" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w144> nif:anchorOf "Waffen-SS" ;
+    nif:beginIndex "830" ;
+    nif:endIndex "839" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w14w15w16> nif:anchorOf "22 januari 1980" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "86" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w18> nif:BeginIndex "88" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "91" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w1w2> nif:anchorOf "Dieters" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "96" ;
+    nif:endIndex "106" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w24> nif:anchorOf "Dieters" ;
+    nif:beginIndex "142" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w25> nif:BeginIndex "150" ;
+    nif:anchorOf "oefende" ;
+    nif:endIndex "157" ;
+    nif:lemma "uit_oefenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w26w27> nif:anchorOf "het boerenberoep" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "174" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w31w32w33> nif:anchorOf "16 januari 1932" ;
+    nif:beginIndex "183" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w34> nif:BeginIndex "199" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "202" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w39w40> nif:anchorOf "Drentsche Boerenbond" ;
+    nif:beginIndex "229" ;
+    nif:endIndex "249" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w43w44> nif:anchorOf "hetzelfde jaar" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "270" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w45> nif:BeginIndex "271" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "275" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w5> nif:anchorOf "Eexterveen" ;
+    nif:beginIndex "23" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w50w51w52> nif:anchorOf "Nationale Bond Landbouw" ;
+    nif:beginIndex "304" ;
+    nif:endIndex "327" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w54> nif:anchorOf "Maatschappij" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "343" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w57> nif:anchorOf "1933" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "352" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w58> nif:BeginIndex "353" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "357" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w63w64> nif:anchorOf "Nationaal-Socialistische Beweging" ;
+    nif:beginIndex "373" ;
+    nif:endIndex "406" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w66> nif:anchorOf "NSB" ;
+    nif:beginIndex "408" ;
+    nif:endIndex "411" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w70> nif:anchorOf "A.A" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "424" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w72> nif:anchorOf "Mussert" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "433" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w74> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "438" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w74" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w75> nif:BeginIndex "439" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "446" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w76w77w78> nif:anchorOf "het stamboeknummer 4646" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "470" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w77" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w7w8w9> nif:anchorOf "17 augustus 1902" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w82> nif:anchorOf "NSB" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "485" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w83> nif:BeginIndex "486" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "489" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w84> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "490" ;
+    nif:endIndex "493" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w84" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w86> nif:anchorOf "1937" ;
+    nif:beginIndex "498" ;
+    nif:endIndex "502" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w88> nif:anchorOf "1940" ;
+    nif:beginIndex "507" ;
+    nif:endIndex "511" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w89> nif:anchorOf "zitting" ;
+    nif:beginIndex "512" ;
+    nif:endIndex "519" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w89" ;
+    nif:lemma "zitting" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w92w93> nif:anchorOf "Tweede Kamer" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "538" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w95w96w97w98> nif:anchorOf "Namens dezelfde politieke partij" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "572" ;
+    nif:head "bgnProc:813__Gerhardus_Dieters.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w99> nif:BeginIndex "573" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "576" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_107> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w108> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_128t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w129w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_132t_133t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w133w134w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_25t_26> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w26w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_30t_31t_32> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w31w32w33> ;
+    xs:date "1932-01-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_42t_43> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w43w44> ;
+    xs:gYear "2017" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_56> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w57> ;
+    xs:gYear "1933" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w76w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_85> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w86> ;
+    xs:gYear "1937" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_87> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w88> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_94t_95t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w95w96w97w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w100> .
+
+bgn:Person-813 a bgn:LOC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w104w105>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w11w12>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w123w124w125>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w128>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w50w51w52>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w54>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w63w64>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w70>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/813__Gerhardus_Dieters.naf#w92w93> .
+

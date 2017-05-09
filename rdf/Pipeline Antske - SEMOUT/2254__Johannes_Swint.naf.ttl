@@ -1,0 +1,887 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_115t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_119t_120t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_136t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_148t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_154t_155t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_160t_161t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_227t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_230t_231t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_23t_24t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_249t_250t_251t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_253t_254t_255t_256t_257t_258t_259t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_263t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_273>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_294>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_295t_296t_297t_298t_299t_300t_301t_302t_303t_304t_305t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_4t_5t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_60t_61t_62t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_66t_67t_68t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_76t_77t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_99>,
+        bgn:Person-2254 ;
+    ore:proxyFor bgn:Person-2254 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w137> nif:lemma "Swint" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w143> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w147> nif:lemma "man" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w149> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w156> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w161> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w170> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w231> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w24> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w251> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w255> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w265> nif:lemma "plaquette" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w297> nif:lemma "film" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w61> nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w67> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w77> nif:lemma "geld" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w80> nif:lemma "aan" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2254__Johannes_Swint#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2254__Johannes_Swint .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2254 ;
+    bgn:aggregatedPerson bgn:Person-2254 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2254__Johannes_Swint ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2254__Johannes_Swint ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w107> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_99> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_101>,
+        bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_115t_116t_117> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w116w117w118> ;
+    xs:date "1943-12-31" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_12> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w13> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w125> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_119t_120t_121>,
+        bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w141> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_136t_137t_138t_139> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_142t_143> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w148> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_148t_149t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_152> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w153> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_145t_146> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_154t_155t_156> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w157> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_153> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_163> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w164> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_158> ;
+    pb:ArgM-LOC bgn:Person-2254 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_160t_161t_162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_168> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w169> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_158> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_169t_170> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w195> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_191> ;
+    pb:A1 bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_233> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w234> ;
+    pb:Arg1 bgn:Person-2254 ;
+    pb:ArgM-LOC bgn:Person-2254 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_227t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_230t_231t_232> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_246> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w247> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_245> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w27> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_23t_24t_25> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_261> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w262> ;
+    pb:A0 bgn:Person-2254 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_253t_254t_255t_256t_257t_258t_259t_260> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_249t_250t_251t_252> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w266> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_263t_264> ;
+    pb:AM-LOC bgn:Person-2254 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_266> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_267> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_273> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w274> ;
+    pb:ArgM bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_286> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w287> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_294> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w295> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_295t_296t_297t_298t_299t_300t_301t_302t_303t_304t_305t_306> ;
+    pb:ArgM-CAU bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_298> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w299> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_295t_296t_297t_298t_299t_300t_301t_302t_303t_304t_305t_306> ;
+    pb:AM-TMP bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_306> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w307> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w36> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_34> ;
+    pb:A2 bgn:Person-2254 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_37> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_4t_5t_6> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w5w6w7> ;
+    xs:date "1895-01-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w56> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_56> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_54> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_66t_67t_68t_69t_70t_71> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_60t_61t_62t_63t_64t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w75> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_76t_77t_78> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_79t_80> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w83> ;
+    pb:ArgM-DIS bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w9w10w11> ;
+    xs:date "1944-01-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w94> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_92> ;
+    pb:A1 bgn:Person-2254 .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w100> nif:anchorOf "dat" ;
+    nif:beginIndex "627" ;
+    nif:endIndex "630" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w100" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w102> nif:anchorOf "1943" ;
+    nif:beginIndex "634" ;
+    nif:endIndex "638" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w105> nif:anchorOf "April-Meistakingen" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w107> nif:BeginIndex "678" ;
+    nif:anchorOf "uitkwam" ;
+    nif:endIndex "685" ;
+    nif:lemma "uit_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w116w117w118> nif:anchorOf "31 december 1943" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "739" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w120w121w122> nif:anchorOf "1 januari 1944" ;
+    nif:beginIndex "743" ;
+    nif:endIndex "757" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w125> nif:BeginIndex "766" ;
+    nif:anchorOf "aangebeld" ;
+    nif:endIndex "775" ;
+    nif:lemma "aan_bellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w127> nif:anchorOf "Swints" ;
+    nif:beginIndex "780" ;
+    nif:endIndex "786" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w13> nif:BeginIndex "60" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "63" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w131> nif:anchorOf "Klaprooslaan" ;
+    nif:beginIndex "801" ;
+    nif:endIndex "813" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w134w135> nif:anchorOf "Groningse Oosterparkbuurt" ;
+    nif:beginIndex "820" ;
+    nif:endIndex "845" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w137w138w139w140> nif:anchorOf "Swint en zijn vrouw" ;
+    nif:beginIndex "847" ;
+    nif:endIndex "866" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w141> nif:BeginIndex "867" ;
+    nif:anchorOf "lagen" ;
+    nif:endIndex "872" ;
+    nif:lemma "liggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w142> nif:anchorOf "al" ;
+    nif:beginIndex "873" ;
+    nif:endIndex "875" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w142" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w143w144> nif:anchorOf "in bed" ;
+    nif:beginIndex "876" ;
+    nif:endIndex "882" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w146w147> nif:anchorOf "Drie mannen" ;
+    nif:beginIndex "884" ;
+    nif:endIndex "895" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w148> nif:BeginIndex "896" ;
+    nif:anchorOf "stonden" ;
+    nif:endIndex "903" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w149w150w151> nif:anchorOf "voor zijn deur" ;
+    nif:beginIndex "904" ;
+    nif:endIndex "918" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w149" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w15> nif:anchorOf "Gronings" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w153> nif:BeginIndex "922" ;
+    nif:anchorOf "bevalen" ;
+    nif:endIndex "929" ;
+    nif:lemma "bevelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w154> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "930" ;
+    nif:endIndex "933" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w154" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w155> nif:anchorOf "mee" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "937" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w155" ;
+    nif:lemma "mee" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w155w156w157> nif:anchorOf "mee te lopen" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "946" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w156" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w157> nif:BeginIndex "941" ;
+    nif:anchorOf "lopen" ;
+    nif:endIndex "946" ;
+    nif:lemma "mee_lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w159> nif:anchorOf "Swint" ;
+    nif:beginIndex "948" ;
+    nif:endIndex "953" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w159" ;
+    nif:lemma "Swint" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w161w162w163> nif:anchorOf "met drie kogels" ;
+    nif:beginIndex "959" ;
+    nif:endIndex "974" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w161" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w164> nif:BeginIndex "975" ;
+    nif:anchorOf "doodgeschoten" ;
+    nif:endIndex "988" ;
+    nif:lemma "dood_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w167> nif:anchorOf "Linnaeusplein" ;
+    nif:beginIndex "997" ;
+    nif:endIndex "1010" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w169> nif:BeginIndex "1014" ;
+    nif:anchorOf "stierf" ;
+    nif:endIndex "1020" ;
+    nif:lemma "sterven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w170w171> nif:anchorOf "ter plekke" ;
+    nif:beginIndex "1021" ;
+    nif:endIndex "1031" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w170" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w178> nif:BeginIndex "1062" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1065" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w183w184w185> nif:anchorOf "Anne Jannes Elsinga" ;
+    nif:beginIndex "1083" ;
+    nif:endIndex "1102" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w192> nif:anchorOf "die" ;
+    nif:beginIndex "1137" ;
+    nif:endIndex "1140" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w192" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w194> nif:anchorOf "SD" ;
+    nif:beginIndex "1144" ;
+    nif:endIndex "1146" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w195> nif:BeginIndex "1147" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "1152" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w1w2w3> nif:anchorOf "Franciscus Swint" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w201> nif:BeginIndex "1172" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1175" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w207w208> nif:anchorOf "Aktion Silbertanne" ;
+    nif:beginIndex "1196" ;
+    nif:endIndex "1214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w21w22> nif:anchorOf "Communistische Partij" ;
+    nif:beginIndex "115" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w220w221> nif:anchorOf "Johannes Swint" ;
+    nif:beginIndex "1269" ;
+    nif:endIndex "1283" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w223w224> nif:anchorOf "Johannes Swints" ;
+    nif:beginIndex "1285" ;
+    nif:endIndex "1300" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w228w229w230> nif:anchorOf "6 januari 1944" ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1331" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w231w232w233> nif:anchorOf "in alle stilte" ;
+    nif:beginIndex "1332" ;
+    nif:endIndex "1346" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w231" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w234> nif:BeginIndex "1347" ;
+    nif:anchorOf "gecremeerd" ;
+    nif:endIndex "1357" ;
+    nif:lemma "cremeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w237> nif:anchorOf "Westerveld" ;
+    nif:beginIndex "1374" ;
+    nif:endIndex "1384" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w241> nif:anchorOf "Oosterpark" ;
+    nif:beginIndex "1408" ;
+    nif:endIndex "1418" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w244> nif:anchorOf "Swint" ;
+    nif:beginIndex "1425" ;
+    nif:endIndex "1430" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w246> nif:anchorOf "van" ;
+    nif:beginIndex "1442" ;
+    nif:endIndex "1445" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w246" ;
+    nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w247> nif:BeginIndex "1446" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1449" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w24w25w26> nif:anchorOf "Tijdens de oorlog" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "156" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w24" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w250w251w252w253> nif:anchorOf "vlak na de bevrijding" ;
+    nif:beginIndex "1457" ;
+    nif:endIndex "1478" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w251" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w254w255w256w257w258w259w260w261> nif:anchorOf "een monument met een plaquette met zijn beeltenis" ;
+    nif:beginIndex "1479" ;
+    nif:endIndex "1528" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w255" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w262> nif:BeginIndex "1529" ;
+    nif:anchorOf "opgericht" ;
+    nif:endIndex "1538" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w264w265> nif:anchorOf "De plaquette" ;
+    nif:beginIndex "1540" ;
+    nif:endIndex "1552" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w265" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w266> nif:BeginIndex "1553" ;
+    nif:anchorOf "bevindt" ;
+    nif:endIndex "1560" ;
+    nif:lemma "bevinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w267> nif:anchorOf "zich" ;
+    nif:beginIndex "1561" ;
+    nif:endIndex "1565" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w267" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w268> nif:anchorOf "tegenwoordig" ;
+    nif:beginIndex "1566" ;
+    nif:endIndex "1578" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w268" ;
+    nif:lemma "tegenwoordig" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w27> nif:BeginIndex "157" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "160" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w274> nif:BeginIndex "1600" ;
+    nif:anchorOf "speeltuinvereniging" ;
+    nif:endIndex "1619" ;
+    nif:lemma "speeltuin_vereniging" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w281> nif:anchorOf "Resedastraat" ;
+    nif:beginIndex "1648" ;
+    nif:endIndex "1660" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w283> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1664" ;
+    nif:endIndex "1673" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w287> nif:BeginIndex "1684" ;
+    nif:anchorOf "Gronings" ;
+    nif:endIndex "1692" ;
+    nif:lemma "Gronings" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w287w288w289w290> nif:anchorOf "Gronings Audio Visueel Archief" ;
+    nif:beginIndex "1684" ;
+    nif:endIndex "1714" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w292> nif:anchorOf "GAVA" ;
+    nif:beginIndex "1716" ;
+    nif:endIndex "1720" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w295> nif:BeginIndex "1723" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1725" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w296w297w298w299w300w301w302w303w304w305w306w307> nif:anchorOf "een filmpje te vinden over de onthulling van het monument in 1945" ;
+    nif:beginIndex "1726" ;
+    nif:endIndex "1791" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w297" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w299> nif:BeginIndex "1741" ;
+    nif:anchorOf "vinden" ;
+    nif:endIndex "1747" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w307> nif:anchorOf "1945" ;
+    nif:beginIndex "1787" ;
+    nif:endIndex "1791" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w35> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "206" ;
+    nif:endIndex "209" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w35" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w36> nif:BeginIndex "210" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "215" ;
+    nif:lemma "bezig_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w37> nif:anchorOf "zich" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "220" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w37" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w38> nif:anchorOf "voornamelijk" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "233" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w38" ;
+    nif:lemma "voornamelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w46> nif:BeginIndex "273" ;
+    nif:anchorOf "verspreiden" ;
+    nif:endIndex "284" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w52w53> nif:anchorOf "Het Noorderlicht" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "338" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w53> nif:BeginIndex "326" ;
+    nif:anchorOf "Noorderlicht" ;
+    nif:endIndex "338" ;
+    nif:lemma "Noorderlicht" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w55> nif:anchorOf "Ook" ;
+    nif:beginIndex "340" ;
+    nif:endIndex "343" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w55" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w56> nif:BeginIndex "344" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "347" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w57> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "351" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w57" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w59w60> nif:anchorOf "februari 1941" ;
+    nif:beginIndex "355" ;
+    nif:endIndex "368" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w5w6w7> nif:anchorOf "9 januari 1895" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "41" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w61w62w63w64w65w66> nif:anchorOf "betrokken bij een oproep tot staking" ;
+    nif:beginIndex "369" ;
+    nif:endIndex "405" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w67w68w69w70w71w72> nif:anchorOf "in verband met de anti-joodse maatregelen" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "447" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w67" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w74> nif:anchorOf "Swint" ;
+    nif:beginIndex "449" ;
+    nif:endIndex "454" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w74" ;
+    nif:lemma "Swint" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w75> nif:BeginIndex "455" ;
+    nif:anchorOf "verstrekte" ;
+    nif:endIndex "465" ;
+    nif:lemma "verstrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w76> nif:anchorOf "ook" ;
+    nif:beginIndex "466" ;
+    nif:endIndex "469" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w76" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w77w78w79> nif:anchorOf "geld en levensmiddelen" ;
+    nif:beginIndex "470" ;
+    nif:endIndex "492" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w77" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w80w81> nif:anchorOf "aan onderduikers" ;
+    nif:beginIndex "493" ;
+    nif:endIndex "509" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w83> nif:BeginIndex "513" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "516" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w88> nif:BeginIndex "543" ;
+    nif:anchorOf "verstrekken" ;
+    nif:endIndex "554" ;
+    nif:lemma "verstrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w93> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "585" ;
+    nif:endIndex "588" ;
+    nif:head "bgnProc:2254__Johannes_Swint.naf#w93" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w94> nif:BeginIndex "589" ;
+    nif:anchorOf "verspreidde" ;
+    nif:endIndex "600" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w98> nif:anchorOf "Verzet" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "625" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w9w10w11> nif:anchorOf "1 januari 1944" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_101> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w102> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_119t_120t_121> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w120w121w122> ;
+    xs:date "1944-01-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_136t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w137w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_148t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w149w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_154t_155t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w155w156w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_160t_161t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w161w162w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_169t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w170w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_227t_228t_229> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w228w229w230> ;
+    xs:date "1944-01-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_230t_231t_232> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w231w232w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_23t_24t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w24w25w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_249t_250t_251t_252> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w250w251w252w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_253t_254t_255t_256t_257t_258t_259t_260> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w254w255w256w257w258w259w260w261> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_263t_264> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w264w265> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_266> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w267> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_267> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w268> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_58t_59> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w59w60> ;
+    xs:gYearMonth "1941-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_60t_61t_62t_63t_64t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w61w62w63w64w65w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_66t_67t_68t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w67w68w69w70w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_76t_77t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w77w78w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_79t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w80w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#t_295t_296t_297t_298t_299t_300t_301t_302t_303t_304t_305t_306> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w296w297w298w299w300w301w302w303w304w305w306w307> .
+
+bgn:Person-2254 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w183w184w185>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w207w208>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w21w22>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w220w221>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w223w224>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w241>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w244>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w281>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w283>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w287w288w289w290>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w292>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w52w53>,
+        <http://data.biographynet.nl/rdf/170506221754/2254__Johannes_Swint.naf#w98> ;
+    xs:gYearMonth "2017-04" .
+

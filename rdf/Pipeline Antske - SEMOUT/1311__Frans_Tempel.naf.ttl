@@ -1,0 +1,749 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_115t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_119t_120t_121t_122t_123t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_121t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_121t_122t_123t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_129t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_139t_140t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_173t_174t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_179t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_182t_183t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_62t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_67t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_98>,
+        bgn:Person-1311 ;
+    ore:proxyFor bgn:Person-1311 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w116> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w120> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w122> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w131> nif:lemma "verwijdering" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w133> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w140> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w179> nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w180> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w183> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w212> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w58> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w65> nif:lemma "medaille" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w68> nif:lemma "tijdens" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1311__Frans_Tempel#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1311__Frans_Tempel .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1311 ;
+    bgn:aggregatedPerson bgn:Person-1311 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1311__Frans_Tempel ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1311__Frans_Tempel ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_102> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w103> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w11w12w13> ;
+    xs:date "1898-03-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w115> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_115t_116t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w125> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_120> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_121t_122t_123t_124t_125t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w127> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_121t_122t_123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w132> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_129t_130> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_119t_120t_121t_122t_123t_124t_125t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w139> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_139t_140t_141t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w146> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_144> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w149> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w157> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_157> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_168>,
+        bgn:Person-1311 ;
+    pb:AM-TMP bgn:Person-1311 .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_16t_17t_18> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w17w18w19> ;
+    xs:date "1944-07-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w182> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_182t_183t_184> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_177t_178> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_173t_174t_175> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_179t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w191> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_189> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_195>,
+        bgn:Person-1311 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_186t_187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w215> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_211t_212t_213> ;
+    pb:ArgM-LOC bgn:Person-1311 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_198t_199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w31> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_29> ;
+    pb:ArgM-PRD bgn:Person-1311 ;
+    pb:ArgM-TMP bgn:Person-1311 .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_50> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w51> ;
+    xs:gYear "1920" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w52> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_37> ;
+    pb:A2 bgn:Person-1311 .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w56> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_54> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_57t_58> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w66> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_54> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_61> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_62t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w71> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_71> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_72> ;
+    pb:ArgM-MNR bgn:Person-1311 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_67t_68t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w78> ;
+    pb:ArgM bgn:Person-1311 .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w87> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_85> ;
+    pb:Arg4 bgn:Person-1311 .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w99> ;
+    pb:Arg1 bgn:Person-1311 .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w103> nif:anchorOf "Jan" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "578" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w103w104w105> nif:anchorOf "Jan de Natris" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "588" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w107w108> nif:anchorOf "Jaap Bulder" ;
+    nif:beginIndex "590" ;
+    nif:endIndex "601" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w110w111w112> nif:anchorOf "Evert van Linge" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "620" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w114> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "629" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w114" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w115> nif:BeginIndex "630" ;
+    nif:anchorOf "verwijderd" ;
+    nif:endIndex "640" ;
+    nif:lemma "verwijderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w116w117w118> nif:anchorOf "uit het team" ;
+    nif:beginIndex "641" ;
+    nif:endIndex "653" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w11w12w13> nif:anchorOf "20 maart 1898" ;
+    nif:beginIndex "53" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w120w121w122w123w124w125w126w127> nif:anchorOf "Toen dit tot een spelersstaking dreigde te leiden" ;
+    nif:beginIndex "655" ;
+    nif:endIndex "704" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w121> nif:anchorOf "dit" ;
+    nif:beginIndex "660" ;
+    nif:endIndex "663" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w121" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w122w123w124> nif:anchorOf "tot een spelersstaking" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "686" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w122w123w124w125w126w127> nif:anchorOf "tot een spelersstaking dreigde te leiden" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "704" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w124> nif:BeginIndex "672" ;
+    nif:anchorOf "spelersstaking" ;
+    nif:endIndex "686" ;
+    nif:lemma "speler_staking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w125> nif:BeginIndex "687" ;
+    nif:anchorOf "dreigde" ;
+    nif:endIndex "694" ;
+    nif:lemma "dreigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w127> nif:BeginIndex "698" ;
+    nif:anchorOf "leiden" ;
+    nif:endIndex "704" ;
+    nif:lemma "leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w130w131> nif:anchorOf "die verwijdering" ;
+    nif:beginIndex "711" ;
+    nif:endIndex "727" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w131" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w132> nif:BeginIndex "728" ;
+    nif:anchorOf "omgezet" ;
+    nif:endIndex "735" ;
+    nif:lemma "om_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w133w134w135w136w137w138w139w140w141w142w143> nif:anchorOf "in een schorsing voor de beslissende wedstrijd om zilver en brons" ;
+    nif:beginIndex "736" ;
+    nif:endIndex "801" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w139> nif:BeginIndex "773" ;
+    nif:anchorOf "wedstrijd" ;
+    nif:endIndex "782" ;
+    nif:lemma "wedstrijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w140w141w142w143> nif:anchorOf "om zilver en brons" ;
+    nif:beginIndex "783" ;
+    nif:endIndex "801" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w145> nif:anchorOf "Tempel" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "810" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w145" ;
+    nif:lemma "Tempel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w146> nif:BeginIndex "811" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "818" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w149> nif:BeginIndex "826" ;
+    nif:anchorOf "jazzband" ;
+    nif:endIndex "834" ;
+    nif:lemma "jazz_band" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w15> nif:anchorOf "Bunnik" ;
+    nif:beginIndex "69" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w151> nif:anchorOf "Enschede" ;
+    nif:beginIndex "838" ;
+    nif:endIndex "846" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w155w156> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "873" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w157> nif:BeginIndex "874" ;
+    nif:anchorOf "verzamelde" ;
+    nif:endIndex "884" ;
+    nif:lemma "verzamelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w158> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "885" ;
+    nif:endIndex "888" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w158" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w165w166> nif:anchorOf "Guus Fikkert" ;
+    nif:beginIndex "936" ;
+    nif:endIndex "948" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w169> nif:anchorOf "Twente" ;
+    nif:beginIndex "956" ;
+    nif:endIndex "962" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w171> nif:BeginIndex "970" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "973" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w174w175w176> nif:anchorOf "25 augustus 1943" ;
+    nif:beginIndex "978" ;
+    nif:endIndex "994" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w178w179> nif:anchorOf "de groep" ;
+    nif:beginIndex "1000" ;
+    nif:endIndex "1008" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w179" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w17w18w19> nif:anchorOf "25 juli 1944" ;
+    nif:beginIndex "77" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w180w181> nif:anchorOf "na verraad" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1019" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w182> nif:BeginIndex "1020" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "1032" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w183w184w185> nif:anchorOf "door de gestapo" ;
+    nif:beginIndex "1033" ;
+    nif:endIndex "1048" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w187w188> nif:anchorOf "Begin 1944" ;
+    nif:beginIndex "1050" ;
+    nif:endIndex "1060" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w190> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1066" ;
+    nif:endIndex "1069" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w190" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w191> nif:BeginIndex "1070" ;
+    nif:anchorOf "ondergebracht" ;
+    nif:endIndex "1083" ;
+    nif:lemma "onder_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w194> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "1091" ;
+    nif:endIndex "1102" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w196> nif:anchorOf "Scheveningen" ;
+    nif:beginIndex "1106" ;
+    nif:endIndex "1118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w199w200> nif:anchorOf "25 juli" ;
+    nif:beginIndex "1125" ;
+    nif:endIndex "1132" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w1w2w3w4w5w6w7> nif:anchorOf "Jacobus Ludwig ( Frans) Tempel" ;
+    nif:beginIndex "11" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w202> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1138" ;
+    nif:endIndex "1141" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w202" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w204> nif:anchorOf "Fort" ;
+    nif:beginIndex "1145" ;
+    nif:endIndex "1149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w206> nif:anchorOf "Rijnauwen" ;
+    nif:beginIndex "1154" ;
+    nif:endIndex "1163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w208> nif:anchorOf "Bunnik" ;
+    nif:beginIndex "1168" ;
+    nif:endIndex "1174" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w21> nif:BeginIndex "91" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "94" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w210> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w212w213w214> nif:anchorOf "met vijf anderen" ;
+    nif:beginIndex "1185" ;
+    nif:endIndex "1201" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w215> nif:BeginIndex "1202" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1214" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w23> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "99" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w30> nif:anchorOf "Tempel" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "157" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w30" ;
+    nif:lemma "Tempel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w31> nif:BeginIndex "158" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "165" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w35w36> nif:anchorOf "HVV Tubantia" ;
+    nif:beginIndex "183" ;
+    nif:endIndex "195" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w38> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "204" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w38" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w44> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "228" ;
+    nif:endIndex "238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w48w49> nif:anchorOf "Olympische Zomerspelen" ;
+    nif:beginIndex "261" ;
+    nif:endIndex "283" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w51> nif:anchorOf "1920" ;
+    nif:beginIndex "287" ;
+    nif:endIndex "291" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w52> nif:BeginIndex "292" ;
+    nif:anchorOf "opgenomen" ;
+    nif:endIndex "301" ;
+    nif:lemma "op_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w55> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "308" ;
+    nif:endIndex "311" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w55" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w56> nif:BeginIndex "312" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "316" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w57> nif:anchorOf "niet" ;
+    nif:beginIndex "317" ;
+    nif:endIndex "321" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w57" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w58w59> nif:anchorOf "in actie" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "330" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w62> nif:anchorOf "ook" ;
+    nif:beginIndex "340" ;
+    nif:endIndex "343" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w62" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w63w64w65> nif:anchorOf "geen bronzen medaille" ;
+    nif:beginIndex "344" ;
+    nif:endIndex "365" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w66> nif:BeginIndex "366" ;
+    nif:anchorOf "uitgereikt" ;
+    nif:endIndex "376" ;
+    nif:lemma "uit_reiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w68w69w70> nif:anchorOf "Tijdens het toernooi" ;
+    nif:beginIndex "378" ;
+    nif:endIndex "398" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w71> nif:BeginIndex "399" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "403" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w72> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "407" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w72" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w73> nif:anchorOf "wel" ;
+    nif:beginIndex "408" ;
+    nif:endIndex "411" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w73" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w78> nif:BeginIndex "431" ;
+    nif:anchorOf "conflict" ;
+    nif:endIndex "439" ;
+    nif:lemma "conflict" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w84> nif:anchorOf "NVB" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "467" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w86> nif:anchorOf "dat" ;
+    nif:beginIndex "469" ;
+    nif:endIndex "472" ;
+    nif:head "bgnProc:1311__Frans_Tempel.naf#w86" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w87> nif:BeginIndex "473" ;
+    nif:anchorOf "ontstond" ;
+    nif:endIndex "481" ;
+    nif:lemma "ontstaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w9> nif:anchorOf "Hilversum" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w96> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "532" ;
+    nif:endIndex "543" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w99> nif:BeginIndex "560" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "563" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_115t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w116w117w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_119t_120t_121t_122t_123t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w120w121w122w123w124w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_121t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w122w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_121t_122t_123t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w122w123w124w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_129t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w130w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w133w134w135w136w137w138w139w140w141w142w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_139t_140t_141t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w140w141w142w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_173t_174t_175> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w174w175w176> ;
+    xs:date "1943-08-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_177t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w178w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_179t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w180w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_182t_183t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w183w184w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_186t_187> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w187w188> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_198t_199> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w199w200> ;
+    xs:date "2017-07-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_62t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w63w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_67t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w68w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w55> .
+
+bgn:Person-1311 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w103w104w105>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w107w108>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w110w111w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w155w156>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w165w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w196>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w1w2w3w4w5w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w206>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w208>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w210>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w48w49>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1311__Frans_Tempel.naf#w96> .
+

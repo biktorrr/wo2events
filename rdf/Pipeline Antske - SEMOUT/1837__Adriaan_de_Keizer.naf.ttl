@@ -1,0 +1,773 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_128t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_130t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_139t_140t_141t_142t_143t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_161t_162t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_208t_209t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_22t_23t_24t_25t_26t_27t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_34t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_4t_5t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_81t_82t_83t_84t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_93>,
+        bgn:Person-1837 ;
+    ore:proxyFor bgn:Person-1837 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w118> nif:lemma "onderzoek_team" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w129> nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w131> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w140> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w205> nif:lemma "vrijheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w23> nif:lemma "één" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w35> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w82> nif:lemma "te" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1837__Adriaan_de_Keizer#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1837__Adriaan_de_Keizer .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1837 ;
+    bgn:aggregatedPerson bgn:Person-1837 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1837__Adriaan_de_Keizer ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1837__Adriaan_de_Keizer ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_105> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w106> ;
+    xs:gYear "2005" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w115> ;
+    pb:Arg1 bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w120> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_118>,
+        bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_12> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w13> ;
+    pb:ArgM-TMP bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w127> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_127> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_128t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_112>,
+        bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w134> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_130t_131t_132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w139> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_137> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_139t_140t_141t_142t_143t_144t_145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_152> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w153> ;
+    xs:gYear "1992" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_158> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w159> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_159> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_161t_162t_163> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w162w163w164> ;
+    xs:gYear "1993" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w181> ;
+    pb:A1 bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w182> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_183>,
+        bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w190> ;
+    pb:A0 bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w194> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_194> ;
+    pb:Arg4 bgn:Person-1837 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_192> ;
+    pb:ArgM-TMP bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w200> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w207> ;
+    pb:Arg0 bgn:Person-1837 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_203t_204> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_209> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w210> ;
+    xs:period "P1W" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w212> ;
+    pb:Arg1 bgn:Person-1837 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_208t_209t_210> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w30> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_27> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_26> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w31> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_22t_23t_24t_25t_26t_27t_28t_29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w38> ;
+    pb:Arg0 bgn:Person-1837 ;
+    pb:Arg1 bgn:Person-1837 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_34t_35t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_4t_5t_6> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w5w6w7> ;
+    xs:date "1922-10-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w54> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_46> ;
+    pb:Arg1 bgn:Person-1837 .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w68> ;
+    pb:A1 bgn:Person-1837 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_64> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w71> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_71> ;
+    pb:Arg1 bgn:Person-1837 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_74> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w75> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w83> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w84> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_80> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_81t_82t_83t_84t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w9w10w11> ;
+    xs:date "2007-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w101> nif:BeginIndex "528" ;
+    nif:anchorOf "zoektocht" ;
+    nif:endIndex "537" ;
+    nif:lemma "zoek_tocht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w106> nif:anchorOf "2005" ;
+    nif:beginIndex "549" ;
+    nif:endIndex "553" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w109> nif:anchorOf "Hollomons" ;
+    nif:beginIndex "560" ;
+    nif:endIndex "569" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w111> nif:anchorOf "Mustang" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "590" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w113> nif:anchorOf "Nederland" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "603" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w115> nif:BeginIndex "618" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "621" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w117w118> nif:anchorOf "het onderzoeksteam" ;
+    nif:beginIndex "625" ;
+    nif:endIndex "643" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w119> nif:anchorOf "contact" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "651" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w119" ;
+    nif:lemma "contact" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w120> nif:BeginIndex "652" ;
+    nif:anchorOf "opnam" ;
+    nif:endIndex "657" ;
+    nif:lemma "op_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w124w125> nif:anchorOf "De Keizer" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "682" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w127> nif:BeginIndex "684" ;
+    nif:anchorOf "hoorde" ;
+    nif:endIndex "690" ;
+    nif:lemma "horen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w128> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "691" ;
+    nif:endIndex "694" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w128" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w129w130w131w132w133w134w135w136w137w138w139w140w141w142w143w144w145w146> nif:anchorOf "dat het om een vergissing ging en dat het ging om een andere piloot met dezelfde naam" ;
+    nif:beginIndex "695" ;
+    nif:endIndex "781" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w13> nif:BeginIndex "49" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "52" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w131w132w133> nif:anchorOf "om een vergissing" ;
+    nif:beginIndex "703" ;
+    nif:endIndex "720" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w131" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w134> nif:BeginIndex "721" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "725" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w138> nif:anchorOf "het" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "737" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w138" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w139> nif:BeginIndex "738" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "742" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w140w141w142w143w144w145w146> nif:anchorOf "om een andere piloot met dezelfde naam" ;
+    nif:beginIndex "743" ;
+    nif:endIndex "781" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w149> nif:BeginIndex "787" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "790" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w150w151> nif:anchorOf "Rock Hollomon" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "804" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w153> nif:anchorOf "1992" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "812" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w159> nif:BeginIndex "847" ;
+    nif:anchorOf "leefden" ;
+    nif:endIndex "854" ;
+    nif:lemma "leven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w160> nif:anchorOf "nog" ;
+    nif:beginIndex "855" ;
+    nif:endIndex "858" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w160" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w162w163w164> nif:anchorOf "Een jaar later" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "875" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w166w167w168> nif:anchorOf "Adriaan de Keizer" ;
+    nif:beginIndex "881" ;
+    nif:endIndex "898" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w178> nif:anchorOf "Hollomons" ;
+    nif:beginIndex "945" ;
+    nif:endIndex "954" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w181> nif:BeginIndex "967" ;
+    nif:anchorOf "regelen" ;
+    nif:endIndex "974" ;
+    nif:lemma "regelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w182> nif:BeginIndex "975" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "978" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w184> nif:anchorOf "niet" ;
+    nif:beginIndex "982" ;
+    nif:endIndex "986" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w184" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w186> nif:anchorOf "Hollomons" ;
+    nif:beginIndex "988" ;
+    nif:endIndex "997" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w188w189> nif:anchorOf "Mary Evelyn" ;
+    nif:beginIndex "1006" ;
+    nif:endIndex "1017" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w190> nif:BeginIndex "1018" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1022" ;
+    nif:lemma "over_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w193> nif:anchorOf "Samen" ;
+    nif:beginIndex "1029" ;
+    nif:endIndex "1034" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w193" ;
+    nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w194> nif:BeginIndex "1035" ;
+    nif:anchorOf "gingen" ;
+    nif:endIndex "1041" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w195> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1044" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w195" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w197> nif:anchorOf "Drimmelen" ;
+    nif:beginIndex "1050" ;
+    nif:endIndex "1059" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w1w2w3> nif:anchorOf "de Keizer" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w200> nif:BeginIndex "1066" ;
+    nif:anchorOf "zien" ;
+    nif:endIndex "1070" ;
+    nif:lemma "zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w201> nif:anchorOf "waar" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1075" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w201" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w202w203> nif:anchorOf "Rock Holloman" ;
+    nif:beginIndex "1076" ;
+    nif:endIndex "1089" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w204w205> nif:anchorOf "zijn vrijheid" ;
+    nif:beginIndex "1090" ;
+    nif:endIndex "1103" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w205" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w207> nif:BeginIndex "1108" ;
+    nif:anchorOf "teruggekregen" ;
+    nif:endIndex "1121" ;
+    nif:lemma "terug_krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w209w210w211> nif:anchorOf "Enkele weken later" ;
+    nif:beginIndex "1123" ;
+    nif:endIndex "1141" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w20w21> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "108" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w210> nif:anchorOf "weken" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1135" ;
+    nif:lemma "week" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w212> nif:BeginIndex "1142" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1150" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w213w214> nif:anchorOf "De Keizer" ;
+    nif:beginIndex "1151" ;
+    nif:endIndex "1160" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w216w217w218w219w220w221w222w223> nif:anchorOf "Orde van Oranje Nassau Bronzen Kruis Verzetsherdenkingskruis Militaire" ;
+    nif:beginIndex "1163" ;
+    nif:endIndex "1236" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w227> nif:anchorOf "Europese" ;
+    nif:beginIndex "1260" ;
+    nif:endIndex "1268" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w23w24w25w26w27w28w29w30> nif:anchorOf "Eén van de piloten die hij heeft overgezet" ;
+    nif:beginIndex "111" ;
+    nif:endIndex "153" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w27> nif:anchorOf "die" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "133" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w27" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w28> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "137" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w28" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w30> nif:BeginIndex "144" ;
+    nif:anchorOf "overgezet" ;
+    nif:endIndex "153" ;
+    nif:lemma "over_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w31> nif:BeginIndex "154" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "157" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w32w33> nif:anchorOf "Rock Hollomon" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "171" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w35w36w37> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "186" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w38> nif:BeginIndex "187" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "190" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w39w40> nif:anchorOf "De Keizer" ;
+    nif:beginIndex "191" ;
+    nif:endIndex "200" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w45> nif:anchorOf "A27" ;
+    nif:beginIndex "224" ;
+    nif:endIndex "227" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w47> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "235" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w47" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w49w50w51w52> nif:anchorOf "Crossing Station De Keizer" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "263" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w54> nif:BeginIndex "265" ;
+    nif:anchorOf "noemde" ;
+    nif:endIndex "271" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w5w6w7> nif:anchorOf "10 oktober 1922" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w60w61> nif:anchorOf "Adriaan Keizer" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "306" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w62> nif:BeginIndex "307" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "310" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w64> nif:anchorOf "Hollomon" ;
+    nif:beginIndex "314" ;
+    nif:endIndex "322" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w65> nif:anchorOf "nog" ;
+    nif:beginIndex "323" ;
+    nif:endIndex "326" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w65" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w66> nif:anchorOf "eens" ;
+    nif:beginIndex "327" ;
+    nif:endIndex "331" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w66" ;
+    nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w68> nif:BeginIndex "335" ;
+    nif:anchorOf "ontmoeten" ;
+    nif:endIndex "344" ;
+    nif:lemma "ontmoeten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w70> nif:anchorOf "Hiertoe" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "353" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w70" ;
+    nif:lemma "hiertoe" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w71> nif:BeginIndex "354" ;
+    nif:anchorOf "reisde" ;
+    nif:endIndex "360" ;
+    nif:lemma "reizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w72> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "361" ;
+    nif:endIndex "364" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w72" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w75> nif:anchorOf "jaren" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "380" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w78w79> nif:anchorOf "Verenigde Staten" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "405" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w80> nif:anchorOf "waar" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "410" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w80" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w81> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "411" ;
+    nif:endIndex "414" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w81" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w82w83w84w85w86w87w88w89w90w91w92w93w94w95> nif:anchorOf "te horen kreeg dat deze piloot tijdens een vliegtuigongeluk om het leven was gekomen" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "499" ;
+    nif:head "bgnProc:1837__Adriaan_de_Keizer.naf#w82" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w83> nif:BeginIndex "418" ;
+    nif:anchorOf "horen" ;
+    nif:endIndex "423" ;
+    nif:lemma "horen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w84> nif:BeginIndex "424" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "429" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w90> nif:BeginIndex "458" ;
+    nif:anchorOf "vliegtuigongeluk" ;
+    nif:endIndex "474" ;
+    nif:lemma "vliegtuig_ongeluk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w94> nif:BeginIndex "488" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "491" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w9w10w11> nif:anchorOf "3 mei 2007" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w117w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_128t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w129w130w131w132w133w134w135w136w137w138w139w140w141w142w143w144w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_130t_131t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w131w132w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_139t_140t_141t_142t_143t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w140w141w142w143w144w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_203t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w204w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_208t_209t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w209w210w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_22t_23t_24t_25t_26t_27t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w23w24w25w26w27w28w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_26> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_34t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w35w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_81t_82t_83t_84t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w82w83w84w85w86w87w88w89w90w91w92w93w94w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w81> .
+
+bgn:Person-1837 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w124w125>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w150w151>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w166w167w168>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w188w189>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w20w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w213w214>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w216w217w218w219w220w221w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w49w50w51w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w60w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1837__Adriaan_de_Keizer.naf#w78w79> .
+

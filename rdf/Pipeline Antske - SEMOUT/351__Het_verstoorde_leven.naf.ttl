@@ -1,0 +1,900 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_117t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_129t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_150t_151t_152t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_156t_157t_158t_159t_160t_161t_162t_163t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_159t_160t_161t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_166t_167t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_192t_193t_194t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_204t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_289>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_317>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_322>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_334>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_336>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_340>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_341>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_346t_347>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_38t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_57t_58t_59t_60t_61t_62t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_79t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_82t_83t_84t_85t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_85t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_92t_93t_94t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_97t_98t_99t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112>,
+        bgn:Person-351 ;
+    ore:proxyFor bgn:Person-351 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w116> nif:lemma "minnaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w118> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w13> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w152> nif:lemma "dag_boek" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w158> nif:lemma "poging" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w162> nif:lemma "uitgever" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w168> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w193> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w206> nif:lemma "boek" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w348> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w40> nif:lemma "boek" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w60> nif:lemma "maatregel" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w83> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w86> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w93> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w98> nif:lemma "te" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-351__Het_verstoorde_leven#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-351__Het_verstoorde_leven .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-351 ;
+    bgn:aggregatedPerson bgn:Person-351 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-351__Het_verstoorde_leven ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-351__Het_verstoorde_leven ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w102> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_97t_98t_99t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w121> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_114t_115> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_117t_118t_119> ;
+    pb:ArgM-MNR bgn:Person-351 .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_129t_130t_131> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w130w131w132> ;
+    xs:date "1943-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w145> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_143> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w150> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_150t_151t_152t_153>,
+        bgn:Person-351 .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w16> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_16> ;
+    pb:Arg1 bgn:Person-351 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_12t_13t_14> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w156> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_156t_157t_158t_159t_160t_161t_162t_163t_164>,
+        bgn:Person-351 .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w165> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_160t_161> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_159t_160t_161t_162> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_168> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w169> ;
+    xs:gYear "1981" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w170> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_166t_167t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_185> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w186> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w197> ;
+    pb:Arg2 bgn:Person-351 ;
+    pb:ArgM-CAU bgn:Person-351 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_192t_193t_194t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w210> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_204t_205> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_208> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w212> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_204t_205> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_224> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w225> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w231> ;
+    pb:Arg1 bgn:Person-351 .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_235> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w236> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_244> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w245> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_253> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w254> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_262> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w263> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_269> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w270> ;
+    xs:gYear "1941",
+        "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_271> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w272> ;
+    xs:gYear "1984" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_280> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w281> ;
+    xs:gYear "1984" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_289> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w290> ;
+    xs:gYear "1984" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_295> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w296> ;
+    xs:gYear "1941",
+        "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_297> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w298> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w4> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_306> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w307> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_317> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w318> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_322> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w323> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_334> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w335> ;
+    xs:gYear "1941",
+        "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_336> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w337> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_340> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w341> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_341> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w342> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_346t_347> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w41> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_38t_39> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_42> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_41> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w50> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_38t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_66> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_64> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w65> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w69> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_57t_58t_59t_60t_61t_62t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w73> ;
+    pb:A1 bgn:Person-351 ;
+    pb:AM-LOC bgn:Person-351 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_82t_83t_84t_85t_86t_87> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_79t_80t_81> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w85> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_85t_86t_87> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w92> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_92t_93t_94t_95t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w102> nif:BeginIndex "613" ;
+    nif:anchorOf "verkrijgen" ;
+    nif:endIndex "623" ;
+    nif:lemma "verkrijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w10w11> nif:anchorOf "Etty Hillesum" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w115w116> nif:anchorOf "Haar minnaar" ;
+    nif:beginIndex "702" ;
+    nif:endIndex "714" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w118w119w120> nif:anchorOf "in dit dagboek" ;
+    nif:beginIndex "721" ;
+    nif:endIndex "735" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w121> nif:BeginIndex "736" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "743" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w125> nif:anchorOf "S." ;
+    nif:beginIndex "758" ;
+    nif:endIndex "760" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w130w131w132> nif:anchorOf "6 september 1943" ;
+    nif:beginIndex "786" ;
+    nif:endIndex "802" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w13w14w15> nif:anchorOf "In haar dagboek" ;
+    nif:beginIndex "74" ;
+    nif:endIndex "89" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w13" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w140w141w142> nif:anchorOf "een dag later" ;
+    nif:beginIndex "835" ;
+    nif:endIndex "848" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w144> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "856" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w144" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w145> nif:BeginIndex "857" ;
+    nif:anchorOf "gedeporteerd" ;
+    nif:endIndex "869" ;
+    nif:lemma "deporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w149> nif:anchorOf "Smelik" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "889" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w150> nif:BeginIndex "890" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "893" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w151w152w153w154> nif:anchorOf "de dagboeken in bewaring" ;
+    nif:beginIndex "894" ;
+    nif:endIndex "918" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w152" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w156> nif:BeginIndex "922" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "926" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w157w158w159w160w161w162w163w164w165> nif:anchorOf "vergeefse pogingen om er een uitgever voor te interesseren" ;
+    nif:beginIndex "927" ;
+    nif:endIndex "985" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w16> nif:BeginIndex "90" ;
+    nif:anchorOf "verwoordde" ;
+    nif:endIndex "100" ;
+    nif:lemma "verwoorden" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w160w161w162w163> nif:anchorOf "er een uitgever voor" ;
+    nif:beginIndex "949" ;
+    nif:endIndex "969" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w165" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w161w162> nif:anchorOf "een uitgever" ;
+    nif:beginIndex "952" ;
+    nif:endIndex "964" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w162" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w165> nif:BeginIndex "973" ;
+    nif:anchorOf "interesseren" ;
+    nif:endIndex "985" ;
+    nif:lemma "interesseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w167w168w169> nif:anchorOf "Pas in 1981" ;
+    nif:beginIndex "987" ;
+    nif:endIndex "998" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w168" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w169> nif:anchorOf "1981" ;
+    nif:beginIndex "994" ;
+    nif:endIndex "998" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w17> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "101" ;
+    nif:endIndex "103" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w17" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w170> nif:BeginIndex "999" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "1005" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w171> nif:anchorOf "Etty" ;
+    nif:beginIndex "1006" ;
+    nif:endIndex "1010" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w186> nif:anchorOf "Jan" ;
+    nif:beginIndex "1086" ;
+    nif:endIndex "1089" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w186w187w188> nif:anchorOf "Jan Geurt Gaarlandt" ;
+    nif:beginIndex "1086" ;
+    nif:endIndex "1105" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w191w192> nif:anchorOf "De Haan" ;
+    nif:beginIndex "1121" ;
+    nif:endIndex "1128" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w193w194w195w196> nif:anchorOf "onder de titel Het" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1147" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w193" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w197> nif:BeginIndex "1148" ;
+    nif:anchorOf "verstoorde" ;
+    nif:endIndex "1158" ;
+    nif:lemma "verstoord" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w197w198w199w200w201w202w203> nif:anchorOf "verstoorde leven - Dagboek van Etty Hillesum" ;
+    nif:beginIndex "1148" ;
+    nif:endIndex "1192" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w205w206> nif:anchorOf "Het boek" ;
+    nif:beginIndex "1195" ;
+    nif:endIndex "1203" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w208> nif:anchorOf "onmiddellijk" ;
+    nif:beginIndex "1209" ;
+    nif:endIndex "1221" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w208" ;
+    nif:lemma "onmiddellijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w209> nif:anchorOf "veel" ;
+    nif:beginIndex "1222" ;
+    nif:endIndex "1226" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w209" ;
+    nif:lemma "veel" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w210> nif:BeginIndex "1227" ;
+    nif:anchorOf "gelezen" ;
+    nif:endIndex "1234" ;
+    nif:lemma "lezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w212> nif:BeginIndex "1238" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1240" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w218> nif:anchorOf "Engels" ;
+    nif:beginIndex "1265" ;
+    nif:endIndex "1271" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w220> nif:anchorOf "Etty" ;
+    nif:beginIndex "1273" ;
+    nif:endIndex "1277" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w225> nif:anchorOf "1983" ;
+    nif:beginIndex "1290" ;
+    nif:endIndex "1294" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w228> nif:anchorOf "Duits" ;
+    nif:beginIndex "1297" ;
+    nif:endIndex "1302" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w231> nif:BeginIndex "1308" ;
+    nif:anchorOf "denkende" ;
+    nif:endIndex "1316" ;
+    nif:lemma "denken" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w232w233w234> nif:anchorOf "Herz der Baracke." ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1334" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w236> nif:anchorOf "1983" ;
+    nif:beginIndex "1336" ;
+    nif:endIndex "1340" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w239> nif:anchorOf "Deens" ;
+    nif:beginIndex "1343" ;
+    nif:endIndex "1348" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w245> nif:anchorOf "1983" ;
+    nif:beginIndex "1368" ;
+    nif:endIndex "1372" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w248> nif:anchorOf "Noors" ;
+    nif:beginIndex "1375" ;
+    nif:endIndex "1380" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w254> nif:anchorOf "1983" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1408" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w257> nif:anchorOf "Zweeds" ;
+    nif:beginIndex "1411" ;
+    nif:endIndex "1417" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w263> nif:anchorOf "1983" ;
+    nif:beginIndex "1441" ;
+    nif:endIndex "1445" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w266> nif:anchorOf "Fins" ;
+    nif:beginIndex "1448" ;
+    nif:endIndex "1452" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w268> nif:anchorOf "Päiväkirja" ;
+    nif:beginIndex "1454" ;
+    nif:endIndex "1464" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w270> nif:anchorOf "1941--1943." ;
+    nif:beginIndex "1466" ;
+    nif:endIndex "1477" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w272> nif:anchorOf "1984" ;
+    nif:beginIndex "1478" ;
+    nif:endIndex "1482" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w275> nif:anchorOf "Engels" ;
+    nif:beginIndex "1485" ;
+    nif:endIndex "1491" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w277w278w279> nif:anchorOf "An Interrupted Life." ;
+    nif:beginIndex "1493" ;
+    nif:endIndex "1513" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w281> nif:anchorOf "1984" ;
+    nif:beginIndex "1515" ;
+    nif:endIndex "1519" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w284> nif:anchorOf "Portugees" ;
+    nif:beginIndex "1522" ;
+    nif:endIndex "1531" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w286w287w288> nif:anchorOf "Una Vida Interrompida." ;
+    nif:beginIndex "1533" ;
+    nif:endIndex "1555" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w290> nif:anchorOf "1984" ;
+    nif:beginIndex "1557" ;
+    nif:endIndex "1561" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w293> nif:anchorOf "Italiaans" ;
+    nif:beginIndex "1564" ;
+    nif:endIndex "1573" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w295w296> nif:anchorOf "Diario 1941--1943." ;
+    nif:beginIndex "1575" ;
+    nif:endIndex "1593" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w296> nif:anchorOf "1941--1943." ;
+    nif:beginIndex "1582" ;
+    nif:endIndex "1593" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w298> nif:anchorOf "1985" ;
+    nif:beginIndex "1594" ;
+    nif:endIndex "1598" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w301> nif:anchorOf "Spaans" ;
+    nif:beginIndex "1601" ;
+    nif:endIndex "1607" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w303w304w305> nif:anchorOf "Una Vida Interrompida." ;
+    nif:beginIndex "1609" ;
+    nif:endIndex "1631" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w307> nif:anchorOf "1985" ;
+    nif:beginIndex "1633" ;
+    nif:endIndex "1637" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w30w31> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "183" ;
+    nif:endIndex "202" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w310> nif:anchorOf "Ivrit" ;
+    nif:beginIndex "1640" ;
+    nif:endIndex "1645" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w312w313> nif:anchorOf "Chajjiem Kerotiem" ;
+    nif:beginIndex "1647" ;
+    nif:endIndex "1664" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w315> nif:anchorOf "Jomana" ;
+    nif:beginIndex "1666" ;
+    nif:endIndex "1672" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w318> nif:anchorOf "1985" ;
+    nif:beginIndex "1680" ;
+    nif:endIndex "1684" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w321> nif:anchorOf "Japans" ;
+    nif:beginIndex "1687" ;
+    nif:endIndex "1693" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w323> nif:anchorOf "1985" ;
+    nif:beginIndex "1695" ;
+    nif:endIndex "1699" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w326> nif:anchorOf "Hongaars" ;
+    nif:beginIndex "1704" ;
+    nif:endIndex "1712" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w328> nif:anchorOf "Frans" ;
+    nif:beginIndex "1714" ;
+    nif:endIndex "1719" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w330w331w332> nif:anchorOf "Une Vie Bouleversée" ;
+    nif:beginIndex "1721" ;
+    nif:endIndex "1740" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w335> nif:anchorOf "1941--1943" ;
+    nif:beginIndex "1750" ;
+    nif:endIndex "1760" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w337> nif:anchorOf "1985" ;
+    nif:beginIndex "1761" ;
+    nif:endIndex "1765" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w341> nif:anchorOf "1985" ;
+    nif:beginIndex "1772" ;
+    nif:endIndex "1776" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w342> nif:BeginIndex "1777" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1779" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w344> nif:anchorOf "Deventer" ;
+    nif:beginIndex "1783" ;
+    nif:endIndex "1791" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w347w348> nif:anchorOf "het beeld" ;
+    nif:beginIndex "1810" ;
+    nif:endIndex "1819" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w348" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w39w40> nif:anchorOf "Het boek" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "249" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w40" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w4> nif:BeginIndex "21" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "23" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w41> nif:BeginIndex "250" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "252" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w42> nif:anchorOf "niet" ;
+    nif:beginIndex "253" ;
+    nif:endIndex "257" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w42" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w43> nif:anchorOf "alleen" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "264" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w43" ;
+    nif:lemma "alleen" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w50> nif:BeginIndex "302" ;
+    nif:anchorOf "geeft" ;
+    nif:endIndex "307" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w51> nif:anchorOf "ook" ;
+    nif:beginIndex "308" ;
+    nif:endIndex "311" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w51" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w58w59w60w61w62w63w64w65> nif:anchorOf "de anti-Joodse maatregelen en deportaties in die jaren" ;
+    nif:beginIndex "344" ;
+    nif:endIndex "398" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w65> nif:anchorOf "jaren" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "398" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w67> nif:anchorOf "Joden" ;
+    nif:beginIndex "402" ;
+    nif:endIndex "407" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w69> nif:BeginIndex "413" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "417" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w72> nif:anchorOf "Hillesum" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w73> nif:BeginIndex "441" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "446" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w78> nif:anchorOf "Spier" ;
+    nif:beginIndex "477" ;
+    nif:endIndex "482" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w80w81w82> nif:anchorOf "9 maart 1941" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "498" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w83w84w85w86w87w88> nif:anchorOf "met het schrijven van een dagboek" ;
+    nif:beginIndex "499" ;
+    nif:endIndex "532" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w83" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w85> nif:BeginIndex "507" ;
+    nif:anchorOf "schrijven" ;
+    nif:endIndex "516" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w86w87w88> nif:anchorOf "van een dagboek" ;
+    nif:beginIndex "517" ;
+    nif:endIndex "532" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w86" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w92> nif:BeginIndex "548" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "551" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w93w94w95w96w97> nif:anchorOf "door oudere en nieuwere onderdelen" ;
+    nif:beginIndex "552" ;
+    nif:endIndex "586" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w93" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w98w99w100w101w102w103w104w105w106w107w108w109w110w111w112w113> nif:anchorOf "te vergelijken inzicht te verkrijgen in de ontwikkeling van haar gevoelens en gedachten bij alledaagse ervaringen" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "700" ;
+    nif:head "bgnProc:351__Het_verstoorde_leven.naf#w98" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_117t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w118w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_12t_13t_14> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w13w14w15> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_139t_140t_141> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w140w141w142> ;
+    xs:period "PAST_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_150t_151t_152t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w151w152w153w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_156t_157t_158t_159t_160t_161t_162t_163t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w157w158w159w160w161w162w163w164w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_159t_160t_161t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w160w161w162w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_16> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_160t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w161w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_166t_167t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w167w168w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_192t_193t_194t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w193w194w195w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_346t_347> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w347w348> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_57t_58t_59t_60t_61t_62t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w58w59w60w61w62w63w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_79t_80t_81> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w80w81w82> ;
+    xs:date "1941-03-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_82t_83t_84t_85t_86t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w83w84w85w86w87w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_85t_86t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w86w87w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_92t_93t_94t_95t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w93w94w95w96w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_97t_98t_99t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w98w99w100w101w102w103w104w105w106w107w108w109w110w111w112w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_204t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w205w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#t_38t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w39w40> .
+
+bgn:Person-351 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w10w11>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w125>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w186w187w188>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w191w192>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w197w198w199w200w201w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w218>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w220>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w228>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w232w233w234>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w248>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w257>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w266>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w268>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w275>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w277w278w279>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w284>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w286w287w288>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w293>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w295w296>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w301>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w303w304w305>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w310>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w312w313>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w315>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w321>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w326>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w328>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w330w331w332>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w344>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/351__Het_verstoorde_leven.naf#w78> .
+

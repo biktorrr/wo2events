@@ -1,0 +1,233 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_33t_34t_35t_36t_37t_38t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_40t_41t_42t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_46t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_61t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_80t_81t_82>,
+        bgn:Person-1784 ;
+    ore:proxyFor bgn:Person-1784 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w35> nif:lemma "vluchteling" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w41> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w47> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1784__Hendrik_Arius_Hoekstra#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1784__Hendrik_Arius_Hoekstra .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1784 ;
+    bgn:aggregatedPerson bgn:Person-1784 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1784__Hendrik_Arius_Hoekstra ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1784__Hendrik_Arius_Hoekstra ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w13w14w15> ;
+    xs:date "1945-02-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w33> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_33t_34t_35t_36t_37t_38t_39>,
+        bgn:Person-1784 ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_40t_41t_42t_43t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w53> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_50> ;
+    pb:A2 bgn:Person-1784 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_78>,
+        bgn:Person-1784 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_46t_47t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_61t_62t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w62w63w64> ;
+    xs:date "1949-12-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w7w8w9> ;
+    xs:date "1901-07-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_80t_81t_82> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w81w82w83> ;
+    xs:date "1953-05-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w11> nif:anchorOf "Blaricum" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w13w14w15> nif:anchorOf "10 februari 1945" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w17> nif:BeginIndex "78" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "81" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w1w2w3> nif:anchorOf "Arius Hoekstra" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "125" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w26> nif:anchorOf "Hoekstra" ;
+    nif:beginIndex "147" ;
+    nif:endIndex "155" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w27> nif:BeginIndex "156" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "159" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w33> nif:BeginIndex "186" ;
+    nif:anchorOf "bracht" ;
+    nif:endIndex "192" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w34w35w36w37w38w39w40> nif:anchorOf "vele vluchtelingen joden en geallieerde piloten" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "241" ;
+    nif:head "bgnProc:1784__Hendrik_Arius_Hoekstra.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w41w42w43w44w45> nif:anchorOf "naar veiliger oorden of onderduikadressen" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "283" ;
+    nif:head "bgnProc:1784__Hendrik_Arius_Hoekstra.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w47w48w49> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "285" ;
+    nif:endIndex "297" ;
+    nif:head "bgnProc:1784__Hendrik_Arius_Hoekstra.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w5> nif:anchorOf "Harlingen" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w51> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "303" ;
+    nif:endIndex "306" ;
+    nif:head "bgnProc:1784__Hendrik_Arius_Hoekstra.naf#w51" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w53> nif:BeginIndex "315" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "328" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w56w57> nif:anchorOf "Bronzen Leeuw" ;
+    nif:beginIndex "336" ;
+    nif:endIndex "349" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w59w60> nif:anchorOf "Koninklijk Besluit" ;
+    nif:beginIndex "354" ;
+    nif:endIndex "372" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w62w63w64> nif:anchorOf "14 december 1949" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "393" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w68> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "416" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w72w73w74w75w76w77> nif:anchorOf "Medal of Freedom with Bronze Palm" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "466" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w79> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "470" ;
+    nif:endIndex "479" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w7w8w9> nif:anchorOf "27 juli 1901" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w81w82w83> nif:anchorOf "7 mei 1953" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "493" .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_33t_34t_35t_36t_37t_38t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w34w35w36w37w38w39w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_40t_41t_42t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w41w42w43w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_46t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w47w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w51> .
+
+bgn:Person-1784 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w56w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w59w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w72w73w74w75w76w77>,
+        <http://data.biographynet.nl/rdf/170506221754/1784__Hendrik_Arius_Hoekstra.naf#w79> .
+

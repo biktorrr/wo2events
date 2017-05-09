@@ -1,0 +1,237 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_45t_46t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_9t_10t_11>,
+        bgn:Person-2192 ;
+    ore:proxyFor bgn:Person-2192 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#BioDes> .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2192__Joop_Woortman#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2192__Joop_Woortman .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2192 ;
+    bgn:aggregatedPerson bgn:Person-2192 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2192__Joop_Woortman ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2192__Joop_Woortman ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w16w17w18> ;
+    xs:date "1945-03-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w20> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_7>,
+        bgn:Person-2192 ;
+    pb:Arg1 bgn:Person-2192 ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_42>,
+        bgn:Person-2192 ;
+    pb:ArgM-PRD bgn:Person-2192 ;
+    pb:ArgM-TMP bgn:Person-2192 .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w51> ;
+    pb:Arg1 bgn:Person-2192 ;
+    pb:ArgM-CAU bgn:Person-2192 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_45t_46t_47> .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w81> ;
+    pb:Arg1 bgn:Person-2192 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_60> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_68>,
+        bgn:Person-2192 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_63t_64t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w10w11w12> ;
+    xs:date "1905-01-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w1> nif:anchorOf "Joop" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "4" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w10w11w12> nif:anchorOf "25 januari 1905" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w14> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "78" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w16w17w18> nif:anchorOf "13 maart 1945" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w20> nif:BeginIndex "95" ;
+    nif:anchorOf "redde" ;
+    nif:endIndex "100" ;
+    nif:lemma "redden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "112" ;
+    nif:endIndex "131" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w29w30> nif:anchorOf "Walter Süskind" ;
+    nif:beginIndex "153" ;
+    nif:endIndex "167" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w32> nif:anchorOf "Joodse" ;
+    nif:beginIndex "178" ;
+    nif:endIndex "184" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w36w37> nif:anchorOf "Hollandsche Schouwburg" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "223" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w3w4> nif:anchorOf "Johannes Theodorus" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w40w41> nif:anchorOf "Plantage Middenlaan" ;
+    nif:beginIndex "231" ;
+    nif:endIndex "250" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w43> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "263" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w46w47w48> nif:anchorOf "22 september 1981" ;
+    nif:beginIndex "269" ;
+    nif:endIndex "286" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w50> nif:anchorOf "Woortman" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "300" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w51> nif:BeginIndex "301" ;
+    nif:anchorOf "voorgedragen" ;
+    nif:endIndex "313" ;
+    nif:lemma "voor_dragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w54w55w56> nif:anchorOf "Jad Wasjem-onderscheiding Rechtvaardige" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "361" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w59> nif:anchorOf "Volkeren" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "379" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w6> nif:anchorOf "Woortman" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w61> nif:anchorOf "Bovendien" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "390" ;
+    nif:head "bgnProc:2192__Joop_Woortman.naf#w61" ;
+    nif:lemma "bovendien" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w64w65w66> nif:anchorOf "21 augustus 1992" ;
+    nif:beginIndex "399" ;
+    nif:endIndex "415" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w69> nif:anchorOf "Verzetsheldenbuurt" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w72> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "458" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w74> nif:anchorOf "Osdorp" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "474" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w79w80> nif:anchorOf "Joop Woortmanplein" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "514" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w8> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "45" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w81> nif:BeginIndex "515" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "522" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_45t_46t_47> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w46w47w48> ;
+    xs:date "1981-09-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#t_63t_64t_65> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w64w65w66> ;
+    xs:date "1992-08-21" .
+
+bgn:Person-2192 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w54w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w79w80>,
+        <http://data.biographynet.nl/rdf/170506221754/2192__Joop_Woortman.naf#w8> .
+

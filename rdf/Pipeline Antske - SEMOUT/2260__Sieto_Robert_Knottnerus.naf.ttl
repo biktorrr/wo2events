@@ -1,0 +1,813 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_104t_105t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_123t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_151t_152t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_176t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_181t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_227t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_230t_231t_232t_233t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_243t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_248t_249t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_252t_253t_254t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_267t_268>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_270>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_294t_295t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_74t_75t_76t_77t_78t_79t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_92t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_97t_98t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_99>,
+        bgn:Person-2260 ;
+    ore:proxyFor bgn:Person-2260 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w105> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w125> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w143> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w145> nif:lemma "gemeente" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w152> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w178> nif:lemma "functie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w230> nif:lemma "functie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w231> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w245> nif:lemma "zoon" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w249> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w76> nif:lemma "ouder" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w93> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2260__Sieto_Robert_Knottnerus#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2260__Sieto_Robert_Knottnerus .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2260 ;
+    bgn:aggregatedPerson bgn:Person-2260 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2260__Sieto_Robert_Knottnerus ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2260__Sieto_Robert_Knottnerus ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w102> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_102> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_103> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_104t_105t_106t_107> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_92t_93t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w116> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_114> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_121>,
+        bgn:Person-2260 ;
+    pb:ArgM-TMP bgn:Person-2260 .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_127> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w128> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_123t_124t_125t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w13w14w15> ;
+    xs:date "1984-10-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_134> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w135> ;
+    xs:gYear "1952" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w151> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_143t_144> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_151t_152t_153t_154> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_146t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w156> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w179> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_179> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_176t_177> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_181t_182t_183> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w195> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_196> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_191>,
+        bgn:Person-2260 .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_205> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w206> ;
+    xs:gYear "1950",
+        "1962" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_215> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w216> ;
+    xs:gYear "1963",
+        "1971" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w226> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_226> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_227t_228t_229> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_230t_231t_232t_233t_234> ;
+    pb:AM-PNC bgn:Person-2260 .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_239> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w240> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_242> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w243> ;
+    pb:Arg0 bgn:Person-2260 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_243t_244> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_247> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w248> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_246> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_265>,
+        bgn:Person-2260 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_248t_249t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_252t_253t_254t_255> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_267t_268> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w268w269> ;
+    xs:period "P24Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_270> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w271> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_274> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w275> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_294t_295t_296> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w295w296w297> ;
+    xs:date "1965-04-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w59> ;
+    pb:Arg1 bgn:Person-2260 ;
+    pb:ArgM-LOC bgn:Person-2260 .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w7w8w9> ;
+    xs:date "1913-09-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w84> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_74t_75t_76t_77t_78t_79t_80t_81>,
+        bgn:Person-2260 .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w96> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_96> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_97t_98t_99> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_92t_93t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w100> nif:BeginIndex "615" ;
+    nif:anchorOf "gemeenteadministratie" ;
+    nif:endIndex "636" ;
+    nif:lemma "gemeente_administratie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w102> nif:BeginIndex "640" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "649" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w103> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "650" ;
+    nif:endIndex "653" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w103" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w104> nif:anchorOf "rechten" ;
+    nif:beginIndex "654" ;
+    nif:endIndex "661" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w104" ;
+    nif:lemma "recht" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w105w106w107w108> nif:anchorOf "tot aan het kandidaats" ;
+    nif:beginIndex "662" ;
+    nif:endIndex "684" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w108> nif:BeginIndex "674" ;
+    nif:anchorOf "kandidaats" ;
+    nif:endIndex "684" ;
+    nif:lemma "kandidaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w11> nif:anchorOf "Stadskanaal" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w112w113> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "697" ;
+    nif:endIndex "716" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w115> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "722" ;
+    nif:endIndex "725" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w115" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w116> nif:BeginIndex "726" ;
+    nif:anchorOf "geïnterneerd" ;
+    nif:endIndex "738" ;
+    nif:lemma "interneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w118> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "742" ;
+    nif:endIndex "749" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w120> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "751" ;
+    nif:endIndex "761" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w122> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "765" ;
+    nif:endIndex "774" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w124w125w126w127> nif:anchorOf "Direct na de bevrijding" ;
+    nif:beginIndex "777" ;
+    nif:endIndex "800" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w128> nif:BeginIndex "801" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "805" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w132> nif:anchorOf "Scheemda" ;
+    nif:beginIndex "827" ;
+    nif:endIndex "835" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w135> nif:anchorOf "1952" ;
+    nif:beginIndex "842" ;
+    nif:endIndex "846" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w13w14w15> nif:anchorOf "26 oktober 1984" ;
+    nif:beginIndex "67" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w141> nif:anchorOf "Onstwedde" ;
+    nif:beginIndex "887" ;
+    nif:endIndex "896" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w143w144w145w146w147w148w149w150w151w152w153w154w155> nif:anchorOf "Toen deze gemeente per 1 januari 1969 werd opgeheven vanwege de gemeentelijke herindeling" ;
+    nif:beginIndex "898" ;
+    nif:endIndex "987" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w144w145> nif:anchorOf "deze gemeente" ;
+    nif:beginIndex "903" ;
+    nif:endIndex "916" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w147w148w149> nif:anchorOf "1 januari 1969" ;
+    nif:beginIndex "921" ;
+    nif:endIndex "935" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w151> nif:BeginIndex "941" ;
+    nif:anchorOf "opgeheven" ;
+    nif:endIndex "950" ;
+    nif:lemma "op_heffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w152w153w154w155> nif:anchorOf "vanwege de gemeentelijke herindeling" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "987" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w152" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w156> nif:BeginIndex "988" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "992" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w162> nif:BeginIndex "1023" ;
+    nif:anchorOf "gevormde" ;
+    nif:endIndex "1031" ;
+    nif:lemma "gevormd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w164> nif:anchorOf "Stadskanaal" ;
+    nif:beginIndex "1041" ;
+    nif:endIndex "1052" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w169> nif:anchorOf "Onstwedde" ;
+    nif:beginIndex "1075" ;
+    nif:endIndex "1084" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w17> nif:BeginIndex "84" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "87" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w174> nif:anchorOf "Wildervank" ;
+    nif:beginIndex "1101" ;
+    nif:endIndex "1111" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w177w178> nif:anchorOf "Deze functie" ;
+    nif:beginIndex "1114" ;
+    nif:endIndex "1126" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w178" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w179> nif:BeginIndex "1127" ;
+    nif:anchorOf "vervulde" ;
+    nif:endIndex "1135" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w180> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1136" ;
+    nif:endIndex "1139" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w180" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w182w183w184> nif:anchorOf "1 september 1976" ;
+    nif:beginIndex "1144" ;
+    nif:endIndex "1160" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "92" ;
+    nif:endIndex "103" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w190> nif:anchorOf "Scheemda" ;
+    nif:beginIndex "1197" ;
+    nif:endIndex "1205" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w192> nif:anchorOf "Onstwedde" ;
+    nif:beginIndex "1207" ;
+    nif:endIndex "1216" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w194> nif:anchorOf "Stadskanaal" ;
+    nif:beginIndex "1220" ;
+    nif:endIndex "1231" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w195> nif:BeginIndex "1232" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1235" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w196> nif:anchorOf "Knottnerus" ;
+    nif:beginIndex "1236" ;
+    nif:endIndex "1246" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w197> nif:anchorOf "ook" ;
+    nif:beginIndex "1247" ;
+    nif:endIndex "1250" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w197" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w1w2w3> nif:anchorOf "Robert Knottnerus" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w201w202> nif:anchorOf "Provinciale Staten" ;
+    nif:beginIndex "1262" ;
+    nif:endIndex "1280" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w204> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1285" ;
+    nif:endIndex "1294" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w206> nif:anchorOf "1950-1962" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1305" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w211w212w213w214> nif:anchorOf "Eerste Kamer der Staten-Generaal" ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1349" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w216> nif:anchorOf "1963-1971" ;
+    nif:beginIndex "1351" ;
+    nif:endIndex "1360" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w224w225> nif:anchorOf "Christelijk-Historische Unie" ;
+    nif:beginIndex "1384" ;
+    nif:endIndex "1412" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w226> nif:BeginIndex "1413" ;
+    nif:anchorOf "vervulde" ;
+    nif:endIndex "1421" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w227> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1422" ;
+    nif:endIndex "1425" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w227" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w228w229w230> nif:anchorOf "diverse bestuurlijke functies" ;
+    nif:beginIndex "1426" ;
+    nif:endIndex "1455" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w230" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w231w232w233w234w235> nif:anchorOf "op provinciaal en landelijk niveau" ;
+    nif:beginIndex "1456" ;
+    nif:endIndex "1490" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w231" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w237w238w239> nif:anchorOf "Sieto Robbert Knottnerus" ;
+    nif:beginIndex "1493" ;
+    nif:endIndex "1517" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w23w24> nif:anchorOf "Christelijk-Historische Unie" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "152" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w240> nif:BeginIndex "1518" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1521" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w243> nif:BeginIndex "1532" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1535" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w244w245> nif:anchorOf "vier zonen" ;
+    nif:beginIndex "1536" ;
+    nif:endIndex "1546" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w245" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w247> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1548" ;
+    nif:endIndex "1551" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w247" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w248> nif:BeginIndex "1552" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1560" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w249w250w251> nif:anchorOf "op 71-jarige leeftijd" ;
+    nif:beginIndex "1561" ;
+    nif:endIndex "1582" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w249" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w253w254w255w256> nif:anchorOf "het najaar van 1984" ;
+    nif:beginIndex "1586" ;
+    nif:endIndex "1605" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w258> nif:anchorOf "Stadskanaal" ;
+    nif:beginIndex "1609" ;
+    nif:endIndex "1620" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w26> nif:anchorOf "CHU" ;
+    nif:beginIndex "154" ;
+    nif:endIndex "157" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w266> nif:anchorOf "Onstwedde" ;
+    nif:beginIndex "1657" ;
+    nif:endIndex "1666" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w268w269> nif:anchorOf "24 jaar" ;
+    nif:beginIndex "1668" ;
+    nif:endIndex "1675" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w271> nif:BeginIndex "1689" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1692" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w275> nif:BeginIndex "1707" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1710" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w279w280> nif:anchorOf "Jur Mellema" ;
+    nif:beginIndex "1724" ;
+    nif:endIndex "1735" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w282w283> nif:anchorOf "Tweede Kamerlid" ;
+    nif:beginIndex "1737" ;
+    nif:endIndex "1752" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w286> nif:anchorOf "CHU" ;
+    nif:beginIndex "1761" ;
+    nif:endIndex "1764" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w291w292w293> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "1782" ;
+    nif:endIndex "1804" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w295w296w297> nif:anchorOf "29 april 1965" ;
+    nif:beginIndex "1806" ;
+    nif:endIndex "1819" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w30> nif:BeginIndex "164" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "167" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w33> nif:anchorOf "Scheemda" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "193" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w35> nif:anchorOf "Onstwedde" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "204" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w37> nif:anchorOf "Stadskanaal" ;
+    nif:beginIndex "208" ;
+    nif:endIndex "219" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w42w43> nif:anchorOf "Provinciale Staten" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "250" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w45> nif:anchorOf "Groningen" ;
+    nif:beginIndex "255" ;
+    nif:endIndex "264" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w5> nif:anchorOf "Oostwold" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w50w51w52w53> nif:anchorOf "Eerste Kamer der Staten-Generaal" ;
+    nif:beginIndex "279" ;
+    nif:endIndex "311" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w55w56w57> nif:anchorOf "Sieto Robbert Knottnerus" ;
+    nif:beginIndex "314" ;
+    nif:endIndex "338" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w59> nif:BeginIndex "344" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "351" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w62> nif:anchorOf "Groninger" ;
+    nif:beginIndex "359" ;
+    nif:endIndex "368" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w64> nif:anchorOf "Oostwold" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "382" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w68w69w70> nif:anchorOf "Samuel Otto Knottnerus" ;
+    nif:beginIndex "396" ;
+    nif:endIndex "418" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w72w73> nif:anchorOf "Geertjen Mellema" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "438" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w75w76w77w78w79w80w81w82> nif:anchorOf "Zijn ouders en grootouders ( van beide kanten" ;
+    nif:beginIndex "440" ;
+    nif:endIndex "484" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w7w8w9> nif:anchorOf "5 september 1913" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w84> nif:BeginIndex "486" ;
+    nif:anchorOf "behoorden" ;
+    nif:endIndex "495" ;
+    nif:lemma "behoren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w91> nif:anchorOf "Groningen" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w93w94w95> nif:anchorOf "Na zijn middelbareschoolopleiding" ;
+    nif:beginIndex "557" ;
+    nif:endIndex "590" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w93" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w95> nif:BeginIndex "565" ;
+    nif:anchorOf "middelbareschoolopleiding" ;
+    nif:endIndex "590" ;
+    nif:lemma "middelbaar_school_opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w96> nif:BeginIndex "591" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "597" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w97> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "598" ;
+    nif:endIndex "601" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w97" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w98w99w100> nif:anchorOf "de opleiding gemeenteadministratie" ;
+    nif:beginIndex "602" ;
+    nif:endIndex "636" ;
+    nif:head "bgnProc:2260__Sieto_Robert_Knottnerus.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w99> nif:BeginIndex "605" ;
+    nif:anchorOf "opleiding" ;
+    nif:endIndex "614" ;
+    nif:lemma "opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_104t_105t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w105w106w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_123t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w124w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w143w144w145w146w147w148w149w150w151w152w153w154w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_146t_147t_148> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w147w148w149> ;
+    xs:date "1969-01-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_151t_152t_153t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w152w153w154w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_176t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w177w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_181t_182t_183> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w182w183w184> ;
+    xs:date "1976-09-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_226> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w227> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_227t_228t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w228w229w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_230t_231t_232t_233t_234> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w231w232w233w234w235> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_243t_244> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w244w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_246> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w247> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_248t_249t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w249w250w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_252t_253t_254t_255> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w253w254w255w256> ;
+    xs:gYearMonth "1984-H2" .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_74t_75t_76t_77t_78t_79t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w75w76w77w78w79w80w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_97t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w98w99w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#t_92t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w93w94w95> .
+
+bgn:Person-2260 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w112w113>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w196>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w201w202>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w211w212w213w214>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w224w225>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w237w238w239>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w258>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w266>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w279w280>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w282w283>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w286>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w291w292w293>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w42w43>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w50w51w52w53>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w55w56w57>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w68w69w70>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/2260__Sieto_Robert_Knottnerus.naf#w91> .
+

@@ -1,0 +1,368 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_13t_14t_15t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_28t_29t_30t_31t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_87t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_93>,
+        bgn:Person-361 ;
+    ore:proxyFor bgn:Person-361 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w120> nif:lemma "crematorium" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w16> nif:lemma "rest" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w30> nif:lemma "naam" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-361__Verzetsgraf_(Hooghalen)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-361__Verzetsgraf_(Hooghalen)> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-361 ;
+    bgn:aggregatedPerson bgn:Person-361 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-361__Verzetsgraf_(Hooghalen)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-361__Verzetsgraf_(Hooghalen)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w102> ;
+    pb:Arg1 bgn:Person-361 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_93> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_90t_91> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w124> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_118t_119> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w21> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_13t_14t_15t_16t_17t_18> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_10> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_12> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w34> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_28t_29t_30t_31t_32> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_26> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w37> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_35> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_37> ;
+    pb:AM-TMP bgn:Person-361 .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w5> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_58t_59t_60> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w59w60w61> ;
+    xs:date "1943-09-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w69> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w83> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_74> ;
+    pb:AM-TMP bgn:Person-361 .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_87t_88> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w88w89> ;
+    xs:gYearMonth "1943-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w100> nif:anchorOf "Joodse" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "600" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w102> nif:BeginIndex "612" ;
+    nif:anchorOf "neergeschoten" ;
+    nif:endIndex "625" ;
+    nif:lemma "neer_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w107> nif:BeginIndex "650" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "654" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w11> nif:anchorOf "waar" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "67" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w11" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w113> nif:anchorOf "Groningen" ;
+    nif:beginIndex "683" ;
+    nif:endIndex "692" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w115> nif:anchorOf "Beilen" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "700" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w117> nif:anchorOf "Loenen" ;
+    nif:beginIndex "704" ;
+    nif:endIndex "710" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w119w120> nif:anchorOf "Het crematorium" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "728" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w123> nif:anchorOf "1951" ;
+    nif:beginIndex "737" ;
+    nif:endIndex "741" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w124> nif:BeginIndex "742" ;
+    nif:anchorOf "gesloopt" ;
+    nif:endIndex "750" ;
+    nif:lemma "slopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w13> nif:anchorOf "1943" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w132w133w134> nif:anchorOf "Nationaal Comité 4" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "809" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w14w15w16w17w18w19> nif:anchorOf "de stoffelijke resten van tien verzetsmensen" ;
+    nif:beginIndex "76" ;
+    nif:endIndex "120" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w16" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w2> nif:anchorOf "Verzetsgraf" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "15" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w21> nif:BeginIndex "128" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "136" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w27> nif:anchorOf "1949" ;
+    nif:beginIndex "165" ;
+    nif:endIndex "169" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w29w30w31w32w33> nif:anchorOf "de namen van deze mannen" ;
+    nif:beginIndex "176" ;
+    nif:endIndex "200" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w30" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w34> nif:BeginIndex "201" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "208" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w36> nif:anchorOf "Het" ;
+    nif:beginIndex "211" ;
+    nif:endIndex "214" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w36" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w37> nif:BeginIndex "215" ;
+    nif:anchorOf "bevindt" ;
+    nif:endIndex "222" ;
+    nif:lemma "bevinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w38> nif:anchorOf "zich" ;
+    nif:beginIndex "223" ;
+    nif:endIndex "227" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w38" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w4> nif:anchorOf "Hooghalen" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "28" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w48w49> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "282" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w5> nif:BeginIndex "29" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "31" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w51> nif:BeginIndex "301" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "304" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w59w60w61> nif:anchorOf "20 september 1943" ;
+    nif:beginIndex "341" ;
+    nif:endIndex "358" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w68> nif:anchorOf "die" ;
+    nif:beginIndex "402" ;
+    nif:endIndex "405" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w68" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w69> nif:BeginIndex "406" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "411" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w73> nif:anchorOf "Witterveld" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "442" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w75> nif:anchorOf "Assen" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "452" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w82> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "492" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w83> nif:BeginIndex "493" ;
+    nif:anchorOf "verbrand" ;
+    nif:endIndex "501" ;
+    nif:lemma "verbranden" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w85> nif:anchorOf "Ook" ;
+    nif:beginIndex "504" ;
+    nif:endIndex "507" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w85" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w88w89> nif:anchorOf "september 1943" ;
+    nif:beginIndex "522" ;
+    nif:endIndex "536" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w91w92> nif:anchorOf "oktober 1944" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "552" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w93> nif:anchorOf "hier" ;
+    nif:beginIndex "553" ;
+    nif:endIndex "557" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w93" ;
+    nif:lemma "hier" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w94> nif:anchorOf "nog" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "561" ;
+    nif:head "bgnProc:361__Verzetsgraf_(Hooghalen).naf#w94" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_10> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w11> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w13> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_122> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w123> ;
+    xs:gYear "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_13t_14t_15t_16t_17t_18> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w14w15w16w17w18w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_26> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w27> ;
+    xs:gYear "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_28t_29t_30t_31t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w29w30w31w32w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_90t_91> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w91w92> ;
+    xs:gYearMonth "1944-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w94> .
+
+bgn:Person-361 a bgn:LOC,
+        bgn:ORG ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w100>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w117>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w132w133w134>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w48w49>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w73>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/361__Verzetsgraf_(Hooghalen).naf#w82> .
+

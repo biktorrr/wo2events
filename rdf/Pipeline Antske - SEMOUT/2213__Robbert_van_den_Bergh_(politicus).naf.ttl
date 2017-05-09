@@ -1,0 +1,793 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_125t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_34t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_49t_50t_51t_52t_53t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_60t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_97t_98t_99t_100t_101t_102>,
+        bgn:Person-2213 ;
+    ore:proxyFor bgn:Person-2213 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w127> nif:lemma "functie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w161> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w222> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w35> nif:lemma "cum" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w51> nif:lemma "loopbaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w59> nif:lemma "loopbaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w98> nif:lemma "evenals" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2213__Robbert_van_den_Bergh_(politicus)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-2213__Robbert_van_den_Bergh_(politicus)> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2213 ;
+    bgn:aggregatedPerson bgn:Person-2213 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-2213__Robbert_van_den_Bergh_(politicus)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-2213__Robbert_van_den_Bergh_(politicus)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w104> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_104> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_97t_98t_99t_100t_101t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w109> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_107> ;
+    pb:ArgM-PNC bgn:Person-2213 .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w123> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_123> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_125t_126t_127t_128> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_124> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_121> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w132> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w14w15w16> ;
+    xs:date "1997-08-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_142> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w143> ;
+    xs:gYear "1958",
+        "1970" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_148> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w149> ;
+    xs:gYear "1963" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_153> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w154> ;
+    xs:gYear "1965",
+        "1971" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w157> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_157> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_160t_161> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_159> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_155> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_158> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w167> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_167> ;
+    pb:A1 bgn:Person-2213 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w187> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_187> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_198> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w199> ;
+    xs:gYear "1972",
+        "1975" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_203> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w204> ;
+    xs:gYear "1975",
+        "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w207> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_205> ;
+    pb:A1 bgn:Person-2213 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_221t_222t_223> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w22> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_20> ;
+    pb:Arg2 bgn:Person-2213 .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_229> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w245> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_243> ;
+    pb:AM-DIS bgn:Person-2213 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_245> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_248> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w249> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_254> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w255> ;
+    xs:gYear "1968" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w32> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_30> ;
+    pb:Arg2 bgn:Person-2213 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_33> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_34t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w48> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_48> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_49t_50t_51t_52t_53t_54> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_61> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w62> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w63> ;
+    pb:A0 bgn:Person-2213 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_57t_58> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_60t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w75> ;
+    pb:A0 bgn:Person-2213 ;
+    pb:A1 bgn:Person-2213 .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w8w9w10> ;
+    xs:date "1913-08-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w86> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_82> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_84>,
+        bgn:Person-2213 .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w104> nif:BeginIndex "612" ;
+    nif:anchorOf "overleefde" ;
+    nif:endIndex "622" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w105> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "623" ;
+    nif:endIndex "626" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w105" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w108> nif:anchorOf "1947-1965" ;
+    nif:beginIndex "633" ;
+    nif:endIndex "642" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w109> nif:BeginIndex "643" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "646" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w113> nif:anchorOf "PvdA" ;
+    nif:beginIndex "659" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w119> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "692" ;
+    nif:endIndex "701" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w122> nif:anchorOf "1953-1965" ;
+    nif:beginIndex "707" ;
+    nif:endIndex "716" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w123> nif:BeginIndex "717" ;
+    nif:anchorOf "vervulde" ;
+    nif:endIndex "725" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w124> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "726" ;
+    nif:endIndex "729" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w124" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w125> nif:anchorOf "er" ;
+    nif:beginIndex "730" ;
+    nif:endIndex "732" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w125" ;
+    nif:lemma "er" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w126w127w128w129> nif:anchorOf "de functie van wethouder" ;
+    nif:beginIndex "733" ;
+    nif:endIndex "757" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w131> nif:anchorOf "Ook" ;
+    nif:beginIndex "760" ;
+    nif:endIndex "763" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w131" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w132> nif:BeginIndex "764" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "767" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w137w138> nif:anchorOf "Provinciale Staten" ;
+    nif:beginIndex "783" ;
+    nif:endIndex "801" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w140> nif:anchorOf "Noord-Holland" ;
+    nif:beginIndex "806" ;
+    nif:endIndex "819" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w143> nif:anchorOf "1958-1970" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "834" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w144w145> nif:anchorOf "Tweede Kamerlid" ;
+    nif:beginIndex "836" ;
+    nif:endIndex "851" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w149> nif:anchorOf "1963" ;
+    nif:beginIndex "863" ;
+    nif:endIndex "867" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w14w15w16> nif:anchorOf "28 augustus 1997" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w154> nif:anchorOf "1965-1971" ;
+    nif:beginIndex "885" ;
+    nif:endIndex "894" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w156> nif:anchorOf "Hier" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "900" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w156" ;
+    nif:lemma "hier" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w157> nif:BeginIndex "901" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "906" ;
+    nif:lemma "bezig_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w158> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "910" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w158" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w159> nif:anchorOf "zich" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "915" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w159" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w160> nif:anchorOf "voornamelijk" ;
+    nif:beginIndex "916" ;
+    nif:endIndex "928" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w160" ;
+    nif:lemma "voornamelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w161w162> nif:anchorOf "met justitie" ;
+    nif:beginIndex "929" ;
+    nif:endIndex "941" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w161" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w166> nif:anchorOf "1971" ;
+    nif:beginIndex "952" ;
+    nif:endIndex "956" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w167> nif:BeginIndex "957" ;
+    nif:anchorOf "bekleedde" ;
+    nif:endIndex "966" ;
+    nif:lemma "bekleden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w168> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "967" ;
+    nif:endIndex "970" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w168" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w174> nif:anchorOf "Financiën" ;
+    nif:beginIndex "996" ;
+    nif:endIndex "1005" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w177> nif:anchorOf "Schaduwkabinet-Den" ;
+    nif:beginIndex "1013" ;
+    nif:endIndex "1031" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w178w179w180> nif:anchorOf "Uyl van PvdA" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w18> nif:BeginIndex "78" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "81" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w182> nif:anchorOf "D66" ;
+    nif:beginIndex "1046" ;
+    nif:endIndex "1049" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w184> nif:anchorOf "PPR" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1056" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w187> nif:BeginIndex "1063" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1066" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w188> nif:anchorOf "daarnaast" ;
+    nif:beginIndex "1067" ;
+    nif:endIndex "1076" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w188" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w192w193w194> nif:anchorOf "Raad van State" ;
+    nif:beginIndex "1088" ;
+    nif:endIndex "1102" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w199> nif:anchorOf "1972-1975" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1139" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w1w2w3w4> nif:anchorOf "van den Bergh" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "21" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w20> nif:anchorOf "PvdA-politicus" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w204> nif:anchorOf "1975-1983" ;
+    nif:beginIndex "1158" ;
+    nif:endIndex "1167" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w206> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1170" ;
+    nif:endIndex "1173" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w206" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w207> nif:BeginIndex "1174" ;
+    nif:anchorOf "vervulde" ;
+    nif:endIndex "1182" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w21> nif:anchorOf "die" ;
+    nif:beginIndex "101" ;
+    nif:endIndex "104" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w21" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w212> nif:anchorOf "SER" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1209" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w22> nif:BeginIndex "105" ;
+    nif:anchorOf "stamde" ;
+    nif:endIndex "111" ;
+    nif:lemma "stammen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w222w223w224> nif:anchorOf "bij diverse ondernemingen" ;
+    nif:beginIndex "1261" ;
+    nif:endIndex "1286" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w226w227w228w229> nif:anchorOf "Robbert van den Bergh" ;
+    nif:beginIndex "1289" ;
+    nif:endIndex "1310" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w230> nif:BeginIndex "1311" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1314" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w234w235w236w237> nif:anchorOf "George van den Bergh" ;
+    nif:beginIndex "1328" ;
+    nif:endIndex "1348" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w239w240w241w242> nif:anchorOf "Jeanette Elisabeth van Dantzig" ;
+    nif:beginIndex "1352" ;
+    nif:endIndex "1382" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w244> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1384" ;
+    nif:endIndex "1387" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w244" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w245> nif:BeginIndex "1388" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "1395" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w246> nif:anchorOf "tweemaal" ;
+    nif:beginIndex "1396" ;
+    nif:endIndex "1404" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w246" ;
+    nif:lemma "tweemaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w249> nif:anchorOf "1941" ;
+    nif:beginIndex "1409" ;
+    nif:endIndex "1413" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w251w252> nif:anchorOf "Lotte Hauer" ;
+    nif:beginIndex "1418" ;
+    nif:endIndex "1429" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w255> nif:anchorOf "1968" ;
+    nif:beginIndex "1436" ;
+    nif:endIndex "1440" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w257w258> nif:anchorOf "Anneke Tels" ;
+    nif:beginIndex "1445" ;
+    nif:endIndex "1456" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w27w28w29> nif:anchorOf "Van den Bergh" ;
+    nif:beginIndex "147" ;
+    nif:endIndex "160" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w31> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "163" ;
+    nif:endIndex "166" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w31" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w32> nif:BeginIndex "167" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "176" ;
+    nif:lemma "af_studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w34> nif:anchorOf "1939" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "184" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w35w36> nif:anchorOf "cum laude" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "194" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w43w44w45> nif:anchorOf "Universiteit van Amsterdam" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "245" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w47> nif:anchorOf "Vervolgens" ;
+    nif:beginIndex "247" ;
+    nif:endIndex "257" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w47" ;
+    nif:lemma "vervolgens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w48> nif:BeginIndex "258" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "263" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w49> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "267" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w49" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w50w51w52w53w54w55> nif:anchorOf "een loopbaan als advocaat en procureur" ;
+    nif:beginIndex "268" ;
+    nif:endIndex "306" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w51" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w58w59> nif:anchorOf "deze loopbaan" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "326" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w6> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "23" ;
+    nif:endIndex "32" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w61w62> nif:anchorOf "al snel" ;
+    nif:beginIndex "332" ;
+    nif:endIndex "339" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w62" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w62> nif:anchorOf "snel" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "339" ;
+    nif:lemma "snel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w63> nif:BeginIndex "340" ;
+    nif:anchorOf "afgebroken" ;
+    nif:endIndex "350" ;
+    nif:lemma "af_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w66> nif:BeginIndex "360" ;
+    nif:anchorOf "uitbreken" ;
+    nif:endIndex "369" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w69w70> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "396" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w72w73w74> nif:anchorOf "Van den Bergh" ;
+    nif:beginIndex "399" ;
+    nif:endIndex "412" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w75> nif:BeginIndex "413" ;
+    nif:anchorOf "behoorde" ;
+    nif:endIndex "421" ;
+    nif:lemma "behoren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w78> nif:anchorOf "Barneveldgroep" ;
+    nif:beginIndex "429" ;
+    nif:endIndex "443" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w83> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "462" ;
+    nif:endIndex "465" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w83" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w85> nif:anchorOf "1943" ;
+    nif:beginIndex "472" ;
+    nif:endIndex "476" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w86> nif:BeginIndex "477" ;
+    nif:anchorOf "geïnterneerd" ;
+    nif:endIndex "489" ;
+    nif:lemma "interneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w89> nif:anchorOf "Barneveld" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "519" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w8w9w10> nif:anchorOf "3 augustus 1913" ;
+    nif:beginIndex "34" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w91w92> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "521" ;
+    nif:endIndex "536" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w94w95> nif:anchorOf "Concentratiekamp Theresienstadt" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "571" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w98w99w100w101w102w103> nif:anchorOf "evenals de meesten uit deze groep" ;
+    nif:beginIndex "578" ;
+    nif:endIndex "611" ;
+    nif:head "bgnProc:2213__Robbert_van_den_Bergh_(politicus).naf#w98" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_107> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w108> ;
+    xs:gYear "1947",
+        "1965" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_121> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w122> ;
+    xs:gYear "1953",
+        "1965" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_125t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w126w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_160t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w161w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_165> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w166> ;
+    xs:gYear "1971" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_20> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_221t_222t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w222w223w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_33> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w34> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_34t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w35w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_49t_50t_51t_52t_53t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w50w51w52w53w54w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_60t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w61w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_84> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w85> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#t_97t_98t_99t_100t_101t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w98w99w100w101w102w103> .
+
+bgn:Person-2213 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w137w138>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w144w145>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w178w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w192w193w194>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w212>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w226w227w228w229>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w234w235w236w237>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w239w240w241w242>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w251w252>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w257w258>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w27w28w29>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w43w44w45>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w69w70>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w72w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w89>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w91w92>,
+        <http://data.biographynet.nl/rdf/170506221754/2213__Robbert_van_den_Bergh_(politicus).naf#w94w95> .
+

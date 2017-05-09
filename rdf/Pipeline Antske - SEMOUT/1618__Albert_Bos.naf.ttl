@@ -1,0 +1,475 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_129t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_45t_46t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_85t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_99t_100>,
+        bgn:Person-1618 ;
+    ore:proxyFor bgn:Person-1618 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w100> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w46> nif:lemma "als" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1618__Albert_Bos#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1618__Albert_Bos .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1618 ;
+    bgn:aggregatedPerson bgn:Person-1618 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1618__Albert_Bos ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1618__Albert_Bos ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w113> ;
+    pb:Arg0 bgn:Person-1618 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_107> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w120> ;
+    pb:ArgM bgn:Person-1618 .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w125> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_116> ;
+    pb:Arg2 bgn:Person-1618 .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_129t_130t_131> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w130w131w132> ;
+    xs:date "1942-08-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w13w14w15> ;
+    xs:date "1942-08-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w148> ;
+    pb:Arg1 bgn:Person-1618 .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w37> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_43> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w44> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_44> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_45t_46t_47t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w52> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_80>,
+        bgn:Person-1618 .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w7w8w9> ;
+    xs:date "1912-10-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w79> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_76> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_88> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w89> ;
+    pb:Arg0 bgn:Person-1618 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_82> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_85t_86t_87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w99> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_97> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_99t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w100w101> nif:anchorOf "te vluchten" ;
+    nif:beginIndex "532" ;
+    nif:endIndex "543" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w101> nif:BeginIndex "535" ;
+    nif:anchorOf "vluchten" ;
+    nif:endIndex "543" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w105w106> nif:anchorOf "27 oktober" ;
+    nif:beginIndex "553" ;
+    nif:endIndex "563" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w108> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "569" ;
+    nif:endIndex "572" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w108" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w109> nif:anchorOf "opnieuw" ;
+    nif:beginIndex "573" ;
+    nif:endIndex "580" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w109" ;
+    nif:lemma "opnieuw" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w11> nif:anchorOf "Groß-Rosen" ;
+    nif:beginIndex "43" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w112> nif:anchorOf "SD" ;
+    nif:beginIndex "589" ;
+    nif:endIndex "591" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w113> nif:BeginIndex "592" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "604" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w115> nif:BeginIndex "606" ;
+    nif:anchorOf "Aansluitend" ;
+    nif:endIndex "617" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w117> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "623" ;
+    nif:endIndex "626" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w117" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w120> nif:BeginIndex "636" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "652" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w121w122> nif:anchorOf "Groß Rosen" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w124> nif:anchorOf "Neder-Silezië" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "680" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w125> nif:BeginIndex "681" ;
+    nif:anchorOf "getransporteerd" ;
+    nif:endIndex "696" ;
+    nif:lemma "transporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w130w131w132> nif:anchorOf "2 augustus 1942" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "725" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w136> nif:BeginIndex "739" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "741" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w13w14w15> nif:anchorOf "2 augustus 1942" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w141> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "769" ;
+    nif:endIndex "780" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w148> nif:BeginIndex "829" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "833" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w152w153w154> nif:anchorOf "Nacht und Nebel" ;
+    nif:beginIndex "845" ;
+    nif:endIndex "860" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w155> nif:BeginIndex "861" ;
+    nif:anchorOf "bekendstaande" ;
+    nif:endIndex "874" ;
+    nif:lemma "bekendstaand" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w17> nif:BeginIndex "72" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "75" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w1w2> nif:anchorOf "Bos" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w22> nif:anchorOf "Bos" ;
+    nif:beginIndex "110" ;
+    nif:endIndex "113" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w23> nif:BeginIndex "114" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "117" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w29w30> nif:anchorOf "Hendrik Bos" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "154" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w32w33w34> nif:anchorOf "Gezina Berendina Niewold" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "182" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w36> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "184" ;
+    nif:endIndex "187" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w36" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w37> nif:BeginIndex "188" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "191" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w40w41> nif:anchorOf "Klasina Sling" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w43> nif:anchorOf "Bos" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "222" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w44> nif:BeginIndex "223" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "226" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w45> nif:anchorOf "werkzaam" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "235" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w45" ;
+    nif:lemma "werkzaam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w46w47w48w49> nif:anchorOf "als een los arbeider" ;
+    nif:beginIndex "236" ;
+    nif:endIndex "256" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w4w5> nif:anchorOf "Oude Pekela" ;
+    nif:beginIndex "12" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w52> nif:BeginIndex "262" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "265" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w56> nif:anchorOf "CPN" ;
+    nif:beginIndex "277" ;
+    nif:endIndex "280" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w62> nif:BeginIndex "301" ;
+    nif:anchorOf "Noorderlicht" ;
+    nif:beginIndex "301" ;
+    nif:endIndex "313" ;
+    nif:lemma "Noorderlicht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w64w65> nif:anchorOf "Oude Pekela" ;
+    nif:beginIndex "317" ;
+    nif:endIndex "328" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w75> nif:BeginIndex "389" ;
+    nif:anchorOf "Noorderlicht" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "401" ;
+    nif:lemma "Noorderlicht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w77> nif:anchorOf "die" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "406" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w77" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w79> nif:BeginIndex "412" ;
+    nif:anchorOf "verspreid" ;
+    nif:endIndex "421" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w7w8w9> nif:anchorOf "15 oktober 1912" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w81> nif:anchorOf "Noord-Nederland" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w83> nif:anchorOf "Bos" ;
+    nif:beginIndex "442" ;
+    nif:endIndex "445" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w83" ;
+    nif:lemma "Bos" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w86w87w88> nif:anchorOf "3 september 1941" ;
+    nif:beginIndex "454" ;
+    nif:endIndex "470" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w89> nif:BeginIndex "471" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "483" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w92w93> nif:anchorOf "Duitse Sicherheitsdienst" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "516" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w95> nif:anchorOf "SD" ;
+    nif:beginIndex "518" ;
+    nif:endIndex "520" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w98> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "523" ;
+    nif:endIndex "526" ;
+    nif:head "bgnProc:1618__Albert_Bos.naf#w98" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w99> nif:BeginIndex "527" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "531" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_104t_105> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w105w106> ;
+    xs:date "2017-10-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w36> ;
+    stevensFam:isPartnerIn bgn:Person-1618 .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_45t_46t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w46w47w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_85t_86t_87> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w86w87w88> ;
+    xs:date "1941-09-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w100w101> .
+
+bgn:Person-1618 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w121w122>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w152w153w154>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w32w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w4w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w64w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w92w93>,
+        <http://data.biographynet.nl/rdf/170506221754/1618__Albert_Bos.naf#w95> .
+

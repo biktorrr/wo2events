@@ -1,0 +1,798 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_117t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_150t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_155t_156t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_162t_163t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_184t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_220t_221t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_224t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_236t_237t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_36t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_73t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_91t_92t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_97t_98t_99t_100t_101>,
+        bgn:Person-1936 ;
+    ore:proxyFor bgn:Person-1936 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w118> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w128> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w153> nif:lemma "handel_reis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w163> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w185> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w200> nif:lemma "per" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w226> nif:lemma "over_lijden_akte" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w37> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w74> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w92> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w98> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1936__Ernst_Moltzer#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1936__Ernst_Moltzer .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1936 ;
+    bgn:aggregatedPerson bgn:Person-1936 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1936__Ernst_Moltzer ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1936__Ernst_Moltzer ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_108> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w109> ;
+    xs:gYear "1936" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w120> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_109> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_117t_118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w125> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_125> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_127t_128> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w13w14w15> ;
+    xs:date "1941-11-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_142> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w143> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w147> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_147> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_150t_151t_152> ;
+    pb:ArgM-ADV bgn:Person-1936 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_149> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_158> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w159> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_159> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_175>,
+        bgn:Person-1936 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_162t_163t_164> ;
+    pb:AM-LOC bgn:Person-1936 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_155t_156t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w182> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_182> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_184t_185t_186> ;
+    pb:ArgM-LOC bgn:Person-1936 .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w190> ;
+    pb:Arg1 bgn:Person-1936 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_192> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_205>,
+        bgn:Person-1936 .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_203> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w204> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_205> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_201> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w233> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_224t_225> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_220t_221t_222>,
+        bgn:Person-1936 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_236t_237t_238> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w36> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_36t_37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w48> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_46> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w53> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_46> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_55>,
+        bgn:Person-1936 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w63> ;
+    pb:ArgM bgn:Person-1936 .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w67> ;
+    pb:ArgM bgn:Person-1936 .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w7w8w9> ;
+    xs:date "1910-05-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w77> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_77> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_73t_74t_75>,
+        bgn:Person-1936 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w87> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w91> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_91t_92t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w97> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_111>,
+        bgn:Person-1936 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_97t_98t_99t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w103> nif:anchorOf "deel" ;
+    nif:beginIndex "532" ;
+    nif:endIndex "536" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w103" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w106w107> nif:anchorOf "Olympische Zomerspelen" ;
+    nif:beginIndex "544" ;
+    nif:endIndex "566" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w109> nif:anchorOf "1936" ;
+    nif:beginIndex "570" ;
+    nif:endIndex "574" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w11> nif:anchorOf "Noordzee" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w110> nif:anchorOf "waar" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "579" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w110" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w112> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "584" ;
+    nif:endIndex "594" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w116w117> nif:anchorOf "De Ruyter" ;
+    nif:beginIndex "610" ;
+    nif:endIndex "619" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w118w119> nif:anchorOf "als achtste" ;
+    nif:beginIndex "620" ;
+    nif:endIndex "631" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w120> nif:BeginIndex "632" ;
+    nif:anchorOf "eindigde" ;
+    nif:endIndex "640" ;
+    nif:lemma "eindigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w124> nif:anchorOf "1941" ;
+    nif:beginIndex "649" ;
+    nif:endIndex "653" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w125> nif:BeginIndex "654" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "657" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w126> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "658" ;
+    nif:endIndex "661" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w126" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w127> nif:anchorOf "deel" ;
+    nif:beginIndex "662" ;
+    nif:endIndex "666" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w127" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w128w129> nif:anchorOf "aan zeilwedstrijden" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "686" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w129> nif:BeginIndex "671" ;
+    nif:anchorOf "zeilwedstrijden" ;
+    nif:endIndex "686" ;
+    nif:lemma "zeil_wedden_strijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w132> nif:BeginIndex "693" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "696" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w136w137> nif:anchorOf "Lucas Bols" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "737" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w138> nif:anchorOf "die" ;
+    nif:beginIndex "738" ;
+    nif:endIndex "741" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w138" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w13w14w15> nif:anchorOf "15 november 1941" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w143> nif:BeginIndex "775" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "778" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w146> nif:anchorOf "Bols" ;
+    nif:beginIndex "787" ;
+    nif:endIndex "791" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w147> nif:BeginIndex "792" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "798" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w148> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "799" ;
+    nif:endIndex "802" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w148" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w150> nif:anchorOf "1937" ;
+    nif:beginIndex "806" ;
+    nif:endIndex "810" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w151w152w153> nif:anchorOf "een wereldwijde handelsreis" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "838" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w156w157w158> nif:anchorOf "1 juli 1939" ;
+    nif:beginIndex "844" ;
+    nif:endIndex "855" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w159> nif:BeginIndex "856" ;
+    nif:anchorOf "trad" ;
+    nif:endIndex "860" ;
+    nif:lemma "treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w160> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "864" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w160" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w162> nif:anchorOf "Kennelbach" ;
+    nif:beginIndex "868" ;
+    nif:endIndex "878" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w163w164w165> nif:anchorOf "in het huwelijk" ;
+    nif:beginIndex "879" ;
+    nif:endIndex "894" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w168> nif:anchorOf "Oostenrijkse" ;
+    nif:beginIndex "902" ;
+    nif:endIndex "914" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w17> nif:BeginIndex "78" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "81" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w170w171w172w173w174> nif:anchorOf "Gertrude Anna Luise Therese Thusnelde" ;
+    nif:beginIndex "922" ;
+    nif:endIndex "959" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w176> nif:anchorOf "Sarnthein" ;
+    nif:beginIndex "964" ;
+    nif:endIndex "973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w180w181> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "982" ;
+    nif:endIndex "1001" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w182> nif:BeginIndex "1002" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "1005" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w183> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1006" ;
+    nif:endIndex "1009" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w183" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w184> nif:anchorOf "deel" ;
+    nif:beginIndex "1010" ;
+    nif:endIndex "1014" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w184" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w185w186w187> nif:anchorOf "aan het verzet" ;
+    nif:beginIndex "1015" ;
+    nif:endIndex "1029" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w185" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w189> nif:anchorOf "Moltzer" ;
+    nif:beginIndex "1031" ;
+    nif:endIndex "1038" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w190> nif:BeginIndex "1039" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1047" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w193> nif:anchorOf "Noordzee" ;
+    nif:beginIndex "1054" ;
+    nif:endIndex "1062" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w1w2w3> nif:anchorOf "Octavianus Moltzer" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w200w201> nif:anchorOf "per boot" ;
+    nif:beginIndex "1090" ;
+    nif:endIndex "1098" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w200" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w202> nif:anchorOf "over" ;
+    nif:beginIndex "1099" ;
+    nif:endIndex "1103" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w202" ;
+    nif:lemma "over" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w204> nif:BeginIndex "1107" ;
+    nif:anchorOf "steken" ;
+    nif:endIndex "1113" ;
+    nif:lemma "over_steken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w206> nif:anchorOf "Engeland" ;
+    nif:beginIndex "1119" ;
+    nif:endIndex "1127" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w209w210> nif:anchorOf "Cornelis Kolff" ;
+    nif:beginIndex "1138" ;
+    nif:endIndex "1152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w212w213w214w215w216> nif:anchorOf "Gerrit Jacobus van der Flier" ;
+    nif:beginIndex "1156" ;
+    nif:endIndex "1184" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w221w222w223> nif:anchorOf "12 januari 1951" ;
+    nif:beginIndex "1205" ;
+    nif:endIndex "1220" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w225w226> nif:anchorOf "zijn overlijdensakte" ;
+    nif:beginIndex "1226" ;
+    nif:endIndex "1246" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w226" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w232> nif:anchorOf "Heemstede" ;
+    nif:beginIndex "1275" ;
+    nif:endIndex "1284" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w233> nif:BeginIndex "1285" ;
+    nif:anchorOf "ingeschreven" ;
+    nif:endIndex "1297" ;
+    nif:lemma "in_schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w237w238w239> nif:anchorOf "15 november 1941" ;
+    nif:beginIndex "1323" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w26> nif:anchorOf "Engelandvaarder" ;
+    nif:beginIndex "138" ;
+    nif:endIndex "153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w29> nif:BeginIndex "160" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "163" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w32w33w34> nif:anchorOf "KARZV De Hoop" ;
+    nif:beginIndex "172" ;
+    nif:endIndex "185" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w36> nif:BeginIndex "189" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "192" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w37w38> nif:anchorOf "als watersporter" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "209" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w42> nif:BeginIndex "224" ;
+    nif:anchorOf "roeien" ;
+    nif:endIndex "230" ;
+    nif:lemma "roeien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w45> nif:BeginIndex "238" ;
+    nif:anchorOf "zeilen" ;
+    nif:endIndex "244" ;
+    nif:lemma "zeilen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w47> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "249" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w47" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w48> nif:BeginIndex "250" ;
+    nif:anchorOf "voer" ;
+    nif:endIndex "254" ;
+    nif:lemma "varen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w5> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w51> nif:anchorOf "Pamir" ;
+    nif:beginIndex "261" ;
+    nif:endIndex "266" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w53> nif:BeginIndex "270" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "276" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w55> nif:anchorOf "1934" ;
+    nif:beginIndex "280" ;
+    nif:endIndex "284" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w56> nif:anchorOf "deel" ;
+    nif:beginIndex "285" ;
+    nif:endIndex "289" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w56" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w63> nif:BeginIndex "319" ;
+    nif:anchorOf "zeiljacht" ;
+    nif:endIndex "328" ;
+    nif:lemma "zeil_jacht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w64> nif:anchorOf "Endeavour" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "338" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w67> nif:BeginIndex "350" ;
+    nif:anchorOf "wedstrijden" ;
+    nif:endIndex "361" ;
+    nif:lemma "wedstrijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w70> nif:anchorOf "America" ;
+    nif:beginIndex "368" ;
+    nif:endIndex "375" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w74w75w76> nif:anchorOf "In de skiff" ;
+    nif:beginIndex "383" ;
+    nif:endIndex "394" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w77> nif:BeginIndex "395" ;
+    nif:anchorOf "roeide" ;
+    nif:endIndex "401" ;
+    nif:lemma "roeien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w78> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "402" ;
+    nif:endIndex "405" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w78" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w79> nif:anchorOf "meermaals" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "415" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w79" ;
+    nif:lemma "meermaals" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w7w8w9> nif:anchorOf "1 mei 1910" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w82w83> nif:anchorOf "Holland Beker" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "435" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w86> nif:anchorOf "1935" ;
+    nif:beginIndex "441" ;
+    nif:endIndex "445" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w87> nif:BeginIndex "446" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "449" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w88w89> nif:anchorOf "Molzer Nederlands" ;
+    nif:beginIndex "450" ;
+    nif:endIndex "467" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w91> nif:BeginIndex "477" ;
+    nif:anchorOf "roeien" ;
+    nif:endIndex "483" ;
+    nif:lemma "roeien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w92w93w94> nif:anchorOf "in de skiff" ;
+    nif:beginIndex "484" ;
+    nif:endIndex "495" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w92" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w96> nif:anchorOf "Moltzer" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "504" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w97> nif:BeginIndex "505" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "508" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w98w99w100w101w102> nif:anchorOf "in de zes meter klasse" ;
+    nif:beginIndex "509" ;
+    nif:endIndex "531" ;
+    nif:head "bgnProc:1936__Ernst_Moltzer.naf#w98" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_117t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w118w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_123> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w124> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_149> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w150> ;
+    xs:gYear "1937" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_150t_151t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w151w152w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_155t_156t_157> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w156w157w158> ;
+    xs:date "1939-07-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w160> ;
+    stevensFam:isPartnerIn bgn:Person-1936 .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_162t_163t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w163w164w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_184t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w185w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_220t_221t_222> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w221w222w223> ;
+    xs:date "1951-01-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_224t_225> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w225w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_236t_237t_238> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w237w238w239> ;
+    xs:date "1941-11-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_36t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w37w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_54> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w55> ;
+    xs:gYear "1934" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_73t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w74w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_85> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w86> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_91t_92t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w92w93w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_97t_98t_99t_100t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w98w99w100w101w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w47> .
+
+bgn:Person-1936 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w106w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w136w137>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w146>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w162>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w170w171w172w173w174>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w176>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w180w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w193>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w206>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w209w210>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w212w213w214w215w216>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w232>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w32w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w70>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w82w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w88w89>,
+        <http://data.biographynet.nl/rdf/170506221754/1936__Ernst_Moltzer.naf#w96> .
+

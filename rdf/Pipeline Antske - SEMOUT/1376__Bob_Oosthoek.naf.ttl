@@ -1,0 +1,944 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_100t_101t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_158t_159t_160t_161t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_165t_166t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_197t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_245t_246t_247t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_46t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_92>,
+        bgn:Person-1376 ;
+    ore:proxyFor bgn:Person-1376 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w101> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w146> nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w159> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w160> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w186> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w246> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w47> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w76> nif:lemma "ervaring" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1376__Bob_Oosthoek#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1376__Bob_Oosthoek .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1376 ;
+    bgn:aggregatedPerson bgn:Person-1376 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1376__Bob_Oosthoek ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1376__Bob_Oosthoek ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w104> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_104t_105t_106> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_100t_101t_102> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_107> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_105> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w111> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_109> ;
+    pb:A1 bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w114> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w119> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w125> ;
+    pb:Arg1 bgn:Person-1376 ;
+    pb:Arg4 bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w130> ;
+    pb:Arg1 bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w140> ;
+    pb:Arg1 bgn:Person-1376 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w14w15w16> ;
+    xs:date "1944-10-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w147> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_144t_145> ;
+    pb:A2 bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w156> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_154> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_157> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_156> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_158t_159t_160t_161t_162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w163> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_159t_160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w171> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_169> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_165t_166t_167> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w176> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_176> ;
+    pb:A2 bgn:Person-1376 ;
+    pb:AM-DIR bgn:Person-1376 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w188> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_184> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_189> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w194> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_194> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_195> ;
+    pb:ArgM-LOC bgn:Person-1376 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_197t_198t_199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w213> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_226> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w227> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_224> ;
+    pb:AM-LOC bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w245> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_243> ;
+    pb:ArgM-LOC bgn:Person-1376 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_245t_246t_247t_248> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w32> ;
+    pb:Arg1 bgn:Person-1376 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w45> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_43> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_46t_47> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w50> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_43> ;
+    pb:A1 bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w52> ;
+    pb:ArgM bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w60> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_60> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_68> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w6w7w8> ;
+    xs:date "1912-06-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w71> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_66> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_69> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_65> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w78> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_73> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_74t_75> ;
+    pb:AM-LOC bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w93> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_85> ;
+    pb:A1 bgn:Person-1376 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_87>,
+        bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w101w102w103> nif:anchorOf "door de oorlog" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "557" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w104> nif:BeginIndex "558" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "562" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w105w106w107> nif:anchorOf "daar niets van" ;
+    nif:beginIndex "563" ;
+    nif:endIndex "577" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w104" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w106> nif:anchorOf "niets" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "573" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w106" ;
+    nif:lemma "niets" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w108> nif:anchorOf "terecht" ;
+    nif:beginIndex "578" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w108" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w11> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w110> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "590" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w110" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w111> nif:BeginIndex "591" ;
+    nif:anchorOf "weigerde" ;
+    nif:endIndex "599" ;
+    nif:lemma "weigeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w114> nif:BeginIndex "607" ;
+    nif:anchorOf "worden" ;
+    nif:endIndex "613" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w117> nif:anchorOf "Kulturkammer" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "633" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w119> nif:BeginIndex "637" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "641" ;
+    nif:lemma "in_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w124> nif:anchorOf "Oosthoek" ;
+    nif:beginIndex "657" ;
+    nif:endIndex "665" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w125> nif:BeginIndex "666" ;
+    nif:anchorOf "verhuisde" ;
+    nif:endIndex "675" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w127w128> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "681" ;
+    nif:endIndex "689" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w130> nif:BeginIndex "691" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "695" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w134> nif:anchorOf "AB-verzetsgroep" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "725" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w136w137> nif:anchorOf "Algemeen Belang" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "742" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w140> nif:BeginIndex "747" ;
+    nif:anchorOf "noemde" ;
+    nif:endIndex "753" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w141> nif:anchorOf "zich" ;
+    nif:beginIndex "754" ;
+    nif:endIndex "758" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w141" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w142w143> nif:anchorOf "Van IJsselsteyn" ;
+    nif:beginIndex "759" ;
+    nif:endIndex "774" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w145w146> nif:anchorOf "De groep" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "784" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w147> nif:BeginIndex "785" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "790" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w148> nif:anchorOf "Joden" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "796" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w14w15w16> nif:anchorOf "13 oktober 1944" ;
+    nif:beginIndex "57" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w155> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "835" ;
+    nif:endIndex "837" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w155" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w156> nif:BeginIndex "838" ;
+    nif:anchorOf "pleegden" ;
+    nif:endIndex "846" ;
+    nif:lemma "plegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w157> nif:anchorOf "ook" ;
+    nif:beginIndex "847" ;
+    nif:endIndex "850" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w157" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w158> nif:anchorOf "overvallen" ;
+    nif:beginIndex "851" ;
+    nif:endIndex "861" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w158" ;
+    nif:lemma "overval" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w159w160w161w162w163> nif:anchorOf "om aan voedselbonnen te komen" ;
+    nif:beginIndex "862" ;
+    nif:endIndex "891" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w160w161> nif:anchorOf "aan voedselbonnen" ;
+    nif:beginIndex "865" ;
+    nif:endIndex "882" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w160" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w161> nif:BeginIndex "869" ;
+    nif:anchorOf "voedselbonnen" ;
+    nif:endIndex "882" ;
+    nif:lemma "voedsel_bon" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w163> nif:BeginIndex "886" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "891" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w166w167w168> nif:anchorOf "22 augustus 1944" ;
+    nif:beginIndex "897" ;
+    nif:endIndex "913" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w170> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "922" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w170" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w171> nif:BeginIndex "923" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "935" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w175> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "945" ;
+    nif:endIndex "956" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w176> nif:BeginIndex "957" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "961" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w177> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "962" ;
+    nif:endIndex "965" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w177" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w179w180> nif:anchorOf "Kamp Amersfoort" ;
+    nif:beginIndex "969" ;
+    nif:endIndex "984" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w18> nif:BeginIndex "74" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "77" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w181> nif:anchorOf "terecht" ;
+    nif:beginIndex "985" ;
+    nif:endIndex "992" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w181" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w183> nif:anchorOf "Daarna" ;
+    nif:beginIndex "994" ;
+    nif:endIndex "1000" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w183" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w185> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1006" ;
+    nif:endIndex "1009" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w185" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w186w187> nif:anchorOf "op transport" ;
+    nif:beginIndex "1010" ;
+    nif:endIndex "1022" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w186" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w188> nif:BeginIndex "1023" ;
+    nif:anchorOf "gezet" ;
+    nif:endIndex "1028" ;
+    nif:lemma "zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w190> nif:anchorOf "Neuengamme" ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w193> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "1050" ;
+    nif:endIndex "1057" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w194> nif:BeginIndex "1058" ;
+    nif:anchorOf "trof" ;
+    nif:endIndex "1062" ;
+    nif:lemma "aan_treffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w195> nif:anchorOf "men" ;
+    nif:beginIndex "1063" ;
+    nif:endIndex "1066" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w195" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w196> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1067" ;
+    nif:endIndex "1070" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w196" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w198w199w200> nif:anchorOf "12 oktober 1944" ;
+    nif:beginIndex "1074" ;
+    nif:endIndex "1089" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w1w2> nif:anchorOf "Oosthoek" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w20> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "82" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w205> nif:BeginIndex "1113" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1116" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w212> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1146" ;
+    nif:endIndex "1149" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w212" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w213> nif:BeginIndex "1150" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1153" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w217w218> nif:anchorOf "Helène Oosthoek" ;
+    nif:beginIndex "1190" ;
+    nif:endIndex "1205" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w221w222w223> nif:anchorOf "Helena Francisca Zoetmulder" ;
+    nif:beginIndex "1215" ;
+    nif:endIndex "1242" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w225> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1245" ;
+    nif:endIndex "1248" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w225" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w227> nif:BeginIndex "1254" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "1262" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w230w231> nif:anchorOf "Eerebegraafplaats Bloemendaal" ;
+    nif:beginIndex "1269" ;
+    nif:endIndex "1298" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w238w239> nif:anchorOf "Koninklijke Schouwburg" ;
+    nif:beginIndex "1319" ;
+    nif:endIndex "1341" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w241w242> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "1345" ;
+    nif:endIndex "1353" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w244> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1360" ;
+    nif:endIndex "1363" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w244" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w245> nif:BeginIndex "1364" ;
+    nif:anchorOf "herdacht" ;
+    nif:endIndex "1372" ;
+    nif:lemma "herdenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w246w247w248w249> nif:anchorOf "met een marmeren plaquette" ;
+    nif:beginIndex "1373" ;
+    nif:endIndex "1399" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w246" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w253> nif:anchorOf "VK" ;
+    nif:beginIndex "1416" ;
+    nif:endIndex "1418" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w255> nif:anchorOf "Verzetsherdenkingskruis" ;
+    nif:beginIndex "1421" ;
+    nif:endIndex "1444" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w257> nif:anchorOf "VHK" ;
+    nif:beginIndex "1446" ;
+    nif:endIndex "1449" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w259w260w261> nif:anchorOf "Erelijst van Gevallenen" ;
+    nif:beginIndex "1452" ;
+    nif:endIndex "1475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w27w28> nif:anchorOf "Bob Oosthoek" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "151" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w31> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "160" ;
+    nif:endIndex "169" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w32> nif:BeginIndex "170" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "177" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w36w37w38> nif:anchorOf "Johan Frederik Oosthoek" ;
+    nif:beginIndex "191" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w4> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "14" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w40w41w42> nif:anchorOf "Anna Elisabeth Wielaert" ;
+    nif:beginIndex "218" ;
+    nif:endIndex "241" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w44> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "243" ;
+    nif:endIndex "246" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w44" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w45> nif:BeginIndex "247" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "251" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w46> nif:anchorOf "daar" ;
+    nif:beginIndex "252" ;
+    nif:endIndex "256" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w46" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w47w48> nif:anchorOf "naar school" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "268" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w50> nif:BeginIndex "272" ;
+    nif:anchorOf "haalde" ;
+    nif:endIndex "278" ;
+    nif:lemma "halen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w52> nif:BeginIndex "284" ;
+    nif:anchorOf "eindexamen" ;
+    nif:endIndex "294" ;
+    nif:lemma "eind_examen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w55w56> nif:anchorOf "Erasmus Gymnasium" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w59> nif:anchorOf "1931" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "328" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w60> nif:BeginIndex "329" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "333" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w61> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "334" ;
+    nif:endIndex "337" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w61" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w64> nif:BeginIndex "346" ;
+    nif:anchorOf "toneelschool" ;
+    nif:endIndex "358" ;
+    nif:lemma "toneel_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w66> nif:anchorOf "waar" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "364" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w66" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w67> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "368" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w67" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w69> nif:anchorOf "1934" ;
+    nif:beginIndex "372" ;
+    nif:endIndex "376" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w6w7w8> nif:anchorOf "25 juni 1912" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "37" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w70> nif:BeginIndex "377" ;
+    nif:anchorOf "eindexamen" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "387" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w70" ;
+    nif:lemma "eind_examen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w71> nif:BeginIndex "388" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "392" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w74> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "404" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w74" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w75w76> nif:anchorOf "wat ervaring" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "417" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w78> nif:BeginIndex "422" ;
+    nif:anchorOf "opgedaan" ;
+    nif:endIndex "430" ;
+    nif:lemma "op_doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w80w81w82w83w84> nif:anchorOf "Cor van der Lugt Melsert" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w86> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "466" ;
+    nif:endIndex "469" ;
+    nif:head "bgnProc:1376__Bob_Oosthoek.naf#w86" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w88> nif:anchorOf "1941" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w90w91w92> nif:anchorOf "Jong Rotterdams Toneel" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "504" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w91> nif:BeginIndex "487" ;
+    nif:anchorOf "Rotterdams" ;
+    nif:endIndex "497" ;
+    nif:lemma "Rotterdams" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w93> nif:BeginIndex "505" ;
+    nif:anchorOf "oprichten" ;
+    nif:endIndex "514" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w97w98> nif:anchorOf "Tonny Blok" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "536" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_100t_101t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w101w102w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w105w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_158t_159t_160t_161t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w159w160w161w162w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_165t_166t_167> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w166w167w168> ;
+    xs:date "1944-08-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_169> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_197t_198t_199> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w198w199w200> ;
+    xs:date "1944-10-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w212> ;
+    stevensFam:isPartnerIn bgn:Person-1376 .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_245t_246t_247t_248> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w246w247w248w249> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_46t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w47w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_58> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w59> ;
+    xs:gYear "1931" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_87> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w88> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_68> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w69> ;
+    xs:gYear "1934" .
+
+<http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w110> .
+
+bgn:Person-1376 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w117>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w127w128>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w136w137>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w142w143>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w148>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w193>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w217w218>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w221w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w230w231>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w238w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w241w242>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w253>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w255>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w257>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w259w260w261>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w27w28>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w36w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w40w41w42>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w80w81w82w83w84>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w90w91w92>,
+        <http://data.biographynet.nl/rdf/170506221754/1376__Bob_Oosthoek.naf#w97w98> .
+

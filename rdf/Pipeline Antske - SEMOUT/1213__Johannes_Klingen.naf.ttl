@@ -1,0 +1,918 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_106t_107t_108t_109t_110t_111t_112t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_110t_111t_112t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_117t_118t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_125t_126t_127t_128t_129t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_150t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_189t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_18t_19t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_228t_229t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_24t_25t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_257t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_270>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_301t_302t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_31t_32t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_327>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_93t_94t_95t_96t_97>,
+        bgn:Person-1213 ;
+    ore:proxyFor bgn:Person-1213 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w106> nif:lemma "kennis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w107> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w111> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w118> nif:lemma "via" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w126> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w145> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w151> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w180> nif:lemma "code" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w182> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w190> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w32> nif:lemma "religieus" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w92> nif:lemma "patent" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w94> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1213__Johannes_Klingen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1213__Johannes_Klingen .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1213 ;
+    bgn:aggregatedPerson bgn:Person-1213 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1213__Johannes_Klingen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1213__Johannes_Klingen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w104> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_104t_105> ;
+    pb:Arg2 bgn:Person-1213 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_106t_107t_108t_109t_110t_111t_112t_113t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w110> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_107> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_110t_111t_112t_113t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w122> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_122> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_123> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_125t_126t_127t_128t_129t_130> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_117t_118t_119t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w149> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_141> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_144t_145t_146t_147> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_140> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_143> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w154> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_150t_151t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w162> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_159> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_163>,
+        bgn:Person-1213 .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w171> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w178> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_173>,
+        bgn:Person-1213 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_178t_179> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_181t_182> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_188> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_18t_19t_20> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w19w20w21> ;
+    xs:date "1913-02-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w192> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_188> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_189t_190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w197> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w206> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_203> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_204> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w226> ;
+    pb:A0 bgn:Person-1213 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_224> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_210> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w242> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_235>,
+        bgn:Person-1213 ;
+    pb:A1 bgn:Person-1213 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_228t_229t_230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w245> ;
+    pb:A1 bgn:Person-1213 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_253>,
+        bgn:Person-1213 .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_24t_25t_26> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w25w26w27> ;
+    xs:date "1942-01-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_270> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w271> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_261> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_273> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_257t_258> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_277> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w29> ;
+    pb:Arg2 bgn:Person-1213 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_31t_32t_33> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_301t_302t_303> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w302w303w304> ;
+    xs:date "1948-06-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_315> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w316> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_327> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w328> ;
+    xs:gYear "1995" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w47> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w93> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_81> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_93t_94t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w103> nif:anchorOf "Klingen" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "598" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w104> nif:BeginIndex "599" ;
+    nif:anchorOf "gebruikte" ;
+    nif:endIndex "608" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w105w106> nif:anchorOf "zijn kennis" ;
+    nif:beginIndex "609" ;
+    nif:endIndex "620" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w107w108w109w110w111w112w113w114w115w116> nif:anchorOf "door radiocontact te houden met alle uithoeken van de wereld" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "681" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w108> nif:anchorOf "radiocontact" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "638" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w108" ;
+    nif:lemma "radio_contact" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w10w11> nif:anchorOf "Joseph Albertus" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w110> nif:BeginIndex "642" ;
+    nif:anchorOf "houden" ;
+    nif:endIndex "648" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w111w112w113w114w115w116> nif:anchorOf "met alle uithoeken van de wereld" ;
+    nif:beginIndex "649" ;
+    nif:endIndex "681" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w111" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w118w119w120w121> nif:anchorOf "Via zijn eigen zend-installatie" ;
+    nif:beginIndex "683" ;
+    nif:endIndex "714" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w121> nif:BeginIndex "698" ;
+    nif:anchorOf "zend-installatie" ;
+    nif:endIndex "714" ;
+    nif:lemma "zend_installatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w122> nif:BeginIndex "715" ;
+    nif:anchorOf "zond" ;
+    nif:endIndex "719" ;
+    nif:lemma "uit_zenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w123> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "720" ;
+    nif:endIndex "723" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w123" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w124> nif:anchorOf "berichten" ;
+    nif:beginIndex "724" ;
+    nif:endIndex "733" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w124" ;
+    nif:lemma "bericht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w126w127w128w129w130w131> nif:anchorOf "naar alle hoeken van de wereld" ;
+    nif:beginIndex "738" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w133> nif:anchorOf "Amerika" ;
+    nif:beginIndex "770" ;
+    nif:endIndex "777" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w135> nif:anchorOf "Groenland" ;
+    nif:beginIndex "779" ;
+    nif:endIndex "788" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w137> nif:anchorOf "Indië" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "795" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w139> nif:anchorOf "Australië" ;
+    nif:beginIndex "799" ;
+    nif:endIndex "808" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w141> nif:anchorOf "waarbij" ;
+    nif:beginIndex "810" ;
+    nif:endIndex "817" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w141" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w142> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "818" ;
+    nif:endIndex "821" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w142" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w143> nif:anchorOf "zich" ;
+    nif:beginIndex "822" ;
+    nif:endIndex "826" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w143" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w144> nif:anchorOf "vlot" ;
+    nif:beginIndex "827" ;
+    nif:endIndex "831" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w144" ;
+    nif:lemma "vlot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w145w146w147w148> nif:anchorOf "van verschillende vreemde talen" ;
+    nif:beginIndex "832" ;
+    nif:endIndex "863" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w149> nif:BeginIndex "864" ;
+    nif:anchorOf "bediende" ;
+    nif:endIndex "872" ;
+    nif:lemma "bedienen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w151w152w153> nif:anchorOf "Tijdens de oorlog" ;
+    nif:beginIndex "875" ;
+    nif:endIndex "892" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w151" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w154> nif:BeginIndex "893" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "896" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w155> nif:anchorOf "Klingen" ;
+    nif:beginIndex "897" ;
+    nif:endIndex "904" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w160> nif:anchorOf "die" ;
+    nif:beginIndex "931" ;
+    nif:endIndex "934" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w160" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w162> nif:BeginIndex "945" ;
+    nif:anchorOf "onderhield" ;
+    nif:endIndex "955" ;
+    nif:lemma "onderhouden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w164> nif:anchorOf "Engeland" ;
+    nif:beginIndex "960" ;
+    nif:endIndex "968" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w166> nif:anchorOf "ook" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "980" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w166" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w167w168w169> nif:anchorOf "Kees van Lent" ;
+    nif:beginIndex "981" ;
+    nif:endIndex "994" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w17> nif:anchorOf "Gilze-Rijen" ;
+    nif:beginIndex "83" ;
+    nif:endIndex "94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w171> nif:BeginIndex "999" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1002" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w174> nif:anchorOf "Delftse" ;
+    nif:beginIndex "1007" ;
+    nif:endIndex "1014" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w176w177> nif:anchorOf "Richard Schoemaker" ;
+    nif:beginIndex "1026" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w178> nif:BeginIndex "1045" ;
+    nif:anchorOf "stelde" ;
+    nif:endIndex "1051" ;
+    nif:lemma "op_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w179w180> nif:anchorOf "de codes" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1060" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w182w183> nif:anchorOf "voor hem" ;
+    nif:beginIndex "1064" ;
+    nif:endIndex "1072" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w189> nif:anchorOf "Engeland" ;
+    nif:beginIndex "1096" ;
+    nif:endIndex "1104" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w190w191> nif:anchorOf "voor waar" ;
+    nif:beginIndex "1105" ;
+    nif:endIndex "1114" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w190" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w192> nif:BeginIndex "1115" ;
+    nif:anchorOf "aangenomen" ;
+    nif:endIndex "1125" ;
+    nif:lemma "aan_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w196> nif:anchorOf "Ook" ;
+    nif:beginIndex "1142" ;
+    nif:endIndex "1145" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w196" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w197> nif:BeginIndex "1146" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1149" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w198> nif:anchorOf "Klingen" ;
+    nif:beginIndex "1150" ;
+    nif:endIndex "1157" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w19w20w21> nif:anchorOf "22 februari 1913" ;
+    nif:beginIndex "96" ;
+    nif:endIndex "112" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w1w2> nif:anchorOf "Klingen" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w204> nif:anchorOf "die" ;
+    nif:beginIndex "1190" ;
+    nif:endIndex "1193" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w204" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w205> nif:BeginIndex "1194" ;
+    nif:anchorOf "spionagewerkzaamheden" ;
+    nif:beginIndex "1194" ;
+    nif:endIndex "1215" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w205" ;
+    nif:lemma "spionage_werkzaamheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w206> nif:BeginIndex "1216" ;
+    nif:anchorOf "verrichtten" ;
+    nif:endIndex "1227" ;
+    nif:lemma "verrichten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w209w210> nif:anchorOf "Groep ECH/3" ;
+    nif:beginIndex "1232" ;
+    nif:endIndex "1243" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w211> nif:anchorOf "waarvan" ;
+    nif:beginIndex "1244" ;
+    nif:endIndex "1251" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w211" ;
+    nif:lemma "waarvan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w213w214w215> nif:anchorOf "Adrianus van Amerongen" ;
+    nif:beginIndex "1256" ;
+    nif:endIndex "1278" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w217w218> nif:anchorOf "Hans Bierhuijs" ;
+    nif:beginIndex "1280" ;
+    nif:endIndex "1294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w220w221> nif:anchorOf "Willem Zietse" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1309" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w223w224> nif:anchorOf "Henk Schoenmaker" ;
+    nif:beginIndex "1313" ;
+    nif:endIndex "1329" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w225> nif:anchorOf "deel" ;
+    nif:beginIndex "1330" ;
+    nif:endIndex "1334" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w225" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w226> nif:BeginIndex "1335" ;
+    nif:anchorOf "uitmaakten" ;
+    nif:endIndex "1345" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w229w230w231> nif:anchorOf "26 mei 1941" ;
+    nif:beginIndex "1350" ;
+    nif:endIndex "1361" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w23> nif:anchorOf "Waalsdorpervlakte" ;
+    nif:beginIndex "115" ;
+    nif:endIndex "132" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w233> nif:anchorOf "Klingen" ;
+    nif:beginIndex "1367" ;
+    nif:endIndex "1374" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w236> nif:anchorOf "Rotterdamse" ;
+    nif:beginIndex "1383" ;
+    nif:endIndex "1394" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w237> nif:anchorOf "V-Mann" ;
+    nif:beginIndex "1395" ;
+    nif:endIndex "1401" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w238w239w240w241> nif:anchorOf "Anton van der Waals" ;
+    nif:beginIndex "1402" ;
+    nif:endIndex "1421" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w242> nif:BeginIndex "1422" ;
+    nif:anchorOf "verraden" ;
+    nif:endIndex "1430" ;
+    nif:lemma "verraden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w245> nif:BeginIndex "1439" ;
+    nif:anchorOf "vastgezet" ;
+    nif:endIndex "1448" ;
+    nif:lemma "vast_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w248w249w250> nif:anchorOf "Huis van Bewaring" ;
+    nif:beginIndex "1456" ;
+    nif:endIndex "1473" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w252> nif:anchorOf "Scheveningen" ;
+    nif:beginIndex "1477" ;
+    nif:endIndex "1489" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w254> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "1491" ;
+    nif:endIndex "1502" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w258w259> nif:anchorOf "24 januari" ;
+    nif:beginIndex "1508" ;
+    nif:endIndex "1518" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w25w26w27> nif:anchorOf "24 januari 1942" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w262> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1538" ;
+    nif:endIndex "1541" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w262" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w269w270> nif:anchorOf "Henk Schoenmaker" ;
+    nif:beginIndex "1576" ;
+    nif:endIndex "1592" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w271> nif:BeginIndex "1593" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1605" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w274> nif:anchorOf "Waalsdorpervlakte" ;
+    nif:beginIndex "1612" ;
+    nif:endIndex "1629" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w277> nif:anchorOf "Best" ;
+    nif:beginIndex "1635" ;
+    nif:endIndex "1639" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w278> nif:BeginIndex "1640" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1642" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w281w282> nif:anchorOf "Johannes Klingenstraat" ;
+    nif:beginIndex "1647" ;
+    nif:endIndex "1669" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w289> nif:anchorOf "Heemstede" ;
+    nif:beginIndex "1695" ;
+    nif:endIndex "1704" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w29> nif:BeginIndex "151" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "154" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w292w293> nif:anchorOf "Broeder Josephlaan" ;
+    nif:beginIndex "1709" ;
+    nif:endIndex "1727" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w299w300> nif:anchorOf "Katholieke Illustratie" ;
+    nif:beginIndex "1741" ;
+    nif:endIndex "1763" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w302w303w304> nif:anchorOf "3 juni 1948" ;
+    nif:beginIndex "1765" ;
+    nif:endIndex "1776" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w309w310> nif:anchorOf "Marcel Bulte" ;
+    nif:beginIndex "1790" ;
+    nif:endIndex "1802" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w31> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "159" ;
+    nif:endIndex "170" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w312w313> nif:anchorOf "Hans Krol" ;
+    nif:beginIndex "1806" ;
+    nif:endIndex "1815" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w315> nif:anchorOf "Heemstede" ;
+    nif:beginIndex "1817" ;
+    nif:endIndex "1826" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w316> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "1827" ;
+    nif:endIndex "1836" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w323> nif:anchorOf "Haarlem" ;
+    nif:beginIndex "1870" ;
+    nif:endIndex "1877" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w325w326> nif:anchorOf "De Vrieseborch" ;
+    nif:beginIndex "1879" ;
+    nif:endIndex "1893" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w328> nif:anchorOf "1995" ;
+    nif:beginIndex "1895" ;
+    nif:endIndex "1899" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w32w33w34> nif:anchorOf "religieus en tevens" ;
+    nif:beginIndex "171" ;
+    nif:endIndex "190" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w32" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w38w39> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "218" ;
+    nif:endIndex "237" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w41> nif:anchorOf "Klingen" ;
+    nif:beginIndex "240" ;
+    nif:endIndex "247" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w42> nif:BeginIndex "248" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "251" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w47> nif:anchorOf "Jan" ;
+    nif:beginIndex "280" ;
+    nif:endIndex "283" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w47w48> nif:anchorOf "Jan Klingen" ;
+    nif:beginIndex "280" ;
+    nif:endIndex "291" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w52> nif:anchorOf "Broeder" ;
+    nif:beginIndex "306" ;
+    nif:endIndex "313" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w53w54> nif:anchorOf "Joseph Albertus" ;
+    nif:beginIndex "314" ;
+    nif:endIndex "329" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w56> nif:anchorOf "Heemstede" ;
+    nif:beginIndex "333" ;
+    nif:endIndex "342" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w60w61w62> nif:anchorOf "Sint Jean Baptiste" ;
+    nif:beginIndex "351" ;
+    nif:endIndex "369" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w65> nif:BeginIndex "376" ;
+    nif:anchorOf "Salle-huis" ;
+    nif:beginIndex "376" ;
+    nif:endIndex "386" ;
+    nif:lemma "Salle_huizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w68w69w70w71w72> nif:anchorOf "Broeders van de Christelijke Scholen" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "430" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w74> nif:anchorOf "F.S" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "435" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w7w8> nif:anchorOf "Jozef Albertus" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w80> nif:anchorOf "Herenweg" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "455" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w82> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "457" ;
+    nif:endIndex "460" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w82" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w83> nif:BeginIndex "461" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "464" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w91w92> nif:anchorOf "een patent" ;
+    nif:beginIndex "499" ;
+    nif:endIndex "509" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w92" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w93> nif:BeginIndex "510" ;
+    nif:anchorOf "aangevraagd" ;
+    nif:endIndex "521" ;
+    nif:lemma "aan_vragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w94w95w96w97w98> nif:anchorOf "op op afstand bestuurbare miniatuurvliegtuigen" ;
+    nif:beginIndex "522" ;
+    nif:endIndex "568" ;
+    nif:head "bgnProc:1213__Johannes_Klingen.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_106t_107t_108t_109t_110t_111t_112t_113t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w107w108w109w110w111w112w113w114w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_110t_111t_112t_113t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w111w112w113w114w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_117t_118t_119t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w118w119w120w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_125t_126t_127t_128t_129t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w126w127w128w129w130w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_144t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w145w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_150t_151t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w151w152w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_189t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w190w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_228t_229t_230> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w229w230w231> ;
+    xs:date "1941-05-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_257t_258> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w258w259> ;
+    xs:date "2017-01-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_261> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w262> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_31t_32t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w32w33w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#t_93t_94t_95t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w94w95w96w97w98> .
+
+bgn:Person-1213 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w10w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w135>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w139>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w155>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w167w168w169>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w176w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w209w210>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w213w214w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w217w218>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w220w221>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w223w224>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w233>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w236>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w238w239w240w241>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w248w249w250>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w252>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w254>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w269w270>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w274>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w277>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w281w282>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w289>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w292w293>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w299w300>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w309w310>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w312w313>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w315>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w323>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w325w326>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w53w54>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w60w61w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w68w69w70w71w72>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w7w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1213__Johannes_Klingen.naf#w80> ;
+    pb:Arg3 bgn:Person-1213 .
+

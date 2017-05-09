@@ -1,0 +1,721 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_116t_117t_118t_119t_120t_121t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_117t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_73t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_99>,
+        bgn:Person-1631 ;
+    ore:proxyFor bgn:Person-1631 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w182> ;
+    stevensFam:isPartnerIn bgn:Person-1631 .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w119> nif:lemma "eed" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w124> nif:lemma "functie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w74> nif:lemma "voor" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1631__Jaap_Brandenburg#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1631__Jaap_Brandenburg .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1631 ;
+    bgn:aggregatedPerson bgn:Person-1631 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1631__Jaap_Brandenburg ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1631__Jaap_Brandenburg ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w101> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_98> ;
+    pb:Arg2 bgn:Person-1631 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_99> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_95t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w111> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w116> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_109> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_116t_117t_118t_119t_120t_121t_122t_123t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w121> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_109> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_117t_118> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_116> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w125> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_109> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_122t_123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_127> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w128> ;
+    xs:period "P1M" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w130> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_130> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w139> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_139> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_133>,
+        bgn:Person-1631 .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w15w16w17> ;
+    xs:date "1957-03-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_158> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w159> ;
+    xs:gYear "1860",
+        "1930" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_164> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w165> ;
+    xs:gYear "1862",
+        "1913" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_179> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w180> ;
+    xs:gYear "1933" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_191> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w192> ;
+    xs:gYear "1908",
+        "1988" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w208> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_206>,
+        bgn:Person-1631 .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_213> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w214> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_214> ;
+    pb:Arg2 bgn:Person-1631 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_221> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w222> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_220> ;
+    pb:ArgM-DIS bgn:Person-1631 .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_233> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w234> ;
+    xs:gYear "1934" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w47> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_47> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_42>,
+        bgn:Person-1631 .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_57> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w58> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w61> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_61> ;
+    pb:Arg3 bgn:Person-1631 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w77> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_72> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_81> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_73t_74t_75> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w86> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_87> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w9w10w11> ;
+    xs:date "1899-08-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w1> nif:anchorOf "Jacob" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "5" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w100> nif:anchorOf "eveneens" ;
+    nif:beginIndex "521" ;
+    nif:endIndex "529" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w100" ;
+    nif:lemma "eveneens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w101> nif:BeginIndex "530" ;
+    nif:anchorOf "verkozen" ;
+    nif:endIndex "538" ;
+    nif:lemma "verkiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w106w107> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "554" ;
+    nif:endIndex "566" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w110> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "573" ;
+    nif:endIndex "576" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w110" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w111> nif:BeginIndex "577" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "580" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w112> nif:anchorOf "toen" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w112" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w113> nif:anchorOf "al" ;
+    nif:beginIndex "586" ;
+    nif:endIndex "588" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w113" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w116> nif:BeginIndex "597" ;
+    nif:anchorOf "kon" ;
+    nif:endIndex "600" ;
+    nif:lemma "kunnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w117> nif:anchorOf "daardoor" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "609" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w117" ;
+    nif:lemma "daardoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w117w118w119w120w121w122w123w124w125> nif:anchorOf "daardoor de eed niet afleggen noch de functie opnemen" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "654" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w118w119> nif:anchorOf "de eed" ;
+    nif:beginIndex "610" ;
+    nif:endIndex "616" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w120> nif:anchorOf "niet" ;
+    nif:beginIndex "617" ;
+    nif:endIndex "621" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w120" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w121> nif:BeginIndex "622" ;
+    nif:anchorOf "afleggen" ;
+    nif:endIndex "630" ;
+    nif:lemma "af_leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w123w124> nif:anchorOf "de functie" ;
+    nif:beginIndex "636" ;
+    nif:endIndex "646" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w124" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w125> nif:BeginIndex "647" ;
+    nif:anchorOf "opnemen" ;
+    nif:endIndex "654" ;
+    nif:lemma "op_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w127w128w129> nif:anchorOf "Enige maanden later" ;
+    nif:beginIndex "656" ;
+    nif:endIndex "675" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w128> nif:anchorOf "maanden" ;
+    nif:beginIndex "662" ;
+    nif:endIndex "669" ;
+    nif:lemma "maand" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w130> nif:BeginIndex "676" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "684" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w131> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "685" ;
+    nif:endIndex "688" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w131" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w134> nif:anchorOf "1935" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "698" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w139> nif:BeginIndex "717" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "723" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w140> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "724" ;
+    nif:endIndex "727" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w140" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w148> nif:anchorOf "CPN" ;
+    nif:beginIndex "759" ;
+    nif:endIndex "762" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w150> nif:anchorOf "Brandenburg" ;
+    nif:beginIndex "765" ;
+    nif:endIndex "776" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w152> nif:BeginIndex "782" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "789" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w156w157> nif:anchorOf "Albertus Brandenburg" ;
+    nif:beginIndex "803" ;
+    nif:endIndex "823" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w159> nif:anchorOf "1860-1930" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "834" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w15w16w17> nif:anchorOf "7 maart 1957" ;
+    nif:beginIndex "64" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w162w163> nif:anchorOf "Catharina Abbenes" ;
+    nif:beginIndex "839" ;
+    nif:endIndex "856" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w165> nif:anchorOf "1862-1913" ;
+    nif:beginIndex "858" ;
+    nif:endIndex "867" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w169w170> nif:anchorOf "Laagte Kadijk" ;
+    nif:beginIndex "875" ;
+    nif:endIndex "888" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w174> nif:anchorOf "Jodenbuurt" ;
+    nif:beginIndex "900" ;
+    nif:endIndex "910" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w177> nif:anchorOf "Eilanden" ;
+    nif:beginIndex "917" ;
+    nif:endIndex "925" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w180> nif:anchorOf "1933" ;
+    nif:beginIndex "930" ;
+    nif:endIndex "934" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w182> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "940" ;
+    nif:endIndex "943" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w187w188w189w190> nif:anchorOf "Wilhelmina van der Meijden" ;
+    nif:beginIndex "964" ;
+    nif:endIndex "990" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w19> nif:BeginIndex "78" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "81" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w192> nif:anchorOf "1908-1988" ;
+    nif:beginIndex "992" ;
+    nif:endIndex "1001" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w197> nif:BeginIndex "1017" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "1022" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w205> nif:anchorOf "Tropenmuseum" ;
+    nif:beginIndex "1055" ;
+    nif:endIndex "1067" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w207> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1080" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w208> nif:BeginIndex "1081" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1085" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w21> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "96" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w213> nif:anchorOf "1928" ;
+    nif:beginIndex "1110" ;
+    nif:endIndex "1114" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w214> nif:BeginIndex "1115" ;
+    nif:anchorOf "trad" ;
+    nif:endIndex "1119" ;
+    nif:lemma "toe_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w215> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1123" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w215" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w219> nif:anchorOf "CPN" ;
+    nif:beginIndex "1135" ;
+    nif:endIndex "1138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w221> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1140" ;
+    nif:endIndex "1143" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w221" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w222> nif:BeginIndex "1144" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1147" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w232> nif:anchorOf "Jordaanoproer" ;
+    nif:beginIndex "1205" ;
+    nif:endIndex "1218" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w234> nif:anchorOf "1934" ;
+    nif:beginIndex "1222" ;
+    nif:endIndex "1226" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w29w30> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "162" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w3> nif:anchorOf "Jaap" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w34> nif:BeginIndex "175" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "178" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w43> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "229" ;
+    nif:endIndex "238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w46> nif:anchorOf "CPN" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "249" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w47> nif:BeginIndex "250" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "253" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w48> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "257" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w48" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w5> nif:anchorOf "Brandenburg" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w55> nif:anchorOf "Februaristaking" ;
+    nif:beginIndex "290" ;
+    nif:endIndex "305" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w58> nif:anchorOf "1943" ;
+    nif:beginIndex "311" ;
+    nif:endIndex "315" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w60> nif:anchorOf "1945" ;
+    nif:beginIndex "320" ;
+    nif:endIndex "324" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w61> nif:BeginIndex "325" ;
+    nif:anchorOf "zat" ;
+    nif:endIndex "328" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w62> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "332" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w62" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w69> nif:anchorOf "CPN" ;
+    nif:beginIndex "363" ;
+    nif:endIndex "366" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w7> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w71> nif:anchorOf "Nadien" ;
+    nif:beginIndex "368" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w71" ;
+    nif:lemma "nadien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w73> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "380" ;
+    nif:endIndex "383" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w73" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w74w75w76> nif:anchorOf "voor die partij" ;
+    nif:beginIndex "384" ;
+    nif:endIndex "399" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w77> nif:BeginIndex "400" ;
+    nif:anchorOf "gekozen" ;
+    nif:endIndex "407" ;
+    nif:lemma "kiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w82> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "431" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w85> nif:anchorOf "1946" ;
+    nif:beginIndex "450" ;
+    nif:endIndex "454" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w86> nif:BeginIndex "455" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "458" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w88> nif:anchorOf "tevens" ;
+    nif:beginIndex "463" ;
+    nif:endIndex "469" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w88" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w92w93> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "481" ;
+    nif:endIndex "493" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w96w97> nif:anchorOf "november 1956" ;
+    nif:beginIndex "498" ;
+    nif:endIndex "511" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w99> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "517" ;
+    nif:endIndex "520" ;
+    nif:head "bgnProc:1631__Jaap_Brandenburg.naf#w99" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w9w10w11> nif:anchorOf "22 augustus 1899" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_116t_117t_118t_119t_120t_121t_122t_123t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w117w118w119w120w121w122w123w124w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_117t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w118w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_133> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w134> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_212> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w213> ;
+    xs:gYear "1928" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_220> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w221> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_59> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w60> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_73t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w74w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_84> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w85> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_95t_96> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w96w97> ;
+    xs:gYearMonth "1956-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w110> .
+
+bgn:Person-1631 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w106w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w148>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w150>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w156w157>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w162w163>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w169w170>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w187w188w189w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w207>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w219>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w232>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1631__Jaap_Brandenburg.naf#w92w93> .
+

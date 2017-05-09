@@ -1,0 +1,862 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_181t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_188t_189t_190t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_18t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_213t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_219t_220t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_285>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_289t_290>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_295t_296t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_302>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_305t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_309>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_323t_324>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_326>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_42t_43t_44t_45t_46t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_76t_77t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_79>,
+        bgn:Person-2001 ;
+    ore:proxyFor bgn:Person-2001 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w189> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w325> nif:lemma "getuige" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w43> nif:lemma "met" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2001__Harry_van_der_Putt#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2001__Harry_van_der_Putt .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2001 ;
+    bgn:aggregatedPerson bgn:Person-2001 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2001__Harry_van_der_Putt ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2001__Harry_van_der_Putt ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w113> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_108> ;
+    pb:ArgM-LOC bgn:Person-2001 .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w124> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_124> ;
+    pb:A1 bgn:Person-2001 ;
+    pb:AM-PRD bgn:Person-2001 .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w13w14w15> ;
+    xs:date "1887-12-17" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_142> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w143> ;
+    pb:Arg1 bgn:Person-2001 .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w162> ;
+    pb:Arg1 bgn:Person-2001 .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w172> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w175> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_181t_182t_183> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w182w183w184> ;
+    xs:date "1939-06-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_185t_186> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w186w187> ;
+    xs:gYearMonth "1944-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_18t_19> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w19w20> ;
+    xs:gYearMonth "1945-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w194> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_194> ;
+    pb:A1 bgn:Person-2001 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_188t_189t_190t_191t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w200> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_194> ;
+    pb:A1 bgn:Person-2001 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_197> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w209> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_201> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_206> ;
+    pb:ArgM-LOC bgn:Person-2001 ;
+    pb:ArgM-PNC bgn:Person-2001 .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w22> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_27> ;
+    pb:ArgM-PNC bgn:Person-2001 .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w218> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_219t_220t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_271>,
+        bgn:Person-2001 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_213t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_225> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_220> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w221> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_239> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w240> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_25> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w26> ;
+    xs:gYear "1933" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_274> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w275> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_277> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_285> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w286> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_289t_290> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w290w291> ;
+    xs:gYearMonth "1944-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_295t_296t_297> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w296w297w298> ;
+    xs:gYearMonth "1945-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_301> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w302> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_302> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_305t_306> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w306w307> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_309> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w310> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_326> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w327> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_323t_324> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_34> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w35> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_33> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_42t_43t_44t_45t_46t_47> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_40> ;
+    pb:AM-LOC bgn:Person-2001 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_76t_77t_78> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w77w78w79> ;
+    xs:date "1939-06-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w80> ;
+    pb:ArgM-MNR bgn:Person-2001 ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_74> ;
+    pb:ArgM-TMP bgn:Person-2001 .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w100> nif:anchorOf "M.M" ;
+    nif:beginIndex "590" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w102w103w104> nif:anchorOf "Rost van Tonningen" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "613" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w108> nif:anchorOf "Oss" ;
+    nif:beginIndex "630" ;
+    nif:endIndex "633" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w109> nif:anchorOf "die" ;
+    nif:beginIndex "634" ;
+    nif:endIndex "637" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w109" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w11> nif:anchorOf "Stratum" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w112> nif:anchorOf "Kamer" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "649" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w113> nif:BeginIndex "650" ;
+    nif:anchorOf "hoogopliep" ;
+    nif:endIndex "660" ;
+    nif:lemma "hoogop_lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w119w120> nif:anchorOf "Henk Ruijter" ;
+    nif:beginIndex "691" ;
+    nif:endIndex "703" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w122> nif:anchorOf "RKSP" ;
+    nif:beginIndex "705" ;
+    nif:endIndex "709" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w124> nif:BeginIndex "711" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "717" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w125> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "718" ;
+    nif:endIndex "721" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w125" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w126w127w128> nif:anchorOf "Rost van Tonningen" ;
+    nif:beginIndex "722" ;
+    nif:endIndex "740" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w137> nif:anchorOf "Rost" ;
+    nif:beginIndex "793" ;
+    nif:endIndex "797" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w13w14w15> nif:anchorOf "17 december 1887" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w142> nif:anchorOf "RKSP-Kamerleden" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "826" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w143> nif:BeginIndex "827" ;
+    nif:anchorOf "ontstond" ;
+    nif:endIndex "835" ;
+    nif:lemma "ontstaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w151> nif:anchorOf "Oss" ;
+    nif:beginIndex "869" ;
+    nif:endIndex "872" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w152> nif:BeginIndex "873" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "876" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w157> nif:anchorOf "RKSP-minister" ;
+    nif:beginIndex "895" ;
+    nif:endIndex "908" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w158w159> nif:anchorOf "Carel Goseling" ;
+    nif:beginIndex "909" ;
+    nif:endIndex "923" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w162> nif:BeginIndex "932" ;
+    nif:anchorOf "wankelen" ;
+    nif:endIndex "940" ;
+    nif:lemma "wankelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w169> nif:anchorOf "Osse" ;
+    nif:beginIndex "978" ;
+    nif:endIndex "982" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w17> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "79" ;
+    nif:endIndex "92" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w172> nif:anchorOf "1938" ;
+    nif:beginIndex "1000" ;
+    nif:endIndex "1004" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w174> nif:anchorOf "Later" ;
+    nif:beginIndex "1007" ;
+    nif:endIndex "1012" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w174" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w175> nif:BeginIndex "1013" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1017" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w179> nif:anchorOf "Geldrop" ;
+    nif:beginIndex "1039" ;
+    nif:endIndex "1046" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w182w183w184> nif:anchorOf "1 juni 1939" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1063" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w186w187> nif:anchorOf "juli 1944" ;
+    nif:beginIndex "1068" ;
+    nif:endIndex "1077" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w189w190w191w192w193> nif:anchorOf "In zijn periode als burgemeester" ;
+    nif:beginIndex "1080" ;
+    nif:endIndex "1112" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w194> nif:BeginIndex "1113" ;
+    nif:anchorOf "weigerde" ;
+    nif:endIndex "1121" ;
+    nif:lemma "weigeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w195> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1122" ;
+    nif:endIndex "1125" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w195" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w196> nif:anchorOf "Geldropse" ;
+    nif:beginIndex "1126" ;
+    nif:endIndex "1135" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w198> nif:anchorOf "aan" ;
+    nif:beginIndex "1144" ;
+    nif:endIndex "1147" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w198" ;
+    nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w19w20> nif:anchorOf "maart 1945" ;
+    nif:beginIndex "94" ;
+    nif:endIndex "104" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w1w2w3> nif:anchorOf "Lodewijk Hendrik" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w200> nif:BeginIndex "1151" ;
+    nif:anchorOf "wijzen" ;
+    nif:endIndex "1157" ;
+    nif:lemma "aan_wijzen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w202> nif:anchorOf "die" ;
+    nif:beginIndex "1159" ;
+    nif:endIndex "1162" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w202" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w205> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1171" ;
+    nif:endIndex "1177" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w207> nif:BeginIndex "1187" ;
+    nif:anchorOf "graafwerken" ;
+    nif:beginIndex "1187" ;
+    nif:endIndex "1198" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w207" ;
+    nif:lemma "graaf_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w209> nif:BeginIndex "1207" ;
+    nif:anchorOf "verrichten" ;
+    nif:endIndex "1217" ;
+    nif:lemma "verrichten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w211> nif:anchorOf "Zeeland" ;
+    nif:beginIndex "1221" ;
+    nif:endIndex "1228" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w214w215w216w217> nif:anchorOf "donderdag 6 juli 1944" ;
+    nif:beginIndex "1233" ;
+    nif:endIndex "1254" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w218> nif:BeginIndex "1255" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1259" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w22> nif:BeginIndex "106" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "109" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w220> nif:anchorOf "derhalve" ;
+    nif:beginIndex "1264" ;
+    nif:endIndex "1272" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w220" ;
+    nif:lemma "derhalve" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w220w221w222w223w224> nif:anchorOf "derhalve ontslagen en met zes" ;
+    nif:beginIndex "1264" ;
+    nif:endIndex "1293" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w221> nif:BeginIndex "1273" ;
+    nif:anchorOf "ontslagen" ;
+    nif:endIndex "1282" ;
+    nif:lemma "ontslagen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w226> nif:anchorOf "'s" ;
+    nif:beginIndex "1301" ;
+    nif:endIndex "1303" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w226" ;
+    nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w228w229> nif:anchorOf "Theo Serraris" ;
+    nif:beginIndex "1305" ;
+    nif:endIndex "1318" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w231> nif:anchorOf "Heeze" ;
+    nif:beginIndex "1320" ;
+    nif:endIndex "1325" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w234w235> nif:anchorOf "Fried Manders" ;
+    nif:beginIndex "1328" ;
+    nif:endIndex "1341" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w237> nif:anchorOf "Leende" ;
+    nif:beginIndex "1343" ;
+    nif:endIndex "1349" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w23w24> nif:anchorOf "Tweede Kamerlid" ;
+    nif:beginIndex "110" ;
+    nif:endIndex "125" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w240> nif:anchorOf "Jan" ;
+    nif:beginIndex "1352" ;
+    nif:endIndex "1355" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w240w241> nif:anchorOf "Jan Smulders" ;
+    nif:beginIndex "1352" ;
+    nif:endIndex "1364" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w243> nif:anchorOf "Oost-" ;
+    nif:beginIndex "1366" ;
+    nif:endIndex "1371" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w245> nif:anchorOf "West" ;
+    nif:beginIndex "1373" ;
+    nif:endIndex "1377" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w248> nif:anchorOf "Middelbeers" ;
+    nif:beginIndex "1382" ;
+    nif:endIndex "1393" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w251w252> nif:anchorOf "Henk Veeneman" ;
+    nif:beginIndex "1396" ;
+    nif:endIndex "1409" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w254> nif:anchorOf "Son" ;
+    nif:beginIndex "1411" ;
+    nif:endIndex "1414" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w256> nif:anchorOf "Breugel" ;
+    nif:beginIndex "1418" ;
+    nif:endIndex "1425" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w259w260> nif:anchorOf "Marcel Magnée" ;
+    nif:beginIndex "1428" ;
+    nif:endIndex "1441" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w26> nif:anchorOf "1933" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "134" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w262> nif:anchorOf "Luyksgestel" ;
+    nif:beginIndex "1443" ;
+    nif:endIndex "1454" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w264> nif:anchorOf "Bergeijk" ;
+    nif:beginIndex "1457" ;
+    nif:endIndex "1465" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w267w268> nif:anchorOf "Wim Wijtvliet" ;
+    nif:beginIndex "1470" ;
+    nif:endIndex "1483" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w270> nif:anchorOf "Bakel" ;
+    nif:beginIndex "1485" ;
+    nif:endIndex "1490" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w272> nif:anchorOf "Milheeze" ;
+    nif:beginIndex "1494" ;
+    nif:endIndex "1502" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w275> nif:BeginIndex "1505" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "1517" ;
+    nif:lemma "overgebracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w278> nif:BeginIndex "1527" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1543" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w279> nif:anchorOf "Vught" ;
+    nif:beginIndex "1544" ;
+    nif:endIndex "1549" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w28> nif:anchorOf "1939" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "143" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w286> nif:BeginIndex "1575" ;
+    nif:anchorOf "getransporteerd" ;
+    nif:endIndex "1590" ;
+    nif:lemma "transporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w288> nif:anchorOf "Sachsenhausen" ;
+    nif:beginIndex "1596" ;
+    nif:endIndex "1609" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w290w291> nif:anchorOf "september 1944" ;
+    nif:beginIndex "1611" ;
+    nif:endIndex "1625" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w294> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "1630" ;
+    nif:endIndex "1643" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w296w297w298> nif:anchorOf "eind januari 1945" ;
+    nif:beginIndex "1645" ;
+    nif:endIndex "1662" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w302> nif:BeginIndex "1669" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1671" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w303> nif:anchorOf "onzeker" ;
+    nif:beginIndex "1672" ;
+    nif:endIndex "1679" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w303" ;
+    nif:lemma "onzeker" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w306w307> nif:anchorOf "begin 1945" ;
+    nif:beginIndex "1687" ;
+    nif:endIndex "1697" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w309> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "1701" ;
+    nif:endIndex "1714" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w310> nif:BeginIndex "1715" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1717" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w318> nif:anchorOf "Goelag" ;
+    nif:beginIndex "1757" ;
+    nif:endIndex "1763" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w31w32> nif:anchorOf "Roomsch-Katholieke Staatspartij" ;
+    nif:beginIndex "152" ;
+    nif:endIndex "183" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w32> nif:BeginIndex "171" ;
+    nif:anchorOf "Staatspartij" ;
+    nif:endIndex "183" ;
+    nif:lemma "Staat_partij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w321> nif:anchorOf "Sovjet-Unie" ;
+    nif:beginIndex "1770" ;
+    nif:endIndex "1781" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w324w325> nif:anchorOf "meerdere getuigen" ;
+    nif:beginIndex "1789" ;
+    nif:endIndex "1806" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w325" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w327> nif:BeginIndex "1814" ;
+    nif:anchorOf "verklaard" ;
+    nif:endIndex "1823" ;
+    nif:lemma "verklaren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w329> nif:anchorOf "K.L" ;
+    nif:beginIndex "1826" ;
+    nif:endIndex "1829" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w331w332w333w334> nif:anchorOf "H. van der Putt" ;
+    nif:beginIndex "1830" ;
+    nif:endIndex "1845" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w336w337w338> nif:anchorOf "Parlement & Politiek" ;
+    nif:beginIndex "1847" ;
+    nif:endIndex "1867" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w34> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "188" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w34" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w35> nif:BeginIndex "189" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "194" ;
+    nif:lemma "bezig_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w36> nif:anchorOf "zich" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "199" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w36" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w39w40> nif:anchorOf "Tweede Kamer" ;
+    nif:beginIndex "206" ;
+    nif:endIndex "218" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w41> nif:anchorOf "vooral" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "225" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w41" ;
+    nif:lemma "vooral" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w43w44w45w46w47w48> nif:anchorOf "met economische financiële en waterstaatsaangelegenheden" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "289" ;
+    nif:head "bgnProc:2001__Harry_van_der_Putt.naf#w43" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w5> nif:anchorOf "Harry/Henri" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "35" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w51> nif:BeginIndex "295" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "298" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w63w64> nif:anchorOf "Tweede Kamer" ;
+    nif:beginIndex "380" ;
+    nif:endIndex "392" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w66> nif:anchorOf "Staten-Generaal" ;
+    nif:beginIndex "396" ;
+    nif:endIndex "411" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w75> nif:anchorOf "Geldrop" ;
+    nif:beginIndex "456" ;
+    nif:endIndex "463" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w77w78w79> nif:anchorOf "1 juni 1939" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "478" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w7w8w9> nif:anchorOf "van der Putt" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w80> nif:BeginIndex "479" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "482" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w81w82w83> nif:anchorOf "Van der Putt" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "495" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w94w95> nif:anchorOf "Tweede Kamer" ;
+    nif:beginIndex "552" ;
+    nif:endIndex "564" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w98> nif:anchorOf "NSB-Kamerlid" ;
+    nif:beginIndex "573" ;
+    nif:endIndex "585" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_188t_189t_190t_191t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w189w190w191w192w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_213t_214t_215t_216> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w214w215w216w217> ;
+    xs:date "1944-07-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_219t_220t_221t_222t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w220w221w222w223w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_225> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_27> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w28> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_302> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w303> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_323t_324> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w324w325> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_42t_43t_44t_45t_46t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w43w44w45w46w47w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w195> .
+
+bgn:Person-2001 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w100>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w102w103w104>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w108>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w119w120>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w126w127w128>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w142>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w157>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w158w159>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w196>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w211>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w228w229>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w231>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w234w235>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w240w241>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w243>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w245>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w248>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w251w252>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w254>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w256>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w259w260>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w262>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w264>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w267w268>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w270>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w279>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w288>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w294>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w309>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w318>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w31w32>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w321>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w329>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w331w332w333w334>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w336w337w338>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w63w64>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w7w8w9>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w81w82w83>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w94w95>,
+        <http://data.biographynet.nl/rdf/170506221754/2001__Harry_van_der_Putt.naf#w98> .
+

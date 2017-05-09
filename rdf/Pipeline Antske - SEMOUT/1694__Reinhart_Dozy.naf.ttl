@@ -1,0 +1,978 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_121t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_142t_143t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_219t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_235t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_238t_239t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_257t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_259t_260t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_92>,
+        bgn:Person-1694 ;
+    ore:proxyFor bgn:Person-1694 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w122> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w132> nif:lemma "huis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w143> nif:lemma "tegenover" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w220> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w236> nif:lemma "onderduikers" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w239> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w259> nif:lemma "gezondheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w262> nif:lemma "knak" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1694__Reinhart_Dozy#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1694__Reinhart_Dozy .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1694 ;
+    bgn:aggregatedPerson bgn:Person-1694 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1694__Reinhart_Dozy ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1694__Reinhart_Dozy ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w102> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_87> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_102> ;
+    pb:A2 bgn:Person-1694 .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_108> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w109> ;
+    xs:gYear "1905" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w117> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_112> ;
+    pb:AM-LOC bgn:Person-1694 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w119> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_112> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_120> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_121t_122t_123> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w12w13w14> ;
+    xs:date "1947-01-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w133> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_130t_131> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_142t_143t_144t_145t_146t_147> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_129> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_136>,
+        bgn:Person-1694 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w141> ;
+    pb:Arg1 bgn:Person-1694 .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w171> ;
+    pb:A1 bgn:Person-1694 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_171> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_188> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w189> ;
+    pb:ArgM-LOC bgn:Person-1694 .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w205> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_205> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_206> ;
+    pb:ArgM-PNC bgn:Person-1694 .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w211> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_211> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_215> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_209> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_212> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w219> ;
+    pb:A1 bgn:Person-1694 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_219t_220t_221> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_228> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_234> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w235> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_235t_236>,
+        bgn:Person-1694 .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w242> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_242> ;
+    pb:AM-LOC bgn:Person-1694 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_249>,
+        bgn:Person-1694 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_238t_239t_240> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_252> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_256> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w257> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_257t_258> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_259t_260t_261> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_255> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w266> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_266> ;
+    pb:A1 bgn:Person-1694 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_271> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_264> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_272> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w273> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_271> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_283> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w284> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_282> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_284> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w38> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_31> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w42> ;
+    pb:A1 bgn:Person-1694 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w54> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_49> ;
+    pb:Arg1 bgn:Person-1694 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w6w7w8> ;
+    xs:date "1880-09-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w64> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_60> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_62> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w68> ;
+    pb:Arg1 bgn:Person-1694 ;
+    pb:ArgM-DIR bgn:Person-1694 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_66>,
+        bgn:Person-1694 .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w87> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_87> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_89> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w93> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_87> ;
+    pb:ArgM-LOC bgn:Person-1694 .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w10> nif:anchorOf "Elp" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "48" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w102> nif:BeginIndex "531" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "534" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w103> nif:anchorOf "les" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "538" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w103" ;
+    nif:lemma "les" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w105w106> nif:anchorOf "F. Humbert" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "553" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w109> nif:anchorOf "1905" ;
+    nif:beginIndex "559" ;
+    nif:endIndex "563" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w111> nif:anchorOf "1907" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "572" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w113> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "578" ;
+    nif:endIndex "581" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w113" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w114> nif:anchorOf "weer" ;
+    nif:beginIndex "582" ;
+    nif:endIndex "586" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w114" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w116> nif:anchorOf "Antwerpen" ;
+    nif:beginIndex "590" ;
+    nif:endIndex "599" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w117> nif:BeginIndex "600" ;
+    nif:anchorOf "studeren" ;
+    nif:endIndex "608" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w119> nif:BeginIndex "612" ;
+    nif:anchorOf "vestigde" ;
+    nif:endIndex "620" ;
+    nif:lemma "vestigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w120> nif:anchorOf "zich" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "625" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w120" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w121> nif:anchorOf "daar" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "630" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w121" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w122w123w124> nif:anchorOf "als vrije kunstenaar" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "651" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w127> nif:anchorOf "1911" ;
+    nif:beginIndex "657" ;
+    nif:endIndex "661" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w12w13w14> nif:anchorOf "27 januari 1947" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w130> nif:anchorOf "ook" ;
+    nif:beginIndex "671" ;
+    nif:endIndex "674" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w130" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w131w132> nif:anchorOf "een huis" ;
+    nif:beginIndex "675" ;
+    nif:endIndex "683" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w132" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w133> nif:BeginIndex "684" ;
+    nif:anchorOf "bouwen" ;
+    nif:endIndex "690" ;
+    nif:lemma "bouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w136> nif:anchorOf "Drentse" ;
+    nif:beginIndex "698" ;
+    nif:endIndex "705" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w137> nif:anchorOf "Elp" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "709" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w140> nif:anchorOf "Heidehuis" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "724" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w141> nif:BeginIndex "725" ;
+    nif:anchorOf "genaamd" ;
+    nif:endIndex "732" ;
+    nif:lemma "genaamd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w143w144w145w146w147w148> nif:anchorOf "tegenover het huis van de kunstschilder" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "773" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w151w152w153> nif:anchorOf "Louis Albert Roessingh" ;
+    nif:beginIndex "784" ;
+    nif:endIndex "806" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w156> nif:BeginIndex "812" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "814" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w16> nif:BeginIndex "67" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "70" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w160w161> nif:anchorOf "De Ploeg" ;
+    nif:beginIndex "827" ;
+    nif:endIndex "835" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w167> nif:anchorOf "Roessingh" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "870" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w170> nif:anchorOf "1923" ;
+    nif:beginIndex "875" ;
+    nif:endIndex "879" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w171> nif:BeginIndex "880" ;
+    nif:anchorOf "scheidden" ;
+    nif:endIndex "889" ;
+    nif:lemma "scheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w172> nif:anchorOf "zich" ;
+    nif:beginIndex "890" ;
+    nif:endIndex "894" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w172" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w176> nif:anchorOf "Dozy" ;
+    nif:beginIndex "908" ;
+    nif:endIndex "912" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w179w180> nif:anchorOf "De Ploeg" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "927" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w18> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w187w188> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "953" ;
+    nif:endIndex "972" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w189> nif:BeginIndex "973" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "976" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w197> nif:anchorOf "Noordhoff" ;
+    nif:beginIndex "1031" ;
+    nif:endIndex "1040" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w199> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1044" ;
+    nif:endIndex "1053" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w1w2> nif:anchorOf "Dozy" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w201> nif:anchorOf "Malmberg" ;
+    nif:beginIndex "1057" ;
+    nif:endIndex "1065" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w205> nif:BeginIndex "1086" ;
+    nif:anchorOf "illustreerde" ;
+    nif:endIndex "1098" ;
+    nif:lemma "illustreren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w206> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1099" ;
+    nif:endIndex "1102" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w206" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w207> nif:anchorOf "schoolboeken" ;
+    nif:beginIndex "1103" ;
+    nif:endIndex "1115" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w207" ;
+    nif:lemma "school_boek" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w210> nif:anchorOf "1939" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1124" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w211> nif:BeginIndex "1125" ;
+    nif:anchorOf "vestigde" ;
+    nif:endIndex "1133" ;
+    nif:lemma "vestigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w212> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1137" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w212" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w213> nif:anchorOf "zich" ;
+    nif:beginIndex "1138" ;
+    nif:endIndex "1142" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w213" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w214> nif:anchorOf "voorgoed" ;
+    nif:beginIndex "1143" ;
+    nif:endIndex "1151" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w214" ;
+    nif:lemma "voorgoed" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w216> nif:anchorOf "Elp" ;
+    nif:beginIndex "1155" ;
+    nif:endIndex "1158" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w218> nif:anchorOf "Dozy" ;
+    nif:beginIndex "1161" ;
+    nif:endIndex "1165" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w219> nif:BeginIndex "1166" ;
+    nif:anchorOf "weigerde" ;
+    nif:endIndex "1174" ;
+    nif:lemma "weigeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w22> nif:BeginIndex "105" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "108" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w220w221w222> nif:anchorOf "tijdens de oorlogsjaren" ;
+    nif:beginIndex "1175" ;
+    nif:endIndex "1198" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w220" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w227> nif:anchorOf "Kultuurkamer" ;
+    nif:beginIndex "1223" ;
+    nif:endIndex "1235" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w229> nif:BeginIndex "1239" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1242" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w235> nif:BeginIndex "1267" ;
+    nif:anchorOf "bood" ;
+    nif:endIndex "1271" ;
+    nif:lemma "bieden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w236w237> nif:anchorOf "onderduikers onderdak" ;
+    nif:beginIndex "1272" ;
+    nif:endIndex "1293" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w236" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w239w240w241> nif:anchorOf "Na een arrestatie" ;
+    nif:beginIndex "1295" ;
+    nif:endIndex "1312" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w239" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w242> nif:BeginIndex "1313" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1317" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w243> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1318" ;
+    nif:endIndex "1321" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w243" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w246w247w248w249> nif:anchorOf "Asser Huis van Bewaring" ;
+    nif:beginIndex "1330" ;
+    nif:endIndex "1353" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w250> nif:anchorOf "terecht" ;
+    nif:beginIndex "1354" ;
+    nif:endIndex "1361" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w250" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w253> nif:BeginIndex "1369" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1385" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w254> nif:anchorOf "Vught" ;
+    nif:beginIndex "1386" ;
+    nif:endIndex "1391" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w256> nif:anchorOf "Daar" ;
+    nif:beginIndex "1393" ;
+    nif:endIndex "1397" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w256" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w257> nif:BeginIndex "1398" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "1403" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w258w259> nif:anchorOf "zijn gezondheid" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1419" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w259" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w260w261w262> nif:anchorOf "een zware knak" ;
+    nif:beginIndex "1420" ;
+    nif:endIndex "1434" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w262" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w265> nif:anchorOf "1946" ;
+    nif:beginIndex "1440" ;
+    nif:endIndex "1444" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w266> nif:BeginIndex "1445" ;
+    nif:anchorOf "richtte" ;
+    nif:endIndex "1452" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w267> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1453" ;
+    nif:endIndex "1456" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w267" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w26w27> nif:anchorOf "Adriaan Dozy" ;
+    nif:beginIndex "122" ;
+    nif:endIndex "134" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w272> nif:anchorOf "Drenthe" ;
+    nif:beginIndex "1475" ;
+    nif:endIndex "1482" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w273> nif:BeginIndex "1483" ;
+    nif:anchorOf "wonende" ;
+    nif:endIndex "1490" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w278w279w280> nif:anchorOf "De Drentse Schilders" ;
+    nif:beginIndex "1516" ;
+    nif:endIndex "1536" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w283> nif:anchorOf "Daaronder" ;
+    nif:beginIndex "1541" ;
+    nif:endIndex "1550" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w283" ;
+    nif:lemma "daaronder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w284> nif:BeginIndex "1551" ;
+    nif:anchorOf "bevonden" ;
+    nif:endIndex "1559" ;
+    nif:lemma "bevinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w285> nif:anchorOf "zich" ;
+    nif:beginIndex "1560" ;
+    nif:endIndex "1564" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w285" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w290> nif:anchorOf "Erasmus" ;
+    nif:beginIndex "1596" ;
+    nif:endIndex "1603" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w291w292w293w294> nif:anchorOf "Bernhard van Dulmen Krumpelman" ;
+    nif:beginIndex "1604" ;
+    nif:endIndex "1634" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w296w297> nif:anchorOf "Anton Heijboer" ;
+    nif:beginIndex "1638" ;
+    nif:endIndex "1652" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w32> nif:anchorOf "die" ;
+    nif:beginIndex "157" ;
+    nif:endIndex "160" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w32" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w36> nif:anchorOf "Assen" ;
+    nif:beginIndex "184" ;
+    nif:endIndex "189" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w38> nif:BeginIndex "195" ;
+    nif:anchorOf "overgeplaatst" ;
+    nif:endIndex "208" ;
+    nif:lemma "over_plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w4> nif:anchorOf "Nijmegen" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w41> nif:anchorOf "Assen" ;
+    nif:beginIndex "213" ;
+    nif:endIndex "218" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w42> nif:BeginIndex "219" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "225" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w43> nif:anchorOf "Reinhart" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "234" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w45w46w47> nif:anchorOf "Rijks Hogere Burgerschool" ;
+    nif:beginIndex "238" ;
+    nif:endIndex "263" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w49> nif:anchorOf "waar" ;
+    nif:beginIndex "265" ;
+    nif:endIndex "269" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w49" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w50> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "270" ;
+    nif:endIndex "273" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w50" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w54> nif:BeginIndex "292" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "297" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w57> nif:anchorOf "J.G.H.W" ;
+    nif:beginIndex "306" ;
+    nif:endIndex "313" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w61> nif:anchorOf "die" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "325" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w61" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w62> nif:anchorOf "daar" ;
+    nif:beginIndex "326" ;
+    nif:endIndex "330" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w62" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w63> nif:BeginIndex "331" ;
+    nif:anchorOf "tekenles" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "339" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w63" ;
+    nif:lemma "teek_les" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w64> nif:BeginIndex "340" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "343" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w67> nif:anchorOf "1899" ;
+    nif:beginIndex "349" ;
+    nif:endIndex "353" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w68> nif:BeginIndex "354" ;
+    nif:anchorOf "reisde" ;
+    nif:endIndex "360" ;
+    nif:lemma "af_reizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w69> nif:anchorOf "Dozy" ;
+    nif:beginIndex "361" ;
+    nif:endIndex "365" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w6w7w8> nif:anchorOf "28 september 1880" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w72> nif:anchorOf "Antwerpen" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "383" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w79w80w81w82w83> nif:anchorOf "Koninklijke Academie voor Schone Kunsten" ;
+    nif:beginIndex "411" ;
+    nif:endIndex "451" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w86> nif:anchorOf "1903" ;
+    nif:beginIndex "456" ;
+    nif:endIndex "460" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w87> nif:BeginIndex "461" ;
+    nif:anchorOf "reisde" ;
+    nif:endIndex "467" ;
+    nif:lemma "reizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w88> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "471" ;
+    nif:head "bgnProc:1694__Reinhart_Dozy.naf#w88" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w90> nif:anchorOf "Parijs" ;
+    nif:beginIndex "477" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w93> nif:BeginIndex "490" ;
+    nif:anchorOf "wonen" ;
+    nif:endIndex "495" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w99w100> nif:anchorOf "Moulin Rouge" ;
+    nif:beginIndex "515" ;
+    nif:endIndex "527" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w111> ;
+    xs:gYear "1907" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_121t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w122w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_126> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w127> ;
+    xs:gYear "1911" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w131w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_142t_143t_144t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w143w144w145w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w170> ;
+    xs:gYear "1923" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_209> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w210> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_219t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w220w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_235t_236> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w236w237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_238t_239t_240> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w239w240w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_242> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w243> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_249> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_255> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w256> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_257t_258> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w258w259> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_259t_260t_261> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w260w261w262> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_264> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w265> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_266> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w267> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_282> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w283> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_284> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_66> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w67> ;
+    xs:gYear "1899" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_85> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w86> ;
+    xs:gYear "1903" .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w88> .
+
+bgn:Person-1694 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w105w106>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w136>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w151w152w153>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w160w161>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w176>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w187w188>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w199>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w201>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w216>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w218>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w246w247w248w249>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w254>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w278w279w280>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w290>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w291w292w293w294>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w296w297>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w45w46w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w79w80w81w82w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/1694__Reinhart_Dozy.naf#w99w100> .
+

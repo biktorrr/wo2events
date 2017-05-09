@@ -1,0 +1,794 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_124t_125t_126t_127t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_133t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_160t_161t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_164t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_176t_177t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_219t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_270>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_279t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_281>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_289>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_291t_292t_293t_294t_295t_296t_297t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_292t_293>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_294t_295t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_307>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_95>,
+        bgn:Person-1277 ;
+    ore:proxyFor bgn:Person-1277 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w125> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w177> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w280> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w293> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w295> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w298> nif:lemma "zullen" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1277__Abel_Sanders#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1277__Abel_Sanders .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1277 ;
+    bgn:aggregatedPerson bgn:Person-1277 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1277__Abel_Sanders ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1277__Abel_Sanders ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w108> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_106> ;
+    pb:AM-PRD bgn:Person-1277 .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w117> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_117> ;
+    pb:Arg3 bgn:Person-1277 ;
+    pb:ArgM-DIR bgn:Person-1277 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_113t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_133t_134t_135> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w134w135w136> ;
+    xs:date "1945-03-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w147> ;
+    pb:Arg0 bgn:Person-1277 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_131> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_124t_125t_126t_127t_128t_129>,
+        bgn:Person-1277 .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w15w16w17> ;
+    xs:date "1945-04-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w151> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_148> ;
+    pb:ArgM-LOC bgn:Person-1277 .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_160t_161t_162> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w161w162w163> ;
+    xs:date "1945-04-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_164t_165> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w165w166> ;
+    xs:period "P3D" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w172> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w196> ;
+    pb:Arg0 bgn:Person-1277 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_194> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_176t_177t_178t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_202> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w212> ;
+    pb:ArgM-ADV bgn:Person-1277 .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_219t_220> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w220w221> ;
+    xs:gYearMonth "1945-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_246> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w247> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_244> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_248> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w249> ;
+    pb:A0 bgn:Person-1277 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_238> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_270> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w271> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_268> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_278> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w279> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_279t_280> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_281> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w282> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_302> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_286> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w287> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_302> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_289> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w290> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_302> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_298> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w299> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_291t_292t_293t_294t_295t_296t_297t_298> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_294t_295t_296> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_292t_293> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_303> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w304> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_291t_292t_293t_294t_295t_296t_297t_298> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_302> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_307> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w308> ;
+    pb:Arg1 bgn:Person-1277 .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_315> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w316> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w67> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_65> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_71> ;
+    pb:ArgM-LOC bgn:Person-1277 .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w87> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w9w10w11> ;
+    xs:date "1920-03-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w96> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w102w103> nif:anchorOf "Nationaal Steunfonds" ;
+    nif:beginIndex "607" ;
+    nif:endIndex "627" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w105> nif:anchorOf "Groningen" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "640" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w107> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "645" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w107" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w108> nif:BeginIndex "646" ;
+    nif:anchorOf "voerde" ;
+    nif:endIndex "652" ;
+    nif:lemma "voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w111> nif:anchorOf "Koos" ;
+    nif:beginIndex "668" ;
+    nif:endIndex "672" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w114w115w116> nif:anchorOf "29 mei 1942" ;
+    nif:beginIndex "677" ;
+    nif:endIndex "688" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w117> nif:BeginIndex "689" ;
+    nif:anchorOf "verhuisde" ;
+    nif:endIndex "698" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w118> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "699" ;
+    nif:endIndex "702" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w118" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w120w121> nif:anchorOf "Oude Pekela" ;
+    nif:beginIndex "707" ;
+    nif:endIndex "718" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w123> nif:anchorOf "Groningen" ;
+    nif:beginIndex "724" ;
+    nif:endIndex "733" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w125w126w127w128w129w130> nif:anchorOf "Tijdens de uitvoering van zijn verzetswerk" ;
+    nif:beginIndex "735" ;
+    nif:endIndex "777" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w13> nif:anchorOf "Bakkeveen" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w130> nif:BeginIndex "766" ;
+    nif:anchorOf "verzetswerk" ;
+    nif:endIndex "777" ;
+    nif:lemma "verzet_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w132> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "783" ;
+    nif:endIndex "786" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w132" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w134w135w136> nif:anchorOf "15 maart 1945" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "803" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w138> nif:anchorOf "Groningen" ;
+    nif:beginIndex "807" ;
+    nif:endIndex "816" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w141> nif:anchorOf "Duitse" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "831" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w146> nif:anchorOf "SD" ;
+    nif:beginIndex "852" ;
+    nif:endIndex "854" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w147> nif:BeginIndex "855" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "867" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w149> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "869" ;
+    nif:endIndex "872" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w149" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w151> nif:BeginIndex "878" ;
+    nif:anchorOf "gevangengezet" ;
+    nif:endIndex "891" ;
+    nif:lemma "gevangen_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w154w155w156> nif:anchorOf "Huis van Bewaring" ;
+    nif:beginIndex "899" ;
+    nif:endIndex "916" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w158> nif:anchorOf "Groningen" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "929" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w15w16w17> nif:anchorOf "10 april 1945" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "84" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w161w162w163> nif:anchorOf "10 april 1945" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "947" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w165w166> nif:anchorOf "drie dagen" ;
+    nif:beginIndex "949" ;
+    nif:endIndex "959" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w171> nif:anchorOf "Noord-Nederland" ;
+    nif:beginIndex "983" ;
+    nif:endIndex "998" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w172> nif:BeginIndex "999" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1003" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w173> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1007" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w173" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w177w178w179w180> nif:anchorOf "met negen andere verzetsstrijders" ;
+    nif:beginIndex "1022" ;
+    nif:endIndex "1055" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w177" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w182> nif:anchorOf "SD'" ;
+    nif:beginIndex "1061" ;
+    nif:endIndex "1064" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w184w185> nif:anchorOf "Peter Schaap" ;
+    nif:beginIndex "1067" ;
+    nif:endIndex "1079" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w189> nif:anchorOf "Scholtenhuis" ;
+    nif:beginIndex "1089" ;
+    nif:endIndex "1101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w19> nif:BeginIndex "86" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "89" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w195> nif:anchorOf "Bakkeveen" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1129" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w196> nif:BeginIndex "1130" ;
+    nif:anchorOf "doodgeschoten" ;
+    nif:endIndex "1143" ;
+    nif:lemma "dood_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w1w2w3w4> nif:anchorOf "Petrus Bernardus Sanders" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w203> nif:BeginIndex "1175" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1179" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w21> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "94" ;
+    nif:endIndex "105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w210w211> nif:anchorOf "Monique Brinks" ;
+    nif:beginIndex "1223" ;
+    nif:endIndex "1237" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w212> nif:BeginIndex "1238" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1241" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w217> nif:anchorOf "Canadese" ;
+    nif:beginIndex "1261" ;
+    nif:endIndex "1269" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w220w221> nif:anchorOf "april 1945" ;
+    nif:beginIndex "1284" ;
+    nif:endIndex "1294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w237> nif:anchorOf "Scholtenhuis" ;
+    nif:beginIndex "1369" ;
+    nif:endIndex "1381" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w239> nif:anchorOf "Koortsachtig" ;
+    nif:beginIndex "1383" ;
+    nif:endIndex "1395" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w239" ;
+    nif:lemma "koortsachtig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w243> nif:anchorOf "SD'" ;
+    nif:beginIndex "1409" ;
+    nif:endIndex "1412" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w245> nif:anchorOf "die" ;
+    nif:beginIndex "1416" ;
+    nif:endIndex "1419" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w245" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w246> nif:anchorOf "daar" ;
+    nif:beginIndex "1420" ;
+    nif:endIndex "1424" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w246" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w247> nif:BeginIndex "1425" ;
+    nif:anchorOf "vertoefden" ;
+    nif:endIndex "1435" ;
+    nif:lemma "vertoeven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w249> nif:BeginIndex "1437" ;
+    nif:anchorOf "gezocht" ;
+    nif:endIndex "1444" ;
+    nif:lemma "zoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w26> nif:anchorOf "Sanders" ;
+    nif:beginIndex "136" ;
+    nif:endIndex "143" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w269> nif:anchorOf "Scholtenhuis" ;
+    nif:beginIndex "1543" ;
+    nif:endIndex "1555" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w27> nif:BeginIndex "144" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "147" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w271> nif:BeginIndex "1561" ;
+    nif:anchorOf "vernietigd" ;
+    nif:endIndex "1571" ;
+    nif:lemma "vernietigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w279> nif:BeginIndex "1614" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1618" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w280w281> nif:anchorOf "in groepen" ;
+    nif:beginIndex "1619" ;
+    nif:endIndex "1629" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w280" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w282> nif:BeginIndex "1630" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1635" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w287> nif:BeginIndex "1660" ;
+    nif:anchorOf "doodgeschoten" ;
+    nif:endIndex "1673" ;
+    nif:lemma "dood_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w290> nif:BeginIndex "1680" ;
+    nif:anchorOf "voorkomen" ;
+    nif:endIndex "1689" ;
+    nif:lemma "voorkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w292w293w294w295w296w297w298w299> nif:anchorOf "zij in handen van de bevrijder zouden vallen" ;
+    nif:beginIndex "1694" ;
+    nif:endIndex "1738" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w298" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w293w294> nif:anchorOf "in handen" ;
+    nif:beginIndex "1698" ;
+    nif:endIndex "1707" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w293" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w295w296w297> nif:anchorOf "van de bevrijder" ;
+    nif:beginIndex "1708" ;
+    nif:endIndex "1724" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w295" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w299> nif:BeginIndex "1732" ;
+    nif:anchorOf "vallen" ;
+    nif:endIndex "1738" ;
+    nif:lemma "vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w303> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1751" ;
+    nif:endIndex "1759" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w304> nif:BeginIndex "1760" ;
+    nif:anchorOf "konden" ;
+    nif:endIndex "1766" ;
+    nif:lemma "kunnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w307> nif:anchorOf "Sanders" ;
+    nif:beginIndex "1778" ;
+    nif:endIndex "1785" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w308> nif:BeginIndex "1786" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1788" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w315> nif:anchorOf "R." ;
+    nif:beginIndex "1822" ;
+    nif:endIndex "1824" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w316> nif:BeginIndex "1824" ;
+    nif:anchorOf "K." ;
+    nif:endIndex "1826" ;
+    nif:lemma "K." .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w319w320> nif:anchorOf "Oude Pekela" ;
+    nif:beginIndex "1844" ;
+    nif:endIndex "1855" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w33w34w35> nif:anchorOf "Wilhelmus Harmannus Sanders" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w37w38w39w40> nif:anchorOf "Helena Elisabeth Wilhelmina Drent" ;
+    nif:beginIndex "205" ;
+    nif:endIndex "238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w43> nif:BeginIndex "244" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "247" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w46> nif:anchorOf "Sanders" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "265" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w47> nif:BeginIndex "266" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "269" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w48> nif:anchorOf "Rooms-Katholiek" ;
+    nif:beginIndex "270" ;
+    nif:endIndex "285" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w50> nif:anchorOf "Sanders" ;
+    nif:beginIndex "288" ;
+    nif:endIndex "295" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w51> nif:BeginIndex "296" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "299" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w57w58w59> nif:anchorOf "Provinciaal Electriciteits Bedrijf" ;
+    nif:beginIndex "338" ;
+    nif:endIndex "372" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w61> nif:anchorOf "PEB" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "377" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w64> nif:anchorOf "Groningen" ;
+    nif:beginIndex "382" ;
+    nif:endIndex "391" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w66> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "396" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w66" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w67> nif:BeginIndex "397" ;
+    nif:anchorOf "verzorgde" ;
+    nif:endIndex "406" ;
+    nif:lemma "verzorgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w6w7> nif:anchorOf "Oude Pekela" ;
+    nif:beginIndex "31" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w70w71> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "413" ;
+    nif:endIndex "432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w72> nif:anchorOf "onderduikers" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "445" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w72" ;
+    nif:lemma "onderduiker" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w75> nif:BeginIndex "451" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "454" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w79w80w81w82> nif:anchorOf "Landelijke Organisatie voor Hulp" ;
+    nif:beginIndex "466" ;
+    nif:endIndex "498" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w86> nif:anchorOf "Tevens" ;
+    nif:beginIndex "517" ;
+    nif:endIndex "523" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w86" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w87> nif:BeginIndex "524" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "527" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w92w93> nif:anchorOf "Knokploeg Diephorst" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "562" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w95> nif:anchorOf "Verder" ;
+    nif:beginIndex "564" ;
+    nif:endIndex "570" ;
+    nif:head "bgnProc:1277__Abel_Sanders.naf#w95" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w96> nif:BeginIndex "571" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "574" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w9w10w11> nif:anchorOf "15 maart 1920" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "57" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_113t_114t_115> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w114w115w116> ;
+    xs:date "1942-05-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_124t_125t_126t_127t_128t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w125w126w127w128w129w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_176t_177t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w177w178w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_238> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w239> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_244> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_279t_280> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w280w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_292t_293> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w293w294> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_294t_295t_296> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w295w296w297> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#t_291t_292t_293t_294t_295t_296t_297t_298> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w292w293w294w295w296w297w298w299> .
+
+bgn:Person-1277 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w102w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w120w121>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w138>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w146>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w154w155w156>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w184w185>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w195>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w210w211>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w243>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w269>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w303>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w307>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w315>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w319w320>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w33w34w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w37w38w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w57w58w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w70w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w79w80w81w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1277__Abel_Sanders.naf#w92w93> .
+

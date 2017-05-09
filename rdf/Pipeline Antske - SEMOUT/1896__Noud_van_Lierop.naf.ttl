@@ -1,0 +1,274 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_18t_19t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_31t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_35t_36t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_74t_75t_76t_77t_78t_79t_80t_81t_82t_83>,
+        bgn:Person-1896 ;
+    ore:proxyFor bgn:Person-1896 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w32> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w58> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w75> nif:lemma "artikel" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1896__Noud_van_Lierop#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1896__Noud_van_Lierop .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1896 ;
+    bgn:aggregatedPerson bgn:Person-1896 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1896__Noud_van_Lierop ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1896__Noud_van_Lierop ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w13w14w15> ;
+    xs:date "1897-09-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_18t_19t_20> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w19w20w21> ;
+    xs:date "1942-11-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w34> ;
+    pb:A1 bgn:Person-1896 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_35t_36t_37> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_31t_32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w56> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_54>,
+        bgn:Person-1896 .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w61> ;
+    pb:A0 bgn:Person-1896 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_54> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_57t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_54> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_68t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w74> ;
+    pb:A0 bgn:Person-1896 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_74t_75t_76t_77t_78t_79t_80t_81t_82t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w11> nif:anchorOf "Steenbergen" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w13w14w15> nif:anchorOf "25 september 1897" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "88" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w17> nif:anchorOf "Dachau" ;
+    nif:beginIndex "91" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w19w20w21> nif:anchorOf "27 november 1942" ;
+    nif:beginIndex "99" ;
+    nif:endIndex "115" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w1w2w3w4> nif:anchorOf "Sebastiaan Antonius Alphonsus" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "38" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w22> nif:BeginIndex "116" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "119" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w24> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "135" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w29w30> nif:anchorOf "Van Lierop" ;
+    nif:beginIndex "166" ;
+    nif:endIndex "176" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w32w33> nif:anchorOf "tot priester" ;
+    nif:beginIndex "182" ;
+    nif:endIndex "194" ;
+    nif:head "bgnProc:1896__Noud_van_Lierop.naf#w32" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w34> nif:BeginIndex "195" ;
+    nif:anchorOf "gewijd" ;
+    nif:endIndex "201" ;
+    nif:lemma "wijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w36w37w38> nif:anchorOf "21 mei 1921" ;
+    nif:beginIndex "205" ;
+    nif:endIndex "216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w41> nif:BeginIndex "222" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "225" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w45w46w47> nif:anchorOf "Katholieke Wereld Pers" ;
+    nif:beginIndex "248" ;
+    nif:endIndex "270" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w52> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "309" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w55> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "317" ;
+    nif:endIndex "320" ;
+    nif:head "bgnProc:1896__Noud_van_Lierop.naf#w55" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w56> nif:BeginIndex "321" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "325" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w57> nif:anchorOf "al" ;
+    nif:beginIndex "326" ;
+    nif:endIndex "328" ;
+    nif:head "bgnProc:1896__Noud_van_Lierop.naf#w57" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w58w59w60> nif:anchorOf "voor de oorlog" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "343" ;
+    nif:head "bgnProc:1896__Noud_van_Lierop.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w6> nif:anchorOf "Noud" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w61> nif:BeginIndex "344" ;
+    nif:anchorOf "gezocht" ;
+    nif:endIndex "351" ;
+    nif:lemma "zoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w64> nif:anchorOf "Duitse" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "366" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w67> nif:BeginIndex "379" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "387" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w69w70> nif:anchorOf "mei 1940" ;
+    nif:beginIndex "391" ;
+    nif:endIndex "399" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w72w73> nif:anchorOf "Van Lierop" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "411" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w74> nif:BeginIndex "412" ;
+    nif:anchorOf "schreef" ;
+    nif:endIndex "419" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w75w76w77w78w79w80w81w82w83w84> nif:anchorOf "artikelen tegen de opkomst en het gevaar van het nazisme" ;
+    nif:beginIndex "420" ;
+    nif:endIndex "476" ;
+    nif:head "bgnProc:1896__Noud_van_Lierop.naf#w75" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w9> nif:anchorOf "Lierop" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_31t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w32w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_35t_36t_37> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w36w37w38> ;
+    xs:date "1921-05-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_68t_69> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w69w70> ;
+    xs:gYearMonth "1940-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_74t_75t_76t_77t_78t_79t_80t_81t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w75w76w77w78w79w80w81w82w83w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w55> .
+
+bgn:Person-1896 a bgn:LOC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w45w46w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1896__Noud_van_Lierop.naf#w9> .
+

@@ -1,0 +1,757 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_103t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_107t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_35t_36t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_40t_41t_42t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_50t_51t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_61t_62t_63t_64t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_84t_85t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_95t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_99>,
+        bgn:Person-1849 ;
+    ore:proxyFor bgn:Person-1849 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w108> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w111> nif:lemma "wegens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w115> nif:lemma "man" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w146> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w180> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w214> nif:lemma "liefde_relatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w37> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w41> nif:lemma "huis_concert" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w51> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w57> nif:lemma "onderduik_adres" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w63> nif:lemma "blaadje" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w85> nif:lemma "van" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1849__Diet_Kloos-Barendregt#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1849__Diet_Kloos-Barendregt .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1849 ;
+    bgn:aggregatedPerson bgn:Person-1849 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1849__Diet_Kloos-Barendregt ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1849__Diet_Kloos-Barendregt ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w101> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_99> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_110t_111> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w110> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_99> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_107t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_110t_111> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_103t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w11w12w13> ;
+    xs:date "1924-05-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w117> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_113t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w129> ;
+    pb:A0 bgn:Person-1849 .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w131> ;
+    pb:Arg0 bgn:Person-1849 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_131t_132> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w149> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_149> ;
+    pb:ArgM-LOC bgn:Person-1849 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_145t_146t_147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_16t_17t_18> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w17w18w19> ;
+    xs:date "2015-04-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w172> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_172> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_184> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_179t_180t_181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w188> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_188> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w200> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_200> ;
+    pb:A1 bgn:Person-1849 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_202> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w211> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_209> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_211t_212t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w218> ;
+    pb:A0 bgn:Person-1849 ;
+    pb:A1 bgn:Person-1849 .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w31> ;
+    pb:ArgM-TMP bgn:Person-1849 .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_37> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w38> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w39> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_39> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_40t_41t_42t_43t_44> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_35t_36t_37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w50> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_50t_51t_52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w56> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_54> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_56t_57t_58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w61> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_54> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_61t_62t_63t_64t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w73> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_73> ;
+    pb:A2 bgn:Person-1849 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_69t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_76> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w77> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w81> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_79> ;
+    pb:A1 bgn:Person-1849 .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w84> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_84t_85t_86t_87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w1> nif:anchorOf "Dina" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "4" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w100> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "608" ;
+    nif:endIndex "610" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w100" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w101> nif:BeginIndex "611" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "623" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w104w105w106> nif:anchorOf "15 december 1944" ;
+    nif:beginIndex "630" ;
+    nif:endIndex "646" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w108w109> nif:anchorOf "ter dood" ;
+    nif:beginIndex "654" ;
+    nif:endIndex "662" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w108" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w110> nif:BeginIndex "663" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "674" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w111w112> nif:anchorOf "wegens spionage" ;
+    nif:beginIndex "675" ;
+    nif:endIndex "690" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w111" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w114w115> nif:anchorOf "Haar man" ;
+    nif:beginIndex "692" ;
+    nif:endIndex "700" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w117> nif:BeginIndex "706" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "718" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w11w12w13> nif:anchorOf "9 mei 1924" ;
+    nif:beginIndex "53" ;
+    nif:endIndex "63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w124> nif:anchorOf "Bloemendaal" ;
+    nif:beginIndex "760" ;
+    nif:endIndex "771" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w127> nif:anchorOf "Kloos" ;
+    nif:beginIndex "778" ;
+    nif:endIndex "783" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w129> nif:BeginIndex "789" ;
+    nif:anchorOf "vrijgelaten" ;
+    nif:endIndex "800" ;
+    nif:lemma "vrij_laten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w131> nif:BeginIndex "804" ;
+    nif:anchorOf "pakte" ;
+    nif:endIndex "809" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w132w133> nif:anchorOf "het verzetswerk" ;
+    nif:beginIndex "810" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w133> nif:BeginIndex "814" ;
+    nif:anchorOf "verzetswerk" ;
+    nif:endIndex "825" ;
+    nif:lemma "verzet_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w134> nif:anchorOf "weer" ;
+    nif:beginIndex "826" ;
+    nif:endIndex "830" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w134" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w146w147w148> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "901" ;
+    nif:endIndex "913" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w149> nif:BeginIndex "914" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "923" ;
+    nif:lemma "af_studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w15> nif:anchorOf "Elden" ;
+    nif:beginIndex "66" ;
+    nif:endIndex "71" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w150> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "924" ;
+    nif:endIndex "927" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w150" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w152w153> nif:anchorOf "Hendrik Andriessen" ;
+    nif:beginIndex "932" ;
+    nif:endIndex "950" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w157w158> nif:anchorOf "Koninklijk Conservatorium" ;
+    nif:beginIndex "962" ;
+    nif:endIndex "987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w160w161> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "999" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w163> nif:BeginIndex "1003" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1007" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w171> nif:anchorOf "1953" ;
+    nif:beginIndex "1046" ;
+    nif:endIndex "1050" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w172> nif:BeginIndex "1051" ;
+    nif:anchorOf "trad" ;
+    nif:endIndex "1055" ;
+    nif:lemma "op_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w173> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1056" ;
+    nif:endIndex "1058" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w173" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w179> nif:anchorOf "Nederlanders" ;
+    nif:beginIndex "1081" ;
+    nif:endIndex "1093" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w17w18w19> nif:anchorOf "3 april 2015" ;
+    nif:beginIndex "73" ;
+    nif:endIndex "85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w180w181w182> nif:anchorOf "na de oorlog" ;
+    nif:beginIndex "1094" ;
+    nif:endIndex "1106" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w185> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "1113" ;
+    nif:endIndex "1122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w187> nif:anchorOf "Later" ;
+    nif:beginIndex "1124" ;
+    nif:endIndex "1129" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w187" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w188> nif:BeginIndex "1130" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "1136" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w189> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "1137" ;
+    nif:endIndex "1140" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w189" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w196> nif:anchorOf "Tilburg" ;
+    nif:beginIndex "1178" ;
+    nif:endIndex "1185" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w199> nif:anchorOf "1949" ;
+    nif:beginIndex "1191" ;
+    nif:endIndex "1195" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w200> nif:BeginIndex "1196" ;
+    nif:anchorOf "ontmoette" ;
+    nif:endIndex "1205" ;
+    nif:lemma "ontmoeten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w201> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1209" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w201" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w203> nif:anchorOf "Parijs" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1219" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w205> nif:anchorOf "Joods-Roemeense" ;
+    nif:beginIndex "1223" ;
+    nif:endIndex "1238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w207w208> nif:anchorOf "Paul Celan" ;
+    nif:beginIndex "1247" ;
+    nif:endIndex "1257" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w21> nif:BeginIndex "87" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "90" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w210> a bgn:pron_3p ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "1259" ;
+    nif:endIndex "1262" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w210" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w211> nif:BeginIndex "1263" ;
+    nif:anchorOf "hadden" ;
+    nif:endIndex "1269" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w212w213w214> nif:anchorOf "een korte liefdesrelatie" ;
+    nif:beginIndex "1270" ;
+    nif:endIndex "1294" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w214" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w216w217> nif:anchorOf "Diet Kloos" ;
+    nif:beginIndex "1298" ;
+    nif:endIndex "1308" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w218> nif:BeginIndex "1309" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "1316" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w23> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "95" ;
+    nif:endIndex "105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w232> nif:anchorOf "Todesfuge" ;
+    nif:beginIndex "1394" ;
+    nif:endIndex "1403" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w28w29> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w31> nif:BeginIndex "157" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "160" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w36w37w38> nif:anchorOf "Al in 1941" ;
+    nif:beginIndex "177" ;
+    nif:endIndex "187" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w38> nif:anchorOf "1941" ;
+    nif:beginIndex "183" ;
+    nif:endIndex "187" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w39> nif:BeginIndex "188" ;
+    nif:anchorOf "organiseerde" ;
+    nif:endIndex "200" ;
+    nif:lemma "organiseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w40> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "204" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w40" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w41w42w43w44w45> nif:anchorOf "huisconcerten voor ontslagen joodse musici" ;
+    nif:beginIndex "205" ;
+    nif:endIndex "247" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w5> nif:anchorOf "Doeschka" ;
+    nif:beginIndex "14" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w50> nif:BeginIndex "269" ;
+    nif:anchorOf "betrokken" ;
+    nif:endIndex "278" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w51w52w53> nif:anchorOf "bij het verzet" ;
+    nif:beginIndex "279" ;
+    nif:endIndex "293" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w55> a bgn:pron_3fs ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "298" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w55" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w56> nif:BeginIndex "299" ;
+    nif:anchorOf "regelde" ;
+    nif:endIndex "306" ;
+    nif:lemma "regelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w57w58w59> nif:anchorOf "onderduikadressen en voedselbonnen" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "341" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w57" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w59> nif:BeginIndex "328" ;
+    nif:anchorOf "voedselbonnen" ;
+    nif:endIndex "341" ;
+    nif:lemma "voedsel_bon" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w61> nif:BeginIndex "345" ;
+    nif:anchorOf "verspreidde" ;
+    nif:endIndex "356" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w62w63w64w65w66w67> nif:anchorOf "ondergrondse blaadjes en later ook wapens" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "398" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w7> nif:anchorOf "Kloos-Barendregt" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w70w71w72> nif:anchorOf "22 november 1944" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "420" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w73> nif:BeginIndex "421" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "428" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w74> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "429" ;
+    nif:endIndex "431" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w74" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w77> nif:anchorOf "Jan" ;
+    nif:beginIndex "450" ;
+    nif:endIndex "453" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w77w78> nif:anchorOf "Jan Kloos" ;
+    nif:beginIndex "450" ;
+    nif:endIndex "459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w80> nif:anchorOf "die" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "464" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w80" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w81> nif:BeginIndex "465" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "471" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w84> nif:BeginIndex "480" ;
+    nif:anchorOf "inlichtingendienst" ;
+    nif:endIndex "498" ;
+    nif:lemma "inlichting_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w85w86w87w88> nif:anchorOf "van de binnenlandse strijdkrachten" ;
+    nif:beginIndex "499" ;
+    nif:endIndex "533" ;
+    nif:head "bgnProc:1849__Diet_Kloos-Barendregt.naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w9> nif:anchorOf "Dordrecht" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w92> nif:BeginIndex "549" ;
+    nif:anchorOf "inlichtingendienst" ;
+    nif:endIndex "567" ;
+    nif:lemma "inlichting_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w93w94> nif:anchorOf "Groep Albrecht" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "582" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w96w97w98> nif:anchorOf "Twee weken later" ;
+    nif:beginIndex "584" ;
+    nif:endIndex "600" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_103t_104t_105> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w104w105w106> ;
+    xs:date "1944-12-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_107t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w108w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_131t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w132w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_170> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w171> ;
+    xs:gYear "1953" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_198> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w199> ;
+    xs:gYear "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_35t_36t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w36w37w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_40t_41t_42t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w41w42w43w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_50t_51t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w51w52w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_61t_62t_63t_64t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w62w63w64w65w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_69t_70t_71> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w70w71w72> ;
+    xs:date "1944-11-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w74> ;
+    stevensFam:isPartnerIn bgn:Person-1849 .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_84t_85t_86t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w85w86w87w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_110t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w111w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_95t_96t_97> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w96w97w98> ;
+    xs:date "1944-12-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w100> .
+
+bgn:Person-1849 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w152w153>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w157w158>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w160w161>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w196>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w203>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w207w208>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w216w217>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w232>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w28w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1849__Diet_Kloos-Barendregt.naf#w93w94> .
+

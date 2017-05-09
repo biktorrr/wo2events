@@ -1,0 +1,715 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_123t_124t_125t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_175t_176t_177t_178t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_187t_188t_189t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_197t_198t_199t_200t_201t_202t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_211t_212t_213t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_42t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_53t_54t_55t_56t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_99t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112t_113t_114t_115t_116>,
+        bgn:Person-1566 ;
+    ore:proxyFor bgn:Person-1566 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w101> nif:lemma "winkel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w123> nif:lemma "tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w125> nif:lemma "fabriek" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w138> nif:lemma "via" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w176> nif:lemma "eerst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w186> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w189> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w198> nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w213> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w30> nif:lemma "jong" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w43> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w51> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w54> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w94> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1566__Kurt_Baruch#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1566__Kurt_Baruch .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1566 ;
+    bgn:aggregatedPerson bgn:Person-1566 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1566__Kurt_Baruch ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1566__Kurt_Baruch ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w117> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_108> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w120> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_120> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_123t_124t_125t_126t_127t_128> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_118> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_121t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w129> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_126> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w13w14w15> ;
+    xs:date "2001-12-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w145> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_136> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_140> ;
+    pb:Arg2 bgn:Person-1566 ;
+    pb:ArgM-ADV bgn:Person-1566 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_137t_138t_139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w155> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_153> ;
+    pb:Arg2 bgn:Person-1566 .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w170> ;
+    pb:Arg1 bgn:Person-1566 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_175t_176t_177t_178t_179t_180t_181> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w185> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_197t_198t_199t_200t_201t_202t_203t_204> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_187t_188t_189t_190> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_195> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_185t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w21> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w210> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_211t_212t_213t_214> ;
+    pb:AM-DIR bgn:Person-1566 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_208> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w28> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_28t_29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w47> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_47> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_48t_49> ;
+    pb:AM-EXT <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_50t_51> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_42t_43t_44t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w6w7w8> ;
+    xs:date "1913-08-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w61> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_61> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_53t_54t_55t_56t_57t_58t_59> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_65> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w72> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_72> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_81> ;
+    pb:ArgM-TMP bgn:Person-1566 .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w86> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w97> ;
+    pb:A0 bgn:Person-1566 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_99t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112t_113t_114t_115t_116> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_93t_94t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w100w101w102w103w104w105w106w107w108w109w110w111w112w113w114w115w116w117> nif:anchorOf "een winkel in brei - en naaimachines waarin hij tot aan zijn pensionering in 1973 actief bleef" ;
+    nif:beginIndex "603" ;
+    nif:endIndex "697" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w109> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "647" ;
+    nif:endIndex "650" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w109" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w10w11> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w115> nif:anchorOf "1973" ;
+    nif:beginIndex "680" ;
+    nif:endIndex "684" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w117> nif:BeginIndex "692" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "697" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w119> nif:anchorOf "Ook" ;
+    nif:beginIndex "699" ;
+    nif:endIndex "702" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w119" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w120> nif:BeginIndex "703" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "706" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w121> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "707" ;
+    nif:endIndex "710" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w121" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w122w123> nif:anchorOf "enige tijd" ;
+    nif:beginIndex "711" ;
+    nif:endIndex "721" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w124w125w126w127w128w129> nif:anchorOf "een fabriek waarin handschoenen werden vervaardigd" ;
+    nif:beginIndex "722" ;
+    nif:endIndex "772" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w126> nif:anchorOf "waarin" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "740" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w126" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w127> nif:anchorOf "handschoenen" ;
+    nif:beginIndex "741" ;
+    nif:endIndex "753" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w127" ;
+    nif:lemma "handschoen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w129> nif:BeginIndex "761" ;
+    nif:anchorOf "vervaardigd" ;
+    nif:endIndex "772" ;
+    nif:lemma "vervaardigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w134w135> nif:anchorOf "Frans Teulings" ;
+    nif:beginIndex "801" ;
+    nif:endIndex "815" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w137> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "822" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w137" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w138w139w140> nif:anchorOf "via deze handschoenenfabriek" ;
+    nif:beginIndex "826" ;
+    nif:endIndex "854" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w13w14w15> nif:anchorOf "1 december 2001" ;
+    nif:beginIndex "52" ;
+    nif:endIndex "67" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w141> nif:anchorOf "geld" ;
+    nif:beginIndex "855" ;
+    nif:endIndex "859" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w141" ;
+    nif:lemma "geld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w144> nif:anchorOf "CPN" ;
+    nif:beginIndex "868" ;
+    nif:endIndex "871" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w145> nif:BeginIndex "872" ;
+    nif:anchorOf "doorsluizen" ;
+    nif:endIndex "883" ;
+    nif:lemma "door_sluizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w152> nif:anchorOf "Sobibor" ;
+    nif:beginIndex "913" ;
+    nif:endIndex "920" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w154> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "922" ;
+    nif:endIndex "925" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w154" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w155> nif:BeginIndex "926" ;
+    nif:anchorOf "hertrouwde" ;
+    nif:endIndex "936" ;
+    nif:lemma "hertrouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w157w158w159> nif:anchorOf "Truus van Everdingen" ;
+    nif:beginIndex "941" ;
+    nif:endIndex "961" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w164w165w166> nif:anchorOf "Janric van Gilse" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "993" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w169> nif:anchorOf "1973" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1003" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w17> nif:BeginIndex "69" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "72" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w170> nif:BeginIndex "1004" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1008" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w171> nif:anchorOf "Baruch" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1015" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w176w177w178w179w180w181w182> nif:anchorOf "eerst als schilder later als beeldhouwer" ;
+    nif:beginIndex "1039" ;
+    nif:endIndex "1080" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w176" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w185> nif:BeginIndex "1086" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1091" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w186w187> nif:anchorOf "onder andere" ;
+    nif:beginIndex "1092" ;
+    nif:endIndex "1104" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w186" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w188w189w190w191> nif:anchorOf "een beeld van hem" ;
+    nif:beginIndex "1105" ;
+    nif:endIndex "1122" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w196> nif:anchorOf "Deventer" ;
+    nif:beginIndex "1146" ;
+    nif:endIndex "1154" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w198w199w200w201w202w203w204w205> a bgn:pron_3ms ;
+    nif:anchorOf "hij tijdens de oorlog als verzetsman een aanslag" ;
+    nif:beginIndex "1160" ;
+    nif:endIndex "1208" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w1w2> nif:anchorOf "Baruch" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w20> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w209> nif:anchorOf "Ook" ;
+    nif:beginIndex "1221" ;
+    nif:endIndex "1224" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w209" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w21> nif:BeginIndex "90" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "97" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w210> nif:BeginIndex "1225" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1230" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w212w213w214w215> nif:anchorOf "een beeld van hem" ;
+    nif:beginIndex "1234" ;
+    nif:endIndex "1251" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w213" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w22> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "98" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w220> nif:anchorOf "Rijswijk" ;
+    nif:beginIndex "1275" ;
+    nif:endIndex "1283" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w227> nif:anchorOf "Haagse" ;
+    nif:beginIndex "1306" ;
+    nif:endIndex "1312" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w229> nif:anchorOf "Mechropa" ;
+    nif:beginIndex "1331" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w231> nif:anchorOf "Baruch" ;
+    nif:beginIndex "1342" ;
+    nif:endIndex "1348" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w232> nif:BeginIndex "1349" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1352" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w238w239> nif:anchorOf "Friedl Baruch" ;
+    nif:beginIndex "1381" ;
+    nif:endIndex "1394" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w245w246> nif:anchorOf "Robbert Baruch" ;
+    nif:beginIndex "1420" ;
+    nif:endIndex "1434" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w250w251w252> nif:anchorOf "Handelingen Eerste Kamer" ;
+    nif:beginIndex "1460" ;
+    nif:endIndex "1484" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w27> nif:anchorOf "Baruch" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w28> nif:BeginIndex "150" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "153" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w29w30> nif:anchorOf "al jong" ;
+    nif:beginIndex "154" ;
+    nif:endIndex "161" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w30" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w34w35w36> nif:anchorOf "Kommunistische Partei Deutschlands" ;
+    nif:beginIndex "175" ;
+    nif:endIndex "209" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w4> nif:anchorOf "Göttingen" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w41> nif:BeginIndex "241" ;
+    nif:anchorOf "worden" ;
+    nif:endIndex "247" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w43w44w45w46> nif:anchorOf "na de middelbare school" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "274" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w47> nif:BeginIndex "275" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "281" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w48> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "282" ;
+    nif:endIndex "285" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w48" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w49w50> nif:anchorOf "een vakschool" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "299" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w50> nif:BeginIndex "290" ;
+    nif:anchorOf "vakschool" ;
+    nif:endIndex "299" ;
+    nif:lemma "vak_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w51w52> nif:anchorOf "als leerling-meubelmaker" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "324" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w54w55w56w57w58w59w60> nif:anchorOf "Vanwege zijn joodse achtergrond en politieke activiteiten" ;
+    nif:beginIndex "327" ;
+    nif:endIndex "384" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w61> nif:BeginIndex "385" ;
+    nif:anchorOf "vluchtte" ;
+    nif:endIndex "393" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w62> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "397" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w62" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w64> nif:anchorOf "1933" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "405" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w66> nif:anchorOf "Nederland" ;
+    nif:beginIndex "411" ;
+    nif:endIndex "420" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w6w7w8> nif:anchorOf "1 augustus 1913" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w70w71> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "452" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w72> nif:BeginIndex "453" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "456" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w73> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "457" ;
+    nif:endIndex "460" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w73" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w82> nif:anchorOf "Deventer" ;
+    nif:beginIndex "499" ;
+    nif:endIndex "507" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w83> nif:anchorOf "waar" ;
+    nif:beginIndex "508" ;
+    nif:endIndex "512" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w83" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w86> nif:BeginIndex "527" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "530" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w94w95w96> nif:anchorOf "Na de bevrijding" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "583" ;
+    nif:head "bgnProc:1566__Kurt_Baruch.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w97> nif:BeginIndex "584" ;
+    nif:anchorOf "opende" ;
+    nif:endIndex "590" ;
+    nif:lemma "openen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w98w99> nif:anchorOf "Kurt Baruch" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "602" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_114> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w115> ;
+    xs:gYear "1973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_123t_124t_125t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w124w125w126w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_168> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w169> ;
+    xs:gYear "1973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_175t_176t_177t_178t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w176w177w178w179w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_187t_188t_189t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w188w189w190w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_197t_198t_199t_200t_201t_202t_203t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w198w199w200w201w202w203w204w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_211t_212t_213t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w212w213w214w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_42t_43t_44t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w43w44w45w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_53t_54t_55t_56t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w54w55w56w57w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w64> ;
+    xs:gYear "1933" .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w94w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#t_99t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112t_113t_114t_115t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w100w101w102w103w104w105w106w107w108w109w110w111w112w113w114w115w116w117> .
+
+bgn:Person-1566 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w10w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w152>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w157w158w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w164w165w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w196>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w220>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w229>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w231>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w238w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w245w246>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w250w251w252>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w34w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w70w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1566__Kurt_Baruch.naf#w98w99> .
+

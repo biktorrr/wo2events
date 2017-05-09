@@ -1,0 +1,536 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_139t_140t_141t_142t_143t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_81t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_95t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_98>,
+        bgn:Person-348 ;
+    ore:proxyFor bgn:Person-348 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w107> nif:lemma "raam" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w13> nif:lemma "glas in lood_raam" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w138> nif:lemma "gedenken_raam" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w141> nif:lemma "vrouw" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w145> nif:lemma "man" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w146> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w171> nif:lemma "opschrift" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w83> nif:lemma "gedenken_raam" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w96> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-348__Gedenkraam_Westerbork#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-348__Gedenkraam_Westerbork .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-348 ;
+    bgn:aggregatedPerson bgn:Person-348 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-348__Gedenkraam_Westerbork ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-348__Gedenkraam_Westerbork ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w108> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_105t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w118> ;
+    pb:A0 bgn:Person-348 ;
+    pb:A1 bgn:Person-348 ;
+    pb:A2 bgn:Person-348 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_121> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_116> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w14> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_11t_12> ;
+    pb:ArgM-LOC bgn:Person-348 ;
+    pb:ArgM-PRD bgn:Person-348 .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w139> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_136t_137> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_139t_140t_141t_142t_143t_144t_145t_146t_147> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w147> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_142t_143t_144> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w148> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_141> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_145t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_152> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w153> ;
+    pb:Arg1 bgn:Person-348 .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w172> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_169t_170> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_177> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w4> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w37> ;
+    pb:A0 bgn:Person-348 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_29> ;
+    pb:A2 bgn:Person-348 .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w47> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_45>,
+        bgn:Person-348 .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w48> ;
+    pb:Arg0 bgn:Person-348 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w56> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_45> ;
+    pb:A2 bgn:Person-348 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w65> ;
+    pb:A1 bgn:Person-348 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_70> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w79> ;
+    pb:Arg1 bgn:Person-348 .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w85> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_81t_82> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_89> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_83>,
+        bgn:Person-348 .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w99> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_94> ;
+    pb:Arg2 bgn:Person-348 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_95t_96t_97> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w102w103w104> nif:anchorOf "Herinneringscentrum Kamp Westerbork" ;
+    nif:beginIndex "630" ;
+    nif:endIndex "665" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w106w107> nif:anchorOf "Het raam" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "675" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w108> nif:BeginIndex "676" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "678" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w114> nif:BeginIndex "704" ;
+    nif:anchorOf "achtergrondverlichting" ;
+    nif:endIndex "726" ;
+    nif:lemma "achtergrond_verlichting" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w117> nif:anchorOf "1952" ;
+    nif:beginIndex "732" ;
+    nif:endIndex "736" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w118> nif:BeginIndex "737" ;
+    nif:anchorOf "schonk" ;
+    nif:endIndex "743" ;
+    nif:lemma "schenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w120w121> nif:anchorOf "Rode Kruis" ;
+    nif:beginIndex "748" ;
+    nif:endIndex "758" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w122> nif:anchorOf "ook" ;
+    nif:beginIndex "759" ;
+    nif:endIndex "762" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w122" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w129> nif:anchorOf "Vught" ;
+    nif:beginIndex "798" ;
+    nif:endIndex "803" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w12w13> nif:anchorOf "Het glas-in-loodraam" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "110" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w13" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w135> nif:anchorOf "Vught" ;
+    nif:beginIndex "827" ;
+    nif:endIndex "832" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w137w138> nif:anchorOf "Het gedenkraam" ;
+    nif:beginIndex "835" ;
+    nif:endIndex "849" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w138" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w139> nif:BeginIndex "850" ;
+    nif:anchorOf "toont" ;
+    nif:endIndex "855" ;
+    nif:lemma "tonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w14> nif:BeginIndex "111" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "114" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w140w141w142w143w144w145w146w147w148> nif:anchorOf "een vrouw die een verzwakte man te drinken geeft" ;
+    nif:beginIndex "856" ;
+    nif:endIndex "904" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w142> nif:anchorOf "die" ;
+    nif:beginIndex "866" ;
+    nif:endIndex "869" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w142" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w143w144w145> nif:anchorOf "een verzwakte man" ;
+    nif:beginIndex "870" ;
+    nif:endIndex "887" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w146w147> nif:anchorOf "te drinken" ;
+    nif:beginIndex "888" ;
+    nif:endIndex "898" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w147> nif:BeginIndex "891" ;
+    nif:anchorOf "drinken" ;
+    nif:endIndex "898" ;
+    nif:lemma "drinken" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w148> nif:BeginIndex "899" ;
+    nif:anchorOf "geeft" ;
+    nif:endIndex "904" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w153> nif:BeginIndex "928" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "930" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w158w159> nif:anchorOf "Rode Kruis" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "961" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w168> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "1012" ;
+    nif:endIndex "1022" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w170w171> nif:anchorOf "Het opschrift" ;
+    nif:beginIndex "1024" ;
+    nif:endIndex "1037" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w171" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w172> nif:BeginIndex "1038" ;
+    nif:anchorOf "luidt" ;
+    nif:endIndex "1043" ;
+    nif:lemma "luiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w178> nif:anchorOf "Midden-Drenthe" ;
+    nif:beginIndex "1077" ;
+    nif:endIndex "1091" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w19w20> nif:anchorOf "Rode Kruis" ;
+    nif:beginIndex "136" ;
+    nif:endIndex "146" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w24> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "163" ;
+    nif:endIndex "173" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w3> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w30> nif:anchorOf "die" ;
+    nif:beginIndex "196" ;
+    nif:endIndex "199" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w30" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w35w36> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "223" ;
+    nif:endIndex "242" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w37> nif:BeginIndex "243" ;
+    nif:anchorOf "gaven" ;
+    nif:endIndex "248" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w4> nif:BeginIndex "26" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "28" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w43w44> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "277" ;
+    nif:endIndex "292" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w46> nif:anchorOf "Het" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "297" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w46" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w47> nif:BeginIndex "298" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "302" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w48> nif:BeginIndex "303" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "310" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w51w52> nif:anchorOf "Nico Schrier" ;
+    nif:beginIndex "326" ;
+    nif:endIndex "338" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w55> nif:anchorOf "1949" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "349" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w56> nif:BeginIndex "350" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "359" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w61> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "384" ;
+    nif:endIndex "394" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w64> nif:anchorOf "1998" ;
+    nif:beginIndex "400" ;
+    nif:endIndex "404" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w65> nif:BeginIndex "405" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "409" ;
+    nif:lemma "op_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w66> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "410" ;
+    nif:endIndex "420" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w71> nif:anchorOf "Midden-Drenthe" ;
+    nif:beginIndex "439" ;
+    nif:endIndex "453" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w77> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "472" ;
+    nif:endIndex "482" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w79> nif:BeginIndex "488" ;
+    nif:anchorOf "verbouwd" ;
+    nif:endIndex "496" ;
+    nif:lemma "verbouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w82w83> nif:anchorOf "het gedenkraam" ;
+    nif:beginIndex "503" ;
+    nif:endIndex "517" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w83" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w84> nif:anchorOf "aanvankelijk" ;
+    nif:beginIndex "518" ;
+    nif:endIndex "530" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w84" ;
+    nif:lemma "aanvankelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w85> nif:BeginIndex "531" ;
+    nif:anchorOf "opgeslagen" ;
+    nif:endIndex "541" ;
+    nif:lemma "op_slaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w8w9w10> nif:anchorOf "Herinneringscentrum Kamp Westerbork" ;
+    nif:beginIndex "52" ;
+    nif:endIndex "87" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w90> nif:anchorOf "Beilen" ;
+    nif:beginIndex "565" ;
+    nif:endIndex "571" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w93> nif:anchorOf "2008" ;
+    nif:beginIndex "576" ;
+    nif:endIndex "580" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w95> nif:anchorOf "het" ;
+    nif:beginIndex "586" ;
+    nif:endIndex "589" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w95" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w96w97w98> nif:anchorOf "in langdurige bruikleen" ;
+    nif:beginIndex "590" ;
+    nif:endIndex "613" ;
+    nif:head "bgnProc:348__Gedenkraam_Westerbork.naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w99> nif:BeginIndex "614" ;
+    nif:anchorOf "gegeven" ;
+    nif:endIndex "621" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_116> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w117> ;
+    xs:gYear "1952" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_11t_12> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w12w13> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_136t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w137w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_139t_140t_141t_142t_143t_144t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w140w141w142w143w144w145w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_169t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w170w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_54> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w55> ;
+    xs:gYear "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w64> ;
+    xs:gYear "1998" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_81t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w82w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_92> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w93> ;
+    xs:gYear "2008" .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_95t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w96w97w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w46> .
+
+bgn:Person-348 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w102w103w104>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w120w121>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w135>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w158w159>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w19w20>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w51w52>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w71>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w77>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w8w9w10>,
+        <http://data.biographynet.nl/rdf/170506221754/348__Gedenkraam_Westerbork.naf#w90> .
+

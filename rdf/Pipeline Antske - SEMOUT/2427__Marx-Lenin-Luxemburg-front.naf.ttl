@@ -1,0 +1,813 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_114t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_126t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_150t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_160t_161t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_175t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_191t_192t_193t_194t_195t_196t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_231t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_23t_24t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_254t_255t_256t_257t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_259>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_273t_274t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_282t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_35t_36t_37t_38t_39t_40t_41t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_48t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_87>,
+        bgn:Person-2427 ;
+    ore:proxyFor bgn:Person-2427 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w106> nif:lemma "oplage" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w109> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w127> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w151> nif:lemma "binnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w161> nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w177> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w182> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w192> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w215> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w256> nif:lemma "rest" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w274> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w284> nif:lemma "lid" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w36> nif:lemma "zoals" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w76> nif:lemma "front" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2427__Marx-Lenin-Luxemburg-front#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2427__Marx-Lenin-Luxemburg-front .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2427 ;
+    bgn:aggregatedPerson bgn:Person-2427 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2427__Marx-Lenin-Luxemburg-front ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2427__Marx-Lenin-Luxemburg-front ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w107> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_104t_105> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_108t_109t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w113> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_104t_105> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_114t_115t_116> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w123> ;
+    pb:ArgM-MNR bgn:Person-2427 .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w129> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_124> ;
+    pb:Arg1 bgn:Person-2427 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w131> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_126t_127>,
+        bgn:Person-2427 .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w139> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_134> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_142> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w154> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_150t_151t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_163> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w164> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_160t_161t_162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w172> ;
+    pb:A0 bgn:Person-2427 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w175> ;
+    pb:ArgM-DIS bgn:Person-2427 ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_175t_176> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w180> ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_180t_181> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w184> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_191t_192t_193t_194t_195t_196t_197>,
+        bgn:Person-2427 .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w218> ;
+    pb:Arg1 bgn:Person-2427 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_214t_215t_216> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_212t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w225> ;
+    pb:ArgM-ADV bgn:Person-2427 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_231t_232t_233> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_246> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w247> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_259> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w260> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_254t_255t_256t_257t_258> ;
+    pb:Arg2 bgn:Person-2427 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_260> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w27> ;
+    pb:A1 bgn:Person-2427 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_23t_24t_25> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_280> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w281> ;
+    pb:Arg1 bgn:Person-2427 ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_279> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_273t_274t_275> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_284> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w285> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_282t_283> ;
+    pb:Arg1 bgn:Person-2427 ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_287> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_28t_29> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w29w30> ;
+    xs:period "P1D" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_38> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w39> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w46> ;
+    pb:ArgM-PRD bgn:Person-2427 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_47> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_35t_36t_37t_38t_39t_40t_41t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_48t_49t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_5> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w6> ;
+    pb:ArgM-TMP bgn:Person-2427 .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w77> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_74t_75> ;
+    pb:A1 bgn:Person-2427 .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w81> ;
+    pb:AM-PRD bgn:Person-2427 .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w88> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_74t_75> ;
+    pb:A1 bgn:Person-2427 .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w100> nif:anchorOf "Nederland" ;
+    nif:beginIndex "640" ;
+    nif:endIndex "649" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w105w106> nif:anchorOf "De oplage" ;
+    nif:beginIndex "672" ;
+    nif:endIndex "681" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w107> nif:BeginIndex "682" ;
+    nif:anchorOf "liep" ;
+    nif:endIndex "686" ;
+    nif:lemma "op_lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w109w110w111> nif:anchorOf "tot 5000 stuks" ;
+    nif:beginIndex "690" ;
+    nif:endIndex "704" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w109" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w113> nif:BeginIndex "708" ;
+    nif:anchorOf "verscheen" ;
+    nif:endIndex "717" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w115w116w117> nif:anchorOf "de veertien dagen" ;
+    nif:beginIndex "721" ;
+    nif:endIndex "738" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w122> nif:anchorOf "Front" ;
+    nif:beginIndex "761" ;
+    nif:endIndex "766" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w123> nif:BeginIndex "767" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "770" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w125> nif:anchorOf "het" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "778" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w125" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w126> nif:anchorOf "ook" ;
+    nif:beginIndex "779" ;
+    nif:endIndex "782" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w126" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w127w128> nif:anchorOf "in contact" ;
+    nif:beginIndex "783" ;
+    nif:endIndex "793" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w129> nif:BeginIndex "794" ;
+    nif:anchorOf "probeerde" ;
+    nif:endIndex "803" ;
+    nif:lemma "proberen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w131> nif:BeginIndex "807" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "812" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w133> nif:anchorOf "Duitse" ;
+    nif:beginIndex "817" ;
+    nif:endIndex "823" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w135> nif:anchorOf "die" ;
+    nif:beginIndex "833" ;
+    nif:endIndex "836" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w135" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w139> nif:BeginIndex "853" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "858" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w13w14> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "99" ;
+    nif:endIndex "118" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w143> nif:BeginIndex "872" ;
+    nif:anchorOf "verzetsbewegingen" ;
+    nif:endIndex "889" ;
+    nif:lemma "verzet_beweging" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w151w152w153> nif:anchorOf "Binnen het front" ;
+    nif:beginIndex "926" ;
+    nif:endIndex "942" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w151" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w154> nif:BeginIndex "943" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "946" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w161w162w163> nif:anchorOf "al dan niet" ;
+    nif:beginIndex "985" ;
+    nif:endIndex "996" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w161" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w164> nif:BeginIndex "997" ;
+    nif:anchorOf "steunen" ;
+    nif:endIndex "1004" ;
+    nif:lemma "steunen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w167> nif:anchorOf "Sovjet-Unie" ;
+    nif:beginIndex "1012" ;
+    nif:endIndex "1023" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w169> nif:anchorOf "waartoe" ;
+    nif:beginIndex "1025" ;
+    nif:endIndex "1032" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w169" ;
+    nif:lemma "waartoe" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w170> nif:anchorOf "Trotski" ;
+    nif:beginIndex "1033" ;
+    nif:endIndex "1040" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w172> nif:BeginIndex "1045" ;
+    nif:anchorOf "opgeroepen" ;
+    nif:endIndex "1055" ;
+    nif:lemma "op_roepen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w174> nif:anchorOf "Dolleman" ;
+    nif:beginIndex "1057" ;
+    nif:endIndex "1065" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w175> nif:BeginIndex "1066" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1069" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w176w177> nif:anchorOf "hier voor" ;
+    nif:beginIndex "1070" ;
+    nif:endIndex "1079" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w177" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w179> nif:anchorOf "Sneevliet" ;
+    nif:beginIndex "1081" ;
+    nif:endIndex "1090" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w17w18> nif:anchorOf "Revolutionair-Socialistische Arbeiderspartij" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "168" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w180> nif:BeginIndex "1091" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1094" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w181w182> nif:anchorOf "hier tegen" ;
+    nif:beginIndex "1095" ;
+    nif:endIndex "1105" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w184> nif:BeginIndex "1109" ;
+    nif:anchorOf "zag" ;
+    nif:endIndex "1112" ;
+    nif:lemma "zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w189> nif:anchorOf "USSR" ;
+    nif:beginIndex "1133" ;
+    nif:endIndex "1137" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w191> nif:anchorOf "nazi-Duitsland" ;
+    nif:beginIndex "1141" ;
+    nif:endIndex "1155" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w192w193w194w195w196w197w198> nif:anchorOf "als een oorlog tussen twee imperialistische mogendheden" ;
+    nif:beginIndex "1156" ;
+    nif:endIndex "1211" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w192" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w2> nif:BeginIndex "4" ;
+    nif:anchorOf "Marx-Lenin-Luxemburg-front" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "30" ;
+    nif:lemma "Marx-Lenin-Luxemburg_front" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w20> nif:anchorOf "RSAP" ;
+    nif:beginIndex "170" ;
+    nif:endIndex "174" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w200> nif:anchorOf "Dolleman" ;
+    nif:beginIndex "1214" ;
+    nif:endIndex "1222" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w202> nif:anchorOf "Sneevliet" ;
+    nif:beginIndex "1224" ;
+    nif:endIndex "1233" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w207> nif:anchorOf "Menist" ;
+    nif:beginIndex "1249" ;
+    nif:endIndex "1255" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w213w214> nif:anchorOf "maart 1942" ;
+    nif:beginIndex "1282" ;
+    nif:endIndex "1292" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w215w216w217> nif:anchorOf "op verschillende adressen" ;
+    nif:beginIndex "1293" ;
+    nif:endIndex "1318" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w218> nif:BeginIndex "1319" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "1331" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w223w224> nif:anchorOf "Kamp Amersfoort" ;
+    nif:beginIndex "1348" ;
+    nif:endIndex "1363" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w225> nif:BeginIndex "1364" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "1376" ;
+    nif:lemma "overgebracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w232w233w234> nif:anchorOf "13 april 1942" ;
+    nif:beginIndex "1407" ;
+    nif:endIndex "1420" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w237> nif:anchorOf "Waffen-SS" ;
+    nif:beginIndex "1429" ;
+    nif:endIndex "1438" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w241> nif:anchorOf "Leusderheide" ;
+    nif:beginIndex "1458" ;
+    nif:endIndex "1470" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w247> nif:anchorOf "huidige" ;
+    nif:beginIndex "1488" ;
+    nif:endIndex "1495" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w24w25w26> nif:anchorOf "14 mei 1940" ;
+    nif:beginIndex "184" ;
+    nif:endIndex "195" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w252w253> nif:anchorOf "Kamp Amersfoort" ;
+    nif:beginIndex "1526" ;
+    nif:endIndex "1541" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w255w256w257w258w259> nif:anchorOf "De rest van de groep" ;
+    nif:beginIndex "1543" ;
+    nif:endIndex "1563" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w256" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w260> nif:BeginIndex "1564" ;
+    nif:anchorOf "splitste" ;
+    nif:endIndex "1572" ;
+    nif:lemma "op_splitsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w261> nif:anchorOf "zich" ;
+    nif:beginIndex "1573" ;
+    nif:endIndex "1577" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w261" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w265w266w267w268> nif:anchorOf "Comité van Revolutionaire Marxisten" ;
+    nif:beginIndex "1588" ;
+    nif:endIndex "1623" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w27> nif:BeginIndex "196" ;
+    nif:anchorOf "opgeheven" ;
+    nif:endIndex "205" ;
+    nif:lemma "op_heffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w271w272> nif:anchorOf "Communistenbond Spartacus" ;
+    nif:beginIndex "1630" ;
+    nif:endIndex "1655" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w274w275w276> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "1658" ;
+    nif:endIndex "1670" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w274" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w279> nif:anchorOf "RSAP" ;
+    nif:beginIndex "1679" ;
+    nif:endIndex "1683" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w280> nif:anchorOf "niet" ;
+    nif:beginIndex "1684" ;
+    nif:endIndex "1688" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w280" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w281> nif:BeginIndex "1689" ;
+    nif:anchorOf "heropgericht" ;
+    nif:endIndex "1701" ;
+    nif:lemma "her_op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w283w284> nif:anchorOf "Negen leden" ;
+    nif:beginIndex "1703" ;
+    nif:endIndex "1714" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w284" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w285> nif:BeginIndex "1715" ;
+    nif:anchorOf "overleefden" ;
+    nif:endIndex "1726" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w286w287> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "1727" ;
+    nif:endIndex "1737" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w288> nif:anchorOf "niet" ;
+    nif:beginIndex "1738" ;
+    nif:endIndex "1742" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w288" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w29w30> nif:anchorOf "een dag" ;
+    nif:beginIndex "207" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w33> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "223" ;
+    nif:endIndex "234" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w36w37w38w39w40w41w42w43w44> nif:anchorOf "Zoals al in 1938 in het geheim was besloten" ;
+    nif:beginIndex "248" ;
+    nif:endIndex "291" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w36" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w39> nif:anchorOf "1938" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "264" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w4> nif:BeginIndex "32" ;
+    nif:anchorOf "MLL-front" ;
+    nif:beginIndex "32" ;
+    nif:endIndex "41" ;
+    nif:lemma "MLL_front" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w43> nif:BeginIndex "279" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "282" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w46> nif:BeginIndex "293" ;
+    nif:anchorOf "reorganiseerden" ;
+    nif:endIndex "308" ;
+    nif:lemma "reorganiseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w47> nif:anchorOf "RSAP-leden" ;
+    nif:beginIndex "309" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w48> nif:anchorOf "zich" ;
+    nif:beginIndex "320" ;
+    nif:endIndex "324" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w48" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w49w50w51> nif:anchorOf "enkele maanden later" ;
+    nif:beginIndex "325" ;
+    nif:endIndex "345" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w59> nif:BeginIndex "391" ;
+    nif:anchorOf "Marx-Lenin-Luxemburg-front" ;
+    nif:beginIndex "391" ;
+    nif:endIndex "417" ;
+    nif:lemma "Marx-Lenin-Luxemburg_front" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w6> nif:BeginIndex "43" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "46" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w64> nif:BeginIndex "435" ;
+    nif:anchorOf "MLL-front" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "444" ;
+    nif:lemma "MLL_front" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w65> nif:BeginIndex "445" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "450" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w66w67> nif:anchorOf "Henk Sneevliet" ;
+    nif:beginIndex "451" ;
+    nif:endIndex "465" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w69w70> nif:anchorOf "Willem Dolleman" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "482" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w72w73> nif:anchorOf "Abraham Menist" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "500" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w75w76> nif:anchorOf "Het front" ;
+    nif:beginIndex "503" ;
+    nif:endIndex "512" ;
+    nif:head "bgnProc:2427__Marx-Lenin-Luxemburg-front.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w77> nif:BeginIndex "513" ;
+    nif:anchorOf "steunde" ;
+    nif:endIndex "520" ;
+    nif:lemma "steunen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w79> nif:anchorOf "Februaristaking" ;
+    nif:beginIndex "524" ;
+    nif:endIndex "539" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w8> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w81> nif:BeginIndex "541" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "547" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w85w86> nif:anchorOf "De Vonk" ;
+    nif:beginIndex "577" ;
+    nif:endIndex "584" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w88> nif:BeginIndex "588" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "591" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w91> nif:anchorOf "Spartacus" ;
+    nif:beginIndex "596" ;
+    nif:endIndex "605" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_108t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w109w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_114t_115t_116> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w115w116w117> ;
+    xs:period "P14D" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_126t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w127w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_150t_151t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w151w152w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_160t_161t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w161w162w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_175t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w176w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_191t_192t_193t_194t_195t_196t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w192w193w194w195w196w197w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_212t_213> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w213w214> ;
+    xs:gYearMonth "1942-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_231t_232t_233> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w232w233w234> ;
+    xs:date "1942-04-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_23t_24t_25> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w24w25w26> ;
+    xs:date "1940-05-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_254t_255t_256t_257t_258> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w255w256w257w258w259> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_260> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w261> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_273t_274t_275> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w274w275w276> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_279> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w280> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_282t_283> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w283w284> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_287> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w288> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_35t_36t_37t_38t_39t_40t_41t_42t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w36w37w38w39w40w41w42w43w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_48t_49t_50> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w49w50w51> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w75w76> .
+
+bgn:Person-2427 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w100>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w13w14>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w17w18>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w191>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w200>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w207>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w223w224>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w241>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w252w253>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w265w266w267w268>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w271w272>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w279>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w286w287>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w66w67>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w69w70>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w85w86>,
+        <http://data.biographynet.nl/rdf/170506221754/2427__Marx-Lenin-Luxemburg-front.naf#w91> .
+

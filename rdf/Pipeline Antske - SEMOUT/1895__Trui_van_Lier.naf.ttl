@@ -1,0 +1,416 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_19t_20t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_49t_50t_51t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_55t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_84t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_87t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_97>,
+        bgn:Person-1895 ;
+    ore:proxyFor bgn:Person-1895 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w109> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w50> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w85> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w88> nif:lemma "via" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1895__Trui_van_Lier#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1895__Trui_van_Lier .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1895 ;
+    bgn:aggregatedPerson bgn:Person-1895 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1895__Trui_van_Lier ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1895__Trui_van_Lier ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w105> ;
+    pb:A1 bgn:Person-1895 ;
+    pb:AM-CAU bgn:Person-1895 .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w108> ;
+    pb:Arg0 bgn:Person-1895 ;
+    pb:ArgM-CAU bgn:Person-1895 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_108t_109t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w114> ;
+    pb:A1 bgn:Person-1895 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_114> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_119t_120>,
+        bgn:Person-1895 .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w14w15w16> ;
+    xs:date "1914-11-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_19t_20t_21> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w20w21w22> ;
+    xs:date "2002-11-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_23> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w24> ;
+    pb:ArgM-TMP bgn:Person-1895 .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w48> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_48> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_49t_50t_51t_52> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w58> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_58> ;
+    pb:A1 bgn:Person-1895 ;
+    pb:AM-LOC bgn:Person-1895 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_55t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w72> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_69> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w80> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_80> ;
+    pb:A1 bgn:Person-1895 ;
+    pb:AM-PRD bgn:Person-1895 .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w94> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_80> ;
+    pb:Arg1 bgn:Person-1895 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_87t_88t_89> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_84t_85t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w10> nif:anchorOf "Lier" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "41" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w102w103w104> nif:anchorOf "Truus van Lier" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "560" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w105> nif:BeginIndex "561" ;
+    nif:anchorOf "diende" ;
+    nif:endIndex "567" ;
+    nif:lemma "dienen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w106> nif:anchorOf "Truitje" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "575" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w108> nif:BeginIndex "579" ;
+    nif:anchorOf "stoppen" ;
+    nif:endIndex "586" ;
+    nif:lemma "stoppen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w109w110w111> nif:anchorOf "bij het kinderhuis" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "605" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w113> nif:anchorOf "Jet" ;
+    nif:beginIndex "607" ;
+    nif:endIndex "610" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w114> nif:BeginIndex "611" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "615" ;
+    nif:lemma "door_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w115> nif:anchorOf "nog" ;
+    nif:beginIndex "616" ;
+    nif:endIndex "619" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w115" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w118> nif:anchorOf "Kindjeshaven" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "640" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w12> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "43" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w120w121> nif:anchorOf "februari 1945" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "658" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w14w15w16> nif:anchorOf "13 november 1914" ;
+    nif:beginIndex "52" ;
+    nif:endIndex "68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w18> nif:anchorOf "Ede" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "74" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w1w2> nif:anchorOf "Elisabeth" ;
+    nif:beginIndex "11" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w20w21w22> nif:anchorOf "29 november 2002" ;
+    nif:beginIndex "76" ;
+    nif:endIndex "92" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w24> nif:BeginIndex "94" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "97" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w26> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "102" ;
+    nif:endIndex "113" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w30w31> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "138" ;
+    nif:endIndex "157" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w34> nif:BeginIndex "168" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "171" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w4> nif:anchorOf "Trui" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w47> nif:anchorOf "1935" ;
+    nif:beginIndex "234" ;
+    nif:endIndex "238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w48> nif:BeginIndex "239" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "244" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w49> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "245" ;
+    nif:endIndex "247" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w49" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w50w51w52w53> nif:anchorOf "aan een studie rechten" ;
+    nif:beginIndex "248" ;
+    nif:endIndex "270" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w56w57> nif:anchorOf "november 1940" ;
+    nif:beginIndex "275" ;
+    nif:endIndex "288" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w58> nif:BeginIndex "289" ;
+    nif:anchorOf "richtte" ;
+    nif:endIndex "296" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w59> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "297" ;
+    nif:endIndex "299" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w59" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w61> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "303" ;
+    nif:endIndex "310" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w64> nif:anchorOf "Prins" ;
+    nif:beginIndex "318" ;
+    nif:endIndex "323" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w65> nif:anchorOf "Hendriklaan" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "335" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w69> nif:anchorOf "die" ;
+    nif:beginIndex "350" ;
+    nif:endIndex "353" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w69" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w70> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "354" ;
+    nif:endIndex "356" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w70" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w71> nif:anchorOf "Kindjeshaven" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "369" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w72> nif:BeginIndex "370" ;
+    nif:anchorOf "noemde" ;
+    nif:endIndex "376" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w76w77> nif:anchorOf "Jet Berdenis" ;
+    nif:beginIndex "388" ;
+    nif:endIndex "400" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w79> nif:anchorOf "Berlekom" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w80> nif:BeginIndex "414" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "418" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w81> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "421" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w81" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w83> nif:anchorOf "Joodse" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w85w86w87> nif:anchorOf "tijdens de bezetting" ;
+    nif:beginIndex "442" ;
+    nif:endIndex "462" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w88w89w90> nif:anchorOf "via het kinderhuis" ;
+    nif:beginIndex "463" ;
+    nif:endIndex "481" ;
+    nif:head "bgnProc:1895__Trui_van_Lier.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w94> nif:BeginIndex "499" ;
+    nif:anchorOf "brengen" ;
+    nif:endIndex "506" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w98> nif:BeginIndex "520" ;
+    nif:anchorOf "fusilleren" ;
+    nif:endIndex "530" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_108t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w109w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_119t_120> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w120w121> ;
+    xs:gYearMonth "1945-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w47> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_49t_50t_51t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w50w51w52w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_55t_56> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w56w57> ;
+    xs:gYearMonth "1940-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_84t_85t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w85w86w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_87t_88t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w88w89w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w81> .
+
+bgn:Person-1895 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w102w103w104>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w76w77>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/1895__Trui_van_Lier.naf#w83> .
+

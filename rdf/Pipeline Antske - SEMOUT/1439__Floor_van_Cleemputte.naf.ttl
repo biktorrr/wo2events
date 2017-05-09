@@ -1,0 +1,268 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_26t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_48t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_68>,
+        bgn:Person-1439 ;
+    ore:proxyFor bgn:Person-1439 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w49> nif:lemma "tot" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1439__Floor_van_Cleemputte#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1439__Floor_van_Cleemputte .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1439 ;
+    bgn:aggregatedPerson bgn:Person-1439 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1439__Floor_van_Cleemputte ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1439__Floor_van_Cleemputte ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w11w12w13> ;
+    xs:date "1907-09-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_16t_17t_18> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w17w18w19> ;
+    xs:date "2015-05-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w21> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_26t_27t_28> ;
+    pb:ArgM-LOC bgn:Person-1439 .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_23t_24> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w24w25> ;
+    xs:period "P107Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w48> ;
+    pb:Arg0 bgn:Person-1439 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_54> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_52> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_48t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w57> ;
+    pb:Arg1 bgn:Person-1439 ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_63> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_65> ;
+    pb:ArgM-TMP bgn:Person-1439 .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w11w12w13> nif:anchorOf "28 september 1907" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w15> nif:anchorOf "Spijkenisse" ;
+    nif:beginIndex "76" ;
+    nif:endIndex "87" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w17w18w19> nif:anchorOf "20 mei 2015" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w1w2> nif:anchorOf "Antonius" ;
+    nif:beginIndex "12" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w21> nif:BeginIndex "102" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "105" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w24w25> nif:anchorOf "107 jaar" ;
+    nif:beginIndex "115" ;
+    nif:endIndex "123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w27w28w29> nif:anchorOf "14 november 2014" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w35> nif:anchorOf "Nederland" ;
+    nif:beginIndex "173" ;
+    nif:endIndex "182" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w39> nif:BeginIndex "191" ;
+    nif:anchorOf "overlijden" ;
+    nif:endIndex "201" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w4> nif:anchorOf "Floor" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w42w43w44> nif:anchorOf "108-jarige Serop Mirzoyan" ;
+    nif:beginIndex "209" ;
+    nif:endIndex "234" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w46w47> nif:anchorOf "Van Cleemputte" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "251" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w48> nif:BeginIndex "252" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "258" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w49w50w51> nif:anchorOf "tot zijn 106de" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "273" ;
+    nif:head "bgnProc:1439__Floor_van_Cleemputte.naf#w49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w52> nif:anchorOf "nog" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "277" ;
+    nif:head "bgnProc:1439__Floor_van_Cleemputte.naf#w52" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w53> nif:anchorOf "zelfstandig" ;
+    nif:beginIndex "278" ;
+    nif:endIndex "289" ;
+    nif:head "bgnProc:1439__Floor_van_Cleemputte.naf#w53" ;
+    nif:lemma "zelfstandig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w55> nif:anchorOf "Heenvliet" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "302" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w57> nif:BeginIndex "306" ;
+    nif:anchorOf "verhuisde" ;
+    nif:endIndex "315" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w59> nif:anchorOf "2013" ;
+    nif:beginIndex "319" ;
+    nif:endIndex "323" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w64> nif:anchorOf "Spijkenisse" ;
+    nif:beginIndex "352" ;
+    nif:endIndex "363" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w66> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "368" ;
+    nif:head "bgnProc:1439__Floor_van_Cleemputte.naf#w66" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w67> nif:BeginIndex "369" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "372" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w69> nif:BeginIndex "377" ;
+    nif:anchorOf "luitenant-ter-zee" ;
+    nif:endIndex "394" ;
+    nif:lemma "luitenant-ter_zee" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w7> nif:anchorOf "Cleemputte" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w73w74> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "413" ;
+    nif:endIndex "432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w77w78> nif:anchorOf "Koreaanse Oorlog" ;
+    nif:beginIndex "439" ;
+    nif:endIndex "455" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w9> nif:anchorOf "Terneuzen" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_26t_27t_28> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w27w28w29> ;
+    xs:date "2014-11-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_48t_49t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w49w50w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_58> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w59> ;
+    xs:gYear "2013" .
+
+<http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w66> .
+
+bgn:Person-1439 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w42w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w46w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1439__Floor_van_Cleemputte.naf#w9> .
+

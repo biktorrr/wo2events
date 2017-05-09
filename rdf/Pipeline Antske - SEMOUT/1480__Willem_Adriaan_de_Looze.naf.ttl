@@ -1,0 +1,891 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_151t_152t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_156t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_168t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_183t_184t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_187t_188t_189t_190t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_194t_195t_196t_197t_198t_199t_200t_201t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_205t_206t_207t_208t_209t_210t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_232t_233t_234t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_305>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_308t_309t_310t_311>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_313>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_318t_319t_320t_321>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_322>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_324>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_332>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_35t_36t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_69t_70t_71t_72t_73t_74t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_80t_81t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_87t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_93t_94t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_98>,
+        bgn:Person-1480 ;
+    ore:proxyFor bgn:Person-1480 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w128> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w152> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w158> nif:lemma "bemanning_lid" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w170> nif:lemma "aanval" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w184> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w188> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w190> nif:lemma "gewond" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w195> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w206> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w216> nif:lemma "schade" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w233> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w309> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w319> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w36> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w44> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w72> nif:lemma "patrouille" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w81> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w89> nif:lemma "boot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w90> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w94> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1480__Willem_Adriaan_de_Looze#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1480__Willem_Adriaan_de_Looze .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1480 ;
+    bgn:aggregatedPerson bgn:Person-1480 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1480__Willem_Adriaan_de_Looze ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1480__Willem_Adriaan_de_Looze ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w124> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_113>,
+        bgn:Person-1480 .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w126> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_98> ;
+    pb:Arg1 bgn:Person-1480 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_93t_94t_95t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w150> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_141> ;
+    pb:A1 bgn:Person-1480 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_140> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w155> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_151t_152t_153> ;
+    pb:A1 bgn:Person-1480 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w160> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_156t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w167> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_167> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_168t_169> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_165> ;
+    pb:AM-TMP bgn:Person-1480 .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w179> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_175> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w182> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_182> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_183t_184t_185> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_186> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_187t_188t_189t_190t_191t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w193> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_188t_189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_203> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w204> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_204> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_205t_206t_207t_208t_209t_210t_211t_212t_213> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_194t_195t_196t_197t_198t_199t_200t_201t_202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_220> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w221> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w223> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w237> ;
+    pb:A1 bgn:Person-1480 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_232t_233t_234t_235>,
+        bgn:Person-1480 .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w25> ;
+    pb:ArgM-PNC bgn:Person-1480 .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_255> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w256> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_267> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w268> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_305> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w306> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_314> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w315> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_313> ;
+    pb:Arg2 bgn:Person-1480 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_308t_309t_310t_311> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_322> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w323> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_318t_319t_320t_321> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_324> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w325> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_332> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w333> ;
+    pb:A1 bgn:Person-1480 ;
+    pb:A2 bgn:Person-1480 .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w40> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_35t_36t_37t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w46> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_43t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w69> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_69t_70t_71t_72t_73t_74t_75t_76t_77> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_80t_81t_82> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w92> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_87t_88> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_84> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_89t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w107> nif:anchorOf "Franse" ;
+    nif:beginIndex "636" ;
+    nif:endIndex "642" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w114> nif:anchorOf "die" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "692" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w114" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w12> nif:anchorOf "Wassenaar" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "64" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w123> nif:anchorOf "Boulogne" ;
+    nif:beginIndex "732" ;
+    nif:endIndex "740" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w124> nif:BeginIndex "741" ;
+    nif:anchorOf "dobberde" ;
+    nif:endIndex "749" ;
+    nif:lemma "dobberen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w126> nif:BeginIndex "751" ;
+    nif:anchorOf "gered" ;
+    nif:endIndex "756" ;
+    nif:lemma "redden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w128w129w130w131w132w133w134w135w136> nif:anchorOf "In de nacht van 28 op 29 september 1943" ;
+    nif:beginIndex "759" ;
+    nif:endIndex "798" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w138w139> nif:anchorOf "MTB 433" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "811" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w141> nif:anchorOf "waarop" ;
+    nif:beginIndex "813" ;
+    nif:endIndex "819" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w141" ;
+    nif:lemma "waarop" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w142> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "820" ;
+    nif:endIndex "823" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w142" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w143> nif:anchorOf "zich" ;
+    nif:beginIndex "824" ;
+    nif:endIndex "828" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w143" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w147> nif:anchorOf "MTB" ;
+    nif:beginIndex "848" ;
+    nif:endIndex "851" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w150> nif:BeginIndex "865" ;
+    nif:anchorOf "bevond" ;
+    nif:endIndex "871" ;
+    nif:lemma "bevinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w152w153w154> nif:anchorOf "door vijandelijk vuur" ;
+    nif:beginIndex "873" ;
+    nif:endIndex "894" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w155> nif:BeginIndex "895" ;
+    nif:anchorOf "geraakt" ;
+    nif:endIndex "902" ;
+    nif:lemma "raken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w157w158> nif:anchorOf "Een bemanningslid" ;
+    nif:beginIndex "904" ;
+    nif:endIndex "921" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w160> nif:BeginIndex "927" ;
+    nif:anchorOf "gedood" ;
+    nif:endIndex "933" ;
+    nif:lemma "doden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w166> nif:anchorOf "Toch" ;
+    nif:beginIndex "957" ;
+    nif:endIndex "961" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w166" ;
+    nif:lemma "toch" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w167> nif:BeginIndex "962" ;
+    nif:anchorOf "zette" ;
+    nif:endIndex "967" ;
+    nif:lemma "door_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w168> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "968" ;
+    nif:endIndex "971" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w168" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w169w170> nif:anchorOf "de aanval" ;
+    nif:beginIndex "972" ;
+    nif:endIndex "981" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w170" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w175> nif:anchorOf "MTB" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1007" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w176> nif:anchorOf "'s" ;
+    nif:beginIndex "1007" ;
+    nif:endIndex "1009" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w176" ;
+    nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w179> nif:BeginIndex "1024" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1029" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w18> nif:BeginIndex "80" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "83" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w181> nif:anchorOf "Daarna" ;
+    nif:beginIndex "1031" ;
+    nif:endIndex "1037" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w181" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w182> nif:BeginIndex "1038" ;
+    nif:anchorOf "keerde" ;
+    nif:endIndex "1044" ;
+    nif:lemma "terug_keren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w183> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1045" ;
+    nif:endIndex "1048" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w183" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w184w185w186> nif:anchorOf "naar de basis" ;
+    nif:beginIndex "1049" ;
+    nif:endIndex "1062" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w184" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w187> nif:anchorOf "terug" ;
+    nif:beginIndex "1063" ;
+    nif:endIndex "1068" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w187" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w188w189w190w191w192w193> nif:anchorOf "om de gewonden te laten verzorgen" ;
+    nif:beginIndex "1069" ;
+    nif:endIndex "1102" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w188" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w189w190> nif:anchorOf "de gewonden" ;
+    nif:beginIndex "1072" ;
+    nif:endIndex "1083" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w190" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w193> nif:BeginIndex "1093" ;
+    nif:anchorOf "verzorgen" ;
+    nif:endIndex "1102" ;
+    nif:lemma "verzorgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w195w196w197w198w199w200w201w202w203> nif:anchorOf "In de nacht van 26 op 27 juli 1944" ;
+    nif:beginIndex "1105" ;
+    nif:endIndex "1139" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w195" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w1w2w3w4> nif:anchorOf "Adriaan de Looze" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w204> nif:BeginIndex "1140" ;
+    nif:anchorOf "bracht" ;
+    nif:endIndex "1146" ;
+    nif:lemma "toe_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w205> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1147" ;
+    nif:endIndex "1150" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w205" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w206w207w208w209w210w211w212w213w214> nif:anchorOf "door moedig optreden twee van de vijf vijandelijke schepen" ;
+    nif:beginIndex "1151" ;
+    nif:endIndex "1209" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w215w216w217w218w219w220w221w222w223> nif:anchorOf "zodanige schade toe dat zij buiten gevecht gesteld waren" ;
+    nif:beginIndex "1210" ;
+    nif:endIndex "1266" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w219> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "1234" ;
+    nif:endIndex "1237" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w219" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w221> nif:BeginIndex "1245" ;
+    nif:anchorOf "gevecht" ;
+    nif:endIndex "1252" ;
+    nif:lemma "gevecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w223> nif:BeginIndex "1261" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1266" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w230w231> nif:anchorOf "Bronzen Kruis" ;
+    nif:beginIndex "1298" ;
+    nif:endIndex "1311" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w233w234w235w236> nif:anchorOf "op 20 augustus 1948" ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1336" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w237> nif:BeginIndex "1337" ;
+    nif:anchorOf "ingetrokken" ;
+    nif:endIndex "1348" ;
+    nif:lemma "in_trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "110" ;
+    nif:endIndex "129" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w245w246> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "1385" ;
+    nif:endIndex "1407" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w248w249> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "1410" ;
+    nif:endIndex "1432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w25> nif:BeginIndex "130" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "133" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w251> nif:anchorOf "Ridder" ;
+    nif:beginIndex "1434" ;
+    nif:endIndex "1440" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w256> nif:BeginIndex "1457" ;
+    nif:anchorOf "K." ;
+    nif:endIndex "1459" ;
+    nif:lemma "K." .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w256w257> nif:anchorOf "K. B." ;
+    nif:beginIndex "1457" ;
+    nif:endIndex "1461" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w264w265> nif:anchorOf "Bronzen Kruis" ;
+    nif:beginIndex "1491" ;
+    nif:endIndex "1504" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w268> nif:BeginIndex "1518" ;
+    nif:anchorOf "K." ;
+    nif:endIndex "1520" ;
+    nif:lemma "K." .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w268w269> nif:anchorOf "K. B." ;
+    nif:beginIndex "1518" ;
+    nif:endIndex "1522" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w26w27> nif:anchorOf "De Looze" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w276w277w278> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "1552" ;
+    nif:endIndex "1574" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w28> nif:BeginIndex "143" ;
+    nif:anchorOf "luitenant-ter-zee" ;
+    nif:endIndex "160" ;
+    nif:lemma "luitenant-ter_zee" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w280> nif:anchorOf "ON" ;
+    nif:beginIndex "1576" ;
+    nif:endIndex "1578" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w282> nif:anchorOf "Oorlogsherinneringskruis" ;
+    nif:beginIndex "1581" ;
+    nif:endIndex "1605" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w284> nif:anchorOf "OHK.2" ;
+    nif:beginIndex "1607" ;
+    nif:endIndex "1612" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w286w287w288w289> nif:anchorOf "Onderscheidingsteken voor Langdurige Dienst" ;
+    nif:beginIndex "1615" ;
+    nif:endIndex "1658" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w292w293w294> nif:anchorOf "Distinguished Service Cross" ;
+    nif:beginIndex "1673" ;
+    nif:endIndex "1700" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w296> nif:anchorOf "DSC" ;
+    nif:beginIndex "1702" ;
+    nif:endIndex "1705" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w298> nif:anchorOf "Mentioned" ;
+    nif:beginIndex "1708" ;
+    nif:endIndex "1717" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w300> nif:anchorOf "Despatches" ;
+    nif:beginIndex "1721" ;
+    nif:endIndex "1731" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w302> nif:anchorOf "MID" ;
+    nif:beginIndex "1733" ;
+    nif:endIndex "1736" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w304w305> nif:anchorOf "De Looze" ;
+    nif:beginIndex "1739" ;
+    nif:endIndex "1747" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w306> nif:BeginIndex "1748" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "1753" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w309w310w311w312> nif:anchorOf "Op 1 september 1948" ;
+    nif:beginIndex "1764" ;
+    nif:endIndex "1783" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w309" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w314> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1789" ;
+    nif:endIndex "1792" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w314" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w315> nif:BeginIndex "1793" ;
+    nif:anchorOf "bevorderd" ;
+    nif:endIndex "1802" ;
+    nif:lemma "bevorderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w317> nif:anchorOf "LTZ1" ;
+    nif:beginIndex "1807" ;
+    nif:endIndex "1811" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w319w320w321w322> nif:anchorOf "Op 1 juli 1963" ;
+    nif:beginIndex "1813" ;
+    nif:endIndex "1827" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w319" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w323> nif:BeginIndex "1828" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1832" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w325> nif:BeginIndex "1837" ;
+    nif:anchorOf "Kapitein-ter-zee" ;
+    nif:endIndex "1853" ;
+    nif:lemma "Kapitein-ter_zee" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w330w331w332> nif:anchorOf "Lijst van personen" ;
+    nif:beginIndex "1867" ;
+    nif:endIndex "1885" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w333> nif:BeginIndex "1886" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "1899" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w336w337> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "1907" ;
+    nif:endIndex "1929" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w36w37w38w39> nif:anchorOf "Op 16 augustus 1940" ;
+    nif:beginIndex "186" ;
+    nif:endIndex "205" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w40> nif:BeginIndex "206" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "210" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w44w45> nif:anchorOf "Van 1941-1944" ;
+    nif:beginIndex "222" ;
+    nif:endIndex "235" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w46> nif:BeginIndex "236" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "239" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w53> nif:anchorOf "MGB" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w59> nif:anchorOf "MTB" ;
+    nif:beginIndex "325" ;
+    nif:endIndex "328" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w6> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w65> nif:anchorOf "Brits-Nederlandse" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "362" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w68> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "378" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w68" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w69> nif:BeginIndex "379" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "383" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w70w71w72w73w74w75w76w77w78> nif:anchorOf "ongeveer 170 patrouilles tegen vijandelijke mijnenvegers of convoierende treilers" ;
+    nif:beginIndex "384" ;
+    nif:endIndex "465" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w80> nif:anchorOf "dikwijls" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "475" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w80" ;
+    nif:lemma "dikwijls" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w81w82w83> nif:anchorOf "onder vijandelijk vuur" ;
+    nif:beginIndex "476" ;
+    nif:endIndex "498" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w85> nif:anchorOf "Hierbij" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "507" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w85" ;
+    nif:lemma "hierbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w87> nif:anchorOf "tweemaal" ;
+    nif:beginIndex "513" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w87" ;
+    nif:lemma "tweemaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w88w89> nif:anchorOf "zijn boot" ;
+    nif:beginIndex "522" ;
+    nif:endIndex "531" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w90w91> nif:anchorOf "in brand" ;
+    nif:beginIndex "532" ;
+    nif:endIndex "540" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w90" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w92> nif:BeginIndex "541" ;
+    nif:anchorOf "geschoten" ;
+    nif:endIndex "550" ;
+    nif:lemma "schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w94w95w96w97> nif:anchorOf "Op 17 april 1943" ;
+    nif:beginIndex "553" ;
+    nif:endIndex "569" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w99> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "576" ;
+    nif:endIndex "579" ;
+    nif:head "bgnProc:1480__Willem_Adriaan_de_Looze.naf#w99" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w128w129w130w131w132w133w134w135w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_151t_152t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w152w153w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_156t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w157w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_168t_169> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w169w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_183t_184t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w184w185w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_187t_188t_189t_190t_191t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w188w189w190w191w192w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_194t_195t_196t_197t_198t_199t_200t_201t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w195w196w197w198w199w200w201w202w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_205t_206t_207t_208t_209t_210t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w206w207w208w209w210w211w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w215w216w217w218w219w220w221w222w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_232t_233t_234t_235> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w233w234w235w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_308t_309t_310t_311> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w309w310w311w312> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_313> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w314> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_318t_319t_320t_321> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w319w320w321w322> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_35t_36t_37t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w36w37w38w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_69t_70t_71t_72t_73t_74t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w70w71w72w73w74w75w76w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_80t_81t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w81w82w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_87t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w88w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_93t_94t_95t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w94w95w96w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w99> .
+
+bgn:Person-1480 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w138w139>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w147>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w230w231>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w245w246>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w248w249>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w251>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w256w257>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w264w265>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w268w269>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w276w277w278>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w280>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w282>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w284>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w286w287w288w289>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w292w293w294>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w296>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w298>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w300>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w302>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w304w305>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w317>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w330w331w332>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w336w337>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1480__Willem_Adriaan_de_Looze.naf#w65> .
+

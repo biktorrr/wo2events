@@ -1,0 +1,858 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_132t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_134t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_143t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_149t_150t_151t_152t_153t_154t_155t_156t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_182t_183t_184t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_189t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_195t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_223t_224t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_227t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_231t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_234t_235t_236t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_239t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_251t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_264t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_26t_27t_28t_29t_30t_31t_32t_33t_34t_35t_36t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_31t_32t_33t_34t_35t_36t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_32t_33t_34t_35t_36t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_46t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_65t_66t_67t_68t_69t_70t_71t_72t_73t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_91t_92t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_96>,
+        bgn:Person-535 ;
+    ore:proxyFor bgn:Person-535 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w113> nif:lemma "onthulling" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w135> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w144> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w150> nif:lemma "omdat" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w175> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w181> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w184> nif:lemma "rechter_arm" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w191> nif:lemma "arm" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w197> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w210> nif:lemma "krans_legging" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w224> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w230> nif:lemma "figuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w232> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w235> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w241> nif:lemma "handpalm" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w25> nif:lemma "initiatief" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w254> nif:lemma "plaquette" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w266> nif:lemma "kei" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w27> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w32> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w34> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w48> nif:lemma "opdracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w82> nif:lemma "ontwerp" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w94> nif:lemma "steen" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w96> nif:lemma "bij" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-535__IJzeren_man_(Beilen)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-535__IJzeren_man_(Beilen)> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-535 ;
+    bgn:aggregatedPerson bgn:Person-535 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-535__IJzeren_man_(Beilen)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-535__IJzeren_man_(Beilen)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w105> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_91t_92t_93> ;
+    pb:A2 bgn:Person-535 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_95t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w111> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_113> ;
+    pb:ArgM-LOC bgn:Person-535 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_107t_108t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w132> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_132t_133> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_134t_135t_136> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_143t_144t_145t_146t_147> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_149t_150t_151t_152t_153t_154t_155t_156t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w148> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w173> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_171>,
+        bgn:Person-535 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_173t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w188> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_180t_181> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_182t_183t_184t_185t_186> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_177t_178> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w194> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_189t_190> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w200> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_195t_196> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w206> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_210> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_207>,
+        bgn:Person-535 .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w223> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_223t_224t_225> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_221> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w231> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_227t_228t_229> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_234t_235t_236t_237> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_231t_232t_233> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w242> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_239t_240> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w26> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_23t_24> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_26t_27t_28t_29t_30t_31t_32t_33t_34t_35t_36t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_44> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_21> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_250> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w251> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_251t_252t_253> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_258> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w259> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_263> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w264> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_264t_265> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w4> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w31> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_27> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_28> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_31t_32t_33t_34t_35t_36t_37t_38t_39t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w37> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_32t_33t_34t_35t_36t_37t_38t_39t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w50> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_46t_47> ;
+    pb:AM-MNR bgn:Person-535 .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w65> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_63> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_65t_66t_67t_68t_69t_70t_71t_72t_73t_74> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w74> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w79> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_79> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_80t_81> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_89>,
+        bgn:Person-535 .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w85> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_89>,
+        bgn:Person-535 .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w103w104> nif:anchorOf "Linthorst Homankanaal" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "615" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w105> nif:BeginIndex "616" ;
+    nif:anchorOf "gevonden" ;
+    nif:endIndex "624" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w108w109w110> nif:anchorOf "31 augustus 1950" ;
+    nif:beginIndex "630" ;
+    nif:endIndex "646" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w11> nif:anchorOf "Beilen" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w111> nif:BeginIndex "647" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "651" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w112w113> nif:anchorOf "de onthulling" ;
+    nif:beginIndex "652" ;
+    nif:endIndex "665" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w113" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w114> nif:anchorOf "plaats" ;
+    nif:beginIndex "666" ;
+    nif:endIndex "672" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w114" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w120> nif:anchorOf "Torenlaan" ;
+    nif:beginIndex "700" ;
+    nif:endIndex "709" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w129w130> nif:anchorOf "Henk Wytema" ;
+    nif:beginIndex "769" ;
+    nif:endIndex "780" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w132> nif:BeginIndex "782" ;
+    nif:anchorOf "omschreef" ;
+    nif:endIndex "791" ;
+    nif:lemma "omschrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w133w134> nif:anchorOf "de mannenfiguur" ;
+    nif:beginIndex "792" ;
+    nif:endIndex "807" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w134" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w134> nif:BeginIndex "795" ;
+    nif:anchorOf "mannenfiguur" ;
+    nif:endIndex "807" ;
+    nif:lemma "man_figuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w135w136w137> nif:anchorOf "in zijn toespraak" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w141> nif:anchorOf "Drentse" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "848" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w144w145w146w147w148> nif:anchorOf "met zijn handen achterwaarts gericht" ;
+    nif:beginIndex "857" ;
+    nif:endIndex "893" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w144" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w147> nif:anchorOf "achterwaarts" ;
+    nif:beginIndex "873" ;
+    nif:endIndex "885" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w147" ;
+    nif:lemma "achterwaarts" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w148> nif:BeginIndex "886" ;
+    nif:anchorOf "gericht" ;
+    nif:endIndex "893" ;
+    nif:lemma "gericht" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w150w151w152w153w154w155w156w157w158> nif:anchorOf "omdat hij zich gesteund weet door een granieten geloof" ;
+    nif:beginIndex "895" ;
+    nif:endIndex "949" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w150" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w167w168w169w170> nif:anchorOf "R. H. de Vos" ;
+    nif:beginIndex "992" ;
+    nif:endIndex "1003" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w172> nif:anchorOf "Steenwijk" ;
+    nif:beginIndex "1008" ;
+    nif:endIndex "1017" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w173> nif:BeginIndex "1018" ;
+    nif:anchorOf "onthulde" ;
+    nif:endIndex "1026" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w174w175> nif:anchorOf "het monument" ;
+    nif:beginIndex "1027" ;
+    nif:endIndex "1039" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w175" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w178w179> nif:anchorOf "augustus 2013" ;
+    nif:beginIndex "1045" ;
+    nif:endIndex "1058" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w181w182> nif:anchorOf "door vandalen" ;
+    nif:beginIndex "1064" ;
+    nif:endIndex "1077" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w181" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w183w184w185w186w187> nif:anchorOf "de rechterarm van het beeld" ;
+    nif:beginIndex "1078" ;
+    nif:endIndex "1105" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w184" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w188> nif:BeginIndex "1106" ;
+    nif:anchorOf "afgebroken" ;
+    nif:endIndex "1116" ;
+    nif:lemma "af_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w18w19> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "105" ;
+    nif:endIndex "124" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w190w191> nif:anchorOf "De arm" ;
+    nif:beginIndex "1118" ;
+    nif:endIndex "1124" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w191" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w193> nif:anchorOf "later" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1135" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w193" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w194> nif:BeginIndex "1136" ;
+    nif:anchorOf "teruggevonden" ;
+    nif:endIndex "1149" ;
+    nif:lemma "terug_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w196w197> nif:anchorOf "het monument" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1165" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w197" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w2> nif:anchorOf "IJzeren" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "10" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w200> nif:BeginIndex "1177" ;
+    nif:anchorOf "gerestaureerd" ;
+    nif:endIndex "1190" ;
+    nif:lemma "restaureren" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w204w205> nif:anchorOf "Nationale Dodenherdenking" ;
+    nif:beginIndex "1203" ;
+    nif:endIndex "1228" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w206> nif:BeginIndex "1229" ;
+    nif:anchorOf "vindt" ;
+    nif:endIndex "1234" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w208> nif:anchorOf "jaarlijks" ;
+    nif:beginIndex "1238" ;
+    nif:endIndex "1247" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w209w210> nif:anchorOf "een kranslegging" ;
+    nif:beginIndex "1248" ;
+    nif:endIndex "1264" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w211> nif:anchorOf "plaats" ;
+    nif:beginIndex "1265" ;
+    nif:endIndex "1271" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w211" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w22> nif:anchorOf "1945" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "134" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w222> nif:anchorOf "slechts" ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1324" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w222" ;
+    nif:lemma "slechts" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w223> nif:BeginIndex "1325" ;
+    nif:anchorOf "gekleed" ;
+    nif:endIndex "1332" ;
+    nif:lemma "gekleed" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w224w225w226> nif:anchorOf "in een lendendoek" ;
+    nif:beginIndex "1333" ;
+    nif:endIndex "1350" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w224" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w228w229w230> nif:anchorOf "De bronzen figuur" ;
+    nif:beginIndex "1352" ;
+    nif:endIndex "1369" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w230" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w231> nif:BeginIndex "1370" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1375" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w232w233w234> nif:anchorOf "met zijn rug" ;
+    nif:beginIndex "1376" ;
+    nif:endIndex "1388" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w232" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w235w236w237w238> nif:anchorOf "naar een rechtopstaande steen" ;
+    nif:beginIndex "1389" ;
+    nif:endIndex "1418" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w235" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w240w241> nif:anchorOf "zijn handpalmen" ;
+    nif:beginIndex "1420" ;
+    nif:endIndex "1435" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w241" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w242> nif:BeginIndex "1436" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1440" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w24w25> nif:anchorOf "het initiatief" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "154" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w25" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w251> nif:BeginIndex "1474" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1476" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w252w253w254> nif:anchorOf "een eenvoudige plaquette" ;
+    nif:beginIndex "1477" ;
+    nif:endIndex "1501" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w254" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w259> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "1532" ;
+    nif:endIndex "1541" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w26> nif:BeginIndex "155" ;
+    nif:anchorOf "genomen" ;
+    nif:endIndex "162" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w264> nif:BeginIndex "1555" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1559" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w265w266> nif:anchorOf "kleinere keien" ;
+    nif:beginIndex "1560" ;
+    nif:endIndex "1574" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w266" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w273> nif:anchorOf "Midden-Drenthe" ;
+    nif:beginIndex "1618" ;
+    nif:endIndex "1632" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w278> nif:anchorOf "Midden-Drenthe" ;
+    nif:beginIndex "1655" ;
+    nif:endIndex "1669" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w27w28w29w30w31w32w33w34w35w36w37w38w39w40w41> nif:anchorOf "om geld in te zamelen om een monument op te richten voor de 73 oorlogsslachtoffers" ;
+    nif:beginIndex "163" ;
+    nif:endIndex "245" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w28> nif:anchorOf "geld" ;
+    nif:beginIndex "166" ;
+    nif:endIndex "170" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w28" ;
+    nif:lemma "geld" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w29> nif:anchorOf "in" ;
+    nif:beginIndex "171" ;
+    nif:endIndex "173" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w29" ;
+    nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w31> nif:BeginIndex "177" ;
+    nif:anchorOf "zamelen" ;
+    nif:endIndex "184" ;
+    nif:lemma "in_zamelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w32w33w34w35w36w37w38w39w40w41> nif:anchorOf "om een monument op te richten voor de 73 oorlogsslachtoffers" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "245" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w32" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w33w34w35w36w37w38w39w40w41> nif:anchorOf "een monument op te richten voor de 73 oorlogsslachtoffers" ;
+    nif:beginIndex "188" ;
+    nif:endIndex "245" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w34" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w37> nif:BeginIndex "207" ;
+    nif:anchorOf "richten" ;
+    nif:endIndex "214" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w4> nif:BeginIndex "15" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "17" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w45> nif:anchorOf "Beilen" ;
+    nif:beginIndex "262" ;
+    nif:endIndex "268" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w47w48> nif:anchorOf "De opdracht" ;
+    nif:beginIndex "270" ;
+    nif:endIndex "281" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w50> nif:BeginIndex "287" ;
+    nif:anchorOf "gegund" ;
+    nif:endIndex "293" ;
+    nif:lemma "gunnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w53> nif:anchorOf "Arnhemse" ;
+    nif:beginIndex "301" ;
+    nif:endIndex "309" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w55w56> nif:anchorOf "Fri Heil" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "332" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w59> nif:BeginIndex "338" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "341" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w64> a bgn:pron_3fs ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "373" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w64" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w65> nif:BeginIndex "374" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "380" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w66w67w68w69w70w71w72w73w74w75> nif:anchorOf "een bronzen mannenfiguur die tegen een zwerfsteen is geplaatst" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "444" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w68> nif:BeginIndex "393" ;
+    nif:anchorOf "mannenfiguur" ;
+    nif:endIndex "405" ;
+    nif:lemma "man_figuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w70> nif:anchorOf "die" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "410" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w70" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w74> nif:BeginIndex "432" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "434" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w78> nif:anchorOf "1948" ;
+    nif:beginIndex "449" ;
+    nif:endIndex "453" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w79> nif:BeginIndex "454" ;
+    nif:anchorOf "toonde" ;
+    nif:endIndex "460" ;
+    nif:lemma "tonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w80> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "463" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w80" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w81w82> nif:anchorOf "haar ontwerp" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "476" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w82" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w85> nif:BeginIndex "484" ;
+    nif:anchorOf "tentoonstelling" ;
+    nif:endIndex "499" ;
+    nif:lemma "tentoonstelling" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w87> nif:anchorOf "Gelderse" ;
+    nif:beginIndex "505" ;
+    nif:endIndex "513" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w9> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "48" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w90> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "523" ;
+    nif:endIndex "529" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w92w93w94> nif:anchorOf "De grote steen" ;
+    nif:beginIndex "531" ;
+    nif:endIndex "545" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w96w97> nif:anchorOf "bij graafwerkzaamheden" ;
+    nif:beginIndex "551" ;
+    nif:endIndex "573" ;
+    nif:head "bgnProc:535__IJzeren_man_(Beilen).naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w97> nif:BeginIndex "555" ;
+    nif:anchorOf "graafwerkzaamheden" ;
+    nif:endIndex "573" ;
+    nif:lemma "graaf_werkzaamheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_107t_108t_109> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w108w109w110> ;
+    xs:date "1950-08-31" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_111t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w112w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_132t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w133w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_134t_135t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w135w136w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_143t_144t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w144w145w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_149t_150t_151t_152t_153t_154t_155t_156t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w150w151w152w153w154w155w156w157w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_173t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w174w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_177t_178> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w178w179> ;
+    xs:gYearMonth "2013-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_182t_183t_184t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w183w184w185w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_189t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w190w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_195t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w196w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_207> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w208> ;
+    xs:gYear "XXXX" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_208t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w209w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_21> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w22> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_223t_224t_225> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w224w225w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_227t_228t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w228w229w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_231t_232t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w232w233w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_234t_235t_236t_237> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w235w236w237w238> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_239t_240> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w240w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_23t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w24w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_251t_252t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w252w253w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_264t_265> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w265w266> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_26t_27t_28t_29t_30t_31t_32t_33t_34t_35t_36t_37t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w27w28w29w30w31w32w33w34w35w36w37w38w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_31t_32t_33t_34t_35t_36t_37t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w32w33w34w35w36w37w38w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_32t_33t_34t_35t_36t_37t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w33w34w35w36w37w38w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_46t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w47w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_65t_66t_67t_68t_69t_70t_71t_72t_73t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w66w67w68w69w70w71w72w73w74w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_77> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w78> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_91t_92t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w92w93w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#t_95t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w96w97> .
+
+bgn:Person-535 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w103w104>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w129w130>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w167w168w169w170>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w172>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w18w19>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w204w205>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w273>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w278>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w87>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/535__IJzeren_man_(Beilen).naf#w90> .
+

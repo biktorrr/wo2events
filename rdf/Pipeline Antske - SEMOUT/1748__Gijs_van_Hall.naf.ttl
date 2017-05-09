@@ -1,0 +1,898 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_184t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_199t_200t_201t_202t_203t_205t_206t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_206t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_226t_227t_228t_229t_230t_231t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_254t_255t_256t_257>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_262t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_288>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_289t_290t_291t_292>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_290>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_291>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_293>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_302>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_307t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_309t_310t_311t_312t_313t_314t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_317t_318t_319>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_318>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_319>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_321>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_65t_66t_67t_68t_69t_70t_71t_72t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_9t_10t_11>,
+        bgn:Person-1748 ;
+    ore:proxyFor bgn:Person-1748 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w200> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w208> nif:lemma "afstandelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w222> nif:lemma ":" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w255> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w263> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w309> nif:lemma "ongeluk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w311> nif:lemma "verpersoonlijking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w318> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w59> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w68> nif:lemma "rol" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1748__Gijs_van_Hall#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1748__Gijs_van_Hall .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1748 ;
+    bgn:aggregatedPerson bgn:Person-1748 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1748__Gijs_van_Hall ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1748__Gijs_van_Hall ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w110> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_108> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_113t_114> ;
+    pb:AM-MNR bgn:Person-1748 ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w120> ;
+    pb:Arg1 bgn:Person-1748 .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w125> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_123> ;
+    pb:Arg2 bgn:Person-1748 .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w157> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w16w17w18> ;
+    xs:date "1977-05-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_172> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w173> ;
+    xs:gYear "1966" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w182> ;
+    pb:A1 bgn:Person-1748 ;
+    pb:AM-TMP bgn:Person-1748 .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w192> ;
+    pb:A1 bgn:Person-1748 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_188> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_184t_185t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_198> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w199> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_199t_200t_201t_202t_203t_205t_206t_207t_208> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w209> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_205> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_206t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w226> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_235> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_226t_227t_228t_229t_230t_231t_232t_233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_264> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w265> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_262t_263> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_254t_255t_256t_257> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_269> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w270> ;
+    pb:ArgM-TMP bgn:Person-1748 .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w276> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_272> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_278> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w279> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_280> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_286> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w287> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_283> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_293> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w294> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_288> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_289t_290t_291t_292> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_290> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_291> ;
+    pb:AM-TMP bgn:Person-1748 .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_298> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w299> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_297> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_301> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_302> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_306> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w307> ;
+    pb:Arg0 bgn:Person-1748 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_307t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_309t_310t_311t_312t_313t_314t_315> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_315> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w316> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_319> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w320> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_318> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_321> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w322> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_317t_318t_319> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w38> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w58> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_56> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_65t_66t_67t_68t_69t_70t_71t_72t_73> ;
+    pb:ArgM-PRD bgn:Person-1748 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_58t_59t_60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w77> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w95> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_95> ;
+    pb:A1 bgn:Person-1748 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_97> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w98> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w10w11w12> ;
+    xs:date "1904-04-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w1> nif:anchorOf "Gijsbert" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "8" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w107> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "616" ;
+    nif:endIndex "625" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w109> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "627" ;
+    nif:endIndex "630" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w109" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w10w11w12> nif:anchorOf "21 april 1904" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w110> nif:BeginIndex "631" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "635" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w114w115> nif:anchorOf "jaren zestig" ;
+    nif:beginIndex "650" ;
+    nif:endIndex "662" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w116> nif:anchorOf "niet" ;
+    nif:beginIndex "663" ;
+    nif:endIndex "667" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w116" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w120> nif:BeginIndex "679" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "683" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w123> nif:BeginIndex "691" ;
+    nif:anchorOf "gezagsproblemen" ;
+    nif:endIndex "706" ;
+    nif:lemma "gezag_probleem" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w124> nif:anchorOf "die" ;
+    nif:beginIndex "707" ;
+    nif:endIndex "710" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w124" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w125> nif:BeginIndex "711" ;
+    nif:anchorOf "ontstonden" ;
+    nif:endIndex "721" ;
+    nif:lemma "ontstaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w130> nif:anchorOf "Provo" ;
+    nif:beginIndex "744" ;
+    nif:endIndex "749" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w136> nif:BeginIndex "771" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "773" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w141w142w143w144> nif:anchorOf "Van Hall Ten Val" ;
+    nif:beginIndex "785" ;
+    nif:endIndex "801" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w147> nif:anchorOf "die" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "807" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w147" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w157> nif:BeginIndex "848" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "851" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w168> nif:anchorOf "Beatrix" ;
+    nif:beginIndex "905" ;
+    nif:endIndex "912" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w16w17w18> nif:anchorOf "22 mei 1977" ;
+    nif:beginIndex "61" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w173> nif:anchorOf "1966" ;
+    nif:beginIndex "941" ;
+    nif:endIndex "945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w177w178w179w180w181> nif:anchorOf "H. J. van der Molen" ;
+    nif:beginIndex "971" ;
+    nif:endIndex "989" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w182> nif:BeginIndex "990" ;
+    nif:anchorOf "ontslagen" ;
+    nif:endIndex "999" ;
+    nif:lemma "ontslaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w185w186w187> nif:anchorOf "1 juli 1967" ;
+    nif:beginIndex "1007" ;
+    nif:endIndex "1018" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w189> nif:anchorOf "ook" ;
+    nif:beginIndex "1024" ;
+    nif:endIndex "1027" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w189" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w190w191> nif:anchorOf "Van Hall" ;
+    nif:beginIndex "1028" ;
+    nif:endIndex "1036" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w192> nif:BeginIndex "1037" ;
+    nif:anchorOf "ontslagen" ;
+    nif:endIndex "1046" ;
+    nif:lemma "ontslaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w195> nif:anchorOf "Hall" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1057" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w196> nif:BeginIndex "1058" ;
+    nif:anchorOf "gold" ;
+    nif:endIndex "1062" ;
+    nif:lemma "gelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w199> nif:BeginIndex "1071" ;
+    nif:anchorOf "regent-oude-stijl" ;
+    nif:endIndex "1088" ;
+    nif:lemma "regent-oude_stijl" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w20> nif:BeginIndex "74" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "77" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w200w201w202w203w204w206w207w208w209> nif:anchorOf "met hart voor de stad die tamelijk afstandelijk optrad" ;
+    nif:beginIndex "1089" ;
+    nif:endIndex "1144" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w200" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w206> nif:anchorOf "die" ;
+    nif:beginIndex "1112" ;
+    nif:endIndex "1115" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w206" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w207w208> nif:anchorOf "tamelijk afstandelijk" ;
+    nif:beginIndex "1116" ;
+    nif:endIndex "1137" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w208" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w209> nif:BeginIndex "1138" ;
+    nif:anchorOf "optrad" ;
+    nif:endIndex "1144" ;
+    nif:lemma "op_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w213w214> nif:anchorOf "Harry Mulisch" ;
+    nif:beginIndex "1155" ;
+    nif:endIndex "1168" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w22> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "82" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w221> nif:anchorOf "Hall" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1210" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w224w225> nif:anchorOf "Van Hall" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w226> nif:BeginIndex "1222" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1225" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w227w228w229w230w231w232w233w234> nif:anchorOf "als ‘ de telg uit een oeroud regentengeslacht" ;
+    nif:beginIndex "1226" ;
+    nif:endIndex "1270" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w236> nif:anchorOf "misschien" ;
+    nif:beginIndex "1272" ;
+    nif:endIndex "1281" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w236" ;
+    nif:lemma "misschien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w255w256w257w258> nif:anchorOf "in de plaats daarvan" ;
+    nif:beginIndex "1380" ;
+    nif:endIndex "1400" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w255" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w263w264> nif:anchorOf "uit elkaar" ;
+    nif:beginIndex "1427" ;
+    nif:endIndex "1437" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w263" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w265> nif:BeginIndex "1438" ;
+    nif:anchorOf "slaan" ;
+    nif:endIndex "1443" ;
+    nif:lemma "slaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w270> nif:BeginIndex "1452" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1454" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w273> nif:anchorOf "toevallig" ;
+    nif:beginIndex "1464" ;
+    nif:endIndex "1473" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w273" ;
+    nif:lemma "toevallig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w274w275> nif:anchorOf "Van Hall" ;
+    nif:beginIndex "1474" ;
+    nif:endIndex "1482" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w276> nif:BeginIndex "1483" ;
+    nif:anchorOf "heet" ;
+    nif:endIndex "1487" ;
+    nif:lemma "heten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w279> nif:BeginIndex "1495" ;
+    nif:anchorOf "zeggen" ;
+    nif:endIndex "1501" ;
+    nif:lemma "zeggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w281> nif:BeginIndex "1503" ;
+    nif:anchorOf "regentenmentaliteit" ;
+    nif:endIndex "1522" ;
+    nif:lemma "regent_mentaliteit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w284> a bgn:pron_1s ;
+    nif:anchorOf "ik" ;
+    nif:beginIndex "1528" ;
+    nif:endIndex "1530" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w284" ;
+    nif:lemma "ik" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w285> nif:anchorOf "Pieterse" ;
+    nif:beginIndex "1531" ;
+    nif:endIndex "1539" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w287> nif:BeginIndex "1544" ;
+    nif:anchorOf "geheten" ;
+    nif:endIndex "1551" ;
+    nif:lemma "heten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w289> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1559" ;
+    nif:endIndex "1561" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w289" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w29> nif:anchorOf "PvdA-politicus" ;
+    nif:beginIndex "142" ;
+    nif:endIndex "156" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w290w291w292w293> nif:anchorOf "daar eenvoudig niet over" ;
+    nif:beginIndex "1562" ;
+    nif:endIndex "1586" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w291> nif:anchorOf "eenvoudig" ;
+    nif:beginIndex "1567" ;
+    nif:endIndex "1576" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w291" ;
+    nif:lemma "eenvoudig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w292> nif:anchorOf "niet" ;
+    nif:beginIndex "1577" ;
+    nif:endIndex "1581" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w292" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w294> nif:BeginIndex "1587" ;
+    nif:anchorOf "gedacht" ;
+    nif:endIndex "1594" ;
+    nif:lemma "denken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w298> nif:anchorOf "zo" ;
+    nif:beginIndex "1604" ;
+    nif:endIndex "1606" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w298" ;
+    nif:lemma "zo" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w299> nif:BeginIndex "1607" ;
+    nif:anchorOf "zei" ;
+    nif:endIndex "1610" ;
+    nif:lemma "zeggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w3> nif:anchorOf "Gijs" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w300w301> nif:anchorOf "Van Hall" ;
+    nif:beginIndex "1611" ;
+    nif:endIndex "1619" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w302> nif:anchorOf "zelf" ;
+    nif:beginIndex "1620" ;
+    nif:endIndex "1624" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w302" ;
+    nif:lemma "zelf" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w303> nif:anchorOf "later" ;
+    nif:beginIndex "1625" ;
+    nif:endIndex "1630" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w303" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w305w306> nif:anchorOf "Van Hall" ;
+    nif:beginIndex "1632" ;
+    nif:endIndex "1640" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w307> nif:BeginIndex "1641" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1644" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w308w309> nif:anchorOf "het ongeluk" ;
+    nif:beginIndex "1645" ;
+    nif:endIndex "1656" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w309" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w310w311w312w313w314w315w316> nif:anchorOf "de verpersoonlijking van de regent te worden" ;
+    nif:beginIndex "1657" ;
+    nif:endIndex "1701" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w311" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w316> nif:BeginIndex "1695" ;
+    nif:anchorOf "worden" ;
+    nif:endIndex "1701" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w318w319w320> nif:anchorOf "Toen hij vertrok" ;
+    nif:beginIndex "1703" ;
+    nif:endIndex "1719" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w318" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w319> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1708" ;
+    nif:endIndex "1711" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w319" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w320> nif:BeginIndex "1712" ;
+    nif:anchorOf "vertrok" ;
+    nif:endIndex "1719" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w322> nif:BeginIndex "1721" ;
+    nif:anchorOf "heette" ;
+    nif:endIndex "1727" ;
+    nif:lemma "heten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w33> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "175" ;
+    nif:endIndex "184" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w333> nif:anchorOf "Gijsbert" ;
+    nif:beginIndex "1774" ;
+    nif:endIndex "1782" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w335> nif:anchorOf "Hall" ;
+    nif:beginIndex "1787" ;
+    nif:endIndex "1791" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w37> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "197" ;
+    nif:endIndex "200" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w37" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w38> nif:BeginIndex "201" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "204" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w42> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w44w45> nif:anchorOf "Emma Nijhoff" ;
+    nif:beginIndex "250" ;
+    nif:endIndex "262" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w47> nif:anchorOf "Gijs" ;
+    nif:beginIndex "265" ;
+    nif:endIndex "269" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w49> nif:anchorOf "Hall" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "278" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w50> nif:BeginIndex "279" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "282" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w54> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "301" ;
+    nif:endIndex "312" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w57> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "330" ;
+    nif:endIndex "333" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w57" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w58> nif:BeginIndex "334" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "341" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w59w60w61> nif:anchorOf "in de oorlog" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w6> nif:anchorOf "Hall" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w65> nif:anchorOf "Walraven" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "378" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w66w67w68w69w70w71w72w73w74> nif:anchorOf "een belangrijke rol bij de financiering van het verzet" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "433" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w76> nif:anchorOf "Hierna" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "441" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w76" ;
+    nif:lemma "hierna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w77> nif:BeginIndex "442" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "446" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w8> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w81> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w90w91> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "527" ;
+    nif:endIndex "539" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w94> nif:anchorOf "1957" ;
+    nif:beginIndex "545" ;
+    nif:endIndex "549" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w95> nif:BeginIndex "550" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "556" ;
+    nif:lemma "op_volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w96> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "557" ;
+    nif:endIndex "560" ;
+    nif:head "bgnProc:1748__Gijs_van_Hall.naf#w96" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w97w98w99w100> nif:anchorOf "Arnold Jan d' Ailly" ;
+    nif:beginIndex "561" ;
+    nif:endIndex "579" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w98> nif:anchorOf "Jan" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "571" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_113t_114> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w114w115> ;
+    xs:date "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_184t_185t_186> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w185w186w187> ;
+    xs:date "1967-07-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_199t_200t_201t_202t_203t_205t_206t_207t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w200w201w202w203w204w206w207w208w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_206t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w207w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_226t_227t_228t_229t_230t_231t_232t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w227w228w229w230w231w232w233w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_235> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_254t_255t_256t_257> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w255w256w257w258> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_262t_263> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w263w264> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_272> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w273> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_283> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w284> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_288> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w289> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_289t_290t_291t_292> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w290w291w292w293> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_290> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w291> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_291> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w292> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_297> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w298> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_301> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w302> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_302> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w303> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_307t_308> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w308w309> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_309t_310t_311t_312t_313t_314t_315> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w310w311w312w313w314w315w316> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_317t_318t_319> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w318w319w320> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_318> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w319> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w37> ;
+    stevensFam:isPartnerIn bgn:Person-1748 .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_58t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w59w60w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_65t_66t_67t_68t_69t_70t_71t_72t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w66w67w68w69w70w71w72w73w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_93> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w94> ;
+    xs:gYear "1957" .
+
+<http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w96> .
+
+bgn:Person-1748 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w130>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w141w142w143w144>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w177w178w179w180w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w190w191>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w195>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w213w214>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w221>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w224w225>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w274w275>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w285>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w300w301>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w305w306>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w333>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w335>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w44w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w54>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w90w91>,
+        <http://data.biographynet.nl/rdf/170506221754/1748__Gijs_van_Hall.naf#w97w98w99w100> .
+

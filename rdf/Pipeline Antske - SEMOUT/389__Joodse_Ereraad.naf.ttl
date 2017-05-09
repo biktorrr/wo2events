@@ -1,0 +1,900 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_212t_213t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_220t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_234t_235t_236t_237t_238t_239t_240t_241t_242t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_24t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_299>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_312>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_317>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_318>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_319t_320t_321t_322t_323t_324t_325t_326>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_328>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_330>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_336>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_339>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_341>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_350>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_356>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_363>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_366t_367t_368t_369t_370t_371t_372t_373t_374t_375t_376t_377t_378t_379t_380t_381t_382t_383t_384>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_372t_373t_374t_375t_376t_377t_378t_379t_380t_381t_382t_383>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_376>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_384>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_387>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_394>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_395t_396t_397t_398t_399>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_407t_408>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_412>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_72t_73t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_87t_88t_89t_90t_91t_92t_93t_94t_95>,
+        bgn:Person-389 ;
+    ore:proxyFor bgn:Person-389 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w213> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w221> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w235> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w320> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w368> nif:lemma "wijze" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w374> nif:lemma "weigerachtigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w396> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w60> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w73> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w90> nif:lemma "sanctie_middel" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-389__Joodse_Ereraad#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-389__Joodse_Ereraad .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-389 ;
+    bgn:aggregatedPerson bgn:Person-389 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-389__Joodse_Ereraad ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-389__Joodse_Ereraad ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_10> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w11> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w156> ;
+    pb:A0 bgn:Person-389 ;
+    pb:A1 bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w185> ;
+    pb:Arg0 bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w188> ;
+    pb:Arg1 bgn:Person-389 ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_190> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w193> ;
+    pb:A1 bgn:Person-389 ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_193> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w206> ;
+    pb:ArgM-MNR bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w209> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_209>,
+        bgn:Person-389 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_210> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w218> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_279>,
+        bgn:Person-389 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_220t_221t_222t_223>,
+        bgn:Person-389 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_212t_213t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_304>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_310>,
+        bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w233> ;
+    pb:Arg0 bgn:Person-389 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_234t_235t_236t_237t_238t_239t_240t_241t_242t_243> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_242> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w243> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_238> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_239> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_248> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w249> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_282> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w283> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_279>,
+        bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_287> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w288> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_295> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w296> ;
+    pb:A1 bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_299> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w300> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_298> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_312> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w313> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_318> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w319> ;
+    pb:A0 bgn:Person-389 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_328> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_317> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_319t_320t_321t_322t_323t_324t_325t_326> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_330> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w331> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_328> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_336> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w337> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_34> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w35> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_16> ;
+    pb:A1 bgn:Person-389 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_22> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_24t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_27t_28>,
+        bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_341> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w342> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_339> ;
+    pb:Arg3 bgn:Person-389 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_314> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_304>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_310> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_350> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w351> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_356> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w357> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_363> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w364> ;
+    pb:AM-DIR bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_376> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w377> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_384> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w385> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_372t_373t_374t_375t_376t_377t_378t_379t_380t_381t_382t_383> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_387> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w388> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_366t_367t_368t_369t_370t_371t_372t_373t_374t_375t_376t_377t_378t_379t_380t_381t_382t_383t_384> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_394> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w395> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_395t_396t_397t_398t_399> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_407t_408> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w408w409> ;
+    xs:gYearMonth "1943-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_412> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w413> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_41t_42> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w42w43> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_44t_45t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w45w46w47> ;
+    xs:gYearMonth "1946-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w48> ;
+    pb:Arg0 bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w59> ;
+    pb:Arg0 bgn:Person-389 ;
+    pb:Arg1 bgn:Person-389 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_59t_60> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w65> ;
+    pb:Arg0 bgn:Person-389 ;
+    pb:Arg1 bgn:Person-389 .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w77> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_72t_73t_74> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w87> ;
+    pb:Arg0 bgn:Person-389 ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_87t_88t_89t_90t_91t_92t_93t_94t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w102> nif:anchorOf "Ereraad" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "612" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w103> nif:BeginIndex "613" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "618" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w107> nif:anchorOf "Bosboom" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "635" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w11> nif:BeginIndex "57" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "60" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w111> nif:anchorOf "Voet" ;
+    nif:beginIndex "652" ;
+    nif:endIndex "656" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w115> nif:anchorOf "Heijmans" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "681" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w128> nif:anchorOf "A.E" ;
+    nif:beginIndex "771" ;
+    nif:endIndex "774" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w130> nif:anchorOf "Marcus" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "782" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w135> nif:anchorOf "Amerongen" ;
+    nif:beginIndex "809" ;
+    nif:endIndex "818" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w138w139w140w141w142> nif:anchorOf "C. van Rhijn-Leydesdorff drs. I." ;
+    nif:beginIndex "828" ;
+    nif:endIndex "861" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w144> nif:anchorOf "S." ;
+    nif:beginIndex "875" ;
+    nif:endIndex "877" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w147w148> nif:anchorOf "Weisz S.A" ;
+    nif:beginIndex "892" ;
+    nif:endIndex "902" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w150w151> nif:anchorOf "Hertzberger S.M" ;
+    nif:beginIndex "904" ;
+    nif:endIndex "920" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w153w154w155> nif:anchorOf "Vreedenburg De Ereraad" ;
+    nif:beginIndex "922" ;
+    nif:endIndex "945" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w156> nif:BeginIndex "946" ;
+    nif:anchorOf "behandelde" ;
+    nif:endIndex "956" ;
+    nif:lemma "behandelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w166w167> nif:anchorOf "Abraham Asscher" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1014" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w17> nif:anchorOf "dat" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "88" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w17" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w171w172> nif:anchorOf "David Cohen" ;
+    nif:beginIndex "1028" ;
+    nif:endIndex "1039" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w179w180> nif:anchorOf "Joodse Raad" ;
+    nif:beginIndex "1068" ;
+    nif:endIndex "1079" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w185> nif:BeginIndex "1105" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1108" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w187> nif:anchorOf "Asscher" ;
+    nif:beginIndex "1110" ;
+    nif:endIndex "1117" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w188> nif:BeginIndex "1118" ;
+    nif:anchorOf "erkende" ;
+    nif:endIndex "1125" ;
+    nif:lemma "erkennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w190> nif:anchorOf "Ereraad" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1136" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w191> nif:anchorOf "niet" ;
+    nif:beginIndex "1137" ;
+    nif:endIndex "1141" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w191" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w193> nif:BeginIndex "1145" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "1149" ;
+    nif:lemma "in_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w194> nif:anchorOf "niet" ;
+    nif:beginIndex "1150" ;
+    nif:endIndex "1154" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w194" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w204> nif:anchorOf "Ereraad" ;
+    nif:beginIndex "1203" ;
+    nif:endIndex "1210" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w206> nif:BeginIndex "1214" ;
+    nif:anchorOf "verschijnen" ;
+    nif:endIndex "1225" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w208> nif:anchorOf "Cohen" ;
+    nif:beginIndex "1227" ;
+    nif:endIndex "1232" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w209> nif:BeginIndex "1233" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "1237" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w20w21> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "95" ;
+    nif:endIndex "114" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w210> nif:anchorOf "dat" ;
+    nif:beginIndex "1238" ;
+    nif:endIndex "1241" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w210" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w211> nif:anchorOf "wel" ;
+    nif:beginIndex "1242" ;
+    nif:endIndex "1245" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w211" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w213w214w215w216w217> nif:anchorOf "Na afloop van de zittingen" ;
+    nif:beginIndex "1247" ;
+    nif:endIndex "1273" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w213" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w218> nif:BeginIndex "1274" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1278" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w220> nif:anchorOf "Ereraad" ;
+    nif:beginIndex "1282" ;
+    nif:endIndex "1289" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w221w222w223w224> nif:anchorOf "tot het volgende oordeel" ;
+    nif:beginIndex "1290" ;
+    nif:endIndex "1314" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w23> nif:anchorOf "omstreeks" ;
+    nif:beginIndex "116" ;
+    nif:endIndex "125" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w23" ;
+    nif:lemma "omstreeks" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w231w232> nif:anchorOf "Joodse Raad" ;
+    nif:beginIndex "1343" ;
+    nif:endIndex "1354" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w233> nif:BeginIndex "1355" ;
+    nif:anchorOf "gefaald" ;
+    nif:endIndex "1362" ;
+    nif:lemma "falen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w235w236w237w238w239w240w241w242w243w244> nif:anchorOf "in een wereld die zelf in gebreke is gebleven" ;
+    nif:beginIndex "1370" ;
+    nif:endIndex "1416" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w235" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w239> nif:anchorOf "die" ;
+    nif:beginIndex "1385" ;
+    nif:endIndex "1388" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w239" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w240> nif:anchorOf "zelf" ;
+    nif:beginIndex "1389" ;
+    nif:endIndex "1393" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w240" ;
+    nif:lemma "zelf" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w243> nif:BeginIndex "1405" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1407" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w249> nif:BeginIndex "1436" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1438" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w259> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "1481" ;
+    nif:endIndex "1492" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w25w26> nif:anchorOf "begin 1946" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w260> nif:anchorOf "Jodenraad" ;
+    nif:beginIndex "1493" ;
+    nif:endIndex "1502" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w273> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1577" ;
+    nif:endIndex "1585" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w280> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1616" ;
+    nif:endIndex "1624" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w283> nif:BeginIndex "1635" ;
+    nif:anchorOf "aanvaard" ;
+    nif:endIndex "1643" ;
+    nif:lemma "aanvaarden" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w288> nif:BeginIndex "1663" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1665" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w28w29> nif:anchorOf "begin 1950" ;
+    nif:beginIndex "145" ;
+    nif:endIndex "155" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w292w293> nif:anchorOf "Joodse Weekblad" ;
+    nif:beginIndex "1679" ;
+    nif:endIndex "1694" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w296> nif:BeginIndex "1706" ;
+    nif:anchorOf "uitgeven" ;
+    nif:endIndex "1714" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w299> nif:anchorOf "eenmaal" ;
+    nif:beginIndex "1721" ;
+    nif:endIndex "1728" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w299" ;
+    nif:lemma "eenmaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w2w3> nif:anchorOf "Joodse Ereraad" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w300> nif:BeginIndex "1729" ;
+    nif:anchorOf "bleek" ;
+    nif:endIndex "1734" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w305> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1747" ;
+    nif:endIndex "1755" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w311> nif:anchorOf "Joden" ;
+    nif:beginIndex "1776" ;
+    nif:endIndex "1781" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w313> nif:BeginIndex "1788" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1792" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w315> nif:anchorOf "waarbij" ;
+    nif:beginIndex "1794" ;
+    nif:endIndex "1801" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w315" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w317> nif:anchorOf "Ereraad" ;
+    nif:beginIndex "1805" ;
+    nif:endIndex "1812" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w318> nif:anchorOf "tevens" ;
+    nif:beginIndex "1813" ;
+    nif:endIndex "1819" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w318" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w319> nif:BeginIndex "1820" ;
+    nif:anchorOf "herinnert" ;
+    nif:endIndex "1829" ;
+    nif:lemma "herinneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w320w321w322w323w324w325w326w327> nif:anchorOf "aan zijn afkeurend oordeel over een aantal berichten" ;
+    nif:beginIndex "1830" ;
+    nif:endIndex "1882" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w320" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w329> nif:anchorOf "die" ;
+    nif:beginIndex "1884" ;
+    nif:endIndex "1887" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w329" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w33> nif:anchorOf "Joodse" ;
+    nif:beginIndex "172" ;
+    nif:endIndex "178" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w331> nif:BeginIndex "1897" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1901" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w337> nif:BeginIndex "1929" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1931" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w340> nif:anchorOf "medewerking" ;
+    nif:beginIndex "1941" ;
+    nif:endIndex "1952" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w340" ;
+    nif:lemma "medewerking" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w342> nif:BeginIndex "1956" ;
+    nif:anchorOf "verlenen" ;
+    nif:endIndex "1964" ;
+    nif:lemma "verlenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w35> nif:BeginIndex "185" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "195" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w351> nif:BeginIndex "2015" ;
+    nif:anchorOf "uitgeven" ;
+    nif:endIndex "2023" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w354> nif:anchorOf "Jodenster" ;
+    nif:beginIndex "2031" ;
+    nif:endIndex "2040" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w357> nif:BeginIndex "2048" ;
+    nif:anchorOf "verzenden" ;
+    nif:endIndex "2057" ;
+    nif:lemma "verzenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w362> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "2078" ;
+    nif:endIndex "2088" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w364> nif:BeginIndex "2092" ;
+    nif:anchorOf "vertrekken" ;
+    nif:endIndex "2102" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w367w368w369w370w371w372w373w374w375w376w377w378w379w380w381w382w383w384w385> nif:anchorOf "de wijze waarop de voorzitters de weigerachtigen tot het geven van de bijdrage tot de eerste heffing aanschreven" ;
+    nif:beginIndex "2109" ;
+    nif:endIndex "2222" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w368" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w373w374w375w376w377w378w379w380w381w382w383w384> nif:anchorOf "de weigerachtigen tot het geven van de bijdrage tot de eerste heffing" ;
+    nif:beginIndex "2141" ;
+    nif:endIndex "2210" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w374" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w377> nif:BeginIndex "2167" ;
+    nif:anchorOf "geven" ;
+    nif:endIndex "2172" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w385> nif:BeginIndex "2211" ;
+    nif:anchorOf "aanschreven" ;
+    nif:endIndex "2222" ;
+    nif:lemma "aan_schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w388> nif:BeginIndex "2233" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "2235" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w395> nif:BeginIndex "2266" ;
+    nif:anchorOf "verleend" ;
+    nif:endIndex "2274" ;
+    nif:lemma "verleend" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w396w397w398w399w400> nif:anchorOf "bij de selectie voor deportatie" ;
+    nif:beginIndex "2275" ;
+    nif:endIndex "2306" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w396" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w39w40> nif:anchorOf "Joodse Ereraad" ;
+    nif:beginIndex "207" ;
+    nif:endIndex "221" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w408w409> nif:anchorOf "mei 1943" ;
+    nif:beginIndex "2343" ;
+    nif:endIndex "2351" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w413> nif:BeginIndex "2367" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "2369" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w42w43> nif:anchorOf "eind januari" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "239" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w45w46w47> nif:anchorOf "begin februari 1946" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "260" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w48> nif:BeginIndex "261" ;
+    nif:anchorOf "opgericht" ;
+    nif:endIndex "270" ;
+    nif:lemma "opgericht" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w51w52w53w54w55> nif:anchorOf "Contact-Commissie van de Joodse Coördinatie-Commissies" ;
+    nif:beginIndex "279" ;
+    nif:endIndex "333" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w58> nif:anchorOf "Ereraad" ;
+    nif:beginIndex "338" ;
+    nif:endIndex "345" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w59> nif:BeginIndex "346" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "349" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w60w61> nif:anchorOf "tot doel" ;
+    nif:beginIndex "350" ;
+    nif:endIndex "358" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w65> nif:BeginIndex "376" ;
+    nif:anchorOf "doen" ;
+    nif:endIndex "380" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w68> nif:anchorOf "Jood" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "397" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w73w74w75> nif:anchorOf "tijdens de bezetting" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "442" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w77> nif:BeginIndex "457" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "460" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w82> nif:anchorOf "Joodse" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "492" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w86> nif:anchorOf "Ereraad" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "517" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w87> nif:BeginIndex "518" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "521" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w88w89w90w91w92w93w94w95w96> nif:anchorOf "geen andere sanctiemiddelen dan de publicatie van zijn uitspraken" ;
+    nif:beginIndex "522" ;
+    nif:endIndex "587" ;
+    nif:head "bgnProc:389__Joodse_Ereraad.naf#w90" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w8w9> nif:anchorOf "Joodsche Eereraad" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "55" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_16> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_212t_213t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w213w214w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_22> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_220t_221t_222t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w221w222w223w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_234t_235t_236t_237t_238t_239t_240t_241t_242t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w235w236w237w238w239w240w241w242w243w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_238> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w239> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_239> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w240> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_24t_25> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w25w26> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_27t_28> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w28w29> ;
+    xs:gYear "1950" .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_298> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w299> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_317> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w318> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_319t_320t_321t_322t_323t_324t_325t_326> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w320w321w322w323w324w325w326w327> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_339> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w340> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_366t_367t_368t_369t_370t_371t_372t_373t_374t_375t_376t_377t_378t_379t_380t_381t_382t_383t_384> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w367w368w369w370w371w372w373w374w375w376w377w378w379w380w381w382w383w384w385> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_372t_373t_374t_375t_376t_377t_378t_379t_380t_381t_382t_383> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w373w374w375w376w377w378w379w380w381w382w383w384> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_395t_396t_397t_398t_399> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w396w397w398w399w400> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w60w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_72t_73t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w73w74w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_87t_88t_89t_90t_91t_92t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w88w89w90w91w92w93w94w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_314> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w315> .
+
+<http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#t_328> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w329> .
+
+bgn:Person-389 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w128>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w130>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w135>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w138w139w140w141w142>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w147w148>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w150w151>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w153w154w155>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w166w167>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w171w172>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w208>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w20w21>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w220>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w231w232>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w259>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w260>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w273>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w280>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w292w293>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w305>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w311>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w317>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w354>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w362>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w51w52w53w54w55>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w58>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w86>,
+        <http://data.biographynet.nl/rdf/170506221754/389__Joodse_Ereraad.naf#w8w9> .
+

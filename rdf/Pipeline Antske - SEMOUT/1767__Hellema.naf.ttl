@@ -1,0 +1,815 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_133t_134t_135t_136t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_137t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_143t_144t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_147t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_167t_168t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_204t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_219t_220t_221t_222t_223t_224t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_21t_22t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_235t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245t_246t_247t_248t_249t_250t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_243t_244t_245t_246t_247t_248t_249t_250t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_245t_246t_247t_248t_249t_250t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_43t_44t_45t_46t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_87t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_87t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_96>,
+        bgn:Person-1767 ;
+    ore:proxyFor bgn:Person-1767 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w134> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w137> nif:lemma "pen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w138> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w144> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w148> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w156> nif:lemma "(" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w168> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w221> nif:lemma "woede" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w244> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w246> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w44> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w70> nif:lemma "'" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w88> nif:lemma "tijdens" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1767__Hellema#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1767__Hellema .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1767 ;
+    bgn:aggregatedPerson bgn:Person-1767 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1767__Hellema ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1767__Hellema ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w111> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_107t_108t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w129> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_133t_134t_135t_136t_137t_138t_139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w140> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_134> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_135t_136> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_137t_138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_142> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w143> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_141> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_143t_144t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_147t_148t_149> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_156> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w157> ;
+    xs:gYear "1982" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w16w17w18> ;
+    xs:date "1921-03-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_165> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w166> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_167t_168t_169t_170>,
+        bgn:Person-1767 ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_166> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_170> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w171> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_174> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w175> ;
+    xs:gYear "1984" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_180> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w181> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_184> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w185> ;
+    xs:gYear "1987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_194> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w195> ;
+    xs:gYear "1987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_198> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w199> ;
+    xs:gYear "1989" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_204t_205> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w205w206> ;
+    xs:date "2017-05-01TEV" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_207> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w208> ;
+    xs:gYear "1992" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_213> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w214> ;
+    xs:gYear "1996" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_217> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w218> ;
+    xs:gYear "1998" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_21t_22t_23> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w22w23w24> ;
+    xs:date "2005-03-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_225> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w226> ;
+    xs:gYear "2003" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w231> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_211>,
+        bgn:Person-1767 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_219t_220t_221t_222t_223t_224t_225> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_228> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_235t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245t_246t_247t_248t_249t_250t_251> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_242> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w243> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_243t_244t_245t_246t_247t_248t_249t_250t_251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w245> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_245t_246t_247t_248t_249t_250t_251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w53> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_37> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_50t_51> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_43t_44t_45t_46t_47t_48> ;
+    pb:ArgM-TMP bgn:Person-1767 .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w56> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_54> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w67> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_68t_69t_70> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_65>,
+        bgn:Person-1767 .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w79> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_77> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w83> ;
+    pb:Arg1 bgn:Person-1767 .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w87> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_85> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_87t_88t_89t_90t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w92> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_85> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_87t_88t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w95> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_95> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_96> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_104>,
+        bgn:Person-1767 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w1> nif:anchorOf "Hellema" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "7" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w103> nif:anchorOf "Amerikanen" ;
+    nif:beginIndex "572" ;
+    nif:endIndex "582" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w105> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "586" ;
+    nif:endIndex "595" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w108w109w110> nif:anchorOf "de jaren zestig" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "616" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w11> nif:anchorOf "Praag" ;
+    nif:beginIndex "53" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w111> nif:BeginIndex "617" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "620" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w119> nif:anchorOf "Twentse" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "674" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w122> nif:anchorOf "Hellema" ;
+    nif:beginIndex "693" ;
+    nif:endIndex "700" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w129> nif:BeginIndex "730" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "733" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w130> nif:anchorOf "al" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "736" ;
+    nif:head "bgnProc:1767__Hellema.naf#w130" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w134w135w136w137w138w139w140> nif:anchorOf "toen hij de pen ter hand nam" ;
+    nif:beginIndex "752" ;
+    nif:endIndex "780" ;
+    nif:head "bgnProc:1767__Hellema.naf#w134" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w135> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "757" ;
+    nif:endIndex "760" ;
+    nif:head "bgnProc:1767__Hellema.naf#w135" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w136w137> nif:anchorOf "de pen" ;
+    nif:beginIndex "761" ;
+    nif:endIndex "767" ;
+    nif:head "bgnProc:1767__Hellema.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w138w139> nif:anchorOf "ter hand" ;
+    nif:beginIndex "768" ;
+    nif:endIndex "776" ;
+    nif:head "bgnProc:1767__Hellema.naf#w138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w14> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "61" ;
+    nif:endIndex "70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w140> nif:BeginIndex "777" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "780" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w142> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "782" ;
+    nif:endIndex "785" ;
+    nif:head "bgnProc:1767__Hellema.naf#w142" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w143> nif:BeginIndex "786" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "794" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w144w145w146w147> nif:anchorOf "na een lang ziekbed" ;
+    nif:beginIndex "795" ;
+    nif:endIndex "814" ;
+    nif:head "bgnProc:1767__Hellema.naf#w144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w148w149w150> nif:anchorOf "op 84-jarige leeftijd" ;
+    nif:beginIndex "815" ;
+    nif:endIndex "836" ;
+    nif:head "bgnProc:1767__Hellema.naf#w148" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w155> nif:BeginIndex "857" ;
+    nif:anchorOf "verzoeningsrite" ;
+    nif:endIndex "872" ;
+    nif:lemma "verzoening_rite" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w157> nif:anchorOf "1982" ;
+    nif:beginIndex "874" ;
+    nif:endIndex "878" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w166> nif:BeginIndex "921" ;
+    nif:anchorOf "dienden" ;
+    nif:endIndex "928" ;
+    nif:lemma "dienen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w167> nif:anchorOf "niet" ;
+    nif:beginIndex "929" ;
+    nif:endIndex "933" ;
+    nif:head "bgnProc:1767__Hellema.naf#w167" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w168w169w170w171> nif:anchorOf "ter zake ( 1983" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "948" ;
+    nif:head "bgnProc:1767__Hellema.naf#w168" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w16w17w18> nif:anchorOf "18 maart 1921" ;
+    nif:beginIndex "72" ;
+    nif:endIndex "85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w171> nif:anchorOf "1983" ;
+    nif:beginIndex "944" ;
+    nif:endIndex "948" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w173> nif:anchorOf "Joab" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "955" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w175> nif:anchorOf "1984" ;
+    nif:beginIndex "957" ;
+    nif:endIndex "961" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w179> nif:BeginIndex "975" ;
+    nif:anchorOf "tamboer" ;
+    nif:endIndex "982" ;
+    nif:lemma "tam_boer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w181> nif:anchorOf "1985" ;
+    nif:beginIndex "984" ;
+    nif:endIndex "988" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w183> nif:anchorOf "Kimberley" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "1000" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w185> nif:anchorOf "1987" ;
+    nif:beginIndex "1002" ;
+    nif:endIndex "1006" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w187> nif:anchorOf "Twente" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1015" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w195> nif:anchorOf "1987" ;
+    nif:beginIndex "1048" ;
+    nif:endIndex "1052" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w199> nif:anchorOf "1989" ;
+    nif:beginIndex "1066" ;
+    nif:endIndex "1070" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w20> nif:anchorOf "Bilthoven" ;
+    nif:beginIndex "88" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w205w206> nif:anchorOf "vorige avond" ;
+    nif:beginIndex "1088" ;
+    nif:endIndex "1100" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w208> nif:anchorOf "1992" ;
+    nif:beginIndex "1102" ;
+    nif:endIndex "1106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w210> nif:anchorOf "Slotnotering" ;
+    nif:beginIndex "1109" ;
+    nif:endIndex "1121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w212> nif:anchorOf "Barnet" ;
+    nif:beginIndex "1126" ;
+    nif:endIndex "1132" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w214> nif:anchorOf "1996" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w216> nif:anchorOf "Klèm" ;
+    nif:beginIndex "1141" ;
+    nif:endIndex "1145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w218> nif:anchorOf "1998" ;
+    nif:beginIndex "1147" ;
+    nif:endIndex "1151" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w220w221w222w223w224w225w226> nif:anchorOf "De woede van de wind ( 2003" ;
+    nif:beginIndex "1154" ;
+    nif:endIndex "1180" ;
+    nif:head "bgnProc:1767__Hellema.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w226> nif:anchorOf "2003" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1180" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w229> nif:anchorOf "van" ;
+    nif:beginIndex "1188" ;
+    nif:endIndex "1191" ;
+    nif:head "bgnProc:1767__Hellema.naf#w229" ;
+    nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w22w23w24> nif:anchorOf "19 maart 2005" ;
+    nif:beginIndex "99" ;
+    nif:endIndex "112" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w231> nif:BeginIndex "1198" ;
+    nif:anchorOf "zeggen" ;
+    nif:endIndex "1204" ;
+    nif:lemma "zeggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w233> nif:anchorOf "2005" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1210" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w236w237w238w239w240w241w242w243w244w245w246w247w248w249w250w251w252> nif:anchorOf "postuum bloemlezing van zijn werk uitgebracht ter herdenking van het zestigjarige einde van de oorlog" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1316" ;
+    nif:head "bgnProc:1767__Hellema.naf#w156" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w243> nif:BeginIndex "1249" ;
+    nif:anchorOf "uitgebracht" ;
+    nif:endIndex "1260" ;
+    nif:lemma "uitgebracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w244w245w246w247w248w249w250w251w252> nif:anchorOf "ter herdenking van het zestigjarige einde van de oorlog" ;
+    nif:beginIndex "1261" ;
+    nif:endIndex "1316" ;
+    nif:head "bgnProc:1767__Hellema.naf#w244" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w245> nif:BeginIndex "1265" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "1275" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w246w247w248w249w250w251w252> nif:anchorOf "van het zestigjarige einde van de oorlog" ;
+    nif:beginIndex "1276" ;
+    nif:endIndex "1316" ;
+    nif:head "bgnProc:1767__Hellema.naf#w246" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w26> nif:BeginIndex "114" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "117" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w28> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "122" ;
+    nif:endIndex "133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w34w35> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "193" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w38> nif:anchorOf "Praag" ;
+    nif:beginIndex "200" ;
+    nif:endIndex "205" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w42w43> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "222" ;
+    nif:endIndex "241" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w44w45w46w47w48w49> nif:anchorOf "vanwege zijn activiteiten voor het verzet" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "283" ;
+    nif:head "bgnProc:1767__Hellema.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w51w52> nif:anchorOf "april 1943" ;
+    nif:beginIndex "287" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w53> nif:BeginIndex "298" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "306" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w55> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "308" ;
+    nif:endIndex "311" ;
+    nif:head "bgnProc:1767__Hellema.naf#w55" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w56> nif:BeginIndex "312" ;
+    nif:anchorOf "overleefde" ;
+    nif:endIndex "322" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w58> nif:BeginIndex "327" ;
+    nif:anchorOf "concentratiekampen" ;
+    nif:endIndex "345" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w5w6> nif:anchorOf "Alexander Bernard" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w62> nif:anchorOf "Buchenwald" ;
+    nif:beginIndex "358" ;
+    nif:endIndex "368" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w66> nif:anchorOf "1945" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "378" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w67> nif:BeginIndex "379" ;
+    nif:anchorOf "moest" ;
+    nif:endIndex "384" ;
+    nif:lemma "moeten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w68> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "385" ;
+    nif:endIndex "388" ;
+    nif:head "bgnProc:1767__Hellema.naf#w68" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w69w70w71> nif:anchorOf "op ' dodenmars" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "402" ;
+    nif:head "bgnProc:1767__Hellema.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w77> nif:anchorOf "waar" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "431" ;
+    nif:head "bgnProc:1767__Hellema.naf#w77" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w78> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "435" ;
+    nif:head "bgnProc:1767__Hellema.naf#w78" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w79> nif:BeginIndex "436" ;
+    nif:anchorOf "verbleef" ;
+    nif:endIndex "444" ;
+    nif:lemma "verblijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w8> nif:anchorOf "Lex" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w81> nif:anchorOf "Flossenbürg" ;
+    nif:beginIndex "446" ;
+    nif:endIndex "457" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w83> nif:BeginIndex "459" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "462" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w86> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "476" ;
+    nif:head "bgnProc:1767__Hellema.naf#w86" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w87> nif:BeginIndex "477" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "481" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w88w89w90> nif:anchorOf "tijdens deze tocht" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "500" ;
+    nif:head "bgnProc:1767__Hellema.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w88w89w90w91w92> nif:anchorOf "tijdens deze tocht te ontsnappen" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "514" ;
+    nif:head "bgnProc:1767__Hellema.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w92> nif:BeginIndex "504" ;
+    nif:anchorOf "ontsnappen" ;
+    nif:endIndex "514" ;
+    nif:lemma "ontsnappen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w94> nif:anchorOf "Hierna" ;
+    nif:beginIndex "516" ;
+    nif:endIndex "522" ;
+    nif:head "bgnProc:1767__Hellema.naf#w94" ;
+    nif:lemma "hierna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w95> nif:BeginIndex "523" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "526" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w96> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "527" ;
+    nif:endIndex "530" ;
+    nif:head "bgnProc:1767__Hellema.naf#w96" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w97> nif:anchorOf "werkzaam" ;
+    nif:beginIndex "531" ;
+    nif:endIndex "539" ;
+    nif:head "bgnProc:1767__Hellema.naf#w97" ;
+    nif:lemma "werkzaam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_107t_108t_109> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w108w109w110> ;
+    xs:date "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_133t_134t_135t_136t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w134w135w136w137w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_135t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w136w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_137t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w138w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_143t_144t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w144w145w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_147t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w148w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_167t_168t_169t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w168w169w170w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_219t_220t_221t_222t_223t_224t_225> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w220w221w222w223w224w225w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_228> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_232> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w233> ;
+    xs:gYear "2005" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_235t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245t_246t_247t_248t_249t_250t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w236w237w238w239w240w241w242w243w244w245w246w247w248w249w250w251w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_243t_244t_245t_246t_247t_248t_249t_250t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w244w245w246w247w248w249w250w251w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_245t_246t_247t_248t_249t_250t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w246w247w248w249w250w251w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_43t_44t_45t_46t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w44w45w46w47w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_50t_51> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w51w52> ;
+    xs:gYearMonth "1943-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_65> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w66> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_68t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w69w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_87t_88t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w88w89w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_87t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w88w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w86> .
+
+bgn:Person-1767 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w173>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w183>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w210>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w212>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w216>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w34w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w42w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1767__Hellema.naf#w81> .
+

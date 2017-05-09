@@ -1,0 +1,583 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_100t_101t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_126t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_129t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_147t_148t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_184t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_53t_54t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_95t_96t_97>,
+        bgn:Person-1176 ;
+    ore:proxyFor bgn:Person-1176 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w101> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w130> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w149> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w154> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w186> nif:lemma "straat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w54> nif:lemma "naast" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1176__Harm_Heijes#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1176__Harm_Heijes .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1176 ;
+    bgn:aggregatedPerson bgn:Person-1176 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1176__Harm_Heijes ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1176__Harm_Heijes ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w104> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_92> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_100t_101t_102> ;
+    pb:ArgM-LOC bgn:Person-1176 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w106> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_92> ;
+    pb:ArgM-LOC bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w112> ;
+    pb:Arg0 bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w117> ;
+    pb:Arg0 bgn:Person-1176 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_123>,
+        bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w126> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_126t_127>,
+        bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_127> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w13w14w15> ;
+    xs:date "1944-08-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_134> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w135> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_131> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_129t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w146> ;
+    pb:ArgM-LOC bgn:Person-1176 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w152> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_152> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_153t_154> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_147t_148t_149t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w157> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w167> ;
+    pb:Arg1 bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w184> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_184t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w49> ;
+    pb:Arg1 bgn:Person-1176 ;
+    pb:ArgM-LOC bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w59> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_59> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_53t_54t_55t_56t_57> ;
+    pb:ArgM-TMP bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w69> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w7w8w9> ;
+    xs:date "1919-12-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w82> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_80> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_87>,
+        bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w94> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_92>,
+        bgn:Person-1176 .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w100> nif:anchorOf "Groningen" ;
+    nif:beginIndex "542" ;
+    nif:endIndex "551" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w101w102w103> nif:anchorOf "in de val" ;
+    nif:beginIndex "552" ;
+    nif:endIndex "561" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w104> nif:BeginIndex "562" ;
+    nif:anchorOf "gelokt" ;
+    nif:endIndex "568" ;
+    nif:lemma "lokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w106> nif:BeginIndex "572" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "584" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w11> nif:anchorOf "Vught" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w111> nif:anchorOf "SD" ;
+    nif:beginIndex "600" ;
+    nif:endIndex "602" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w112> nif:BeginIndex "603" ;
+    nif:anchorOf "bezette" ;
+    nif:endIndex "610" ;
+    nif:lemma "bezet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w115> nif:anchorOf "Heijes" ;
+    nif:beginIndex "618" ;
+    nif:endIndex "624" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w117> nif:BeginIndex "630" ;
+    nif:anchorOf "gevangengezet" ;
+    nif:endIndex "643" ;
+    nif:lemma "gevangen_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w120> nif:anchorOf "Scholtenhuis" ;
+    nif:beginIndex "651" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w122> nif:anchorOf "Groningen" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "676" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w124> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "678" ;
+    nif:endIndex "688" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w126> nif:BeginIndex "692" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "697" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w127w128> nif:anchorOf "z.g. bunkerstraf" ;
+    nif:beginIndex "698" ;
+    nif:endIndex "714" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w128> nif:BeginIndex "703" ;
+    nif:anchorOf "bunkerstraf" ;
+    nif:endIndex "714" ;
+    nif:lemma "bunker_straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w130w131> nif:anchorOf "Na vele" ;
+    nif:beginIndex "716" ;
+    nif:endIndex "723" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w130" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w132> nif:anchorOf "martelingen" ;
+    nif:beginIndex "724" ;
+    nif:endIndex "735" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w132" ;
+    nif:lemma "marteling" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w135> nif:BeginIndex "746" ;
+    nif:anchorOf "ondergaan" ;
+    nif:endIndex "755" ;
+    nif:lemma "ondergaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w13w14w15> nif:anchorOf "22 augustus 1944" ;
+    nif:beginIndex "52" ;
+    nif:endIndex "68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w140w141w142> nif:anchorOf "22 augustus 1944" ;
+    nif:beginIndex "769" ;
+    nif:endIndex "785" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w144w145> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "789" ;
+    nif:endIndex "799" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w146> nif:BeginIndex "800" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "812" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w148w149w150w151> nif:anchorOf "Kort voor zijn terechtstelling" ;
+    nif:beginIndex "814" ;
+    nif:endIndex "844" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w152> nif:BeginIndex "845" ;
+    nif:anchorOf "getuigde" ;
+    nif:endIndex "853" ;
+    nif:lemma "getuigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w153> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "857" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w153" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w154w155> nif:anchorOf "van geloof" ;
+    nif:beginIndex "858" ;
+    nif:endIndex "868" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w154" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w157> nif:BeginIndex "872" ;
+    nif:anchorOf "verklaarde" ;
+    nif:endIndex "882" ;
+    nif:lemma "verklaren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w162> nif:BeginIndex "907" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "910" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w166> nif:anchorOf "Heijes" ;
+    nif:beginIndex "924" ;
+    nif:endIndex "930" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w167> nif:BeginIndex "931" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "933" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w17> nif:BeginIndex "70" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "73" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w174w175w176> nif:anchorOf "Nederlandse Hervormde Kerk" ;
+    nif:beginIndex "965" ;
+    nif:endIndex "991" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w178w179> nif:anchorOf "Nieuwe Pekela" ;
+    nif:beginIndex "995" ;
+    nif:endIndex "1008" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w184> nif:BeginIndex "1025" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1027" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w185w186> nif:anchorOf "een straat" ;
+    nif:beginIndex "1028" ;
+    nif:endIndex "1038" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w186" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w1w2> nif:anchorOf "Heijes" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w27> nif:anchorOf "Heijes" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w28> nif:BeginIndex "147" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "150" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w34w35> nif:anchorOf "Boelo Heijes" ;
+    nif:beginIndex "177" ;
+    nif:endIndex "189" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w37w38> nif:anchorOf "Renske Wester" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w41> nif:BeginIndex "212" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "215" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w44> nif:anchorOf "Heijes" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w45> nif:BeginIndex "233" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "236" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w48> nif:anchorOf "Heijes" ;
+    nif:beginIndex "252" ;
+    nif:endIndex "258" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w49> nif:BeginIndex "259" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "265" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w4w5> nif:anchorOf "Oude Pekela" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w51w52> nif:anchorOf "Nieuwe Pekela" ;
+    nif:beginIndex "269" ;
+    nif:endIndex "282" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w54w55w56w57w58> nif:anchorOf "Naast werknemer bij een houtfabriek" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "319" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w59> nif:BeginIndex "320" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "323" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w60> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "327" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w60" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w65w66> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "355" ;
+    nif:endIndex "374" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w68> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "376" ;
+    nif:endIndex "385" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w68" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w69> nif:BeginIndex "386" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "389" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w75> nif:anchorOf "Groningen" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "430" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w79> nif:anchorOf "Achterhoek" ;
+    nif:beginIndex "440" ;
+    nif:endIndex "450" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w7w8w9> nif:anchorOf "25 december 1919" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w81> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "452" ;
+    nif:endIndex "455" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w81" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w82> nif:BeginIndex "456" ;
+    nif:anchorOf "voerde" ;
+    nif:endIndex "462" ;
+    nif:lemma "voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w85w86> nif:anchorOf "Harry A." ;
+    nif:beginIndex "479" ;
+    nif:endIndex "487" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w88> nif:anchorOf "Rhenen" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "498" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w90w91> nif:anchorOf "Kleine Wim" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "512" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w93> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "517" ;
+    nif:head "bgnProc:1176__Harm_Heijes.naf#w93" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w94> nif:BeginIndex "518" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "522" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w96w97w98> nif:anchorOf "8 maart 1944" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "538" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_100t_101t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w101w102w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_126t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w127w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_129t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w130w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_139t_140t_141> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w140w141w142> ;
+    xs:date "1944-08-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_147t_148t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w148w149w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_153t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w154w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_184t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w185w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_53t_54t_55t_56t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w54w55w56w57w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_95t_96t_97> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w96w97w98> ;
+    xs:date "1944-03-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w93> .
+
+bgn:Person-1176 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w100>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w144w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w174w175w176>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w178w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w34w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w4w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w51w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w65w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w85w86>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1176__Harm_Heijes.naf#w90w91> .
+

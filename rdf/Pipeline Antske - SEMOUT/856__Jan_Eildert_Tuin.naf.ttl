@@ -1,0 +1,381 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_96t_97t_98>,
+        bgn:Person-856 ;
+    ore:proxyFor bgn:Person-856 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#BioDes> .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-856__Jan_Eildert_Tuin#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-856__Jan_Eildert_Tuin .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-856 ;
+    bgn:aggregatedPerson bgn:Person-856 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-856__Jan_Eildert_Tuin ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-856__Jan_Eildert_Tuin ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w115> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_113> ;
+    pb:ArgM-LOC bgn:Person-856 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_119> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w13w14w15> ;
+    xs:date "1965-08-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w17> ;
+    pb:ArgM-TMP bgn:Person-856 .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_51> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w52> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w57> ;
+    pb:Arg0 bgn:Person-856 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_63>,
+        bgn:Person-856 .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w67> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_65> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_81>,
+        bgn:Person-856 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w7w8w9> ;
+    xs:date "1889-08-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_75> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w76> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_81>,
+        bgn:Person-856 .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w77> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w95> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_93> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_111>,
+        bgn:Person-856 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_100> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_96t_97t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w101> nif:anchorOf "Odoorn" ;
+    nif:beginIndex "577" ;
+    nif:endIndex "583" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w103w104w105> nif:anchorOf "Annechiena Ailkina Germs" ;
+    nif:beginIndex "588" ;
+    nif:endIndex "612" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w11> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w112> nif:anchorOf "Odoorn" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "651" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w114> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "656" ;
+    nif:head "bgnProc:856__Jan_Eildert_Tuin.naf#w114" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w115> nif:BeginIndex "657" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "665" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w117w118> nif:anchorOf "augustus 1965" ;
+    nif:beginIndex "669" ;
+    nif:endIndex "682" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w120> nif:anchorOf "75-jarige" ;
+    nif:beginIndex "686" ;
+    nif:endIndex "695" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w123> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "708" ;
+    nif:endIndex "715" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w13w14w15> nif:anchorOf "7 augustus 1965" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w17> nif:BeginIndex "71" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "74" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "79" ;
+    nif:endIndex "90" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w1w2w3> nif:anchorOf "Eildert Tuin" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "115" ;
+    nif:endIndex "134" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w27> nif:anchorOf "NSB" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "146" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w30> nif:BeginIndex "154" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "157" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w36w37> nif:anchorOf "Filippus Tuin" ;
+    nif:beginIndex "189" ;
+    nif:endIndex "202" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w39w40w41> nif:anchorOf "Alida Zwaantina Smith" ;
+    nif:beginIndex "206" ;
+    nif:endIndex "227" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w46> nif:anchorOf "Groningse" ;
+    nif:beginIndex "239" ;
+    nif:endIndex "248" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w47> nif:anchorOf "Veendam" ;
+    nif:beginIndex "249" ;
+    nif:endIndex "256" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w49> nif:anchorOf "Tuin" ;
+    nif:beginIndex "269" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w5> nif:anchorOf "Losser" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w52> nif:anchorOf "1944" ;
+    nif:beginIndex "282" ;
+    nif:endIndex "286" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w55> nif:anchorOf "Duitse" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "301" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w57> nif:BeginIndex "311" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "318" ;
+    nif:lemma "benoemd" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w62> nif:anchorOf "Drentse" ;
+    nif:beginIndex "343" ;
+    nif:endIndex "350" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w64> nif:anchorOf "Gasselte" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "368" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w66> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "373" ;
+    nif:head "bgnProc:856__Jan_Eildert_Tuin.naf#w66" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w67> nif:BeginIndex "374" ;
+    nif:anchorOf "verving" ;
+    nif:endIndex "381" ;
+    nif:lemma "vervangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w68> nif:anchorOf "daar" ;
+    nif:beginIndex "382" ;
+    nif:endIndex "386" ;
+    nif:head "bgnProc:856__Jan_Eildert_Tuin.naf#w68" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w70> nif:anchorOf "Gaarlandt" ;
+    nif:beginIndex "400" ;
+    nif:endIndex "409" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w72> nif:anchorOf "die" ;
+    nif:beginIndex "411" ;
+    nif:endIndex "414" ;
+    nif:head "bgnProc:856__Jan_Eildert_Tuin.naf#w72" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w76> nif:BeginIndex "432" ;
+    nif:anchorOf "gevangen" ;
+    nif:endIndex "440" ;
+    nif:lemma "gevangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w77> nif:BeginIndex "441" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "444" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w7w8w9> nif:anchorOf "13 augustus 1889" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w82> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "474" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w84> nif:anchorOf "Vught" ;
+    nif:beginIndex "478" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w87> nif:BeginIndex "490" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "493" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w91w92> nif:anchorOf "Groninger Waterschapsbond" ;
+    nif:beginIndex "518" ;
+    nif:endIndex "543" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w94> nif:anchorOf "Tuin" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "550" ;
+    nif:head "bgnProc:856__Jan_Eildert_Tuin.naf#w94" ;
+    nif:lemma "tuin" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w95> nif:BeginIndex "551" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "558" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w97w98w99> nif:anchorOf "5 juni 1919" ;
+    nif:beginIndex "562" ;
+    nif:endIndex "573" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_116t_117> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w117w118> ;
+    xs:gYearMonth "1965-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_119> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w120> ;
+    xs:gYear "1975" .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w94> ;
+    stevensFam:isPartnerIn <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#t_96t_97t_98> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w97w98w99> ;
+    xs:date "1919-06-05" .
+
+bgn:Person-856 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w103w104w105>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w39w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w70>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/856__Jan_Eildert_Tuin.naf#w91w92> .
+

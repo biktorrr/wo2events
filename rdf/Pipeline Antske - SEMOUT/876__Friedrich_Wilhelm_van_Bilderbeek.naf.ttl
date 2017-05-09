@@ -1,0 +1,681 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_103t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_109t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_117t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_120t_121t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_127t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_159t_160t_161t_162t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_181t_182t_183t_184t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_222t_223t_224t_225t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_25t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_99>,
+        bgn:Person-876 ;
+    ore:proxyFor bgn:Person-876 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w106> nif:lemma "vlucht" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w112> nif:lemma "publiciteit" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w122> nif:lemma "'" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w130> nif:lemma "rechter" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w160> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w182> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w223> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w44> nif:lemma "stam_boek_nummer" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w50> nif:lemma "alleen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w98> nif:lemma "bies" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-876__Friedrich_Wilhelm_van_Bilderbeek#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-876__Friedrich_Wilhelm_van_Bilderbeek .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-876 ;
+    bgn:aggregatedPerson bgn:Person-876 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-876__Friedrich_Wilhelm_van_Bilderbeek ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-876__Friedrich_Wilhelm_van_Bilderbeek ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w107> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_103t_104t_105> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_109t_110t_111> ;
+    pb:Arg2 bgn:Person-876 .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w115> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_120t_121t_122t_123t_124>,
+        bgn:Person-876 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_115> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_117t_118t_119> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w131> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_127t_128t_129> ;
+    pb:Arg1 bgn:Person-876 .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w14w15w16> ;
+    xs:date "1944-12-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_152> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w153> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_145> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_150t_151> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_157> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w158> ;
+    xs:period "P1M" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_165> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w166> ;
+    pb:A1 bgn:Person-876 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_159t_160t_161t_162t_163>,
+        bgn:Person-876 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w181> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_181t_182t_183t_184t_185t_186>,
+        bgn:Person-876 .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w205> ;
+    pb:A2 bgn:Person-876 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_209> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w210> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_228> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w229> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_219> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_222t_223t_224t_225t_226> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w231> ;
+    pb:Arg0 bgn:Person-876 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_207> ;
+    pb:ArgM-TMP bgn:Person-876 .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w25> ;
+    pb:A0 bgn:Person-876 ;
+    pb:A1 bgn:Person-876 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_25t_26> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_44> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w45> ;
+    xs:gYear "1480" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w47> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_43t_44> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_42> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_41> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w51> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_48t_49> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w8w9w10> ;
+    xs:date "1880-09-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w87> ;
+    xs:date "2017-05-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w88> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_96t_97>,
+        bgn:Person-876 ;
+    pb:AM-TMP bgn:Person-876 .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w100> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_101> ;
+    pb:ArgM-NEG bgn:Person-876 .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w100> nif:BeginIndex "586" ;
+    nif:anchorOf "vluchtten" ;
+    nif:endIndex "595" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w102> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "610" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w104w105w106> nif:anchorOf "Deze overhaaste vlucht" ;
+    nif:beginIndex "612" ;
+    nif:endIndex "634" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w107> nif:BeginIndex "635" ;
+    nif:anchorOf "bezorgde" ;
+    nif:endIndex "643" ;
+    nif:lemma "bezorgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w109> nif:anchorOf "NSB" ;
+    nif:beginIndex "647" ;
+    nif:endIndex "650" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w110w111w112> nif:anchorOf "veel negatieve publiciteit" ;
+    nif:beginIndex "651" ;
+    nif:endIndex "677" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w112" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w114> nif:anchorOf "Mussert" ;
+    nif:beginIndex "679" ;
+    nif:endIndex "686" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w115> nif:BeginIndex "687" ;
+    nif:anchorOf "installeerde" ;
+    nif:endIndex "699" ;
+    nif:lemma "installeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w116> nif:anchorOf "daarom" ;
+    nif:beginIndex "700" ;
+    nif:endIndex "706" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w116" ;
+    nif:lemma "daarom" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w118w119w120> nif:anchorOf "2 oktober 1944" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "724" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w12> nif:anchorOf "Assen" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "70" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w121w122w123w124w125> nif:anchorOf "een ' tijdelijke bijzondere rechtbank" ;
+    nif:beginIndex "725" ;
+    nif:endIndex "761" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w128w129w130> nif:anchorOf "De drie rechters" ;
+    nif:beginIndex "764" ;
+    nif:endIndex "780" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w130" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w131> nif:BeginIndex "781" ;
+    nif:anchorOf "kregen" ;
+    nif:endIndex "787" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w136> nif:BeginIndex "805" ;
+    nif:anchorOf "onderzoeken" ;
+    nif:endIndex "816" ;
+    nif:lemma "onderzoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w139> nif:BeginIndex "823" ;
+    nif:anchorOf "beoordelen" ;
+    nif:endIndex "833" ;
+    nif:lemma "beoordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w144> nif:anchorOf "Beweging" ;
+    nif:beginIndex "851" ;
+    nif:endIndex "859" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w146> nif:anchorOf "die" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "864" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w146" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w148w149> nif:anchorOf "1 September" ;
+    nif:beginIndex "868" ;
+    nif:endIndex "879" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w14w15w16> nif:anchorOf "14 december 1944" ;
+    nif:beginIndex "72" ;
+    nif:endIndex "88" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w151w152> nif:anchorOf "belangrijke vertrouwensposten" ;
+    nif:beginIndex "884" ;
+    nif:endIndex "913" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w152" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w152> nif:BeginIndex "896" ;
+    nif:anchorOf "vertrouwensposten" ;
+    nif:endIndex "913" ;
+    nif:lemma "vertrouwen_post" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w153> nif:BeginIndex "914" ;
+    nif:anchorOf "innamen" ;
+    nif:endIndex "921" ;
+    nif:lemma "in_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w155> nif:anchorOf "zich" ;
+    nif:beginIndex "923" ;
+    nif:endIndex "927" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w155" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w158> nif:anchorOf "maand" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "939" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w159> nif:anchorOf "September" ;
+    nif:beginIndex "940" ;
+    nif:endIndex "949" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w160w161w162w163w164> nif:anchorOf "in positieve of negatieve zin" ;
+    nif:beginIndex "950" ;
+    nif:endIndex "979" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w160" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w166> nif:BeginIndex "987" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "1000" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w169> nif:anchorOf "Districtcommandeur" ;
+    nif:beginIndex "1006" ;
+    nif:endIndex "1024" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w172> nif:anchorOf "Landwacht" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1041" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w174> nif:anchorOf "Overijssel" ;
+    nif:beginIndex "1047" ;
+    nif:endIndex "1057" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w176> nif:anchorOf "F.L" ;
+    nif:beginIndex "1059" ;
+    nif:endIndex "1062" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w178> nif:anchorOf "Rambonnet" ;
+    nif:beginIndex "1064" ;
+    nif:endIndex "1073" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w18> nif:BeginIndex "90" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "93" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w181> nif:BeginIndex "1080" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "1087" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w182w183w184w185w186w187> nif:anchorOf "tot leider van opsporing en vooronderzoek" ;
+    nif:beginIndex "1088" ;
+    nif:endIndex "1129" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w195> nif:anchorOf "Rambonnet" ;
+    nif:beginIndex "1160" ;
+    nif:endIndex "1169" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w199> nif:anchorOf "waar" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1193" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w199" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w1w2w3w4> nif:anchorOf "Wilhelm van Bilderbeek" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "32" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "98" ;
+    nif:endIndex "108" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w202w203> nif:anchorOf "Van Bilderbeek" ;
+    nif:beginIndex "1202" ;
+    nif:endIndex "1216" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w205> nif:BeginIndex "1222" ;
+    nif:anchorOf "behandeld" ;
+    nif:endIndex "1231" ;
+    nif:lemma "behandelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w208> nif:anchorOf "laatstgenoemde" ;
+    nif:beginIndex "1238" ;
+    nif:endIndex "1252" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w208" ;
+    nif:lemma "laatstgenoemde" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w210> nif:anchorOf "Jan" ;
+    nif:beginIndex "1258" ;
+    nif:endIndex "1261" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w210w211w212> nif:anchorOf "Jan Nelis Geel" ;
+    nif:beginIndex "1258" ;
+    nif:endIndex "1272" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w217> nif:anchorOf "Musserts" ;
+    nif:beginIndex "1286" ;
+    nif:endIndex "1294" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w220> nif:anchorOf "die" ;
+    nif:beginIndex "1306" ;
+    nif:endIndex "1309" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w220" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w223w224w225w226w227> nif:anchorOf "als getuige tijdens de zitting" ;
+    nif:beginIndex "1324" ;
+    nif:endIndex "1354" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w223" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w229> nif:BeginIndex "1363" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1366" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w231> nif:BeginIndex "1368" ;
+    nif:anchorOf "neergeschoten" ;
+    nif:endIndex "1381" ;
+    nif:lemma "neer_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w23w24> nif:anchorOf "Van Bilderbeek" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w25> nif:BeginIndex "145" ;
+    nif:anchorOf "vervulde" ;
+    nif:endIndex "153" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w26w27> nif:anchorOf "vele jaren" ;
+    nif:beginIndex "154" ;
+    nif:endIndex "164" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w33w34> nif:anchorOf "Nationaal-Socialistische Beweging" ;
+    nif:beginIndex "191" ;
+    nif:endIndex "224" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w36> nif:anchorOf "NSB" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "229" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w39w40> nif:anchorOf "Anton Mussert" ;
+    nif:beginIndex "235" ;
+    nif:endIndex "248" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w42> nif:anchorOf "waar" ;
+    nif:beginIndex "250" ;
+    nif:endIndex "254" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w42" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w43> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "255" ;
+    nif:endIndex "258" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w43" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w44w45> nif:anchorOf "stamboeknummer 1480" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "278" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w45> nif:anchorOf "1480" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "278" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w47> nif:BeginIndex "285" ;
+    nif:anchorOf "toebedeeld" ;
+    nif:endIndex "295" ;
+    nif:lemma "toe_bedelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w49w50> nif:anchorOf "Niet alleen" ;
+    nif:beginIndex "297" ;
+    nif:endIndex "308" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w51> nif:BeginIndex "309" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "312" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w53> nif:anchorOf "Musserts" ;
+    nif:beginIndex "317" ;
+    nif:endIndex "325" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w6> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "34" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w64> nif:anchorOf "NSB" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "396" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w69w70> nif:anchorOf "Nationaal Tehuis" ;
+    nif:beginIndex "423" ;
+    nif:endIndex "439" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w72> nif:anchorOf "Lunteren" ;
+    nif:beginIndex "443" ;
+    nif:endIndex "451" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w75> nif:BeginIndex "457" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "460" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w79> nif:anchorOf "Musserts" ;
+    nif:beginIndex "474" ;
+    nif:endIndex "482" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w81w82w83> nif:anchorOf "Stien van Bilderbeek" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "516" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w86w87> nif:anchorOf "Dolle Dinsdag" ;
+    nif:beginIndex "522" ;
+    nif:endIndex "535" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w87> nif:anchorOf "Dinsdag" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "535" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w88> nif:BeginIndex "536" ;
+    nif:anchorOf "pakten" ;
+    nif:endIndex "542" ;
+    nif:lemma "pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w8w9w10> nif:anchorOf "30 september 1880" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w96> nif:anchorOf "NSB" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "571" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w97w98> nif:anchorOf "hun biezen" ;
+    nif:beginIndex "572" ;
+    nif:endIndex "582" ;
+    nif:head "bgnProc:876__Friedrich_Wilhelm_van_Bilderbeek.naf#w98" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_103t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w104w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_109t_110t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w110w111w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_117t_118t_119> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w118w119w120> ;
+    xs:date "1944-10-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_120t_121t_122t_123t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w121w122w123w124w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_127t_128t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w128w129w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_147t_148> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w148w149> ;
+    xs:date "2017-09-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_150t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w151w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_159t_160t_161t_162t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w160w161w162w163w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_181t_182t_183t_184t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w182w183w184w185w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_222t_223t_224t_225t_226> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w223w224w225w226w227> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_25t_26> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w26w27> ;
+    xs:period "PXY" .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w97w98> .
+
+bgn:Person-876 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w172>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w176>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w195>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w210w211w212>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w69w70>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w81w82w83>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w86w87>,
+        <http://data.biographynet.nl/rdf/170506221754/876__Friedrich_Wilhelm_van_Bilderbeek.naf#w96> ;
+    xs:gYearMonth "2017-09" .
+

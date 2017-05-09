@@ -1,0 +1,1363 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_141t_142t_143t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_162t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_165t_166t_167t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_190t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_194t_195t_196t_197t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_209t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_227t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_232t_233t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_239t_240t_241t_242t_243t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_241t_242t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_248t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_251t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_281t_282t_283t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_288>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_294>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_299>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_309t_310t_311t_312t_313t_314t_315t_316>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_317t_318t_319>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_321>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_322>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_323>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_324t_325t_326t_327t_328t_329t_330>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_337>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_341>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_342>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_346>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_351>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_352>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_361>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_362>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_370>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_372>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_389>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_38t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_390>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_391t_392t_393t_394t_395t_396t_397>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_400>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_401>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_403t_404t_405t_406t_407t_408t_409t_410>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_406>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_408>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_410>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_424>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_426>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_42t_43t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_445>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_447>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_452>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_462>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_48t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_505>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_510>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_95t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_95t_96t_97t_98t_99t_100t_101t_102t_103t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_98>,
+        bgn:Person-1780 ;
+    ore:proxyFor bgn:Person-1780 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w105> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w139> nif:lemma "waarvan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w141> nif:lemma "ouder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w143> nif:lemma "beheer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w159> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w164> nif:lemma "knok_ploeg_Zenderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w167> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w196> nif:lemma "schuil_plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w210> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w219> nif:lemma "villa" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w232> nif:lemma "toevlucht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w233> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w250> nif:lemma "verzet_activiteit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w252> nif:lemma "vanuit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w282> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w310> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w320> nif:lemma "bloei" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w325> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w39> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w395> nif:lemma "bloei" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w404> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w44> nif:lemma "vader" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w49> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w96> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1780__Cor_Hilbrink#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1780__Cor_Hilbrink .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1780 ;
+    bgn:aggregatedPerson bgn:Person-1780 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1780__Cor_Hilbrink ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1780__Cor_Hilbrink ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w102> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_98> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_103> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w112> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_110> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_132>,
+        bgn:Person-1780 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w123> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_120> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w13w14w15> ;
+    xs:date "1973-06-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w144> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_139t_140> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_141t_142t_143t_144t_145t_146t_147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w158> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_158t_159t_160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w165> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_162t_163> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_165t_166t_167t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w200> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_194t_195t_196t_197t_198> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_190t_191t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_215> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w216> ;
+    pb:Arg0 bgn:Person-1780 ;
+    pb:Arg1 bgn:Person-1780 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_209t_210t_211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_220> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w221> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_217t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_227t_228> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w228w229> ;
+    xs:period "PXD" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w237> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_226> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_230t_231> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_232t_233t_234> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_238> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w239> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_239t_240t_241t_242t_243t_244>,
+        bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_239> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w240> ;
+    pb:Arg1 bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w245> ;
+    pb:Arg1 bgn:Person-1780 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_241t_242t_243> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_247> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w248> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_248t_249>,
+        bgn:Person-1780 ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_251t_252t_253> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_250> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_255> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w256> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_260>,
+        bgn:Person-1780 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_256> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w27> ;
+    pb:ArgM-TMP bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w276> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_276> ;
+    pb:A1 bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_280> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w281> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_279> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_281t_282t_283t_284> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_288> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w289> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_299> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w300> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_294> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_297> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_308> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w309> ;
+    pb:Arg0 bgn:Person-1780 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_317t_318t_319> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_309t_310t_311t_312t_313t_314t_315t_316> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_322> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w323> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_321> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_324t_325t_326t_327t_328t_329t_330> ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_323> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_337> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w338> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_341> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w342> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_342> ;
+    pb:ArgM-LOC bgn:Person-1780 ;
+    pb:ArgM-PRD bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_346> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w347> ;
+    pb:Arg1 bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_352> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w353> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_351> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_362> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w363> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_361> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_372> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w373> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_370> ;
+    pb:AM-LOC bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_389> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w390> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_390> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_391t_392t_393t_394t_395t_396t_397> ;
+    pb:ArgM-PRD bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w41> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_41> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_42t_43t_44t_45t_46> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_38t_39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_401> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w402> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_400> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_403t_404t_405t_406t_407t_408t_409t_410> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_410> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w411> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_408> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_406> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_424> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w425> ;
+    pb:A0 bgn:Person-1780 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_431> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_426> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w427> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_431> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_445> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w446> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_447> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w448> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_452> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w453> ;
+    xs:gYear "1989" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_462> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w463> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_465> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_505> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w506> ;
+    xs:gYear "1943",
+        "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w52> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_48t_49t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_510> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w511> ;
+    xs:gYear "2015" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w7w8w9> ;
+    xs:date "1918-07-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w71> ;
+    pb:Arg1 bgn:Person-1780 .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_79> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w80> ;
+    xs:gYear "2009" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w88> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_88t_89t_90t_91> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_95t_96t_97t_98t_99t_100t_101t_102t_103t_104t_105t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w102> nif:BeginIndex "575" ;
+    nif:anchorOf "vervuld" ;
+    nif:endIndex "582" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w104> nif:anchorOf "niet" ;
+    nif:beginIndex "584" ;
+    nif:endIndex "588" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w104" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w105w106w107> nif:anchorOf "aan een medicijnenstudie" ;
+    nif:beginIndex "589" ;
+    nif:endIndex "613" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w107> nif:BeginIndex "597" ;
+    nif:anchorOf "medicijnenstudie" ;
+    nif:endIndex "613" ;
+    nif:lemma "medicijn_studie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w11> nif:anchorOf "Zenderen" ;
+    nif:beginIndex "52" ;
+    nif:endIndex "60" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w111> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "631" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w111" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w112> nif:BeginIndex "632" ;
+    nif:anchorOf "keerde" ;
+    nif:endIndex "638" ;
+    nif:lemma "keren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w114> nif:anchorOf "1940" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "646" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w121> nif:anchorOf "dat" ;
+    nif:beginIndex "679" ;
+    nif:endIndex "682" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w121" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w123> nif:BeginIndex "687" ;
+    nif:anchorOf "zeggen" ;
+    nif:endIndex "693" ;
+    nif:lemma "zeggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w131> nif:anchorOf "Lidwina" ;
+    nif:beginIndex "731" ;
+    nif:endIndex "738" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w133> nif:anchorOf "Zenderen" ;
+    nif:beginIndex "743" ;
+    nif:endIndex "751" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w138> nif:anchorOf "Borne" ;
+    nif:beginIndex "768" ;
+    nif:endIndex "773" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w139w140w141w142w143w144w145w146w147w148> nif:anchorOf "waarvan zijn ouders het beheer voerden voor een rijke dame" ;
+    nif:beginIndex "774" ;
+    nif:endIndex "832" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w139" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w13w14w15> nif:anchorOf "11 juni 1973" ;
+    nif:beginIndex "62" ;
+    nif:endIndex "74" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w140w141> nif:anchorOf "zijn ouders" ;
+    nif:beginIndex "782" ;
+    nif:endIndex "793" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w142w143w144w145w146w147w148> nif:anchorOf "het beheer voerden voor een rijke dame" ;
+    nif:beginIndex "794" ;
+    nif:endIndex "832" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w144> nif:BeginIndex "805" ;
+    nif:anchorOf "voerden" ;
+    nif:endIndex "812" ;
+    nif:lemma "voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w158> nif:BeginIndex "874" ;
+    nif:anchorOf "betrokken" ;
+    nif:endIndex "883" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w159w160w161> nif:anchorOf "bij het verzet" ;
+    nif:beginIndex "884" ;
+    nif:endIndex "898" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w163w164> nif:anchorOf "De knokploeg-Zenderen" ;
+    nif:beginIndex "900" ;
+    nif:endIndex "921" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w164" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w165> nif:BeginIndex "922" ;
+    nif:anchorOf "verrichtte" ;
+    nif:endIndex "932" ;
+    nif:lemma "verrichten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w166w167w168w169w170w171w172w173w174w175w176w177w178w179w180> nif:anchorOf "een aantal spectaculaire acties waaronder de bevrijding van verzetsmensen uit een huis van bewaring" ;
+    nif:beginIndex "933" ;
+    nif:endIndex "1033" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w167" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w17> nif:BeginIndex "76" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "79" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w184> nif:anchorOf "Lidwina" ;
+    nif:beginIndex "1044" ;
+    nif:endIndex "1051" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w185> nif:BeginIndex "1052" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1056" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w19> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "84" ;
+    nif:endIndex "94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w191w192w193> nif:anchorOf "23 september 1944" ;
+    nif:beginIndex "1090" ;
+    nif:endIndex "1107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w195w196w197w198w199> nif:anchorOf "de schuilplaats op het platteland" ;
+    nif:beginIndex "1113" ;
+    nif:endIndex "1146" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w196" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w1w2w3> nif:anchorOf "Christiaan Hilbrink" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w200> nif:BeginIndex "1147" ;
+    nif:anchorOf "verraden" ;
+    nif:endIndex "1155" ;
+    nif:lemma "verraden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w202> nif:anchorOf "Hilbrinks" ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1166" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w204> nif:anchorOf "Sietse" ;
+    nif:beginIndex "1173" ;
+    nif:endIndex "1179" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w208> nif:anchorOf "Coen" ;
+    nif:beginIndex "1194" ;
+    nif:endIndex "1198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w210w211w212> nif:anchorOf "bij een overval" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1221" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w215> nif:anchorOf "Sicherheitsdienst" ;
+    nif:beginIndex "1230" ;
+    nif:endIndex "1247" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w216> nif:BeginIndex "1248" ;
+    nif:anchorOf "doodgeschoten" ;
+    nif:endIndex "1261" ;
+    nif:lemma "dood_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w218w219> nif:anchorOf "de villa" ;
+    nif:beginIndex "1265" ;
+    nif:endIndex "1273" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w219" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w221> nif:BeginIndex "1279" ;
+    nif:anchorOf "opgeblazen" ;
+    nif:endIndex "1289" ;
+    nif:lemma "op_blazen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w223w224w225> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "1291" ;
+    nif:endIndex "1309" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w227> nif:anchorOf "die" ;
+    nif:beginIndex "1311" ;
+    nif:endIndex "1314" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w227" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w228w229> nif:anchorOf "enkele dagen" ;
+    nif:beginIndex "1315" ;
+    nif:endIndex "1327" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w230> nif:anchorOf "eerder" ;
+    nif:beginIndex "1328" ;
+    nif:endIndex "1334" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w231w232> nif:anchorOf "zijn toevlucht" ;
+    nif:beginIndex "1335" ;
+    nif:endIndex "1349" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w233w234w235> nif:anchorOf "in de villa" ;
+    nif:beginIndex "1350" ;
+    nif:endIndex "1361" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w237> nif:BeginIndex "1366" ;
+    nif:anchorOf "gezocht" ;
+    nif:endIndex "1373" ;
+    nif:lemma "zoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w239> nif:BeginIndex "1375" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1379" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w240> nif:BeginIndex "1380" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "1392" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w240w241w242w243w244w245> nif:anchorOf "gearresteerd en een dag later gefusilleerd" ;
+    nif:beginIndex "1380" ;
+    nif:endIndex "1422" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w240" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w242w243w244> nif:anchorOf "een dag later" ;
+    nif:beginIndex "1396" ;
+    nif:endIndex "1409" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w245> nif:BeginIndex "1410" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1422" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w247> nif:anchorOf "Hilbrink" ;
+    nif:beginIndex "1424" ;
+    nif:endIndex "1432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w248> nif:BeginIndex "1433" ;
+    nif:anchorOf "zette" ;
+    nif:endIndex "1438" ;
+    nif:lemma "voort_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w249w250> nif:anchorOf "zijn verzetsactiviteiten" ;
+    nif:beginIndex "1439" ;
+    nif:endIndex "1463" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w250" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w251> nif:anchorOf "voort" ;
+    nif:beginIndex "1464" ;
+    nif:endIndex "1469" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w251" ;
+    nif:lemma "voort" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w252w253w254> nif:anchorOf "vanuit verschillende schuilplaatsen" ;
+    nif:beginIndex "1470" ;
+    nif:endIndex "1505" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w252" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w256> nif:BeginIndex "1509" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "1515" ;
+    nif:lemma "mee_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w257> nif:anchorOf "zo" ;
+    nif:beginIndex "1516" ;
+    nif:endIndex "1518" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w257" ;
+    nif:lemma "zo" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w261> nif:anchorOf "Enschede" ;
+    nif:beginIndex "1537" ;
+    nif:endIndex "1545" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w267> nif:anchorOf "Prins" ;
+    nif:beginIndex "1566" ;
+    nif:endIndex "1571" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w268> nif:anchorOf "Bernhard" ;
+    nif:beginIndex "1572" ;
+    nif:endIndex "1580" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w27> nif:BeginIndex "144" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "147" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w276> nif:BeginIndex "1616" ;
+    nif:anchorOf "sloeg" ;
+    nif:endIndex "1621" ;
+    nif:lemma "af_slaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w277> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1622" ;
+    nif:endIndex "1625" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w277" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w280> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1632" ;
+    nif:endIndex "1635" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w280" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w281> nif:BeginIndex "1636" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "1641" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w282w283w284w285> nif:anchorOf "aan een maatschappelijke carrière" ;
+    nif:beginIndex "1642" ;
+    nif:endIndex "1675" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w282" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w287w288> nif:anchorOf "Cor Hilbrink" ;
+    nif:beginIndex "1678" ;
+    nif:endIndex "1690" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w289> nif:BeginIndex "1691" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1695" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w294> nif:anchorOf "Oldenzaal" ;
+    nif:beginIndex "1721" ;
+    nif:endIndex "1730" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w295> nif:anchorOf "waar" ;
+    nif:beginIndex "1731" ;
+    nif:endIndex "1735" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w295" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w298> nif:anchorOf "1955" ;
+    nif:beginIndex "1743" ;
+    nif:endIndex "1747" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w300> nif:BeginIndex "1758" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1762" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w303w304> nif:anchorOf "Betoncentrale Twente" ;
+    nif:beginIndex "1770" ;
+    nif:endIndex "1790" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w307> nif:anchorOf "Hengelose" ;
+    nif:beginIndex "1796" ;
+    nif:endIndex "1805" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w309> nif:BeginIndex "1814" ;
+    nif:anchorOf "beleefde" ;
+    nif:endIndex "1822" ;
+    nif:lemma "beleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w30w31> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "154" ;
+    nif:endIndex "173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w310w311w312w313w314w315w316w317> nif:anchorOf "onder zijn leiding en mede dankzij de wederopbouw" ;
+    nif:beginIndex "1823" ;
+    nif:endIndex "1872" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w310" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w318w319w320> nif:anchorOf "een grote bloei" ;
+    nif:beginIndex "1873" ;
+    nif:endIndex "1888" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w320" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w322> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1890" ;
+    nif:endIndex "1893" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w322" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w323> nif:BeginIndex "1894" ;
+    nif:anchorOf "ontpopte" ;
+    nif:endIndex "1902" ;
+    nif:lemma "ontpoppen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w324> nif:anchorOf "zich" ;
+    nif:beginIndex "1903" ;
+    nif:endIndex "1907" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w324" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w325w326w327w328w329w330w331> nif:anchorOf "als een succesvol ondernemer met grote leiderscapaciteiten" ;
+    nif:beginIndex "1908" ;
+    nif:endIndex "1966" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w325" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w337> nif:anchorOf "Oldenzaalse" ;
+    nif:beginIndex "1991" ;
+    nif:endIndex "2002" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w338> nif:BeginIndex "2003" ;
+    nif:anchorOf "voetbalvereniging" ;
+    nif:endIndex "2020" ;
+    nif:lemma "voetbal_vereniging" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w339> nif:anchorOf "Quick" ;
+    nif:beginIndex "2021" ;
+    nif:endIndex "2026" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w342> nif:BeginIndex "2030" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "2033" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w343> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "2034" ;
+    nif:endIndex "2037" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w343" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w347> nif:BeginIndex "2054" ;
+    nif:anchorOf "oprichtingsvergadering" ;
+    nif:endIndex "2076" ;
+    nif:lemma "oprichting_vergadering" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w349w350> nif:anchorOf "FC Twente" ;
+    nif:beginIndex "2081" ;
+    nif:endIndex "2090" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w352> nif:anchorOf "dat" ;
+    nif:beginIndex "2092" ;
+    nif:endIndex "2095" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w352" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w353> nif:BeginIndex "2096" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "2099" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w356w357> nif:anchorOf "Sportclub Enschede" ;
+    nif:beginIndex "2117" ;
+    nif:endIndex "2135" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w359> nif:anchorOf "Enschedese" ;
+    nif:beginIndex "2139" ;
+    nif:endIndex "2149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w360> nif:anchorOf "Boys" ;
+    nif:beginIndex "2150" ;
+    nif:endIndex "2154" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w362> nif:anchorOf "Men" ;
+    nif:beginIndex "2156" ;
+    nif:endIndex "2159" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w362" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w363> nif:BeginIndex "2160" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "2163" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w37> nif:anchorOf "Twente" ;
+    nif:beginIndex "202" ;
+    nif:endIndex "208" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w371> nif:anchorOf "Die" ;
+    nif:beginIndex "2207" ;
+    nif:endIndex "2210" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w371" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w373> nif:BeginIndex "2216" ;
+    nif:anchorOf "gevonden" ;
+    nif:endIndex "2224" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w378w379> nif:anchorOf "Cor Hilbrink" ;
+    nif:beginIndex "2243" ;
+    nif:endIndex "2255" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w385w386> nif:anchorOf "Henk Olijve" ;
+    nif:beginIndex "2288" ;
+    nif:endIndex "2299" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w388w389> nif:anchorOf "Henny Iliohan" ;
+    nif:beginIndex "2303" ;
+    nif:endIndex "2316" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w390> nif:BeginIndex "2317" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "2323" ;
+    nif:lemma "mee_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w391> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "2324" ;
+    nif:endIndex "2327" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w391" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w392w393w394w395w396w397w398> nif:anchorOf "de eerste grote bloei van de club" ;
+    nif:beginIndex "2328" ;
+    nif:endIndex "2361" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w395" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w39w40> nif:anchorOf "Door verraad" ;
+    nif:beginIndex "210" ;
+    nif:endIndex "222" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w39" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w401> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "2367" ;
+    nif:endIndex "2370" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w401" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w402> nif:BeginIndex "2371" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "2374" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w404w405w406w407w408w409w410w411> nif:anchorOf "tot hij in 1973 op 54-jarige leeftijd overleed" ;
+    nif:beginIndex "2386" ;
+    nif:endIndex "2432" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w404" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w407> nif:anchorOf "1973" ;
+    nif:beginIndex "2397" ;
+    nif:endIndex "2401" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w409> nif:anchorOf "54-jarige" ;
+    nif:beginIndex "2405" ;
+    nif:endIndex "2414" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w41> nif:BeginIndex "223" ;
+    nif:anchorOf "verloor" ;
+    nif:endIndex "230" ;
+    nif:lemma "verliezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w411> nif:BeginIndex "2424" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "2432" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w413w414> nif:anchorOf "Coen Hilbrink" ;
+    nif:beginIndex "2435" ;
+    nif:endIndex "2448" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w42> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "231" ;
+    nif:endIndex "234" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w42" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w423> nif:anchorOf "Cor" ;
+    nif:beginIndex "2485" ;
+    nif:endIndex "2488" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w425> nif:BeginIndex "2490" ;
+    nif:anchorOf "schreef" ;
+    nif:endIndex "2497" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w427> nif:BeginIndex "2502" ;
+    nif:anchorOf "standaardwerk" ;
+    nif:endIndex "2515" ;
+    nif:lemma "standaard_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w432> nif:anchorOf "Overijssel" ;
+    nif:beginIndex "2535" ;
+    nif:endIndex "2545" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w438> nif:anchorOf "Illegaliteit" ;
+    nif:beginIndex "2562" ;
+    nif:endIndex "2574" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w43w44w45w46w47> nif:anchorOf "zijn vader en een broer" ;
+    nif:beginIndex "235" ;
+    nif:endIndex "258" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w440> nif:anchorOf "Twente" ;
+    nif:beginIndex "2578" ;
+    nif:endIndex "2584" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w444> nif:anchorOf "Salland" ;
+    nif:beginIndex "2605" ;
+    nif:endIndex "2612" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w446> nif:anchorOf "1940" ;
+    nif:beginIndex "2614" ;
+    nif:endIndex "2618" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w448> nif:anchorOf "1945" ;
+    nif:beginIndex "2620" ;
+    nif:endIndex "2624" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w453> nif:anchorOf "1989" ;
+    nif:beginIndex "2641" ;
+    nif:endIndex "2645" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w457w458> nif:anchorOf "Cor Hilbrink" ;
+    nif:beginIndex "2659" ;
+    nif:endIndex "2671" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w460> nif:anchorOf "Website" ;
+    nif:beginIndex "2675" ;
+    nif:endIndex "2682" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w463> nif:BeginIndex "2688" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "2690" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w466> nif:anchorOf "Overijssel" ;
+    nif:beginIndex "2698" ;
+    nif:endIndex "2708" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w473> nif:anchorOf "Twente" ;
+    nif:beginIndex "2735" ;
+    nif:endIndex "2741" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w481w482> nif:anchorOf "Cor Hilbrink" ;
+    nif:beginIndex "2767" ;
+    nif:endIndex "2779" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w484w485> nif:anchorOf "Henk Olijve" ;
+    nif:beginIndex "2783" ;
+    nif:endIndex "2794" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w490w491> nif:anchorOf "FC Twente" ;
+    nif:beginIndex "2812" ;
+    nif:endIndex "2821" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w494w495> nif:anchorOf "FC Twente" ;
+    nif:beginIndex "2831" ;
+    nif:endIndex "2840" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w497w498> nif:anchorOf "Coen Hilbrink" ;
+    nif:beginIndex "2843" ;
+    nif:endIndex "2856" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w49w50w51> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "272" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w5> nif:anchorOf "Almelo" ;
+    nif:beginIndex "30" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w500w501w502w503w504w505w506w507w508w509> nif:anchorOf "Knokploegen Religie en gewapend verzet 1943-1944 Boom Amsterdam" ;
+    nif:beginIndex "2858" ;
+    nif:endIndex "2923" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w506> nif:anchorOf "1943-1944" ;
+    nif:beginIndex "2898" ;
+    nif:endIndex "2907" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w511> nif:anchorOf "2015" ;
+    nif:beginIndex "2925" ;
+    nif:endIndex "2929" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w52> nif:BeginIndex "273" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "277" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w61w62> nif:anchorOf "FC Twente" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "340" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w69> nif:anchorOf "Enschedese" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "385" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w71> nif:BeginIndex "391" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "393" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w77w78> nif:anchorOf "Grolsch Veste" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "438" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w7w8w9> nif:anchorOf "8 juli 1918" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w80> nif:anchorOf "2009" ;
+    nif:beginIndex "445" ;
+    nif:endIndex "449" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w82> nif:anchorOf "Hilbrink" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "463" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w86w87> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "478" ;
+    nif:endIndex "497" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w88> nif:BeginIndex "498" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "501" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w89w90w91w92> nif:anchorOf "er de oorzaak van" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "519" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w94> nif:anchorOf "Hilbrink" ;
+    nif:beginIndex "524" ;
+    nif:endIndex "532" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w96w97w98> nif:anchorOf "na zijn militaire" ;
+    nif:beginIndex "534" ;
+    nif:endIndex "551" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w96w97w98w99w100w101w102w103w104w105w106w107> nif:anchorOf "na zijn militaire dienstplicht te hebben vervuld niet aan een medicijnenstudie" ;
+    nif:beginIndex "534" ;
+    nif:endIndex "613" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w99> nif:anchorOf "dienstplicht" ;
+    nif:beginIndex "552" ;
+    nif:endIndex "564" ;
+    nif:head "bgnProc:1780__Cor_Hilbrink.naf#w99" ;
+    nif:lemma "dienst_plicht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w105w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_113> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w114> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_141t_142t_143t_144t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w142w143w144w145w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_158t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w159w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_162t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w163w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_165t_166t_167t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w166w167w168w169w170w171w172w173w174w175w176w177w178w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_190t_191t_192> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w191w192w193> ;
+    xs:date "1944-09-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_194t_195t_196t_197t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w195w196w197w198w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_209t_210t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w210w211w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_217t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w218w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_226> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w227> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_229> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w230> ;
+    xs:period "PAST_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w231w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_232t_233t_234> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w233w234w235> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_239t_240t_241t_242t_243t_244> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w240w241w242w243w244w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_241t_242t_243> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w242w243w244> ;
+    xs:period "PAST_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_248t_249> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w249w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_251t_252t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w252w253w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_256> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w257> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_276> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w277> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_279> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w280> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_281t_282t_283t_284> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w282w283w284w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_294> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w295> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_297> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w298> ;
+    xs:gYear "1955" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_309t_310t_311t_312t_313t_314t_315t_316> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w310w311w312w313w314w315w316w317> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_317t_318t_319> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w318w319w320> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_321> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w322> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_323> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w324> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_324t_325t_326t_327t_328t_329t_330> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w325w326w327w328w329w330w331> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_342> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w343> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_351> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w352> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_361> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w362> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_370> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w371> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_38t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w39w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_390> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w391> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_391t_392t_393t_394t_395t_396t_397> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w392w393w394w395w396w397w398> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_400> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w401> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_403t_404t_405t_406t_407t_408t_409t_410> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w404w405w406w407w408w409w410w411> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_406> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w407> ;
+    xs:gYear "1973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_408> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w409> ;
+    xs:gYear "1954" .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_42t_43t_44t_45t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w43w44w45w46w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_48t_49t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w49w50w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_95t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w96w97w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_95t_96t_97t_98t_99t_100t_101t_102t_103t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w96w97w98w99w100w101w102w103w104w105w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w139w140w141w142w143w144w145w146w147w148> .
+
+bgn:Person-1780 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w138>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w208>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w223w224w225>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w261>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w267>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w268>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w287w288>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w294>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w303w304>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w307>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w337>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w339>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w349w350>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w356w357>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w359>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w360>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w378w379>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w385w386>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w388w389>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w413w414>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w423>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w432>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w438>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w440>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w444>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w457w458>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w460>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w466>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w473>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w481w482>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w484w485>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w490w491>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w494w495>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w497w498>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w500w501w502w503w504w505w506w507w508w509>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w61w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w86w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1780__Cor_Hilbrink.naf#w94> .
+

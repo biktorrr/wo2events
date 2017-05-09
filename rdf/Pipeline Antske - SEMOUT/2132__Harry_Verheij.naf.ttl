@@ -1,0 +1,659 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_118t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_180t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_219t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_26t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_49t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_9t_10t_11>,
+        bgn:Person-2132 ;
+    ore:proxyFor bgn:Person-2132 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w119> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w181> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w222> nif:lemma "rol" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w27> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w44> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w50> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2132__Harry_Verheij#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2132__Harry_Verheij .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2132 ;
+    bgn:aggregatedPerson bgn:Person-2132 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2132__Harry_Verheij ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2132__Harry_Verheij ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w101> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w113> ;
+    pb:Arg1 bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w117> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_93> ;
+    pb:A2 bgn:Person-2132 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w122> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_122> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_118t_119t_120> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_126> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w127> ;
+    xs:gYear "1978" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_135> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w136> ;
+    xs:gYear "1966" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w14w15w16> ;
+    xs:date "2014-06-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_144> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w145> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_149> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w150> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w151> ;
+    pb:ArgM-TMP bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w176> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_205t_206>,
+        bgn:Person-2132 ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_177> ;
+    pb:ArgM-PRD bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w184> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_180t_181t_182> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w185> ;
+    pb:Arg1 bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_204> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w205> ;
+    xs:gYear "1968" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_210t_211t_212> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w211w212w213> ;
+    xs:gYearMonth "2016-H2" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w218> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_218> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_219t_220t_221> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_214t_215t_216>,
+        bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_235> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w236> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_234> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w26> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_26t_27> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_251> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w252> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_243> ;
+    pb:A1 bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w47> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_47> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_49t_50t_51> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_43t_44t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w57> ;
+    pb:Arg1 bgn:Person-2132 ;
+    pb:ArgM-LOC bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_79t_80> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w80w81> ;
+    xs:gYearMonth "1941-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w86> ;
+    pb:Arg1 bgn:Person-2132 .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w95> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w10w11w12> ;
+    xs:date "1917-02-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w101> nif:BeginIndex "567" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "571" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w106> nif:anchorOf "CPN" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "595" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w10w11w12> nif:anchorOf "26 februari 1917" ;
+    nif:beginIndex "41" ;
+    nif:endIndex "57" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w110> nif:anchorOf "1946" ;
+    nif:beginIndex "607" ;
+    nif:endIndex "611" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w113> nif:BeginIndex "619" ;
+    nif:anchorOf "partijbestuur" ;
+    nif:endIndex "632" ;
+    nif:lemma "partij_bestuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w116> nif:anchorOf "CPN" ;
+    nif:beginIndex "640" ;
+    nif:endIndex "643" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w117> nif:BeginIndex "644" ;
+    nif:anchorOf "gekozen" ;
+    nif:endIndex "651" ;
+    nif:lemma "kiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w119w120w121> nif:anchorOf "Voor diezelfde partij" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "674" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w122> nif:BeginIndex "675" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "678" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w123> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "679" ;
+    nif:endIndex "682" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w123" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w125> nif:anchorOf "1958" ;
+    nif:beginIndex "687" ;
+    nif:endIndex "691" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w127> nif:anchorOf "1978" ;
+    nif:beginIndex "696" ;
+    nif:endIndex "700" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w133> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "729" ;
+    nif:endIndex "738" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w136> nif:anchorOf "1966" ;
+    nif:beginIndex "746" ;
+    nif:endIndex "750" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w138> nif:anchorOf "1978" ;
+    nif:beginIndex "755" ;
+    nif:endIndex "759" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w142w143> nif:anchorOf "Leen Seegers" ;
+    nif:beginIndex "774" ;
+    nif:endIndex "786" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w145> nif:anchorOf "1945" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "794" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w147w148> nif:anchorOf "Ben Polak" ;
+    nif:beginIndex "798" ;
+    nif:endIndex "807" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w14w15w16> nif:anchorOf "30 juni 2014" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w150> nif:anchorOf "1946" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "815" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w151> nif:BeginIndex "816" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "819" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w158> nif:anchorOf "Nederland" ;
+    nif:beginIndex "862" ;
+    nif:endIndex "871" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w170> nif:anchorOf "PvdA" ;
+    nif:beginIndex "944" ;
+    nif:endIndex "948" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w172w173w174> nif:anchorOf "Ed van Thijn" ;
+    nif:beginIndex "950" ;
+    nif:endIndex "962" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w176> nif:BeginIndex "964" ;
+    nif:anchorOf "zorgde" ;
+    nif:endIndex "970" ;
+    nif:lemma "zorgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w177> nif:anchorOf "Verheij" ;
+    nif:beginIndex "971" ;
+    nif:endIndex "978" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w178> nif:anchorOf "ervoor" ;
+    nif:beginIndex "979" ;
+    nif:endIndex "985" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w178" ;
+    nif:lemma "ervoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w18> nif:BeginIndex "74" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "77" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w181w182w183> nif:anchorOf "tot dan toe" ;
+    nif:beginIndex "993" ;
+    nif:endIndex "1004" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w181" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w184> nif:BeginIndex "1005" ;
+    nif:anchorOf "gescheiden" ;
+    nif:endIndex "1015" ;
+    nif:lemma "gescheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w185> nif:BeginIndex "1016" ;
+    nif:anchorOf "herdenkingen" ;
+    nif:endIndex "1028" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w188> nif:anchorOf "Februaristaking" ;
+    nif:beginIndex "1036" ;
+    nif:endIndex "1051" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w195> nif:BeginIndex "1074" ;
+    nif:anchorOf "gemeentebestuur" ;
+    nif:endIndex "1089" ;
+    nif:lemma "gemeente_bestuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w1w2> nif:anchorOf "Adriaan" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "82" ;
+    nif:endIndex "92" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w205> nif:anchorOf "1968" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1134" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w206w207> nif:anchorOf "één herdenking" ;
+    nif:beginIndex "1135" ;
+    nif:endIndex "1149" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w207" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w207> nif:BeginIndex "1139" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "1149" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w211w212w213> nif:anchorOf "de tweede helft" ;
+    nif:beginIndex "1159" ;
+    nif:endIndex "1174" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w215w216w217> nif:anchorOf "de jaren tachtig" ;
+    nif:beginIndex "1179" ;
+    nif:endIndex "1195" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w218> nif:BeginIndex "1196" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "1203" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w219> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1204" ;
+    nif:endIndex "1207" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w219" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w220w221w222> nif:anchorOf "een belangrijke rol" ;
+    nif:beginIndex "1208" ;
+    nif:endIndex "1227" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w228w229> nif:anchorOf "Indisch Monument" ;
+    nif:beginIndex "1258" ;
+    nif:endIndex "1274" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w231w232> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "1278" ;
+    nif:endIndex "1286" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w235> nif:anchorOf "1991" ;
+    nif:beginIndex "1291" ;
+    nif:endIndex "1295" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w236> nif:BeginIndex "1296" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1299" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w237> nif:anchorOf "Verheij" ;
+    nif:beginIndex "1300" ;
+    nif:endIndex "1307" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w244> nif:anchorOf "die" ;
+    nif:beginIndex "1355" ;
+    nif:endIndex "1358" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w244" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w249w250w251> nif:anchorOf "Bos der Onverzettelijken" ;
+    nif:beginIndex "1377" ;
+    nif:endIndex "1401" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w252> nif:BeginIndex "1402" ;
+    nif:anchorOf "uitvoerde" ;
+    nif:endIndex "1411" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w26> nif:BeginIndex "127" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "130" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w27w28> nif:anchorOf "onder meer" ;
+    nif:beginIndex "131" ;
+    nif:endIndex "141" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w31> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "165" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w35w36> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "173" ;
+    nif:endIndex "192" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w4> nif:anchorOf "Harry" ;
+    nif:beginIndex "14" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w41> nif:anchorOf "Harry" ;
+    nif:beginIndex "213" ;
+    nif:endIndex "218" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w44w45w46> nif:anchorOf "onder deze naam" ;
+    nif:beginIndex "224" ;
+    nif:endIndex "239" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w47> nif:BeginIndex "240" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "245" ;
+    nif:lemma "bekend_staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w48> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "249" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w48" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w50w51w52> nif:anchorOf "in het verzet" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "270" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w54w55> nif:anchorOf "Harry Verheij" ;
+    nif:beginIndex "272" ;
+    nif:endIndex "285" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w57> nif:BeginIndex "291" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "298" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w6> nif:anchorOf "Verheij" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "28" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w61w62> nif:anchorOf "Adriaan Verheij" ;
+    nif:beginIndex "312" ;
+    nif:endIndex "327" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w64w65w66w67> nif:anchorOf "Maria Geertruida Helena Gouwerok" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "363" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w74> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "415" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w76w77> nif:anchorOf "De Pijp" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "428" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w8> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "30" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w80w81> nif:anchorOf "februari 1941" ;
+    nif:beginIndex "434" ;
+    nif:endIndex "447" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w83> nif:anchorOf "Verheij" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "462" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w86> nif:BeginIndex "482" ;
+    nif:anchorOf "betrokken" ;
+    nif:endIndex "491" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w92> nif:anchorOf "Februaristaking" ;
+    nif:beginIndex "518" ;
+    nif:endIndex "533" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w94> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "538" ;
+    nif:head "bgnProc:2132__Harry_Verheij.naf#w94" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w95> nif:BeginIndex "539" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "544" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_109> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w110> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_118t_119t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w119w120w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_124> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w125> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_137> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w138> ;
+    xs:gYear "1978" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_180t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w181w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_205t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w206w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_214t_215t_216> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w215w216w217> ;
+    xs:date "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_219t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w220w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_234> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w235> ;
+    xs:gYear "1991" .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_26t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w27w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_43t_44t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w44w45w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_49t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w50w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w94> .
+
+bgn:Person-2132 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w142w143>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w147w148>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w172w173w174>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w188>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w228w229>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w231w232>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w249w250w251>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w54w55>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w61w62>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w64w65w66w67>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w76w77>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/2132__Harry_Verheij.naf#w92> .
+

@@ -1,0 +1,788 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_102t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_117t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_126t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_143t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_147t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_152t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_170t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_229t_230t_231t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_30t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_40t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_92>,
+        bgn:Person-1115 ;
+    ore:proxyFor bgn:Person-1115 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w120> nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w121> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w128> nif:lemma "contraspionage" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w173> nif:lemma "kruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w231> nif:lemma "dodenherdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w32> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w42> nif:lemma "sinds" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w59> nif:lemma "tegen" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1115__Anne_Anton_Bosschart#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1115__Anne_Anton_Bosschart .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1115 ;
+    bgn:aggregatedPerson bgn:Person-1115 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1115__Anne_Anton_Bosschart ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1115__Anne_Anton_Bosschart ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w105> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_100> ;
+    pb:A1 bgn:Person-1115 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_102t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w112> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_100> ;
+    pb:A1 bgn:Person-1115 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w116> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_116> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_117t_118t_119> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_120t_121t_122> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w126> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_126t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_128> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w13w14w15> ;
+    xs:date "1941-09-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w137> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_131> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_134t_135> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w139> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_131> ;
+    pb:Arg2 bgn:Person-1115 .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_143t_144t_145> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w144w145w146> ;
+    xs:date "1940-12-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_147t_148t_149> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w148w149w150> ;
+    xs:date "1941-07-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w161> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_156> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_152t_153t_154> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_159> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w168> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_170t_171t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w170> ;
+    xs:gYear "1978" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w185> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_180> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w188> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_186> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_188> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_213> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w214> ;
+    xs:gYear "2007" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w225> ;
+    pb:A1 bgn:Person-1115 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_227> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w228> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_229t_230t_231t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_231> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_234> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w33> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_30t_31> ;
+    pb:A2 bgn:Person-1115 .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_38> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w39> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_42> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w43> ;
+    xs:gYear "1937" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_43> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w44> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_40t_41t_42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w58> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_58t_59t_60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w64> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_64> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_74> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_62> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_70>,
+        bgn:Person-1115 .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w70> ;
+    pb:A0 bgn:Person-1115 .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w7w8w9> ;
+    xs:date "1897-01-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w73> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w78> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w84> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_76> ;
+    pb:Arg1 bgn:Person-1115 .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w101> nif:anchorOf "dat" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "604" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w101" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w103w104> nif:anchorOf "augustus 1940" ;
+    nif:beginIndex "608" ;
+    nif:endIndex "621" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w105> nif:BeginIndex "622" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "627" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w108w109> nif:anchorOf "Vrij Nederland" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "658" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w110> nif:anchorOf "uit" ;
+    nif:beginIndex "659" ;
+    nif:endIndex "662" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w110" ;
+    nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w112> nif:BeginIndex "666" ;
+    nif:anchorOf "geven" ;
+    nif:endIndex "671" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w115> nif:anchorOf "1940" ;
+    nif:beginIndex "676" ;
+    nif:endIndex "680" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w116> nif:BeginIndex "681" ;
+    nif:anchorOf "bracht" ;
+    nif:endIndex "687" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w117> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "688" ;
+    nif:endIndex "691" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w117" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w118w119w120> nif:anchorOf "800 illegale groepen" ;
+    nif:beginIndex "692" ;
+    nif:endIndex "712" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w121w122w123> nif:anchorOf "onder één dak" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "726" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w125> nif:anchorOf "Ook" ;
+    nif:beginIndex "728" ;
+    nif:endIndex "731" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w125" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w126> nif:BeginIndex "732" ;
+    nif:anchorOf "richtte" ;
+    nif:endIndex "739" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w127w128> nif:anchorOf "een contraspionage" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "758" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w129> nif:anchorOf "groep" ;
+    nif:beginIndex "759" ;
+    nif:endIndex "764" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w129" ;
+    nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w132> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "769" ;
+    nif:endIndex "772" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w132" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w135w136> nif:anchorOf "december 1940" ;
+    nif:beginIndex "781" ;
+    nif:endIndex "794" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w137> nif:BeginIndex "795" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "807" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w139> nif:BeginIndex "811" ;
+    nif:anchorOf "verbleef" ;
+    nif:endIndex "819" ;
+    nif:lemma "verblijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w13w14w15> nif:anchorOf "29 september 1941" ;
+    nif:beginIndex "72" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w142> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "827" ;
+    nif:endIndex "838" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w144w145w146> nif:anchorOf "16 december 1940" ;
+    nif:beginIndex "844" ;
+    nif:endIndex "860" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w148w149w150> nif:anchorOf "26 juli 1941" ;
+    nif:beginIndex "865" ;
+    nif:endIndex "877" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w153w154w155> nif:anchorOf "29 september 1941" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "899" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w157> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "905" ;
+    nif:endIndex "908" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w157" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w160> nif:anchorOf "Bussumerheide" ;
+    nif:beginIndex "915" ;
+    nif:endIndex "928" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w161> nif:BeginIndex "929" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "941" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w165> nif:anchorOf "Bussumerheide" ;
+    nif:beginIndex "950" ;
+    nif:endIndex "963" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w167> nif:anchorOf "Hilversum" ;
+    nif:beginIndex "967" ;
+    nif:endIndex "976" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w168> nif:BeginIndex "977" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "979" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w17> nif:BeginIndex "91" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "94" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w170> nif:anchorOf "1978" ;
+    nif:beginIndex "983" ;
+    nif:endIndex "987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w171w172w173> nif:anchorOf "een monumentaal kruis" ;
+    nif:beginIndex "988" ;
+    nif:endIndex "1009" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w181> nif:anchorOf "dat" ;
+    nif:beginIndex "1060" ;
+    nif:endIndex "1063" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w181" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w184> nif:anchorOf "1945" ;
+    nif:beginIndex "1073" ;
+    nif:endIndex "1077" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w185> nif:BeginIndex "1078" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "1083" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w187> nif:anchorOf "Hierop" ;
+    nif:beginIndex "1085" ;
+    nif:endIndex "1091" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w187" ;
+    nif:lemma "hierop" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w188> nif:BeginIndex "1092" ;
+    nif:anchorOf "stonden" ;
+    nif:endIndex "1099" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w189> nif:anchorOf "aanvankelijk" ;
+    nif:beginIndex "1100" ;
+    nif:endIndex "1112" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w189" ;
+    nif:lemma "aanvankelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w193> nif:anchorOf "A.A" ;
+    nif:beginIndex "1125" ;
+    nif:endIndex "1128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w199w200w201> nif:anchorOf "J. van Hamel" ;
+    nif:beginIndex "1147" ;
+    nif:endIndex "1159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w1w2w3> nif:anchorOf "Anton Bosschart" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w203w204> nif:anchorOf "R. P." ;
+    nif:beginIndex "1161" ;
+    nif:endIndex "1165" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w206w207w208> nif:anchorOf "Jacob en C." ;
+    nif:beginIndex "1168" ;
+    nif:endIndex "1179" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w211> nif:anchorOf "Vegte" ;
+    nif:beginIndex "1185" ;
+    nif:endIndex "1190" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w214> nif:anchorOf "2007" ;
+    nif:beginIndex "1195" ;
+    nif:endIndex "1199" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w219> nif:anchorOf "A.J" ;
+    nif:beginIndex "1218" ;
+    nif:endIndex "1221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w221w222w223> nif:anchorOf "L. van Zomeren" ;
+    nif:beginIndex "1222" ;
+    nif:endIndex "1236" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w224> nif:anchorOf "aan" ;
+    nif:beginIndex "1237" ;
+    nif:endIndex "1240" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w224" ;
+    nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w225> nif:BeginIndex "1241" ;
+    nif:anchorOf "toegevoegd" ;
+    nif:endIndex "1251" ;
+    nif:lemma "toe_voegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w228> nif:BeginIndex "1256" ;
+    nif:anchorOf "vindt" ;
+    nif:endIndex "1261" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w229> nif:anchorOf "jaarlijks" ;
+    nif:beginIndex "1262" ;
+    nif:endIndex "1271" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w230w231w232w233w234> nif:anchorOf "een dodenherdenking plaats op 4" ;
+    nif:beginIndex "1272" ;
+    nif:endIndex "1303" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w231" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w232> nif:anchorOf "plaats" ;
+    nif:beginIndex "1292" ;
+    nif:endIndex "1298" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w232" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w235> nif:anchorOf "mei." ;
+    nif:beginIndex "1304" ;
+    nif:endIndex "1308" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w235" ;
+    nif:lemma "mei" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w26w27w28w29> nif:anchorOf "Comité voor Vrij Nederland" ;
+    nif:beginIndex "145" ;
+    nif:endIndex "171" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w31w32> nif:anchorOf "Zijn naam" ;
+    nif:beginIndex "173" ;
+    nif:endIndex "182" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w32" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w33> nif:BeginIndex "183" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "188" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w36w37w38> nif:anchorOf "Erelijst van Gevallenen" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "218" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w39> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "228" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w41w42w43> nif:anchorOf "Al sinds 1937" ;
+    nif:beginIndex "231" ;
+    nif:endIndex "244" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w43> nif:anchorOf "1937" ;
+    nif:beginIndex "240" ;
+    nif:endIndex "244" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w44> nif:BeginIndex "245" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "248" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w45> nif:anchorOf "Bosschart" ;
+    nif:beginIndex "249" ;
+    nif:endIndex "258" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w5> nif:anchorOf "Paramaribo" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "32" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w51w52w53w54w55> nif:anchorOf "Nederlandse Inlichtingendienst Generale Staf III" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "332" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w58> nif:BeginIndex "339" ;
+    nif:anchorOf "strijd" ;
+    nif:endIndex "345" ;
+    nif:lemma "strijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w59w60w61> nif:anchorOf "tegen het fascisme" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "364" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w63> nif:anchorOf "Hierdoor" ;
+    nif:beginIndex "366" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w63" ;
+    nif:lemma "hierdoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w64> nif:BeginIndex "375" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "378" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w65> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "382" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w65" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w68w69> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "391" ;
+    nif:endIndex "410" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w70> nif:BeginIndex "411" ;
+    nif:anchorOf "uitbrak" ;
+    nif:endIndex "418" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w71> nif:anchorOf "al" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "421" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w71" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w73> nif:BeginIndex "426" ;
+    nif:anchorOf "radioverbinding" ;
+    nif:endIndex "441" ;
+    nif:lemma "radio_verbinding" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w75> nif:anchorOf "Engeland" ;
+    nif:beginIndex "446" ;
+    nif:endIndex "454" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w77> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "456" ;
+    nif:endIndex "459" ;
+    nif:head "bgnProc:1115__Anne_Anton_Bosschart.naf#w77" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w78> nif:BeginIndex "460" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "463" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w7w8w9> nif:anchorOf "5 januari 1897" ;
+    nif:beginIndex "34" ;
+    nif:endIndex "48" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w81w82> nif:anchorOf "Betsie Wijzenbeek" ;
+    nif:beginIndex "477" ;
+    nif:endIndex "494" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w84> nif:BeginIndex "498" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "501" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w87w88w89w90> nif:anchorOf "Ada Anita Joan Bosschart" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "538" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w92> nif:anchorOf "Bosschart" ;
+    nif:beginIndex "541" ;
+    nif:endIndex "550" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w93> nif:BeginIndex "551" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "554" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w97w98w99> nif:anchorOf "comité Vrij Nederland" ;
+    nif:beginIndex "578" ;
+    nif:endIndex "599" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_102t_103> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w103w104> ;
+    xs:gYearMonth "1940-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_114> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w115> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_117t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w118w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_126t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w127w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_134t_135> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w135w136> ;
+    xs:gYearMonth "1940-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_152t_153t_154> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w153w154w155> ;
+    xs:date "1941-09-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_170t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w171w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_183> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w184> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_228> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w229> ;
+    xs:gYear "XXXX" .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_229t_230t_231t_232t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w230w231w232w233w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_234> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w235> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_30t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w31w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_40t_41t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w41w42w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_58t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w59w60w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w77> ;
+    stevensFam:isPartnerIn bgn:Person-1115 .
+
+bgn:Person-1115 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w108w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w142>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w160>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w193>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w199w200w201>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w203w204>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w206w207w208>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w211>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w219>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w221w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w26w27w28w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w36w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w51w52w53w54w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w68w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w81w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w87w88w89w90>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w92>,
+        <http://data.biographynet.nl/rdf/170506221754/1115__Anne_Anton_Bosschart.naf#w97w98w99> .
+

@@ -1,0 +1,728 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_133t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_178t_179t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_17t_18t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_185t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_231t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_40t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_63t_64t_65t_67t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_99t_100>,
+        bgn:Person-950 ;
+    ore:proxyFor bgn:Person-950 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w100> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w134> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w174> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w179> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w184> nif:lemma "straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w222> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w232> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w41> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w45> nif:lemma "medaille" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w61> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w64> nif:lemma "van" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-950__Sam_Olij#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-950__Sam_Olij .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-950 ;
+    bgn:aggregatedPerson bgn:Person-950 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-950__Sam_Olij ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-950__Sam_Olij ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w102> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_98> ;
+    pb:A1 bgn:Person-950 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_99t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w109> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_107> ;
+    pb:ArgM-TMP bgn:Person-950 .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w12w13w14> ;
+    xs:date "1900-10-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w122> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_114> ;
+    pb:Arg1 bgn:Person-950 .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w125> ;
+    pb:Arg1 bgn:Person-950 .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w133> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_133t_134t_135> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_163> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w164> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w167> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w176> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_173t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_17t_18t_19> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w18w19w20> ;
+    xs:date "1975-08-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w185> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_182t_183> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_185t_186t_187> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_178t_179t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_197> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w198> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w208> ;
+    pb:ArgM-PRD bgn:Person-950 .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_215> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w216> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_200> ;
+    pb:ArgM-LOC bgn:Person-950 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_212> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w225> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_225> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_227> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_221t_222t_223> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w231> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_229> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_235> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_231t_232t_233> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w31> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_29> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_32>,
+        bgn:Person-950 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w40> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_29> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_40t_41t_42> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_43t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_47> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w48> ;
+    xs:gYear "1928" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w59> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_59> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_75> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69>,
+        bgn:Person-950 .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w63> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_63t_64t_65t_67t_68t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w79> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_79>,
+        bgn:Person-950 .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w10> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w100w101> nif:anchorOf "onder leiding" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "514" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w102> nif:BeginIndex "515" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "520" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w105w106> nif:anchorOf "Theo Huizenaar" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "547" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w108> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "549" ;
+    nif:endIndex "552" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w108" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w109> nif:BeginIndex "553" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "556" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w112> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "578" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w115> nif:anchorOf "die" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "595" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w115" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w119> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "617" ;
+    nif:endIndex "628" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w122> nif:BeginIndex "640" ;
+    nif:anchorOf "binnendragen" ;
+    nif:endIndex "652" ;
+    nif:lemma "binnen_dragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w125> nif:BeginIndex "664" ;
+    nif:anchorOf "openingsceremonie" ;
+    nif:endIndex "681" ;
+    nif:lemma "opening_ceremonie" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w128w129> nif:anchorOf "Olympische Spelen" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "706" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w12w13w14> nif:anchorOf "5 oktober 1900" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w131w132> nif:anchorOf "Sam Olij" ;
+    nif:beginIndex "709" ;
+    nif:endIndex "717" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w133> nif:BeginIndex "718" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "721" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w134w135w136> nif:anchorOf "in de oorlog" ;
+    nif:beginIndex "722" ;
+    nif:endIndex "734" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w134" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w148w149w150w151w152> nif:anchorOf "Landverraad van Koos Groen" ;
+    nif:beginIndex "795" ;
+    nif:endIndex "822" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w16> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "64" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w164> nif:BeginIndex "876" ;
+    nif:anchorOf "arbeidsinzet" ;
+    nif:endIndex "888" ;
+    nif:lemma "arbeid_inzet" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w166> nif:anchorOf "Polen" ;
+    nif:beginIndex "892" ;
+    nif:endIndex "897" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w167> nif:BeginIndex "898" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "901" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w169> nif:anchorOf "vooral" ;
+    nif:beginIndex "905" ;
+    nif:endIndex "911" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w169" ;
+    nif:lemma "vooral" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w174w175> nif:anchorOf "ter dood" ;
+    nif:beginIndex "930" ;
+    nif:endIndex "938" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w174" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w176> nif:BeginIndex "939" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "950" ;
+    nif:lemma "veroordeeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w179w180w181> nif:anchorOf "In tweede instantie" ;
+    nif:beginIndex "957" ;
+    nif:endIndex "976" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w179" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w183w184> nif:anchorOf "de straf" ;
+    nif:beginIndex "982" ;
+    nif:endIndex "990" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w184" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w185> nif:BeginIndex "991" ;
+    nif:anchorOf "verlaagd" ;
+    nif:endIndex "999" ;
+    nif:lemma "verlagen" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w186w187w188> nif:anchorOf "tot vijftien jaar" ;
+    nif:beginIndex "1000" ;
+    nif:endIndex "1017" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w18w19w20> nif:anchorOf "4 augustus 1975" ;
+    nif:beginIndex "66" ;
+    nif:endIndex "81" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w191> nif:BeginIndex "1023" ;
+    nif:anchorOf "ontsnapte" ;
+    nif:endIndex "1032" ;
+    nif:lemma "ontsnappen" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w198> nif:anchorOf "Jan" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1056" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w198w199> nif:anchorOf "Jan Olij" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1061" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w1w2> nif:anchorOf "Paulus" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w201> nif:anchorOf "die" ;
+    nif:beginIndex "1063" ;
+    nif:endIndex "1066" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w201" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w203> nif:anchorOf "SS-vrijwilliger" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1086" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w206> nif:BeginIndex "1095" ;
+    nif:anchorOf "oostfront" ;
+    nif:endIndex "1104" ;
+    nif:lemma "oost_front" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w208> nif:BeginIndex "1112" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1115" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w213> nif:anchorOf "zich" ;
+    nif:beginIndex "1139" ;
+    nif:endIndex "1143" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w213" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w214> nif:anchorOf "vervolgens" ;
+    nif:beginIndex "1144" ;
+    nif:endIndex "1154" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w214" ;
+    nif:lemma "vervolgens" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w216> nif:BeginIndex "1162" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "1168" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w219w220> nif:anchorOf "Grüne Polizei" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1189" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w22> nif:BeginIndex "83" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "86" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w222w223w224> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "1191" ;
+    nif:endIndex "1203" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w225> nif:BeginIndex "1204" ;
+    nif:anchorOf "vluchtte" ;
+    nif:endIndex "1212" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w226> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1216" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w226" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w228> nif:anchorOf "Argentinië" ;
+    nif:beginIndex "1222" ;
+    nif:endIndex "1232" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w230> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1235" ;
+    nif:endIndex "1238" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w230" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w231> nif:BeginIndex "1239" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1247" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w232w233w234> nif:anchorOf "op 74-jarige leeftijd" ;
+    nif:beginIndex "1248" ;
+    nif:endIndex "1269" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w232" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w236> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "1273" ;
+    nif:endIndex "1282" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w26> nif:anchorOf "Landsmeer" ;
+    nif:beginIndex "109" ;
+    nif:endIndex "118" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w28> nif:anchorOf "Nederland" ;
+    nif:beginIndex "120" ;
+    nif:endIndex "129" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w30> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "131" ;
+    nif:endIndex "134" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w30" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w31> nif:BeginIndex "135" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "138" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w32> nif:anchorOf "eenmaal" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "146" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w32" ;
+    nif:lemma "eenmaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w33> nif:anchorOf "deel" ;
+    nif:beginIndex "147" ;
+    nif:endIndex "151" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w33" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w36w37> nif:anchorOf "Olympische Spelen" ;
+    nif:beginIndex "159" ;
+    nif:endIndex "176" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w40> nif:BeginIndex "183" ;
+    nif:anchorOf "won" ;
+    nif:endIndex "186" ;
+    nif:lemma "winnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w41w42w43> nif:anchorOf "bij die gelegenheid" ;
+    nif:beginIndex "187" ;
+    nif:endIndex "206" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w44w45> nif:anchorOf "geen medaille" ;
+    nif:beginIndex "207" ;
+    nif:endIndex "220" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w48> nif:anchorOf "1928" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "230" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w5> nif:anchorOf "Sam" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w51> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "246" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w53> nif:BeginIndex "256" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "259" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w56w57> nif:anchorOf "Olympische Spelen" ;
+    nif:beginIndex "267" ;
+    nif:endIndex "284" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w59> nif:BeginIndex "286" ;
+    nif:anchorOf "verloor" ;
+    nif:endIndex "293" ;
+    nif:lemma "verliezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w60> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "297" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w60" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w61w62w63w64w65w66w67w68w69w70> nif:anchorOf "in de kwartfinales van het zwaargewicht ( tot 91 kilogram" ;
+    nif:beginIndex "298" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w63> nif:BeginIndex "304" ;
+    nif:anchorOf "kwartfinales" ;
+    nif:endIndex "316" ;
+    nif:lemma "kwart_finale" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w64w65w66w68w69w70> nif:anchorOf "van het zwaargewicht tot 91 kilogram" ;
+    nif:beginIndex "317" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w70> nif:BeginIndex "346" ;
+    nif:anchorOf "kilogram" ;
+    nif:endIndex "354" ;
+    nif:lemma "kilo_gram" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w76> nif:anchorOf "Argentinië" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "391" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w78> nif:anchorOf "Olij" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "397" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w79> nif:BeginIndex "398" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "404" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w8> nif:anchorOf "Olij" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w80> nif:anchorOf "deel" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "409" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w80" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w89w90> nif:anchorOf "Ben Bril" ;
+    nif:beginIndex "453" ;
+    nif:endIndex "461" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w92w93w94> nif:anchorOf "Bep van Klaveren" ;
+    nif:beginIndex "463" ;
+    nif:endIndex "479" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w96w97> nif:anchorOf "Karel Miljon" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "495" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w99> nif:anchorOf "die" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "500" ;
+    nif:head "bgnProc:950__Sam_Olij.naf#w99" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_133t_134t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w134w135w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_173t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w174w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_178t_179t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w179w180w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_182t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w183w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_185t_186t_187> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w186w187w188> ;
+    xs:period "P15Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_221t_222t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w222w223w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_225> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_231t_232t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w232w233w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_40t_41t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w41w42w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w61w62w63w64w65w66w67w68w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_63t_64t_65t_67t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w64w65w66w68w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w100w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w30> .
+
+bgn:Person-950 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w105w106>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w128w129>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w131w132>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w148w149w150w151w152>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w198w199>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w203>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w219w220>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w228>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w236>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w56w57>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w89w90>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w92w93w94>,
+        <http://data.biographynet.nl/rdf/170506221754/950__Sam_Olij.naf#w96w97> .
+

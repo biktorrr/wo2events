@@ -1,0 +1,822 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_114t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_119t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_133t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_185t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_208t_209t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_244t_245t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_251t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_265t_266t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_271t_272t_273>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_36t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_79t_80t_81t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_80t_81t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_99t_100t_101>,
+        bgn:Person-1077 ;
+    ore:proxyFor bgn:Person-1077 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w120> nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w126> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w135> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w211> nif:lemma "herdruk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w266> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w272> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w37> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w81> nif:lemma "bij" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1077__Oswald_Assmann#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1077__Oswald_Assmann .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1077 ;
+    bgn:aggregatedPerson bgn:Person-1077 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1077__Oswald_Assmann ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1077__Oswald_Assmann ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_108> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w109> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w112> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_103> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_99t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_114t_115t_116> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w115w116w117> ;
+    xs:date "1945-03-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w119> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_123> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_119t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_125t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w137> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_133t_134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w14w15w16> ;
+    xs:date "1945-03-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w160> ;
+    pb:ArgM-MNR bgn:Person-1077 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_156> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_179t_180t_181> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w180w181w182> ;
+    xs:date "1885-07-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_185t_186t_187> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w186w187w188> ;
+    xs:date "1968-02-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_203> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w204> ;
+    xs:gYear "1917" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w212> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_205> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_208t_209t_210> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_229> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w230> ;
+    xs:gYear "1910" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_231> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w232> ;
+    xs:gYear "1916" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_244t_245t_246> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w245w246w247> ;
+    xs:date "1880-04-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_251t_252t_253> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w252w253w254> ;
+    xs:date "1962-04-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w27> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_25> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_27> ;
+    pb:AM-LOC bgn:Person-1077 .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_269> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w270> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_262> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_265t_266t_267> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_264> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_274> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w275> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_275> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_276> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_277> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_279> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_271t_272t_273> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w36> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_36t_37t_38t_39t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w57> ;
+    pb:A0 bgn:Person-1077 .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w59> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_59> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_66> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_64> ;
+    pb:AM-TMP bgn:Person-1077 .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w73> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_70> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_71> ;
+    pb:ArgM-MNR bgn:Person-1077 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w79> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_87> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_79t_80t_81t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w80> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_80t_81t_82t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w8w9w10> ;
+    xs:date "1887-05-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w100w101w102> nif:anchorOf "20 februari 1945" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "608" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w104> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "614" ;
+    nif:endIndex "617" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w104" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w109> nif:anchorOf "Jan" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "647" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w109w110w111> nif:anchorOf "Jan de Vries" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "656" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w112> nif:BeginIndex "657" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "669" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w115w116w117> nif:anchorOf "2 maart 1945" ;
+    nif:beginIndex "674" ;
+    nif:endIndex "686" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w119> nif:BeginIndex "694" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "698" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w12> nif:anchorOf "Varsseveld" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w120w121w122w123> nif:anchorOf "samen met een veertigtal" ;
+    nif:beginIndex "699" ;
+    nif:endIndex "723" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w124> nif:anchorOf "anderen" ;
+    nif:beginIndex "724" ;
+    nif:endIndex "731" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w124" ;
+    nif:lemma "ander" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w126w127> nif:anchorOf "als represaillemaatregel" ;
+    nif:beginIndex "745" ;
+    nif:endIndex "769" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w127> nif:BeginIndex "749" ;
+    nif:anchorOf "represaillemaatregel" ;
+    nif:endIndex "769" ;
+    nif:lemma "represaille_maatregel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w132> nif:anchorOf "Varsseveld" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "800" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w134w135> nif:anchorOf "Zijn naam" ;
+    nif:beginIndex "802" ;
+    nif:endIndex "811" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w137> nif:BeginIndex "818" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "825" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w141> nif:anchorOf "Varsseveld" ;
+    nif:beginIndex "851" ;
+    nif:endIndex "861" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w143> nif:anchorOf "Rademakersbroek" ;
+    nif:beginIndex "863" ;
+    nif:endIndex "878" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w145w146> nif:anchorOf "Prinses Irenestraat" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "901" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w14w15w16> nif:anchorOf "2 maart 1945" ;
+    nif:beginIndex "67" ;
+    nif:endIndex "79" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w150w151> nif:anchorOf "Oorlogsmonument Tegelen." ;
+    nif:beginIndex "910" ;
+    nif:endIndex "934" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w154> nif:BeginIndex "948" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "953" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w157> nif:anchorOf "1897" ;
+    nif:beginIndex "960" ;
+    nif:endIndex "964" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w159> nif:anchorOf "Nederlander" ;
+    nif:beginIndex "969" ;
+    nif:endIndex "980" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w160> nif:BeginIndex "981" ;
+    nif:anchorOf "genaturaliseerde" ;
+    nif:endIndex "997" ;
+    nif:lemma "genaturaliseerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w161w162> nif:anchorOf "Breslauer Franz/Frans" ;
+    nif:beginIndex "998" ;
+    nif:endIndex "1019" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w163w164w165> nif:anchorOf "Dominicus Oswald Assmann" ;
+    nif:beginIndex "1020" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w168> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1063" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w169w170> nif:anchorOf "Magdalena Cloeck" ;
+    nif:beginIndex "1064" ;
+    nif:endIndex "1080" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w174w175w176> nif:anchorOf "Martha Magdalena Assmann" ;
+    nif:beginIndex "1095" ;
+    nif:endIndex "1119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w178> nif:anchorOf "Tegelen" ;
+    nif:beginIndex "1121" ;
+    nif:endIndex "1128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w18> nif:BeginIndex "81" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "84" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w180w181w182> nif:anchorOf "27 juli 1885" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w184> nif:anchorOf "Leiden" ;
+    nif:beginIndex "1144" ;
+    nif:endIndex "1150" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w186w187w188> nif:anchorOf "10 februari 1968" ;
+    nif:beginIndex "1152" ;
+    nif:endIndex "1168" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w190> nif:BeginIndex "1170" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1172" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w194w195w196> nif:anchorOf "Mens et animus" ;
+    nif:beginIndex "1187" ;
+    nif:endIndex "1201" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w1w2w3w4> nif:anchorOf "Reinhold Wilhelm Assmann" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w204> nif:anchorOf "1917" ;
+    nif:beginIndex "1233" ;
+    nif:endIndex "1237" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w206> nif:anchorOf "dat" ;
+    nif:beginIndex "1239" ;
+    nif:endIndex "1242" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w206" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w208> nif:anchorOf "2011" ;
+    nif:beginIndex "1246" ;
+    nif:endIndex "1250" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w209w210w211> nif:anchorOf "een facsimile herdruk" ;
+    nif:beginIndex "1251" ;
+    nif:endIndex "1272" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w211" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w212> nif:BeginIndex "1273" ;
+    nif:anchorOf "beleefde" ;
+    nif:endIndex "1281" ;
+    nif:lemma "beleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w218> nif:anchorOf "Latijn" ;
+    nif:beginIndex "1308" ;
+    nif:endIndex "1314" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w220> nif:anchorOf "Alkmaar" ;
+    nif:beginIndex "1318" ;
+    nif:endIndex "1325" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w224w225> nif:anchorOf "Leids Gymnasium" ;
+    nif:beginIndex "1337" ;
+    nif:endIndex "1352" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w23> nif:anchorOf "Duitse" ;
+    nif:beginIndex "120" ;
+    nif:endIndex "126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w230> nif:anchorOf "1910" ;
+    nif:beginIndex "1367" ;
+    nif:endIndex "1371" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w232> nif:anchorOf "1916" ;
+    nif:beginIndex "1376" ;
+    nif:endIndex "1380" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w238w239w240w241> nif:anchorOf "Pietje van der Zijl" ;
+    nif:beginIndex "1418" ;
+    nif:endIndex "1437" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w243> nif:anchorOf "Sneek" ;
+    nif:beginIndex "1439" ;
+    nif:endIndex "1444" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w245w246w247> nif:anchorOf "26 april 1880" ;
+    nif:beginIndex "1446" ;
+    nif:endIndex "1459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w249> nif:anchorOf "Deventer" ;
+    nif:beginIndex "1462" ;
+    nif:endIndex "1470" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w252w253w254> nif:anchorOf "30 april 1962" ;
+    nif:beginIndex "1478" ;
+    nif:endIndex "1491" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w26> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "135" ;
+    nif:endIndex "138" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w26" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w260w261> nif:anchorOf "Aaltje Noordewier-Reddingius" ;
+    nif:beginIndex "1512" ;
+    nif:endIndex "1540" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w263> nif:anchorOf "die" ;
+    nif:beginIndex "1542" ;
+    nif:endIndex "1545" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w263" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w265> nif:anchorOf "1910" ;
+    nif:beginIndex "1549" ;
+    nif:endIndex "1553" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w266w267w268> nif:anchorOf "voor de kinderen" ;
+    nif:beginIndex "1554" ;
+    nif:endIndex "1570" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w266" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w27> nif:BeginIndex "139" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "148" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w270> nif:BeginIndex "1576" ;
+    nif:anchorOf "zorgen" ;
+    nif:endIndex "1582" ;
+    nif:lemma "zorgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w272w273w274> nif:anchorOf "Na de scheiding" ;
+    nif:beginIndex "1584" ;
+    nif:endIndex "1599" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w272" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w275> nif:BeginIndex "1600" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "1603" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w276> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1604" ;
+    nif:endIndex "1606" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w276" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w277> nif:BeginIndex "1607" ;
+    nif:anchorOf "zanglessen" ;
+    nif:beginIndex "1607" ;
+    nif:endIndex "1617" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w277" ;
+    nif:lemma "zang_les" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w278> nif:anchorOf "dan" ;
+    nif:beginIndex "1618" ;
+    nif:endIndex "1621" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w278" ;
+    nif:lemma "dan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w279> nif:anchorOf "wel" ;
+    nif:beginIndex "1622" ;
+    nif:endIndex "1625" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w279" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w28> nif:anchorOf "rechtswetenschappen" ;
+    nif:beginIndex "149" ;
+    nif:endIndex "168" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w28" ;
+    nif:lemma "rechtswetenschap" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w280> nif:anchorOf "spraakonderwijs" ;
+    nif:beginIndex "1626" ;
+    nif:endIndex "1641" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w280" ;
+    nif:lemma "spraakonderwijs" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w31w32w33> nif:anchorOf "Universiteit van Groningen" ;
+    nif:beginIndex "176" ;
+    nif:endIndex "202" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w35> nif:anchorOf "Assmann" ;
+    nif:beginIndex "204" ;
+    nif:endIndex "211" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w36> nif:BeginIndex "212" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "215" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w37w38w39w40w41> nif:anchorOf "als opvolger van zijn vader" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "243" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w50> nif:anchorOf "Tegelen" ;
+    nif:beginIndex "306" ;
+    nif:endIndex "313" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w55w56> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "343" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w57> nif:BeginIndex "344" ;
+    nif:anchorOf "uitbrak" ;
+    nif:endIndex "351" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w59> nif:BeginIndex "353" ;
+    nif:anchorOf "verspreidde" ;
+    nif:endIndex "364" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w6> nif:anchorOf "Tegelen" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w60> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "368" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w60" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w65> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "399" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w67> nif:anchorOf "Nederland" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "414" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w69> nif:anchorOf "Later" ;
+    nif:beginIndex "416" ;
+    nif:endIndex "421" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w69" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w71> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "429" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w71" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w72> nif:anchorOf "hetzelfde" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "439" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w72" ;
+    nif:lemma "hetzelfde" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w73> nif:BeginIndex "440" ;
+    nif:anchorOf "doen" ;
+    nif:endIndex "444" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w75w76> nif:anchorOf "Geallieerd Nieuws" ;
+    nif:beginIndex "449" ;
+    nif:endIndex "466" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w79> nif:BeginIndex "472" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "475" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w80> nif:BeginIndex "476" ;
+    nif:anchorOf "betrokken" ;
+    nif:endIndex "485" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w80w81w82w83w84> nif:anchorOf "betrokken bij de bulletins Goeden" ;
+    nif:beginIndex "476" ;
+    nif:endIndex "509" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w81w82w83w84> nif:anchorOf "bij de bulletins Goeden" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "509" ;
+    nif:head "bgnProc:1077__Oswald_Assmann.naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w85> nif:anchorOf "morgen" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "516" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w88> nif:anchorOf "Londen" ;
+    nif:beginIndex "525" ;
+    nif:endIndex "531" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w8w9w10> nif:anchorOf "9 mei 1887" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w91> nif:anchorOf "morgen" ;
+    nif:beginIndex "542" ;
+    nif:endIndex "548" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w97> nif:anchorOf "Nederland" ;
+    nif:beginIndex "578" ;
+    nif:endIndex "587" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_119t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w120w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_133t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w134w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_156> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w157> ;
+    xs:gYear "1897" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_207> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w208> ;
+    xs:gYear "2011" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_208t_209t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w209w210w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_262> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w263> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_264> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w265> ;
+    xs:gYear "1910" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_265t_266t_267> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w266w267w268> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_271t_272t_273> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w272w273w274> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_275> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w276> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_276> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w277> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_277> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_278> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w279> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_279> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w280> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_36t_37t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w37w38w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_79t_80t_81t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w80w81w82w83w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_80t_81t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w81w82w83w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_84> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w85> ;
+    xs:date "2017-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_90> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w91> ;
+    xs:date "2017-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#t_99t_100t_101> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w100w101w102> ;
+    xs:date "1945-02-20" .
+
+bgn:Person-1077 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w109w110w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w143>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w145w146>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w150w151>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w161w162>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w163w164w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w169w170>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w174w175w176>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w194w195w196>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w218>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w220>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w224w225>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w238w239w240w241>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w243>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w249>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w260w261>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w31w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w75w76>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1077__Oswald_Assmann.naf#w97> .
+

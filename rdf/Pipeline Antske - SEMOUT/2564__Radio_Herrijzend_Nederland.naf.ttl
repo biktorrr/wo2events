@@ -1,0 +1,744 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_151t_152t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_174t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_186t_187t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_195t_196t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_199t_200t_201t_202t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_251t_252t_253t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_275t_276t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_28t_29t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_49t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_72t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_76t_77t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_80t_81t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_84t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_88t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_94t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_98t_99t_100>,
+        bgn:Person-2564 ;
+    ore:proxyFor bgn:Person-2564 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w140> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w153> nif:lemma "mens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w176> nif:lemma "luisteraar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w187> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w201> nif:lemma "uitzending" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w252> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w276> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w52> nif:lemma "programma" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2564__Radio_Herrijzend_Nederland#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2564__Radio_Herrijzend_Nederland .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2564 ;
+    bgn:aggregatedPerson bgn:Person-2564 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2564__Radio_Herrijzend_Nederland ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2564__Radio_Herrijzend_Nederland ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_11> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w12> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_6> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_13>,
+        bgn:Person-2564 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_8> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w150> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_150> ;
+    pb:ArgM-CAU bgn:Person-2564 .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w160> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_150> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_156> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_151t_152t_153t_154t_155> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_157> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w165> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_150> ;
+    pb:A2 bgn:Person-2564 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w172> ;
+    pb:Arg1 bgn:Person-2564 .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w181> ;
+    pb:Arg1 bgn:Person-2564 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_174t_175> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_178> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w194> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_191>,
+        bgn:Person-2564 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_186t_187t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_195t_196t_197> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w207> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_199t_200t_201t_202t_203t_204> ;
+    pb:A2 bgn:Person-2564 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_226> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w227> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_228> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_250> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w251> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_251t_252t_253t_254>,
+        bgn:Person-2564 .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_256> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w257> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w27> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_24> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_28t_29t_30> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_262> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w263> ;
+    xs:gYear "1947" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_278> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w279> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_275t_276t_277> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_279> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w280> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w4> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w53> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_49t_50t_51> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_44> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_47t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w72> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_80t_81t_82> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_88t_89t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_72t_73> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w73w74> ;
+    xs:period "P1D" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_76t_77t_78> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w77w78w79> ;
+    xs:date "2017-05-02T07:00" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_84t_85t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w85w86w87> ;
+    xs:date "2017-05-02T12:00" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_94t_95t_96> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w95w96w97> ;
+    xs:date "2017-05-02T17:00" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_98t_99t_100> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w99w100w101> ;
+    xs:date "2017-05-02T22:15" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w11> nif:anchorOf "1946" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w110w111> nif:anchorOf "Herrijzend Nederland" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "563" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w112> nif:BeginIndex "564" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "569" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w113w114> nif:anchorOf "Frits Thors" ;
+    nif:beginIndex "570" ;
+    nif:endIndex "581" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w116w117> nif:anchorOf "Karel Nort" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w119w120> nif:anchorOf "Kees Middelhoff" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "610" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w12> nif:BeginIndex "70" ;
+    nif:anchorOf "uitzond" ;
+    nif:endIndex "77" ;
+    nif:lemma "uit_zenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w122w123> nif:anchorOf "Netty Rosenfeld" ;
+    nif:beginIndex "612" ;
+    nif:endIndex "627" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w125w126> nif:anchorOf "Arie Kleijwegt" ;
+    nif:beginIndex "629" ;
+    nif:endIndex "643" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w128w129> nif:anchorOf "Fred Knol" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "654" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w131w132> nif:anchorOf "Tonny Schifferstein" ;
+    nif:beginIndex "656" ;
+    nif:endIndex "675" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w134w135> nif:anchorOf "Joop Landré" ;
+    nif:beginIndex "677" ;
+    nif:endIndex "688" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w137w138> nif:anchorOf "Max Dendermonde" ;
+    nif:beginIndex "692" ;
+    nif:endIndex "707" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w14> nif:anchorOf "Eindhoven" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "94" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w140w141w142w143w144w145w146w147w148w149> nif:anchorOf "Tijdens de tijd tot de bevrijding van het hele land" ;
+    nif:beginIndex "709" ;
+    nif:endIndex "760" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w150> nif:BeginIndex "761" ;
+    nif:anchorOf "probeerden" ;
+    nif:endIndex "771" ;
+    nif:lemma "proberen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w151> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "772" ;
+    nif:endIndex "775" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w151" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w152w153w154w155w156> nif:anchorOf "de mensen in bezet gebied" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "801" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w157> nif:anchorOf "moed" ;
+    nif:beginIndex "802" ;
+    nif:endIndex "806" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w157" ;
+    nif:lemma "moed" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w158> nif:anchorOf "in" ;
+    nif:beginIndex "807" ;
+    nif:endIndex "809" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w158" ;
+    nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w160> nif:BeginIndex "813" ;
+    nif:anchorOf "spreken" ;
+    nif:endIndex "820" ;
+    nif:lemma "in_spreken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w165> nif:BeginIndex "839" ;
+    nif:anchorOf "geven" ;
+    nif:endIndex "844" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w168> nif:anchorOf "Duitse" ;
+    nif:beginIndex "852" ;
+    nif:endIndex "858" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w171> nif:anchorOf "Nort" ;
+    nif:beginIndex "871" ;
+    nif:endIndex "875" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w172> nif:BeginIndex "876" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "879" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w175w176> nif:anchorOf "de luisteraars" ;
+    nif:beginIndex "887" ;
+    nif:endIndex "901" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w176" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w179> nif:anchorOf "mee" ;
+    nif:beginIndex "913" ;
+    nif:endIndex "916" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w179" ;
+    nif:lemma "mee" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w181> nif:BeginIndex "920" ;
+    nif:anchorOf "delen" ;
+    nif:endIndex "925" ;
+    nif:lemma "mee_delen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w184> nif:anchorOf "Duitse" ;
+    nif:beginIndex "933" ;
+    nif:endIndex "939" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w187w188w189> nif:anchorOf "Na de bevrijding" ;
+    nif:beginIndex "954" ;
+    nif:endIndex "970" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w187" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w18w19> nif:anchorOf "Sectie XI" ;
+    nif:beginIndex "126" ;
+    nif:endIndex "135" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w191> nif:anchorOf "Herrijzend" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "987" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w192> nif:anchorOf "Nederland" ;
+    nif:beginIndex "988" ;
+    nif:endIndex "997" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w193> nif:anchorOf "nog" ;
+    nif:beginIndex "998" ;
+    nif:endIndex "1001" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w193" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w194> nif:BeginIndex "1002" ;
+    nif:anchorOf "uitgezonden" ;
+    nif:endIndex "1013" ;
+    nif:lemma "uit_zenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w196w197w198> nif:anchorOf "19 januari 1946" ;
+    nif:beginIndex "1018" ;
+    nif:endIndex "1033" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w1w2w3> nif:anchorOf "Herrijzend Nederland" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w200w201w202w203w204w205> nif:anchorOf "Algemene uitzendingen zoals de nieuwsdienst" ;
+    nif:beginIndex "1035" ;
+    nif:endIndex "1079" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w201" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w205> nif:BeginIndex "1067" ;
+    nif:anchorOf "nieuwsdienst" ;
+    nif:endIndex "1079" ;
+    nif:lemma "nieuws_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w207> nif:BeginIndex "1081" ;
+    nif:anchorOf "vielen" ;
+    nif:endIndex "1087" ;
+    nif:lemma "vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w208> nif:anchorOf "daarna" ;
+    nif:beginIndex "1088" ;
+    nif:endIndex "1094" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w208" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w212w213w214> nif:anchorOf "Stichting Radio Nederland" ;
+    nif:beginIndex "1114" ;
+    nif:endIndex "1139" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w217> nif:anchorOf "Overgangstijd" ;
+    nif:beginIndex "1147" ;
+    nif:endIndex "1160" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w226> nif:BeginIndex "1208" ;
+    nif:anchorOf "omroepverenigingen" ;
+    nif:endIndex "1226" ;
+    nif:lemma "omroep_vereniging" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w227> nif:BeginIndex "1227" ;
+    nif:anchorOf "verzorgd" ;
+    nif:endIndex "1235" ;
+    nif:lemma "verzorgd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w229> nif:anchorOf "Hilversum" ;
+    nif:beginIndex "1243" ;
+    nif:endIndex "1252" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w22w23> nif:anchorOf "Militair Gezag" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "158" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w235w236w237> nif:anchorOf "Van den Broek" ;
+    nif:beginIndex "1281" ;
+    nif:endIndex "1294" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w25> nif:anchorOf "Eindhoven" ;
+    nif:beginIndex "161" ;
+    nif:endIndex "170" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w251> nif:BeginIndex "1381" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1386" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w252w253w254w255> nif:anchorOf "van één nationale omroep" ;
+    nif:beginIndex "1387" ;
+    nif:endIndex "1411" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w252" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w257> nif:BeginIndex "1413" ;
+    nif:anchorOf "Aansluitend" ;
+    nif:endIndex "1424" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w259w260w261> nif:anchorOf "Van den Broek" ;
+    nif:beginIndex "1430" ;
+    nif:endIndex "1443" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w263> nif:anchorOf "1947" ;
+    nif:beginIndex "1447" ;
+    nif:endIndex "1451" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w268w269w270> nif:anchorOf "Radio Nederland Wereldomroep" ;
+    nif:beginIndex "1476" ;
+    nif:endIndex "1504" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w27> nif:BeginIndex "176" ;
+    nif:anchorOf "bevrijd" ;
+    nif:endIndex "183" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w275> nif:anchorOf "reeds" ;
+    nif:beginIndex "1522" ;
+    nif:endIndex "1527" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w275" ;
+    nif:lemma "reeds" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w276w277w278> nif:anchorOf "voor de oorlog" ;
+    nif:beginIndex "1528" ;
+    nif:endIndex "1542" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w276" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w279> nif:BeginIndex "1543" ;
+    nif:anchorOf "bestaande" ;
+    nif:endIndex "1552" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w280> nif:BeginIndex "1553" ;
+    nif:anchorOf "kortegolfprogramma" ;
+    nif:endIndex "1571" ;
+    nif:lemma "kort_golf_programma" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w283> nif:anchorOf "PHOHI" ;
+    nif:beginIndex "1578" ;
+    nif:endIndex "1583" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w285> nif:anchorOf "PCJ" ;
+    nif:beginIndex "1587" ;
+    nif:endIndex "1590" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w287w288w289w290w291w292w293w294w295> nif:anchorOf "Radio Oranje Radio Vrij Nederland De Brandaris Radio België" ;
+    nif:beginIndex "1593" ;
+    nif:endIndex "1655" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w29w30w31> nif:anchorOf "18 september 1944" ;
+    nif:beginIndex "187" ;
+    nif:endIndex "204" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w36> nif:BeginIndex "220" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "223" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w38> nif:anchorOf "Philips" ;
+    nif:beginIndex "228" ;
+    nif:endIndex "235" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w4> nif:BeginIndex "27" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "30" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w43> nif:BeginIndex "255" ;
+    nif:anchorOf "radiozender" ;
+    nif:endIndex "266" ;
+    nif:lemma "radio_zender" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w45> nif:anchorOf "Daarmee" ;
+    nif:beginIndex "268" ;
+    nif:endIndex "275" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w45" ;
+    nif:lemma "daarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w48w49> nif:anchorOf "3 oktober" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "293" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w50w51w52> nif:anchorOf "het eerste programma" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "314" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w53> nif:BeginIndex "315" ;
+    nif:anchorOf "uitgezonden" ;
+    nif:endIndex "326" ;
+    nif:lemma "uit_zenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w56> nif:BeginIndex "337" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "340" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w59w60w61w62w63> nif:anchorOf "H. J. van den Broek" ;
+    nif:beginIndex "355" ;
+    nif:endIndex "373" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w67w68> nif:anchorOf "Radio Oranje" ;
+    nif:beginIndex "384" ;
+    nif:endIndex "396" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w7> nif:anchorOf "die" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "51" ;
+    nif:head "bgnProc:2564__Radio_Herrijzend_Nederland.naf#w7" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w72> nif:BeginIndex "415" ;
+    nif:anchorOf "vonden" ;
+    nif:endIndex "421" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w73w74> nif:anchorOf "iedere dag" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "432" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w77w78w79> nif:anchorOf "7 : 00" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "451" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w81w82w83> nif:anchorOf "9 : 30" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "459" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w85w86w87> nif:anchorOf "12 : 00" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "466" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w89w90w91> nif:anchorOf "13 : 30" ;
+    nif:beginIndex "470" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w9> nif:anchorOf "1944" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "60" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w95w96w97> nif:anchorOf "17 : 00" ;
+    nif:beginIndex "487" ;
+    nif:endIndex "492" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w99w100w101> nif:anchorOf "22 : 15" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "501" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w11> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_151t_152t_153t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w152w153w154w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_174t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w175w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_186t_187t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w187w188w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_195t_196t_197> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w196w197w198> ;
+    xs:date "1946-01-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_199t_200t_201t_202t_203t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w200w201w202w203w204w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_251t_252t_253t_254> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w252w253w254w255> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_274> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w275> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_275t_276t_277> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w276w277w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_28t_29t_30> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w29w30w31> ;
+    xs:date "1944-09-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_47t_48> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w48w49> ;
+    xs:date "2017-10-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_49t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w50w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_6> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w7> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w9> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_80t_81t_82> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w81w82w83> ;
+    xs:date "2017-05-02T09:30" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_88t_89t_90> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w89w90w91> ;
+    xs:date "2017-05-02T13:30" .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w140w141w142w143w144w145w146w147w148w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w151> .
+
+bgn:Person-2564 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w110w111>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w113w114>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w119w120>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w122w123>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w125w126>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w128w129>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w131w132>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w137w138>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w18w19>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w191>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w212w213w214>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w229>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w235w236w237>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w259w260w261>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w268w269w270>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w283>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w285>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w287w288w289w290w291w292w293w294w295>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w59w60w61w62w63>,
+        <http://data.biographynet.nl/rdf/170506221754/2564__Radio_Herrijzend_Nederland.naf#w67w68> .
+

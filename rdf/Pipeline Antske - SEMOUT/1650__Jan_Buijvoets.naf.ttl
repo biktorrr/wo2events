@@ -1,0 +1,900 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_164t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_182t_183t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_191t_192t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_195t_196t_197t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_213t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_227t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_254t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_286t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_290>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_298t_299t_300>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_302t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_305>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_307>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_310t_311t_312t_313>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_95t_96t_97t_98t_99t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_97t_98t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_9t_10t_11>,
+        bgn:Person-1650 ;
+    ore:proxyFor bgn:Person-1650 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w152> nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w171> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w183> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w193> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w197> nif:lemma "jeep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w212> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w215> nif:lemma "luitenant" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w228> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w299> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w64> nif:lemma "via" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w68> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w98> nif:lemma "'" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1650__Jan_Buijvoets#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1650__Jan_Buijvoets .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1650 ;
+    bgn:aggregatedPerson bgn:Person-1650 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1650__Jan_Buijvoets ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1650__Jan_Buijvoets ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w108> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_105> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w112> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_105> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w121> ;
+    pb:A0 bgn:Person-1650 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_131>,
+        bgn:Person-1650 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w16w17w18> ;
+    xs:date "2000-07-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w162> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_150t_151> ;
+    pb:A1 bgn:Person-1650 ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_159>,
+        bgn:Person-1650 ;
+    pb:AM-MNR bgn:Person-1650 .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_168> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w169> ;
+    pb:Arg0 bgn:Person-1650 ;
+    pb:ArgM-MNR bgn:Person-1650 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_164t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w175> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_173> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w186> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_173> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_182t_183t_184> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w201> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_195t_196t_197t_198t_199> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_191t_192t_193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w205> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_201> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w210> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_213t_214>,
+        bgn:Person-1650 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_211t_212> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_207t_208> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_220> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w221> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w233> ;
+    pb:Arg0 bgn:Person-1650 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_227t_228t_229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_239> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w240> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_245> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w246> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_251> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w252> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_250> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_254t_255> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_262> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w263> ;
+    pb:ArgM bgn:Person-1650 .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w276> ;
+    pb:ArgM-LOC bgn:Person-1650 .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_280> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_290> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w291> ;
+    pb:Arg1 bgn:Person-1650 ;
+    pb:Arg2 bgn:Person-1650 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_286t_287> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_305> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w306> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_297> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_298t_299t_300>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_302t_303> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_308> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w309> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_307> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_310t_311t_312t_313>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_315> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w56> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_52> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_54> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w67> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_67t_68> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_61> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_63t_64t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w73> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_74> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w94> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_94> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_95t_96t_97t_98t_99t_100> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_97t_98t_99> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_91>,
+        bgn:Person-1650 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w10w11w12> ;
+    xs:date "1918-01-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w106> nif:anchorOf "Oss" ;
+    nif:beginIndex "566" ;
+    nif:endIndex "569" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w108> nif:BeginIndex "573" ;
+    nif:anchorOf "waarschuwen" ;
+    nif:endIndex "584" ;
+    nif:lemma "waarschuwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w10w11w12> nif:anchorOf "15 januari 1918" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "55" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w110> nif:anchorOf "onder" ;
+    nif:beginIndex "588" ;
+    nif:endIndex "593" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w110" ;
+    nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w112> nif:BeginIndex "597" ;
+    nif:anchorOf "duiken" ;
+    nif:endIndex "603" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w117> nif:anchorOf "Arbeitseinsatz" ;
+    nif:beginIndex "622" ;
+    nif:endIndex "636" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w120> nif:anchorOf "1943" ;
+    nif:beginIndex "641" ;
+    nif:endIndex "645" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w121> nif:BeginIndex "646" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "649" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w122w123> nif:anchorOf "De Bourbon" ;
+    nif:beginIndex "650" ;
+    nif:endIndex "660" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w129> nif:anchorOf "Duitse" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "695" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w132> nif:anchorOf "Oss" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "713" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w134> nif:anchorOf "J.P" ;
+    nif:beginIndex "720" ;
+    nif:endIndex "723" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w136> nif:anchorOf "Pulles" ;
+    nif:beginIndex "725" ;
+    nif:endIndex "731" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w138> nif:anchorOf "NSB" ;
+    nif:beginIndex "733" ;
+    nif:endIndex "736" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w14> nif:anchorOf "Goor" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w142w143> nif:anchorOf "H. Apeldoorn" ;
+    nif:beginIndex "748" ;
+    nif:endIndex "760" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w145> nif:anchorOf "NSB" ;
+    nif:beginIndex "762" ;
+    nif:endIndex "765" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w151w152> nif:anchorOf "Deze laatste" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "803" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w154> nif:anchorOf "Buijvoets" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "817" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w158> nif:anchorOf "Zuiveringslijst" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "840" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w160> nif:anchorOf "Oss" ;
+    nif:beginIndex "845" ;
+    nif:endIndex "848" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w162> nif:BeginIndex "850" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "859" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w164> nif:anchorOf "Buijvoets" ;
+    nif:beginIndex "867" ;
+    nif:endIndex "876" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w165w166> nif:anchorOf "begin 1944" ;
+    nif:beginIndex "877" ;
+    nif:endIndex "887" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w169> nif:BeginIndex "898" ;
+    nif:anchorOf "onderduiken" ;
+    nif:endIndex "909" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w16w17w18> nif:anchorOf "26 juli 2000" ;
+    nif:beginIndex "64" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w171w172> nif:anchorOf "Bij verzetsactiviteiten" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "934" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w171" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w174> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "940" ;
+    nif:endIndex "943" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w174" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w175> nif:BeginIndex "944" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "952" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w182> nif:anchorOf "Oss" ;
+    nif:beginIndex "984" ;
+    nif:endIndex "987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w183w184w185> nif:anchorOf "tegen een muur" ;
+    nif:beginIndex "988" ;
+    nif:endIndex "1002" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w186> nif:BeginIndex "1003" ;
+    nif:anchorOf "gezet" ;
+    nif:endIndex "1008" ;
+    nif:lemma "zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w192w193w194> nif:anchorOf "net op tijd" ;
+    nif:beginIndex "1040" ;
+    nif:endIndex "1051" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w193" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w196w197w198w199w200> nif:anchorOf "een jeep van het verzet" ;
+    nif:beginIndex "1057" ;
+    nif:endIndex "1080" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w197" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w1w2> nif:anchorOf "Gerardus" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w20> nif:BeginIndex "78" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "81" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w201> nif:BeginIndex "1081" ;
+    nif:anchorOf "aanrijden" ;
+    nif:endIndex "1090" ;
+    nif:lemma "aan_rijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w202> nif:anchorOf "die" ;
+    nif:beginIndex "1091" ;
+    nif:endIndex "1094" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w202" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w203> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1095" ;
+    nif:endIndex "1098" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w203" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w205> nif:BeginIndex "1106" ;
+    nif:anchorOf "gered" ;
+    nif:endIndex "1111" ;
+    nif:lemma "redden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w208w209> nif:anchorOf "april 1945" ;
+    nif:beginIndex "1116" ;
+    nif:endIndex "1126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w210> nif:BeginIndex "1127" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "1132" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w211> nif:anchorOf "Buijvoets" ;
+    nif:beginIndex "1133" ;
+    nif:endIndex "1142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w212w213> nif:anchorOf "als reserve" ;
+    nif:beginIndex "1143" ;
+    nif:endIndex "1154" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w214w215> nif:anchorOf "eerste luitenant" ;
+    nif:beginIndex "1155" ;
+    nif:endIndex "1171" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w22> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "96" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w220> nif:anchorOf "intussen" ;
+    nif:beginIndex "1192" ;
+    nif:endIndex "1200" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w220" ;
+    nif:lemma "intussen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w221> nif:BeginIndex "1201" ;
+    nif:anchorOf "bevrijde" ;
+    nif:endIndex "1209" ;
+    nif:lemma "bevrijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w222w223> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "1210" ;
+    nif:endIndex "1225" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w228w229w230> nif:anchorOf "in goede orde" ;
+    nif:beginIndex "1253" ;
+    nif:endIndex "1266" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w228" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w233> nif:BeginIndex "1276" ;
+    nif:anchorOf "verlopen" ;
+    nif:endIndex "1284" ;
+    nif:lemma "verlopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w240> nif:BeginIndex "1309" ;
+    nif:anchorOf "bevorderd" ;
+    nif:endIndex "1318" ;
+    nif:lemma "bevorderd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w246> nif:anchorOf "1948" ;
+    nif:beginIndex "1345" ;
+    nif:endIndex "1349" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w251> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "1369" ;
+    nif:endIndex "1378" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w251" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w252> nif:BeginIndex "1379" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1382" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w255w256> nif:anchorOf "januari 1946" ;
+    nif:beginIndex "1393" ;
+    nif:endIndex "1405" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w263> nif:BeginIndex "1436" ;
+    nif:anchorOf "volkshogeschool" ;
+    nif:endIndex "1451" ;
+    nif:lemma "volk_hoog_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w268w269> nif:anchorOf "Witte Huis" ;
+    nif:beginIndex "1474" ;
+    nif:endIndex "1484" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w272> nif:anchorOf "Borne" ;
+    nif:beginIndex "1489" ;
+    nif:endIndex "1494" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w275> nif:anchorOf "Borne" ;
+    nif:beginIndex "1499" ;
+    nif:endIndex "1504" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w276> nif:BeginIndex "1505" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1508" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w28> nif:anchorOf "KVP" ;
+    nif:beginIndex "133" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w281> nif:BeginIndex "1537" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1539" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w287w288> nif:anchorOf "Midden 1969" ;
+    nif:beginIndex "1568" ;
+    nif:endIndex "1579" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w290> nif:anchorOf "Buijvoets" ;
+    nif:beginIndex "1585" ;
+    nif:endIndex "1594" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w291> nif:BeginIndex "1595" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "1602" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w295w296> nif:anchorOf "Ambt Delden" ;
+    nif:beginIndex "1624" ;
+    nif:endIndex "1635" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w298> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1640" ;
+    nif:endIndex "1643" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w298" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w299w300w301> nif:anchorOf "tot zijn pensionering" ;
+    nif:beginIndex "1644" ;
+    nif:endIndex "1665" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w299" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w303w304> nif:anchorOf "februari 1983" ;
+    nif:beginIndex "1669" ;
+    nif:endIndex "1682" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w306> nif:BeginIndex "1687" ;
+    nif:anchorOf "blijven" ;
+    nif:endIndex "1694" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w308> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1696" ;
+    nif:endIndex "1699" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w308" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w309> nif:BeginIndex "1700" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1708" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w311w312w313w314> nif:anchorOf "de zomer van 2000" ;
+    nif:beginIndex "1712" ;
+    nif:endIndex "1729" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w316> nif:anchorOf "82-jarige" ;
+    nif:beginIndex "1733" ;
+    nif:endIndex "1742" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w32> nif:BeginIndex "146" ;
+    nif:anchorOf "vervullen" ;
+    nif:endIndex "155" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w4> nif:anchorOf "Jan" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w41w42> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "220" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w45> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "242" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w53> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "273" ;
+    nif:endIndex "276" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w53" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w55> nif:anchorOf "toen" ;
+    nif:beginIndex "282" ;
+    nif:endIndex "286" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w55" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w56> nif:BeginIndex "287" ;
+    nif:anchorOf "werken" ;
+    nif:endIndex "293" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w6> nif:anchorOf "Buijvoets" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w61> nif:anchorOf "Oss" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "327" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w62> nif:anchorOf "waar" ;
+    nif:beginIndex "328" ;
+    nif:endIndex "332" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w62" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w64w65w66> nif:anchorOf "via eerste klerk" ;
+    nif:beginIndex "337" ;
+    nif:endIndex "353" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w67> nif:BeginIndex "354" ;
+    nif:anchorOf "opklom" ;
+    nif:endIndex "360" ;
+    nif:lemma "op_klimmen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w68w69> nif:anchorOf "tot adjunct-commies" ;
+    nif:beginIndex "361" ;
+    nif:endIndex "380" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w71w72> nif:anchorOf "Midden 1941" ;
+    nif:beginIndex "382" ;
+    nif:endIndex "393" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w73> nif:BeginIndex "394" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "398" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w75> nif:anchorOf "daar" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "407" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w75" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w8> nif:anchorOf "Oss" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "38" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w80w81> nif:anchorOf "Bijzondere Overheidsmaatregelen" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "461" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w85w86w87> nif:anchorOf "Louis de Bourbon" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "489" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w92> nif:anchorOf "Oss" ;
+    nif:beginIndex "511" ;
+    nif:endIndex "514" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w94> nif:BeginIndex "516" ;
+    nif:anchorOf "trok" ;
+    nif:endIndex "520" ;
+    nif:lemma "uit_trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w95> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "521" ;
+    nif:endIndex "524" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w95" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w96w97w98w99w100w101> nif:anchorOf "er soms ' s avonds op" ;
+    nif:beginIndex "525" ;
+    nif:endIndex "545" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w97> nif:anchorOf "soms" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "532" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w97" ;
+    nif:lemma "soms" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w98w99w100> nif:anchorOf "' s avonds" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "542" ;
+    nif:head "bgnProc:1650__Jan_Buijvoets.naf#w98" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_119> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w120> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_150t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w151w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_164t_165> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w165w166> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_182t_183t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w183w184w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_191t_192t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w192w193w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_195t_196t_197t_198t_199> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w196w197w198w199w200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_207t_208> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w208w209> ;
+    xs:gYearMonth "1945-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_213t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w214w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_227t_228t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w228w229w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_254t_255> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w255w256> ;
+    xs:gYearMonth "1946-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_286t_287> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w287w288> ;
+    xs:gYear "1969" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_297> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w298> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_298t_299t_300> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w299w300w301> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_302t_303> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w303w304> ;
+    xs:gYearMonth "1983-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_307> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w308> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_310t_311t_312t_313> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w311w312w313w314> ;
+    xs:gYearMonth "2000-SU" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_315> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w316> ;
+    xs:gYear "2082" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_63t_64t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w64w65w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_70t_71> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w71w72> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_95t_96t_97t_98t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w96w97w98w99w100w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_97t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w98w99w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_170t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w171w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w174> .
+
+bgn:Person-1650 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w117>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w122w123>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w136>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w138>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w142w143>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w154>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w160>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w211>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w268w269>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w275>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w290>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w295w296>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w41w42>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w80w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w85w86w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1650__Jan_Buijvoets.naf#w92> ;
+    xs:gYearMonth "2017-01" .
+

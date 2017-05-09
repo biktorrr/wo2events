@@ -1,0 +1,977 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_109t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_127t_128t_129t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_134t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_181t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_184t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_216t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_233t_234t_235t_236t_237t_238t_239t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_236t_237t_238t_239t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_245t_246t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_249t_250t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_26t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_285>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_299>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_303t_304t_305>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_309>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_92t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_98>,
+        bgn:Person-1846 ;
+    ore:proxyFor bgn:Person-1846 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w110> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w116> nif:lemma "tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w128> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w180> nif:lemma "wet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w184> nif:lemma "bedrijf_organisatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w185> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w217> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w234> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w238> nif:lemma "noorden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w250> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w253> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w27> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w304> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w93> nif:lemma "aan" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1846__Henk_Kikkert#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1846__Henk_Kikkert .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1846 ;
+    bgn:aggregatedPerson bgn:Person-1846 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1846__Henk_Kikkert ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1846__Henk_Kikkert ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w113> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_109t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w120> ;
+    pb:Arg1 bgn:Person-1846 .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_124> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w125> ;
+    xs:gYear "1945",
+        "1977" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w132> ;
+    pb:Arg1 bgn:Person-1846 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_127t_128t_129t_130> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_138t_139t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_134t_135t_136> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w135w136w137> ;
+    xs:date "1946-06-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w15w16w17> ;
+    xs:date "1988-03-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_157> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w158> ;
+    xs:gYear "1946",
+        "1950" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w162> ;
+    pb:A1 bgn:Person-1846 .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w171> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187>,
+        bgn:Person-1846 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w188> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_181t_182t_183> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_184t_185t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w191> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_189> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_207>,
+        bgn:Person-1846 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_193> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w206> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w209> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_202> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w212> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_210> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_216t_217> ;
+    pb:AM-PRD bgn:Person-1846 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w231> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_232> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_231> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_233t_234t_235t_236t_237t_238t_239t_240t_241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w25> ;
+    pb:Arg1 bgn:Person-1846 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_26t_27t_28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w242> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_235> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_236t_237t_238t_239t_240> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w245> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_243> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_248> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_252t_253> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_249t_250t_251>,
+        bgn:Person-1846 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_245t_246t_247> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_274> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w275> ;
+    pb:Arg1 bgn:Person-1846 ;
+    pb:Arg2 bgn:Person-1846 .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_285> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w286> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_295> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w296> ;
+    xs:gYear "1972" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_299> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w300> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_298> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_303t_304t_305> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_309> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w310> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_298> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_311> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_35> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w36> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w43> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_41> ;
+    pb:A4 bgn:Person-1846 .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_51> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w52> ;
+    xs:gYear "1910",
+        "1991" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w56> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w73> ;
+    pb:Arg1 bgn:Person-1846 ;
+    pb:ArgM-TMP bgn:Person-1846 .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w9w10w11> ;
+    xs:date "1912-10-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w91> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_79> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_91> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_92t_93t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w98> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_96> ;
+    pb:A1 bgn:Person-1846 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w1> nif:anchorOf "Hendrik" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "7" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w101> nif:BeginIndex "565" ;
+    nif:anchorOf "Oorlogsherinneringskruis" ;
+    nif:beginIndex "565" ;
+    nif:endIndex "589" ;
+    nif:lemma "Oor_log_herinnering_kruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w103> nif:anchorOf "Verzetsherdenkingskruis" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "614" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w107w108> nif:anchorOf "Yad Vashem" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "641" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w110w111w112> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "643" ;
+    nif:endIndex "655" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w110" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w113> nif:BeginIndex "656" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "659" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w114> nif:anchorOf "Kikkert" ;
+    nif:beginIndex "660" ;
+    nif:endIndex "667" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w115w116> nif:anchorOf "geruime tijd" ;
+    nif:beginIndex "668" ;
+    nif:endIndex "680" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w120> nif:BeginIndex "693" ;
+    nif:anchorOf "hoofdbestuur" ;
+    nif:endIndex "705" ;
+    nif:lemma "hoofd_bestuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w123> nif:anchorOf "NCLB" ;
+    nif:beginIndex "714" ;
+    nif:endIndex "718" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w125> nif:anchorOf "1945-1977" ;
+    nif:beginIndex "720" ;
+    nif:endIndex "729" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w128w129w130w131> nif:anchorOf "In zijn politieke loopbaan" ;
+    nif:beginIndex "733" ;
+    nif:endIndex "759" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w13> nif:anchorOf "Zeist" ;
+    nif:beginIndex "49" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w132> nif:BeginIndex "760" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "763" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w133> nif:anchorOf "Kikkert" ;
+    nif:beginIndex "764" ;
+    nif:endIndex "771" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w135w136w137> nif:anchorOf "4 juni 1946" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "787" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w139w140w141> nif:anchorOf "7 december 1972" ;
+    nif:beginIndex "792" ;
+    nif:endIndex "807" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w145w146w147w148> nif:anchorOf "Tweede Kamer der Staten-Generaal" ;
+    nif:beginIndex "819" ;
+    nif:endIndex "851" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w154w155w156> nif:anchorOf "Drentse Provinciale Staten" ;
+    nif:beginIndex "876" ;
+    nif:endIndex "902" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w158> nif:anchorOf "1946-1950" ;
+    nif:beginIndex "904" ;
+    nif:endIndex "913" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w15w16w17> nif:anchorOf "20 maart 1988" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w161> nif:anchorOf "Kikkert" ;
+    nif:beginIndex "916" ;
+    nif:endIndex "923" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w162> nif:BeginIndex "924" ;
+    nif:anchorOf "behoorde" ;
+    nif:endIndex "932" ;
+    nif:lemma "behoren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w169> nif:anchorOf "CHU" ;
+    nif:beginIndex "963" ;
+    nif:endIndex "966" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w171> nif:BeginIndex "970" ;
+    nif:anchorOf "steunde" ;
+    nif:endIndex "977" ;
+    nif:lemma "steunen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w173> nif:anchorOf "1949" ;
+    nif:beginIndex "981" ;
+    nif:endIndex "985" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w179w180w181w182w183w184w185w186w187w188> nif:anchorOf "de wet die de publiekrechtelijke bedrijfsorganisatie in het leven riep" ;
+    nif:beginIndex "1013" ;
+    nif:endIndex "1083" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w181> nif:anchorOf "die" ;
+    nif:beginIndex "1020" ;
+    nif:endIndex "1023" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w181" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w182w183w184> nif:anchorOf "de publiekrechtelijke bedrijfsorganisatie" ;
+    nif:beginIndex "1024" ;
+    nif:endIndex "1065" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w184" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w185w186w187> nif:anchorOf "in het leven" ;
+    nif:beginIndex "1066" ;
+    nif:endIndex "1078" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w185" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w188> nif:BeginIndex "1079" ;
+    nif:anchorOf "riep" ;
+    nif:endIndex "1083" ;
+    nif:lemma "roepen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w19> nif:BeginIndex "71" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "74" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w190> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1085" ;
+    nif:endIndex "1088" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w190" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w191> nif:BeginIndex "1089" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "1095" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w193> nif:anchorOf "1949" ;
+    nif:beginIndex "1099" ;
+    nif:endIndex "1103" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w194> nif:anchorOf "tevens" ;
+    nif:beginIndex "1104" ;
+    nif:endIndex "1110" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w194" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w195> nif:anchorOf "deel" ;
+    nif:beginIndex "1111" ;
+    nif:endIndex "1115" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w195" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w202> nif:anchorOf "CHU-fractie" ;
+    nif:beginIndex "1145" ;
+    nif:endIndex "1156" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w203> nif:anchorOf "die" ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1160" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w203" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w206> nif:BeginIndex "1169" ;
+    nif:anchorOf "soevereiniteitsoverdracht" ;
+    nif:endIndex "1194" ;
+    nif:lemma "soevereiniteit_overdracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w208> nif:anchorOf "Indonesië" ;
+    nif:beginIndex "1199" ;
+    nif:endIndex "1208" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w209> nif:BeginIndex "1209" ;
+    nif:anchorOf "stemde" ;
+    nif:endIndex "1215" ;
+    nif:lemma "stemmen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w21> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "79" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w211> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1217" ;
+    nif:endIndex "1220" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w211" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w212> nif:BeginIndex "1221" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "1226" ;
+    nif:lemma "bezig_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w213> nif:anchorOf "zich" ;
+    nif:beginIndex "1227" ;
+    nif:endIndex "1231" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w213" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w215> nif:anchorOf "Kamerlid" ;
+    nif:beginIndex "1236" ;
+    nif:endIndex "1244" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w217w218> nif:anchorOf "met landbouw" ;
+    nif:beginIndex "1251" ;
+    nif:endIndex "1263" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w217" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w231> nif:BeginIndex "1335" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1338" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w232> nif:anchorOf "tevens" ;
+    nif:beginIndex "1339" ;
+    nif:endIndex "1345" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w232" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w233> nif:anchorOf "woordvoerder" ;
+    nif:beginIndex "1346" ;
+    nif:endIndex "1358" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w233" ;
+    nif:lemma "woordvoerder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w234w235w236w237w238w239w240w241w242> nif:anchorOf "bij zaken die het noorden van het land betroffen" ;
+    nif:beginIndex "1359" ;
+    nif:endIndex "1407" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w234" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w236> nif:anchorOf "die" ;
+    nif:beginIndex "1369" ;
+    nif:endIndex "1372" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w236" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w237w238w239w240w241> nif:anchorOf "het noorden van het land" ;
+    nif:beginIndex "1373" ;
+    nif:endIndex "1397" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w24> nif:anchorOf "Kikkert" ;
+    nif:beginIndex "102" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w242> nif:BeginIndex "1398" ;
+    nif:anchorOf "betroffen" ;
+    nif:endIndex "1407" ;
+    nif:lemma "betreffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w244> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1409" ;
+    nif:endIndex "1412" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w244" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w245> nif:BeginIndex "1413" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "1419" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w246w247w248> nif:anchorOf "eind jaren zestig" ;
+    nif:beginIndex "1420" ;
+    nif:endIndex "1437" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w249> nif:anchorOf "naam" ;
+    nif:beginIndex "1438" ;
+    nif:endIndex "1442" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w249" ;
+    nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w25> nif:BeginIndex "110" ;
+    nif:anchorOf "groeide" ;
+    nif:endIndex "117" ;
+    nif:lemma "op_groeien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w250w251w252> nif:anchorOf "met twee plannen" ;
+    nif:beginIndex "1443" ;
+    nif:endIndex "1459" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w250" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w253w254> nif:anchorOf "op defensiegebied" ;
+    nif:beginIndex "1460" ;
+    nif:endIndex "1477" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w253" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w270w271> nif:anchorOf "Ter Apel" ;
+    nif:beginIndex "1563" ;
+    nif:endIndex "1571" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w273> nif:anchorOf "Kikkert" ;
+    nif:beginIndex "1574" ;
+    nif:endIndex "1581" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w275> nif:BeginIndex "1587" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "1594" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w27w28w29> nif:anchorOf "in een landarbeidersgezin" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "146" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w280w281w282w283w284> nif:anchorOf "Orde van de Nederlandse Leeuw" ;
+    nif:beginIndex "1612" ;
+    nif:endIndex "1641" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w286> nif:anchorOf "1958" ;
+    nif:beginIndex "1643" ;
+    nif:endIndex "1647" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w292w293w294> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "1669" ;
+    nif:endIndex "1691" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w296> nif:anchorOf "1972" ;
+    nif:beginIndex "1693" ;
+    nif:endIndex "1697" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w299> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1700" ;
+    nif:endIndex "1703" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w299" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w3> nif:anchorOf "Henk" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w300> nif:BeginIndex "1704" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1712" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w302> nif:anchorOf "1988" ;
+    nif:beginIndex "1716" ;
+    nif:endIndex "1720" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w304w305w306> nif:anchorOf "op 75-jarige leeftijd" ;
+    nif:beginIndex "1722" ;
+    nif:endIndex "1743" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w304" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w310> nif:BeginIndex "1753" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "1761" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w312> nif:anchorOf "Dalerpeel" ;
+    nif:beginIndex "1765" ;
+    nif:endIndex "1774" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w32> nif:BeginIndex "152" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "155" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w36> nif:anchorOf "Jan" ;
+    nif:beginIndex "169" ;
+    nif:endIndex "172" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w36w37> nif:anchorOf "Jan Kikkert" ;
+    nif:beginIndex "169" ;
+    nif:endIndex "180" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w39w40> nif:anchorOf "Reina Karstenberg" ;
+    nif:beginIndex "184" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w42> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "206" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w42" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w43> nif:BeginIndex "207" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "214" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w45w46> nif:anchorOf "Maria Elizabeth" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "234" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w48> nif:anchorOf "Marie" ;
+    nif:beginIndex "236" ;
+    nif:endIndex "241" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w5> nif:anchorOf "Kikkert" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w50> nif:anchorOf "Veldmeijer" ;
+    nif:beginIndex "243" ;
+    nif:endIndex "253" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w52> nif:anchorOf "1910-1991" ;
+    nif:beginIndex "255" ;
+    nif:endIndex "264" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w55> nif:anchorOf "Kikkert" ;
+    nif:beginIndex "268" ;
+    nif:endIndex "275" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w56> nif:BeginIndex "276" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "280" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w58> nif:anchorOf "1935" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "288" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w62> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "310" ;
+    nif:endIndex "321" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w63w64> nif:anchorOf "Christelijke Landarbeidersbond" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "352" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w66> nif:anchorOf "NCLB" ;
+    nif:beginIndex "354" ;
+    nif:endIndex "358" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w7> nif:anchorOf "Dalen" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w71w72> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "372" ;
+    nif:endIndex "391" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w73> nif:BeginIndex "392" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "395" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w80> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "429" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w80" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w81> nif:BeginIndex "430" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "433" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w85> nif:anchorOf "OD" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "463" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w88w89> nif:anchorOf "Binnenlandse Strijdkrachten" ;
+    nif:beginIndex "470" ;
+    nif:endIndex "497" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w91> nif:BeginIndex "501" ;
+    nif:anchorOf "bood" ;
+    nif:endIndex "505" ;
+    nif:lemma "bieden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w92> nif:anchorOf "onderdak" ;
+    nif:beginIndex "506" ;
+    nif:endIndex "514" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w92" ;
+    nif:lemma "onderdak" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w93w94w95> nif:anchorOf "aan joodse onderduikers" ;
+    nif:beginIndex "515" ;
+    nif:endIndex "538" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w97> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "543" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w97" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w98> nif:BeginIndex "544" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "551" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w99> nif:anchorOf "daarvoor" ;
+    nif:beginIndex "552" ;
+    nif:endIndex "560" ;
+    nif:head "bgnProc:1846__Henk_Kikkert.naf#w99" ;
+    nif:lemma "daarvoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w9w10w11> nif:anchorOf "23 oktober 1912" ;
+    nif:beginIndex "31" ;
+    nif:endIndex "46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_109t_110t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w110w111w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_127t_128t_129t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w128w129w130w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_138t_139t_140> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w139w140w141> ;
+    xs:date "1972-12-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_172> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w173> ;
+    xs:gYear "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w179w180w181w182w183w184w185w186w187w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_181t_182t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w182w183w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_184t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w185w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_192> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w193> ;
+    xs:gYear "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_216t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w217w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_232> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_233t_234t_235t_236t_237t_238t_239t_240t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w234w235w236w237w238w239w240w241w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_235> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_236t_237t_238t_239t_240> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w237w238w239w240w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_245t_246t_247> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w246w247w248> ;
+    xs:date "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_248> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w249> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_249t_250t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w250w251w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_252t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w253w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_26t_27t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w27w28w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_301> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w302> ;
+    xs:gYear "1988" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_303t_304t_305> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w304w305w306> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w42> ;
+    stevensFam:isPartnerIn bgn:Person-1846 .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_57> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w58> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_92t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w93w94w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#t_298> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w299> .
+
+bgn:Person-1846 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w107w108>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w145w146w147w148>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w154w155w156>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w161>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w208>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w270w271>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w273>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w280w281w282w283w284>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w292w293w294>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w312>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w45w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w63w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w71w72>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w85>,
+        <http://data.biographynet.nl/rdf/170506221754/1846__Henk_Kikkert.naf#w88w89> .
+

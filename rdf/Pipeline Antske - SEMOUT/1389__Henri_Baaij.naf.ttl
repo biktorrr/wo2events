@@ -1,0 +1,336 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_21t_22t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_3t_4t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_96t_97t_98>,
+        bgn:Person-1389 ;
+    ore:proxyFor bgn:Person-1389 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w97> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1389__Henri_Baaij#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1389__Henri_Baaij .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1389 ;
+    bgn:aggregatedPerson bgn:Person-1389 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1389__Henri_Baaij ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1389__Henri_Baaij ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w102> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_100> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_96t_97t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_11> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w12> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w20> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_31>,
+        bgn:Person-1389 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_21t_22t_23> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_34> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w35> ;
+    xs:gYearMonth "2017-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w39> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_39> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_46> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_3t_4t_5> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w4w5w6> ;
+    xs:date "1900-09-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w50> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_48> ;
+    pb:A1 bgn:Person-1389 .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w57> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_55> ;
+    pb:AM-LOC bgn:Person-1389 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_64>,
+        bgn:Person-1389 .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w8w9w10> ;
+    xs:date "1943-05-31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w91> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w101> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "580" ;
+    nif:endIndex "583" ;
+    nif:head "bgnProc:1389__Henri_Baaij.naf#w101" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w102> nif:BeginIndex "584" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "591" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w104w105> nif:anchorOf "H. Baay" ;
+    nif:beginIndex "596" ;
+    nif:endIndex "603" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w112> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "632" ;
+    nif:endIndex "642" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w12> nif:BeginIndex "46" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "49" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w14> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w19> nif:anchorOf "Baaij" ;
+    nif:beginIndex "94" ;
+    nif:endIndex "99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w1w2> nif:anchorOf "Baaij" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w20> nif:BeginIndex "100" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "106" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w22w23w24> nif:anchorOf "28 maart 1921" ;
+    nif:beginIndex "110" ;
+    nif:endIndex "123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w29> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w32> nif:anchorOf "Zwitserland" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "185" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w35> nif:anchorOf "mei" ;
+    nif:beginIndex "190" ;
+    nif:endIndex "193" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w38> nif:anchorOf "jaar" ;
+    nif:beginIndex "202" ;
+    nif:endIndex "206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w39> nif:BeginIndex "207" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "214" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w40> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "215" ;
+    nif:endIndex "218" ;
+    nif:head "bgnProc:1389__Henri_Baaij.naf#w40" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w47> nif:anchorOf "Italië" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "264" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w49> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "266" ;
+    nif:endIndex "269" ;
+    nif:head "bgnProc:1389__Henri_Baaij.naf#w49" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w4w5w6> nif:anchorOf "19 september 1900" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w50> nif:BeginIndex "270" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "274" ;
+    nif:lemma "uit_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w53w54> nif:anchorOf "HFC Haarlem" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "295" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w56> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "298" ;
+    nif:endIndex "301" ;
+    nif:head "bgnProc:1389__Henri_Baaij.naf#w56" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w57> nif:BeginIndex "302" ;
+    nif:anchorOf "stierf" ;
+    nif:endIndex "308" ;
+    nif:lemma "sterven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w60w61> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "315" ;
+    nif:endIndex "334" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w65> nif:anchorOf "Thailand" ;
+    nif:beginIndex "355" ;
+    nif:endIndex "363" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w70w71w72> nif:anchorOf "Koninklijk Nederlandsch-Indisch Leger" ;
+    nif:beginIndex "383" ;
+    nif:endIndex "420" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w74> nif:anchorOf "KNIL" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "426" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w80> nif:anchorOf "Indisch" ;
+    nif:beginIndex "443" ;
+    nif:endIndex "450" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w83> nif:anchorOf "Baaij" ;
+    nif:beginIndex "459" ;
+    nif:endIndex "464" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w84> nif:BeginIndex "465" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "468" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w88> nif:anchorOf "Dodenspoorlijn" ;
+    nif:beginIndex "490" ;
+    nif:endIndex "504" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w8w9w10> nif:anchorOf "31 mei 1943" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w90> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "506" ;
+    nif:endIndex "509" ;
+    nif:head "bgnProc:1389__Henri_Baaij.naf#w90" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w91> nif:BeginIndex "510" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "512" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w95> nif:anchorOf "Kanchanaburi" ;
+    nif:beginIndex "542" ;
+    nif:endIndex "554" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w97w98w99> nif:anchorOf "Op zijn grafsteen" ;
+    nif:beginIndex "556" ;
+    nif:endIndex "573" ;
+    nif:head "bgnProc:1389__Henri_Baaij.naf#w97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_21t_22t_23> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w22w23w24> ;
+    xs:date "1921-03-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_37> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w38> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#t_96t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w97w98w99> .
+
+bgn:Person-1389 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w104w105>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w53w54>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w60w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w70w71w72>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w80>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1389__Henri_Baaij.naf#w95> .
+

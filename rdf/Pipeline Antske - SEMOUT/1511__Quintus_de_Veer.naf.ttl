@@ -1,0 +1,639 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_136t_137t_138t_139t_140t_141t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_59t_60t_61t_62t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_61t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_72t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_88t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_94t_95t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_98>,
+        bgn:Person-1511 ;
+    ore:proxyFor bgn:Person-1511 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w137> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w44> nif:lemma "duidelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w60> nif:lemma "omdat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w62> nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w72> nif:lemma "samenhorigheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w74> nif:lemma "goed" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w89> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w95> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1511__Quintus_de_Veer#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1511__Quintus_de_Veer .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1511 ;
+    bgn:aggregatedPerson bgn:Person-1511 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1511__Quintus_de_Veer ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1511__Quintus_de_Veer ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w110> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_110> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_113>,
+        bgn:Person-1511 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_111> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_94t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w119> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_116> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_117> ;
+    pb:AM-CAU bgn:Person-1511 .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w146> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_146> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_151> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_136t_137t_138t_139t_140t_141t_142t_143t_144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w150> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w157> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_164>,
+        bgn:Person-1511 .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w30> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_21> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_28> ;
+    pb:ArgM-TMP bgn:Person-1511 .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w40> ;
+    pb:Arg1 bgn:Person-1511 ;
+    pb:ArgM-LOC bgn:Person-1511 .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w42> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_42t_43> ;
+    pb:ArgM-TMP bgn:Person-1511 .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w50> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_45> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w53> ;
+    pb:A0 bgn:Person-1511 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_57> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_59t_60t_61t_62t_63t_64t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w66> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_60> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_61t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w69> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_70t_71> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_69> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_72t_73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w85> ;
+    pb:A0 bgn:Person-1511 ;
+    pb:A1 bgn:Person-1511 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w93> ;
+    pb:A0 bgn:Person-1511 ;
+    pb:A1 bgn:Person-1511 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_88t_89t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w99> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_94t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w102> nif:anchorOf "Endlassen" ;
+    nif:beginIndex "547" ;
+    nif:endIndex "556" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w104w105w106w107> nif:anchorOf "Oflag VIII C Juliusburg" ;
+    nif:beginIndex "561" ;
+    nif:endIndex "584" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w11> nif:anchorOf "Sperenberg" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "55" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w110> nif:BeginIndex "589" ;
+    nif:anchorOf "keerde" ;
+    nif:endIndex "595" ;
+    nif:lemma "terug_keren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w111> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "596" ;
+    nif:endIndex "599" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w111" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w112> nif:anchorOf "terug" ;
+    nif:beginIndex "600" ;
+    nif:endIndex "605" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w112" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w114> nif:anchorOf "Nederland" ;
+    nif:beginIndex "611" ;
+    nif:endIndex "620" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w117> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "627" ;
+    nif:endIndex "630" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w117" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w118> nif:anchorOf "dienst" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "637" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w118" ;
+    nif:lemma "dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w119> nif:BeginIndex "638" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "641" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w122w123> nif:anchorOf "Waffen SS" ;
+    nif:beginIndex "649" ;
+    nif:endIndex "658" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w126> nif:BeginIndex "664" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "668" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w127> nif:anchorOf "Legions-Hauptsturmfuhrer" ;
+    nif:beginIndex "669" ;
+    nif:endIndex "693" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w13> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "57" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w133w134> nif:anchorOf "II./SS-artillerie Regiment" ;
+    nif:beginIndex "721" ;
+    nif:endIndex "747" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w137w138w139w140w141w142w143w144w145> nif:anchorOf "In de nacht van 28 op 29 april 1945" ;
+    nif:beginIndex "755" ;
+    nif:endIndex "790" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w146> nif:BeginIndex "791" ;
+    nif:anchorOf "sneuvelde" ;
+    nif:endIndex "800" ;
+    nif:lemma "sneuvelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w147> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "801" ;
+    nif:endIndex "804" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w147" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w150> nif:BeginIndex "812" ;
+    nif:anchorOf "strijd" ;
+    nif:endIndex "818" ;
+    nif:lemma "strijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w152> nif:anchorOf "Berlijn" ;
+    nif:beginIndex "822" ;
+    nif:endIndex "829" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w155> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "839" ;
+    nif:endIndex "850" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w157> nif:BeginIndex "867" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "872" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w161w162w163> nif:anchorOf "Martinus van Aken" ;
+    nif:beginIndex "886" ;
+    nif:endIndex "903" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w165> nif:anchorOf "Oudenbosch" ;
+    nif:beginIndex "905" ;
+    nif:endIndex "915" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w173> nif:anchorOf "SS-Artillerie-Regiment" ;
+    nif:beginIndex "947" ;
+    nif:endIndex "969" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w176w177> nif:anchorOf "Florian Geyer" ;
+    nif:beginIndex "973" ;
+    nif:endIndex "986" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w179w180> nif:anchorOf "Gerard Peters" ;
+    nif:beginIndex "989" ;
+    nif:endIndex "1002" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w182> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1013" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w188> nif:anchorOf "Traunstein" ;
+    nif:beginIndex "1031" ;
+    nif:endIndex "1041" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w19> nif:BeginIndex "83" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "86" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w195> nif:anchorOf "SS-Pionier-Battalion" ;
+    nif:beginIndex "1060" ;
+    nif:endIndex "1080" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w197> nif:anchorOf "Dr" ;
+    nif:beginIndex "1085" ;
+    nif:endIndex "1087" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w198w199> nif:anchorOf "Johannes Toolenaar" ;
+    nif:beginIndex "1088" ;
+    nif:endIndex "1106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w1w2w3> nif:anchorOf "de Veer" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w201> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "1108" ;
+    nif:endIndex "1117" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w208w209> nif:anchorOf "SS-Freiwilligen Legion" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1156" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w21> nif:anchorOf "Nederlander" ;
+    nif:beginIndex "91" ;
+    nif:endIndex "102" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w213w214w215> nif:anchorOf "Eduard Leendert Voorwinden" ;
+    nif:beginIndex "1172" ;
+    nif:endIndex "1198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w217> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "1200" ;
+    nif:endIndex "1209" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w22> nif:anchorOf "die" ;
+    nif:beginIndex "103" ;
+    nif:endIndex "106" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w22" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w224> nif:anchorOf "I./SS-Freiwillige-Panzergrenadier-Regiment" ;
+    nif:beginIndex "1225" ;
+    nif:endIndex "1267" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w25w26> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w29> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "145" ;
+    nif:endIndex "153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w30> nif:BeginIndex "154" ;
+    nif:anchorOf "sympathiseerde" ;
+    nif:endIndex "168" ;
+    nif:lemma "sympathiseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w33w34w35> nif:anchorOf "Quintus de Veer" ;
+    nif:beginIndex "176" ;
+    nif:endIndex "191" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w37w38w39> nif:anchorOf "Oflag VIII C" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "207" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w40> nif:BeginIndex "208" ;
+    nif:anchorOf "zat" ;
+    nif:endIndex "211" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w42> nif:BeginIndex "213" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "217" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w43w44> nif:anchorOf "steeds duidelijker" ;
+    nif:beginIndex "218" ;
+    nif:endIndex "236" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w46> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "244" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w46" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w49> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "252" ;
+    nif:endIndex "260" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w5> nif:anchorOf "Groesbeek" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w50> nif:BeginIndex "261" ;
+    nif:anchorOf "sympathiseerde" ;
+    nif:endIndex "275" ;
+    nif:lemma "sympathiseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w52> nif:anchorOf "Dit" ;
+    nif:beginIndex "277" ;
+    nif:endIndex "280" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w52" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w53> nif:BeginIndex "281" ;
+    nif:anchorOf "vonden" ;
+    nif:endIndex "287" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w56> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "310" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w58> nif:anchorOf "onaangenaam" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "333" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w58" ;
+    nif:lemma "onaangenaam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w60w61w62w63w64w65w66> nif:anchorOf "omdat ze niet meer vrijuit konden praten" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "375" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w61> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "341" ;
+    nif:endIndex "343" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w61" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w62w63> nif:anchorOf "niet meer" ;
+    nif:beginIndex "344" ;
+    nif:endIndex "353" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w62" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w64> nif:anchorOf "vrijuit" ;
+    nif:beginIndex "354" ;
+    nif:endIndex "361" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w64" ;
+    nif:lemma "vrijuit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w66> nif:BeginIndex "369" ;
+    nif:anchorOf "praten" ;
+    nif:endIndex "375" ;
+    nif:lemma "praten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w69> nif:BeginIndex "381" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "385" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w70> nif:anchorOf "ook" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "389" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w70" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w71w72> nif:anchorOf "de samenhorigheid" ;
+    nif:beginIndex "390" ;
+    nif:endIndex "407" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w73w74> nif:anchorOf "geen goed" ;
+    nif:beginIndex "408" ;
+    nif:endIndex "417" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w77> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "433" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w81> nif:anchorOf "Engles" ;
+    nif:beginIndex "453" ;
+    nif:endIndex "459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w84> nif:anchorOf "toen" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "471" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w84" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w85> nif:BeginIndex "472" ;
+    nif:anchorOf "gevraagd" ;
+    nif:endIndex "480" ;
+    nif:lemma "vragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w87w88> nif:anchorOf "De Veer" ;
+    nif:beginIndex "484" ;
+    nif:endIndex "491" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w89w90w91> nif:anchorOf "uit het kamp" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "504" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w93> nif:BeginIndex "508" ;
+    nif:anchorOf "verwijderen" ;
+    nif:endIndex "519" ;
+    nif:lemma "verwijderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w95w96w97w98> nif:anchorOf "Op 11 mei 1941" ;
+    nif:beginIndex "522" ;
+    nif:endIndex "536" ;
+    nif:head "bgnProc:1511__Quintus_de_Veer.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w99> nif:BeginIndex "537" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "541" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_136t_137t_138t_139t_140t_141t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w137w138w139w140w141w142w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_21> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_42t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w43w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_59t_60t_61t_62t_63t_64t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w60w61w62w63w64w65w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_61t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w62w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_72t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w73w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_88t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w89w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#t_94t_95t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w95w96w97w98> .
+
+bgn:Person-1511 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w104w105w106w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w122w123>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w133w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w152>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w155>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w161w162w163>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w173>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w176w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w188>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w195>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w198w199>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w201>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w208w209>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w213w214w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w224>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w25w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w33w34w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w37w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w77>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1511__Quintus_de_Veer.naf#w87w88> .
+

@@ -1,0 +1,691 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_119t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_128t_129t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_148t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_169t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_34t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_70t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_85t_86t_87t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_92t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_99t_100>,
+        bgn:Person-1404 ;
+    ore:proxyFor bgn:Person-1404 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w100> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w117> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w120> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w129> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w149> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w69> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w71> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w86> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w94> nif:lemma "paard_sport" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w98> nif:lemma "geheel" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1404__Eddy_Kahn#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1404__Eddy_Kahn .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1404 ;
+    bgn:aggregatedPerson bgn:Person-1404 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1404__Eddy_Kahn ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1404__Eddy_Kahn ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w104> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_104> ;
+    pb:Arg1 bgn:Person-1404 .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_109> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w110> ;
+    xs:gYear "1936" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w119> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_111> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_110> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_119t_120t_121t_122>,
+        bgn:Person-1404 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_116t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w127> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_127> ;
+    pb:AM-CAU bgn:Person-1404 .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w13w14w15> ;
+    xs:date "1944-08-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w137> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_127> ;
+    pb:Arg1 bgn:Person-1404 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_128t_129t_130> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w140> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_138> ;
+    pb:A1 bgn:Person-1404 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w148> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_138> ;
+    pb:A1 bgn:Person-1404 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_173>,
+        bgn:Person-1404 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_148t_149t_150> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w175> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_167> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_166> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_169t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w183> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w34> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_34t_35>,
+        bgn:Person-1404 .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w39> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_37> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_53> ;
+    pb:ArgM-DIS bgn:Person-1404 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_50t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w41> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_37> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_53> ;
+    pb:AM-DIS bgn:Person-1404 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_50t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_58> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w59> ;
+    xs:gYear "1931" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w67> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_55> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w7w8w9> ;
+    xs:date "1906-12-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w74> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_70t_71t_72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w91> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_84> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_85t_86t_87t_88t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w99> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_99t_100> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_92t_93> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_96t_97> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w100w101> nif:anchorOf "door legerofficieren" ;
+    nif:beginIndex "550" ;
+    nif:endIndex "570" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w103> nif:anchorOf "Kahn" ;
+    nif:beginIndex "572" ;
+    nif:endIndex "576" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w104> nif:BeginIndex "577" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "580" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w105> nif:anchorOf "deel" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w105" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w108w109> nif:anchorOf "Olympische Zomerspelen" ;
+    nif:beginIndex "593" ;
+    nif:endIndex "615" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w11> nif:anchorOf "Frankrijk" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w110> nif:anchorOf "1936" ;
+    nif:beginIndex "616" ;
+    nif:endIndex "620" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w111> nif:anchorOf "waar" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "625" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w111" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w112> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "629" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w112" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w115> nif:anchorOf "Espoir" ;
+    nif:beginIndex "635" ;
+    nif:endIndex "641" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w117w118> nif:anchorOf "als dertiende" ;
+    nif:beginIndex "643" ;
+    nif:endIndex "656" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w117" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w119> nif:BeginIndex "657" ;
+    nif:anchorOf "eindigde" ;
+    nif:endIndex "665" ;
+    nif:lemma "eindigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w120w121w122w123> nif:anchorOf "op het onderdeel eventing" ;
+    nif:beginIndex "666" ;
+    nif:endIndex "691" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w126> nif:anchorOf "1941" ;
+    nif:beginIndex "696" ;
+    nif:endIndex "700" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w127> nif:BeginIndex "701" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "705" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w128> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "709" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w128" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w129w130w131> nif:anchorOf "met zijn gezin" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "724" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w134w135> nif:anchorOf "Verenigde Staten" ;
+    nif:beginIndex "733" ;
+    nif:endIndex "749" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w137> nif:BeginIndex "753" ;
+    nif:anchorOf "vluchten" ;
+    nif:endIndex "761" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w139> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "763" ;
+    nif:endIndex "766" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w139" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w13w14w15> nif:anchorOf "19 augustus 1944" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "67" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w140> nif:BeginIndex "767" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "770" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w141> nif:anchorOf "later" ;
+    nif:beginIndex "771" ;
+    nif:endIndex "776" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w141" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w145> nif:anchorOf "Britse" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "797" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w148> nif:BeginIndex "807" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "810" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w149w150w151> nif:anchorOf "als tijdelijk reserve" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "832" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w156w157w158w159w160w161w162> nif:anchorOf "6th ( Royal Welch) Parachute Battalion" ;
+    nif:beginIndex "853" ;
+    nif:endIndex "890" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w163> nif:anchorOf "deel" ;
+    nif:beginIndex "891" ;
+    nif:endIndex "895" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w163" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w165w166> nif:anchorOf "Operatie Dragoon" ;
+    nif:beginIndex "900" ;
+    nif:endIndex "916" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w167> nif:anchorOf "waarbij" ;
+    nif:beginIndex "917" ;
+    nif:endIndex "924" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w167" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w168> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "925" ;
+    nif:endIndex "928" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w168" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w17> nif:BeginIndex "69" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "72" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w170w171w172> nif:anchorOf "19 augustus 1944" ;
+    nif:beginIndex "932" ;
+    nif:endIndex "948" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w174> nif:anchorOf "Frankrijk" ;
+    nif:beginIndex "952" ;
+    nif:endIndex "961" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w175> nif:BeginIndex "962" ;
+    nif:anchorOf "sneuvelde" ;
+    nif:endIndex "971" ;
+    nif:lemma "sneuvelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w177> nif:anchorOf "Kahn" ;
+    nif:beginIndex "973" ;
+    nif:endIndex "977" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w182> nif:anchorOf "Britse" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1005" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w183> nif:BeginIndex "1006" ;
+    nif:anchorOf "ereveld" ;
+    nif:endIndex "1013" ;
+    nif:lemma "ere_veld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w185> nif:anchorOf "Banneville-la-Campagne" ;
+    nif:beginIndex "1017" ;
+    nif:endIndex "1039" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w19> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "77" ;
+    nif:endIndex "87" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w1w2> nif:anchorOf "Kahn" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "9" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w30> nif:anchorOf "Britse" ;
+    nif:beginIndex "153" ;
+    nif:endIndex "159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w33> nif:anchorOf "Kahn" ;
+    nif:beginIndex "169" ;
+    nif:endIndex "173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w34> nif:BeginIndex "174" ;
+    nif:anchorOf "dreef" ;
+    nif:endIndex "179" ;
+    nif:lemma "drijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w35w36> nif:anchorOf "een modezaak" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "192" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w36> nif:BeginIndex "184" ;
+    nif:anchorOf "modezaak" ;
+    nif:endIndex "192" ;
+    nif:lemma "mode_zaak" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w38> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "194" ;
+    nif:endIndex "197" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w38" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w39> nif:BeginIndex "198" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "204" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w41> nif:BeginIndex "208" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "214" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w43w44> nif:anchorOf "september 1940" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w46w47> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "245" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w4w5> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "11" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w51w52> nif:anchorOf "mei 1941" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "268" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w54> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "272" ;
+    nif:endIndex "281" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w56> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "283" ;
+    nif:endIndex "286" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w56" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w57> nif:BeginIndex "287" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "290" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w59> nif:anchorOf "1931" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "298" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w61> nif:anchorOf "Pittsburgh" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "312" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w65> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "328" ;
+    nif:endIndex "339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w67> nif:BeginIndex "343" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "348" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w68w69> nif:anchorOf "één kind" ;
+    nif:beginIndex "349" ;
+    nif:endIndex "357" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w69" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w71w72w73> nif:anchorOf "Voor de oorlog" ;
+    nif:beginIndex "359" ;
+    nif:endIndex "373" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w71" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w74> nif:BeginIndex "374" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "377" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w7w8w9> nif:anchorOf "11 december 1906" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "37" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w85> nif:anchorOf "die" ;
+    nif:beginIndex "441" ;
+    nif:endIndex "444" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w85" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w86w87w88w89w90> nif:anchorOf "aan nationale en internationale wedstrijden" ;
+    nif:beginIndex "445" ;
+    nif:endIndex "488" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w86" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w90> nif:BeginIndex "477" ;
+    nif:anchorOf "wedstrijden" ;
+    nif:endIndex "488" ;
+    nif:lemma "wedstrijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w91> nif:BeginIndex "489" ;
+    nif:anchorOf "deelnam" ;
+    nif:endIndex "496" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w93w94> nif:anchorOf "De paardensport" ;
+    nif:beginIndex "498" ;
+    nif:endIndex "513" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w96> nif:anchorOf "destijds" ;
+    nif:beginIndex "519" ;
+    nif:endIndex "527" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w96" ;
+    nif:lemma "destijds" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w97w98> nif:anchorOf "bijna geheel" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "540" ;
+    nif:head "bgnProc:1404__Eddy_Kahn.naf#w98" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w99> nif:BeginIndex "541" ;
+    nif:anchorOf "bedreven" ;
+    nif:endIndex "549" ;
+    nif:lemma "bedrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w117w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_119t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w120w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_125> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w126> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_128t_129t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w129w130w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_148t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w149w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_169t_170t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w170w171w172> ;
+    xs:date "1944-08-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_34t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w35w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w56> ;
+    stevensFam:isPartnerIn bgn:Person-1404 .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_70t_71t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w71w72w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_85t_86t_87t_88t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w86w87w88w89w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_92t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w93w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w97w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w100w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_42t_43> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w43w44> ;
+    xs:gYearMonth "1940-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#t_50t_51> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w51w52> ;
+    xs:gYearMonth "1941-05" .
+
+bgn:Person-1404 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w108w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w156w157w158w159w160w161w162>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w165w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w46w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w4w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w54>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1404__Eddy_Kahn.naf#w65> .
+

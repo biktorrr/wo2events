@@ -1,0 +1,794 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_105t_106t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_115t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_11t_12t_13t_14t_15t_16t_17t_18t_19t_20t_21t_22t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_121t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_140t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_146t_147t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_157t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_177t_178t_179t_180t_181t_182t_183t_184t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_17t_18t_19t_20t_21t_22t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_189t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_244t_245t_246t_247t_248t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_251t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_256t_257t_258t_259t_260t_261t_262t_263t_264t_265t_266t_267t_268t_269t_270t_271t_272t_273t_274t_275t_276t_277t_278t_279t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_259t_260t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_25t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_267t_268t_269t_270>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_268>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_271t_272t_273t_274t_275t_276t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_278t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_30t_31t_32t_33t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_36t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_40t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_59t_60t_61t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_78t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_80t_81t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_92t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_96>,
+        bgn:Person-693 ;
+    ore:proxyFor bgn:Person-693 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w106> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w116> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w12> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w121> nif:lemma "college" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w125> nif:lemma "bezwaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w135> nif:lemma "vuur_zuil" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w140> nif:lemma "jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w141> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w147> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w158> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w178> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w18> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w190> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w245> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w253> nif:lemma "commotie" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w257> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w260> nif:lemma "gedurende" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w27> nif:lemma "kolom" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w271> nif:lemma "vlam" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w273> nif:lemma "hoeveelheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w279> nif:lemma "per" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w29> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w31> nif:lemma "afhankelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w38> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w41> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w60> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w75> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w79> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w81> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w86> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w89> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w96> nif:lemma "locatie" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-693__Vrijheidsvuur#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-693__Vrijheidsvuur .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-693 ;
+    bgn:aggregatedPerson bgn:Person-693 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-693__Vrijheidsvuur ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-693__Vrijheidsvuur ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w104> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_105t_106t_107t_108t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w119> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_119t_120> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_121t_122t_123t_124> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_115t_116t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w124> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w131> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_115t_116t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w144> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_136> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_140t_141t_142> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_137t_138t_139> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w154> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_146t_147t_148t_149> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w17> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_17t_18t_19t_20t_21t_22t_23> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w162> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_157t_158t_159t_160>,
+        bgn:Person-693 .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w193> ;
+    pb:Arg0 bgn:Person-693 ;
+    pb:Arg1 bgn:Person-693 ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_189t_190t_191> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_177t_178t_179t_180t_181t_182t_183t_184t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_2> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w3> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_11t_12t_13t_14t_15t_16t_17t_18t_19t_20t_21t_22t_23> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_243> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w244> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_244t_245t_246t_247t_248t_249> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_253> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w254> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_251t_252> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_254> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_256t_257t_258t_259t_260t_261t_262t_263t_264t_265t_266t_267t_268t_269t_270t_271t_272t_273t_274t_275t_276t_277t_278t_279t_280> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_258> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w259> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_259t_260t_261> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w266> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_269> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w270> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_268> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w28> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_25t_26> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_30t_31t_32t_33t_34> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_28t_29> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_280> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w281> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_267t_268t_269t_270> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_271t_272t_273t_274t_275t_276t_277> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_278t_279> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_287> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w288> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w40> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_36t_37> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_40t_41> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w59> ;
+    pb:Arg0 bgn:Person-693 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_59t_60t_61t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w61> ;
+    pb:A1 bgn:Person-693 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_62> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_49> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_7> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w8> ;
+    pb:ArgM-CAU bgn:Person-693 .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w74> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_80t_81t_82t_83> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_78t_79> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_74t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w97> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_92t_93t_94t_95> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_88t_89t_90t_91>,
+        bgn:Person-693 .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w104> nif:BeginIndex "605" ;
+    nif:anchorOf "studentenvereniging" ;
+    nif:endIndex "624" ;
+    nif:lemma "student_vereniging" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w105> nif:anchorOf "Ceres" ;
+    nif:beginIndex "625" ;
+    nif:endIndex "630" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w106w107w108w109w110> nif:anchorOf "op slechts enkele tientallen meters" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "666" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w10w11> nif:anchorOf "Hanshan Roebers" ;
+    nif:beginIndex "74" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w112w113w114> nif:anchorOf "Hotel De Wereld" ;
+    nif:beginIndex "671" ;
+    nif:endIndex "686" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w116w117w118> nif:anchorOf "In december 2009" ;
+    nif:beginIndex "688" ;
+    nif:endIndex "704" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w119> nif:BeginIndex "705" ;
+    nif:anchorOf "wees" ;
+    nif:endIndex "709" ;
+    nif:lemma "wijzen" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w120w121> nif:anchorOf "het college" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "721" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w122w123w124w125> nif:anchorOf "alle nog ingebrachte bezwaren" ;
+    nif:beginIndex "722" ;
+    nif:endIndex "751" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w123> nif:anchorOf "nog" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "730" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w123" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w124> nif:BeginIndex "731" ;
+    nif:anchorOf "ingebrachte" ;
+    nif:endIndex "742" ;
+    nif:lemma "ingebracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w12w13w14w15w16w17w18w19w20w21w22w23w24> nif:anchorOf "ter gelegenheid van de 60-jarige herdenking van de bevrijding op 5 mei 1945" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "165" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w12" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w131> nif:BeginIndex "772" ;
+    nif:anchorOf "besloten" ;
+    nif:endIndex "780" ;
+    nif:lemma "besluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w133w134w135w136w137w138w139w140w141w142w143w144w145> nif:anchorOf "de koperen vuurzuil die al enkele jaren op de gemeentewerf opgeslagen lag" ;
+    nif:beginIndex "785" ;
+    nif:endIndex "859" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w137> nif:anchorOf "die" ;
+    nif:beginIndex "806" ;
+    nif:endIndex "809" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w137" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w138w139w140> nif:anchorOf "al enkele jaren" ;
+    nif:beginIndex "810" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w141w142w143> nif:anchorOf "op de gemeentewerf" ;
+    nif:beginIndex "826" ;
+    nif:endIndex "844" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w144> nif:BeginIndex "845" ;
+    nif:anchorOf "opgeslagen" ;
+    nif:endIndex "855" ;
+    nif:lemma "op_slaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w147w148w149w150> nif:anchorOf "op de nieuwe locatie" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "881" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w154> nif:BeginIndex "899" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "908" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w158w159w160w161> nif:anchorOf "op 14 april 2011" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "936" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w162> nif:BeginIndex "937" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "946" ;
+    nif:lemma "geplaatst" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w167> nif:BeginIndex "966" ;
+    nif:anchorOf "studentenvereniging" ;
+    nif:endIndex "985" ;
+    nif:lemma "student_vereniging" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w168> nif:anchorOf "Ceres" ;
+    nif:beginIndex "986" ;
+    nif:endIndex "991" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w17> nif:BeginIndex "123" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "133" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w175w176> nif:anchorOf "Wageningen University" ;
+    nif:beginIndex "1017" ;
+    nif:endIndex "1038" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w178w179w180w181w182w183w184w185w186> nif:anchorOf "In de nacht van 4 op 5 mei 2011" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1073" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w178" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w189> nif:anchorOf "Vrijheidsvuur" ;
+    nif:beginIndex "1083" ;
+    nif:endIndex "1096" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w18w19w20w21w22w23w24> nif:anchorOf "van de bevrijding op 5 mei 1945" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "165" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w18" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w190w191w192> nif:anchorOf "voor het eerst" ;
+    nif:beginIndex "1097" ;
+    nif:endIndex "1111" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w190" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w193> nif:BeginIndex "1112" ;
+    nif:anchorOf "ontstoken" ;
+    nif:endIndex "1121" ;
+    nif:lemma "ontsteken" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w196> nif:anchorOf "Engelandvaarder" ;
+    nif:beginIndex "1137" ;
+    nif:endIndex "1152" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w2> nif:anchorOf "Vrijheidsvuur" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w204> nif:anchorOf "Hoogland" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1197" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w212> nif:anchorOf "Winter" ;
+    nif:beginIndex "1227" ;
+    nif:endIndex "1233" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w216w217w218> nif:anchorOf "Hoyte de Ranitz" ;
+    nif:beginIndex "1243" ;
+    nif:endIndex "1258" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w226> nif:anchorOf "Eindhoven" ;
+    nif:beginIndex "1301" ;
+    nif:endIndex "1310" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w244> nif:BeginIndex "1400" ;
+    nif:anchorOf "denken" ;
+    nif:endIndex "1406" ;
+    nif:lemma "denken" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w245w246w247w248w249w250> nif:anchorOf "aan een fallus of een kogel" ;
+    nif:beginIndex "1407" ;
+    nif:endIndex "1434" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w245" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w252w253> nif:anchorOf "De commotie" ;
+    nif:beginIndex "1437" ;
+    nif:endIndex "1448" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w253" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w254> nif:BeginIndex "1449" ;
+    nif:anchorOf "wakkerde" ;
+    nif:endIndex "1457" ;
+    nif:lemma "aan_wakkeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w255> nif:anchorOf "nog" ;
+    nif:beginIndex "1458" ;
+    nif:endIndex "1461" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w255" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w257w258w259w260w261w262w263w264w265w266w267w268w269w270w271w272w273w274w275w276w277w278w279w280w281> nif:anchorOf "na een proefplaatsing gedurende een weekend en nadat bekend werd dat de constant brandende vlam een hoeveelheid gas en bijbehorende financiële kostenpost per jaar kost." ;
+    nif:beginIndex "1466" ;
+    nif:endIndex "1634" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w257" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w259> nif:BeginIndex "1473" ;
+    nif:anchorOf "proefplaatsing" ;
+    nif:endIndex "1487" ;
+    nif:lemma "proef_plaatsing" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w260w261w262> nif:anchorOf "gedurende een weekend" ;
+    nif:beginIndex "1488" ;
+    nif:endIndex "1509" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w260" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w266> nif:BeginIndex "1526" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1530" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w268w269w270w271> nif:anchorOf "de constant brandende vlam" ;
+    nif:beginIndex "1535" ;
+    nif:endIndex "1561" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w271" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w269> nif:anchorOf "constant" ;
+    nif:beginIndex "1538" ;
+    nif:endIndex "1546" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w269" ;
+    nif:lemma "constant" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w26w27> nif:anchorOf "De kolom" ;
+    nif:beginIndex "167" ;
+    nif:endIndex "175" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w270> nif:BeginIndex "1547" ;
+    nif:anchorOf "brandende" ;
+    nif:endIndex "1556" ;
+    nif:lemma "brandend" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w272w273w274w275w276w277w278> nif:anchorOf "een hoeveelheid gas en bijbehorende financiële kostenpost" ;
+    nif:beginIndex "1562" ;
+    nif:endIndex "1619" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w273" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w279w280> nif:anchorOf "per jaar" ;
+    nif:beginIndex "1620" ;
+    nif:endIndex "1628" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w279" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w28> nif:BeginIndex "176" ;
+    nif:anchorOf "varieert" ;
+    nif:endIndex "184" ;
+    nif:lemma "variëren" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w281> nif:BeginIndex "1629" ;
+    nif:anchorOf "kost." ;
+    nif:endIndex "1634" ;
+    nif:lemma "kosten" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w288> nif:BeginIndex "1674" ;
+    nif:anchorOf "vrijheidsvuur" ;
+    nif:endIndex "1687" ;
+    nif:lemma "vrijheid_vuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w295> nif:anchorOf "Wereld" ;
+    nif:beginIndex "1706" ;
+    nif:endIndex "1712" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w29w30> nif:anchorOf "in hoogte" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "194" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w3> nif:BeginIndex "18" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "20" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w31w32w33w34w35> nif:anchorOf "afhankelijk van de hoeveel licht" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "227" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w31" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w37w38> nif:anchorOf "Het monument" ;
+    nif:beginIndex "230" ;
+    nif:endIndex "242" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w38" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w40> nif:BeginIndex "248" ;
+    nif:anchorOf "ontworpen" ;
+    nif:endIndex "257" ;
+    nif:lemma "ontwerpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w41w42> nif:anchorOf "in 2004" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "265" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w50> nif:anchorOf "waar" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "303" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w50" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w56> nif:anchorOf "Prins" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "344" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w57> nif:anchorOf "Bernhard" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "353" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w59> nif:BeginIndex "358" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "363" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w60w61w62w63> nif:anchorOf "te staan namelijk" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "382" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w61> nif:BeginIndex "367" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "372" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w63> nif:anchorOf "namelijk" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "382" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w63" ;
+    nif:lemma "namelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w67w68> nif:anchorOf "Mei Plein" ;
+    nif:beginIndex "392" ;
+    nif:endIndex "401" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w7> nif:anchorOf "Wageningen" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w70w71w72> nif:anchorOf "Hotel De Wereld" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "421" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w74> nif:BeginIndex "423" ;
+    nif:anchorOf "ontstond" ;
+    nif:endIndex "431" ;
+    nif:lemma "ontstaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w75w76> nif:anchorOf "in 2006" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "439" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w75" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w79w80> nif:anchorOf "met aandacht" ;
+    nif:beginIndex "454" ;
+    nif:endIndex "466" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w79" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w8> nif:BeginIndex "59" ;
+    nif:anchorOf "ontworpen" ;
+    nif:endIndex "68" ;
+    nif:lemma "ontworpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w81w82w83w84> nif:anchorOf "in de landelijke media" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "489" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w86w87> nif:anchorOf "In 2008" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "499" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w86" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w89w90w91w92> nif:anchorOf "na uitvoerig geheim overleg" ;
+    nif:beginIndex "505" ;
+    nif:endIndex "532" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w89" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w93w94w95w96> nif:anchorOf "een mogelijke nieuwe locatie" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "561" ;
+    nif:head "bgnProc:693__Vrijheidsvuur.naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w97> nif:BeginIndex "562" ;
+    nif:anchorOf "bekendgemaakt" ;
+    nif:endIndex "575" ;
+    nif:lemma "bekend_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_105t_106t_107t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w106w107w108w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_119t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w120w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_11t_12t_13t_14t_15t_16t_17t_18t_19t_20t_21t_22t_23> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w12w13w14w15w16w17w18w19w20w21w22w23w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_121t_122t_123t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w122w123w124w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w133w134w135w136w137w138w139w140w141w142w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_140t_141t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w141w142w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_146t_147t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w147w148w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_157t_158t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w158w159w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_177t_178t_179t_180t_181t_182t_183t_184t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w178w179w180w181w182w183w184w185w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_17t_18t_19t_20t_21t_22t_23> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w18w19w20w21w22w23w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_189t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w190w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_244t_245t_246t_247t_248t_249> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w245w246w247w248w249w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_251t_252> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w252w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_254> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w255> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_256t_257t_258t_259t_260t_261t_262t_263t_264t_265t_266t_267t_268t_269t_270t_271t_272t_273t_274t_275t_276t_277t_278t_279t_280> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w257w258w259w260w261w262w263w264w265w266w267w268w269w270w271w272w273w274w275w276w277w278w279w280w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_259t_260t_261> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w260w261w262> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_25t_26> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w26w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_267t_268t_269t_270> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w268w269w270w271> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_268> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w269> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_271t_272t_273t_274t_275t_276t_277> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w272w273w274w275w276w277w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_278t_279> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w279w280> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_30t_31t_32t_33t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w31w32w33w34w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_36t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w37w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_40t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w41w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_59t_60t_61t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w60w61w62w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_78t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w79w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_80t_81t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w81w82w83w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_85t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w86w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_92t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w93w94w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#t_115t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w116w117w118> .
+
+bgn:Person-693 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w10w11>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w112w113w114>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w175w176>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w196>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w212>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w216w217w218>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w226>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w295>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w67w68>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/693__Vrijheidsvuur.naf#w70w71w72> .
+

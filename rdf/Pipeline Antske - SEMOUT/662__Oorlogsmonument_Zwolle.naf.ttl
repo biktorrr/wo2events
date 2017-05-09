@@ -1,0 +1,785 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_107t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_116t_117t_118t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_129t_130t_131t_132t_133t_134t_135t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_157t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_163t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_165t_166t_167t_168t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_39t_40t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_52t_53t_54t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_54t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_59t_60t_61t_62t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_66t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_83t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_86t_87t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_94>,
+        bgn:Person-662 ;
+    ore:proxyFor bgn:Person-662 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w108> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w115> nif:lemma "schande" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w117> nif:lemma "maar" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w123> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w130> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w147> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w159> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w166> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w183> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w30> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w48> nif:lemma "mens" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w53> nif:lemma "nadat" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w56> nif:lemma "leed" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w60> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w68> nif:lemma "mens" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w73> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w84> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w87> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-662__Oorlogsmonument_Zwolle#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-662__Oorlogsmonument_Zwolle .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-662 ;
+    bgn:aggregatedPerson bgn:Person-662 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-662__Oorlogsmonument_Zwolle ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-662__Oorlogsmonument_Zwolle ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w111> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w113> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_113t_114> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_116t_117t_118t_119t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w121> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_118> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w126> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_129t_130t_131t_132t_133t_134t_135t_136t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_132> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w133> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_137> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w138> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w146> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_143t_144> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_146t_147t_148> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_153> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w156> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_153> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_151t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_159t_160> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w160w161> ;
+    xs:date "2017-05-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w162> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_163t_164> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_157t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_165t_166t_167t_168t_169t_170> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w176> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_178t_179> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_177> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_173t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w184> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_181t_182> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w4> ;
+    pb:ArgM-LOC bgn:Person-662 .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w31> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_28t_29> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w43> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_28t_29> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_39t_40t_41> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w46> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_44> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w52> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_48> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_49> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_52t_53t_54t_55t_56t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w57> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_54t_55> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w65> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w66> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_66t_67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_69> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_59t_60t_61t_62t_63t_64> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w74> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_71t_72> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w83> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_80> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_83t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w93> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_107t_108t_109t_110> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w95> ;
+    pb:A1 bgn:Person-662 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_86t_87t_88t_89t_90t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w107> nif:anchorOf "niet" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "609" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w107" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w108w109w110w111> nif:anchorOf "om stil te staan" ;
+    nif:beginIndex "610" ;
+    nif:endIndex "626" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w108" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w109> nif:anchorOf "stil" ;
+    nif:beginIndex "613" ;
+    nif:endIndex "617" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w109" ;
+    nif:lemma "stil" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w111> nif:BeginIndex "621" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "626" ;
+    nif:lemma "stil_staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w113> nif:BeginIndex "627" ;
+    nif:anchorOf "Gedenkt" ;
+    nif:endIndex "634" ;
+    nif:lemma "gedenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w114w115> nif:anchorOf "de schande" ;
+    nif:beginIndex "635" ;
+    nif:endIndex "645" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w117w118w119w120w121> nif:anchorOf "maar om voort te gaan" ;
+    nif:beginIndex "647" ;
+    nif:endIndex "668" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w117" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w119> nif:anchorOf "voort" ;
+    nif:beginIndex "655" ;
+    nif:endIndex "660" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w119" ;
+    nif:lemma "voort" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w12> nif:anchorOf "Zwolle" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w121> nif:BeginIndex "664" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "668" ;
+    nif:lemma "voort_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w123w124w125> nif:anchorOf "Op de zuil" ;
+    nif:beginIndex "671" ;
+    nif:endIndex "681" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w123" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w126> nif:BeginIndex "682" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "686" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w130w131w132w133w134w135w136w137w138> nif:anchorOf "te lezen: 1940 AAN HEN DIE VIELEN 1945" ;
+    nif:beginIndex "707" ;
+    nif:endIndex "746" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w130" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w133> nif:anchorOf "1940" ;
+    nif:beginIndex "718" ;
+    nif:endIndex "722" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w138> nif:anchorOf "1945" ;
+    nif:beginIndex "742" ;
+    nif:endIndex "746" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w140w141> nif:anchorOf "14 april" ;
+    nif:beginIndex "751" ;
+    nif:endIndex "759" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w144w145> nif:anchorOf "een herdenking" ;
+    nif:beginIndex "769" ;
+    nif:endIndex "783" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w145> nif:BeginIndex "773" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "783" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w146> nif:BeginIndex "784" ;
+    nif:anchorOf "gehouden" ;
+    nif:endIndex "792" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w147w148w149> nif:anchorOf "bij het monument" ;
+    nif:beginIndex "793" ;
+    nif:endIndex "809" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w152w153> nif:anchorOf "deze dag" ;
+    nif:beginIndex "819" ;
+    nif:endIndex "827" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w154> nif:anchorOf "Zwolle" ;
+    nif:beginIndex "828" ;
+    nif:endIndex "834" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w156> nif:BeginIndex "840" ;
+    nif:anchorOf "bevrijd" ;
+    nif:endIndex "847" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w158w159w160w161> nif:anchorOf "Ook op 4 mei" ;
+    nif:beginIndex "849" ;
+    nif:endIndex "861" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w159" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w160w161> nif:anchorOf "4 mei" ;
+    nif:beginIndex "856" ;
+    nif:endIndex "861" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w162> nif:BeginIndex "862" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "864" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w164w165> nif:anchorOf "een herdenking" ;
+    nif:beginIndex "868" ;
+    nif:endIndex "882" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w165" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w165> nif:BeginIndex "872" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "882" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w166w167w168w169w170w171> nif:anchorOf "in verband met de nationale dodenherdenking" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "926" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w166" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w17> nif:anchorOf "Zwollenaren" ;
+    nif:beginIndex "104" ;
+    nif:endIndex "115" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w174w175> nif:anchorOf "15 augustus" ;
+    nif:beginIndex "931" ;
+    nif:endIndex "942" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w176> nif:BeginIndex "943" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "945" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w178> nif:anchorOf "ook" ;
+    nif:beginIndex "949" ;
+    nif:endIndex "952" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w178" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w179w180> nif:anchorOf "een herdenking" ;
+    nif:beginIndex "953" ;
+    nif:endIndex "967" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w180> nif:BeginIndex "957" ;
+    nif:anchorOf "herdenking" ;
+    nif:endIndex "967" ;
+    nif:lemma "herdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w182w183> nif:anchorOf "Het monument" ;
+    nif:beginIndex "970" ;
+    nif:endIndex "982" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w184> nif:BeginIndex "983" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "985" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w188w189> nif:anchorOf "Geert Grote" ;
+    nif:beginIndex "1006" ;
+    nif:endIndex "1017" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w194> nif:anchorOf "Emmaschool" ;
+    nif:beginIndex "1040" ;
+    nif:endIndex "1050" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w199w200> nif:anchorOf "Meppelerstraatweg Monument" ;
+    nif:beginIndex "1069" ;
+    nif:endIndex "1096" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w20> nif:BeginIndex "123" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "127" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w203> nif:anchorOf "schietbaan" ;
+    nif:beginIndex "1103" ;
+    nif:endIndex "1113" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w204> nif:anchorOf "Berkum" ;
+    nif:beginIndex "1114" ;
+    nif:endIndex "1120" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w23> nif:BeginIndex "141" ;
+    nif:anchorOf "oorlogshandelingen" ;
+    nif:endIndex "159" ;
+    nif:lemma "oorlog_handeling" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "166" ;
+    nif:endIndex "185" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w29w30> nif:anchorOf "Het monument" ;
+    nif:beginIndex "188" ;
+    nif:endIndex "200" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w30" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w2w3> nif:anchorOf "Oorlogsmonument Zwolle" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w31> nif:BeginIndex "201" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "203" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w35w36> nif:anchorOf "Titus Leeser" ;
+    nif:beginIndex "220" ;
+    nif:endIndex "232" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w4> nif:BeginIndex "27" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "29" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w40w41w42> nif:anchorOf "5 mei 1950" ;
+    nif:beginIndex "244" ;
+    nif:endIndex "254" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w43> nif:BeginIndex "255" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "262" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w45> nif:anchorOf "Het" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "267" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w45" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w46> nif:BeginIndex "268" ;
+    nif:anchorOf "verbeeldt" ;
+    nif:endIndex "277" ;
+    nif:lemma "verbeelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w47w48w49w50w51w52w53w54w55w56w57w58> nif:anchorOf "een mens die zich weer opricht nadat er veel leed is ondervonden" ;
+    nif:beginIndex "278" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w49> nif:anchorOf "die" ;
+    nif:beginIndex "287" ;
+    nif:endIndex "290" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w49" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w50> nif:anchorOf "zich" ;
+    nif:beginIndex "291" ;
+    nif:endIndex "295" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w50" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w51> nif:anchorOf "weer" ;
+    nif:beginIndex "296" ;
+    nif:endIndex "300" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w51" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w52> nif:BeginIndex "301" ;
+    nif:anchorOf "opricht" ;
+    nif:endIndex "308" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w53w54w55w56w57w58> nif:anchorOf "nadat er veel leed is ondervonden" ;
+    nif:beginIndex "309" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w53" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w55w56> nif:anchorOf "veel leed" ;
+    nif:beginIndex "318" ;
+    nif:endIndex "327" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w56" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w57> nif:BeginIndex "328" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "330" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w60w61w62w63w64w65> nif:anchorOf "Door naar de toekomst te kijken" ;
+    nif:beginIndex "344" ;
+    nif:endIndex "375" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w63> nif:anchorOf "toekomst" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "365" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w65> nif:BeginIndex "369" ;
+    nif:anchorOf "kijken" ;
+    nif:endIndex "375" ;
+    nif:lemma "kijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w66> nif:BeginIndex "376" ;
+    nif:anchorOf "krijgt" ;
+    nif:endIndex "382" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w67w68> nif:anchorOf "de mens" ;
+    nif:beginIndex "383" ;
+    nif:endIndex "390" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w69> nif:anchorOf "weer" ;
+    nif:beginIndex "391" ;
+    nif:endIndex "395" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w69" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w70> nif:anchorOf "levensmoed" ;
+    nif:beginIndex "396" ;
+    nif:endIndex "406" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w70" ;
+    nif:lemma "leven_moed" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w72w73> nif:anchorOf "Het monument" ;
+    nif:beginIndex "408" ;
+    nif:endIndex "420" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w74> nif:BeginIndex "421" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "423" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w81> nif:anchorOf "die" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "467" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w81" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w82> nif:anchorOf "symbool" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "475" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w82" ;
+    nif:lemma "symbool" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w83> nif:BeginIndex "476" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "481" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w84w85> nif:anchorOf "voor weerstand" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "496" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w84" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w87w88w89w90w91w92> nif:anchorOf "Op de muur bij het monument" ;
+    nif:beginIndex "499" ;
+    nif:endIndex "526" ;
+    nif:head "bgnProc:662__Oorlogsmonument_Zwolle.naf#w87" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w93> nif:BeginIndex "527" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "531" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w95> nif:BeginIndex "540" ;
+    nif:anchorOf "aangebracht" ;
+    nif:endIndex "551" ;
+    nif:lemma "aan_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w97w98w99w100> nif:anchorOf "Victor E. van Vriesland" ;
+    nif:beginIndex "556" ;
+    nif:endIndex "579" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w9w10> nif:anchorOf "Ter Pelkwijkpark" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_107t_108t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w108w109w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_116t_117t_118t_119t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w117w118w119w120w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_122t_123t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w123w124w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_129t_130t_131t_132t_133t_134t_135t_136t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w130w131w132w133w134w135w136w137w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_139t_140> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w140w141> ;
+    xs:date "2017-04-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_146t_147t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w147w148w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_151t_152> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w152w153> ;
+    xs:date "2017-04-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_157t_158t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w158w159w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_163t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w164w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_165t_166t_167t_168t_169t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w166w167w168w169w170w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_173t_174> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w174w175> ;
+    xs:date "2017-08-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_39t_40t_41> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w40w41w42> ;
+    xs:date "1950-05-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w47w48w49w50w51w52w53w54w55w56w57w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_52t_53t_54t_55t_56t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w53w54w55w56w57w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_54t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w55w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_59t_60t_61t_62t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w60w61w62w63w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_62> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w63> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_66t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w67w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_71t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w72w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_83t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w84w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_86t_87t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w87w88w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w29w30> .
+
+bgn:Person-662 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w154>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w188w189>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w199w200>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w203>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w97w98w99w100>,
+        <http://data.biographynet.nl/rdf/170506221754/662__Oorlogsmonument_Zwolle.naf#w9w10> .
+

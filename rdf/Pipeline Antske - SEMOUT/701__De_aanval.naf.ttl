@@ -1,0 +1,205 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_36t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_40t_41>,
+        bgn:Person-701 ;
+    ore:proxyFor bgn:Person-701 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w29> nif:lemma "blad" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w38> nif:lemma "inhoud" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w41> nif:lemma "uit" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-701__De_aanval#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-701__De_aanval .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-701 ;
+    bgn:aggregatedPerson bgn:Person-701 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-701__De_aanval ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-701__De_aanval ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w18> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_10> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_15> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_12t_13> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_2> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w3> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w25> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_19> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w30> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_27t_28> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_30> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w39> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_36t_37> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_40t_41> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_39> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w11> nif:anchorOf "dat" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "61" ;
+    nif:head "bgnProc:701__De_aanval.naf#w11" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w13w14> nif:anchorOf "maart 1945" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "78" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w16> nif:anchorOf "Leersum" ;
+    nif:beginIndex "82" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w18> nif:BeginIndex "95" ;
+    nif:anchorOf "uitgegeven" ;
+    nif:endIndex "105" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w20> nif:anchorOf "dat" ;
+    nif:beginIndex "109" ;
+    nif:endIndex "112" ;
+    nif:head "bgnProc:701__De_aanval.naf#w20" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w25> nif:BeginIndex "140" ;
+    nif:anchorOf "verspreid" ;
+    nif:endIndex "149" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w28w29> nif:anchorOf "Het blad" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "164" ;
+    nif:head "bgnProc:701__De_aanval.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w3> nif:BeginIndex "10" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "13" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w30> nif:BeginIndex "165" ;
+    nif:anchorOf "verscheen" ;
+    nif:endIndex "174" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w31> nif:anchorOf "dagelijks" ;
+    nif:beginIndex "175" ;
+    nif:endIndex "184" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w34> nif:BeginIndex "190" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "194" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w37w38> nif:anchorOf "de inhoud" ;
+    nif:beginIndex "209" ;
+    nif:endIndex "218" ;
+    nif:head "bgnProc:701__De_aanval.naf#w38" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w39> nif:BeginIndex "219" ;
+    nif:anchorOf "bestond" ;
+    nif:endIndex "226" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w40> nif:anchorOf "voornamelijk" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "239" ;
+    nif:head "bgnProc:701__De_aanval.naf#w40" ;
+    nif:lemma "voornamelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w41w42> nif:anchorOf "uit nieuwsberichten" ;
+    nif:beginIndex "240" ;
+    nif:endIndex "259" ;
+    nif:head "bgnProc:701__De_aanval.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w8w9> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_10> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w11> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w13w14> ;
+    xs:gYearMonth "1945-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_19> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_27t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w28w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_30> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w31> ;
+    xs:date "XXXX-XX-XX" .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_36t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w37w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#t_40t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w41w42> .
+
+bgn:Person-701 a bgn:LOC,
+        bgn:MISC ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/701__De_aanval.naf#w8w9> .
+

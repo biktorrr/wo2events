@@ -1,0 +1,792 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_100t_101t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_105t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_132t_133t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_146t_147t_148t_149t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_197t_198t_199t_200t_201t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_204t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_99>,
+        bgn:Person-1324 ;
+    ore:proxyFor bgn:Person-1324 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w101> nif:lemma "geld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w106> nif:lemma "wapen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w137> nif:lemma "inval" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w140> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w145> nif:lemma "bakker" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w147> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w200> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w206> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w215> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w73> nif:lemma "bakkerij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w94> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1324__Meint_Veninga#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1324__Meint_Veninga .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1324 ;
+    bgn:aggregatedPerson bgn:Person-1324 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1324__Meint_Veninga ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1324__Meint_Veninga ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w105> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_99> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_105t_106t_107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w117> ;
+    pb:Arg0 bgn:Person-1324 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w12w13w14> ;
+    xs:date "1944-10-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_132t_133t_134> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w133w134w135> ;
+    xs:gYearMonth "1944-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w139> ;
+    pb:Arg0 bgn:Person-1324 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_135t_136> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w16> ;
+    pb:ArgM-TMP bgn:Person-1324 .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_152> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w153> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_143t_144> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_146t_147t_148t_149t_150t_151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_161> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w162> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w165> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_172>,
+        bgn:Person-1324 .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_165> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w166> ;
+    pb:Arg1 bgn:Person-1324 .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w168> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_172>,
+        bgn:Person-1324 .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w171> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_179> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w180> ;
+    xs:period "PAST_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_181> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w182> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w184> ;
+    pb:Arg1 bgn:Person-1324 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w192> ;
+    pb:A1 bgn:Person-1324 ;
+    pb:AM-LOC bgn:Person-1324 .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_203> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w204> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_197t_198t_199t_200t_201t_202> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_204t_205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w218> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_213> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_214t_215t_216> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_208t_209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_223> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w224> ;
+    pb:Arg0 bgn:Person-1324 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_221> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w225> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_238> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w239> ;
+    xs:gYear "1991" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w47> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_45> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_54> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w55> ;
+    xs:gYear "1895",
+        "1922" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w60> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w6w7w8> ;
+    xs:date "1897-01-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_66> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w67> ;
+    xs:gYear "1898",
+        "1984" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w71> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_69> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_82>,
+        bgn:Person-1324 .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w90> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_91>,
+        bgn:Person-1324 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_93t_94t_95> ;
+    pb:AM-TMP bgn:Person-1324 .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w99> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_99> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_100t_101t_102> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w10> nif:anchorOf "Hoogezand" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w100> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "570" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w100" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w101w102w103> nif:anchorOf "geld en levensmiddelen" ;
+    nif:beginIndex "571" ;
+    nif:endIndex "593" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w105> nif:BeginIndex "597" ;
+    nif:anchorOf "verborg" ;
+    nif:endIndex "604" ;
+    nif:lemma "verbergen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w106w107w108> nif:anchorOf "wapens en munitie" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "622" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w116> nif:anchorOf "vermoedelijk" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "685" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w116" ;
+    nif:lemma "vermoedelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w117> nif:BeginIndex "686" ;
+    nif:anchorOf "verraden" ;
+    nif:endIndex "694" ;
+    nif:lemma "verraden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w120> nif:anchorOf "NSB'" ;
+    nif:beginIndex "704" ;
+    nif:endIndex "708" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w126w127> nif:anchorOf "Delfzijlster Sicherheitsdienst" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "757" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w12w13w14> nif:anchorOf "5 oktober 1944" ;
+    nif:beginIndex "49" ;
+    nif:endIndex "63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w133w134w135> nif:anchorOf "vijfde oktober 1944" ;
+    nif:beginIndex "779" ;
+    nif:endIndex "798" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w136w137> nif:anchorOf "een inval" ;
+    nif:beginIndex "799" ;
+    nif:endIndex "808" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w139> nif:BeginIndex "814" ;
+    nif:anchorOf "gedaan" ;
+    nif:endIndex "820" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w140w141w142> nif:anchorOf "in de bakkerij" ;
+    nif:beginIndex "821" ;
+    nif:endIndex "835" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w144w145> nif:anchorOf "De bakker" ;
+    nif:beginIndex "837" ;
+    nif:endIndex "846" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w147w148w149w150w151w152> nif:anchorOf "bij de inval in zijn rug" ;
+    nif:beginIndex "852" ;
+    nif:endIndex "876" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w153> nif:BeginIndex "877" ;
+    nif:anchorOf "geschoten" ;
+    nif:endIndex "886" ;
+    nif:lemma "schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w16> nif:BeginIndex "65" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "68" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w162> nif:anchorOf "Jan" ;
+    nif:beginIndex "928" ;
+    nif:endIndex "931" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w162w163> nif:anchorOf "Jan Huitzing" ;
+    nif:beginIndex "928" ;
+    nif:endIndex "940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w165> nif:BeginIndex "942" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "946" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w166> nif:BeginIndex "947" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "959" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w168> nif:BeginIndex "963" ;
+    nif:anchorOf "meegenomen" ;
+    nif:endIndex "973" ;
+    nif:lemma "mee_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w171> nif:BeginIndex "982" ;
+    nif:anchorOf "bewaarschool" ;
+    nif:endIndex "994" ;
+    nif:lemma "bewaren_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w173> nif:anchorOf "Martenshoek" ;
+    nif:beginIndex "998" ;
+    nif:endIndex "1009" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w175> nif:anchorOf "Daar" ;
+    nif:beginIndex "1011" ;
+    nif:endIndex "1015" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w175" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w177> nif:anchorOf "Huitzing" ;
+    nif:beginIndex "1023" ;
+    nif:endIndex "1031" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w180> nif:anchorOf "eerder" ;
+    nif:beginIndex "1038" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w182> nif:anchorOf "Jan" ;
+    nif:beginIndex "1055" ;
+    nif:endIndex "1058" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w182w183> nif:anchorOf "Jan Sangers" ;
+    nif:beginIndex "1055" ;
+    nif:endIndex "1066" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w184> nif:BeginIndex "1067" ;
+    nif:anchorOf "neergeschoten" ;
+    nif:endIndex "1080" ;
+    nif:lemma "neer_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w186> nif:anchorOf "Veninga" ;
+    nif:beginIndex "1083" ;
+    nif:endIndex "1090" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w188> nif:anchorOf "Sangers" ;
+    nif:beginIndex "1092" ;
+    nif:endIndex "1099" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w190> nif:anchorOf "Huitzing" ;
+    nif:beginIndex "1103" ;
+    nif:endIndex "1111" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w192> nif:BeginIndex "1119" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "1127" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w194w195w196> nif:anchorOf "De Stille Hof" ;
+    nif:beginIndex "1131" ;
+    nif:endIndex "1144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w198w199w200w201w202w203> nif:anchorOf "een klein monument op de begraafplaats" ;
+    nif:beginIndex "1146" ;
+    nif:endIndex "1184" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w200" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w1w2> nif:anchorOf "Veninga" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "83" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w204> nif:BeginIndex "1185" ;
+    nif:anchorOf "vermeldt" ;
+    nif:endIndex "1193" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w205w206> nif:anchorOf "hun namen" ;
+    nif:beginIndex "1194" ;
+    nif:endIndex "1203" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w209w210> nif:anchorOf "mei 1948" ;
+    nif:beginIndex "1208" ;
+    nif:endIndex "1216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w214> nif:anchorOf "Hoogezand" ;
+    nif:beginIndex "1239" ;
+    nif:endIndex "1248" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w215w216w217> nif:anchorOf "naar deze mannen" ;
+    nif:beginIndex "1249" ;
+    nif:endIndex "1265" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w218> nif:BeginIndex "1266" ;
+    nif:anchorOf "vernoemd" ;
+    nif:endIndex "1274" ;
+    nif:lemma "vernoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w221> nif:anchorOf "Brugstraat" ;
+    nif:beginIndex "1279" ;
+    nif:endIndex "1289" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w222> nif:anchorOf "waar" ;
+    nif:beginIndex "1290" ;
+    nif:endIndex "1294" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w222" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w223> nif:anchorOf "Veninga" ;
+    nif:beginIndex "1295" ;
+    nif:endIndex "1302" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w224> nif:BeginIndex "1303" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "1309" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w225> nif:BeginIndex "1310" ;
+    nif:anchorOf "heet" ;
+    nif:endIndex "1314" ;
+    nif:lemma "heten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w226> nif:anchorOf "sindsdien" ;
+    nif:beginIndex "1315" ;
+    nif:endIndex "1324" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w226" ;
+    nif:lemma "sindsdien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w227w228> nif:anchorOf "Meint Veningastraat" ;
+    nif:beginIndex "1325" ;
+    nif:endIndex "1344" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w232> nif:BeginIndex "1352" ;
+    nif:anchorOf "K." ;
+    nif:endIndex "1354" ;
+    nif:lemma "K." .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w232w233> nif:anchorOf "K. G." ;
+    nif:beginIndex "1352" ;
+    nif:endIndex "1356" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w235w236w237> nif:anchorOf "Bos J. H." ;
+    nif:beginIndex "1360" ;
+    nif:endIndex "1368" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w239> nif:anchorOf "1991" ;
+    nif:beginIndex "1370" ;
+    nif:endIndex "1374" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w241> nif:anchorOf "Hoogezand" ;
+    nif:beginIndex "1376" ;
+    nif:endIndex "1385" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w243> nif:anchorOf "Sappemeer" ;
+    nif:beginIndex "1389" ;
+    nif:endIndex "1398" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w246w247w248> nif:anchorOf "Tweede Wereldoorlog Bedum" ;
+    nif:beginIndex "1410" ;
+    nif:endIndex "1435" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w24w25> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "112" ;
+    nif:endIndex "131" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w250w251> nif:anchorOf "Uitgeverij Profiel" ;
+    nif:beginIndex "1437" ;
+    nif:endIndex "1455" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w27> nif:anchorOf "Veninga" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w28> nif:BeginIndex "142" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "145" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w33w34> nif:anchorOf "Jakob Veninga" ;
+    nif:beginIndex "170" ;
+    nif:endIndex "183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w36w37w38> nif:anchorOf "Berendina Marchina Munneke" ;
+    nif:beginIndex "187" ;
+    nif:endIndex "213" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w4> nif:anchorOf "Lula" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w41> nif:BeginIndex "219" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "223" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w44> nif:anchorOf "Hoogezand" ;
+    nif:beginIndex "239" ;
+    nif:endIndex "248" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w46> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "250" ;
+    nif:endIndex "253" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w46" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w47> nif:BeginIndex "254" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "261" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w49> nif:anchorOf "1920" ;
+    nif:beginIndex "265" ;
+    nif:endIndex "269" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w51w52w53> nif:anchorOf "Anjenetta Grietje Brunius" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "299" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w55> nif:anchorOf "1895-1922" ;
+    nif:beginIndex "301" ;
+    nif:endIndex "310" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w60> nif:BeginIndex "323" ;
+    nif:anchorOf "overlijden" ;
+    nif:endIndex "333" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w62> nif:anchorOf "1923" ;
+    nif:beginIndex "337" ;
+    nif:endIndex "341" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w64w65> nif:anchorOf "Geertruida Laninga" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "364" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w67> nif:anchorOf "1898-1984" ;
+    nif:beginIndex "366" ;
+    nif:endIndex "375" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w6w7w8> nif:anchorOf "3 januari 1897" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w70> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "378" ;
+    nif:endIndex "381" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w70" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w71> nif:BeginIndex "382" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "385" ;
+    nif:lemma "over_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w72w73> nif:anchorOf "de bakkerij" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "397" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w77w78> nif:anchorOf "Johannes Brunius" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "435" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w81> nif:anchorOf "Brugstraat" ;
+    nif:beginIndex "443" ;
+    nif:endIndex "453" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w83> nif:anchorOf "Hoogezand" ;
+    nif:beginIndex "457" ;
+    nif:endIndex "466" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w88w89> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "504" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w90> nif:BeginIndex "505" ;
+    nif:anchorOf "ving" ;
+    nif:endIndex "509" ;
+    nif:lemma "op_vangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w91> nif:anchorOf "Veninga" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "517" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w92> nif:anchorOf "onderduikers" ;
+    nif:beginIndex "518" ;
+    nif:endIndex "530" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w92" ;
+    nif:lemma "onderduiker" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w94w95w96> nif:anchorOf "in zijn bakkerij" ;
+    nif:beginIndex "534" ;
+    nif:endIndex "550" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w98> nif:anchorOf "Ook" ;
+    nif:beginIndex "552" ;
+    nif:endIndex "555" ;
+    nif:head "bgnProc:1324__Meint_Veninga.naf#w98" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w99> nif:BeginIndex "556" ;
+    nif:anchorOf "verstrekte" ;
+    nif:endIndex "566" ;
+    nif:lemma "verstrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_100t_101t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w101w102w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_105t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w106w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_135t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w136w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_139t_140t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w140w141w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_146t_147t_148t_149t_150t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w147w148w149w150w151w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_197t_198t_199t_200t_201t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w198w199w200w201w202w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_204t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w205w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_208t_209> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w209w210> ;
+    xs:gYearMonth "1948-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_225> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w226> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_48> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w49> ;
+    xs:gYear "1920" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_61> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w62> ;
+    xs:gYear "1923" .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_71t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w72w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w94w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w100> .
+
+bgn:Person-1324 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w126w127>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w162w163>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w173>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w182w183>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w188>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w194w195w196>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w214>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w221>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w227w228>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w232w233>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w235w236w237>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w241>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w243>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w246w247w248>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w24w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w250w251>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w36w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w51w52w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w64w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w88w89>,
+        <http://data.biographynet.nl/rdf/170506221754/1324__Meint_Veninga.naf#w91> .
+

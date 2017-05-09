@@ -1,0 +1,806 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_112t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_135t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_141t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_166t_167t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_172t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_202t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_254t_255t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_259>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_270t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_53t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_71t_72t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_97>,
+        bgn:Person-1266 ;
+    ore:proxyFor bgn:Person-1266 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w110> nif:lemma "boerderij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w115> nif:lemma "heideveld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w153> nif:lemma "lijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w203> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w222> nif:lemma "onderduik_adres" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w254> nif:lemma "rol" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w255> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w272> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w55> nif:lemma "huiszoeking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w72> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w84> nif:lemma "huiszoeking" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1266__Pieter_Roelf_Roelfsema#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1266__Pieter_Roelf_Roelfsema .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1266 ;
+    bgn:aggregatedPerson bgn:Person-1266 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1266__Pieter_Roelf_Roelfsema ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1266__Pieter_Roelf_Roelfsema ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w111> ;
+    pb:Arg0 bgn:Person-1266 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_108t_109> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w118> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_112t_113t_114> ;
+    pb:Arg2 bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w130> ;
+    pb:Arg1 bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w13w14w15> ;
+    xs:date "1944-11-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w133> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_147>,
+        bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w139> ;
+    pb:Arg1 bgn:Person-1266 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_147>,
+        bgn:Person-1266 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_147>,
+        bgn:Person-1266 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_135t_136t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w145> ;
+    pb:Arg1 bgn:Person-1266 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_147>,
+        bgn:Person-1266 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_147>,
+        bgn:Person-1266 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_141t_142t_143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w156> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_151t_152> ;
+    pb:A2 bgn:Person-1266 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w170> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_151t_152> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_166t_167t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w180> ;
+    pb:Arg1 bgn:Person-1266 ;
+    pb:Arg2 bgn:Person-1266 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_172t_173t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w205> ;
+    pb:Arg1 bgn:Person-1266 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_202t_203> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_201> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w212> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_208> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_216> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_215> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w223> ;
+    pb:A0 bgn:Person-1266 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_220t_221> ;
+    pb:A2 bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_237> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w238> ;
+    pb:ArgM-PRD bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_250> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w251> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_252t_253>,
+        bgn:Person-1266 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_254t_255t_256> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_256> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w257> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_259> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w260> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_266> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w267> ;
+    xs:gYear "1899",
+        "1988" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_269> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w270> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_270t_271>,
+        bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_36> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w37> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w38> ;
+    pb:Arg1 bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w56> ;
+    pb:A0 bgn:Person-1266 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_53t_54> ;
+    pb:AM-LOC bgn:Person-1266 ;
+    pb:AM-TMP bgn:Person-1266 .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w7w8w9> ;
+    xs:date "1898-03-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w77> ;
+    pb:A0 bgn:Person-1266 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_71t_72t_73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w86> ;
+    pb:A0 bgn:Person-1266 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_82t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w96> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w101> nif:anchorOf "Bakkeveen" ;
+    nif:beginIndex "604" ;
+    nif:endIndex "613" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w103> nif:anchorOf "waar" ;
+    nif:beginIndex "615" ;
+    nif:endIndex "619" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w103" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w105> nif:anchorOf "Eelder" ;
+    nif:beginIndex "623" ;
+    nif:endIndex "629" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w107w108> nif:anchorOf "Feico Camphuis" ;
+    nif:beginIndex "640" ;
+    nif:endIndex "654" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w109w110> nif:anchorOf "een boerderij" ;
+    nif:beginIndex "655" ;
+    nif:endIndex "668" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w110" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w111> nif:BeginIndex "669" ;
+    nif:anchorOf "bezat" ;
+    nif:endIndex "674" ;
+    nif:lemma "bezitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w113w114w115> nif:anchorOf "Het nabijgelegen heideveld" ;
+    nif:beginIndex "676" ;
+    nif:endIndex "702" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w118> nif:BeginIndex "714" ;
+    nif:anchorOf "gebruikt" ;
+    nif:endIndex "722" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w125> nif:anchorOf "Noord-Nederlandse" ;
+    nif:beginIndex "763" ;
+    nif:endIndex "780" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w130> nif:BeginIndex "810" ;
+    nif:anchorOf "speurwerk" ;
+    nif:endIndex "819" ;
+    nif:lemma "speur_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w132> nif:anchorOf "Kaper" ;
+    nif:beginIndex "824" ;
+    nif:endIndex "829" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w133> nif:BeginIndex "830" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "834" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w134> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "835" ;
+    nif:endIndex "844" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w136w137w138> nif:anchorOf "8 november 1944" ;
+    nif:beginIndex "848" ;
+    nif:endIndex "863" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w139> nif:BeginIndex "864" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "876" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w13w14w15> nif:anchorOf "9 november 1944" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "74" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w142w143w144> nif:anchorOf "9 november 1944" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "898" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w145> nif:BeginIndex "899" ;
+    nif:anchorOf "vermoord" ;
+    nif:endIndex "907" ;
+    nif:lemma "vermoorden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w148> nif:anchorOf "Scholtenhuis" ;
+    nif:beginIndex "915" ;
+    nif:endIndex "927" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w150> nif:anchorOf "Groningen" ;
+    nif:beginIndex "931" ;
+    nif:endIndex "940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w152w153> nif:anchorOf "Zijn lijk" ;
+    nif:beginIndex "942" ;
+    nif:endIndex "951" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w155> nif:anchorOf "heimelijk" ;
+    nif:beginIndex "957" ;
+    nif:endIndex "966" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w155" ;
+    nif:lemma "heimelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w156> nif:BeginIndex "967" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "975" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w160> nif:anchorOf "Appèlbergen" ;
+    nif:beginIndex "987" ;
+    nif:endIndex "998" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w162> nif:anchorOf "Harenermolen" ;
+    nif:beginIndex "1003" ;
+    nif:endIndex "1015" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w167w168w169> nif:anchorOf "20 juni 1945" ;
+    nif:beginIndex "1030" ;
+    nif:endIndex "1042" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w17> nif:BeginIndex "76" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "79" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w170> nif:BeginIndex "1043" ;
+    nif:anchorOf "gevonden" ;
+    nif:endIndex "1051" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w173w174w175> nif:anchorOf "25 juni 1945" ;
+    nif:beginIndex "1056" ;
+    nif:endIndex "1068" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w177w178w179> nif:anchorOf "Pieter Roelf Roelfsema" ;
+    nif:beginIndex "1074" ;
+    nif:endIndex "1096" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w180> nif:BeginIndex "1097" ;
+    nif:anchorOf "herbegraven" ;
+    nif:endIndex "1108" ;
+    nif:lemma "her_begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w183w184> nif:anchorOf "Algemene Begraafplaats" ;
+    nif:beginIndex "1115" ;
+    nif:endIndex "1137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w186> nif:anchorOf "Haren" ;
+    nif:beginIndex "1141" ;
+    nif:endIndex "1146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w188> nif:anchorOf "Gr." ;
+    nif:beginIndex "1148" ;
+    nif:endIndex "1151" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "84" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w191w192> nif:anchorOf "Feico Camphuis" ;
+    nif:beginIndex "1154" ;
+    nif:endIndex "1168" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w1w2w3> nif:anchorOf "Roelf Roelfsema" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w202> nif:anchorOf "Bakkeveen" ;
+    nif:beginIndex "1225" ;
+    nif:endIndex "1234" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w203w204> nif:anchorOf "ter dood" ;
+    nif:beginIndex "1235" ;
+    nif:endIndex "1243" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w203" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w205> nif:BeginIndex "1244" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "1255" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w209> nif:anchorOf "die" ;
+    nif:beginIndex "1267" ;
+    nif:endIndex "1270" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w209" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w210> nif:anchorOf "later" ;
+    nif:beginIndex "1271" ;
+    nif:endIndex "1276" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w210" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w212> nif:BeginIndex "1282" ;
+    nif:anchorOf "omgezet" ;
+    nif:endIndex "1289" ;
+    nif:lemma "om_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w216> nif:BeginIndex "1309" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1325" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w217> nif:anchorOf "Neuengamme" ;
+    nif:beginIndex "1326" ;
+    nif:endIndex "1336" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w219> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "1339" ;
+    nif:endIndex "1348" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w221w222> nif:anchorOf "een onderduikadres" ;
+    nif:beginIndex "1353" ;
+    nif:endIndex "1371" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w223> nif:BeginIndex "1372" ;
+    nif:anchorOf "verschaft" ;
+    nif:endIndex "1381" ;
+    nif:lemma "verschaffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w225w226w227w228> nif:anchorOf "Iman van den Bosch" ;
+    nif:beginIndex "1386" ;
+    nif:endIndex "1404" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w235w236w237> nif:anchorOf "Van den Bosch" ;
+    nif:beginIndex "1439" ;
+    nif:endIndex "1452" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w238> nif:BeginIndex "1453" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1456" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w239> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "1457" ;
+    nif:endIndex "1466" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w243w244w245> nif:anchorOf "Nationaal Steun Fonds" ;
+    nif:beginIndex "1481" ;
+    nif:endIndex "1502" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w247> nif:anchorOf "NSF" ;
+    nif:beginIndex "1504" ;
+    nif:endIndex "1507" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w250> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "1510" ;
+    nif:endIndex "1519" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w251> nif:BeginIndex "1520" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "1527" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w252> nif:anchorOf "ook" ;
+    nif:beginIndex "1528" ;
+    nif:endIndex "1531" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w252" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w253w254> nif:anchorOf "een rol" ;
+    nif:beginIndex "1532" ;
+    nif:endIndex "1539" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w254" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w255w256w257> nif:anchorOf "in het kunstenaarsverzet" ;
+    nif:beginIndex "1540" ;
+    nif:endIndex "1564" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w255" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w257> nif:BeginIndex "1547" ;
+    nif:anchorOf "kunstenaarsverzet" ;
+    nif:endIndex "1564" ;
+    nif:lemma "kunstenaar_verzet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w259> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "1567" ;
+    nif:endIndex "1576" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w26> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w260> nif:BeginIndex "1577" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1580" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w263> nif:anchorOf "Albertina" ;
+    nif:beginIndex "1594" ;
+    nif:endIndex "1603" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w264w265> nif:anchorOf "Lucretia Schaafsma" ;
+    nif:beginIndex "1604" ;
+    nif:endIndex "1622" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w267> nif:anchorOf "1899-1988" ;
+    nif:beginIndex "1624" ;
+    nif:endIndex "1633" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w27> nif:BeginIndex "150" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "153" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w270> nif:BeginIndex "1638" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1641" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w271w272> nif:anchorOf "drie kinderen" ;
+    nif:beginIndex "1642" ;
+    nif:endIndex "1655" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w272" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w32> nif:anchorOf "Albino" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w34> nif:anchorOf "Smilde" ;
+    nif:beginIndex "202" ;
+    nif:endIndex "208" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w37> nif:anchorOf "1940" ;
+    nif:beginIndex "213" ;
+    nif:endIndex "217" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w38> nif:BeginIndex "218" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "221" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w39> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "222" ;
+    nif:endIndex "231" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w5> nif:anchorOf "Groningen" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w50> nif:anchorOf "NSB-evacuée" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "304" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w51w52> nif:anchorOf "Johanna Spiegelberg-Saarloos" ;
+    nif:beginIndex "305" ;
+    nif:endIndex "333" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w54w55> nif:anchorOf "een huiszoeking" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w55" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w56> nif:BeginIndex "355" ;
+    nif:anchorOf "gepleegd" ;
+    nif:endIndex "363" ;
+    nif:lemma "plegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w59> nif:anchorOf "SD" ;
+    nif:beginIndex "372" ;
+    nif:endIndex "374" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w65> nif:anchorOf "Trompstraat" ;
+    nif:beginIndex "398" ;
+    nif:endIndex "409" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w68> nif:anchorOf "Groningen" ;
+    nif:beginIndex "416" ;
+    nif:endIndex "425" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w70> nif:anchorOf "Daar" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "431" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w70" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w72w73w74> nif:anchorOf "in de tuin" ;
+    nif:beginIndex "437" ;
+    nif:endIndex "447" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w77> nif:BeginIndex "458" ;
+    nif:anchorOf "gevonden" ;
+    nif:endIndex "466" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w7w8w9> nif:anchorOf "21 maart 1898" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "48" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w81> nif:anchorOf "KP-leden" ;
+    nif:beginIndex "481" ;
+    nif:endIndex "489" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w83w84> nif:anchorOf "De huiszoeking" ;
+    nif:beginIndex "491" ;
+    nif:endIndex "505" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w84" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w86> nif:BeginIndex "511" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "521" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w90> nif:anchorOf "SD'" ;
+    nif:beginIndex "539" ;
+    nif:endIndex "542" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w92w93> nif:anchorOf "Abraham Kaper" ;
+    nif:beginIndex "545" ;
+    nif:endIndex "558" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w95> nif:anchorOf "Roelfsema" ;
+    nif:beginIndex "560" ;
+    nif:endIndex "569" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w96> nif:BeginIndex "570" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "573" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w98> nif:anchorOf "zelf" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "587" ;
+    nif:head "bgnProc:1266__Pieter_Roelf_Roelfsema.naf#w98" ;
+    nif:lemma "zelf" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_112t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w113w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_135t_136t_137> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w136w137w138> ;
+    xs:date "1944-11-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_141t_142t_143> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w142w143w144> ;
+    xs:date "1944-11-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_166t_167t_168> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w167w168w169> ;
+    xs:date "1945-06-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_172t_173t_174> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w173w174w175> ;
+    xs:date "1945-06-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_202t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w203w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_252t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w253w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_254t_255t_256> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w255w256w257> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_270t_271> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w271w272> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_53t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w54w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_71t_72t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w72w73w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w83w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#t_151t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w152w153> .
+
+bgn:Person-1266 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w107w108>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w125>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w148>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w150>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w160>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w162>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w177w178w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w183w184>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w188>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w191w192>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w219>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w225w226w227w228>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w235w236w237>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w243w244w245>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w250>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w259>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w263>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w264w265>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w51w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w92w93>,
+        <http://data.biographynet.nl/rdf/170506221754/1266__Pieter_Roelf_Roelfsema.naf#w95> ;
+    stevensFam:isPartnerIn bgn:Person-1266 .
+

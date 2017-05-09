@@ -1,0 +1,805 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_109t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_134t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_154t_155t_156t_157t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_179t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_187t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_201t_202t_203t_204t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_208t_209t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_213t_214t_215t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_26t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_352>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_61t_62t_63t_64t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_78t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_82t_83t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_97t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_99>,
+        bgn:Person-2450 ;
+    ore:proxyFor bgn:Person-2450 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w107> nif:lemma "oorlog_monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w135> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w138> nif:lemma "bloem" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w155> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w162> nif:lemma "vrouw" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w188> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w202> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w209> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w214> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w28> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w44> nif:lemma "straat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w46> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w63> nif:lemma "opdracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w65> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w83> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w88> nif:lemma "deur" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w99> nif:lemma "geheel" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2450__Vrouwen_uit_het_verzet#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2450__Vrouwen_uit_het_verzet .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2450 ;
+    bgn:aggregatedPerson bgn:Person-2450 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2450__Vrouwen_uit_het_verzet ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2450__Vrouwen_uit_het_verzet ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w113> ;
+    pb:Arg0 bgn:Person-2450 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_105t_106> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_109t_110t_111> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w141> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_137t_138t_139> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_134t_135t_136> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_129>,
+        bgn:Person-2450 .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w154> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_154t_155t_156t_157t_158> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w163> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_160t_161> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w182> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_177> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_179t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w187> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_187t_188t_189> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w21> ;
+    pb:ArgM-TMP bgn:Person-2450 .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w208> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_211> ;
+    pb:ArgM-DIS bgn:Person-2450 ;
+    pb:ArgM-MNR bgn:Person-2450 ;
+    pb:ArgM-TMP bgn:Person-2450 .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w213> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_211> ;
+    pb:A3 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_208t_209t_210> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_201t_202t_203t_204t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_213t_214t_215t_216t_217t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_223> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w224> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w36> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_26t_27> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_30> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_352> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w353> ;
+    xs:gYear "1982" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w45> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55> ;
+    pb:ArgM-TMP bgn:Person-2450 .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w52> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_47> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w61> ;
+    pb:Arg0 bgn:Person-2450 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_61t_62t_63t_64t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w78> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_78t_79>,
+        bgn:Person-2450 .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_8> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w9> ;
+    pb:Arg1 bgn:Person-2450 .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w82> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94t_95>,
+        bgn:Person-2450 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_82t_83t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w100> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_97t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w100> nif:BeginIndex "636" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "638" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w106w107> nif:anchorOf "Het oorlogsmonument" ;
+    nif:beginIndex "669" ;
+    nif:endIndex "688" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w110w111w112> nif:anchorOf "9 december 1999" ;
+    nif:beginIndex "697" ;
+    nif:endIndex "712" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w113> nif:BeginIndex "713" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "720" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w116w117> nif:anchorOf "Evert Vermeer" ;
+    nif:beginIndex "739" ;
+    nif:endIndex "752" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w119w120> nif:anchorOf "Stien Spier" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "767" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w126w127w128> nif:anchorOf "Vrouwen van Ravensbrück" ;
+    nif:beginIndex "788" ;
+    nif:endIndex "811" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w130> nif:anchorOf "Jaarlijks" ;
+    nif:beginIndex "814" ;
+    nif:endIndex "823" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w133w134> nif:anchorOf "Nationale Dodenherdenking" ;
+    nif:beginIndex "839" ;
+    nif:endIndex "864" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w135w136w137> nif:anchorOf "bij het monument" ;
+    nif:beginIndex "865" ;
+    nif:endIndex "881" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w138w139w140> nif:anchorOf "bloemen en kransen" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "900" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w138" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w141> nif:BeginIndex "901" ;
+    nif:anchorOf "gelegd" ;
+    nif:endIndex "907" ;
+    nif:lemma "leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w149> nif:BeginIndex "950" ;
+    nif:anchorOf "vrouwenfiguur" ;
+    nif:endIndex "963" ;
+    nif:lemma "vrouw_figuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w154> nif:BeginIndex "980" ;
+    nif:anchorOf "staande" ;
+    nif:endIndex "987" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w155w156w157w158w159> nif:anchorOf "op een eenvoudige natuurstenen sokkel" ;
+    nif:beginIndex "988" ;
+    nif:endIndex "1025" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w155" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w158> nif:BeginIndex "1006" ;
+    nif:anchorOf "natuurstenen" ;
+    nif:endIndex "1018" ;
+    nif:lemma "natuur_stenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w161w162> nif:anchorOf "De vrouw" ;
+    nif:beginIndex "1027" ;
+    nif:endIndex "1035" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w162" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w163> nif:BeginIndex "1036" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1038" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w178> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1122" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w178" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w180w181> nif:anchorOf "haar rechterhand" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1145" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w181" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w181> nif:BeginIndex "1134" ;
+    nif:anchorOf "rechterhand" ;
+    nif:endIndex "1145" ;
+    nif:lemma "rechter_hand" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w182> nif:BeginIndex "1146" ;
+    nif:anchorOf "gebald" ;
+    nif:endIndex "1152" ;
+    nif:lemma "ballen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w187> nif:BeginIndex "1165" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1169" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w188w189w190> nif:anchorOf "namen van verzetskranten" ;
+    nif:beginIndex "1170" ;
+    nif:endIndex "1194" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w188" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w18w19> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "111" ;
+    nif:endIndex "130" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w194w195> nif:anchorOf "Het Parool" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1223" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w200> nif:anchorOf "Trouw" ;
+    nif:beginIndex "1243" ;
+    nif:endIndex "1248" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w202w203w204w205w206w207> nif:anchorOf "Op de 90 centimeter hoge sokkel" ;
+    nif:beginIndex "1251" ;
+    nif:endIndex "1282" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w202" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w208> nif:BeginIndex "1283" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1287" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w209w210w211> nif:anchorOf "aan de voorzijde" ;
+    nif:beginIndex "1288" ;
+    nif:endIndex "1304" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w209" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w21> nif:BeginIndex "138" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "143" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w212> nif:anchorOf "regels" ;
+    nif:beginIndex "1305" ;
+    nif:endIndex "1311" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w212" ;
+    nif:lemma "regel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w213> nif:BeginIndex "1312" ;
+    nif:anchorOf "opgenomen" ;
+    nif:endIndex "1321" ;
+    nif:lemma "op_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w214w215w216w217w218w219> nif:anchorOf "uit Het lied der achttien dooden" ;
+    nif:beginIndex "1322" ;
+    nif:endIndex "1354" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w224> nif:anchorOf "Jan" ;
+    nif:beginIndex "1372" ;
+    nif:endIndex "1375" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w224w225> nif:anchorOf "Jan Campert" ;
+    nif:beginIndex "1372" ;
+    nif:endIndex "1383" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w236w237w238w239w240> nif:anchorOf "Jaqueline Louise van der Aa" ;
+    nif:beginIndex "1438" ;
+    nif:endIndex "1465" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w24> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "161" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w242w243w244w245> nif:anchorOf "Johanna Antonia Maria Bartels-Striethorst" ;
+    nif:beginIndex "1467" ;
+    nif:endIndex "1508" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w247w248> nif:anchorOf "Hendrika Blokland-Pater" ;
+    nif:beginIndex "1510" ;
+    nif:endIndex "1533" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w250> nif:anchorOf "Elisabeth" ;
+    nif:beginIndex "1535" ;
+    nif:endIndex "1544" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w252> nif:anchorOf "Betsie" ;
+    nif:beginIndex "1546" ;
+    nif:endIndex "1552" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w255> nif:anchorOf "Boom" ;
+    nif:beginIndex "1558" ;
+    nif:endIndex "1562" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w257w258w259> nif:anchorOf "Reina Prinsen Geerligs" ;
+    nif:beginIndex "1564" ;
+    nif:endIndex "1586" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w261w262> nif:anchorOf "Henriëtte Augusta" ;
+    nif:beginIndex "1588" ;
+    nif:endIndex "1605" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w264> nif:anchorOf "Jet" ;
+    nif:beginIndex "1607" ;
+    nif:endIndex "1610" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w266w267> nif:anchorOf "Haak-van Eek" ;
+    nif:beginIndex "1612" ;
+    nif:endIndex "1624" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w269w270w271w272> nif:anchorOf "Aleid Ingeborg van Hardenbroek" ;
+    nif:beginIndex "1626" ;
+    nif:endIndex "1656" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w274w275> nif:anchorOf "Anna Heringa-Jongbloed" ;
+    nif:beginIndex "1658" ;
+    nif:endIndex "1680" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w277w278> nif:anchorOf "Catherina Florentina" ;
+    nif:beginIndex "1682" ;
+    nif:endIndex "1702" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w27w28> nif:anchorOf "Het beeld" ;
+    nif:beginIndex "170" ;
+    nif:endIndex "179" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w28" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w280> nif:anchorOf "Cato" ;
+    nif:beginIndex "1704" ;
+    nif:endIndex "1708" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w282w283w284> nif:anchorOf "Kuijken-van der Eynde" ;
+    nif:beginIndex "1710" ;
+    nif:endIndex "1731" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w286w287w288> nif:anchorOf "Helena Theodora Kuipers-Rietberg" ;
+    nif:beginIndex "1733" ;
+    nif:endIndex "1765" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w290w291> nif:anchorOf "Anna Clasina" ;
+    nif:beginIndex "1767" ;
+    nif:endIndex "1779" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w297w298w299> nif:anchorOf "Jantina Christina Langerhorst" ;
+    nif:beginIndex "1792" ;
+    nif:endIndex "1821" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w30> nif:anchorOf "ook" ;
+    nif:beginIndex "186" ;
+    nif:endIndex "189" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w30" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w301w302w303> nif:anchorOf "Truus van Lier" ;
+    nif:beginIndex "1823" ;
+    nif:endIndex "1837" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w305w306> nif:anchorOf "Rachel Neter-Montanhes" ;
+    nif:beginIndex "1839" ;
+    nif:endIndex "1861" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w308w309w310w311w312> nif:anchorOf "Juliana Wilhelmina van der Noorda" ;
+    nif:beginIndex "1863" ;
+    nif:endIndex "1896" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w31> nif:anchorOf "wel" ;
+    nif:beginIndex "190" ;
+    nif:endIndex "193" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w31" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w314w315w316> nif:anchorOf "Henriëtte Henriquez Pimentel" ;
+    nif:beginIndex "1898" ;
+    nif:endIndex "1926" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w318w319w320> nif:anchorOf "Anna Louisa Salomons" ;
+    nif:beginIndex "1928" ;
+    nif:endIndex "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w322w323> nif:anchorOf "Johanna Slagter-Dingsdag" ;
+    nif:beginIndex "1950" ;
+    nif:endIndex "1974" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w325w326w327> nif:anchorOf "Christina Maria Smoorenburg" ;
+    nif:beginIndex "1976" ;
+    nif:endIndex "2003" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w329w330w331> nif:anchorOf "Tilly de Vries" ;
+    nif:beginIndex "2005" ;
+    nif:endIndex "2019" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w333w334w335w336> nif:anchorOf "Maria Clasina Zegwaard-de Korte" ;
+    nif:beginIndex "2023" ;
+    nif:endIndex "2054" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w342> nif:anchorOf "Heerhugowaard" ;
+    nif:beginIndex "2078" ;
+    nif:endIndex "2091" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w347w348> nif:anchorOf "Heerhugowaard Vrouw" ;
+    nif:beginIndex "2124" ;
+    nif:endIndex "2144" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w353> nif:anchorOf "1982" ;
+    nif:beginIndex "2160" ;
+    nif:endIndex "2164" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w357w358> nif:anchorOf "Truus Menger-Oversteegen" ;
+    nif:beginIndex "2171" ;
+    nif:endIndex "2195" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w36> nif:BeginIndex "216" ;
+    nif:anchorOf "genoemd" ;
+    nif:endIndex "223" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w3w4w5w6w7w8> nif:anchorOf "Vrouwen uit het verzet in Heerhugowaard" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w40> nif:BeginIndex "232" ;
+    nif:anchorOf "nieuwbouwwijk" ;
+    nif:endIndex "245" ;
+    nif:lemma "nieuwbouw_wijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w41> nif:anchorOf "Zuidwijk/Huygenhoek" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "265" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w43w44> nif:anchorOf "21 straten" ;
+    nif:beginIndex "273" ;
+    nif:endIndex "283" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w45> nif:BeginIndex "284" ;
+    nif:anchorOf "vernoemd" ;
+    nif:endIndex "292" ;
+    nif:lemma "vernoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w46w47w48w49w50w51w52w53w54w55w56> nif:anchorOf "naar verzetsvrouwen die tijdens de oorlog zijn omgekomen in de concentratiekampen" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w46" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w48> nif:anchorOf "die" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "316" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w48" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w52> nif:BeginIndex "335" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "339" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w56> nif:BeginIndex "356" ;
+    nif:anchorOf "concentratiekampen" ;
+    nif:endIndex "374" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w59w60> nif:anchorOf "Elly Baltus" ;
+    nif:beginIndex "388" ;
+    nif:endIndex "399" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w61> nif:BeginIndex "400" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "405" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w62w63w64w65w66w67> nif:anchorOf "de opdracht een monument te maken" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "439" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w64w65> nif:anchorOf "een monument" ;
+    nif:beginIndex "418" ;
+    nif:endIndex "430" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w65" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w67> nif:BeginIndex "434" ;
+    nif:anchorOf "maken" ;
+    nif:endIndex "439" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w70> nif:BeginIndex "447" ;
+    nif:anchorOf "volgende" ;
+    nif:endIndex "455" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w77> nif:anchorOf "Baltus" ;
+    nif:beginIndex "495" ;
+    nif:endIndex "501" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w78> nif:BeginIndex "502" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "508" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w79w80> nif:anchorOf "een vrouwenfiguur" ;
+    nif:beginIndex "509" ;
+    nif:endIndex "526" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w80> nif:BeginIndex "513" ;
+    nif:anchorOf "vrouwenfiguur" ;
+    nif:endIndex "526" ;
+    nif:lemma "vrouw_figuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w82> nif:BeginIndex "530" ;
+    nif:anchorOf "gebruikte" ;
+    nif:endIndex "539" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w83w84w85> nif:anchorOf "voor de jurk" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "552" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w83" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w86w87w88w89w90w91w92w93w94w95w96> nif:anchorOf "een oude deur van een deportatietrein en voor de kampkleding ribkarton" ;
+    nif:beginIndex "553" ;
+    nif:endIndex "623" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w9> nif:BeginIndex "53" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "55" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w98w99> nif:anchorOf "Het geheel" ;
+    nif:beginIndex "625" ;
+    nif:endIndex "635" ;
+    nif:head "bgnProc:2450__Vrouwen_uit_het_verzet.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_109t_110t_111> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w110w111w112> ;
+    xs:date "1999-12-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_129> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w130> ;
+    xs:gYear "XXXX" .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_134t_135t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w135w136w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_154t_155t_156t_157t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w155w156w157w158w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_160t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w161w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_179t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w180w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_187t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w188w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_201t_202t_203t_204t_205t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w202w203w204w205w206w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_208t_209t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w209w210w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_213t_214t_215t_216t_217t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w214w215w216w217w218w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_26t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w27w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_42t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w43w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w46w47w48w49w50w51w52w53w54w55w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_61t_62t_63t_64t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w62w63w64w65w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_78t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w79w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_82t_83t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w83w84w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w86w87w88w89w90w91w92w93w94w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w98w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w212> .
+
+bgn:Person-2450 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w119w120>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w126w127w128>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w133w134>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w18w19>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w194w195>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w200>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w224w225>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w236w237w238w239w240>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w242w243w244w245>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w247w248>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w250>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w252>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w255>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w257w258w259>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w261w262>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w264>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w266w267>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w269w270w271w272>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w274w275>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w277w278>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w280>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w282w283w284>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w286w287w288>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w290w291>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w297w298w299>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w301w302w303>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w305w306>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w308w309w310w311w312>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w314w315w316>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w318w319w320>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w322w323>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w325w326w327>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w329w330w331>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w333w334w335w336>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w342>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w347w348>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w357w358>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w3w4w5w6w7w8>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w59w60>,
+        <http://data.biographynet.nl/rdf/170506221754/2450__Vrouwen_uit_het_verzet.naf#w77> .
+

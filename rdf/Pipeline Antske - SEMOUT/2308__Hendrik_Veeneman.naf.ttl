@@ -1,0 +1,756 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_103t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_133t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_169t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_176t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_176t_177t_178t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_213t_214t_215t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_27t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_47t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_51t_52t_53t_54t_55t_56t_57t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_53t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_56t_57t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_97>,
+        bgn:Person-2308 ;
+    ore:proxyFor bgn:Person-2308 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w152> nif:lemma "dood" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w167> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w178> nif:lemma "straat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w179> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w210> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w214> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w48> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w52> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w55> nif:lemma "gevolg" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w57> nif:lemma "aan" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2308__Hendrik_Veeneman#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2308__Hendrik_Veeneman .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2308 ;
+    bgn:aggregatedPerson bgn:Person-2308 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2308__Hendrik_Veeneman ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2308__Hendrik_Veeneman ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w106> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_106> ;
+    pb:Arg1 bgn:Person-2308 ;
+    pb:ArgM-LOC bgn:Person-2308 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_103t_104> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w11w12w13> ;
+    xs:date "1909-09-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w129> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_124>,
+        bgn:Person-2308 ;
+    pb:A2 bgn:Person-2308 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_121t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w137> ;
+    pb:A0 bgn:Person-2308 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_133t_134t_135> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w144> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_144> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_146t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w157> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_150t_151> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_155> ;
+    pb:AM-LOC bgn:Person-2308 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_158> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w165> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_160> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_165t_166> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_16t_17t_18> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w17w18w19> ;
+    xs:date "1945-04-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w173> ;
+    pb:A0 bgn:Person-2308 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_176t_177t_178t_179t_180t_181> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_169t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w182> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_176t_177> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_178t_179>,
+        bgn:Person-2308 .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w188> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_186> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w198> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_196> ;
+    pb:A1 bgn:Person-2308 .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w209> ;
+    pb:Arg1 bgn:Person-2308 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218t_219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_219> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w220> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_212> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_213t_214t_215t_216t_217t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_27t_28t_29> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w28w29w30> ;
+    xs:date "1943-12-31" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w47> ;
+    pb:Arg1 bgn:Person-2308 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_47t_48t_49> ;
+    pb:ArgM-LOC bgn:Person-2308 .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w56> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_52> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_56t_57t_58t_59t_60> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_53t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w73> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_62> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_70t_71> ;
+    pb:ArgM-LOC bgn:Person-2308 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_63> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_51t_52t_53t_54t_55t_56t_57t_58t_59t_60> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w93> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_90> ;
+    pb:ArgM-LOC bgn:Person-2308 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w98> ;
+    pb:Arg0 bgn:Person-2308 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_96> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w101> nif:anchorOf "Sicherheitspolizei" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "601" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w104w105> nif:anchorOf "8 juli" ;
+    nif:beginIndex "606" ;
+    nif:endIndex "612" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w106> nif:BeginIndex "613" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "618" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w107> nif:anchorOf "men" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "622" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w107" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w109> nif:anchorOf "Son" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "629" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w115> nif:anchorOf "Veeneman" ;
+    nif:beginIndex "658" ;
+    nif:endIndex "666" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w118> nif:BeginIndex "675" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "685" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w11w12w13> nif:anchorOf "9 september 1909" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w122w123> nif:anchorOf "6 september" ;
+    nif:beginIndex "708" ;
+    nif:endIndex "719" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w125> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "725" ;
+    nif:endIndex "728" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w125" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w128> nif:anchorOf "Vught" ;
+    nif:beginIndex "738" ;
+    nif:endIndex "743" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w129> nif:BeginIndex "744" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "756" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w132> nif:anchorOf "Sachsenhausen" ;
+    nif:beginIndex "767" ;
+    nif:endIndex "780" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w134w135w136> nif:anchorOf "Eind februari 1945" ;
+    nif:beginIndex "782" ;
+    nif:endIndex "800" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w137> nif:BeginIndex "801" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "807" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w141> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "828" ;
+    nif:endIndex "838" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w144> nif:BeginIndex "845" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "853" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w145> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "857" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w145" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w147w148w149> nif:anchorOf "14 april 1945" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "874" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w15> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "85" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w151w152> nif:anchorOf "Zijn dood" ;
+    nif:beginIndex "876" ;
+    nif:endIndex "885" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w152" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w155> nif:anchorOf "Son" ;
+    nif:beginIndex "894" ;
+    nif:endIndex "897" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w156> nif:anchorOf "pas" ;
+    nif:beginIndex "898" ;
+    nif:endIndex "901" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w156" ;
+    nif:lemma "pas" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w157> nif:BeginIndex "902" ;
+    nif:anchorOf "bekend" ;
+    nif:endIndex "908" ;
+    nif:lemma "bekennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w159> nif:anchorOf "1946" ;
+    nif:beginIndex "912" ;
+    nif:endIndex "916" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w161> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "922" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w161" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w162> nif:BeginIndex "923" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "926" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w165> nif:BeginIndex "939" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "942" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w166w167> nif:anchorOf "drie kinderen" ;
+    nif:beginIndex "943" ;
+    nif:endIndex "956" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w167" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w170w171w172> nif:anchorOf "21 november 1947" ;
+    nif:beginIndex "962" ;
+    nif:endIndex "978" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w173> nif:BeginIndex "979" ;
+    nif:anchorOf "besloot" ;
+    nif:endIndex "986" ;
+    nif:lemma "besluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w175> nif:anchorOf "Sonse" ;
+    nif:beginIndex "990" ;
+    nif:endIndex "995" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w177w178> nif:anchorOf "een straat" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1019" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w178" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w177w178w179w180w181w182> nif:anchorOf "een straat naar hem te noemen" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1038" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w178" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w179w180> nif:anchorOf "naar hem" ;
+    nif:beginIndex "1020" ;
+    nif:endIndex "1028" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w179" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w17w18w19> nif:anchorOf "14 april 1945" ;
+    nif:beginIndex "87" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w182> nif:BeginIndex "1032" ;
+    nif:anchorOf "noemen" ;
+    nif:endIndex "1038" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w186> nif:anchorOf "waarin" ;
+    nif:beginIndex "1049" ;
+    nif:endIndex "1055" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w186" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w187> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1056" ;
+    nif:endIndex "1059" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w187" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w188> nif:BeginIndex "1060" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "1066" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w197> nif:anchorOf "het" ;
+    nif:beginIndex "1097" ;
+    nif:endIndex "1100" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w197" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w198> nif:BeginIndex "1101" ;
+    nif:anchorOf "draagt" ;
+    nif:endIndex "1107" ;
+    nif:lemma "dragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w1w2w3> nif:anchorOf "Antonius Johannes" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w202> nif:anchorOf "Henk" ;
+    nif:beginIndex "1118" ;
+    nif:endIndex "1122" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w207> nif:anchorOf "Veeneman" ;
+    nif:beginIndex "1132" ;
+    nif:endIndex "1140" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w209> nif:BeginIndex "1147" ;
+    nif:anchorOf "afgebeeld" ;
+    nif:endIndex "1156" ;
+    nif:lemma "af_beelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w21> nif:BeginIndex "102" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "104" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w210w211w212w213w214w215w216w217w218w219w220> nif:anchorOf "op een schilderij dat in de hal van het gemeentehuis hangt" ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1215" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w213> nif:anchorOf "dat" ;
+    nif:beginIndex "1175" ;
+    nif:endIndex "1178" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w213" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w214w215w216w217w218w219> nif:anchorOf "in de hal van het gemeentehuis" ;
+    nif:beginIndex "1179" ;
+    nif:endIndex "1209" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w220> nif:BeginIndex "1210" ;
+    nif:anchorOf "hangt" ;
+    nif:endIndex "1215" ;
+    nif:lemma "hangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w25> nif:anchorOf "Son" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "135" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w28w29w30> nif:anchorOf "31 december 1943" ;
+    nif:beginIndex "141" ;
+    nif:endIndex "157" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w37> nif:anchorOf "Schoepp" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "199" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w40> nif:anchorOf "Duitse" ;
+    nif:beginIndex "208" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w46> nif:anchorOf "Veeneman" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "267" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w47> nif:BeginIndex "268" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "275" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w48w49w50> nif:anchorOf "tot waarnemend burgemeester" ;
+    nif:beginIndex "276" ;
+    nif:endIndex "303" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w49> nif:BeginIndex "280" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "290" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w52w53w54w55w56w57w58w59w60w61> nif:anchorOf "Toen hij geen gevolg gaf aan een eis om grondwerkers" ;
+    nif:beginIndex "305" ;
+    nif:endIndex "357" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w53> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "310" ;
+    nif:endIndex "313" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w53" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w54w55> nif:anchorOf "geen gevolg" ;
+    nif:beginIndex "314" ;
+    nif:endIndex "325" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w55" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w56> nif:BeginIndex "326" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "329" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w57w58w59w60w61> nif:anchorOf "aan een eis om grondwerkers" ;
+    nif:beginIndex "330" ;
+    nif:endIndex "357" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w57" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w5w6w7> nif:anchorOf "Hendrik) Veeneman" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "46" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w63> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "367" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w63" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w64> nif:anchorOf "zich" ;
+    nif:beginIndex "368" ;
+    nif:endIndex "372" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w64" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w71w72> nif:anchorOf "6 juli" ;
+    nif:beginIndex "411" ;
+    nif:endIndex "417" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w73> nif:BeginIndex "418" ;
+    nif:anchorOf "melden" ;
+    nif:endIndex "424" ;
+    nif:lemma "melden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w75> nif:anchorOf "Vught" ;
+    nif:beginIndex "428" ;
+    nif:endIndex "433" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w82> nif:anchorOf "Beauftragte" ;
+    nif:beginIndex "459" ;
+    nif:endIndex "470" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w85> nif:anchorOf "Rijkscommissaris" ;
+    nif:beginIndex "478" ;
+    nif:endIndex "494" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w87w88> nif:anchorOf "Heinrich Sellmer" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "512" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w9> nif:anchorOf "Woensel" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w91> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "521" ;
+    nif:endIndex "524" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w91" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w92> nif:anchorOf "vervolgens" ;
+    nif:beginIndex "525" ;
+    nif:endIndex "535" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w92" ;
+    nif:lemma "vervolgens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w93> nif:BeginIndex "536" ;
+    nif:anchorOf "verhoord" ;
+    nif:endIndex "544" ;
+    nif:lemma "verhoren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w95> nif:anchorOf "Daar" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "550" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w95" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w97> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "561" ;
+    nif:head "bgnProc:2308__Hendrik_Veeneman.naf#w97" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w98> nif:BeginIndex "562" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "574" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_103t_104> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w104w105> ;
+    xs:date "2017-07-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_121t_122> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w122w123> ;
+    xs:date "2017-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_133t_134t_135> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w134w135w136> ;
+    xs:gYearMonth "1945-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_146t_147t_148> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w147w148w149> ;
+    xs:date "1945-04-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_150t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w151w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_158> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w159> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_165t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w166w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_169t_170t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w170w171w172> ;
+    xs:date "1947-11-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_176t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w177w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_176t_177t_178t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w177w178w179w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w210w211w212w213w214w215w216w217w218w219w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_213t_214t_215t_216t_217t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w214w215w216w217w218w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_47t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w48w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_51t_52t_53t_54t_55t_56t_57t_58t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w52w53w54w55w56w57w58w59w60w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_53t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w54w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_56t_57t_58t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w57w58w59w60w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_70t_71> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w71w72> ;
+    xs:date "2017-07-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w97> .
+
+bgn:Person-2308 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w128>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w155>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w207>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w5w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w85>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w87w88>,
+        <http://data.biographynet.nl/rdf/170506221754/2308__Hendrik_Veeneman.naf#w9> .
+

@@ -1,0 +1,592 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_102t_103t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_163t_164t_165t_166t_167t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_20t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_67t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_90t_91t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_96t_97t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_99>,
+        bgn:Person-1270 ;
+    ore:proxyFor bgn:Person-1270 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w161> nif:lemma "overschot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w164> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w17> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w21> nif:lemma "H." .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w36> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w68> nif:lemma "enkel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w91> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w97> nif:lemma "bij" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1270__Henri_Rots#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1270__Henri_Rots .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1270 ;
+    bgn:aggregatedPerson bgn:Person-1270 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1270__Henri_Rots ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1270__Henri_Rots ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w110> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_94> ;
+    pb:ArgM-LOC bgn:Person-1270 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_102t_103t_104t_105> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w119> ;
+    pb:Arg0 bgn:Person-1270 .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w12w13w14> ;
+    xs:date "1944-10-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_129> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w130> ;
+    xs:gYear "1891",
+        "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_147> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w148> ;
+    xs:gYear "1920",
+        "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_153> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w154> ;
+    xs:gYear "1922" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w163> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_159t_160> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_163t_164t_165t_166t_167t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w182> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_187> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w188> ;
+    xs:gYear "1930" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_195> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w196> ;
+    xs:gYear "1930" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_203> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w204> ;
+    xs:gYear "1932" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w212> ;
+    pb:Arg0 bgn:Person-1270 .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_219> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w220> ;
+    xs:gYear "1937" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w23> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_20t_21> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_19> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_16t_17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w38> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_39> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_35t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w51> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_51> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_65> ;
+    pb:ArgM-LOC bgn:Person-1270 .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w6w7w8> ;
+    xs:date "1898-06-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w72> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_67t_68t_69t_70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w90> ;
+    pb:Arg1 bgn:Person-1270 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_90t_91t_92> ;
+    pb:ArgM-TMP bgn:Person-1270 .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w100> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_94> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_96t_97t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w10> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "34" ;
+    nif:endIndex "44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w100> nif:BeginIndex "577" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "589" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w103w104w105w106> nif:anchorOf "het najaar van 1944" ;
+    nif:beginIndex "596" ;
+    nif:endIndex "615" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w108w109> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "634" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w110> nif:BeginIndex "635" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "647" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w118> nif:anchorOf "SD" ;
+    nif:beginIndex "681" ;
+    nif:endIndex "683" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w119> nif:BeginIndex "684" ;
+    nif:anchorOf "aangewezen" ;
+    nif:endIndex "694" ;
+    nif:lemma "aangewezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w120> nif:anchorOf "Todeskandidaten" ;
+    nif:beginIndex "695" ;
+    nif:endIndex "710" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w124> nif:anchorOf "NSF-voorman" ;
+    nif:beginIndex "725" ;
+    nif:endIndex "736" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w125w126w127w128> nif:anchorOf "Iman van den Bosch" ;
+    nif:beginIndex "737" ;
+    nif:endIndex "755" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w12w13w14> nif:anchorOf "28 oktober 1944" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w130> nif:anchorOf "1891-1944" ;
+    nif:beginIndex "757" ;
+    nif:endIndex "766" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w136> nif:BeginIndex "786" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "791" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w141> nif:anchorOf "Haarlem" ;
+    nif:beginIndex "813" ;
+    nif:endIndex "820" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w146> nif:anchorOf "Pieter" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "867" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w148> nif:anchorOf "1920-1948" ;
+    nif:beginIndex "869" ;
+    nif:endIndex "878" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w151w152> nif:anchorOf "Klaas-Carel Faber" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "900" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w154> nif:anchorOf "1922" ;
+    nif:beginIndex "902" ;
+    nif:endIndex "906" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w160w161> nif:anchorOf "stoffelijk overschot" ;
+    nif:beginIndex "925" ;
+    nif:endIndex "945" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w161" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w163> nif:BeginIndex "951" ;
+    nif:anchorOf "verbrand" ;
+    nif:endIndex "959" ;
+    nif:lemma "verbranden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w164w165w166w167w168w169> nif:anchorOf "in het crematorium van het kamp" ;
+    nif:beginIndex "960" ;
+    nif:endIndex "991" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w164" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w17w18> nif:anchorOf "onder vakgenoten" ;
+    nif:beginIndex "64" ;
+    nif:endIndex "80" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w17" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w181> nif:anchorOf "1946" ;
+    nif:beginIndex "1046" ;
+    nif:endIndex "1050" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w182> nif:BeginIndex "1051" ;
+    nif:anchorOf "onthulde" ;
+    nif:endIndex "1059" ;
+    nif:lemma "onthuld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w183w184> nif:anchorOf "Oorlogsmonument Esserveld" ;
+    nif:beginIndex "1060" ;
+    nif:endIndex "1085" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w186> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1089" ;
+    nif:endIndex "1098" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w188> nif:anchorOf "1930" ;
+    nif:beginIndex "1101" ;
+    nif:endIndex "1105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w19> nif:anchorOf "ook" ;
+    nif:beginIndex "81" ;
+    nif:endIndex "84" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w19" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w193> nif:anchorOf "Akerkhof" ;
+    nif:beginIndex "1125" ;
+    nif:endIndex "1133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w195> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1135" ;
+    nif:endIndex "1144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w196> nif:anchorOf "1930" ;
+    nif:beginIndex "1146" ;
+    nif:endIndex "1150" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w1w2> nif:anchorOf "Rots" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w20> nif:anchorOf "wel" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "88" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w20" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w201> nif:anchorOf "Korrewegwijk" ;
+    nif:beginIndex "1169" ;
+    nif:endIndex "1181" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w203> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1192" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w204> nif:anchorOf "1932" ;
+    nif:beginIndex "1194" ;
+    nif:endIndex "1198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w210> nif:anchorOf "Rots" ;
+    nif:beginIndex "1217" ;
+    nif:endIndex "1221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w212> nif:BeginIndex "1227" ;
+    nif:anchorOf "bewoonde" ;
+    nif:endIndex "1235" ;
+    nif:lemma "bewoond" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w217> nif:anchorOf "Westerhaven" ;
+    nif:beginIndex "1256" ;
+    nif:endIndex "1267" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w219> nif:anchorOf "Groningen" ;
+    nif:beginIndex "1269" ;
+    nif:endIndex "1278" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w21w22> nif:anchorOf "H. Rots" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "96" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w220> nif:anchorOf "1937" ;
+    nif:beginIndex "1280" ;
+    nif:endIndex "1284" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w228> nif:anchorOf "Molenweg" ;
+    nif:beginIndex "1333" ;
+    nif:endIndex "1341" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w23> nif:BeginIndex "97" ;
+    nif:anchorOf "genoemd" ;
+    nif:endIndex "104" ;
+    nif:lemma "genoemd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w230> nif:anchorOf "Loppersum" ;
+    nif:beginIndex "1343" ;
+    nif:endIndex "1352" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w233> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1364" ;
+    nif:endIndex "1375" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w25> nif:BeginIndex "106" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "109" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w27> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "114" ;
+    nif:endIndex "125" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w33w34> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "166" ;
+    nif:endIndex "185" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w36w37> nif:anchorOf "Als architect" ;
+    nif:beginIndex "188" ;
+    nif:endIndex "201" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w38> nif:BeginIndex "202" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "205" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w39> nif:anchorOf "Rots" ;
+    nif:beginIndex "206" ;
+    nif:endIndex "210" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w4> nif:anchorOf "Aalten" ;
+    nif:beginIndex "12" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w40> nif:anchorOf "vooral" ;
+    nif:beginIndex "211" ;
+    nif:endIndex "217" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w40" ;
+    nif:lemma "vooral" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w45> nif:anchorOf "Groningen" ;
+    nif:beginIndex "243" ;
+    nif:endIndex "252" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w50> nif:anchorOf "Groningen" ;
+    nif:beginIndex "273" ;
+    nif:endIndex "282" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w51> nif:BeginIndex "283" ;
+    nif:anchorOf "ontwierp" ;
+    nif:endIndex "291" ;
+    nif:lemma "ontwerpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w52> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "295" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w52" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w66> nif:anchorOf "Akerkhof" ;
+    nif:beginIndex "376" ;
+    nif:endIndex "384" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w68w69w70w71> nif:anchorOf "Enkele van zijn werken" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "408" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w6w7w8> nif:anchorOf "2 juni 1898" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w72> nif:BeginIndex "409" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "413" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w79w80> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "456" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w82> nif:anchorOf "Rots" ;
+    nif:beginIndex "481" ;
+    nif:endIndex "485" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w87> nif:anchorOf "Westerhaven" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "512" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w89> nif:anchorOf "Groningen" ;
+    nif:beginIndex "516" ;
+    nif:endIndex "525" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w90> nif:BeginIndex "526" ;
+    nif:anchorOf "gebruikt" ;
+    nif:endIndex "534" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w91w92w93> nif:anchorOf "door het verzet" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "550" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w95> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "552" ;
+    nif:endIndex "555" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w95" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w97w98w99> nif:anchorOf "bij een overval" ;
+    nif:beginIndex "561" ;
+    nif:endIndex "576" ;
+    nif:head "bgnProc:1270__Henri_Rots.naf#w97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_102t_103t_104t_105> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w103w104w105w106> ;
+    xs:gYearMonth "1944-H2" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_163t_164t_165t_166t_167t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w164w165w166w167w168w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_16t_17> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w17w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_18> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_180> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w181> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_19> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_20t_21> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w21w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_67t_68t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w68w69w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_90t_91t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w91w92w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_96t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w97w98w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w95> .
+
+bgn:Person-1270 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w108w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w125w126w127w128>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w146>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w151w152>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w183w184>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w193>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w195>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w201>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w203>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w210>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w219>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w228>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w230>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w233>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w79w80>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1270__Henri_Rots.naf#w89> .
+

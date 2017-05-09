@@ -1,0 +1,842 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_134t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_166t_167t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_179t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_203t_204t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_222t_223t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_229t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_282t_283t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_285>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_289t_290t_291>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_302>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_325>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_342>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_98>,
+        bgn:Person-2042 ;
+    ore:proxyFor bgn:Person-2042 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w122> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w180> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w206> nif:lemma "gevangene" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w213> nif:lemma "leiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w223> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w283> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w290> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w69> nif:lemma "aan" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2042__Liepke_Scheepstra#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2042__Liepke_Scheepstra .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2042 ;
+    bgn:aggregatedPerson bgn:Person-2042 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2042__Liepke_Scheepstra ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2042__Liepke_Scheepstra ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w103> ;
+    pb:ArgM-TMP bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w12w13w14> ;
+    xs:date "2002-09-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w121> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_121t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_134t_135t_136> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w135w136w137> ;
+    xs:date "1944-05-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w148> ;
+    pb:Arg1 bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w16> ;
+    pb:ArgM-TMP bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_166t_167t_168> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w167w168w169> ;
+    xs:date "1944-06-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w172> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_172> ;
+    pb:Arg1 bgn:Person-2042 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_164>,
+        bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w182> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_178> ;
+    pb:A1 bgn:Person-2042 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_179t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_198t_199t_200> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w199w200w201> ;
+    xs:date "1944-06-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w208> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_203t_204t_205> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_202> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w210> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_211t_212>,
+        bgn:Person-2042 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_196> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_215> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_221> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w222> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_222t_223t_224> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_229t_230t_231> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w230w231w232> ;
+    xs:date "1958-10-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_253> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w254> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_246> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_245> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_247>,
+        bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_266> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w267> ;
+    pb:Arg0 bgn:Person-2042 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_267> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_268t_269t_270t_271t_272t_273t_274>,
+        bgn:Person-2042 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_275t_276t_277t_278t_279t_280> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_277> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_285> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w286> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_289t_290t_291>,
+        bgn:Person-2042 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_287> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_282t_283t_284> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_296> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w297> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_302> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w303> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w32> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_32> ;
+    pb:A1 bgn:Person-2042 ;
+    pb:AM-TMP bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_314> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w315> ;
+    pb:Arg1 bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_325> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w326> ;
+    pb:Arg1 bgn:Person-2042 ;
+    pb:Arg2 bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_342> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w343> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_344> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w43> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_41> ;
+    pb:Arg1 bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w6w7w8> ;
+    xs:date "1918-11-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w65> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_65> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_68t_69t_70> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_66> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w82> ;
+    pb:Arg0 bgn:Person-2042 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_72>,
+        bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w99> ;
+    pb:Arg1 bgn:Person-2042 .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w10> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w103> nif:BeginIndex "621" ;
+    nif:anchorOf "samenvoegen" ;
+    nif:endIndex "632" ;
+    nif:lemma "samen_voegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w109> nif:anchorOf "Ordedienst" ;
+    nif:beginIndex "656" ;
+    nif:endIndex "666" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w112w113w114> nif:anchorOf "Raad van Verzet" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "688" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w117w118> nif:anchorOf "Binnenlandse Strijdkrachten" ;
+    nif:beginIndex "696" ;
+    nif:endIndex "723" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w121> nif:BeginIndex "730" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "733" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w122w123> nif:anchorOf "als organisator" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "749" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w128> nif:anchorOf "Overval" ;
+    nif:beginIndex "777" ;
+    nif:endIndex "784" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w12w13w14> nif:anchorOf "15 september 2002" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "77" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w131> nif:anchorOf "Koepelgevangenis" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "807" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w133> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "817" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w135w136w137> nif:anchorOf "11 mei 1944" ;
+    nif:beginIndex "819" ;
+    nif:endIndex "830" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w141w142w143> nif:anchorOf "Frits de Zwerver" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "857" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w145w146> nif:anchorOf "Henk Kruithof" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "874" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w148> nif:BeginIndex "882" ;
+    nif:anchorOf "bevrijd" ;
+    nif:endIndex "889" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w155> nif:BeginIndex "915" ;
+    nif:anchorOf "bevrijdingsactie" ;
+    nif:endIndex "931" ;
+    nif:lemma "bevrijding_actie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w158> nif:anchorOf "Overval" ;
+    nif:beginIndex "936" ;
+    nif:endIndex "943" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w16> nif:BeginIndex "79" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "82" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w161w162w163> nif:anchorOf "Huis van Bewaring" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "968" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w165> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "972" ;
+    nif:endIndex "978" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w167w168w169> nif:anchorOf "11 juni 1944" ;
+    nif:beginIndex "980" ;
+    nif:endIndex "992" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w172> nif:BeginIndex "995" ;
+    nif:anchorOf "schakelde" ;
+    nif:endIndex "1004" ;
+    nif:lemma "in_schakelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w173> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1005" ;
+    nif:endIndex "1008" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w173" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w177> nif:anchorOf "KP-Twente" ;
+    nif:beginIndex "1025" ;
+    nif:endIndex "1034" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w179> nif:anchorOf "die" ;
+    nif:beginIndex "1038" ;
+    nif:endIndex "1041" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w179" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w18> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "87" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w180w181> nif:anchorOf "onder leiding" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1055" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w182> nif:BeginIndex "1056" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "1061" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w184w185w186> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "1066" ;
+    nif:endIndex "1084" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w197> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1136" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w199w200w201> nif:anchorOf "11 juni 1944" ;
+    nif:beginIndex "1140" ;
+    nif:endIndex "1152" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w1w2> nif:anchorOf "Scheepstra" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w203> nif:anchorOf "waarbij" ;
+    nif:beginIndex "1154" ;
+    nif:endIndex "1161" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w203" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w204w205w206> nif:anchorOf "54 politieke gevangenen" ;
+    nif:beginIndex "1162" ;
+    nif:endIndex "1185" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w208> nif:BeginIndex "1193" ;
+    nif:anchorOf "bevrijd" ;
+    nif:endIndex "1200" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w210> nif:BeginIndex "1202" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1205" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w211> nif:anchorOf "Scheepstra" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1216" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w212w213> nif:anchorOf "de leiding" ;
+    nif:beginIndex "1217" ;
+    nif:endIndex "1227" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w213" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w216> nif:BeginIndex "1233" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1236" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w222> nif:BeginIndex "1270" ;
+    nif:anchorOf "bevrijdingsactie" ;
+    nif:endIndex "1286" ;
+    nif:lemma "bevrijding_actie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w223w224w225> nif:anchorOf "uit de bezetting" ;
+    nif:beginIndex "1287" ;
+    nif:endIndex "1303" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w223" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w227> nif:anchorOf "Scheepstra" ;
+    nif:beginIndex "1306" ;
+    nif:endIndex "1316" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w22w23> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "120" ;
+    nif:endIndex "139" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w230w231w232> nif:anchorOf "1 oktober 1958" ;
+    nif:beginIndex "1325" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w243w244> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "1403" ;
+    nif:endIndex "1425" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w246> nif:anchorOf "die" ;
+    nif:beginIndex "1427" ;
+    nif:endIndex "1430" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w246" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w247> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1431" ;
+    nif:endIndex "1434" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w247" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w248> nif:anchorOf "pas" ;
+    nif:beginIndex "1435" ;
+    nif:endIndex "1438" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w248" ;
+    nif:lemma "pas" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w252> nif:anchorOf "Koningin" ;
+    nif:beginIndex "1455" ;
+    nif:endIndex "1463" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w253> nif:anchorOf "Wilhelmina" ;
+    nif:beginIndex "1464" ;
+    nif:endIndex "1474" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w254> nif:BeginIndex "1475" ;
+    nif:anchorOf "accepteerde" ;
+    nif:endIndex "1486" ;
+    nif:lemma "accepteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w265> nif:anchorOf "Britse" ;
+    nif:beginIndex "1534" ;
+    nif:endIndex "1540" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w267> nif:BeginIndex "1548" ;
+    nif:anchorOf "verleende" ;
+    nif:endIndex "1557" ;
+    nif:lemma "verlenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w268> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1558" ;
+    nif:endIndex "1561" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w268" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w270> nif:anchorOf "Medaille" ;
+    nif:beginIndex "1565" ;
+    nif:endIndex "1573" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w273w274w275w276w277w278w279w280w281> nif:anchorOf "Koning voor Moed tijdens het verdedigen van de Vrijheid" ;
+    nif:beginIndex "1581" ;
+    nif:endIndex "1636" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w278> nif:BeginIndex "1610" ;
+    nif:anchorOf "verdedigen" ;
+    nif:endIndex "1620" ;
+    nif:lemma "verdedigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w283w284w285> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "1639" ;
+    nif:endIndex "1651" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w283" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w286> nif:BeginIndex "1652" ;
+    nif:anchorOf "zette" ;
+    nif:endIndex "1657" ;
+    nif:lemma "in_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w287> nif:anchorOf "Scheepstra" ;
+    nif:beginIndex "1658" ;
+    nif:endIndex "1668" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w288> nif:anchorOf "zich" ;
+    nif:beginIndex "1669" ;
+    nif:endIndex "1673" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w288" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w290w291w292> nif:anchorOf "voor de belangen" ;
+    nif:beginIndex "1677" ;
+    nif:endIndex "1693" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w290" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w297> nif:BeginIndex "1716" ;
+    nif:anchorOf "vastleggen" ;
+    nif:endIndex "1726" ;
+    nif:lemma "vast_leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w303> nif:BeginIndex "1754" ;
+    nif:anchorOf "overbrengen" ;
+    nif:endIndex "1765" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w30w31> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "175" ;
+    nif:endIndex "194" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w314> nif:anchorOf "Scheepstra" ;
+    nif:beginIndex "1826" ;
+    nif:endIndex "1836" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w315> nif:BeginIndex "1837" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1839" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w318> nif:anchorOf "Schiermonnikoog" ;
+    nif:beginIndex "1852" ;
+    nif:endIndex "1867" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w32> nif:BeginIndex "195" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "202" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w321w322> nif:anchorOf "Collectie Oorlog" ;
+    nif:beginIndex "1874" ;
+    nif:endIndex "1890" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w324> nif:anchorOf "Verzet" ;
+    nif:beginIndex "1894" ;
+    nif:endIndex "1900" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w326> nif:BeginIndex "1906" ;
+    nif:anchorOf "overgedragen" ;
+    nif:endIndex "1918" ;
+    nif:lemma "over_dragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w33> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "206" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w33" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w331> nif:anchorOf "Kampen" ;
+    nif:beginIndex "1947" ;
+    nif:endIndex "1953" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w335w336w337> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "1969" ;
+    nif:endIndex "1987" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w343> nif:BeginIndex "2016" ;
+    nif:anchorOf "bevrijdingsacties" ;
+    nif:endIndex "2033" ;
+    nif:lemma "bevrijding_actie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w345> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "2037" ;
+    nif:endIndex "2043" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w39w40> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "259" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w4> nif:anchorOf "Lioessens" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "28" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w42> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "262" ;
+    nif:endIndex "265" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w42" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w43> nif:BeginIndex "266" ;
+    nif:anchorOf "gebruikte" ;
+    nif:endIndex "275" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w47> nif:anchorOf "Bob" ;
+    nif:beginIndex "291" ;
+    nif:endIndex "294" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w50> nif:anchorOf "Scheepstra" ;
+    nif:beginIndex "298" ;
+    nif:endIndex "308" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w51> nif:BeginIndex "309" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "312" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w60w61> nif:anchorOf "Korps Politietroepen" ;
+    nif:beginIndex "366" ;
+    nif:endIndex "386" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w64> nif:anchorOf "1943" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "398" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w65> nif:BeginIndex "399" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "402" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w66> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "406" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w66" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w67> nif:anchorOf "actief" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "413" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w67" ;
+    nif:lemma "actief" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w68> nif:anchorOf "deel" ;
+    nif:beginIndex "414" ;
+    nif:endIndex "418" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w68" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w69w70w71> nif:anchorOf "aan het verzet" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "433" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w69" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w6w7w8> nif:anchorOf "1 november 1918" ;
+    nif:beginIndex "30" ;
+    nif:endIndex "45" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w73> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "438" ;
+    nif:head "bgnProc:2042__Liepke_Scheepstra.naf#w73" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w77w78> nif:anchorOf "Landelijke Onderduikorganisatie" ;
+    nif:beginIndex "452" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w80> nif:anchorOf "LO" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "487" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w82> nif:BeginIndex "489" ;
+    nif:anchorOf "aangesteld" ;
+    nif:endIndex "499" ;
+    nif:lemma "aan_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w90> nif:anchorOf "LKP" ;
+    nif:beginIndex "557" ;
+    nif:endIndex "560" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w95w96> nif:anchorOf "Leendert Valstar" ;
+    nif:beginIndex "573" ;
+    nif:endIndex "589" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w98> nif:anchorOf "Scheepstra" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "601" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w99> nif:BeginIndex "602" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "608" ;
+    nif:lemma "mee_werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_179t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w180w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_203t_204t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w204w205w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_222t_223t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w223w224w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_246> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w247> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_267> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w268> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_282t_283t_284> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w283w284w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_287> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w288> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_289t_290t_291> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w290w291w292> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w64> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_68t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w69w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w73> .
+
+bgn:Person-2042 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w112w113w114>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w117w118>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w128>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w141w142w143>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w145w146>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w161w162w163>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w184w185w186>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w211>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w243w244>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w252>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w253>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w265>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w270>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w273w274w275w276w277w278w279w280w281>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w287>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w314>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w318>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w321w322>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w324>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w331>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w335w336w337>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w345>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w60w61>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w80>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w95w96>,
+        <http://data.biographynet.nl/rdf/170506221754/2042__Liepke_Scheepstra.naf#w98> .
+

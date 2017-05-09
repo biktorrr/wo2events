@@ -1,0 +1,1791 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_183t_184t_185t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_192t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_206t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_229t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_267t_268>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_279t_280t_281>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_294>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_299>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_300>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_304t_305t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_307>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_311>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_312>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_313t_314t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_317t_318t_319>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_322t_323>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_324>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_332>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_334t_335>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_352t_353>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_354>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_356>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_367t_368>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_369>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_382t_383t_384>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_386>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_387t_388t_389t_390t_391t_392t_393t_394t_395t_396t_397t_398t_399t_400t_401t_402t_403t_404t_405>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_396>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_397t_398t_399t_400t_401t_402>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_403>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_405>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_407t_408t_409t_410>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_412>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_413t_414>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_416t_417t_418t_419t_420t_421>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_422>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_427t_428>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_430>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_431t_432t_433t_434t_435>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_437t_438>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_440>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_441t_442t_443t_444t_445t_446>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_448t_449t_450t_451t_452t_453t_454>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_450t_451t_452>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_454>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_456t_457>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_458t_459t_460t_461t_462t_463t_464t_465t_466>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_461>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_464>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_467>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_469t_470t_471t_472t_473t_474t_475t_476>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_470t_471>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_472>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_473t_474>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_474>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_475>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_476>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_478>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_482t_483t_484>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_486t_487t_488>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_491t_492>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_494t_495>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_496>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_497t_498t_499t_500t_501>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_503>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_504>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_505>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_506t_507t_508t_509t_510t_511>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_507>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_509>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_513t_514t_515t_516t_517t_518t_519>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_514t_515t_516>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_519>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_521t_522t_523>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_523>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_524>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_525t_526t_527t_528t_529t_530>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_530>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_531>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_537>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_538t_539t_540t_541t_542>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_552t_553t_554>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_555>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_567>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_569>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_571t_572t_573t_574t_575t_576>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_573>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_577>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_578>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_582>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_583>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_585t_586t_587t_588>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_97>,
+        bgn:Person-1669 ;
+    ore:proxyFor bgn:Person-1669 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w133> nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w184> nif:lemma "ten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w280> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w305> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w314> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w320> nif:lemma "oma" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w323> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w369> nif:lemma "hoofdkwartier" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w384> nif:lemma "'" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w388> nif:lemma "over" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w39> nif:lemma "oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w398> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w408> nif:lemma "vanuit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w415> nif:lemma "koeriersters" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w417> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w429> nif:lemma "bon_kaart" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w432> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w439> nif:lemma "bon_kaart" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w442> nif:lemma "via" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w449> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w452> nif:lemma "meer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w458> nif:lemma "bon" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w459> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w470> nif:lemma "aangezien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w472> nif:lemma "onderduiker" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w485> nif:lemma "systeem" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w487> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w492> nif:lemma "indien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w496> nif:lemma "gulden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w498> nif:lemma "ten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w514> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w516> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w526> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w540> nif:lemma "functie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w553> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w66> nif:lemma "bij" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1669__Henk_Das#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1669__Henk_Das .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1669 ;
+    bgn:aggregatedPerson bgn:Person-1669 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1669__Henk_Das ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1669__Henk_Das ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w101> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w104> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_111> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w112> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w113> ;
+    pb:A0 bgn:Person-1669 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_110t_111> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w12w13w14> ;
+    xs:date "2008-04-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w130> ;
+    pb:Arg0 bgn:Person-1669 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_122t_123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w131> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_131t_132> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_133> ;
+    pb:AM-TMP bgn:Person-1669 .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w157> ;
+    pb:Arg0 bgn:Person-1669 ;
+    pb:Arg1 bgn:Person-1669 ;
+    pb:Arg2 bgn:Person-1669 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_153t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w182> ;
+    pb:Arg2 bgn:Person-1669 .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_188> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w189> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_183t_184t_185t_186t_187> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_192t_193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w213> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_201> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_206t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_215> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w216> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_214> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_223>,
+        bgn:Person-1669 .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w232> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_235>,
+        bgn:Person-1669 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_229t_230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w26> ;
+    pb:ArgM-TMP bgn:Person-1669 .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_254> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w255> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_262> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w263> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_263> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_269> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w270> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_267t_268> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_282> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w283> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_279t_280t_281> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_299> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w300> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_294> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_301> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w302> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_286> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_300> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_290>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_292> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_307> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w308> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_286> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_304t_305t_306> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_311> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w312> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_310> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_313t_314t_315> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_312> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_324> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w325> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_317t_318t_319> ;
+    pb:Arg1 bgn:Person-1669 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_322t_323> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_332> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w333> ;
+    pb:Arg1 bgn:Person-1669 ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_347>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_349>,
+        bgn:Person-1669 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_334t_335> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_354> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w355> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_356> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_352t_353> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_369> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w370> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_367t_368> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_386> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w387> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_382t_383t_384>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_387t_388t_389t_390t_391t_392t_393t_394t_395t_396t_397t_398t_399t_400t_401t_402t_403t_404t_405> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w40> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_37t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_405> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w406> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_396> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_403> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_397t_398t_399t_400t_401t_402> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_412> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w413> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_413t_414> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_407t_408t_409t_410> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_422> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w423> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_427t_428> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_431t_432t_433t_434t_435> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_416t_417t_418t_419t_420t_421>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_430> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_440> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w441> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_437t_438> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_441t_442t_443t_444t_445t_446> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_454> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w455> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_450t_451t_452> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_461> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w462> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_464> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w465> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_467> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w468> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_458t_459t_460t_461t_462t_463t_464t_465t_466> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_456t_457> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_448t_449t_450t_451t_452t_453t_454> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_474> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w475> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_476> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w477> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_470t_471> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_473t_474>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_475> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_472> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_478> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w479> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_482t_483t_484>,
+        bgn:Person-1669 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_469t_470t_471t_472t_473t_474t_475t_476> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_496> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w497> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_494t_495> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_486t_487t_488> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_497t_498t_499t_500t_501> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_491t_492> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_504> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w505> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_505> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_506t_507t_508t_509t_510t_511> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_503> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_509> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w510> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_505> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_507> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_506t_507t_508t_509t_510t_511> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_519> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w520> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_514t_515t_516> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_523> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w524> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_530> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w531> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_531> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w532> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_525t_526t_527t_528t_529t_530> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_521t_522t_523> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_524> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_513t_514t_515t_516t_517t_518t_519> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_537> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w538> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_538t_539t_540t_541t_542>,
+        bgn:Person-1669 ;
+    pb:AM-TMP bgn:Person-1669 .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w55> ;
+    pb:A0 bgn:Person-1669 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_53> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_50t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_555> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w556> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_552t_553t_554> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_567> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w568> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_569> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w570> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_573> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w574> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_577> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w578> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_578> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_580> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_571t_572t_573t_574t_575t_576> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_583> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w584> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_582> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_593> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_585t_586t_587t_588> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w6w7w8> ;
+    xs:date "1916-03-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w71> ;
+    pb:Arg1 bgn:Person-1669 .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w77> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_67>,
+        bgn:Person-1669 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w84> ;
+    pb:A0 bgn:Person-1669 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w88> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w93> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_99> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w10> nif:anchorOf "Driebergen" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w100> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "564" ;
+    nif:endIndex "573" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w101> nif:BeginIndex "574" ;
+    nif:anchorOf "moesten" ;
+    nif:endIndex "581" ;
+    nif:lemma "moeten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w103> nif:anchorOf "Samen" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "588" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w103" ;
+    nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w104> nif:BeginIndex "589" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "594" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w111w112> nif:anchorOf "al snel" ;
+    nif:beginIndex "623" ;
+    nif:endIndex "630" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w112" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w112> nif:anchorOf "snel" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "630" ;
+    nif:lemma "snel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w113> nif:BeginIndex "631" ;
+    nif:anchorOf "sloten" ;
+    nif:endIndex "637" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w114w115> nif:anchorOf "Kees Bosselaar" ;
+    nif:beginIndex "638" ;
+    nif:endIndex "652" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w118> nif:anchorOf "zich" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "668" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w118" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w123w124> nif:anchorOf "april 1943" ;
+    nif:beginIndex "682" ;
+    nif:endIndex "692" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w127> nif:anchorOf "LO" ;
+    nif:beginIndex "708" ;
+    nif:endIndex "710" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w129> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "719" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w12w13w14> nif:anchorOf "1 april 2008" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w130> nif:BeginIndex "720" ;
+    nif:anchorOf "ontstond" ;
+    nif:endIndex "728" ;
+    nif:lemma "ontstaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w131> nif:BeginIndex "729" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "733" ;
+    nif:lemma "op_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w132w133> nif:anchorOf "het groepje" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "745" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w134> nif:anchorOf "hierin" ;
+    nif:beginIndex "746" ;
+    nif:endIndex "752" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w134" ;
+    nif:lemma "hierin" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w137w138> nif:anchorOf "Van Vliet" ;
+    nif:beginIndex "757" ;
+    nif:endIndex "766" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w139> nif:BeginIndex "767" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "770" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w146w147w148w149w150w151> nif:anchorOf "Landelijke Organisatie voor Hulp aan Onderduikers" ;
+    nif:beginIndex "800" ;
+    nif:endIndex "849" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w154w155w156> nif:anchorOf "19 oktober 1943" ;
+    nif:beginIndex "855" ;
+    nif:endIndex "870" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w157> nif:BeginIndex "871" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "875" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w159> nif:anchorOf "SD" ;
+    nif:beginIndex "879" ;
+    nif:endIndex "881" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w165> nif:anchorOf "LO" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "913" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w168> nif:anchorOf "Hoorn" ;
+    nif:beginIndex "929" ;
+    nif:endIndex "934" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w170w171> nif:anchorOf "Cary Stomp" ;
+    nif:beginIndex "936" ;
+    nif:endIndex "946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w178w179> nif:anchorOf "LO Utrecht" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w18> nif:anchorOf "Ruurd" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w182> nif:BeginIndex "994" ;
+    nif:anchorOf "gegrepen" ;
+    nif:endIndex "1002" ;
+    nif:lemma "grijpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w184w185w186w187w188> nif:anchorOf "ten gevolge van deze arrestatie" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1035" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w184" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w189> nif:BeginIndex "1036" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1040" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w190w191> nif:anchorOf "Henk Das" ;
+    nif:beginIndex "1041" ;
+    nif:endIndex "1049" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w193w194> nif:anchorOf "diezelfde maand" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1068" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w199w200> nif:anchorOf "LO Utrecht" ;
+    nif:beginIndex "1095" ;
+    nif:endIndex "1105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w1w2> nif:anchorOf "Das" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "8" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w20> nif:BeginIndex "87" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "90" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w202> nif:anchorOf "Das" ;
+    nif:beginIndex "1108" ;
+    nif:endIndex "1111" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w202" ;
+    nif:lemma "Das" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w205> nif:anchorOf "al" ;
+    nif:beginIndex "1123" ;
+    nif:endIndex "1125" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w205" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w207w208> nif:anchorOf "maart 1943" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1139" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w213> nif:BeginIndex "1163" ;
+    nif:anchorOf "onderduiken" ;
+    nif:endIndex "1174" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w215> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1179" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w215" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w216> nif:BeginIndex "1180" ;
+    nif:anchorOf "dook" ;
+    nif:endIndex "1184" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w219w220> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "1194" ;
+    nif:endIndex "1202" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w22> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "95" ;
+    nif:endIndex "105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w224> nif:anchorOf "Drachten" ;
+    nif:beginIndex "1215" ;
+    nif:endIndex "1223" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w227> nif:anchorOf "Laren" ;
+    nif:beginIndex "1230" ;
+    nif:endIndex "1235" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w230w231> nif:anchorOf "augustus 1943" ;
+    nif:beginIndex "1243" ;
+    nif:endIndex "1256" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w232> nif:BeginIndex "1257" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1260" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w236> nif:anchorOf "Zeist" ;
+    nif:beginIndex "1281" ;
+    nif:endIndex "1286" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w241> nif:anchorOf "Sepers" ;
+    nif:beginIndex "1307" ;
+    nif:endIndex "1313" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w247> nif:anchorOf "Renesselaan" ;
+    nif:beginIndex "1327" ;
+    nif:endIndex "1338" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w254w255> nif:anchorOf "Gerrit Jan" ;
+    nif:beginIndex "1357" ;
+    nif:endIndex "1367" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w255> nif:anchorOf "Jan" ;
+    nif:beginIndex "1364" ;
+    nif:endIndex "1367" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w258> nif:anchorOf "Waal" ;
+    nif:beginIndex "1375" ;
+    nif:endIndex "1379" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w26> nif:BeginIndex "127" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "130" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w261> nif:anchorOf "Mees" ;
+    nif:beginIndex "1392" ;
+    nif:endIndex "1396" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w263> nif:BeginIndex "1398" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1403" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w264> nif:anchorOf "hier" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1408" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w264" ;
+    nif:lemma "hier" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w268w269> nif:anchorOf "mei 1944" ;
+    nif:beginIndex "1427" ;
+    nif:endIndex "1435" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w270> nif:BeginIndex "1436" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1439" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w276> nif:anchorOf "LO" ;
+    nif:beginIndex "1469" ;
+    nif:endIndex "1471" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w278> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "1473" ;
+    nif:endIndex "1480" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w280w281w282> nif:anchorOf "Uit die tijd" ;
+    nif:beginIndex "1482" ;
+    nif:endIndex "1494" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w280" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w283> nif:BeginIndex "1495" ;
+    nif:anchorOf "stamt" ;
+    nif:endIndex "1500" ;
+    nif:lemma "stammen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w287> nif:anchorOf "dat" ;
+    nif:beginIndex "1524" ;
+    nif:endIndex "1527" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w287" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w291> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1540" ;
+    nif:endIndex "1548" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w293> nif:anchorOf "Kriegsmarine" ;
+    nif:beginIndex "1550" ;
+    nif:endIndex "1562" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w295> nif:anchorOf "die" ;
+    nif:beginIndex "1564" ;
+    nif:endIndex "1567" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w295" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w300> nif:BeginIndex "1595" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1600" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w301> nif:anchorOf "pannenkoeken" ;
+    nif:beginIndex "1601" ;
+    nif:endIndex "1613" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w301" ;
+    nif:lemma "pannenkoek" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w302> nif:BeginIndex "1614" ;
+    nif:anchorOf "bakte" ;
+    nif:endIndex "1619" ;
+    nif:lemma "bakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w304> nif:anchorOf "deze" ;
+    nif:beginIndex "1623" ;
+    nif:endIndex "1627" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w304" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w305w306w307> nif:anchorOf "bij de buren" ;
+    nif:beginIndex "1628" ;
+    nif:endIndex "1640" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w305" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w308> nif:BeginIndex "1641" ;
+    nif:anchorOf "bracht" ;
+    nif:endIndex "1647" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w311> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1652" ;
+    nif:endIndex "1660" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w312> nif:BeginIndex "1661" ;
+    nif:anchorOf "hadden" ;
+    nif:endIndex "1667" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w313> nif:anchorOf "niet" ;
+    nif:beginIndex "1668" ;
+    nif:endIndex "1672" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w313" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w314w315w316> nif:anchorOf "in de gaten" ;
+    nif:beginIndex "1673" ;
+    nif:endIndex "1684" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w314" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w318w319w320> nif:anchorOf "die aardige oma" ;
+    nif:beginIndex "1689" ;
+    nif:endIndex "1704" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w320" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w31w32> nif:anchorOf "LO Utrecht" ;
+    nif:beginIndex "157" ;
+    nif:endIndex "167" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w321> nif:anchorOf "Sepers" ;
+    nif:beginIndex "1705" ;
+    nif:endIndex "1711" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w323w324> nif:anchorOf "in huis" ;
+    nif:beginIndex "1725" ;
+    nif:endIndex "1732" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w323" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w325> nif:BeginIndex "1733" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1736" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w331w332> nif:anchorOf "LO Utrecht" ;
+    nif:beginIndex "1763" ;
+    nif:endIndex "1773" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w333> nif:BeginIndex "1774" ;
+    nif:anchorOf "verhuisde" ;
+    nif:endIndex "1783" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w335w336> nif:anchorOf "mei 1944" ;
+    nif:beginIndex "1787" ;
+    nif:endIndex "1795" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w340> nif:anchorOf "Acke" ;
+    nif:beginIndex "1812" ;
+    nif:endIndex "1816" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w342w343w344> nif:anchorOf "Huize Klein Maarn" ;
+    nif:beginIndex "1819" ;
+    nif:endIndex "1836" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w348> nif:anchorOf "Amersfoortseweg" ;
+    nif:beginIndex "1845" ;
+    nif:endIndex "1860" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w350> nif:anchorOf "Maarn" ;
+    nif:beginIndex "1864" ;
+    nif:endIndex "1869" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w353w354> nif:anchorOf "september 1944" ;
+    nif:beginIndex "1878" ;
+    nif:endIndex "1892" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w355> nif:BeginIndex "1893" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1896" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w356> nif:anchorOf "Das" ;
+    nif:beginIndex "1897" ;
+    nif:endIndex "1900" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w357> nif:anchorOf "tevens" ;
+    nif:beginIndex "1901" ;
+    nif:endIndex "1907" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w357" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w35w36> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "179" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w361w362w363> nif:anchorOf "Centrale Inlichtingen Dienst" ;
+    nif:beginIndex "1930" ;
+    nif:endIndex "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w365> nif:anchorOf "CID" ;
+    nif:beginIndex "1960" ;
+    nif:endIndex "1963" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w368w369> nif:anchorOf "Het hoofdkwartier" ;
+    nif:beginIndex "1966" ;
+    nif:endIndex "1983" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w369" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w370> nif:BeginIndex "1984" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1987" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w374> nif:anchorOf "Brigittenstraat" ;
+    nif:beginIndex "2005" ;
+    nif:endIndex "2020" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w381> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "2042" ;
+    nif:endIndex "2049" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w383w384w385> nif:anchorOf "Het ' klooster" ;
+    nif:beginIndex "2051" ;
+    nif:endIndex "2064" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w384" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w387> nif:BeginIndex "2066" ;
+    nif:anchorOf "beschikte" ;
+    nif:endIndex "2075" ;
+    nif:lemma "beschikken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w388w389w390w391w392w393w394w395w396w397w398w399w400w401w402w403w404w405w406> nif:anchorOf "over een eigen illegale telefooncentrale ( vijf telefoonlijnen) die tot het eind van de oorlog dienst heeft gedaan" ;
+    nif:beginIndex "2076" ;
+    nif:endIndex "2189" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w388" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w38w39> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "205" ;
+    nif:endIndex "214" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w39" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w397> nif:anchorOf "die" ;
+    nif:beginIndex "2139" ;
+    nif:endIndex "2142" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w397" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w398w399w400w401w402w403> nif:anchorOf "tot het eind van de oorlog" ;
+    nif:beginIndex "2143" ;
+    nif:endIndex "2169" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w398" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w4> nif:anchorOf "Hellevoetsluis" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w40> nif:BeginIndex "215" ;
+    nif:anchorOf "uitbrak" ;
+    nif:endIndex "222" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w404> nif:anchorOf "dienst" ;
+    nif:beginIndex "2170" ;
+    nif:endIndex "2176" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w404" ;
+    nif:lemma "dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w406> nif:BeginIndex "2183" ;
+    nif:anchorOf "gedaan" ;
+    nif:endIndex "2189" ;
+    nif:lemma "dienst_doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w408w409w410w411> nif:anchorOf "Vanuit het ' klooster" ;
+    nif:beginIndex "2192" ;
+    nif:endIndex "2212" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w408" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w413> nif:BeginIndex "2214" ;
+    nif:anchorOf "werkten" ;
+    nif:endIndex "2221" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w414w415> nif:anchorOf "5 koeriersters" ;
+    nif:beginIndex "2222" ;
+    nif:endIndex "2236" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w415" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w417w418w419w420w421w422> nif:anchorOf "Aan het eind van de oorlog" ;
+    nif:beginIndex "2238" ;
+    nif:endIndex "2264" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w417" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w42> nif:anchorOf "Das" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "230" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w423> nif:BeginIndex "2265" ;
+    nif:anchorOf "verspreidde" ;
+    nif:endIndex "2276" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w428w429> nif:anchorOf "14.000 bonkaarten" ;
+    nif:beginIndex "2300" ;
+    nif:endIndex "2317" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w429" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w431> nif:anchorOf "maand" ;
+    nif:beginIndex "2322" ;
+    nif:endIndex "2327" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w432w433w434w435w436> nif:anchorOf "voor mensen die ondergedoken zaten" ;
+    nif:beginIndex "2328" ;
+    nif:endIndex "2362" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w438w439> nif:anchorOf "De bonkaarten" ;
+    nif:beginIndex "2364" ;
+    nif:endIndex "2377" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w439" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w441> nif:BeginIndex "2385" ;
+    nif:anchorOf "verkregen" ;
+    nif:endIndex "2394" ;
+    nif:lemma "verkrijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w442w443w444w445w446w447> nif:anchorOf "via behulpzame ambtenaren van de distributiekantoren" ;
+    nif:beginIndex "2395" ;
+    nif:endIndex "2447" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w442" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w449w450w451w452w453w454w455> nif:anchorOf "Toen er veel meer bonkaarten nodig waren" ;
+    nif:beginIndex "2449" ;
+    nif:endIndex "2489" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w449" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w451w452w453> nif:anchorOf "veel meer bonkaarten" ;
+    nif:beginIndex "2457" ;
+    nif:endIndex "2477" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w452" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w455> nif:BeginIndex "2484" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "2489" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w457w458> nif:anchorOf "de bonnen" ;
+    nif:beginIndex "2497" ;
+    nif:endIndex "2506" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w458" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w459w460w461w462w463w464w465w466w467> nif:anchorOf "door het ' kraken ' en overvallen van distributiekantoren" ;
+    nif:beginIndex "2507" ;
+    nif:endIndex "2562" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w462> nif:BeginIndex "2517" ;
+    nif:anchorOf "kraken" ;
+    nif:endIndex "2523" ;
+    nif:lemma "kraken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w465> nif:BeginIndex "2528" ;
+    nif:anchorOf "overvallen" ;
+    nif:endIndex "2538" ;
+    nif:lemma "overvallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w468> nif:BeginIndex "2563" ;
+    nif:anchorOf "bemachtigd" ;
+    nif:endIndex "2573" ;
+    nif:lemma "bemachtigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w46w47w48> nif:anchorOf "Middenstands Bedrijfs Vereniging" ;
+    nif:beginIndex "247" ;
+    nif:endIndex "279" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w470w471w472w473w474w475w476w477> nif:anchorOf "Aangezien veel onderduikers ook geldelijke ondersteuning nodig hadden" ;
+    nif:beginIndex "2575" ;
+    nif:endIndex "2644" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w470" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w471w472> nif:anchorOf "veel onderduikers" ;
+    nif:beginIndex "2585" ;
+    nif:endIndex "2602" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w472" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w473> nif:anchorOf "ook" ;
+    nif:beginIndex "2603" ;
+    nif:endIndex "2606" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w473" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w474w475> nif:anchorOf "geldelijke ondersteuning" ;
+    nif:beginIndex "2607" ;
+    nif:endIndex "2631" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w475> nif:BeginIndex "2618" ;
+    nif:anchorOf "ondersteuning" ;
+    nif:endIndex "2631" ;
+    nif:lemma "ondersteuning" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w476> nif:anchorOf "nodig" ;
+    nif:beginIndex "2632" ;
+    nif:endIndex "2637" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w476" ;
+    nif:lemma "nodig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w477> nif:BeginIndex "2638" ;
+    nif:anchorOf "hadden" ;
+    nif:endIndex "2644" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w479> nif:BeginIndex "2646" ;
+    nif:anchorOf "bedacht" ;
+    nif:endIndex "2653" ;
+    nif:lemma "bedenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w481> nif:anchorOf "Ruurd" ;
+    nif:beginIndex "2655" ;
+    nif:endIndex "2660" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w483w484w485> nif:anchorOf "een eenvoudig systeem" ;
+    nif:beginIndex "2662" ;
+    nif:endIndex "2683" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w485" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w487w488w489> nif:anchorOf "Voor elke bonkaart" ;
+    nif:beginIndex "2685" ;
+    nif:endIndex "2703" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w487" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w492w493> nif:anchorOf "indien mogelijk" ;
+    nif:beginIndex "2710" ;
+    nif:endIndex "2725" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w492" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w495w496> nif:anchorOf "twee gulden" ;
+    nif:beginIndex "2727" ;
+    nif:endIndex "2738" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w496" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w497> nif:BeginIndex "2739" ;
+    nif:anchorOf "betaald" ;
+    nif:endIndex "2746" ;
+    nif:lemma "betalen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w498w499w500w501w502> nif:anchorOf "ten behoeve van de ondersteuningskas" ;
+    nif:beginIndex "2747" ;
+    nif:endIndex "2783" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w498" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w504> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "2785" ;
+    nif:endIndex "2794" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w504" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w505> nif:BeginIndex "2795" ;
+    nif:anchorOf "trachtte" ;
+    nif:endIndex "2803" ;
+    nif:lemma "trachten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w506> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "2804" ;
+    nif:endIndex "2807" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w506" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w507w508w509w510w511w512> nif:anchorOf "geld in te zamelen van particulieren" ;
+    nif:beginIndex "2808" ;
+    nif:endIndex "2844" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w510" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w508> nif:anchorOf "in" ;
+    nif:beginIndex "2813" ;
+    nif:endIndex "2815" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w508" ;
+    nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w510> nif:BeginIndex "2819" ;
+    nif:anchorOf "zamelen" ;
+    nif:endIndex "2826" ;
+    nif:lemma "in_zamelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w514w515w516w517w518w519w520> nif:anchorOf "Toen het aantal onderduikers aanzienlijk gestegen was" ;
+    nif:beginIndex "2846" ;
+    nif:endIndex "2899" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w514" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w515w516w517> nif:anchorOf "het aantal onderduikers" ;
+    nif:beginIndex "2851" ;
+    nif:endIndex "2874" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w516" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w51w52> nif:anchorOf "april 1942" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w520> nif:BeginIndex "2896" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "2899" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w522w523w524> nif:anchorOf "de geldelijke ondersteuning" ;
+    nif:beginIndex "2904" ;
+    nif:endIndex "2931" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w524" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w524> nif:BeginIndex "2918" ;
+    nif:anchorOf "ondersteuning" ;
+    nif:endIndex "2931" ;
+    nif:lemma "ondersteuning" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w525> nif:anchorOf "grotendeels" ;
+    nif:beginIndex "2932" ;
+    nif:endIndex "2943" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w525" ;
+    nif:lemma "grotendeels" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w526w527w528w529w530w531> nif:anchorOf "uit de opbrengst van de bonkaartenbijdrage" ;
+    nif:beginIndex "2944" ;
+    nif:endIndex "2986" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w526" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w531> nif:BeginIndex "2968" ;
+    nif:anchorOf "bonkaartenbijdrage" ;
+    nif:endIndex "2986" ;
+    nif:lemma "bon_kaart_bijdrage" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w532> nif:BeginIndex "2987" ;
+    nif:anchorOf "gerealiseerd" ;
+    nif:endIndex "2999" ;
+    nif:lemma "realiseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w536> nif:anchorOf "Ruurd" ;
+    nif:beginIndex "3010" ;
+    nif:endIndex "3015" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w538> nif:BeginIndex "3017" ;
+    nif:anchorOf "vervulde" ;
+    nif:endIndex "3025" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w539w540w541w542w543> nif:anchorOf "de functie van provinciaal leider" ;
+    nif:beginIndex "3026" ;
+    nif:endIndex "3059" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w540" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w54> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "303" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w54" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w549w550w551> nif:anchorOf "Tweede Wereld Oorlog" ;
+    nif:beginIndex "3081" ;
+    nif:endIndex "3101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w55> nif:BeginIndex "304" ;
+    nif:anchorOf "benaderd" ;
+    nif:endIndex "312" ;
+    nif:lemma "benaderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w553w554w555> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "3103" ;
+    nif:endIndex "3115" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w553" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w556> nif:BeginIndex "3116" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "3119" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w557w558> nif:anchorOf "Henk Das" ;
+    nif:beginIndex "3120" ;
+    nif:endIndex "3128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w560w561> nif:anchorOf "Utrecht-De Veluwe" ;
+    nif:beginIndex "3148" ;
+    nif:endIndex "3165" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w564> nif:anchorOf "Gooi" ;
+    nif:beginIndex "3173" ;
+    nif:endIndex "3177" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w567w568> nif:anchorOf "Stichting 1940" ;
+    nif:beginIndex "3185" ;
+    nif:endIndex "3199" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w568> nif:anchorOf "1940" ;
+    nif:beginIndex "3195" ;
+    nif:endIndex "3199" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w570> nif:anchorOf "1945" ;
+    nif:beginIndex "3201" ;
+    nif:endIndex "3205" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w572w573w574w575w576w577> nif:anchorOf "De laatste jaren van zijn leven" ;
+    nif:beginIndex "3207" ;
+    nif:endIndex "3238" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w574" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w574> nif:anchorOf "jaren" ;
+    nif:beginIndex "3218" ;
+    nif:endIndex "3223" ;
+    nif:lemma "jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w578> nif:BeginIndex "3239" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "3245" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w579> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "3246" ;
+    nif:endIndex "3249" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w579" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w581> nif:anchorOf "Maarn" ;
+    nif:beginIndex "3253" ;
+    nif:endIndex "3258" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w583> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "3260" ;
+    nif:endIndex "3263" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w583" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w584> nif:BeginIndex "3264" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "3272" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w586w587w588w589> nif:anchorOf "dinsdag 1 april 2008" ;
+    nif:beginIndex "3276" ;
+    nif:endIndex "3296" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w594> nif:anchorOf "Driebergen" ;
+    nif:beginIndex "3320" ;
+    nif:endIndex "3330" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w59w60w61> nif:anchorOf "Teus van Vliet" ;
+    nif:beginIndex "330" ;
+    nif:endIndex "344" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w64> nif:anchorOf "Hugo" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "361" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w66w67> nif:anchorOf "bij wie" ;
+    nif:beginIndex "363" ;
+    nif:endIndex "370" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w68> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w68" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w6w7w8> nif:anchorOf "18 maart 1916" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w71> nif:BeginIndex "382" ;
+    nif:anchorOf "districtsbestuur" ;
+    nif:endIndex "398" ;
+    nif:lemma "district_bestuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w74w75> nif:anchorOf "Christelijke Korfbalvereniging" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "436" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w77> nif:BeginIndex "441" ;
+    nif:anchorOf "gezeten" ;
+    nif:endIndex "448" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w79w80> nif:anchorOf "Van Vliet" ;
+    nif:beginIndex "450" ;
+    nif:endIndex "459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w84> nif:BeginIndex "473" ;
+    nif:anchorOf "opgevat" ;
+    nif:endIndex "480" ;
+    nif:lemma "op_vatten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w86> nif:anchorOf "onderduikadressen" ;
+    nif:beginIndex "484" ;
+    nif:endIndex "501" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w86" ;
+    nif:lemma "onderduik_adres" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w88> nif:BeginIndex "505" ;
+    nif:anchorOf "zoeken" ;
+    nif:endIndex "511" ;
+    nif:lemma "zoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w91> nif:anchorOf "in" ;
+    nif:beginIndex "520" ;
+    nif:endIndex "522" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w91" ;
+    nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w93> nif:BeginIndex "526" ;
+    nif:anchorOf "zamelen" ;
+    nif:endIndex "533" ;
+    nif:lemma "in_zamelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w98> nif:anchorOf "die" ;
+    nif:beginIndex "555" ;
+    nif:endIndex "558" ;
+    nif:head "bgnProc:1669__Henk_Das.naf#w98" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_110t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w111w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_122t_123> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w123w124> ;
+    xs:gYearMonth "1943-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_131t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w132w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_153t_154t_155> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w154w155w156> ;
+    xs:date "1943-10-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_183t_184t_185t_186t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w184w185w186w187w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_192t_193> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w193w194> ;
+    xs:gYearMonth "1943-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_206t_207> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w207w208> ;
+    xs:gYearMonth "1943-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_229t_230> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w230w231> ;
+    xs:gYearMonth "1943-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_263> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w264> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_267t_268> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w268w269> ;
+    xs:gYearMonth "1944-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_279t_280t_281> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w280w281w282> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_294> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w295> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_300> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w301> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_303> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w304> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_304t_305t_306> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w305w306w307> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_312> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w313> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_313t_314t_315> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w314w315w316> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_317t_318t_319> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w318w319w320> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_322t_323> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w323w324> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_334t_335> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w335w336> ;
+    xs:gYearMonth "1944-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_352t_353> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w353w354> ;
+    xs:gYearMonth "1944-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_356> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w357> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_367t_368> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w368w369> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_37t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w38w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_382t_383t_384> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w383w384w385> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_387t_388t_389t_390t_391t_392t_393t_394t_395t_396t_397t_398t_399t_400t_401t_402t_403t_404t_405> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w388w389w390w391w392w393w394w395w396w397w398w399w400w401w402w403w404w405w406> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_396> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w397> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_397t_398t_399t_400t_401t_402> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w398w399w400w401w402w403> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_403> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w404> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_407t_408t_409t_410> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w408w409w410w411> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_413t_414> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w414w415> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_416t_417t_418t_419t_420t_421> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w417w418w419w420w421w422> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_427t_428> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w428w429> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_430> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w431> ;
+    xs:period "P1M" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_431t_432t_433t_434t_435> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w432w433w434w435w436> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_437t_438> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w438w439> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_441t_442t_443t_444t_445t_446> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w442w443w444w445w446w447> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_448t_449t_450t_451t_452t_453t_454> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w449w450w451w452w453w454w455> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_450t_451t_452> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w451w452w453> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_456t_457> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w457w458> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_458t_459t_460t_461t_462t_463t_464t_465t_466> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w459w460w461w462w463w464w465w466w467> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_469t_470t_471t_472t_473t_474t_475t_476> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w470w471w472w473w474w475w476w477> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_470t_471> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w471w472> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_472> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w473> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_473t_474> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w474w475> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_475> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w476> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_482t_483t_484> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w483w484w485> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_486t_487t_488> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w487w488w489> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_491t_492> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w492w493> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_494t_495> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w495w496> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_497t_498t_499t_500t_501> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w498w499w500w501w502> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_503> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w504> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_507> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w508> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_50t_51> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w51w52> ;
+    xs:gYearMonth "1942-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_513t_514t_515t_516t_517t_518t_519> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w514w515w516w517w518w519w520> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_514t_515t_516> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w515w516w517> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_521t_522t_523> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w522w523w524> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_524> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w525> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_525t_526t_527t_528t_529t_530> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w526w527w528w529w530w531> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_538t_539t_540t_541t_542> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w539w540w541w542w543> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_552t_553t_554> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w553w554w555> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_571t_572t_573t_574t_575t_576> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w572w573w574w575w576w577> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_578> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w579> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_582> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w583> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_585t_586t_587t_588> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w586w587w588w589> ;
+    xs:date "2008-04-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_286> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w287> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_505> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w506> .
+
+<http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#t_506t_507t_508t_509t_510t_511> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w507w508w509w510w511w512> .
+
+bgn:Person-1669 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w100>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w114w115>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w137w138>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w146w147w148w149w150w151>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w170w171>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w178w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w190w191>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w199w200>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w219w220>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w224>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w236>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w241>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w254w255>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w258>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w261>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w276>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w278>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w291>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w293>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w311>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w31w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w321>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w331w332>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w340>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w342w343w344>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w348>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w350>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w356>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w361w362w363>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w365>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w374>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w381>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w46w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w481>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w536>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w549w550w551>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w557w558>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w560w561>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w564>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w567w568>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w581>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w594>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w59w60w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w74w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1669__Henk_Das.naf#w79w80> .
+

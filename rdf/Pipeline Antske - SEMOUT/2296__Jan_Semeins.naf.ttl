@@ -1,0 +1,358 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_36t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_53t_54t_55t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_61t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_99t_100>,
+        bgn:Person-2296 ;
+    ore:proxyFor bgn:Person-2296 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w100> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w54> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w95> nif:lemma "ter" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2296__Jan_Semeins#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2296__Jan_Semeins .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2296 ;
+    bgn:aggregatedPerson bgn:Person-2296 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2296__Jan_Semeins ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2296__Jan_Semeins ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w102> ;
+    pb:Arg1 bgn:Person-2296 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_99t_100> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_94t_95> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w11w12w13> ;
+    xs:date "1916-03-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_16t_17t_18> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w17w18w19> ;
+    xs:date "1945-03-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w21> ;
+    pb:ArgM-TMP bgn:Person-2296 .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w40> ;
+    pb:Arg0 bgn:Person-2296 ;
+    pb:Arg1 bgn:Person-2296 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_36t_37t_38>,
+        bgn:Person-2296 .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_49> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w50> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w53> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_41> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_53t_54t_55t_56t_57t_58> ;
+    pb:AM-MNR bgn:Person-2296 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_42> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w80> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_78> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_65> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_75>,
+        bgn:Person-2296 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_61t_62t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_81> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w82> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_97> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w98> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w100w101> nif:anchorOf "naar hem" ;
+    nif:beginIndex "582" ;
+    nif:endIndex "590" ;
+    nif:head "bgnProc:2296__Jan_Semeins.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w102> nif:BeginIndex "591" ;
+    nif:anchorOf "vernoemd." ;
+    nif:endIndex "600" ;
+    nif:lemma "vernoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w106> nif:anchorOf "http://oorlogsslachtoffersijmond.nl/persoon/100/jan-dirk-semeins" ;
+    nif:beginIndex "618" ;
+    nif:endIndex "682" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w11w12w13> nif:anchorOf "22 maart 1916" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w15> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w17w18w19> nif:anchorOf "12 maart 1945" ;
+    nif:beginIndex "67" ;
+    nif:endIndex "80" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w1w2w3> nif:anchorOf "Dirk Semeins" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w21> nif:BeginIndex "82" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "85" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w23> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "101" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w27w28> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "128" ;
+    nif:endIndex "147" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w30> nif:anchorOf "Semeins" ;
+    nif:beginIndex "150" ;
+    nif:endIndex "157" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w34> nif:anchorOf "Duitse" ;
+    nif:beginIndex "171" ;
+    nif:endIndex "177" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w37w38w39> nif:anchorOf "26 februari 1945" ;
+    nif:beginIndex "190" ;
+    nif:endIndex "206" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w40> nif:BeginIndex "207" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "219" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w42> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "229" ;
+    nif:head "bgnProc:2296__Jan_Semeins.naf#w42" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w43> nif:anchorOf "zich" ;
+    nif:beginIndex "230" ;
+    nif:endIndex "234" ;
+    nif:head "bgnProc:2296__Jan_Semeins.naf#w43" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w47w48> nif:anchorOf "Reinier Pletting" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w50> nif:anchorOf "Jan" ;
+    nif:beginIndex "277" ;
+    nif:endIndex "280" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w50w51> nif:anchorOf "Jan Pleeging" ;
+    nif:beginIndex "277" ;
+    nif:endIndex "289" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w53> nif:BeginIndex "294" ;
+    nif:anchorOf "ingezet" ;
+    nif:endIndex "301" ;
+    nif:lemma "in_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w54w55w56w57w58w59> nif:anchorOf "voor de joden en andere onderduikers" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "338" ;
+    nif:head "bgnProc:2296__Jan_Semeins.naf#w54" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w5w6w7> nif:anchorOf "Wijk aan Zee" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w62w63w64> nif:anchorOf "12 maart 1945" ;
+    nif:beginIndex "343" ;
+    nif:endIndex "356" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w66> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "362" ;
+    nif:endIndex "365" ;
+    nif:head "bgnProc:2296__Jan_Semeins.naf#w66" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w73w74> nif:anchorOf "Eerste Weteringplantsoen" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "418" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w76> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "431" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w79> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "440" ;
+    nif:endIndex "448" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w80> nif:BeginIndex "449" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "461" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w82> nif:anchorOf "Jan" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "467" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w82w83> nif:anchorOf "Jan Semeins" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w88> nif:anchorOf "Duinrust" ;
+    nif:beginIndex "507" ;
+    nif:endIndex "515" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w9> nif:anchorOf "Duin" ;
+    nif:beginIndex "34" ;
+    nif:endIndex "38" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w90> nif:anchorOf "Beverwijk" ;
+    nif:beginIndex "519" ;
+    nif:endIndex "528" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w93> nif:anchorOf "Beverwijk" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "542" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w94> nif:BeginIndex "543" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "545" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w95w96> nif:anchorOf "ter nagedachtenis" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "563" ;
+    nif:head "bgnProc:2296__Jan_Semeins.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w98> nif:anchorOf "Jan" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "570" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w98w99> nif:anchorOf "Jan Semeinshof" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "581" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_36t_37t_38> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w37w38w39> ;
+    xs:date "1945-02-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_53t_54t_55t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w54w55w56w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_61t_62t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w62w63w64> ;
+    xs:date "1945-03-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w100w101> .
+
+bgn:Person-2296 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w27w28>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w30>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w5w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w82w83>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w93>,
+        <http://data.biographynet.nl/rdf/170506221754/2296__Jan_Semeins.naf#w98w99> ;
+    xs:gYearMonth "2017-01" .
+
