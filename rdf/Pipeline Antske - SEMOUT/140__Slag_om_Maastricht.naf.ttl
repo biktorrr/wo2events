@@ -1,0 +1,249 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_59t_60t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_59t_60t_61t_62t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_81>,
+        bgn:Person-140 ;
+    ore:proxyFor bgn:Person-140 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w62> nif:lemma "leger" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w63> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-140__Slag_om_Maastricht#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-140__Slag_om_Maastricht .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-140 ;
+    bgn:aggregatedPerson bgn:Person-140 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-140__Slag_om_Maastricht ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-140__Slag_om_Maastricht ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w14> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w31> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_14> ;
+    pb:Arg2 bgn:Person-140 ;
+    pb:ArgM-TMP bgn:Person-140 .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w5> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_6t_7t_8> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w50> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_59t_60t_61t_62t_63t_64t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w58> ;
+    pb:Arg1 bgn:Person-140 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w66> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_59t_60t_61> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_62t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_81> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w82> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w14> nif:BeginIndex "59" ;
+    nif:anchorOf "gevechten" ;
+    nif:endIndex "68" ;
+    nif:lemma "gevecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w15> nif:anchorOf "die" ;
+    nif:beginIndex "69" ;
+    nif:endIndex "72" ;
+    nif:head "bgnProc:140__Slag_om_Maastricht.naf#w15" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w18> nif:anchorOf "Duitse" ;
+    nif:beginIndex "84" ;
+    nif:endIndex "90" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w29w30> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "145" ;
+    nif:endIndex "164" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w2w3w4> nif:anchorOf "Slag om Maastricht" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "21" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w31> nif:BeginIndex "165" ;
+    nif:anchorOf "plaatsvonden" ;
+    nif:endIndex "177" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w33> nif:anchorOf "Maastricht" ;
+    nif:beginIndex "179" ;
+    nif:endIndex "189" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w34> nif:BeginIndex "190" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "193" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w37> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "202" ;
+    nif:endIndex "210" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w47> nif:anchorOf "Maasbruggen" ;
+    nif:beginIndex "268" ;
+    nif:endIndex "279" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w5> nif:BeginIndex "22" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "25" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w50> nif:BeginIndex "286" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "289" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w52> nif:anchorOf "Belgische" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "303" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w53w54> nif:anchorOf "Fort Eben-Emael" ;
+    nif:beginIndex "304" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w55> nif:anchorOf "snel" ;
+    nif:beginIndex "320" ;
+    nif:endIndex "324" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w58> nif:BeginIndex "335" ;
+    nif:anchorOf "veroveren" ;
+    nif:endIndex "344" ;
+    nif:lemma "veroveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w60w61w62> nif:anchorOf "de geallieerde legers" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "369" ;
+    nif:head "bgnProc:140__Slag_om_Maastricht.naf#w62" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w60w61w62w63w64w65w66> nif:anchorOf "de geallieerde legers in tweeën te splitsen" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "391" ;
+    nif:head "bgnProc:140__Slag_om_Maastricht.naf#w62" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w63w64> nif:anchorOf "in tweeën" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "379" ;
+    nif:head "bgnProc:140__Slag_om_Maastricht.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w66> nif:BeginIndex "383" ;
+    nif:anchorOf "splitsen" ;
+    nif:endIndex "391" ;
+    nif:lemma "splitsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w71w72w73w74w75> nif:anchorOf "Fort Eben-Emael Fall Gelb Geschiedenis" ;
+    nif:beginIndex "408" ;
+    nif:endIndex "448" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w77w78> nif:anchorOf "Maastricht Bevrijding" ;
+    nif:beginIndex "453" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w7w8w9> nif:anchorOf "10 mei 1940" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w80> nif:anchorOf "Maastricht" ;
+    nif:beginIndex "480" ;
+    nif:endIndex "490" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w82> nif:anchorOf "1944" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "496" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_14> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w15> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_54> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w55> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_59t_60t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w60w61w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_59t_60t_61t_62t_63t_64t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w60w61w62w63w64w65w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_62t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w63w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w7w8w9> ;
+    xs:date "1940-05-10" .
+
+bgn:Person-140 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w47>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w53w54>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w71w72w73w74w75>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/140__Slag_om_Maastricht.naf#w80> .
+

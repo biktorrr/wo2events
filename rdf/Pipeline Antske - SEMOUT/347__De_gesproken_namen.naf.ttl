@@ -1,0 +1,827 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_101t_102t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_105t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_109t_110t_111t_112t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_131t_132t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_139t_140t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_155t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_163t_164t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_176t_177t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187t_188t_189t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_181t_182t_183t_184t_185t_186t_187t_188t_189t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_189t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_194t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_197t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_200t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_202t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_233t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_31t_32t_33t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_40t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_42t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_42t_43t_44t_45t_46t_47t_48t_49t_50t_51t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_45t_46t_47t_48t_49t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_70t_71t_72t_73t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_76t_77t_78t_79t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_84t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_87t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_92t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_97>,
+        bgn:Person-347 ;
+    ore:proxyFor bgn:Person-347 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w103> nif:lemma "transport" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w106> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w111> nif:lemma "nagedachtenis" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w132> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w140> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w150> nif:lemma "trein" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w157> nif:lemma "wagon" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w164> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w177> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w183> nif:lemma "jood" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w190> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w202> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w203> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w33> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w41> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w47> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w58> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w71> nif:lemma "vanaf" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w78> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w85> nif:lemma "net" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w88> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w94> nif:lemma "transport" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-347__De_gesproken_namen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-347__De_gesproken_namen .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-347 ;
+    bgn:aggregatedPerson bgn:Person-347 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-347__De_gesproken_namen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-347__De_gesproken_namen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w109> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_109t_110t_111t_112t_113> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_105t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_117> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w118> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_134> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w135> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_130> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_131t_132t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w139> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_137> ;
+    pb:A2 bgn:Person-347 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_139t_140t_141t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w151> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_148t_149> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_146> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_147> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w158> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_155t_156>,
+        bgn:Person-347 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_158> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_168> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w169> ;
+    pb:ArgM bgn:Person-347 .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w173> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_162> ;
+    pb:A2 bgn:Person-347 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_163t_164t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w176> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_174> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_176t_177t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187t_188t_189t_190t_191> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w184> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_181t_182t_183t_184t_185t_186t_187t_188t_189t_190t_191> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_188> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w189> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_189t_190t_191> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_186> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_187> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w205> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_200t_201> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_202t_203> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_194t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_197t_198t_199> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w208> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_208> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_211> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w212> ;
+    xs:period "P1M" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w215> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_206> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_215t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_233t_234> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w234w235> ;
+    xs:date "2017-04-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w27> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_22> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w4> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_24>,
+        bgn:Person-347 .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_34> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w35> ;
+    xs:gYear "2015" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w36> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_44> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_31t_32t_33t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w54> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_45t_46t_47t_48t_49t_50t_51> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_40t_41> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_42t_43t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w55> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_42t_43t_44t_45t_46t_47t_48t_49t_50t_51t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_45t_46t_47t_48t_49t_50t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w59> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_56t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w83> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_76t_77t_78t_79t_80t_81> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_68> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_70t_71t_72t_73t_74t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w95> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_92t_93> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_87t_88t_89t_90t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w98> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_84t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94t_95t_96> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_101t_102t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w102w103w104> nif:anchorOf "97 transporten lang" ;
+    nif:beginIndex "625" ;
+    nif:endIndex "644" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w103" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w106w107w108> nif:anchorOf "Door deze klanken" ;
+    nif:beginIndex "646" ;
+    nif:endIndex "663" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w109> nif:BeginIndex "664" ;
+    nif:anchorOf "blijft" ;
+    nif:endIndex "670" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w11> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w110w111w112w113w114> nif:anchorOf "de nagedachtenis aan de transporten" ;
+    nif:beginIndex "671" ;
+    nif:endIndex "706" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w111" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w118> nif:anchorOf "jaar" ;
+    nif:beginIndex "717" ;
+    nif:endIndex "721" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w121> nif:anchorOf "jaar" ;
+    nif:beginIndex "726" ;
+    nif:endIndex "730" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w126> nif:BeginIndex "747" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "751" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w13> nif:anchorOf "Midden-Drenthe" ;
+    nif:beginIndex "79" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w131> nif:anchorOf "die" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "778" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w131" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w132w133w134> nif:anchorOf "voor de deportaties" ;
+    nif:beginIndex "779" ;
+    nif:endIndex "798" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w132" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w135> nif:BeginIndex "799" ;
+    nif:anchorOf "gebruikt" ;
+    nif:endIndex "807" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w138> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "816" ;
+    nif:endIndex "818" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w138" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w139> nif:BeginIndex "819" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "824" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w140w141w142w143> nif:anchorOf "op een stuk treinspoor" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "847" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w147> nif:anchorOf "waar" ;
+    nif:beginIndex "859" ;
+    nif:endIndex "863" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w147" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w148> nif:anchorOf "vroeger" ;
+    nif:beginIndex "864" ;
+    nif:endIndex "871" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w148" ;
+    nif:lemma "vroeg" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w149w150> nif:anchorOf "de trein" ;
+    nif:beginIndex "872" ;
+    nif:endIndex "880" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w150" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w151> nif:BeginIndex "881" ;
+    nif:anchorOf "vertrok" ;
+    nif:endIndex "888" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w153w154> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "911" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w156w157> nif:anchorOf "De wagons" ;
+    nif:beginIndex "913" ;
+    nif:endIndex "922" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w157" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w158> nif:BeginIndex "923" ;
+    nif:anchorOf "herinneren" ;
+    nif:endIndex "933" ;
+    nif:lemma "herinneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w159> nif:anchorOf "hierbij" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "941" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w159" ;
+    nif:lemma "hierbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w163> nif:anchorOf "die" ;
+    nif:beginIndex "957" ;
+    nif:endIndex "960" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w163" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w164w165w166> nif:anchorOf "op deze plek" ;
+    nif:beginIndex "961" ;
+    nif:endIndex "973" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w164" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w169> nif:BeginIndex "982" ;
+    nif:anchorOf "vernietigingskampen" ;
+    nif:endIndex "1001" ;
+    nif:lemma "vernietiging_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w172> nif:anchorOf "Oosten" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1015" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w173> nif:BeginIndex "1016" ;
+    nif:anchorOf "vertrokken" ;
+    nif:endIndex "1026" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w175> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "1028" ;
+    nif:endIndex "1030" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w175" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w176> nif:BeginIndex "1031" ;
+    nif:anchorOf "herinneren" ;
+    nif:endIndex "1041" ;
+    nif:lemma "herinneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w177w178w179w180w181w182w183w184w185w186w187w188w189w190w191w192> nif:anchorOf "aan de afschuwelijke manier waarop de joden getransporteerd werden dicht opeen gepropt in houten wagons" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1146" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w177" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w182w183w184w185w186w187w188w189w190w191w192> nif:anchorOf "de joden getransporteerd werden dicht opeen gepropt in houten wagons" ;
+    nif:beginIndex "1077" ;
+    nif:endIndex "1146" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w184> nif:BeginIndex "1086" ;
+    nif:anchorOf "getransporteerd" ;
+    nif:endIndex "1101" ;
+    nif:lemma "transporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w187> nif:anchorOf "dicht" ;
+    nif:beginIndex "1110" ;
+    nif:endIndex "1115" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w187" ;
+    nif:lemma "dicht" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w188> nif:anchorOf "opeen" ;
+    nif:beginIndex "1116" ;
+    nif:endIndex "1121" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w188" ;
+    nif:lemma "opeen" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w189> nif:BeginIndex "1122" ;
+    nif:anchorOf "gepropt" ;
+    nif:endIndex "1129" ;
+    nif:lemma "gepropt" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w19> nif:anchorOf "Joden" ;
+    nif:beginIndex "125" ;
+    nif:endIndex "130" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w190w191w192> nif:anchorOf "in houten wagons" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1146" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w190" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w195w196> nif:anchorOf "januari 2015" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1165" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w198w199w200> nif:anchorOf "iedere vijf jaar" ;
+    nif:beginIndex "1173" ;
+    nif:endIndex "1189" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w201w202> nif:anchorOf "alle namen" ;
+    nif:beginIndex "1190" ;
+    nif:endIndex "1200" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w202" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w203w204> nif:anchorOf "ter plaatse" ;
+    nif:beginIndex "1201" ;
+    nif:endIndex "1212" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w203" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w205> nif:BeginIndex "1213" ;
+    nif:anchorOf "voorgelezen" ;
+    nif:endIndex "1224" ;
+    nif:lemma "voor_lezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w207> nif:anchorOf "Dit" ;
+    nif:beginIndex "1226" ;
+    nif:endIndex "1229" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w207" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w208> nif:BeginIndex "1230" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "1234" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w209> nif:anchorOf "plaats" ;
+    nif:beginIndex "1235" ;
+    nif:endIndex "1241" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w209" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w212> nif:anchorOf "maand" ;
+    nif:beginIndex "1248" ;
+    nif:endIndex "1253" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w213> nif:anchorOf "januari" ;
+    nif:beginIndex "1254" ;
+    nif:endIndex "1261" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w215> nif:BeginIndex "1265" ;
+    nif:anchorOf "duurde" ;
+    nif:endIndex "1271" ;
+    nif:lemma "duren" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w216w217> nif:anchorOf "vijf dagen" ;
+    nif:beginIndex "1272" ;
+    nif:endIndex "1282" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w22> nif:anchorOf "Roma" ;
+    nif:beginIndex "138" ;
+    nif:endIndex "142" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w222w223> nif:anchorOf "RTV Drenthe" ;
+    nif:beginIndex "1301" ;
+    nif:endIndex "1312" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w225> nif:anchorOf "Nieuw" ;
+    nif:beginIndex "1314" ;
+    nif:endIndex "1319" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w23> nif:anchorOf "die" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "146" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w23" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w231w232> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "1345" ;
+    nif:endIndex "1360" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w234w235> nif:anchorOf "12 april" ;
+    nif:beginIndex "1362" ;
+    nif:endIndex "1370" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w25> nif:anchorOf "Nederland" ;
+    nif:beginIndex "154" ;
+    nif:endIndex "163" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w27> nif:BeginIndex "177" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "181" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w30> nif:BeginIndex "190" ;
+    nif:anchorOf "vernietigingskampen" ;
+    nif:endIndex "209" ;
+    nif:lemma "vernietiging_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w32w33w34w35> nif:anchorOf "Het monument uit 2015" ;
+    nif:beginIndex "212" ;
+    nif:endIndex "233" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w33" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w35> nif:anchorOf "2015" ;
+    nif:beginIndex "229" ;
+    nif:endIndex "233" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w36> nif:BeginIndex "234" ;
+    nif:anchorOf "bestaat" ;
+    nif:endIndex "241" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w4> nif:BeginIndex "19" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "21" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w41w42> nif:anchorOf "van waaruit" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "292" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w43w44w45> nif:anchorOf "het hele jaar" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "306" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w43w44w45w46w47w48w49w50w51w52w53w54> nif:anchorOf "het hele jaar de namen en leeftijden van de gedeporteerden te horen" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "360" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w45> nif:anchorOf "jaar" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "306" ;
+    nif:lemma "jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w46w47w48w49w50w51w52> nif:anchorOf "de namen en leeftijden van de gedeporteerden" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "351" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w54> nif:BeginIndex "355" ;
+    nif:anchorOf "horen" ;
+    nif:endIndex "360" ;
+    nif:lemma "horen" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w55> nif:BeginIndex "361" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "365" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w57w58> nif:anchorOf "De namen" ;
+    nif:beginIndex "367" ;
+    nif:endIndex "375" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w59> nif:BeginIndex "376" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "380" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w67> nif:anchorOf "NOS" ;
+    nif:beginIndex "436" ;
+    nif:endIndex "439" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w69> nif:anchorOf "Telkens" ;
+    nif:beginIndex "441" ;
+    nif:endIndex "448" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w69" ;
+    nif:lemma "telkens" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w71w72w73w74w75w76> nif:anchorOf "vanaf de datum van een transport" ;
+    nif:beginIndex "456" ;
+    nif:endIndex "488" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w71" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w77w78w79w80w81w82> nif:anchorOf "de namen van de bijbehorende transportlijst" ;
+    nif:beginIndex "489" ;
+    nif:endIndex "532" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w78" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w83> nif:BeginIndex "533" ;
+    nif:anchorOf "voorgelezen" ;
+    nif:endIndex "544" ;
+    nif:lemma "voor_lezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w85w86w87w88w89w90w91w92w93w94w95w96w97> nif:anchorOf "net zo lang tot de datum van weer een transport aanbreekt en zo" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "609" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w88w89w90w91w92> nif:anchorOf "tot de datum van weer" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "579" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w93w94> nif:anchorOf "een transport" ;
+    nif:beginIndex "580" ;
+    nif:endIndex "593" ;
+    nif:head "bgnProc:347__De_gesproken_namen.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w95> nif:BeginIndex "594" ;
+    nif:anchorOf "aanbreekt" ;
+    nif:endIndex "603" ;
+    nif:lemma "aan_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w98> nif:BeginIndex "610" ;
+    nif:anchorOf "gaat" ;
+    nif:endIndex "614" ;
+    nif:lemma "door_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_101t_102t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w102w103w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_105t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w106w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_109t_110t_111t_112t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w110w111w112w113w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_120> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w121> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_131t_132t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w132w133w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_139t_140t_141t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w140w141w142w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_155t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w156w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_163t_164t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w164w165w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_176t_177t_178t_179t_180t_181t_182t_183t_184t_185t_186t_187t_188t_189t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w177w178w179w180w181w182w183w184w185w186w187w188w189w190w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_181t_182t_183t_184t_185t_186t_187t_188t_189t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w182w183w184w185w186w187w188w189w190w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_189t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w190w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_194t_195> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w195w196> ;
+    xs:gYearMonth "2015-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_197t_198t_199> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w198w199w200> ;
+    xs:period "P5Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_200t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w201w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_202t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w203w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_212> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w213> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_215t_216> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w216w217> ;
+    xs:period "P5D" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_22> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_31t_32t_33t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w32w33w34w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_40t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w41w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_42t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w43w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_42t_43t_44t_45t_46t_47t_48t_49t_50t_51t_52t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w43w44w45w46w47w48w49w50w51w52w53w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_44> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w45> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_56t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w57w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_70t_71t_72t_73t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w71w72w73w74w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_76t_77t_78t_79t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w77w78w79w80w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_84t_85t_86t_87t_88t_89t_90t_91t_92t_93t_94t_95t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w85w86w87w88w89w90w91w92w93w94w95w96w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_87t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w88w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_92t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w93w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#t_45t_46t_47t_48t_49t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w46w47w48w49w50w51w52> .
+
+bgn:Person-347 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w153w154>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w172>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w225>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w231w232>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/347__De_gesproken_namen.naf#w67> .
+

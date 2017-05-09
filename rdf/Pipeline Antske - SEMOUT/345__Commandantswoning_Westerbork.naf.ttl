@@ -1,0 +1,826 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_123t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_133t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_136t_137t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_143t_144t_145t_146t_147t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_152t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_175t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_180t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_193t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_207t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_212t_213t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_213t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_234t_235t_236t_237t_238t_239t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_237t_238t_239t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_268>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_272t_273>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_42t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_45t_46t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_97t_98>,
+        bgn:Person-345 ;
+    ore:proxyFor bgn:Person-345 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w108> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w137> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w143> nif:lemma "wat" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w145> nif:lemma "huis" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w153> nif:lemma "omdat" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w155> nif:lemma "gebouw" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w173> nif:lemma "kolonel_dochter" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w174> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w177> nif:lemma "pand" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w182> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w195> nif:lemma "beheer" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w209> nif:lemma "miljoen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w213> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w215> nif:lemma "pand" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w218> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w234> nif:lemma "villa" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w238> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w273> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w45> nif:lemma "woning" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w46> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w70> nif:lemma "kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w99> nif:lemma "gebouw" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-345__Commandantswoning_Westerbork#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-345__Commandantswoning_Westerbork .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-345 ;
+    bgn:aggregatedPerson bgn:Person-345 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-345__Commandantswoning_Westerbork ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-345__Commandantswoning_Westerbork ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w115> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_127>,
+        bgn:Person-345 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_111> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_113> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w129> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_122> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_123t_124t_125> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_127> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_123t_124t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w14> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_133t_134> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w134w135> ;
+    xs:period "P58Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w136> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_136t_137t_138t_139t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_146> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w147> ;
+    xs:gYear "1971" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w152> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_143t_144t_145t_146t_147t_148t_149> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_152t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w167> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w171> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_171t_172> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_175t_176> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_173t_174> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w179> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_180t_181t_182> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w183> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w193> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_184t_185t_186t_187t_188t_189t_190> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_193t_194> ;
+    pb:Arg2 bgn:Person-345 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_196> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w212> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_207t_208t_209> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_212t_213t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_205> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_216> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w217> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_213t_214> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w232> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_232t_233> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_234t_235t_236t_237t_238t_239t_240t_241> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_230> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w237> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_237t_238t_239t_240t_241> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_248> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w249> ;
+    pb:ArgM-LOC bgn:Person-345 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_247> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_268> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w269> ;
+    pb:A0 bgn:Person-345 .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_274> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w275> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_272t_273> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w4> ;
+    pb:Arg2 bgn:Person-345 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_15> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w33> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w50> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_42t_43t_44> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_45t_46t_47> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w51> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_62> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w63> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w64> ;
+    pb:ArgM-CAU bgn:Person-345 .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w71> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_68t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w88> ;
+    pb:Arg1 bgn:Person-345 ;
+    pb:ArgM-ADV bgn:Person-345 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w97> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_97t_98> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w104w105w106> nif:anchorOf "Albert Konrad Gemmeker" ;
+    nif:beginIndex "684" ;
+    nif:endIndex "706" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w108w109w110> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "709" ;
+    nif:endIndex "721" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w108" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w112> nif:anchorOf "het" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "730" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w112" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w114> nif:anchorOf "1949" ;
+    nif:beginIndex "737" ;
+    nif:endIndex "741" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w115> nif:BeginIndex "742" ;
+    nif:anchorOf "bewoond" ;
+    nif:endIndex "749" ;
+    nif:lemma "bewonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w118w119w120w121> nif:anchorOf "Van der Speck Obreen" ;
+    nif:beginIndex "763" ;
+    nif:endIndex "783" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w123> nif:anchorOf "die" ;
+    nif:beginIndex "785" ;
+    nif:endIndex "788" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w123" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w124w125w126> nif:anchorOf "eind jaren 40" ;
+    nif:beginIndex "789" ;
+    nif:endIndex "802" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w128> nif:anchorOf "Nederlands-Indië" ;
+    nif:beginIndex "807" ;
+    nif:endIndex "823" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w129> nif:BeginIndex "824" ;
+    nif:anchorOf "repatrieerde" ;
+    nif:endIndex "836" ;
+    nif:lemma "repatriëren" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w134w135> nif:anchorOf "58 jaar" ;
+    nif:beginIndex "852" ;
+    nif:endIndex "859" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w136> nif:BeginIndex "860" ;
+    nif:anchorOf "bewoond" ;
+    nif:endIndex "867" ;
+    nif:lemma "bewoond" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w137w138w139w140w141> nif:anchorOf "door leden van deze familie" ;
+    nif:beginIndex "868" ;
+    nif:endIndex "895" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w14> nif:anchorOf "1942" ;
+    nif:beginIndex "115" ;
+    nif:endIndex "119" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w143w144w145w146w147w148w149w150w151w152w153w154w155w156w157w158w159w160w161w162w163w164w165w166w167> nif:anchorOf "wat het huis in 1971 van de slopershamer heeft gered omdat alle gebouwen binnen een straal van twee kilometer van de radiotelescoop moesten worden afgebroken" ;
+    nif:beginIndex "897" ;
+    nif:endIndex "1054" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w144w145w146w147w148w149w150> nif:anchorOf "het huis in 1971 van de slopershamer" ;
+    nif:beginIndex "901" ;
+    nif:endIndex "937" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w147> nif:anchorOf "1971" ;
+    nif:beginIndex "913" ;
+    nif:endIndex "917" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w152> nif:BeginIndex "944" ;
+    nif:anchorOf "gered" ;
+    nif:endIndex "949" ;
+    nif:lemma "redden" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w153w154w155w156w157w158w159w160w161w162w163w164w165w166w167> nif:anchorOf "omdat alle gebouwen binnen een straal van twee kilometer van de radiotelescoop moesten worden afgebroken" ;
+    nif:beginIndex "950" ;
+    nif:endIndex "1054" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w154w155w156w157w158w159w160w161w162w163w164> nif:anchorOf "alle gebouwen binnen een straal van twee kilometer van de radiotelescoop" ;
+    nif:beginIndex "956" ;
+    nif:endIndex "1028" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w155" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w16> nif:anchorOf "1945" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "128" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w167> nif:BeginIndex "1044" ;
+    nif:anchorOf "afgebroken" ;
+    nif:endIndex "1054" ;
+    nif:lemma "af_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w170> nif:anchorOf "2007" ;
+    nif:beginIndex "1059" ;
+    nif:endIndex "1063" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w171> nif:BeginIndex "1064" ;
+    nif:anchorOf "verliet" ;
+    nif:endIndex "1071" ;
+    nif:lemma "verlaten" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w172w173> nif:anchorOf "de kolonelsdochter" ;
+    nif:beginIndex "1072" ;
+    nif:endIndex "1090" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w174w175> nif:anchorOf "als laatste" ;
+    nif:beginIndex "1091" ;
+    nif:endIndex "1102" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w174" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w176w177> nif:anchorOf "het pand" ;
+    nif:beginIndex "1103" ;
+    nif:endIndex "1111" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w177" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w179> nif:BeginIndex "1115" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1119" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w181w182w183> nif:anchorOf "leeg te staan" ;
+    nif:beginIndex "1124" ;
+    nif:endIndex "1137" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w183> nif:BeginIndex "1132" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "1137" ;
+    nif:lemma "leeg_staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w193> nif:BeginIndex "1182" ;
+    nif:anchorOf "droeg" ;
+    nif:endIndex "1187" ;
+    nif:lemma "over_dragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w194w195> nif:anchorOf "het beheer" ;
+    nif:beginIndex "1188" ;
+    nif:endIndex "1198" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w195" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w197> nif:anchorOf "2010" ;
+    nif:beginIndex "1202" ;
+    nif:endIndex "1206" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w201w202w203> nif:anchorOf "Herinneringscentrum Kamp Westerbork" ;
+    nif:beginIndex "1220" ;
+    nif:endIndex "1255" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w206> nif:anchorOf "2011" ;
+    nif:beginIndex "1261" ;
+    nif:endIndex "1265" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w208w209w210> nif:anchorOf "16 miljoen euro" ;
+    nif:beginIndex "1271" ;
+    nif:endIndex "1287" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w209" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w212> nif:BeginIndex "1300" ;
+    nif:anchorOf "gesteld" ;
+    nif:endIndex "1307" ;
+    nif:lemma "stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w213w214w215w216w217w218w219w220w221w222w223w224w225w226w227w228w229> nif:anchorOf "om het pand te conserveren door middel van de plaatsing van een glazen koepel over het pand" ;
+    nif:beginIndex "1308" ;
+    nif:endIndex "1399" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w213" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w214w215> nif:anchorOf "het pand" ;
+    nif:beginIndex "1311" ;
+    nif:endIndex "1319" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w217> nif:BeginIndex "1323" ;
+    nif:anchorOf "conserveren" ;
+    nif:endIndex "1334" ;
+    nif:lemma "conserveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w218w219w220w221w222w223w224w225w226w227w228w229> nif:anchorOf "door middel van de plaatsing van een glazen koepel over het pand" ;
+    nif:beginIndex "1335" ;
+    nif:endIndex "1399" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w218" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w23> nif:BeginIndex "165" ;
+    nif:anchorOf "doorgangskamp" ;
+    nif:endIndex "178" ;
+    nif:lemma "doorgang_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w231> nif:anchorOf "Daartoe" ;
+    nif:beginIndex "1401" ;
+    nif:endIndex "1408" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w231" ;
+    nif:lemma "daartoe" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w232> nif:BeginIndex "1409" ;
+    nif:anchorOf "onderging" ;
+    nif:endIndex "1418" ;
+    nif:lemma "ondergaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w233w234> nif:anchorOf "de villa" ;
+    nif:beginIndex "1419" ;
+    nif:endIndex "1427" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w234" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w235w236w237w238w239w240w241w242> nif:anchorOf "een bouwbiografisch onderzoek naar sporen van de bewoners" ;
+    nif:beginIndex "1428" ;
+    nif:endIndex "1485" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w237" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w237> nif:BeginIndex "1448" ;
+    nif:anchorOf "onderzoek" ;
+    nif:endIndex "1457" ;
+    nif:lemma "onderzoek" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w238w239w240w241w242> nif:anchorOf "naar sporen van de bewoners" ;
+    nif:beginIndex "1458" ;
+    nif:endIndex "1485" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w238" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w24> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "179" ;
+    nif:endIndex "189" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w248> nif:anchorOf "archeologisch" ;
+    nif:beginIndex "1506" ;
+    nif:endIndex "1519" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w248" ;
+    nif:lemma "archeologisch" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w249> nif:BeginIndex "1520" ;
+    nif:anchorOf "onderzocht" ;
+    nif:endIndex "1530" ;
+    nif:lemma "onderzocht" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w258> nif:anchorOf "Joodse" ;
+    nif:beginIndex "1578" ;
+    nif:endIndex "1584" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w260> nif:anchorOf "Fuchs" ;
+    nif:beginIndex "1593" ;
+    nif:endIndex "1598" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w267> nif:anchorOf "Fuchs" ;
+    nif:beginIndex "1638" ;
+    nif:endIndex "1643" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w269> nif:BeginIndex "1651" ;
+    nif:anchorOf "teruggevonden" ;
+    nif:endIndex "1664" ;
+    nif:lemma "terug_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w27> nif:BeginIndex "195" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "197" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w273w274> nif:anchorOf "door hem" ;
+    nif:beginIndex "1680" ;
+    nif:endIndex "1688" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w273" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w275> nif:BeginIndex "1689" ;
+    nif:anchorOf "aangelegd" ;
+    nif:endIndex "1698" ;
+    nif:lemma "aangelegd" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w3> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w32> nif:anchorOf "nog" ;
+    nif:beginIndex "217" ;
+    nif:endIndex "220" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w32" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w33> nif:BeginIndex "221" ;
+    nif:anchorOf "bestaande" ;
+    nif:endIndex "230" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w4> nif:BeginIndex "32" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "34" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w43w44w45> nif:anchorOf "de houten woning" ;
+    nif:beginIndex "278" ;
+    nif:endIndex "294" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w46w47w48> nif:anchorOf "tegen verder verval" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "314" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w46" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w50> nif:BeginIndex "318" ;
+    nif:anchorOf "beschermen" ;
+    nif:endIndex "328" ;
+    nif:lemma "beschermen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w51> nif:BeginIndex "329" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "331" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w52> nif:anchorOf "deze" ;
+    nif:beginIndex "332" ;
+    nif:endIndex "336" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w52" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w57> nif:BeginIndex "365" ;
+    nif:anchorOf "kasconstructie" ;
+    nif:endIndex "379" ;
+    nif:lemma "kas_constructie" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w63> nif:anchorOf "1939" ;
+    nif:beginIndex "400" ;
+    nif:endIndex "404" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w64> nif:BeginIndex "405" ;
+    nif:anchorOf "gebouwd" ;
+    nif:endIndex "412" ;
+    nif:lemma "gebouwd" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w67> nif:anchorOf "Rijksgebouwendienst" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w69w70> nif:anchorOf "het kamp" ;
+    nif:beginIndex "446" ;
+    nif:endIndex "454" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w71> nif:BeginIndex "455" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "460" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w73w74w75> nif:anchorOf "Centraal Vluchtelingenkamp Westerbork" ;
+    nif:beginIndex "465" ;
+    nif:endIndex "502" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w78> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "508" ;
+    nif:endIndex "519" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w81> nif:anchorOf "Joodse" ;
+    nif:beginIndex "532" ;
+    nif:endIndex "538" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w84> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "557" ;
+    nif:endIndex "566" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w87> nif:anchorOf "1942" ;
+    nif:beginIndex "571" ;
+    nif:endIndex "575" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w88> nif:BeginIndex "576" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "580" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w89> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "591" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w92> nif:anchorOf "Duitse" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "607" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w95> nif:BeginIndex "622" ;
+    nif:anchorOf "doorgangskamp" ;
+    nif:endIndex "635" ;
+    nif:lemma "doorgang_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w97> nif:BeginIndex "639" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "643" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w98w99> nif:anchorOf "het gebouw" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "654" ;
+    nif:head "bgnProc:345__Commandantswoning_Westerbork.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w9w10w11> nif:anchorOf "Centraal Vluchtelingenkamp Westerbork" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "107" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_107t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w108w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_113> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w114> ;
+    xs:gYear "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_136t_137t_138t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w137w138w139w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151t_152t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w143w144w145w146w147w148w149w150w151w152w153w154w155w156w157w158w159w160w161w162w163w164w165w166w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_143t_144t_145t_146t_147t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w144w145w146w147w148w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w16> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_152t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w153w154w155w156w157w158w159w160w161w162w163w164w165w166w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_153t_154t_155t_156t_157t_158t_159t_160t_161t_162t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w154w155w156w157w158w159w160w161w162w163w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_173t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w174w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_175t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w176w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_180t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w181w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_193t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w194w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_196> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w197> ;
+    xs:gYear "2010" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_205> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w206> ;
+    xs:gYear "2011" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_207t_208t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w208w209w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_212t_213t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w213w214w215w216w217w218w219w220w221w222w223w224w225w226w227w228w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_213t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w214w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w218w219w220w221w222w223w224w225w226w227w228w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_230> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w231> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_232t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w233w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_234t_235t_236t_237t_238t_239t_240t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w235w236w237w238w239w240w241w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_237t_238t_239t_240t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w238w239w240w241w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_272t_273> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w273w274> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_42t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w43w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_45t_46t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w46w47w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w98w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_123t_124t_125> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w124w125w126> ;
+    xs:date "194" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w170> ;
+    xs:gYear "2007" .
+
+<http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w87> ;
+    xs:gYear "1942" .
+
+bgn:Person-345 a bgn:LOC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w104w105w106>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w118w119w120w121>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w128>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w201w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w258>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w260>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w267>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w73w74w75>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w89>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w92>,
+        <http://data.biographynet.nl/rdf/170506221754/345__Commandantswoning_Westerbork.naf#w9w10w11> .
+

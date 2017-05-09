@@ -1,0 +1,1064 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_177t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_199t_200t_201t_202t_203t_204t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_268>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_290>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_302t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_305t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_316t_317t_318>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_319>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_326>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_329>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_335>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_339>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_344>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_349>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_361>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_364>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_365>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_382>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_385>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_397>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_401>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_417>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_445>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_460>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_471>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_475>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_486>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_57t_58t_59t_60t_61t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_73t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_96>,
+        bgn:Person-2210 ;
+    ore:proxyFor bgn:Person-2210 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w178> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w200> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w317> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w58> nif:lemma "gelegenheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w68> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w70> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w74> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2210__Willem_Banning#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2210__Willem_Banning .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2210 ;
+    bgn:aggregatedPerson bgn:Person-2210 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2210__Willem_Banning ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2210__Willem_Banning ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w112> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_108t_109t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w12w13w14> ;
+    xs:date "1971-01-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_133> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w134> ;
+    xs:gYear "1945",
+        "1953" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w165> ;
+    pb:A0 bgn:Person-2210 ;
+    pb:A1 bgn:Person-2210 .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w181> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_177t_178t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w194> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_192> ;
+    pb:A1 bgn:Person-2210 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_199t_200t_201t_202t_203t_204t_205t_206> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w210> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_210> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_246> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w247> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_248> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w249> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_249> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_251> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_255> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w256> ;
+    pb:Arg1 bgn:Person-2210 ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_266> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_269> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w270> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_268> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_276> ;
+    pb:ArgM-LOC bgn:Person-2210 .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_279> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w280> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_280> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_290> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w291> ;
+    xs:gYear "1931",
+        "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_302t_303> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w303w304> ;
+    xs:gYearMonth "1942-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_305t_306> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w306w307> ;
+    xs:gYearMonth "1943-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_308> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w309> ;
+    pb:ArgM-TMP bgn:Person-2210 .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_319> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w320> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_316t_317t_318> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_329> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w330> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_326> ;
+    pb:A1 bgn:Person-2210 .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_335> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w336> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_339> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w340> ;
+    pb:Arg1 bgn:Person-2210 ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_344> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_349> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w350> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_361> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w362> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_365> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w366> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_364> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_382> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w383> ;
+    xs:gYear "1998" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_385> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w386> ;
+    xs:gYear "2673" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_397> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w398> ;
+    xs:gYear "1960" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_401> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w402> ;
+    xs:gYear "1977" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_417> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w418> ;
+    xs:gYear "1953",
+        "1962" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_445> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w446> ;
+    xs:gYear "1947" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_460> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w461> ;
+    xs:gYear "1988" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_471> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w472> ;
+    xs:gYear "1888",
+        "1971" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_475> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w476> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_486> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w487> ;
+    xs:gYear "1988" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w51> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w56> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_49> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_57t_58t_59t_60t_61t_62> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w6w7w8> ;
+    xs:date "1888-02-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w63> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w66> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_69t_70t_71>,
+        bgn:Person-2210 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w77> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_73t_74t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_83> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w84> ;
+    xs:gYear "1946",
+        "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w96> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w10> nif:anchorOf "Driebergen" ;
+    nif:beginIndex "43" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w106> nif:anchorOf "Nederland" ;
+    nif:beginIndex "654" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w109w110w111> nif:anchorOf "eind jaren 20" ;
+    nif:beginIndex "672" ;
+    nif:endIndex "685" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w112> nif:BeginIndex "686" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "690" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w121> nif:anchorOf "Nederland" ;
+    nif:beginIndex "750" ;
+    nif:endIndex "759" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w124> nif:BeginIndex "765" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "768" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w128w129w130> nif:anchorOf "Arbeidersgemeenschap der Woodbrookers" ;
+    nif:beginIndex "787" ;
+    nif:endIndex "824" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w12w13w14> nif:anchorOf "7 januari 1971" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w134> nif:anchorOf "1945-1953" ;
+    nif:beginIndex "839" ;
+    nif:endIndex "848" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w137> nif:anchorOf "Kerk" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "858" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w139> nif:anchorOf "Wereld" ;
+    nif:beginIndex "862" ;
+    nif:endIndex "868" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w141> nif:anchorOf "Driebergen" ;
+    nif:beginIndex "872" ;
+    nif:endIndex "882" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w144> nif:BeginIndex "888" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "891" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w149> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "929" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w150> nif:anchorOf "Hervormde" ;
+    nif:beginIndex "930" ;
+    nif:endIndex "939" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w154> nif:BeginIndex "949" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "951" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w159w160w161> nif:anchorOf "Hogeschool De Horst" ;
+    nif:beginIndex "975" ;
+    nif:endIndex "994" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w16> nif:BeginIndex "71" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "74" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w164> nif:anchorOf "Woodbrookers" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1011" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w165> nif:BeginIndex "1012" ;
+    nif:anchorOf "gaven" ;
+    nif:endIndex "1017" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w168> nif:anchorOf "Tijd" ;
+    nif:beginIndex "1027" ;
+    nif:endIndex "1031" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w174> nif:anchorOf "Banning" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1060" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w176> nif:BeginIndex "1076" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1079" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w178w179w180> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "1081" ;
+    nif:endIndex "1093" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w178" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w18> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "79" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w181> nif:BeginIndex "1094" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1097" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w189> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "1141" ;
+    nif:endIndex "1151" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w190> nif:anchorOf "Hervormde" ;
+    nif:beginIndex "1152" ;
+    nif:endIndex "1161" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w193> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1168" ;
+    nif:endIndex "1171" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w193" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w194> nif:BeginIndex "1172" ;
+    nif:anchorOf "richtte" ;
+    nif:endIndex "1179" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w197> nif:anchorOf "Wending" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1196" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w1w2> nif:anchorOf "Banning" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w200w201w202w203w204w205w206w207> nif:anchorOf "met als ondertitel maandblad voor evangelie en cultuur" ;
+    nif:beginIndex "1201" ;
+    nif:endIndex "1255" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w200" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w210> nif:BeginIndex "1261" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1264" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w211> nif:anchorOf "ook" ;
+    nif:beginIndex "1265" ;
+    nif:endIndex "1268" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w211" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w222w223> nif:anchorOf "Karl Marx" ;
+    nif:beginIndex "1330" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w226> nif:anchorOf "Europa" ;
+    nif:beginIndex "1346" ;
+    nif:endIndex "1352" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w247> nif:anchorOf "1938" ;
+    nif:beginIndex "1475" ;
+    nif:endIndex "1479" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w249> nif:BeginIndex "1481" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1484" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w250> nif:anchorOf "decennialang" ;
+    nif:beginIndex "1485" ;
+    nif:endIndex "1497" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w250" ;
+    nif:lemma "decennium_lang" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w252> nif:BeginIndex "1502" ;
+    nif:anchorOf "standaardwerk" ;
+    nif:endIndex "1515" ;
+    nif:lemma "standaard_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w256> nif:BeginIndex "1524" ;
+    nif:anchorOf "ledenvergadering" ;
+    nif:endIndex "1540" ;
+    nif:lemma "lid_vergadering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w259> nif:anchorOf "VVP" ;
+    nif:beginIndex "1548" ;
+    nif:endIndex "1551" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w261w262w263w264> nif:anchorOf "Vereniging van Vrijzinnige Protestanten" ;
+    nif:beginIndex "1553" ;
+    nif:endIndex "1592" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w267> nif:anchorOf "2013" ;
+    nif:beginIndex "1597" ;
+    nif:endIndex "1601" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w269> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1607" ;
+    nif:endIndex "1610" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w269" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w27> nif:BeginIndex "152" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "155" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w270> nif:BeginIndex "1611" ;
+    nif:anchorOf "verkozen" ;
+    nif:endIndex "1619" ;
+    nif:lemma "verkiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w277> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1666" ;
+    nif:endIndex "1675" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w279> nif:anchorOf "Banning" ;
+    nif:beginIndex "1678" ;
+    nif:endIndex "1685" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w280> nif:BeginIndex "1686" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1689" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w281> nif:anchorOf "ook" ;
+    nif:beginIndex "1690" ;
+    nif:endIndex "1693" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w281" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w289> nif:anchorOf "SDAP" ;
+    nif:beginIndex "1757" ;
+    nif:endIndex "1761" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w291> nif:anchorOf "1931-1938" ;
+    nif:beginIndex "1763" ;
+    nif:endIndex "1772" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w300> nif:anchorOf "Sint-Michielsgestel" ;
+    nif:beginIndex "1812" ;
+    nif:endIndex "1831" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w303w304> nif:anchorOf "mei 1942" ;
+    nif:beginIndex "1837" ;
+    nif:endIndex "1845" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w306w307> nif:anchorOf "december 1943" ;
+    nif:beginIndex "1850" ;
+    nif:endIndex "1863" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w309> nif:BeginIndex "1865" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1868" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w314w315> nif:anchorOf "Heeren Zeventien" ;
+    nif:beginIndex "1884" ;
+    nif:endIndex "1900" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w317w318w319> nif:anchorOf "Na de bevrijding" ;
+    nif:beginIndex "1902" ;
+    nif:endIndex "1918" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w317" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w320> nif:BeginIndex "1919" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1923" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w325w326> nif:anchorOf "Nederlandse Volksbeweging" ;
+    nif:beginIndex "1941" ;
+    nif:endIndex "1966" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w327> nif:anchorOf "die" ;
+    nif:beginIndex "1967" ;
+    nif:endIndex "1970" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w327" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w330> nif:BeginIndex "1981" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "1984" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w333> nif:anchorOf "Doorbraak" ;
+    nif:beginIndex "1992" ;
+    nif:endIndex "2001" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w336> nif:BeginIndex "2007" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "2010" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w340> nif:BeginIndex "2030" ;
+    nif:anchorOf "oprichtingscongres" ;
+    nif:endIndex "2048" ;
+    nif:lemma "oprichting_congres" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w343> nif:anchorOf "PvdA" ;
+    nif:beginIndex "2056" ;
+    nif:endIndex "2060" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w345> nif:anchorOf "1946" ;
+    nif:beginIndex "2064" ;
+    nif:endIndex "2068" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w35> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "211" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w350> nif:BeginIndex "2084" ;
+    nif:anchorOf "hoofdbestuur" ;
+    nif:endIndex "2096" ;
+    nif:lemma "hoofd_bestuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w36> nif:anchorOf "Hervormde" ;
+    nif:beginIndex "212" ;
+    nif:endIndex "221" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w362> nif:anchorOf "1938" ;
+    nif:beginIndex "2168" ;
+    nif:endIndex "2172" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w365> nif:anchorOf "geheel" ;
+    nif:beginIndex "2178" ;
+    nif:endIndex "2184" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w365" ;
+    nif:lemma "geheel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w366> nif:BeginIndex "2185" ;
+    nif:anchorOf "herziene" ;
+    nif:endIndex "2193" ;
+    nif:lemma "herzien" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w369> nif:anchorOf "H.E.S" ;
+    nif:beginIndex "2204" ;
+    nif:endIndex "2209" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w371> nif:anchorOf "Woldringh" ;
+    nif:beginIndex "2211" ;
+    nif:endIndex "2220" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w378> nif:anchorOf "Bohn" ;
+    nif:beginIndex "2238" ;
+    nif:endIndex "2242" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w380w381> nif:anchorOf "Van Loghum" ;
+    nif:beginIndex "2251" ;
+    nif:endIndex "2261" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w383> nif:anchorOf "1998" ;
+    nif:beginIndex "2263" ;
+    nif:endIndex "2267" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w386> nif:anchorOf "90-313-2673-9" ;
+    nif:beginIndex "2274" ;
+    nif:endIndex "2287" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w387w388> nif:anchorOf "Karl Marx" ;
+    nif:beginIndex "2289" ;
+    nif:endIndex "2298" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w398> nif:anchorOf "1960" ;
+    nif:beginIndex "2334" ;
+    nif:endIndex "2338" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w4> nif:anchorOf "Makkum" ;
+    nif:beginIndex "16" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w402> nif:anchorOf "1977" ;
+    nif:beginIndex "2349" ;
+    nif:endIndex "2353" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w404> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "2355" ;
+    nif:endIndex "2362" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w406w407> nif:anchorOf "Het Spectrum" ;
+    nif:beginIndex "2365" ;
+    nif:endIndex "2377" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w409> nif:anchorOf "ISBN" ;
+    nif:beginIndex "2379" ;
+    nif:endIndex "2383" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w418> nif:anchorOf "1953-1962" ;
+    nif:beginIndex "2439" ;
+    nif:endIndex "2448" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w42> nif:anchorOf "PvdA" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "255" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w424w425> nif:anchorOf "Boekencentrum Kompas" ;
+    nif:beginIndex "2467" ;
+    nif:endIndex "2488" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w431> nif:BeginIndex "2514" ;
+    nif:anchorOf "Beginselprogramma" ;
+    nif:beginIndex "2514" ;
+    nif:endIndex "2531" ;
+    nif:lemma "beginsel_programma" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w434w435w436w437> nif:anchorOf "Partij van de Arbeid" ;
+    nif:beginIndex "2539" ;
+    nif:endIndex "2559" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w439w440w441> nif:anchorOf "Amsterdam: Partij" ;
+    nif:beginIndex "2561" ;
+    nif:endIndex "2579" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w44> nif:anchorOf "Banning" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "265" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w444> nif:anchorOf "Arbeid" ;
+    nif:beginIndex "2587" ;
+    nif:endIndex "2593" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w446> nif:anchorOf "1947" ;
+    nif:beginIndex "2595" ;
+    nif:endIndex "2599" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w447w448> nif:anchorOf "Bomhoff-van Rijn" ;
+    nif:beginIndex "2601" ;
+    nif:endIndex "2617" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w45> nif:BeginIndex "266" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "269" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w450> nif:anchorOf "M.L" ;
+    nif:beginIndex "2619" ;
+    nif:endIndex "2622" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w452> nif:anchorOf "Banning" ;
+    nif:beginIndex "2624" ;
+    nif:endIndex "2631" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w456> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "2644" ;
+    nif:endIndex "2651" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w458w459> nif:anchorOf "De Ploeg" ;
+    nif:beginIndex "2654" ;
+    nif:endIndex "2662" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w461> nif:anchorOf "1988" ;
+    nif:beginIndex "2664" ;
+    nif:endIndex "2668" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w463w464w465> nif:anchorOf "ISBN 90-6584-051-6 Wirdum-Banning" ;
+    nif:beginIndex "2670" ;
+    nif:endIndex "2704" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w467w468w469w470> nif:anchorOf "H. van Willem Banning" ;
+    nif:beginIndex "2706" ;
+    nif:endIndex "2727" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w472> nif:anchorOf "1888-1971" ;
+    nif:beginIndex "2729" ;
+    nif:endIndex "2738" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w476> nif:BeginIndex "2750" ;
+    nif:anchorOf "werken" ;
+    nif:endIndex "2756" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w48> nif:anchorOf "Friesland" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "293" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w482> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "2786" ;
+    nif:endIndex "2796" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w484w485> nif:anchorOf "De Horstink" ;
+    nif:beginIndex "2799" ;
+    nif:endIndex "2810" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w487> nif:anchorOf "1988" ;
+    nif:beginIndex "2812" ;
+    nif:endIndex "2816" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w489> nif:anchorOf "ISBN" ;
+    nif:beginIndex "2818" ;
+    nif:endIndex "2822" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w50> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "298" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w50" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w51> nif:BeginIndex "299" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "302" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w52> nif:anchorOf "aanvankelijk" ;
+    nif:beginIndex "303" ;
+    nif:endIndex "315" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w52" ;
+    nif:lemma "aanvankelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w56> nif:BeginIndex "334" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "339" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w57> nif:anchorOf "later" ;
+    nif:beginIndex "340" ;
+    nif:endIndex "345" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w57" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w58w59w60w61w62w63> nif:anchorOf "gelegenheid om theologie te gaan studeren" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "387" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w60> nif:anchorOf "theologie" ;
+    nif:beginIndex "361" ;
+    nif:endIndex "370" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w60" ;
+    nif:lemma "theologie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w63> nif:BeginIndex "379" ;
+    nif:anchorOf "studeren" ;
+    nif:endIndex "387" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w65> nif:anchorOf "Willem" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "395" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w66> nif:BeginIndex "396" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "400" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w67> nif:anchorOf "toen" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "405" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w67" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w68w69> nif:anchorOf "in aanraking" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "418" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w6w7w8> nif:anchorOf "21 februari 1888" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w70w71w72> nif:anchorOf "met het marxisme" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "435" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w74w75w76> nif:anchorOf "Na zijn studie" ;
+    nif:beginIndex "437" ;
+    nif:endIndex "451" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w77> nif:BeginIndex "452" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "456" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w84> nif:anchorOf "1946-1958" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "510" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w93> nif:anchorOf "Leiden" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "581" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w96> nif:BeginIndex "587" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "590" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w97> nif:anchorOf "daarmee" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "598" ;
+    nif:head "bgnProc:2210__Willem_Banning.naf#w97" ;
+    nif:lemma "daarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_108t_109t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w109w110w111> ;
+    xs:date "192" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_177t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w178w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_199t_200t_201t_202t_203t_204t_205t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w200w201w202w203w204w205w206w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_249> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_266> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w267> ;
+    xs:gYear "2013" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_268> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w269> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_280> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_316t_317t_318> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w317w318w319> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_326> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w327> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_344> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w345> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_364> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w365> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_57t_58t_59t_60t_61t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w58w59w60w61w62w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w70w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_73t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w74w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w97> .
+
+bgn:Person-2210 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w121>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w128w129w130>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w139>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w150>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w159w160w161>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w226>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w259>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w261w262w263w264>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w277>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w279>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w289>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w300>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w314w315>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w325w326>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w333>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w343>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w369>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w371>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w378>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w380w381>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w387w388>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w404>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w406w407>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w409>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w424w425>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w431>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w434w435w436w437>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w439w440w441>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w444>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w447w448>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w450>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w452>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w456>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w458w459>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w463w464w465>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w467w468w469w470>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w482>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w484w485>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w489>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/2210__Willem_Banning.naf#w93> ;
+    pb:Arg1 bgn:Person-2210 .
+

@@ -1,0 +1,258 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_26t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_78t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_81t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_9>,
+        bgn:Person-1973 ;
+    ore:proxyFor bgn:Person-1973 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w27> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w80> nif:lemma "onderscheiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w82> nif:lemma "door" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1973__Freddie_Oversteegen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1973__Freddie_Oversteegen .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1973 ;
+    bgn:aggregatedPerson bgn:Person-1973 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1973__Freddie_Oversteegen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1973__Freddie_Oversteegen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w30> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_30> ;
+    pb:Arg1 bgn:Person-1973 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_26t_27t_28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_43> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w44> ;
+    pb:Arg1 bgn:Person-1973 ;
+    pb:Arg2 bgn:Person-1973 .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w59> ;
+    pb:A1 bgn:Person-1973 ;
+    pb:AM-CAU bgn:Person-1973 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_63> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_55t_56t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w6w7w8> ;
+    xs:date "1925-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w86> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_81t_82t_83> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_78t_79> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_9> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w10> ;
+    pb:ArgM-TMP bgn:Person-1973 .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w10> nif:BeginIndex "48" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "51" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w13w14> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w16> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "87" ;
+    nif:endIndex "98" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w1w2> nif:anchorOf "Oversteegen" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w20w21w22> nif:anchorOf "Raad van Verzet" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w24> nif:anchorOf "RVV" ;
+    nif:beginIndex "138" ;
+    nif:endIndex "141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w27w28w29> nif:anchorOf "In de oorlogsjaren" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "162" ;
+    nif:head "bgnProc:1973__Freddie_Oversteegen.naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w30> nif:BeginIndex "163" ;
+    nif:anchorOf "verrichtte" ;
+    nif:endIndex "173" ;
+    nif:lemma "verrichten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w31> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "177" ;
+    nif:head "bgnProc:1973__Freddie_Oversteegen.naf#w31" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w37w38> nif:anchorOf "Truus Oversteegen" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w4> nif:anchorOf "Schoten" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w40w41> nif:anchorOf "Hannie Schaft" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "250" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w43> nif:anchorOf "Oversteegen" ;
+    nif:beginIndex "253" ;
+    nif:endIndex "264" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w44> nif:BeginIndex "265" ;
+    nif:anchorOf "zit" ;
+    nif:endIndex "268" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w50w51w52w53> nif:anchorOf "Stichting Nationale Hannie Schaft-Herdenking" ;
+    nif:beginIndex "291" ;
+    nif:endIndex "335" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w56w57w58> nif:anchorOf "15 april 2014" ;
+    nif:beginIndex "341" ;
+    nif:endIndex "354" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w59> nif:BeginIndex "355" ;
+    nif:anchorOf "ontvingen" ;
+    nif:endIndex "364" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w60> nif:anchorOf "Oversteegen" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "376" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w64> nif:anchorOf "allebei" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "396" ;
+    nif:head "bgnProc:1973__Freddie_Oversteegen.naf#w64" ;
+    nif:lemma "allebei" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w66> nif:anchorOf "Mobilisatie-oorlogskruis" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "425" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w6w7w8> nif:anchorOf "6 september 1925" ;
+    nif:beginIndex "30" ;
+    nif:endIndex "46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w71w72> nif:anchorOf "Mark Rutte" ;
+    nif:beginIndex "460" ;
+    nif:endIndex "470" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w79w80> nif:anchorOf "de onderscheiding" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "517" ;
+    nif:head "bgnProc:1973__Freddie_Oversteegen.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w81> nif:anchorOf "gewoonlijk" ;
+    nif:beginIndex "518" ;
+    nif:endIndex "528" ;
+    nif:head "bgnProc:1973__Freddie_Oversteegen.naf#w81" ;
+    nif:lemma "gewoonlijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w82w83w84> nif:anchorOf "door de burgemeester" ;
+    nif:beginIndex "529" ;
+    nif:endIndex "549" ;
+    nif:head "bgnProc:1973__Freddie_Oversteegen.naf#w82" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w86> nif:BeginIndex "556" ;
+    nif:anchorOf "uitgereikt" ;
+    nif:endIndex "566" ;
+    nif:lemma "uit_reiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_26t_27t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w27w28w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_55t_56t_57> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w56w57w58> ;
+    xs:date "2014-04-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_78t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w79w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#t_81t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w82w83w84> .
+
+bgn:Person-1973 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w13w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w20w21w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w50w51w52w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1973__Freddie_Oversteegen.naf#w71w72> .
+

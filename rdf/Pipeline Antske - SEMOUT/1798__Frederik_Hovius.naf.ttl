@@ -1,0 +1,334 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_42t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_73t_74t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_89t_90>,
+        bgn:Person-1798 ;
+    ore:proxyFor bgn:Person-1798 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w43> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w75> nif:lemma "dochter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w91> nif:lemma "straat" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1798__Frederik_Hovius#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1798__Frederik_Hovius .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1798 ;
+    bgn:aggregatedPerson bgn:Person-1798 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1798__Frederik_Hovius ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1798__Frederik_Hovius ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w12w13w14> ;
+    xs:date "1942-10-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w42> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w49> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_47> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_40> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_42t_43t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w52> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_40> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_55> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w6w7w8> ;
+    xs:date "1898-01-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w61> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_57> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w79> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_72> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_73t_74t_75t_76t_77> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w84> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_89t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w10> nif:anchorOf "Neuengamme" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w12w13w14> nif:anchorOf "24 oktober 1942" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w16> nif:BeginIndex "75" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "78" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "83" ;
+    nif:endIndex "94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w1w2> nif:anchorOf "Hovius" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w22w23> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "122" ;
+    nif:endIndex "141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w25w26> nif:anchorOf "Frederik Hovius" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w27> nif:BeginIndex "160" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "163" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w39> nif:anchorOf "Gooi" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "231" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w4> nif:anchorOf "Hilversum" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w41> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "236" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w41" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w42> nif:BeginIndex "237" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "241" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w43w44w45> nif:anchorOf "vanwege zijn verzetsactiviteiten" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "274" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w48> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "283" ;
+    nif:endIndex "291" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w49> nif:BeginIndex "292" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "304" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w51> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "308" ;
+    nif:endIndex "320" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w51" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w52> nif:BeginIndex "321" ;
+    nif:anchorOf "getransporteerd" ;
+    nif:endIndex "336" ;
+    nif:lemma "transporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w55> nif:BeginIndex "346" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "362" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w56> nif:anchorOf "Neuengamme" ;
+    nif:beginIndex "363" ;
+    nif:endIndex "373" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w57> nif:anchorOf "waar" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "378" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w57" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w58> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "382" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w58" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w60> nif:anchorOf "1942" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "390" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w61> nif:BeginIndex "391" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "399" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w63> nif:anchorOf "Hovius" ;
+    nif:beginIndex "402" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w64> nif:BeginIndex "409" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "412" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w67w68w69w70> nif:anchorOf "Neeltje van der Kolk" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "446" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w6w7w8> nif:anchorOf "25 januari 1898" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w73> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "458" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w73" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w74w75w76w77w78> nif:anchorOf "een dochter en twee zoons" ;
+    nif:beginIndex "459" ;
+    nif:endIndex "484" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w75" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w79> nif:BeginIndex "485" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "490" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w82w83> nif:anchorOf "Hilversum Noord" ;
+    nif:beginIndex "495" ;
+    nif:endIndex "510" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w84> nif:BeginIndex "511" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "513" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w90w91> nif:anchorOf "een straat" ;
+    nif:beginIndex "536" ;
+    nif:endIndex "546" ;
+    nif:head "bgnProc:1798__Frederik_Hovius.naf#w91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w95> nif:anchorOf "Hoviusstraat" ;
+    nif:beginIndex "559" ;
+    nif:endIndex "571" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_42t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w43w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_59> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w60> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_73t_74t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w74w75w76w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w41> .
+
+bgn:Person-1798 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w25w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w67w68w69w70>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w82w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1798__Frederik_Hovius.naf#w95> ;
+    stevensFam:isPartnerIn bgn:Person-1798 .
+

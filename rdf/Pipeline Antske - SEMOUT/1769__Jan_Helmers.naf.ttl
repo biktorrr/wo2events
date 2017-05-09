@@ -1,0 +1,668 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_111t_112t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_119t_120t_121t_122t_123t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_164t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_195t_196t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_201t_202t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_47t_48t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_96>,
+        bgn:Person-1769 ;
+    ore:proxyFor bgn:Person-1769 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w120> nif:lemma "alwaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w167> nif:lemma "rest" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w198> nif:lemma "kruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w202> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w48> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w50> nif:lemma "oorlog" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1769__Jan_Helmers#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1769__Jan_Helmers .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1769 ;
+    bgn:aggregatedPerson bgn:Person-1769 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1769__Jan_Helmers ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1769__Jan_Helmers ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w102> ;
+    pb:Arg1 bgn:Person-1769 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_93t_94t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w109> ;
+    pb:Arg1 bgn:Person-1769 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_107>,
+        bgn:Person-1769 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_93t_94t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w119> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_115> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_117> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_111t_112t_113> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_119t_120t_121t_122t_123t_124t_125t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w127> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_120> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_122t_123t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w13w14w15> ;
+    xs:date "1943-06-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_137> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w138> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w17> ;
+    pb:ArgM-TMP bgn:Person-1769 .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w162> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_158> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_160> ;
+    pb:A3 bgn:Person-1769 .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w168> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_164t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_178>,
+        bgn:Person-1769 .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_173> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w174> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_164t_165t_166> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_172> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_169t_170> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w180> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_164t_165t_166> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_178> ;
+    pb:ArgM-TMP bgn:Person-1769 .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w193> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_190t_191> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w201> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_201t_202t_203> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_195t_196t_197> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_216> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w217> ;
+    pb:Arg0 bgn:Person-1769 ;
+    pb:Arg1 bgn:Person-1769 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_28> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w29> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w51> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_48t_49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w52> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_47t_48t_49t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w57> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_52> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_63>,
+        bgn:Person-1769 ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w7w8w9> ;
+    xs:date "1910-04-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_78> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w79> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w97> ;
+    pb:Arg1 bgn:Person-1769 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_107>,
+        bgn:Person-1769 .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w100w101> nif:anchorOf "Willem Helmers" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "557" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w102> nif:BeginIndex "558" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "570" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w106> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "594" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w108> nif:anchorOf "Scheveningen" ;
+    nif:beginIndex "598" ;
+    nif:endIndex "610" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w109> nif:BeginIndex "611" ;
+    nif:anchorOf "gebracht" ;
+    nif:endIndex "619" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w11> nif:anchorOf "Berlin-Tegel" ;
+    nif:beginIndex "49" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w112w113w114> nif:anchorOf "24 maart 1942" ;
+    nif:beginIndex "624" ;
+    nif:endIndex "637" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w116> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "648" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w116" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w118> nif:anchorOf "Berlijn" ;
+    nif:beginIndex "654" ;
+    nif:endIndex "661" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w119> nif:BeginIndex "662" ;
+    nif:anchorOf "overgeplaatst" ;
+    nif:endIndex "675" ;
+    nif:lemma "over_plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w120w121w122w123w124w125w126w127> nif:anchorOf "alwaar zij op 4 juni 1943 werden gefusilleerd" ;
+    nif:beginIndex "676" ;
+    nif:endIndex "721" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w121> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "683" ;
+    nif:endIndex "686" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w121" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w123w124w125> nif:anchorOf "4 juni 1943" ;
+    nif:beginIndex "690" ;
+    nif:endIndex "701" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w127> nif:BeginIndex "709" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "721" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w135w136w137> nif:anchorOf "Erelijst van Gevallenen" ;
+    nif:beginIndex "757" ;
+    nif:endIndex "780" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w138> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "781" ;
+    nif:endIndex "790" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w13w14w15> nif:anchorOf "4 juni 1943" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "74" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w141> nif:BeginIndex "795" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "800" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w157> nif:anchorOf "Stijkelgroep" ;
+    nif:beginIndex "887" ;
+    nif:endIndex "899" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w159> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "910" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w159" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w161> nif:anchorOf "Oost-Berlijn" ;
+    nif:beginIndex "914" ;
+    nif:endIndex "926" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w162> nif:BeginIndex "927" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "935" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w165w166w167> nif:anchorOf "hun stoffelijke resten" ;
+    nif:beginIndex "942" ;
+    nif:endIndex "964" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w167" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w168> nif:BeginIndex "965" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "971" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w17> nif:BeginIndex "76" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "79" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w170w171> nif:anchorOf "juni 1947" ;
+    nif:beginIndex "975" ;
+    nif:endIndex "984" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w173> nif:anchorOf "Nederland" ;
+    nif:beginIndex "990" ;
+    nif:endIndex "999" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w174> nif:BeginIndex "1000" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "1012" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w179> nif:anchorOf "Westduin" ;
+    nif:beginIndex "1036" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w180> nif:BeginIndex "1045" ;
+    nif:anchorOf "herbegraven" ;
+    nif:endIndex "1056" ;
+    nif:lemma "her_begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w186w187> nif:anchorOf "St Jacobskerk" ;
+    nif:beginIndex "1073" ;
+    nif:endIndex "1086" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w189w190> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "1090" ;
+    nif:endIndex "1098" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "84" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w191w192> nif:anchorOf "een herdenkingsdienst" ;
+    nif:beginIndex "1099" ;
+    nif:endIndex "1120" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w192" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w192> nif:BeginIndex "1103" ;
+    nif:anchorOf "herdenkingsdienst" ;
+    nif:endIndex "1120" ;
+    nif:lemma "herdenking_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w193> nif:BeginIndex "1121" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1124" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w196w197w198> nif:anchorOf "De houten kruizen" ;
+    nif:beginIndex "1136" ;
+    nif:endIndex "1153" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w1w2w3> nif:anchorOf "Frederik Helmers" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w200> nif:anchorOf "later" ;
+    nif:beginIndex "1161" ;
+    nif:endIndex "1166" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w200" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w201> nif:BeginIndex "1167" ;
+    nif:anchorOf "vervangen" ;
+    nif:endIndex "1176" ;
+    nif:lemma "vervangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w202w203w204> nif:anchorOf "door kalkstenen kruizen" ;
+    nif:beginIndex "1177" ;
+    nif:endIndex "1200" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w202" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w207> nif:anchorOf "1953" ;
+    nif:beginIndex "1205" ;
+    nif:endIndex "1209" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w211> nif:anchorOf "Schokking" ;
+    nif:beginIndex "1233" ;
+    nif:endIndex "1242" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w216> nif:anchorOf "Stijkelgroep" ;
+    nif:beginIndex "1264" ;
+    nif:endIndex "1276" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w217> nif:BeginIndex "1277" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "1284" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w28> nif:BeginIndex "154" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "157" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w29> nif:anchorOf "Jan" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "161" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w29w30w31> nif:anchorOf "Jan Frederik Helmers" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "178" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w36w37w38> nif:anchorOf "De Hollandsche Natie" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "213" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w46> nif:anchorOf "Napoleon" ;
+    nif:beginIndex "253" ;
+    nif:endIndex "261" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w48w49w50w51> nif:anchorOf "Toen de oorlog uitbrak" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "286" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w49w50> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "269" ;
+    nif:endIndex "278" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w5> nif:anchorOf "Soerabaja" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w51> nif:BeginIndex "279" ;
+    nif:anchorOf "uitbrak" ;
+    nif:endIndex "286" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w52> nif:BeginIndex "287" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "290" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w53> nif:anchorOf "Jan" ;
+    nif:beginIndex "291" ;
+    nif:endIndex "294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w53w54> nif:anchorOf "Jan Helmers" ;
+    nif:beginIndex "291" ;
+    nif:endIndex "302" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w57> nif:BeginIndex "314" ;
+    nif:anchorOf "reisde" ;
+    nif:endIndex "320" ;
+    nif:lemma "reizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w58> nif:anchorOf "veel" ;
+    nif:beginIndex "321" ;
+    nif:endIndex "325" ;
+    nif:head "bgnProc:1769__Jan_Helmers.naf#w58" ;
+    nif:lemma "veel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w60> nif:anchorOf "Hamburg" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "338" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w62> nif:anchorOf "Brussel" ;
+    nif:beginIndex "340" ;
+    nif:endIndex "347" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w64> nif:anchorOf "Haarlem" ;
+    nif:beginIndex "351" ;
+    nif:endIndex "358" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w67> nif:BeginIndex "364" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "368" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w73w74> nif:anchorOf "Han Stijkel" ;
+    nif:beginIndex "397" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w78w79w80> nif:anchorOf "Cornelis Jan Gude" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "450" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w79> nif:anchorOf "Jan" ;
+    nif:beginIndex "442" ;
+    nif:endIndex "445" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w7w8w9> nif:anchorOf "23 april 1910" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w85w86> nif:anchorOf "Willem Helmers" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "481" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w87> nif:BeginIndex "482" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "486" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w91> nif:anchorOf "Stijkelgroep" ;
+    nif:beginIndex "498" ;
+    nif:endIndex "510" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w94w95w96> nif:anchorOf "6 april 1941" ;
+    nif:beginIndex "516" ;
+    nif:endIndex "528" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w97> nif:BeginIndex "529" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "535" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w98> nif:anchorOf "Jan" ;
+    nif:beginIndex "536" ;
+    nif:endIndex "539" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_111t_112t_113> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w112w113w114> ;
+    xs:date "1942-03-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_119t_120t_121t_122t_123t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w120w121w122w123w124w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_122t_123t_124> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w123w124w125> ;
+    xs:date "1943-06-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_169t_170> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w170w171> ;
+    xs:gYearMonth "1947-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_195t_196t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w196w197w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_199> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_201t_202t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w202w203w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_206> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w207> ;
+    xs:gYear "1953" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_47t_48t_49t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w48w49w50w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_52> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w53> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_93t_94t_95> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w94w95w96> ;
+    xs:date "1941-04-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#t_164t_165t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w165w166w167> .
+
+bgn:Person-1769 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w100w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w108>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w135w136w137>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w157>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w161>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w173>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w186w187>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w189w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w211>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w216>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w29w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w36w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w53w54>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w78w79w80>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w85w86>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w91>,
+        <http://data.biographynet.nl/rdf/170506221754/1769__Jan_Helmers.naf#w98> ;
+    xs:gYearMonth "2017-01" .
+

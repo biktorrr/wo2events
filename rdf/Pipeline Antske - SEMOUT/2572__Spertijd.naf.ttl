@@ -1,0 +1,643 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_1>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_101t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166t_167t_168t_169t_170t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_158t_159t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_163t_164t_165t_166t_167t_168t_169t_170t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_174t_175t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_183t_184t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_21t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_24t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_45t_46t_47t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_50t_51t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_63t_64t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_73t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_78t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_98t_99>,
+        bgn:Person-2572 ;
+    ore:proxyFor bgn:Person-2572 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w13> nif:lemma "begrip" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w146> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w153> nif:lemma "avondklok" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w158> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w160> nif:lemma "situatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w175> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w184> nif:lemma "brug" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w23> nif:lemma "bevolking" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w25> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w59> nif:lemma "sper_tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w64> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w70> nif:lemma "sper_tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w74> nif:lemma "gedurende" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w99> nif:lemma "binnen" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2572__Spertijd#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2572__Spertijd .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2572 ;
+    bgn:aggregatedPerson bgn:Person-2572 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2572__Spertijd ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2572__Spertijd ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_1> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w2> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_10> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w11> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_9> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w113> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_110> ;
+    pb:AM-TMP bgn:Person-2572 .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w124> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w142> ;
+    pb:Arg0 bgn:Person-2572 .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w150> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_143> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_144> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_145t_146t_147> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w157> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_151t_152> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_154> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166t_167t_168t_169t_170t_171t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w165> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_158t_159t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_163t_164t_165t_166t_167t_168t_169t_170t_171t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w178> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_174t_175t_176> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w188> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_183t_184t_185> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_182> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w28> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_21t_22> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_24t_25> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_23> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_35> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w36> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w42> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_33> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_38> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_33> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_43> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w44> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_42> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_45t_46t_47t_48t_49> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w46w47w48w49w50> ;
+    xs:date "2017-05-02T24:00" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_50t_51t_52> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w51w52w53> ;
+    xs:period "PT4H" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w60> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_57t_58> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_61> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_60> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_7> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w8> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_5> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w72> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_68t_69> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_63t_64t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w91> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_89> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_73t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_78t_79t_80> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w94> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_97> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_98t_99> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_101t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w10> nif:anchorOf "Velen" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "51" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w10" ;
+    nif:lemma "veel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w102w103> nif:anchorOf "20 uur" ;
+    nif:beginIndex "554" ;
+    nif:endIndex "560" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w107w108> nif:anchorOf "volgende ochtend" ;
+    nif:beginIndex "572" ;
+    nif:endIndex "588" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w11> nif:BeginIndex "52" ;
+    nif:anchorOf "kennen" ;
+    nif:endIndex "58" ;
+    nif:lemma "kennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w111> nif:anchorOf "die" ;
+    nif:beginIndex "598" ;
+    nif:endIndex "601" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w111" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w113> nif:BeginIndex "610" ;
+    nif:anchorOf "werken" ;
+    nif:endIndex "616" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w122> nif:anchorOf "Luchtbeschermingsdienst" ;
+    nif:beginIndex "660" ;
+    nif:endIndex "683" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w124> nif:BeginIndex "685" ;
+    nif:anchorOf "hadden" ;
+    nif:endIndex "691" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w12w13> nif:anchorOf "het begrip" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "69" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w13" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w130> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "720" ;
+    nif:endIndex "728" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w138> nif:anchorOf "Sonderausweis" ;
+    nif:beginIndex "761" ;
+    nif:endIndex "774" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w141> nif:anchorOf "Ausweis" ;
+    nif:beginIndex "786" ;
+    nif:endIndex "793" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w142> nif:BeginIndex "794" ;
+    nif:anchorOf "genoemd" ;
+    nif:endIndex "801" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w144> nif:anchorOf "die" ;
+    nif:beginIndex "803" ;
+    nif:endIndex "806" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w144" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w145> nif:anchorOf "ook" ;
+    nif:beginIndex "807" ;
+    nif:endIndex "810" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w145" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w146w147w148> nif:anchorOf "bij het persoonsbewijs" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "833" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w150> nif:BeginIndex "839" ;
+    nif:anchorOf "bewaard" ;
+    nif:endIndex "846" ;
+    nif:lemma "bewaren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w152w153> nif:anchorOf "Een avondklok" ;
+    nif:beginIndex "849" ;
+    nif:endIndex "862" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w155> nif:anchorOf "ook" ;
+    nif:beginIndex "867" ;
+    nif:endIndex "870" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w155" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w157> nif:BeginIndex "878" ;
+    nif:anchorOf "ingesteld" ;
+    nif:endIndex "887" ;
+    nif:lemma "in_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w158w159w160w161w162w163w164w165w166w167w168w169w170w171w172w173> nif:anchorOf "als de situatie op straat dit noodzakelijk maakt zoals bij ernstige onrust of een volksopstand" ;
+    nif:beginIndex "888" ;
+    nif:endIndex "983" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w159w160w161w162> nif:anchorOf "de situatie op straat" ;
+    nif:beginIndex "892" ;
+    nif:endIndex "913" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w160" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w163> nif:anchorOf "dit" ;
+    nif:beginIndex "914" ;
+    nif:endIndex "917" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w163" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w164w165w166w167w168w169w170w171w172w173> nif:anchorOf "noodzakelijk maakt zoals bij ernstige onrust of een volksopstand" ;
+    nif:beginIndex "918" ;
+    nif:endIndex "983" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w165" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w165> nif:BeginIndex "931" ;
+    nif:anchorOf "maakt" ;
+    nif:endIndex "936" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w175w176w177> nif:anchorOf "In de scheepvaart" ;
+    nif:beginIndex "986" ;
+    nif:endIndex "1003" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w175" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w178> nif:BeginIndex "1004" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1006" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w183> nif:anchorOf "waarin" ;
+    nif:beginIndex "1030" ;
+    nif:endIndex "1036" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w183" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w184w185w186> nif:anchorOf "bruggen en sluizen" ;
+    nif:beginIndex "1037" ;
+    nif:endIndex "1055" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w184" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w187> nif:anchorOf "niet" ;
+    nif:beginIndex "1056" ;
+    nif:endIndex "1060" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w187" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w188> nif:BeginIndex "1061" ;
+    nif:anchorOf "bediend" ;
+    nif:endIndex "1068" ;
+    nif:lemma "bedienen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w2> nif:BeginIndex "9" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "11" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w21> nif:anchorOf "waarin" ;
+    nif:beginIndex "107" ;
+    nif:endIndex "113" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w21" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w22w23> nif:anchorOf "de bevolking" ;
+    nif:beginIndex "114" ;
+    nif:endIndex "126" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w24> nif:anchorOf "niet" ;
+    nif:beginIndex "127" ;
+    nif:endIndex "131" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w24" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w25w26> nif:anchorOf "op straat" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "141" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w25" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w28> nif:BeginIndex "146" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "150" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w34> nif:anchorOf "Nederland" ;
+    nif:beginIndex "176" ;
+    nif:endIndex "185" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w36> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "187" ;
+    nif:endIndex "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w39> nif:anchorOf "er" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "205" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w39" ;
+    nif:lemma "er" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w42> nif:BeginIndex "219" ;
+    nif:anchorOf "ingesteld" ;
+    nif:endIndex "228" ;
+    nif:lemma "in_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w43> nif:anchorOf "die" ;
+    nif:beginIndex "229" ;
+    nif:endIndex "232" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w43" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w44> nif:BeginIndex "233" ;
+    nif:anchorOf "liep" ;
+    nif:endIndex "237" ;
+    nif:lemma "lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w46w47w48w49w50> nif:anchorOf "24 uur ' s nachts" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "258" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w51w52w53> nif:anchorOf "tot 4 uur" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "268" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w58w59> nif:anchorOf "Deze spertijd" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "297" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w6> nif:anchorOf "iets" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "31" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w6" ;
+    nif:lemma "iets" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w60> nif:BeginIndex "298" ;
+    nif:anchorOf "lag" ;
+    nif:endIndex "301" ;
+    nif:lemma "vast_liggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w61> nif:anchorOf "niet" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "306" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w61" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w62> nif:anchorOf "vast" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "311" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w62" ;
+    nif:lemma "vast" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w64w65w66w67> nif:anchorOf "Op elk willekeurig moment" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "338" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w69w70> nif:anchorOf "de spertijden" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "359" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w72> nif:BeginIndex "367" ;
+    nif:anchorOf "aangepast" ;
+    nif:endIndex "376" ;
+    nif:lemma "aan_passen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w74w75w76> nif:anchorOf "Gedurende de oorlogsjaren" ;
+    nif:beginIndex "378" ;
+    nif:endIndex "403" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w79w80w81> nif:anchorOf "1 februari 1942" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "430" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w8> nif:BeginIndex "41" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "43" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w90> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "475" ;
+    nif:endIndex "484" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w91> nif:BeginIndex "485" ;
+    nif:anchorOf "aangepast" ;
+    nif:endIndex "494" ;
+    nif:lemma "aan_passen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w93> nif:anchorOf "nu" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "498" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w94> nif:BeginIndex "499" ;
+    nif:anchorOf "moesten" ;
+    nif:endIndex "506" ;
+    nif:lemma "moeten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w98> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "523" ;
+    nif:endIndex "532" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w99w100> nif:anchorOf "binnen blijven" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "547" ;
+    nif:head "bgnProc:2572__Spertijd.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_101t_102> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w102w103> ;
+    xs:period "P20H" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_106t_107> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w107w108> ;
+    xs:date "2017-05-03TMO" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_11t_12> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w12w13> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_151t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w152w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_157t_158t_159t_160t_161t_162t_163t_164t_165t_166t_167t_168t_169t_170t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w158w159w160w161w162w163w164w165w166w167w168w169w170w171w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_158t_159t_160t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w159w160w161w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_163t_164t_165t_166t_167t_168t_169t_170t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w164w165w166w167w168w169w170w171w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_174t_175t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w175w176w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_183t_184t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w184w185w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_20> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_21t_22> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w22w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_23> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_24t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w25w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_5> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w6> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_63t_64t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w64w65w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_68t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w69w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_73t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w74w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_78t_79t_80> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w79w80w81> ;
+    xs:date "1942-02-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_9> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w10> .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_92> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w93> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w99w100> .
+
+bgn:Person-2572 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w130>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w138>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/2572__Spertijd.naf#w98> .
+

@@ -1,0 +1,699 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_116t_117t_118t_119t_120t_121t_122t_123t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_117t_118t_119t_120t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_246t_247t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_263t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_266t_267t_268t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_271t_272t_273t_274t_275t_276t_277t_278t_279t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_288>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_289t_290t_291t_292t_293>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_66t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_96>,
+        bgn:Person-506 ;
+    ore:proxyFor bgn:Person-506 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w118> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w125> nif:lemma "bestemming" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w232> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w265> nif:lemma "gedenkteken" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w267> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w272> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w291> nif:lemma "plaquette" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w68> nif:lemma "steen" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-506__Monument_voor_het_kunstenaarsverzet#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-506__Monument_voor_het_kunstenaarsverzet .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-506 ;
+    bgn:aggregatedPerson bgn:Person-506 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-506__Monument_voor_het_kunstenaarsverzet ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-506__Monument_voor_het_kunstenaarsverzet ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w116> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_116t_117t_118t_119t_120t_121t_122t_123t_124t_125t_126> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_113> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w127> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_122t_123t_124> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_116> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_117t_118t_119t_120t_121> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w14> ;
+    pb:ArgM-TMP bgn:Person-506 .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_138> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w139> ;
+    xs:gYear "1921",
+        "2003" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_145> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w146> ;
+    xs:gYear "1908",
+        "1975" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_151> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w152> ;
+    xs:gYear "1897",
+        "1961" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_158> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w159> ;
+    xs:gYear "1903",
+        "1968" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_164> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w165> ;
+    xs:gYear "1915",
+        "1980" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w172> ;
+    xs:gYear "1911",
+        "1988" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_177> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w178> ;
+    xs:gYear "1898",
+        "1972" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_183> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w184> ;
+    xs:gYear "1900",
+        "1996" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_190> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w191> ;
+    xs:gYear "1879",
+        "1971" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_196> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w197> ;
+    xs:gYear "1917",
+        "2004" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_206> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w207> ;
+    xs:gYear "1922",
+        "2003" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_213> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w214> ;
+    xs:gYear "1910",
+        "1998" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_219> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w220> ;
+    xs:gYear "1902",
+        "1993" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_226> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w227> ;
+    xs:gYear "1897",
+        "1984" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_228> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w229> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_204>,
+        bgn:Person-506 .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w233> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_230t_231> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_249> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w250> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_230t_231> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_246t_247t_248>,
+        bgn:Person-506 .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w266> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_263t_264> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_266t_267t_268t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_271t_272t_273t_274t_275t_276t_277t_278t_279t_280> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_278> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w279> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_288> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w289> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_289t_290t_291t_292t_293> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w39> ;
+    pb:Arg0 bgn:Person-506 ;
+    pb:Arg1 bgn:Person-506 ;
+    pb:Arg2 bgn:Person-506 .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w65> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_60> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_63> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w69> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_66t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_88> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w89> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_96> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w97> ;
+    xs:gYear "2008" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w10> nif:anchorOf "Mook" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w105> nif:anchorOf "Wijffels" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "599" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w109w110w111w112> nif:anchorOf "Stichting Jacques van Mourik" ;
+    nif:beginIndex "618" ;
+    nif:endIndex "646" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w114> nif:anchorOf "waarna" ;
+    nif:beginIndex "648" ;
+    nif:endIndex "654" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w114" ;
+    nif:lemma "waarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w116> nif:BeginIndex "660" ;
+    nif:anchorOf "besloten" ;
+    nif:endIndex "668" ;
+    nif:lemma "besluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w117> nif:anchorOf "het" ;
+    nif:beginIndex "669" ;
+    nif:endIndex "672" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w117" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w117w118w119w120w121w122w123w124w125w126w127> nif:anchorOf "het als gedenkteken voor het kunstenaarsverzet een nieuwe bestemming te geven" ;
+    nif:beginIndex "669" ;
+    nif:endIndex "746" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w118w119w120w121w122> nif:anchorOf "als gedenkteken voor het kunstenaarsverzet" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "715" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w12> nif:anchorOf "Limburg" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "78" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w122> nif:BeginIndex "698" ;
+    nif:anchorOf "kunstenaarsverzet" ;
+    nif:endIndex "715" ;
+    nif:lemma "kunstenaar_verzet" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w123w124w125> nif:anchorOf "een nieuwe bestemming" ;
+    nif:beginIndex "716" ;
+    nif:endIndex "737" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w127> nif:BeginIndex "741" ;
+    nif:anchorOf "geven" ;
+    nif:endIndex "746" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w135w136w137> nif:anchorOf "Marius van Beek" ;
+    nif:beginIndex "787" ;
+    nif:endIndex "802" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w139> nif:anchorOf "1921-2003" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "813" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w14> nif:BeginIndex "80" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "82" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w142w143w144> nif:anchorOf "Louis de Bourbon" ;
+    nif:beginIndex "816" ;
+    nif:endIndex "832" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w146> nif:anchorOf "1908-1975" ;
+    nif:beginIndex "834" ;
+    nif:endIndex "843" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w149w150> nif:anchorOf "Antoon Coolen" ;
+    nif:beginIndex "846" ;
+    nif:endIndex "859" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w152> nif:anchorOf "1897-1961" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "870" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w155w156w157> nif:anchorOf "Anton van Duinkerken" ;
+    nif:beginIndex "873" ;
+    nif:endIndex "893" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w159> nif:anchorOf "1903-1968" ;
+    nif:beginIndex "895" ;
+    nif:endIndex "904" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w162w163> nif:anchorOf "Boy Edgar" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "916" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w165> nif:anchorOf "1915-1980" ;
+    nif:beginIndex "918" ;
+    nif:endIndex "927" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w168w169w170> nif:anchorOf "Jopie van Kampen" ;
+    nif:beginIndex "930" ;
+    nif:endIndex "946" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w172> nif:anchorOf "1911-1988" ;
+    nif:beginIndex "948" ;
+    nif:endIndex "957" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w175w176> nif:anchorOf "Jef Last" ;
+    nif:beginIndex "960" ;
+    nif:endIndex "968" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w178> nif:anchorOf "1898-1972" ;
+    nif:beginIndex "970" ;
+    nif:endIndex "979" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w181w182> nif:anchorOf "Jac Maris" ;
+    nif:beginIndex "982" ;
+    nif:endIndex "991" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w184> nif:anchorOf "1900-1996" ;
+    nif:beginIndex "993" ;
+    nif:endIndex "1002" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w187w188w189> nif:anchorOf "Jacques van Mourik" ;
+    nif:beginIndex "1005" ;
+    nif:endIndex "1023" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w191> nif:anchorOf "1879-1971" ;
+    nif:beginIndex "1025" ;
+    nif:endIndex "1034" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w194w195> nif:anchorOf "Louise Roovers-Nederveen" ;
+    nif:beginIndex "1037" ;
+    nif:endIndex "1061" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w197> nif:anchorOf "1917-2004" ;
+    nif:beginIndex "1063" ;
+    nif:endIndex "1072" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w201w202w203> nif:anchorOf "Octave van Nispen" ;
+    nif:beginIndex "1080" ;
+    nif:endIndex "1097" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w205> nif:anchorOf "Pannerden" ;
+    nif:beginIndex "1102" ;
+    nif:endIndex "1111" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w207> nif:anchorOf "1922-2003" ;
+    nif:beginIndex "1113" ;
+    nif:endIndex "1122" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w210w211w212> nif:anchorOf "Mies van Oppenraaij" ;
+    nif:beginIndex "1125" ;
+    nif:endIndex "1144" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w214> nif:anchorOf "1910-1998" ;
+    nif:beginIndex "1146" ;
+    nif:endIndex "1155" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w217w218> nif:anchorOf "Peter Roovers" ;
+    nif:beginIndex "1158" ;
+    nif:endIndex "1171" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w220> nif:anchorOf "1902-1993" ;
+    nif:beginIndex "1173" ;
+    nif:endIndex "1182" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w224w225> nif:anchorOf "Willem Sandberg" ;
+    nif:beginIndex "1192" ;
+    nif:endIndex "1207" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w227> nif:anchorOf "1897-1984" ;
+    nif:beginIndex "1209" ;
+    nif:endIndex "1218" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w229> nif:BeginIndex "1220" ;
+    nif:anchorOf "herdacht" ;
+    nif:endIndex "1228" ;
+    nif:lemma "herdenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w231w232> nif:anchorOf "Het monument" ;
+    nif:beginIndex "1231" ;
+    nif:endIndex "1243" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w232" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w233> nif:BeginIndex "1244" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1246" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w240w241> nif:anchorOf "St. Antoniuskerk" ;
+    nif:beginIndex "1275" ;
+    nif:endIndex "1291" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w243> nif:anchorOf "Mook" ;
+    nif:beginIndex "1295" ;
+    nif:endIndex "1299" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w247w248w249> nif:anchorOf "10 mei 2008" ;
+    nif:beginIndex "1311" ;
+    nif:endIndex "1322" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w250> nif:BeginIndex "1323" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "1330" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w257w258> nif:anchorOf "Rob Persoon" ;
+    nif:beginIndex "1378" ;
+    nif:endIndex "1389" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w261w262> nif:anchorOf "Rudo Franken" ;
+    nif:beginIndex "1401" ;
+    nif:endIndex "1413" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w264w265> nif:anchorOf "Het gedenkteken" ;
+    nif:beginIndex "1416" ;
+    nif:endIndex "1431" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w265" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w266> nif:BeginIndex "1432" ;
+    nif:anchorOf "bestaat" ;
+    nif:endIndex "1439" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w267w268w269w270> nif:anchorOf "uit een staande steen" ;
+    nif:beginIndex "1440" ;
+    nif:endIndex "1461" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w267" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "175" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w272w273w274w275w276w277w278w279w280w281> nif:anchorOf "met daarop een piëta in reliëf uitgevoerd in keramiek" ;
+    nif:beginIndex "1463" ;
+    nif:endIndex "1517" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w272" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w279> nif:BeginIndex "1495" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "1505" ;
+    nif:lemma "uitgevoerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w289> nif:BeginIndex "1543" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1545" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w290w291w292w293w294> nif:anchorOf "een plaquette van rood marmer" ;
+    nif:beginIndex "1546" ;
+    nif:endIndex "1575" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w291" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w2w3w4w5> nif:anchorOf "Monument voor het Kunstenaarsverzet" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w303> nif:anchorOf "Mook" ;
+    nif:beginIndex "1631" ;
+    nif:endIndex "1635" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w305> nif:anchorOf "Middelaar" ;
+    nif:beginIndex "1639" ;
+    nif:endIndex "1648" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w36w37> nif:anchorOf "Frans Wijffels" ;
+    nif:beginIndex "211" ;
+    nif:endIndex "225" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w39> nif:BeginIndex "227" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "233" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w41> nif:anchorOf "Mookse" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "243" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w43w44> nif:anchorOf "Peter Roovers" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "269" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w50> nif:anchorOf "Wijffels" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "310" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w54w55> nif:anchorOf "Fransiscus Rath" ;
+    nif:beginIndex "326" ;
+    nif:endIndex "341" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w57w58w59> nif:anchorOf "Wilhelmina van Well" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "364" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w61> nif:anchorOf "die" ;
+    nif:beginIndex "366" ;
+    nif:endIndex "369" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w61" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w62> nif:anchorOf "beiden" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "376" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w62" ;
+    nif:lemma "beiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w64> nif:anchorOf "1939" ;
+    nif:beginIndex "380" ;
+    nif:endIndex "384" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w65> nif:BeginIndex "385" ;
+    nif:anchorOf "overleden" ;
+    nif:endIndex "394" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w67w68> nif:anchorOf "De steen" ;
+    nif:beginIndex "396" ;
+    nif:endIndex "404" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w69> nif:BeginIndex "405" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "408" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w75> nif:anchorOf "Waalwijk" ;
+    nif:beginIndex "437" ;
+    nif:endIndex "445" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w77> nif:anchorOf "Wijffels" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "455" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w8> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "57" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w83> nif:anchorOf "Mook" ;
+    nif:beginIndex "475" ;
+    nif:endIndex "479" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w88> nif:anchorOf "Roovers" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "508" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w89> nif:BeginIndex "509" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "514" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w90> nif:anchorOf "beiden" ;
+    nif:beginIndex "515" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:506__Monument_voor_het_kunstenaarsverzet.naf#w90" ;
+    nif:lemma "beiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w97> nif:anchorOf "2008" ;
+    nif:beginIndex "548" ;
+    nif:endIndex "552" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_116t_117t_118t_119t_120t_121t_122t_123t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w117w118w119w120w121w122w123w124w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_117t_118t_119t_120t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w118w119w120w121w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_122t_123t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w123w124w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_246t_247t_248> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w247w248w249> ;
+    xs:date "2008-05-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_263t_264> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w264w265> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_266t_267t_268t_269> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w267w268w269w270> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_271t_272t_273t_274t_275t_276t_277t_278t_279t_280> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w272w273w274w275w276w277w278w279w280w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_289t_290t_291t_292t_293> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w290w291w292w293w294> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w64> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_66t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w67w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w231w232> .
+
+bgn:Person-506 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w109w110w111w112>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w135w136w137>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w142w143w144>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w149w150>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w155w156w157>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w162w163>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w168w169w170>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w175w176>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w181w182>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w187w188w189>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w194w195>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w201w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w210w211w212>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w217w218>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w224w225>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w240w241>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w243>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w257w258>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w261w262>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w2w3w4w5>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w303>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w305>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w54w55>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w57w58w59>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w77>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/506__Monument_voor_het_kunstenaarsverzet.naf#w88> .
+

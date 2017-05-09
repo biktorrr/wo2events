@@ -1,0 +1,839 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_174t_175t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_178t_179t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_20t_21t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_49t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_65t_66t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_86t_87t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_98t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_98t_99t_100t_101>,
+        bgn:Person-58 ;
+    ore:proxyFor bgn:Person-58 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w100> nif:lemma "parachute" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w106> nif:lemma "wapen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w107> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w111> nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w151> nif:lemma "ondervrager" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w50> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w88> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w92> nif:lemma "ontvangst_comité" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w95> nif:lemma "codenaam" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-58__Herman_Overes#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-58__Herman_Overes .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-58 ;
+    bgn:aggregatedPerson bgn:Person-58 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-58__Herman_Overes ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-58__Herman_Overes ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w102> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_98t_99> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w104> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_90t_91> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_104t_105> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_106t_107> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w112> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_109t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w121> ;
+    pb:Arg1 bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_127> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w128> ;
+    pb:Arg1 bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w131> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_135>,
+        bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w137> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_129> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_135>,
+        bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w145> ;
+    pb:Arg0 bgn:Person-58 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_129> ;
+    pb:ArgM-LOC bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w148> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w154> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_149t_150> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_151> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w163> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_164> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_174t_175t_176> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w175w176w177> ;
+    xs:date "1942-12-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w19> ;
+    pb:Arg1 bgn:Person-58 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_17> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_20t_21t_22> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w182> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_182> ;
+    pb:Arg3 bgn:Person-58 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_178t_179t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w191> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_189> ;
+    pb:ArgM-MNR bgn:Person-58 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_187> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w197> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w211> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_203> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_201> ;
+    pb:ArgM-LOC bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w26> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_24> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_27> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w33> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_29> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w37> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_37> ;
+    pb:Arg1 bgn:Person-58 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w40> ;
+    pb:ArgM bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_4> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w5> ;
+    xs:gYear "1908",
+        "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w55> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_48> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_53> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_49t_50t_51> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_44t_45t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_6> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w7> ;
+    pb:Arg0 bgn:Person-58 ;
+    pb:ArgM-TMP bgn:Person-58 .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w83> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_69> ;
+    pb:Arg2 bgn:Person-58 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_80> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_65t_66t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w86> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_84> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_86t_87t_88> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_88> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w89> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_84> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w93> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_90t_91> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_93t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w97> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_97> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_98t_99t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w102> nif:BeginIndex "548" ;
+    nif:anchorOf "verbergen" ;
+    nif:endIndex "557" ;
+    nif:lemma "verbergen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w104> nif:BeginIndex "561" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "564" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w105w106> nif:anchorOf "hun wapens" ;
+    nif:beginIndex "565" ;
+    nif:endIndex "575" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w107w108> nif:anchorOf "in bewaring" ;
+    nif:beginIndex "576" ;
+    nif:endIndex "587" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w110w111> nif:anchorOf "Even later" ;
+    nif:beginIndex "589" ;
+    nif:endIndex "599" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w111" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w112> nif:BeginIndex "600" ;
+    nif:anchorOf "bleek" ;
+    nif:endIndex "605" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w116> nif:BeginIndex "624" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "629" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w118> nif:anchorOf "Overes" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "637" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w120> nif:anchorOf "Ubbink" ;
+    nif:beginIndex "641" ;
+    nif:endIndex "647" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w121> nif:BeginIndex "648" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "653" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w125> nif:anchorOf "Englandspiel" ;
+    nif:beginIndex "674" ;
+    nif:endIndex "686" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w128> nif:BeginIndex "697" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "709" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w12w13> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w130> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "711" ;
+    nif:endIndex "713" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w130" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w131> nif:BeginIndex "714" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "720" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w134> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "730" ;
+    nif:endIndex "741" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w136> nif:anchorOf "Scheveningen" ;
+    nif:beginIndex "745" ;
+    nif:endIndex "757" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w137> nif:BeginIndex "758" ;
+    nif:anchorOf "gebracht" ;
+    nif:endIndex "766" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w140w141> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "773" ;
+    nif:endIndex "781" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w144> nif:anchorOf "Sicherheitsdienst" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "807" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w145> nif:BeginIndex "808" ;
+    nif:anchorOf "verhoord" ;
+    nif:endIndex "816" ;
+    nif:lemma "verhoren" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w147> nif:anchorOf "Daarbij" ;
+    nif:beginIndex "818" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w147" ;
+    nif:lemma "daarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w148> nif:BeginIndex "826" ;
+    nif:anchorOf "bleek" ;
+    nif:endIndex "831" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w15> nif:anchorOf "Overes" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w150w151> nif:anchorOf "de ondervrager" ;
+    nif:beginIndex "836" ;
+    nif:endIndex "850" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w151" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w152> nif:anchorOf "alles" ;
+    nif:beginIndex "851" ;
+    nif:endIndex "856" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w152" ;
+    nif:lemma "alles" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w153> nif:anchorOf "al" ;
+    nif:beginIndex "857" ;
+    nif:endIndex "859" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w153" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w154> nif:BeginIndex "860" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "864" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w162> nif:BeginIndex "895" ;
+    nif:anchorOf "acht" ;
+    nif:endIndex "899" ;
+    nif:lemma "acht" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w163> nif:BeginIndex "900" ;
+    nif:anchorOf "trainingsscholen" ;
+    nif:endIndex "916" ;
+    nif:lemma "training_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w165> nif:anchorOf "Engeland" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "928" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w171> nif:anchorOf "Nederland" ;
+    nif:beginIndex "965" ;
+    nif:endIndex "974" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w175w176w177> nif:anchorOf "3 december 1942" ;
+    nif:beginIndex "985" ;
+    nif:endIndex "1000" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w179w180w181> nif:anchorOf "27 november 1943" ;
+    nif:beginIndex "1005" ;
+    nif:endIndex "1021" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w18> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "100" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w182> nif:BeginIndex "1022" ;
+    nif:anchorOf "zat" ;
+    nif:endIndex "1025" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w183> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1026" ;
+    nif:endIndex "1029" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w183" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w185w186> nif:anchorOf "Kamp Haaren" ;
+    nif:beginIndex "1033" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w188> nif:anchorOf "Daarna" ;
+    nif:beginIndex "1046" ;
+    nif:endIndex "1052" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w188" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w19> nif:BeginIndex "110" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "117" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w190> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1058" ;
+    nif:endIndex "1061" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w190" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w191> nif:BeginIndex "1062" ;
+    nif:anchorOf "overgeplaatst" ;
+    nif:endIndex "1075" ;
+    nif:lemma "over_plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w193> nif:BeginIndex "1081" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1097" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w194> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "1098" ;
+    nif:endIndex "1108" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w196> nif:anchorOf "Daarna" ;
+    nif:beginIndex "1110" ;
+    nif:endIndex "1116" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w196" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w197> nif:BeginIndex "1117" ;
+    nif:anchorOf "loopt" ;
+    nif:endIndex "1122" ;
+    nif:lemma "dood_lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w1w2w3> nif:anchorOf "Johannes Overes" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w202> nif:anchorOf "Mogelijk" ;
+    nif:beginIndex "1139" ;
+    nif:endIndex "1147" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w202" ;
+    nif:lemma "mogelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w204> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1156" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w204" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w207w208w209w210> nif:anchorOf "Nacht und Nebelkamp Gross-Rosen" ;
+    nif:beginIndex "1164" ;
+    nif:endIndex "1195" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w211> nif:BeginIndex "1196" ;
+    nif:anchorOf "vermoord" ;
+    nif:endIndex "1204" ;
+    nif:lemma "vermoorden" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w21w22w23> nif:anchorOf "19 oktober 1908" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w25> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "138" ;
+    nif:endIndex "141" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w25" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w26> nif:BeginIndex "142" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "148" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w28> nif:anchorOf "Zuid-Afrika" ;
+    nif:beginIndex "152" ;
+    nif:endIndex "163" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w30> nif:anchorOf "waar" ;
+    nif:beginIndex "165" ;
+    nif:endIndex "169" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w30" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w33> nif:BeginIndex "184" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "187" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w36> nif:anchorOf "Engeland" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w37> nif:BeginIndex "202" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "207" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w38> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "208" ;
+    nif:endIndex "211" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w38" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w40> nif:BeginIndex "216" ;
+    nif:anchorOf "opleiding" ;
+    nif:endIndex "225" ;
+    nif:lemma "opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w42> nif:anchorOf "SOE" ;
+    nif:beginIndex "230" ;
+    nif:endIndex "233" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w45w46w47> nif:anchorOf "29 november 1942" ;
+    nif:beginIndex "238" ;
+    nif:endIndex "254" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w49> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "262" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w49" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w5> nif:anchorOf "1908-1944" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w50w51w52> nif:anchorOf "met een bommenwerper" ;
+    nif:beginIndex "263" ;
+    nif:endIndex "283" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w54> nif:anchorOf "Nederland" ;
+    nif:beginIndex "289" ;
+    nif:endIndex "298" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w55> nif:BeginIndex "299" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "303" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w59> nif:BeginIndex "313" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "316" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w66w67w68> nif:anchorOf "De volgende dag" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "360" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w7> nif:BeginIndex "35" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "38" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w70> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "366" ;
+    nif:endIndex "369" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w70" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w72w73w74> nif:anchorOf "Johan Bernard Ubbink" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "394" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w76> nif:anchorOf "Valkenheide" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "412" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w81> nif:anchorOf "Leersum" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "437" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w83> nif:BeginIndex "439" ;
+    nif:anchorOf "geparachuteerd" ;
+    nif:endIndex "453" ;
+    nif:lemma "geparachuteerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w85> nif:anchorOf "Alles" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "460" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w85" ;
+    nif:lemma "alles" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w86> nif:BeginIndex "461" ;
+    nif:anchorOf "leek" ;
+    nif:endIndex "465" ;
+    nif:lemma "lijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w87> nif:anchorOf "goed" ;
+    nif:beginIndex "466" ;
+    nif:endIndex "470" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w87" ;
+    nif:lemma "goed" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w87w88w89> nif:anchorOf "goed te gaan" ;
+    nif:beginIndex "466" ;
+    nif:endIndex "478" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w89> nif:BeginIndex "474" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "478" ;
+    nif:lemma "goed_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w91w92> nif:anchorOf "het ontvangstcomité" ;
+    nif:beginIndex "480" ;
+    nif:endIndex "499" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w92" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w93> nif:BeginIndex "500" ;
+    nif:anchorOf "kende" ;
+    nif:endIndex "505" ;
+    nif:lemma "kennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w94w95> nif:anchorOf "hun codenamen" ;
+    nif:beginIndex "506" ;
+    nif:endIndex "519" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w97> nif:BeginIndex "521" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "526" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w98> a bgn:pron_3p ;
+    nif:anchorOf "hen" ;
+    nif:beginIndex "527" ;
+    nif:endIndex "530" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w98" ;
+    nif:lemma "hen" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w99w100> nif:anchorOf "de parachutes" ;
+    nif:beginIndex "531" ;
+    nif:endIndex "544" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w99w100w101w102> nif:anchorOf "de parachutes te verbergen" ;
+    nif:beginIndex "531" ;
+    nif:endIndex "557" ;
+    nif:head "bgnProc:58__Herman_Overes.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_178t_179t_180> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w179w180w181> ;
+    xs:date "1943-11-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_20t_21t_22> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w21w22w23> ;
+    xs:date "1908-10-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_44t_45t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w45w46w47> ;
+    xs:date "1942-11-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_49t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w50w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_65t_66t_67> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w66w67w68> ;
+    xs:date "1942-11-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_86t_87t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w87w88w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w94w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w99w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_98t_99t_100t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w99w100w101w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w91w92> .
+
+bgn:Person-58 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w125>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w12w13>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w136>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w140w141>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w185w186>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w207w208w209w210>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w54>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w72w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/58__Herman_Overes.naf#w81> .
+

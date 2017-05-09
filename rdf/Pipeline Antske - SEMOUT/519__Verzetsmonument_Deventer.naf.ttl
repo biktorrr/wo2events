@@ -1,0 +1,517 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_134t_135t_136t_137t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_22t_23t_24t_25t_26t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_41t_42t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_47t_48t_49t_50t_51t_52t_53t_54t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_67t_68t_69t_70t_71t_72t_73t_74t_75t_76t_77t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_84t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_87t_88t_89t_90t_91t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_94t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_97>,
+        bgn:Person-519 ;
+    ore:proxyFor bgn:Person-519 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w106> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w118> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w135> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w139> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w143> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w147> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w151> nif:lemma "tekst" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w24> nif:lemma "vroeg" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w37> nif:lemma "verzet_monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w43> nif:lemma "collecte" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w53> nif:lemma "bedrag" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w60> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w68> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w82> nif:lemma "man" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w85> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w88> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w95> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-519__Verzetsmonument_Deventer#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-519__Verzetsmonument_Deventer .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-519 ;
+    bgn:aggregatedPerson bgn:Person-519 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-519__Verzetsmonument_Deventer ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-519__Verzetsmonument_Deventer ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_100> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w101> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_101> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w102> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w112> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_104t_105> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_108t_109t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w116> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_116t_117> ;
+    pb:AM-LOC bgn:Person-519 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w134> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_132> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_134t_135t_136t_137t_138t_139t_140> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w138> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_138t_139t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w146> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_149t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w152> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_149t_150> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_146t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_153> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w154> ;
+    xs:gYear "XXXX" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_28> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w29> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w30> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_34> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_22t_23t_24t_25t_26t_27t_28> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w40> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_35t_36> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w47> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_41t_42t_43t_44t_45> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_47t_48t_49t_50t_51t_52t_53t_54t_55> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w61> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_58t_59> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_67t_68t_69t_70t_71t_72t_73t_74t_75t_76t_77t_78> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_8> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w9> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w83> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_80t_81> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_84t_85t_86> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_87t_88t_89t_90t_91t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w98> ;
+    pb:A1 bgn:Person-519 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_94t_95t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w100w101w102> nif:anchorOf "Verzet 1940 1945" ;
+    nif:beginIndex "561" ;
+    nif:endIndex "577" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w101> nif:anchorOf "1940" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "572" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w102> nif:anchorOf "1945" ;
+    nif:beginIndex "573" ;
+    nif:endIndex "577" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w105w106> nif:anchorOf "Het monument" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "593" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w109w110w111> nif:anchorOf "3 mei 1953" ;
+    nif:beginIndex "602" ;
+    nif:endIndex "612" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w112> nif:BeginIndex "613" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "620" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w115> nif:anchorOf "1957" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "630" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w116> nif:BeginIndex "631" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "636" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w117w118> nif:anchorOf "het monument" ;
+    nif:beginIndex "637" ;
+    nif:endIndex "649" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w127> nif:anchorOf "Lebuïnuskerk" ;
+    nif:beginIndex "684" ;
+    nif:endIndex "696" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w131> nif:anchorOf "jaar" ;
+    nif:beginIndex "705" ;
+    nif:endIndex "709" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w133> nif:anchorOf "het" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "718" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w133" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w134> nif:BeginIndex "719" ;
+    nif:anchorOf "verplaatst" ;
+    nif:endIndex "729" ;
+    nif:lemma "verplaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w135w136w137w138w139w140w141> nif:anchorOf "naar de zuidelijke zijbeuk van de kerk" ;
+    nif:beginIndex "730" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w138> nif:BeginIndex "749" ;
+    nif:anchorOf "zijbeuk" ;
+    nif:endIndex "756" ;
+    nif:lemma "zij_beuk" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w139w140w141> nif:anchorOf "van de kerk" ;
+    nif:beginIndex "757" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w139" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w143w144w145> nif:anchorOf "Op de kerkmuur" ;
+    nif:beginIndex "770" ;
+    nif:endIndex "784" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w146> nif:BeginIndex "785" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "787" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w147w148w149> nif:anchorOf "in metalen letters" ;
+    nif:beginIndex "788" ;
+    nif:endIndex "806" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w150w151> nif:anchorOf "een tekst" ;
+    nif:beginIndex "807" ;
+    nif:endIndex "816" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w151" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w152> nif:BeginIndex "817" ;
+    nif:anchorOf "aangebracht" ;
+    nif:endIndex "828" ;
+    nif:lemma "aan_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w154> nif:anchorOf "Jaarlijks" ;
+    nif:beginIndex "831" ;
+    nif:endIndex "840" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w155> nif:BeginIndex "841" ;
+    nif:anchorOf "vindt" ;
+    nif:endIndex "846" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w16> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w162> nif:anchorOf "Verzetsmonument" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "897" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w165w166> nif:anchorOf "Nationale Dodenherdenking" ;
+    nif:beginIndex "909" ;
+    nif:endIndex "934" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w2> nif:anchorOf "Verzetsmonument" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w20w21> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "109" ;
+    nif:endIndex "128" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w23w24w25w26w27w28w29> nif:anchorOf "Al vroeg na de bevrijding in 1945" ;
+    nif:beginIndex "131" ;
+    nif:endIndex "164" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w24" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w29> nif:anchorOf "1945" ;
+    nif:beginIndex "160" ;
+    nif:endIndex "164" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w30> nif:BeginIndex "165" ;
+    nif:anchorOf "ontstonden" ;
+    nif:endIndex "175" ;
+    nif:lemma "ontstaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w35> nif:anchorOf "Deventer" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w36w37> nif:anchorOf "een verzetsmonument" ;
+    nif:beginIndex "202" ;
+    nif:endIndex "221" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w40> nif:BeginIndex "228" ;
+    nif:anchorOf "richten" ;
+    nif:endIndex "235" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w42w43w44w45w46> nif:anchorOf "Een collecte onder de bevolking" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "268" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w43" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w47> nif:BeginIndex "269" ;
+    nif:anchorOf "bracht" ;
+    nif:endIndex "275" ;
+    nif:lemma "op_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w48w49w50w51w52w53w54w55w56> nif:anchorOf "het voor die tijd forse bedrag van 27.000 gulden" ;
+    nif:beginIndex "276" ;
+    nif:endIndex "324" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w53" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w59w60> nif:anchorOf "Het monument" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "341" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w5w6> nif:anchorOf "Grote Kerkhof" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w61> nif:BeginIndex "342" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "344" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w64w65> nif:anchorOf "Dirk Wolbers" ;
+    nif:beginIndex "358" ;
+    nif:endIndex "370" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w67> nif:BeginIndex "374" ;
+    nif:anchorOf "bestaat" ;
+    nif:endIndex "381" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w68w69w70w71w72w73w74w75w76w77w78w79> nif:anchorOf "uit een bronzen beeld van een verzetsstrijder op een hoge stenen sokkel" ;
+    nif:beginIndex "382" ;
+    nif:endIndex "453" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w8> nif:anchorOf "Deventer" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w81w82> nif:anchorOf "De man" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "461" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w82" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w83> nif:BeginIndex "462" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "467" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w85w86w87> nif:anchorOf "met gebalde vuisten" ;
+    nif:beginIndex "476" ;
+    nif:endIndex "495" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w88w89w90w91w92w93> nif:anchorOf "als symbool voor kracht en ongenaakbaarheid" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "539" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w9> nif:BeginIndex "53" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "55" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w95w96w97> nif:anchorOf "Op de sokkel" ;
+    nif:beginIndex "541" ;
+    nif:endIndex "553" ;
+    nif:head "bgnProc:519__Verzetsmonument_Deventer.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w98> nif:BeginIndex "554" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "559" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_108t_109t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w109w110w111> ;
+    xs:date "1953-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_114> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w115> ;
+    xs:gYear "1957" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w117w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_130> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w131> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_134t_135t_136t_137t_138t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w135w136w137w138w139w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_138t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w139w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_146t_147t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w147w148w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_22t_23t_24t_25t_26t_27t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w23w24w25w26w27w28w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_41t_42t_43t_44t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w42w43w44w45w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_47t_48t_49t_50t_51t_52t_53t_54t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w48w49w50w51w52w53w54w55w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_67t_68t_69t_70t_71t_72t_73t_74t_75t_76t_77t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w68w69w70w71w72w73w74w75w76w77w78w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_84t_85t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w85w86w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_87t_88t_89t_90t_91t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w88w89w90w91w92w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_94t_95t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w95w96w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w59w60> .
+
+bgn:Person-519 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w100w101w102>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w162>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w165w166>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w20w21>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w64w65>,
+        <http://data.biographynet.nl/rdf/170506221754/519__Verzetsmonument_Deventer.naf#w8> .
+

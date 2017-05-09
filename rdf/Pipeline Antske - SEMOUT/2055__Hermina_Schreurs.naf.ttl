@@ -1,0 +1,903 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_113t_114t_115t_116t_117t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_172t_173t_174t_175t_176t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_175t_176t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_197t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_209t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_213t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_220t_221t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_223t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_256t_257t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_263t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_300>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_84t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_94>,
+        bgn:Person-2055 ;
+    ore:proxyFor bgn:Person-2055 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w110> nif:lemma "huwelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w114> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w137> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w139> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w147> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w149> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w154> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w174> nif:lemma "villa" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w206> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w210> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w214> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w221> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w224> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w257> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w265> nif:lemma "verzetsherdenkingskruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w58> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w64> nif:lemma "verzetsstrijder" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2055__Hermina_Schreurs#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2055__Hermina_Schreurs .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2055 ;
+    bgn:aggregatedPerson bgn:Person-2055 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2055__Hermina_Schreurs ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2055__Hermina_Schreurs ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w106> ;
+    pb:A0 bgn:Person-2055 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_107> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_113t_114t_115t_116t_117t_118> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w112> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_108t_109> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w12w13w14> ;
+    xs:date "1991-09-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w136> ;
+    pb:Arg1 bgn:Person-2055 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_138t_139t_140> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_136t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w144> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_144> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_145> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_148t_149> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_146t_147> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w16> ;
+    pb:ArgM-TMP bgn:Person-2055 .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_152> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w153> ;
+    pb:A1 bgn:Person-2055 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_165>,
+        bgn:Person-2055 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_153t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_175t_176t_177> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w176w177w178> ;
+    xs:date "1944-09-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w180> ;
+    pb:A0 bgn:Person-2055 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_172t_173t_174t_175t_176t_177> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w187> ;
+    pb:Arg1 bgn:Person-2055 ;
+    pb:ArgM-TMP bgn:Person-2055 .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w197> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_197t_198t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w198> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w201> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_195> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_199> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w205> ;
+    pb:Arg0 bgn:Person-2055 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_205t_206> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w207> ;
+    pb:Arg0 bgn:Person-2055 .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w209> ;
+    pb:A1 bgn:Person-2055 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_213t_214> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_209t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w226> ;
+    pb:A1 bgn:Person-2055 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_223t_224> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_220t_221t_222> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w231> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_232> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_228> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_229> ;
+    pb:ArgM-TMP bgn:Person-2055 .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_233> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_246> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w247> ;
+    pb:Arg1 bgn:Person-2055 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_245> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_237> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_249> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_252t_253> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w253w254> ;
+    xs:period "P3W" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w266> ;
+    pb:Arg0 bgn:Person-2055 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_263t_264> ;
+    pb:Arg2 bgn:Person-2055 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_256t_257t_258> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w29> ;
+    pb:A1 bgn:Person-2055 ;
+    pb:AM-EXT bgn:Person-2055 ;
+    pb:AM-PRD bgn:Person-2055 .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_295> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w296> ;
+    xs:gYear "1943",
+        "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_300> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w301> ;
+    xs:gYear "2015" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w47> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_45> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_76>,
+        bgn:Person-2055 .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w57> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_57t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w6w7w8> ;
+    xs:date "1914-05-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w78> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_62t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w83> ;
+    pb:A0 bgn:Person-2055 ;
+    pb:A2 bgn:Person-2055 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_84t_85t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w104w105> nif:anchorOf "Piet Alberts" ;
+    nif:beginIndex "615" ;
+    nif:endIndex "627" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w106> nif:BeginIndex "628" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "632" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w107> nif:anchorOf "niet" ;
+    nif:beginIndex "633" ;
+    nif:endIndex "637" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w107" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w108> nif:anchorOf "waar" ;
+    nif:beginIndex "638" ;
+    nif:endIndex "642" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w108" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w109w110> nif:anchorOf "het huwelijk" ;
+    nif:beginIndex "643" ;
+    nif:endIndex "655" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w110" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w112> nif:BeginIndex "661" ;
+    nif:anchorOf "voltrokken" ;
+    nif:endIndex "671" ;
+    nif:lemma "voltrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w114w115w116w117w118w119> nif:anchorOf "in de pastorie van ds. H." ;
+    nif:beginIndex "673" ;
+    nif:endIndex "698" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w114" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w123> nif:anchorOf "Wilhelminastraat" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "728" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w125> nif:anchorOf "Enschede" ;
+    nif:beginIndex "732" ;
+    nif:endIndex "740" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w12w13w14> nif:anchorOf "4 september 1991" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w133w134w135> nif:anchorOf "Charles de Wolff" ;
+    nif:beginIndex "781" ;
+    nif:endIndex "797" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w136> nif:BeginIndex "798" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "805" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w137w138> nif:anchorOf "als 12-jarige" ;
+    nif:beginIndex "806" ;
+    nif:endIndex "819" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w139w140w141> nif:anchorOf "op het harmonium" ;
+    nif:beginIndex "820" ;
+    nif:endIndex "836" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w139" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w143> nif:anchorOf "Later" ;
+    nif:beginIndex "838" ;
+    nif:endIndex "843" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w143" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w144> nif:BeginIndex "844" ;
+    nif:anchorOf "begeleidde" ;
+    nif:endIndex "854" ;
+    nif:lemma "begeleiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w145> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "855" ;
+    nif:endIndex "858" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w145" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w146> a bgn:pron_3fs ;
+    nif:anchorOf "haar" ;
+    nif:beginIndex "859" ;
+    nif:endIndex "863" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w146" ;
+    nif:lemma "haar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w147w148> nif:anchorOf "als zangeres" ;
+    nif:beginIndex "864" ;
+    nif:endIndex "876" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w149w150> nif:anchorOf "op zanguitvoeringen" ;
+    nif:beginIndex "877" ;
+    nif:endIndex "896" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w149" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w150> nif:BeginIndex "880" ;
+    nif:anchorOf "zanguitvoeringen" ;
+    nif:endIndex "896" ;
+    nif:lemma "zang_uitvoering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w152> nif:anchorOf "Minie" ;
+    nif:beginIndex "899" ;
+    nif:endIndex "904" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w153> nif:BeginIndex "905" ;
+    nif:anchorOf "trok" ;
+    nif:endIndex "909" ;
+    nif:lemma "in_trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w154w155w156> nif:anchorOf "na haar huwelijk" ;
+    nif:beginIndex "910" ;
+    nif:endIndex "926" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w154" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w16> nif:BeginIndex "68" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "71" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w162w163w164> nif:anchorOf "Johannes Huize Lidwina" ;
+    nif:beginIndex "955" ;
+    nif:endIndex "977" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w166> nif:anchorOf "Zenderen" ;
+    nif:beginIndex "981" ;
+    nif:endIndex "989" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w170> nif:anchorOf "Hilbrink" ;
+    nif:beginIndex "1005" ;
+    nif:endIndex "1013" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w173w174w175w176w177w178> nif:anchorOf "de villa op 23 september 1944" ;
+    nif:beginIndex "1020" ;
+    nif:endIndex "1049" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w174" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w176w177w178> nif:anchorOf "23 september 1944" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1049" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w180> nif:BeginIndex "1055" ;
+    nif:anchorOf "overvallen" ;
+    nif:endIndex "1065" ;
+    nif:lemma "overvallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w183> nif:anchorOf "SD" ;
+    nif:beginIndex "1074" ;
+    nif:endIndex "1076" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w186> nif:anchorOf "Minie" ;
+    nif:beginIndex "1083" ;
+    nif:endIndex "1088" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w187> nif:BeginIndex "1089" ;
+    nif:anchorOf "gevangengenomen" ;
+    nif:endIndex "1104" ;
+    nif:lemma "gevangen_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w193w194> nif:anchorOf "Jo Krabbenbos" ;
+    nif:beginIndex "1138" ;
+    nif:endIndex "1151" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w196> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1155" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w196" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w197> nif:BeginIndex "1156" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "1162" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w198> nif:BeginIndex "1163" ;
+    nif:anchorOf "gemarteld" ;
+    nif:endIndex "1172" ;
+    nif:lemma "martelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w198w199w200w201> nif:anchorOf "gemarteld en later vrijgelaten" ;
+    nif:beginIndex "1163" ;
+    nif:endIndex "1193" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w198" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w19w20> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "83" ;
+    nif:endIndex "102" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w1w2> nif:anchorOf "Schreurs" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w200> nif:anchorOf "later" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1181" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w200" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w201> nif:BeginIndex "1182" ;
+    nif:anchorOf "vrijgelaten" ;
+    nif:endIndex "1193" ;
+    nif:lemma "vrij_laten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w203> nif:anchorOf "Minie" ;
+    nif:beginIndex "1195" ;
+    nif:endIndex "1200" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w205> nif:BeginIndex "1205" ;
+    nif:anchorOf "geprobeerd" ;
+    nif:endIndex "1215" ;
+    nif:lemma "proberen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w206w207> nif:anchorOf "te vluchten" ;
+    nif:beginIndex "1216" ;
+    nif:endIndex "1227" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w207> nif:BeginIndex "1219" ;
+    nif:anchorOf "vluchten" ;
+    nif:endIndex "1227" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w209> nif:BeginIndex "1233" ;
+    nif:anchorOf "raakte" ;
+    nif:endIndex "1239" ;
+    nif:lemma "raken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w210w211w212> nif:anchorOf "met haar rok" ;
+    nif:beginIndex "1240" ;
+    nif:endIndex "1252" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w213> nif:anchorOf "vast" ;
+    nif:beginIndex "1253" ;
+    nif:endIndex "1257" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w213" ;
+    nif:lemma "vast" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w214w215> nif:anchorOf "in prikkeldraad" ;
+    nif:beginIndex "1258" ;
+    nif:endIndex "1273" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w218w219> nif:anchorOf "Coen Hilbrink" ;
+    nif:beginIndex "1280" ;
+    nif:endIndex "1293" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w221w222w223> nif:anchorOf "op haar geroep" ;
+    nif:beginIndex "1301" ;
+    nif:endIndex "1315" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w224w225> nif:anchorOf "te hulp" ;
+    nif:beginIndex "1316" ;
+    nif:endIndex "1323" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w224" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w226> nif:BeginIndex "1324" ;
+    nif:anchorOf "schoot" ;
+    nif:endIndex "1330" ;
+    nif:lemma "schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w229> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1337" ;
+    nif:endIndex "1340" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w229" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w230> nif:anchorOf "dodelijk" ;
+    nif:beginIndex "1341" ;
+    nif:endIndex "1349" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w230" ;
+    nif:lemma "dodelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w231> nif:BeginIndex "1350" ;
+    nif:anchorOf "getroffen" ;
+    nif:endIndex "1359" ;
+    nif:lemma "treffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w233> nif:anchorOf "Duits" ;
+    nif:beginIndex "1365" ;
+    nif:endIndex "1370" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w234> nif:BeginIndex "1371" ;
+    nif:anchorOf "geweervuur" ;
+    nif:endIndex "1381" ;
+    nif:lemma "geweervuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w238> nif:anchorOf "dag" ;
+    nif:beginIndex "1395" ;
+    nif:endIndex "1398" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w24> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "123" ;
+    nif:endIndex "134" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w242w243w244> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "1420" ;
+    nif:endIndex "1438" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w246> nif:anchorOf "Usselo" ;
+    nif:beginIndex "1442" ;
+    nif:endIndex "1448" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w247> nif:BeginIndex "1449" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1461" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w250> nif:BeginIndex "1466" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1471" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w253w254> nif:anchorOf "drie weken" ;
+    nif:beginIndex "1481" ;
+    nif:endIndex "1491" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w257w258w259> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "1503" ;
+    nif:endIndex "1515" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w257" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w262w263> nif:anchorOf "Hermina Schreurs" ;
+    nif:beginIndex "1525" ;
+    nif:endIndex "1541" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w264w265> nif:anchorOf "het verzetsherdenkingskruis" ;
+    nif:beginIndex "1542" ;
+    nif:endIndex "1569" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w265" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w266> nif:BeginIndex "1570" ;
+    nif:anchorOf "uitgereikt" ;
+    nif:endIndex "1580" ;
+    nif:lemma "uit_reiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w268> nif:anchorOf "Prins" ;
+    nif:beginIndex "1586" ;
+    nif:endIndex "1591" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w269> nif:anchorOf "Bernhard" ;
+    nif:beginIndex "1592" ;
+    nif:endIndex "1600" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w275> nif:anchorOf "Koepelgevangenis" ;
+    nif:beginIndex "1630" ;
+    nif:endIndex "1646" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w277w278w279> nif:anchorOf "Huis van Bewaring" ;
+    nif:beginIndex "1650" ;
+    nif:endIndex "1667" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w27w28> nif:anchorOf "Minie Schreurs" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "158" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w281> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "1671" ;
+    nif:endIndex "1677" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w284w285w286w287w288> nif:anchorOf "Johannes ter Horst Coen Hilbrink" ;
+    nif:beginIndex "1692" ;
+    nif:endIndex "1725" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w29> nif:BeginIndex "159" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "165" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w290w291w292w293w294w295w296w297w298w299> nif:anchorOf "Knokploegen Religie en gewapend verzet 1943-1944 Boom Amsterdam" ;
+    nif:beginIndex "1727" ;
+    nif:endIndex "1792" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w296> nif:anchorOf "1943-1944" ;
+    nif:beginIndex "1767" ;
+    nif:endIndex "1776" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w301> nif:anchorOf "2015" ;
+    nif:beginIndex "1794" ;
+    nif:endIndex "1798" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w34> nif:anchorOf "KP-Twente" ;
+    nif:beginIndex "190" ;
+    nif:endIndex "199" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w39w40w41> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "215" ;
+    nif:endIndex "233" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w4> nif:anchorOf "Enschede" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w43w44> nif:anchorOf "Geert Schoonman" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "252" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w46> a bgn:pron_3fs ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "256" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w46" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w47> nif:BeginIndex "257" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "260" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w51w52w53> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "277" ;
+    nif:endIndex "295" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w57> nif:BeginIndex "316" ;
+    nif:anchorOf "bevrijdingsactie" ;
+    nif:endIndex "332" ;
+    nif:lemma "bevrijding_actie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w58w59w60> nif:anchorOf "van het verzet" ;
+    nif:beginIndex "333" ;
+    nif:endIndex "347" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w63w64> nif:anchorOf "54 verzetsstrijders" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "376" ;
+    nif:head "bgnProc:2055__Hermina_Schreurs.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w6w7w8> nif:anchorOf "24 mei 1914" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w73w74w75> nif:anchorOf "Huis van Bewaring" ;
+    nif:beginIndex "420" ;
+    nif:endIndex "437" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w77> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "441" ;
+    nif:endIndex "447" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w78> nif:BeginIndex "448" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "452" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w81w82> nif:anchorOf "Minie Schreurs" ;
+    nif:beginIndex "463" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w83> nif:BeginIndex "478" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "485" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w85w86w87> nif:anchorOf "6 september 1944" ;
+    nif:beginIndex "489" ;
+    nif:endIndex "505" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w89w90w91> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "528" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w95> nif:BeginIndex "543" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "546" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_113t_114t_115t_116t_117t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w114w115w116w117w118w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_136t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w137w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_138t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w139w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_153t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w154w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_172t_173t_174t_175t_176t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w173w174w175w176w177w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_197t_198t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w198w199w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_199> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w200> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_205t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w206w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_209t_210t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w210w211w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_213t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w214w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_220t_221t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w221w222w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_223t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w224w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_228> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_237> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w238> ;
+    xs:period "P1D" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_256t_257t_258> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w257w258w259> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_263t_264> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w264w265> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_62t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w63w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_84t_85t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w85w86w87> ;
+    xs:date "1944-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w196> .
+
+bgn:Person-2055 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w104w105>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w125>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w133w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w152>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w162w163w164>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w183>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w193w194>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w19w20>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w203>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w218w219>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w233>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w242w243w244>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w246>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w262w263>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w268>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w269>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w275>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w277w278w279>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w27w28>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w281>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w284w285w286w287w288>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w290w291w292w293w294w295w296w297w298w299>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w39w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w51w52w53>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w73w74w75>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w77>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w81w82>,
+        <http://data.biographynet.nl/rdf/170506221754/2055__Hermina_Schreurs.naf#w89w90w91> ;
+    stevensFam:isPartnerIn bgn:Person-2055 .
+

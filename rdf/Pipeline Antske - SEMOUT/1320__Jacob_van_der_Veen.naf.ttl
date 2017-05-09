@@ -1,0 +1,412 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_111t_112t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_122t_123t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_132t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_136t_137t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_28t_29t_30t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_29t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_90>,
+        bgn:Person-1320 ;
+    ore:proxyFor bgn:Person-1320 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w123> nif:lemma "één" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w133> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w29> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w31> nif:lemma "oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w48> nif:lemma "onder" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1320__Jacob_van_der_Veen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1320__Jacob_van_der_Veen .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1320 ;
+    bgn:aggregatedPerson bgn:Person-1320 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1320__Jacob_van_der_Veen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1320__Jacob_van_der_Veen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w109> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_111t_112t_113> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w112w113w114> ;
+    xs:date "1944-09-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w115> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w127> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_122t_123t_124t_125> ;
+    pb:Arg1 bgn:Person-1320 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w132> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_122t_123t_124t_125> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_132t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w134> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_122t_123t_124t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_136t_137t_138> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w137w138w139> ;
+    xs:date "1944-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w140> ;
+    pb:Arg1 bgn:Person-1320 .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w14w15w16> ;
+    xs:date "1944-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w32> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_29t_30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w33> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_28t_29t_30t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w63> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_45> ;
+    pb:Arg1 bgn:Person-1320 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_56>,
+        bgn:Person-1320 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w67> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w8w9w10> ;
+    xs:date "1891-04-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w100> nif:anchorOf "KP-Amsterdam" ;
+    nif:beginIndex "519" ;
+    nif:endIndex "531" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w107> nif:anchorOf "die" ;
+    nif:beginIndex "582" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w107" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w109> nif:BeginIndex "594" ;
+    nif:anchorOf "onderduiken" ;
+    nif:endIndex "605" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w112w113w114> nif:anchorOf "1 september 1944" ;
+    nif:beginIndex "611" ;
+    nif:endIndex "627" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w115> nif:BeginIndex "628" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "630" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w116> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "634" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w116" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w12> nif:anchorOf "Vught" ;
+    nif:beginIndex "49" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w120> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "649" ;
+    nif:endIndex "657" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w123w124w125w126> nif:anchorOf "Een van zijn zoons" ;
+    nif:beginIndex "672" ;
+    nif:endIndex "690" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w127> nif:BeginIndex "691" ;
+    nif:anchorOf "schoot" ;
+    nif:endIndex "697" ;
+    nif:lemma "neer_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w129> nif:anchorOf "Duitser" ;
+    nif:beginIndex "702" ;
+    nif:endIndex "709" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w130> nif:anchorOf "neer" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "714" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w130" ;
+    nif:lemma "neer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w132> nif:BeginIndex "718" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "722" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w133w134> nif:anchorOf "te ontkomen" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "734" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w134> nif:BeginIndex "726" ;
+    nif:anchorOf "ontkomen" ;
+    nif:endIndex "734" ;
+    nif:lemma "ontkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w137w138w139> nif:anchorOf "6 september 1944" ;
+    nif:beginIndex "739" ;
+    nif:endIndex "755" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w140> nif:BeginIndex "756" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "758" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w141w142w143w144> nif:anchorOf "Jacob van der Veen" ;
+    nif:beginIndex "759" ;
+    nif:endIndex "777" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w14w15w16> nif:anchorOf "6 september 1944" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w151w152> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "805" ;
+    nif:endIndex "815" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w18> nif:BeginIndex "74" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "77" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w1w2w3w4> nif:anchorOf "van der Veen" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w20> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "82" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w29w30w31w32> nif:anchorOf "Vóór de oorlog begon" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "176" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w30w31> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "161" ;
+    nif:endIndex "170" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w32> nif:BeginIndex "171" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "176" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w33> nif:BeginIndex "177" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "180" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w37> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "199" ;
+    nif:endIndex "208" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w46> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "247" ;
+    nif:endIndex "250" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w46" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w48w49> nif:anchorOf "onder meer" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "267" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w51> nif:anchorOf "1940" ;
+    nif:beginIndex "271" ;
+    nif:endIndex "275" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w54> nif:anchorOf "Schuttersweg" ;
+    nif:beginIndex "283" ;
+    nif:endIndex "295" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w57> nif:anchorOf "Hilversum" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "311" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w6> nif:anchorOf "Dantumadeel" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w62> nif:anchorOf "NCRV" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "335" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w63> nif:BeginIndex "336" ;
+    nif:anchorOf "opgeleverd" ;
+    nif:endIndex "346" ;
+    nif:lemma "op_leveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w67> nif:BeginIndex "357" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "359" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w68> nif:anchorOf "thans" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "365" ;
+    nif:head "bgnProc:1320__Jacob_van_der_Veen.naf#w68" ;
+    nif:lemma "thans" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w72w73> nif:anchorOf "PNO Media" ;
+    nif:beginIndex "382" ;
+    nif:endIndex "391" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w83> nif:anchorOf "Rijksmonument" ;
+    nif:beginIndex "434" ;
+    nif:endIndex "447" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w8w9w10> nif:anchorOf "21 april 1891" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w91> nif:BeginIndex "480" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "483" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w94w95w96w97> nif:anchorOf "Jacob van der Veen" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "510" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_132t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w133w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_28t_29t_30t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w29w30w31w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_29t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w30w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_50> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w51> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#t_122t_123t_124t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w123w124w125w126> .
+
+bgn:Person-1320 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w100>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w141w142w143w144>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w151w152>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w54>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1320__Jacob_van_der_Veen.naf#w94w95w96w97> .
+

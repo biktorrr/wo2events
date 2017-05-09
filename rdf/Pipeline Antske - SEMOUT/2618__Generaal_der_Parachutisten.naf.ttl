@@ -1,0 +1,259 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_51t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_75t_76t_77t_78t_79t_80t_81t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_80>,
+        bgn:Person-2618 ;
+    ore:proxyFor bgn:Person-2618 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w52> nif:lemma "naast" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w60> nif:lemma "rang" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w78> nif:lemma "rang" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2618__Generaal_der_Parachutisten#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2618__Generaal_der_Parachutisten .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2618 ;
+    bgn:aggregatedPerson bgn:Person-2618 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2618__Generaal_der_Parachutisten ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2618__Generaal_der_Parachutisten ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_10> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w11> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w55> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_58t_59> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_51t_52t_53>,
+        bgn:Person-2618 ;
+    pb:ArgM-MNR bgn:Person-2618 .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w72> ;
+    pb:A0 bgn:Person-2618 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_75t_76t_77t_78t_79t_80t_81t_82t_83t_84t_85> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_72> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w102> nif:anchorOf "Pantsertroepen" ;
+    nif:beginIndex "657" ;
+    nif:endIndex "671" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w106> nif:anchorOf "Bergtroepen" ;
+    nif:beginIndex "686" ;
+    nif:endIndex "697" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w11> nif:BeginIndex "66" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "69" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w110> nif:anchorOf "Genie-troepen" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "725" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w114> nif:anchorOf "Verbindingstroepen" ;
+    nif:beginIndex "742" ;
+    nif:endIndex "760" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w16> nif:anchorOf "Luftwaffe" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "94" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w21> nif:anchorOf "Parachutisten" ;
+    nif:beginIndex "113" ;
+    nif:endIndex "126" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w22> nif:BeginIndex "127" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "130" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w3> nif:anchorOf "Parachutisten" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w31> nif:anchorOf "Britse" ;
+    nif:beginIndex "183" ;
+    nif:endIndex "189" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w35> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w39> nif:BeginIndex "226" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "229" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w5> nif:anchorOf "Duits" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w52w53w54> nif:anchorOf "Naast deze functie" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "325" ;
+    nif:head "bgnProc:2618__Generaal_der_Parachutisten.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w55> nif:BeginIndex "326" ;
+    nif:anchorOf "bestonden" ;
+    nif:endIndex "335" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w58> nif:anchorOf "Luftwaffe" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "351" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w59w60> nif:anchorOf "gelijkwaardige rangen" ;
+    nif:beginIndex "352" ;
+    nif:endIndex "373" ;
+    nif:head "bgnProc:2618__Generaal_der_Parachutisten.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w65> nif:anchorOf "Vliegeniers" ;
+    nif:beginIndex "397" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w69> nif:anchorOf "Verbindingstroepen" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "443" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w71> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "445" ;
+    nif:endIndex "454" ;
+    nif:head "bgnProc:2618__Generaal_der_Parachutisten.naf#w71" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w72> nif:BeginIndex "455" ;
+    nif:anchorOf "kende" ;
+    nif:endIndex "460" ;
+    nif:lemma "kennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w73> nif:anchorOf "ook" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "464" ;
+    nif:head "bgnProc:2618__Generaal_der_Parachutisten.naf#w73" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w75> nif:anchorOf "Wehrmacht" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w76w77w78w79w80w81w82w83w84w85w86> nif:anchorOf "dergelijke gelijkwaardige rangen die gespecialiseerd waren in een soort van oorlogsvoering" ;
+    nif:beginIndex "478" ;
+    nif:endIndex "568" ;
+    nif:head "bgnProc:2618__Generaal_der_Parachutisten.naf#w78" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w7w8w9> nif:anchorOf "General der Fallschirmtruppe" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "64" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w81> nif:BeginIndex "531" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "536" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w90> nif:anchorOf "Infanterie" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w94> nif:anchorOf "Cavalerie" ;
+    nif:beginIndex "608" ;
+    nif:endIndex "617" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w98> nif:anchorOf "Artillerie" ;
+    nif:beginIndex "632" ;
+    nif:endIndex "642" .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_51t_52t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w52w53w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#t_75t_76t_77t_78t_79t_80t_81t_82t_83t_84t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w76w77w78w79w80w81w82w83w84w85w86> .
+
+bgn:Person-2618 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w58>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w7w8w9>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w94>,
+        <http://data.biographynet.nl/rdf/170506221754/2618__Generaal_der_Parachutisten.naf#w98> .
+

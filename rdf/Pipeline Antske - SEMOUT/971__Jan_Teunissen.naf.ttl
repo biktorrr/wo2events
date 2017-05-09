@@ -1,0 +1,684 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_133t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_149t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_154t_155t_156t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_207t_208t_209t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_218t_219t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_227t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_74t_75t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_95>,
+        bgn:Person-971 ;
+    ore:proxyFor bgn:Person-971 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w107> nif:lemma "ster" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w155> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w208> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-971__Jan_Teunissen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-971__Jan_Teunissen .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-971 ;
+    bgn:aggregatedPerson bgn:Person-971 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-971__Jan_Teunissen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-971__Jan_Teunissen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w108> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_105t_106> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w112> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_113> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w12w13w14> ;
+    xs:date "1975-12-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w131> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_129> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_133t_134t_135> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_145> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w146> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_149t_150t_151> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w150w151w152> ;
+    xs:date "1942-01-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_152> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w153> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_153> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_154t_155t_156t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w167> ;
+    pb:Arg1 bgn:Person-971 ;
+    pb:Arg2 bgn:Person-971 .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w184> ;
+    pb:ArgM-TMP bgn:Person-971 .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_200> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w201> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_201> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_21> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w22> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w212> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_207t_208t_209t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_218t_219t_220> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_223> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w231> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_226>,
+        bgn:Person-971 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_227t_228> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_237> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w238> ;
+    pb:ArgM-LOC bgn:Person-971 .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w25> ;
+    pb:Arg1 bgn:Person-971 .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w36> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_36> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_37> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_42> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w43> ;
+    xs:gYear "1928" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_47> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w48> ;
+    xs:gYear "1931" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_52> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w53> ;
+    xs:gYear "1931" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w58> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_58> ;
+    pb:Arg1 bgn:Person-971 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w78> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_74t_75t_76> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w8w9w10> ;
+    xs:date "1898-04-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_94> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w95> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w96> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_93t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w101> nif:anchorOf "Filmdienst" ;
+    nif:beginIndex "515" ;
+    nif:endIndex "525" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w104> nif:anchorOf "NSB" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "536" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w106w107> nif:anchorOf "Zijn ster" ;
+    nif:beginIndex "538" ;
+    nif:endIndex "547" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w108> nif:BeginIndex "548" ;
+    nif:anchorOf "rees" ;
+    nif:endIndex "552" ;
+    nif:lemma "rijzen" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w109> nif:anchorOf "snel" ;
+    nif:beginIndex "553" ;
+    nif:endIndex "557" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w112> nif:BeginIndex "565" ;
+    nif:anchorOf "duurde" ;
+    nif:endIndex "571" ;
+    nif:lemma "duren" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w113> nif:anchorOf "niet" ;
+    nif:beginIndex "572" ;
+    nif:endIndex "576" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w113" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w114> nif:anchorOf "lang" ;
+    nif:beginIndex "577" ;
+    nif:endIndex "581" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w114" ;
+    nif:lemma "lang" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w117> nif:BeginIndex "589" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "592" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w123> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "617" ;
+    nif:endIndex "628" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w127w128> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "672" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w12w13w14> nif:anchorOf "24 december 1975" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "71" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w130> nif:anchorOf "Zo" ;
+    nif:beginIndex "674" ;
+    nif:endIndex "676" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w130" ;
+    nif:lemma "zo" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w131> nif:BeginIndex "677" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "681" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w134w135w136> nif:anchorOf "12 juni 1941" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "701" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w141w142> nif:anchorOf "Nederlandsche SS" ;
+    nif:beginIndex "726" ;
+    nif:endIndex "742" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w146> nif:anchorOf "jaar" ;
+    nif:beginIndex "753" ;
+    nif:endIndex "757" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w150w151w152> nif:anchorOf "22 januari 1942" ;
+    nif:beginIndex "768" ;
+    nif:endIndex "783" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w153> nif:BeginIndex "784" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "788" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w154> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "789" ;
+    nif:endIndex "792" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w154" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w155w156w157w158> nif:anchorOf "door prof. dr. T." ;
+    nif:beginIndex "793" ;
+    nif:endIndex "810" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w155" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w159> nif:anchorOf "Goedewaagen" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "822" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w16> nif:BeginIndex "73" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "76" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w164w165> nif:anchorOf "Nederlandsche Kultuurkamer" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "867" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w167> nif:BeginIndex "869" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "876" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w172> nif:anchorOf "Filmgilde" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "905" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w18> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "81" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w181> nif:BeginIndex "943" ;
+    nif:anchorOf "Rijksfilmkeuring" ;
+    nif:beginIndex "943" ;
+    nif:endIndex "959" ;
+    nif:lemma "Rijks_film_keuring" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w182> nif:BeginIndex "960" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "963" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w184> nif:BeginIndex "973" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "977" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w194> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1045" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w1w2w3> nif:anchorOf "Johannes Teunissen" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w201> nif:anchorOf "jaren" ;
+    nif:beginIndex "1081" ;
+    nif:endIndex "1086" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w202> nif:BeginIndex "1087" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1090" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w208w209w210w211> nif:anchorOf "Na de geallieerde overwinning" ;
+    nif:beginIndex "1108" ;
+    nif:endIndex "1137" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w208" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w212> nif:BeginIndex "1138" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1142" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w215w216w217> nif:anchorOf "5 november 1945" ;
+    nif:beginIndex "1151" ;
+    nif:endIndex "1166" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w219w220w221> nif:anchorOf "10 mei 1948" ;
+    nif:beginIndex "1171" ;
+    nif:endIndex "1182" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w22> nif:anchorOf "Jan" ;
+    nif:beginIndex "127" ;
+    nif:endIndex "130" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w224> nif:BeginIndex "1196" ;
+    nif:anchorOf "Opvolgend" ;
+    nif:endIndex "1205" ;
+    nif:lemma "op_volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w227> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1215" ;
+    nif:endIndex "1218" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w227" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w228w229> nif:anchorOf "tien jaar" ;
+    nif:beginIndex "1219" ;
+    nif:endIndex "1228" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w22w23> nif:anchorOf "Jan Teunissen" ;
+    nif:beginIndex "127" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w231> nif:BeginIndex "1234" ;
+    nif:anchorOf "verboden" ;
+    nif:endIndex "1242" ;
+    nif:lemma "verbieden" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w234> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1249" ;
+    nif:endIndex "1260" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w238> nif:BeginIndex "1287" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1291" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w25> nif:BeginIndex "146" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "153" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w31> nif:anchorOf "Haagse" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "180" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w35> nif:anchorOf "1928" ;
+    nif:beginIndex "198" ;
+    nif:endIndex "202" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w36> nif:BeginIndex "203" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "209" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w37> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "210" ;
+    nif:endIndex "213" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w37" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w38> nif:anchorOf "films" ;
+    nif:beginIndex "214" ;
+    nif:endIndex "219" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w38" ;
+    nif:lemma "film" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w43> nif:anchorOf "1928" ;
+    nif:beginIndex "239" ;
+    nif:endIndex "243" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w46> nif:anchorOf "Pierement" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "255" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w48> nif:anchorOf "1931" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "261" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w51> nif:anchorOf "Sjabbos" ;
+    nif:beginIndex "266" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w53> nif:anchorOf "1931" ;
+    nif:beginIndex "275" ;
+    nif:endIndex "279" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w57> nif:anchorOf "1933" ;
+    nif:beginIndex "285" ;
+    nif:endIndex "289" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w58> nif:BeginIndex "290" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "296" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w59> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "297" ;
+    nif:endIndex "300" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w59" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w5w6> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "37" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w62> nif:BeginIndex "313" ;
+    nif:anchorOf "speelfilm" ;
+    nif:endIndex "322" ;
+    nif:lemma "speel_film" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w64w65w66> nif:anchorOf "Willem van Oranje" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "341" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w69> nif:BeginIndex "347" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "350" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w70> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "351" ;
+    nif:endIndex "361" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w72> nif:BeginIndex "369" ;
+    nif:anchorOf "geluidsfilm" ;
+    nif:endIndex "380" ;
+    nif:lemma "geluid_film" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w75w76w77> nif:anchorOf "27 augustus 1940" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "402" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w78> nif:BeginIndex "403" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "407" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w83w84> nif:anchorOf "Nationaal-Socialistische Beweging" ;
+    nif:beginIndex "423" ;
+    nif:endIndex "456" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w86> nif:anchorOf "NSB" ;
+    nif:beginIndex "458" ;
+    nif:endIndex "461" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w8w9w10> nif:anchorOf "15 april 1898" ;
+    nif:beginIndex "39" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w90> nif:anchorOf "A.A" ;
+    nif:beginIndex "471" ;
+    nif:endIndex "474" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w92> nif:anchorOf "Mussert" ;
+    nif:beginIndex "476" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w94w95> nif:anchorOf "Al snel" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "492" ;
+    nif:head "bgnProc:971__Jan_Teunissen.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w95> nif:anchorOf "snel" ;
+    nif:beginIndex "488" ;
+    nif:endIndex "492" ;
+    nif:lemma "snel" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w96> nif:BeginIndex "493" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "497" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_108> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w109> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_133t_134t_135> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w134w135w136> ;
+    xs:date "1941-06-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_154t_155t_156t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w155w156w157w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_207t_208t_209t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w208w209w210w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_214t_215t_216> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w215w216w217> ;
+    xs:date "1945-11-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_218t_219t_220> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w219w220w221> ;
+    xs:date "1948-05-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_226> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w227> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_227t_228> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w228w229> ;
+    xs:period "P10Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_34> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w35> ;
+    xs:gYear "1928" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_56> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w57> ;
+    xs:gYear "1933" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_74t_75t_76> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w75w76w77> ;
+    xs:date "1940-08-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w94w95> .
+
+bgn:Person-971 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w104>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w127w128>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w141w142>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w164w165>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w172>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w181>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w234>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w64w65w66>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w70>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w83w84>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w86>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/971__Jan_Teunissen.naf#w92> .
+

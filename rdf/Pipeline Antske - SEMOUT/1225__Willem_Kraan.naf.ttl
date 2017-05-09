@@ -1,0 +1,558 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_103t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_143t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_148t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_172t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_180t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_65t_66t_67t_68t_69t_70t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_91t_92t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_9t_10t_11>,
+        bgn:Person-1225 ;
+    ore:proxyFor bgn:Person-1225 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w104> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w129> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w144> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w149> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w189> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w66> nif:lemma "nadat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w93> nif:lemma "monument" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1225__Willem_Kraan#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1225__Willem_Kraan .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1225 ;
+    bgn:aggregatedPerson bgn:Person-1225 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1225__Willem_Kraan ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1225__Willem_Kraan ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w103> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_91t_92t_93t_94t_95> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_103t_104t_105> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w109> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_107> ;
+    pb:A2 bgn:Person-1225 .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w117> ;
+    pb:ArgM-NEG bgn:Person-1225 .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w132> ;
+    pb:Arg0 bgn:Person-1225 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_127t_128> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w134> ;
+    pb:A0 bgn:Person-1225 ;
+    pb:A1 bgn:Person-1225 ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w147> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_151> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_148t_149t_150> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_143t_144t_145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_158> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w159> ;
+    xs:gYear "1966" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w16w17w18> ;
+    xs:date "1942-11-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_172t_173t_174> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w173w174w175> ;
+    xs:date "2017-02-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_180t_181t_182> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w181w182w183> ;
+    xs:date "1942-11-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w188> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_188t_189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_30> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w31> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w42> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_28> ;
+    pb:Arg2 bgn:Person-1225 .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w62> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_64> ;
+    pb:Arg1 bgn:Person-1225 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_56> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_65t_66t_67t_68t_69t_70t_71t_72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_68t_69t_70> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w69w70w71> ;
+    xs:date "1941-11-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w72> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w77> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_77> ;
+    pb:A1 bgn:Person-1225 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_78> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w10w11w12> ;
+    xs:date "1909-08-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w100> nif:anchorOf "1966" ;
+    nif:beginIndex "548" ;
+    nif:endIndex "552" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w102> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "556" ;
+    nif:endIndex "565" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w103> nif:BeginIndex "566" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "573" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w104w105w106> nif:anchorOf "te zijner nagedachtenis" ;
+    nif:beginIndex "574" ;
+    nif:endIndex "597" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w104" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w108> nif:anchorOf "Het" ;
+    nif:beginIndex "599" ;
+    nif:endIndex "602" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w108" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w109> nif:BeginIndex "603" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "608" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w10w11w12> nif:anchorOf "2 augustus 1909" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w112w113> nif:anchorOf "Willem Kraanstraat" ;
+    nif:beginIndex "615" ;
+    nif:endIndex "633" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w117> nif:BeginIndex "644" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "646" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w121w122> nif:anchorOf "Willem Kraan" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "676" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w125w126> nif:anchorOf "Leo Braat" ;
+    nif:beginIndex "690" ;
+    nif:endIndex "699" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w128w129> nif:anchorOf "het beeld" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "715" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w131> nif:anchorOf "1936" ;
+    nif:beginIndex "719" ;
+    nif:endIndex "723" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w132> nif:BeginIndex "724" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "731" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w134> nif:BeginIndex "735" ;
+    nif:anchorOf "stelt" ;
+    nif:endIndex "740" ;
+    nif:lemma "voor_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w135> nif:anchorOf "waarschijnlijk" ;
+    nif:beginIndex "741" ;
+    nif:endIndex "755" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w135" ;
+    nif:lemma "waarschijnlijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w14> nif:anchorOf "Soesterberg" ;
+    nif:beginIndex "64" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w140> nif:anchorOf "Spaanse" ;
+    nif:beginIndex "776" ;
+    nif:endIndex "783" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w141> nif:BeginIndex "784" ;
+    nif:anchorOf "burgeroorlog" ;
+    nif:endIndex "796" ;
+    nif:lemma "burger_oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w144w145w146> nif:anchorOf "Bij de rechterschouder" ;
+    nif:beginIndex "803" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w147> nif:BeginIndex "826" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "831" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w149w150w151> nif:anchorOf "aan de onbekende" ;
+    nif:beginIndex "833" ;
+    nif:endIndex "849" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w152> nif:anchorOf "soldaat" ;
+    nif:beginIndex "850" ;
+    nif:endIndex "857" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w152" ;
+    nif:lemma "soldaat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w159> nif:anchorOf "1966" ;
+    nif:beginIndex "881" ;
+    nif:endIndex "885" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w160> nif:BeginIndex "886" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "888" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w168> nif:anchorOf "Februaristaking" ;
+    nif:beginIndex "943" ;
+    nif:endIndex "958" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w16w17w18> nif:anchorOf "19 november 1942" ;
+    nif:beginIndex "77" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w171> nif:anchorOf "NRC" ;
+    nif:beginIndex "970" ;
+    nif:endIndex "973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w173w174w175> nif:anchorOf "16 februari 2017" ;
+    nif:beginIndex "975" ;
+    nif:endIndex "991" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w178w179> nif:anchorOf "Willem Kraan" ;
+    nif:beginIndex "1012" ;
+    nif:endIndex "1024" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w181w182w183> nif:anchorOf "19 november 1942" ;
+    nif:beginIndex "1026" ;
+    nif:endIndex "1042" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w185w186> nif:anchorOf "Stadarchief Amsterdam" ;
+    nif:beginIndex "1044" ;
+    nif:endIndex "1065" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w188> nif:BeginIndex "1067" ;
+    nif:anchorOf "geraadpleegd" ;
+    nif:endIndex "1079" ;
+    nif:lemma "geraadpleegd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w189w190> nif:anchorOf "op 16-2-2017" ;
+    nif:beginIndex "1080" ;
+    nif:endIndex "1092" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w1w2> nif:anchorOf "Johannes" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w20> nif:BeginIndex "95" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "98" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w22> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "103" ;
+    nif:endIndex "114" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w28> nif:anchorOf "CPN" ;
+    nif:beginIndex "142" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w29> nif:anchorOf "die" ;
+    nif:beginIndex "146" ;
+    nif:endIndex "149" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w29" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w31> nif:anchorOf "1941" ;
+    nif:beginIndex "153" ;
+    nif:endIndex "157" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w37w38> nif:anchorOf "Piet Nak" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "203" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w42> nif:BeginIndex "217" ;
+    nif:anchorOf "lag" ;
+    nif:endIndex "220" ;
+    nif:lemma "liggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w45> nif:anchorOf "Februaristaking" ;
+    nif:beginIndex "228" ;
+    nif:endIndex "243" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w47w48> nif:anchorOf "Willem Kraan" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "258" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w4w5w6> nif:anchorOf "Willem) Kraan" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w57> nif:anchorOf "Soesterberg" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "313" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w59w60w61> nif:anchorOf "19 november 1942" ;
+    nif:beginIndex "317" ;
+    nif:endIndex "333" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w62> nif:BeginIndex "334" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "346" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w65> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "355" ;
+    nif:endIndex "363" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w66w67w68w69w70w71w72w73> nif:anchorOf "nadat hij op 16 november 1941 was gearresteerd" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "410" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w67> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "373" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w67" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w69w70w71> nif:anchorOf "16 november 1941" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "393" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w72> nif:BeginIndex "394" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "397" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w76> nif:anchorOf "1966" ;
+    nif:beginIndex "416" ;
+    nif:endIndex "420" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w77> nif:BeginIndex "421" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "428" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w78> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "429" ;
+    nif:endIndex "432" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w78" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w79> nif:anchorOf "postuum" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "440" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w79" ;
+    nif:lemma "postuum" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w8> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w83w84w85w86> nif:anchorOf "Rechtvaardige onder de Volkeren" ;
+    nif:beginIndex "460" ;
+    nif:endIndex "491" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w89w90> nif:anchorOf "Jad Wasjem" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "507" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w92w93w94w95w96> nif:anchorOf "Het monument ' De antifascist" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "538" ;
+    nif:head "bgnProc:1225__Willem_Kraan.naf#w93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_103t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w104w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_130> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w131> ;
+    xs:gYear "1936" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_143t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w144w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_148t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w149w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_58t_59t_60> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w59w60w61> ;
+    xs:date "1942-11-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_65t_66t_67t_68t_69t_70t_71t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w66w67w68w69w70w71w72w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_75> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w76> ;
+    xs:gYear "1966" .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_91t_92t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w92w93w94w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#t_99> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w100> ;
+    xs:gYear "1966" .
+
+bgn:Person-1225 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w112w113>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w121w122>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w125w126>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w178w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w185w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w4w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w83w84w85w86>,
+        <http://data.biographynet.nl/rdf/170506221754/1225__Willem_Kraan.naf#w89w90> .
+

@@ -1,0 +1,865 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_125t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_136t_137t_138t_139t_140t_141t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_185t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_202t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_218t_219t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_235t_236t_237t_238t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_36t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_52t_53t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_74t_75t_76t_77t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_94t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_97>,
+        bgn:Person-919 ;
+    ore:proxyFor bgn:Person-919 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w124> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w126> nif:lemma "één" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w137> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w143> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w186> nif:lemma "paard" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w204> nif:lemma "bevel" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w212> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w219> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w232> nif:lemma "ambt" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w41> nif:lemma "ouder" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w53> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w70> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w76> nif:lemma "opkomst" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w80> nif:lemma "van" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-919__Jan_Marinus_Veldhuis#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-919__Jan_Marinus_Veldhuis .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-919 ;
+    bgn:aggregatedPerson bgn:Person-919 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-919__Jan_Marinus_Veldhuis ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-919__Jan_Marinus_Veldhuis ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w110> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_12> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w13> ;
+    pb:ArgM-TMP bgn:Person-919 .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w122> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_108> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_122t_123> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w130> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_125t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w142> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_142t_143> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w151> ;
+    pb:Arg0 bgn:Person-919 ;
+    pb:Arg1 bgn:Person-919 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_154> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_136t_137t_138t_139t_140t_141t_142t_143> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w161> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_165> ;
+    pb:Arg1 bgn:Person-919 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_173> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w174> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_167> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_198>,
+        bgn:Person-919 .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_176> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w177> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_167> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w191> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_167> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_185t_186t_187> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w193> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_167> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w207> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_202t_203> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_204> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_201> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w211> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_211t_212t_213> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_218t_219t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_222t_223> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_215t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_213> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_233> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w234> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_235t_236t_237t_238t_239> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w27> ;
+    pb:Arg1 bgn:Person-919 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_33>,
+        bgn:Person-919 .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_37> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w38> ;
+    xs:date "FUTURE_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w39> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_39t_40> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_42> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_36t_37> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w48> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_44> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_45t_46> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_43> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w51> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_49> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_52t_53t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w57> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_66> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w67> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w68> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_64> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_63> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w7w8w9> ;
+    xs:date "1901-08-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w73> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_73> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_74t_75t_76t_77t_78> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_79t_80> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_69t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w85> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w98> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_94t_95t_96> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w103> nif:anchorOf "NSB" ;
+    nif:beginIndex "610" ;
+    nif:endIndex "613" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w107> nif:anchorOf "WA" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "630" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w109> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "632" ;
+    nif:endIndex "635" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w109" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w110> nif:BeginIndex "636" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "639" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w120> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "696" ;
+    nif:endIndex "703" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w122> nif:BeginIndex "707" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "710" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w123w124> nif:anchorOf "zes kinderen" ;
+    nif:beginIndex "711" ;
+    nif:endIndex "723" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w124" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w126w127w128w129> nif:anchorOf "Eén van zijn zoons" ;
+    nif:beginIndex "726" ;
+    nif:endIndex "744" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w126" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w13> nif:BeginIndex "58" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "61" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w130> nif:BeginIndex "745" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "748" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w134> nif:anchorOf "Germaansche" ;
+    nif:beginIndex "760" ;
+    nif:endIndex "771" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w135> nif:anchorOf "SS" ;
+    nif:beginIndex "772" ;
+    nif:endIndex "774" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w137w138w139w140w141w142w143w144> nif:anchorOf "Na het volgen van een spoedcursus voor burgemeester" ;
+    nif:beginIndex "777" ;
+    nif:endIndex "828" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w139> nif:BeginIndex "784" ;
+    nif:anchorOf "volgen" ;
+    nif:endIndex "790" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w142> nif:BeginIndex "799" ;
+    nif:anchorOf "spoedcursus" ;
+    nif:endIndex "810" ;
+    nif:lemma "spoed_cursus" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w143w144> nif:anchorOf "voor burgemeester" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "828" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w146> nif:anchorOf "Veldhuis" ;
+    nif:beginIndex "834" ;
+    nif:endIndex "842" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w148w149> nif:anchorOf "Seyss Inquart" ;
+    nif:beginIndex "848" ;
+    nif:endIndex "861" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w151> nif:BeginIndex "874" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "881" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w155> nif:anchorOf "Hoogeveen" ;
+    nif:beginIndex "903" ;
+    nif:endIndex "912" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w158> nif:anchorOf "1948" ;
+    nif:beginIndex "918" ;
+    nif:endIndex "922" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w160> nif:anchorOf "Veldhuis" ;
+    nif:beginIndex "928" ;
+    nif:endIndex "936" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w161> nif:BeginIndex "937" ;
+    nif:anchorOf "berecht" ;
+    nif:endIndex "944" ;
+    nif:lemma "berechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w166> nif:anchorOf "Assen" ;
+    nif:beginIndex "968" ;
+    nif:endIndex "973" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w168> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "975" ;
+    nif:endIndex "978" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w168" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w16w17> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "73" ;
+    nif:endIndex "92" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w174> nif:BeginIndex "1004" ;
+    nif:anchorOf "beschuldigd" ;
+    nif:endIndex "1015" ;
+    nif:lemma "beschuldigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w177> nif:BeginIndex "1023" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1027" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w181> nif:anchorOf "NSB" ;
+    nif:beginIndex "1043" ;
+    nif:endIndex "1046" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w184> nif:anchorOf "WA" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1055" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w186w187w188> nif:anchorOf "paarden en wagens" ;
+    nif:beginIndex "1057" ;
+    nif:endIndex "1074" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w186" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w191> nif:BeginIndex "1085" ;
+    nif:anchorOf "gevorderd" ;
+    nif:endIndex "1094" ;
+    nif:lemma "vorderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w193> nif:BeginIndex "1098" ;
+    nif:anchorOf "gedreigd" ;
+    nif:endIndex "1106" ;
+    nif:lemma "dreigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w199> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1131" ;
+    nif:endIndex "1139" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w1w2w3> nif:anchorOf "Marinus Veldhuis" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w20> nif:anchorOf "NSB" ;
+    nif:beginIndex "103" ;
+    nif:endIndex "106" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w201> nif:BeginIndex "1143" ;
+    nif:anchorOf "landwachten" ;
+    nif:endIndex "1154" ;
+    nif:lemma "land_wacht" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w202> nif:anchorOf "wanneer" ;
+    nif:beginIndex "1155" ;
+    nif:endIndex "1162" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w202" ;
+    nif:lemma "wanneer" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w203w204> nif:anchorOf "zijn bevelen" ;
+    nif:beginIndex "1163" ;
+    nif:endIndex "1175" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w204" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w205> nif:anchorOf "niet" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1180" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w205" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w207> nif:BeginIndex "1188" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "1198" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w211> nif:BeginIndex "1209" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "1220" ;
+    nif:lemma "veroordeeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w212w213w214> nif:anchorOf "tot een gevangenisstraf" ;
+    nif:beginIndex "1221" ;
+    nif:endIndex "1244" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w214> nif:BeginIndex "1229" ;
+    nif:anchorOf "gevangenisstraf" ;
+    nif:endIndex "1244" ;
+    nif:lemma "gevangenis_straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w216w217> nif:anchorOf "6 maanden" ;
+    nif:beginIndex "1249" ;
+    nif:endIndex "1258" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w219w220w221> nif:anchorOf "met een proeftijd" ;
+    nif:beginIndex "1274" ;
+    nif:endIndex "1291" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w219" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w223w224> nif:anchorOf "drie jaar" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1305" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w23> nif:anchorOf "Hoogeveen" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "133" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w231w232> nif:anchorOf "publieke ambten" ;
+    nif:beginIndex "1335" ;
+    nif:endIndex "1350" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w232" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w234> nif:BeginIndex "1354" ;
+    nif:anchorOf "vervullen" ;
+    nif:endIndex "1363" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w236w237w238w239w240> nif:anchorOf "een periode van tien jaar" ;
+    nif:beginIndex "1369" ;
+    nif:endIndex "1394" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w245> nif:BeginIndex "1417" ;
+    nif:anchorOf "kiesrecht" ;
+    nif:endIndex "1426" ;
+    nif:lemma "kies_recht" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w25> nif:anchorOf "Veldhuis" ;
+    nif:beginIndex "136" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w27> nif:BeginIndex "150" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "157" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w29> nif:anchorOf "Beets" ;
+    nif:beginIndex "161" ;
+    nif:endIndex "166" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w32> nif:anchorOf "Opsterland" ;
+    nif:beginIndex "177" ;
+    nif:endIndex "187" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w34> nif:anchorOf "Friesland" ;
+    nif:beginIndex "189" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w37w38> nif:anchorOf "Al snel" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "208" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w38" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w38> nif:anchorOf "snel" ;
+    nif:beginIndex "204" ;
+    nif:endIndex "208" ;
+    nif:lemma "snel" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w39> nif:BeginIndex "209" ;
+    nif:anchorOf "verhuisden" ;
+    nif:endIndex "219" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w40w41> nif:anchorOf "zijn ouders" ;
+    nif:beginIndex "220" ;
+    nif:endIndex "231" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w43> nif:anchorOf "Doesburg" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "245" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w44> nif:anchorOf "waar" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "250" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w44" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w45> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "254" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w45" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w46w47> nif:anchorOf "zijn opleiding" ;
+    nif:beginIndex "255" ;
+    nif:endIndex "269" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w47> nif:BeginIndex "260" ;
+    nif:anchorOf "opleiding" ;
+    nif:endIndex "269" ;
+    nif:lemma "opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w48> nif:BeginIndex "270" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "276" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w5> nif:anchorOf "Beets" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w50> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "278" ;
+    nif:endIndex "281" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w50" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w51> nif:BeginIndex "282" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "288" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w52> nif:anchorOf "aanvankelijk" ;
+    nif:beginIndex "289" ;
+    nif:endIndex "301" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w52" ;
+    nif:lemma "aanvankelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w53w54w55> nif:anchorOf "op een accountantskantoor" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "327" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w53" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w57> nif:BeginIndex "331" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "335" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w58> nif:anchorOf "vervolgens" ;
+    nif:beginIndex "336" ;
+    nif:endIndex "346" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w58" ;
+    nif:lemma "vervolgens" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w62> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "386" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w63> nif:anchorOf "Seintoestellenfabriek" ;
+    nif:beginIndex "387" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w64> nif:anchorOf "waar" ;
+    nif:beginIndex "409" ;
+    nif:endIndex "413" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w64" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w65> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "414" ;
+    nif:endIndex "417" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w65" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w66w67> nif:anchorOf "125 jaar" ;
+    nif:beginIndex "418" ;
+    nif:endIndex "427" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w67" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w67> nif:anchorOf "jaar" ;
+    nif:beginIndex "423" ;
+    nif:endIndex "427" ;
+    nif:lemma "jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w68> nif:BeginIndex "428" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "434" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w70w71w72> nif:anchorOf "In die periode" ;
+    nif:beginIndex "436" ;
+    nif:endIndex "450" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w73> nif:BeginIndex "451" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "457" ;
+    nif:lemma "mee_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w74> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "458" ;
+    nif:endIndex "461" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w74" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w75w76w77w78w79> nif:anchorOf "de opkomst van de radio-omroepen" ;
+    nif:beginIndex "462" ;
+    nif:endIndex "494" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w7w8w9> nif:anchorOf "26 augustus 1901" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "45" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w80w81> nif:anchorOf "van nabij" ;
+    nif:beginIndex "495" ;
+    nif:endIndex "504" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w84> nif:anchorOf "Hierna" ;
+    nif:beginIndex "511" ;
+    nif:endIndex "517" ;
+    nif:head "bgnProc:919__Jan_Marinus_Veldhuis.naf#w84" ;
+    nif:lemma "hierna" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w85> nif:BeginIndex "518" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "522" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w92> nif:anchorOf "Bussum" ;
+    nif:beginIndex "562" ;
+    nif:endIndex "568" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w95w96w97> nif:anchorOf "31 december 1940" ;
+    nif:beginIndex "573" ;
+    nif:endIndex "589" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w98> nif:BeginIndex "590" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "594" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_125t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w126w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_136t_137t_138t_139t_140t_141t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w137w138w139w140w141w142w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_157> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w158> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_185t_186t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w186w187w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_202t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w203w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_215t_216> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w216w217> ;
+    xs:period "P6M" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_218t_219t_220> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w219w220w221> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_222t_223> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w223w224> ;
+    xs:period "P3Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w231w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_235t_236t_237t_238t_239> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w236w237w238w239w240> ;
+    xs:period "P10Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_36t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w37w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_45t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w46w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_52t_53t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w53w54w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w70w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_74t_75t_76t_77t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w75w76w77w78w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_79t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w80w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_94t_95t_96> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w95w96w97> ;
+    xs:date "1940-12-31" .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w109> ;
+    stevensFam:isPartnerIn <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w168> .
+
+bgn:Person-919 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w135>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w146>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w148w149>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w155>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w160>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w16w17>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w181>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w199>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/919__Jan_Marinus_Veldhuis.naf#w92> .
+

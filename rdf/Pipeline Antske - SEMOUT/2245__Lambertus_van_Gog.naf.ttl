@@ -1,0 +1,210 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_22t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_47t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_4t_5t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_57>,
+        bgn:Person-2245 ;
+    ore:proxyFor bgn:Person-2245 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w48> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2245__Lambertus_van_Gog#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2245__Lambertus_van_Gog .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2245 ;
+    bgn:aggregatedPerson bgn:Person-2245 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2245__Lambertus_van_Gog ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2245__Lambertus_van_Gog ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_10> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w11> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w17> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_15> ;
+    pb:Arg1 bgn:Person-2245 ;
+    pb:ArgM-LOC bgn:Person-2245 ;
+    pb:ArgM-PRD bgn:Person-2245 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_22t_23t_24> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w47> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_51> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_47t_48t_49> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_4t_5t_6> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w5w6w7> ;
+    xs:date "1916-10-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w58> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_45> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w11> nif:BeginIndex "39" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "42" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w13> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "58" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w16> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "81" ;
+    nif:head "bgnProc:2245__Lambertus_van_Gog.naf#w16" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w17> nif:BeginIndex "82" ;
+    nif:anchorOf "vermoordde" ;
+    nif:endIndex "92" ;
+    nif:lemma "vermoorden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w1w2w3> nif:anchorOf "van Gog" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w20w21> nif:anchorOf "Daniel Bernard" ;
+    nif:beginIndex "103" ;
+    nif:endIndex "117" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w23w24w25> nif:anchorOf "18 oktober 1943" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w27> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "151" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w31w32w33> nif:anchorOf "M. de Jong" ;
+    nif:beginIndex "164" ;
+    nif:endIndex "174" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w36w37> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "181" ;
+    nif:endIndex "200" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w40> nif:BeginIndex "206" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "209" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w44> nif:anchorOf "Silbertannemoorden" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "239" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w46> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "244" ;
+    nif:head "bgnProc:2245__Lambertus_van_Gog.naf#w46" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w47> nif:BeginIndex "245" ;
+    nif:anchorOf "vluchtte" ;
+    nif:endIndex "253" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w48w49w50> nif:anchorOf "na de oorlog" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "266" ;
+    nif:head "bgnProc:2245__Lambertus_van_Gog.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w52> nif:anchorOf "Spanje" ;
+    nif:beginIndex "272" ;
+    nif:endIndex "278" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w57> nif:anchorOf "1948" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w58> nif:BeginIndex "298" ;
+    nif:anchorOf "uitgeleverd" ;
+    nif:endIndex "309" ;
+    nif:lemma "uit_leveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w5w6w7> nif:anchorOf "8 oktober 1916" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_15> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_22t_23t_24> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w23w24w25> ;
+    xs:date "1943-10-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_47t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w48w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_56> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w57> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w46> .
+
+bgn:Person-2245 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w20w21>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w31w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/2245__Lambertus_van_Gog.naf#w52> .
+

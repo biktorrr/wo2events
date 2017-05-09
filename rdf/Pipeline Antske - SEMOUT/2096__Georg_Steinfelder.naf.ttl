@@ -1,0 +1,320 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_67t_68t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_87t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_90>,
+        bgn:Person-2096 ;
+    ore:proxyFor bgn:Person-2096 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w65> nif:lemma "pamflet" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2096__Georg_Steinfelder#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2096__Georg_Steinfelder .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2096 ;
+    bgn:aggregatedPerson bgn:Person-2096 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2096__Georg_Steinfelder ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2096__Georg_Steinfelder ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w12w13w14> ;
+    xs:date "1945-03-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_23> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w6w7w8> ;
+    xs:date "1914-02-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w63> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_61> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w71> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_80>,
+        bgn:Person-2096 .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_75> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w76> ;
+    pb:Arg0 bgn:Person-2096 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_71> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_67t_68t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w78> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_71> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_80>,
+        bgn:Person-2096 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_67t_68t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_87t_88t_89> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w88w89w90> ;
+    xs:date "1945-03-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w91> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w10> nif:anchorOf "Nordhausen" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w12w13w14> nif:anchorOf "7 maart 1945" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "68" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w16> nif:BeginIndex "70" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "73" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w1w2> nif:anchorOf "Steinfelder" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w23> nif:anchorOf "Steinfelder" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "135" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w24> nif:BeginIndex "136" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "139" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w30w31> nif:anchorOf "Georg Steinfelder" ;
+    nif:beginIndex "165" ;
+    nif:endIndex "182" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w35w36> nif:anchorOf "Jantina Nuus" ;
+    nif:beginIndex "200" ;
+    nif:endIndex "212" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w39> nif:BeginIndex "218" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "221" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w4> nif:anchorOf "Veele" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w43> nif:BeginIndex "236" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "239" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w46w47> nif:anchorOf "Oude Pekela" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "267" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w52> nif:anchorOf "CPN" ;
+    nif:beginIndex "288" ;
+    nif:endIndex "291" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w54> nif:anchorOf "Steinfelder" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "305" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w55> nif:BeginIndex "306" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "309" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w60> nif:BeginIndex "334" ;
+    nif:anchorOf "Noorderlicht" ;
+    nif:beginIndex "334" ;
+    nif:endIndex "346" ;
+    nif:lemma "Noorderlicht" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w62> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "351" ;
+    nif:head "bgnProc:2096__Georg_Steinfelder.naf#w62" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w63> nif:BeginIndex "352" ;
+    nif:anchorOf "verspreidde" ;
+    nif:endIndex "363" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w64w65> nif:anchorOf "communistische pamfletten" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "389" ;
+    nif:head "bgnProc:2096__Georg_Steinfelder.naf#w65" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w68w69w70> nif:anchorOf "10 september 1941" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "411" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w6w7w8> nif:anchorOf "5 februari 1914" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "41" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w71> nif:BeginIndex "412" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "416" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w72> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "417" ;
+    nif:endIndex "420" ;
+    nif:head "bgnProc:2096__Georg_Steinfelder.naf#w72" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w75> nif:anchorOf "SD" ;
+    nif:beginIndex "429" ;
+    nif:endIndex "431" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w76> nif:BeginIndex "432" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "444" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w78> nif:BeginIndex "448" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "460" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w80> nif:BeginIndex "466" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "482" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w81> nif:anchorOf "Mittelbau-Dora" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "497" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w83> nif:anchorOf "Nordhausen" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "511" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w86> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "518" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:2096__Georg_Steinfelder.naf#w86" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w88w89w90> nif:anchorOf "7 maart 1945" ;
+    nif:beginIndex "525" ;
+    nif:endIndex "537" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w91> nif:BeginIndex "538" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "540" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_67t_68t_69> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w68w69w70> ;
+    xs:date "1941-09-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w72> .
+
+bgn:Person-2096 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w46w47>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w54>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w60>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/2096__Georg_Steinfelder.naf#w83> .
+

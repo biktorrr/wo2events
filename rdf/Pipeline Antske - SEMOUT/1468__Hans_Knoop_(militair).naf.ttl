@@ -1,0 +1,612 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_138t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_17t_18t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_99>,
+        bgn:Person-1468 ;
+    ore:proxyFor bgn:Person-1468 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w139> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w58> nif:lemma "bij" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1468__Hans_Knoop_(militair)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-1468__Hans_Knoop_(militair)> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1468 ;
+    bgn:aggregatedPerson bgn:Person-1468 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-1468__Hans_Knoop_(militair)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-1468__Hans_Knoop_(militair)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w103> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_101> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_109> ;
+    pb:AM-MNR bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w11w12w13> ;
+    xs:date "1919-04-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w114> ;
+    pb:Arg1 bgn:Person-1468 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_123>,
+        bgn:Person-1468 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w130> ;
+    pb:Arg1 bgn:Person-1468 ;
+    pb:Arg2 bgn:Person-1468 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w137> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_137> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_138t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w145> ;
+    pb:Arg1 bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_151> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w152> ;
+    xs:gYear "1950" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w160> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_160> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_163> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_161> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w167> ;
+    pb:Arg1 bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w175> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_173> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_17t_18t_19> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w18w19w20> ;
+    xs:date "2012-02-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w206> ;
+    pb:ArgM bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w38> ;
+    pb:A1 bgn:Person-1468 ;
+    pb:AM-TMP bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w41> ;
+    pb:ArgM bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_52t_53> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w53w54> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w57> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_57t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w64> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_64> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_68> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_66> ;
+    pb:ArgM-PRD bgn:Person-1468 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_75> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w76> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_74>,
+        bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w78> ;
+    pb:ArgM bgn:Person-1468 .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w100> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_74> ;
+    pb:A2 bgn:Person-1468 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w100> nif:BeginIndex "571" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "580" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w102> a bgn:pron_3p ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "582" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w102" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w103> nif:BeginIndex "586" ;
+    nif:anchorOf "vlogen" ;
+    nif:endIndex "592" ;
+    nif:lemma "vliegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w105> nif:anchorOf "Curtiss" ;
+    nif:beginIndex "597" ;
+    nif:endIndex "604" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w107> nif:anchorOf "Kittyhawks" ;
+    nif:beginIndex "610" ;
+    nif:endIndex "620" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w110> nif:anchorOf "Japan" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "647" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w113> nif:anchorOf "1945" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "657" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w114> nif:BeginIndex "658" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "662" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w116> nif:anchorOf "Squadron" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "675" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w11w12w13> nif:anchorOf "18 april 1919" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w121w122> nif:anchorOf "Indonesische Onafhankelijkheidsoorlog" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "731" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w124> nif:anchorOf "Soerabaja" ;
+    nif:beginIndex "737" ;
+    nif:endIndex "746" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w127> nif:anchorOf "Knoop" ;
+    nif:beginIndex "757" ;
+    nif:endIndex "762" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w129> nif:anchorOf "Bartelings" ;
+    nif:beginIndex "766" ;
+    nif:endIndex "776" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w130> nif:BeginIndex "777" ;
+    nif:anchorOf "ingedeeld" ;
+    nif:endIndex "786" ;
+    nif:lemma "in_delen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w133w134> nif:anchorOf "Squadron ML-KNIL" ;
+    nif:beginIndex "795" ;
+    nif:endIndex "811" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w137> nif:BeginIndex "818" ;
+    nif:anchorOf "vlogen" ;
+    nif:endIndex "824" ;
+    nif:lemma "vliegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w138> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "827" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w138" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w139w140w141w142> nif:anchorOf "met nieuwe P-51 Mustangs" ;
+    nif:beginIndex "828" ;
+    nif:endIndex "852" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w139" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w144> nif:anchorOf "Knoop" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "859" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w145> nif:BeginIndex "860" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "864" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w152> nif:anchorOf "1950" ;
+    nif:beginIndex "898" ;
+    nif:endIndex "902" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w158> nif:anchorOf "Indonesië" ;
+    nif:beginIndex "932" ;
+    nif:endIndex "941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w15w16> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "64" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w160> nif:BeginIndex "943" ;
+    nif:anchorOf "gingen" ;
+    nif:endIndex "949" ;
+    nif:lemma "terug_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w161> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "950" ;
+    nif:endIndex "952" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w161" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w162> nif:anchorOf "terug" ;
+    nif:beginIndex "953" ;
+    nif:endIndex "958" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w162" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w164> nif:anchorOf "Nederland" ;
+    nif:beginIndex "964" ;
+    nif:endIndex "973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w166> nif:anchorOf "Knoop" ;
+    nif:beginIndex "975" ;
+    nif:endIndex "980" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w167> nif:BeginIndex "981" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "985" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w170> nif:anchorOf "Vliegbasis" ;
+    nif:beginIndex "1001" ;
+    nif:endIndex "1011" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w171> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "1012" ;
+    nif:endIndex "1022" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w174> nif:anchorOf "1973-1976" ;
+    nif:beginIndex "1028" ;
+    nif:endIndex "1037" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w175> nif:BeginIndex "1038" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1041" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w176w177w178w179> nif:anchorOf "Knoop Bevelhebber der Luchtstrijdkrachten" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1083" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w180> nif:anchorOf "tevens" ;
+    nif:beginIndex "1084" ;
+    nif:endIndex "1090" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w180" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w181w182> nif:anchorOf "Chef Luchtmachtstaf" ;
+    nif:beginIndex "1091" ;
+    nif:endIndex "1110" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w187w188w189> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w18w19w20> nif:anchorOf "18 februari 2012" ;
+    nif:beginIndex "74" ;
+    nif:endIndex "90" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w192> nif:anchorOf "Zwaarden" ;
+    nif:beginIndex "1160" ;
+    nif:endIndex "1168" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w196w197w198w199w200w201w202w203w204w205w206> nif:anchorOf "Orde van de Nederlandse Leeuw Ereteken voor Orde en Vrede Oorlogsherinneringskruis" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1267" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w206> nif:BeginIndex "1243" ;
+    nif:anchorOf "Oorlogsherinneringskruis" ;
+    nif:endIndex "1267" ;
+    nif:lemma "Oor_log_herinnering_kruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w212> nif:anchorOf "Engelandvaarders" ;
+    nif:beginIndex "1295" ;
+    nif:endIndex "1311" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w22> nif:BeginIndex "92" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "95" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w24> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "100" ;
+    nif:endIndex "110" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w27w28> nif:anchorOf "Hans Knoop" ;
+    nif:beginIndex "128" ;
+    nif:endIndex "138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w29> nif:BeginIndex "139" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "142" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w2w3> nif:anchorOf "J. H." ;
+    nif:beginIndex "19" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w37> nif:anchorOf "KMA" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "188" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w38> nif:BeginIndex "189" ;
+    nif:anchorOf "doorliep" ;
+    nif:endIndex "197" ;
+    nif:lemma "doorlopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w39> nif:anchorOf "Knoop" ;
+    nif:beginIndex "198" ;
+    nif:endIndex "203" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w41> nif:BeginIndex "207" ;
+    nif:anchorOf "opleiding" ;
+    nif:endIndex "216" ;
+    nif:lemma "opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w46w47w48> nif:anchorOf "Koninklijk Nederlandsch-Indisch Leger" ;
+    nif:beginIndex "249" ;
+    nif:endIndex "286" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w5> nif:anchorOf "Hans" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w50> nif:anchorOf "KNIL" ;
+    nif:beginIndex "288" ;
+    nif:endIndex "292" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w53w54> nif:anchorOf "Eind 1940" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "304" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w57> nif:BeginIndex "316" ;
+    nif:anchorOf "betrokken" ;
+    nif:endIndex "325" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w58w59w60> nif:anchorOf "bij het verzet" ;
+    nif:beginIndex "326" ;
+    nif:endIndex "340" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w63> nif:anchorOf "1941" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "349" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w64> nif:BeginIndex "350" ;
+    nif:anchorOf "vluchtte" ;
+    nif:endIndex "358" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w65> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "359" ;
+    nif:endIndex "362" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w65" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w67> nif:anchorOf "Spanje" ;
+    nif:beginIndex "367" ;
+    nif:endIndex "373" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w69> nif:anchorOf "Engeland" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "387" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w7> nif:anchorOf "Knoop" ;
+    nif:beginIndex "31" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w72w73> nif:anchorOf "Willem Bartelings" ;
+    nif:beginIndex "398" ;
+    nif:endIndex "415" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w75> nif:anchorOf "Beiden" ;
+    nif:beginIndex "417" ;
+    nif:endIndex "423" ;
+    nif:head "bgnProc:1468__Hans_Knoop_(militair).naf#w75" ;
+    nif:lemma "beide" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w76> nif:BeginIndex "424" ;
+    nif:anchorOf "kregen" ;
+    nif:endIndex "430" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w78> nif:BeginIndex "435" ;
+    nif:anchorOf "vliegersopleiding" ;
+    nif:endIndex "452" ;
+    nif:lemma "vlieger_opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w81w82w83w84w85> nif:anchorOf "Royal Netherlands Military Flying School" ;
+    nif:beginIndex "460" ;
+    nif:endIndex "500" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w89> nif:anchorOf "1944" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "518" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w9> nif:anchorOf "Bandoeng" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w91w92w93w94w95w96> nif:anchorOf "No. 120 ( Netherlands East Indies" ;
+    nif:beginIndex "523" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w98> nif:anchorOf "Squadron" ;
+    nif:beginIndex "557" ;
+    nif:endIndex "565" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w99> nif:anchorOf "RAAF" ;
+    nif:beginIndex "566" ;
+    nif:endIndex "570" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_138t_139t_140t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w139w140w141w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_173> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w174> ;
+    xs:gYear "1973",
+        "1976" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_62> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w63> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_88> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w89> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_112> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w113> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w75> .
+
+bgn:Person-1468 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w121w122>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w133w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w15w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w176w177w178w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w181w182>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w187w188w189>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w196w197w198w199w200w201w202w203w204w205w206>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w212>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w27w28>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w46w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w81w82w83w84w85>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w91w92w93w94w95w96>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w98>,
+        <http://data.biographynet.nl/rdf/170506221754/1468__Hans_Knoop_(militair).naf#w99> .
+

@@ -1,0 +1,577 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_136t_137t_138t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_164t_165t_166t_167t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_98>,
+        bgn:Person-1747 ;
+    ore:proxyFor bgn:Person-1747 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w136> nif:lemma "woord" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w137> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w165> nif:lemma "voor" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1747__Jan_Haken#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1747__Jan_Haken .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1747 ;
+    bgn:aggregatedPerson bgn:Person-1747 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1747__Jan_Haken ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1747__Jan_Haken ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w104> ;
+    pb:Arg1 bgn:Person-1747 .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_109> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w110> ;
+    xs:gYear "1947" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_111> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w112> ;
+    xs:gYear "1952" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w12w13w14> ;
+    xs:date "1956-11-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w123> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w134> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_132> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_134t_135> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_136t_137t_138t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w160> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_157> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_158> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_163> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w164> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_162> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_164t_165t_166t_167t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w178> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_184> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_181> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w182> ;
+    xs:gYear "1962" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_187> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w188> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_189> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w190> ;
+    xs:gYear "1963" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w32> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_30> ;
+    pb:Arg1 bgn:Person-1747 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_34> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w35> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_35t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w40> ;
+    pb:A0 bgn:Person-1747 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w6w7w8> ;
+    xs:date "1912-10-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w65> ;
+    pb:ArgM-TMP bgn:Person-1747 .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_74> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w75> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_76> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w77> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_88> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w89> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w92> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_90> ;
+    pb:ArgM-LOC bgn:Person-1747 ;
+    pb:ArgM-TMP bgn:Person-1747 .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w99> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w10> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "43" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w104> nif:BeginIndex "587" ;
+    nif:anchorOf "partijbestuur" ;
+    nif:endIndex "600" ;
+    nif:lemma "partij_bestuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w107> nif:anchorOf "CPN" ;
+    nif:beginIndex "608" ;
+    nif:endIndex "611" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w110> nif:anchorOf "1947" ;
+    nif:beginIndex "620" ;
+    nif:endIndex "624" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w112> nif:anchorOf "1952" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "632" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w118> nif:BeginIndex "660" ;
+    nif:anchorOf "partijbestuur" ;
+    nif:endIndex "673" ;
+    nif:lemma "partij_bestuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w120> nif:anchorOf "CPN" ;
+    nif:beginIndex "677" ;
+    nif:endIndex "680" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w122> nif:anchorOf "Daarna" ;
+    nif:beginIndex "682" ;
+    nif:endIndex "688" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w122" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w123> nif:BeginIndex "689" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "692" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w12w13w14> nif:anchorOf "20 november 1956" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w131> nif:anchorOf "CPN" ;
+    nif:beginIndex "730" ;
+    nif:endIndex "733" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w133> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "735" ;
+    nif:endIndex "738" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w133" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w134> nif:BeginIndex "739" ;
+    nif:anchorOf "voerde" ;
+    nif:endIndex "745" ;
+    nif:lemma "voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w135w136> nif:anchorOf "het woord" ;
+    nif:beginIndex "746" ;
+    nif:endIndex "755" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w136" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w137w138w139w140w141w142> nif:anchorOf "op het gebied van economische zaken" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "791" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w146> nif:BeginIndex "803" ;
+    nif:anchorOf "verkeer" ;
+    nif:endIndex "810" ;
+    nif:lemma "verkeer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w153> nif:anchorOf "PTT" ;
+    nif:beginIndex "849" ;
+    nif:endIndex "852" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w156> nif:anchorOf "1956" ;
+    nif:beginIndex "857" ;
+    nif:endIndex "861" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w158> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "867" ;
+    nif:endIndex "870" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w158" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w159> nif:anchorOf "wel" ;
+    nif:beginIndex "871" ;
+    nif:endIndex "874" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w159" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w16> nif:BeginIndex "72" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "75" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w160> nif:BeginIndex "875" ;
+    nif:anchorOf "herkozen" ;
+    nif:endIndex "883" ;
+    nif:lemma "herkiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w163> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "890" ;
+    nif:endIndex "893" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w163" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w164> nif:BeginIndex "894" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "902" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w165w166w167w168w169> nif:anchorOf "voor zijn beëdiging als lid" ;
+    nif:beginIndex "903" ;
+    nif:endIndex "930" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w165" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w175> nif:anchorOf "CPN-lid" ;
+    nif:beginIndex "950" ;
+    nif:endIndex "957" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w176w177> nif:anchorOf "Harm Haken" ;
+    nif:beginIndex "958" ;
+    nif:endIndex "968" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w178> nif:BeginIndex "969" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "972" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w180> nif:anchorOf "1946" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "981" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w182> nif:anchorOf "1962" ;
+    nif:beginIndex "986" ;
+    nif:endIndex "990" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w185> nif:anchorOf "Finsterwolde" ;
+    nif:beginIndex "1005" ;
+    nif:endIndex "1017" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w188> nif:anchorOf "1958" ;
+    nif:beginIndex "1028" ;
+    nif:endIndex "1032" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w19> nif:anchorOf "CPN-politicus" ;
+    nif:beginIndex "92" ;
+    nif:endIndex "105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w190> nif:anchorOf "1963" ;
+    nif:beginIndex "1036" ;
+    nif:endIndex "1040" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w194w195> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1064" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w1w2> nif:anchorOf "Haken" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "9" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w26> nif:anchorOf "Gronings" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w31> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "166" ;
+    nif:endIndex "169" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w31" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w32> nif:BeginIndex "170" ;
+    nif:anchorOf "bezocht" ;
+    nif:endIndex "177" ;
+    nif:lemma "bezoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w33> nif:anchorOf "zelf" ;
+    nif:beginIndex "178" ;
+    nif:endIndex "182" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w33" ;
+    nif:lemma "zelf" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w35> nif:BeginIndex "186" ;
+    nif:anchorOf "Kweekschool" ;
+    nif:endIndex "197" ;
+    nif:lemma "kweek_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w35w36w37> nif:anchorOf "Kweekschool voor onderwijzers" ;
+    nif:beginIndex "186" ;
+    nif:endIndex "215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w39> nif:anchorOf "vervolgens" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "229" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w39" ;
+    nif:lemma "vervolgens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w4> nif:anchorOf "Finsterwolde" ;
+    nif:beginIndex "11" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w40> nif:BeginIndex "230" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "236" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w56> nif:anchorOf "CPN" ;
+    nif:beginIndex "323" ;
+    nif:endIndex "326" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w63w64> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "349" ;
+    nif:endIndex "368" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w65> nif:BeginIndex "369" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "372" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w6w7w8> nif:anchorOf "13 oktober 1912" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w75> nif:anchorOf "1941" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "423" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w77> nif:anchorOf "1945" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "431" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w81> nif:BeginIndex "448" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "464" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w82> nif:anchorOf "Buchenwald" ;
+    nif:beginIndex "465" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w86w87> nif:anchorOf "Tweede Kamerverkiezingen" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "509" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w87> nif:BeginIndex "492" ;
+    nif:anchorOf "Kamerverkiezingen" ;
+    nif:endIndex "509" ;
+    nif:lemma "Kamer_verkiezing" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w89> nif:anchorOf "1946" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "518" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w91> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "524" ;
+    nif:endIndex "527" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w91" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w92> nif:BeginIndex "528" ;
+    nif:anchorOf "verkozen" ;
+    nif:endIndex "536" ;
+    nif:lemma "verkiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w95w96> nif:anchorOf "Tweede Kamer" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w98> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "557" ;
+    nif:endIndex "566" ;
+    nif:head "bgnProc:1747__Jan_Haken.naf#w98" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w99> nif:BeginIndex "567" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "570" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_134t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w135w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_136t_137t_138t_139t_140t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w137w138w139w140w141w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_155> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w156> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_164t_165t_166t_167t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w165w166w167w168w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_179> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w180> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w98> .
+
+bgn:Person-1747 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w153>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w176w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w194w195>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w35w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w63w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w86w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1747__Jan_Haken.naf#w95w96> .
+

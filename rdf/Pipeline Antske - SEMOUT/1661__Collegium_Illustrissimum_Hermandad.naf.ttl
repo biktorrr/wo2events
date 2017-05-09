@@ -1,0 +1,772 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_127t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_195t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_198t_199t_200t_201t_202t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_210t_211t_212t_213t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_210t_211t_212t_213t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_213t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_217t_218t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_231t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_26t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_29t_30t_31t_32t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_34t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_65t_66t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_92>,
+        bgn:Person-1661 ;
+    ore:proxyFor bgn:Person-1661 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w128> nif:lemma "eind" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w14> nif:lemma "student_dispuut" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w197> nif:lemma "gat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w199> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w212> nif:lemma "manier" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w218> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w221> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w25> nif:lemma "dispuut" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w27> nif:lemma "binnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w31> nif:lemma "orde" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w35> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w66> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w70> nif:lemma "buiten" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1661__Collegium_Illustrissimum_Hermandad#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1661__Collegium_Illustrissimum_Hermandad .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1661 ;
+    bgn:aggregatedPerson bgn:Person-1661 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1661__Collegium_Illustrissimum_Hermandad ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1661__Collegium_Illustrissimum_Hermandad ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_10> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w11> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_11t_12t_13> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_101> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w102> ;
+    xs:gYear "2001" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_115> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w116> ;
+    xs:gYear "2003" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_128t_129> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w129w130> ;
+    xs:date "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w131> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_126> ;
+    pb:A2 bgn:Person-1661 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_127t_128t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_140> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w141> ;
+    xs:gYear "1911" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_146> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w147> ;
+    xs:gYear "1879" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_154> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w155> ;
+    xs:gYear "1884" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_162> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w163> ;
+    xs:gYear "1895" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w172> ;
+    xs:period "P1D" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w179> ;
+    pb:A0 bgn:Person-1661 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_168> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w181> ;
+    pb:Arg1 bgn:Person-1661 .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_184> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w185> ;
+    xs:gYear "1946",
+        "1949" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w198> ;
+    pb:A0 bgn:Person-1661 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_195t_196> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_198t_199t_200t_201t_202t_203t_204> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w209> ;
+    pb:A0 bgn:Person-1661 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_210t_211t_212t_213t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_216> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w217> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_213t_214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w225> ;
+    pb:A0 bgn:Person-1661 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_210t_211t_212t_213t_214t_215t_216> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_220t_221> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_222> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_217t_218t_219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_228> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w229> ;
+    pb:A0 bgn:Person-1661 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_231t_232> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_230>,
+        bgn:Person-1661 ;
+    pb:AM-LOC bgn:Person-1661 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w26> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_23t_24> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_29t_30t_31t_32t_33> ;
+    pb:ArgM-PRD bgn:Person-1661 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_26t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_34t_35t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_251> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w252> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_252> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_254> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w255> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w54> ;
+    pb:A0 bgn:Person-1661 ;
+    pb:A1 bgn:Person-1661 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_52> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_65t_66t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w73> ;
+    pb:A0 bgn:Person-1661 ;
+    pb:A1 bgn:Person-1661 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_69t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_83> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w84> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w102> nif:anchorOf "2001" ;
+    nif:beginIndex "721" ;
+    nif:endIndex "725" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w107> nif:anchorOf "Professor" ;
+    nif:beginIndex "746" ;
+    nif:endIndex "755" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w108w109> nif:anchorOf "S. Mansoob" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "766" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w11> nif:BeginIndex "62" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "64" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w113w114> nif:anchorOf "Prins Clausleerstoel" ;
+    nif:beginIndex "781" ;
+    nif:endIndex "801" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w116> nif:anchorOf "2003" ;
+    nif:beginIndex "805" ;
+    nif:endIndex "809" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w120> nif:BeginIndex "817" ;
+    nif:anchorOf "ordecommissariaat" ;
+    nif:endIndex "834" ;
+    nif:lemma "orde_commissariaat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w121> nif:BeginIndex "835" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "837" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w127> nif:anchorOf "die" ;
+    nif:beginIndex "865" ;
+    nif:endIndex "868" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w127" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w128w129w130> nif:anchorOf "eind 19e eeuw" ;
+    nif:beginIndex "869" ;
+    nif:endIndex "882" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w129w130> nif:anchorOf "19e eeuw" ;
+    nif:beginIndex "874" ;
+    nif:endIndex "882" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w12w13w14> nif:anchorOf "het oudste studentendispuut" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "92" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w131> nif:BeginIndex "883" ;
+    nif:anchorOf "geleid" ;
+    nif:endIndex "889" ;
+    nif:lemma "leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w137> nif:anchorOf "Unitas" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "925" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w138w139> nif:anchorOf "S. R." ;
+    nif:beginIndex "926" ;
+    nif:endIndex "930" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w141> nif:anchorOf "1911" ;
+    nif:beginIndex "932" ;
+    nif:endIndex "936" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w144w145> nif:anchorOf "Forsete Wara" ;
+    nif:beginIndex "939" ;
+    nif:endIndex "951" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w147> nif:anchorOf "1879" ;
+    nif:beginIndex "953" ;
+    nif:endIndex "957" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w151w152w153> nif:anchorOf "Utrechtsche Studenten Bond" ;
+    nif:beginIndex "964" ;
+    nif:endIndex "990" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w155> nif:anchorOf "1884" ;
+    nif:beginIndex "992" ;
+    nif:endIndex "996" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w158w159w160w161> nif:anchorOf "De Utrechtsche Studenten Bond" ;
+    nif:beginIndex "1001" ;
+    nif:endIndex "1030" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w163> nif:anchorOf "1895" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1036" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w167> nif:BeginIndex "1043" ;
+    nif:anchorOf "ordecommissariaat" ;
+    nif:endIndex "1060" ;
+    nif:lemma "orde_commissariaat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w169> nif:anchorOf "dat" ;
+    nif:beginIndex "1067" ;
+    nif:endIndex "1070" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w169" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w170> nif:anchorOf "vandaag" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1078" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w171w172> nif:anchorOf "de dag" ;
+    nif:beginIndex "1079" ;
+    nif:endIndex "1085" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w172" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w172> nif:anchorOf "dag" ;
+    nif:beginIndex "1082" ;
+    nif:endIndex "1085" ;
+    nif:lemma "dag" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w175w176w177> nif:anchorOf "Collegium Illustrissimum Hermandad" ;
+    nif:beginIndex "1095" ;
+    nif:endIndex "1129" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w179> nif:BeginIndex "1136" ;
+    nif:anchorOf "ingevuld" ;
+    nif:endIndex "1144" ;
+    nif:lemma "in_vullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w18> nif:anchorOf "Utrechtse" ;
+    nif:beginIndex "110" ;
+    nif:endIndex "119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w181> nif:BeginIndex "1146" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1148" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w185> nif:anchorOf "1946-1949" ;
+    nif:beginIndex "1163" ;
+    nif:endIndex "1172" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w188w189w190> nif:anchorOf "Daniël de Moulin" ;
+    nif:beginIndex "1190" ;
+    nif:endIndex "1206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w19> nif:BeginIndex "120" ;
+    nif:anchorOf "studentenvereniging" ;
+    nif:endIndex "139" ;
+    nif:lemma "student_vereniging" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w193w194> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "1211" ;
+    nif:endIndex "1230" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w196w197> nif:anchorOf "een gat" ;
+    nif:beginIndex "1235" ;
+    nif:endIndex "1242" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w197" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w198> nif:BeginIndex "1243" ;
+    nif:anchorOf "geslagen" ;
+    nif:endIndex "1251" ;
+    nif:lemma "slaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w199w200w201w202w203w204w205> nif:anchorOf "in het collectieve geheugen van de vereniging" ;
+    nif:beginIndex "1252" ;
+    nif:endIndex "1297" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w199" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w207w208> nif:anchorOf "De Moulin" ;
+    nif:beginIndex "1301" ;
+    nif:endIndex "1310" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w209> nif:BeginIndex "1311" ;
+    nif:anchorOf "besloot" ;
+    nif:endIndex "1318" ;
+    nif:lemma "besluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w20w21w22> nif:anchorOf "Unitas Studiosorum Rheno-Traiectina" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "175" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w210> nif:anchorOf "daarop" ;
+    nif:beginIndex "1319" ;
+    nif:endIndex "1325" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w210" ;
+    nif:lemma "daarop" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w211w212w213w214w215w216w217> nif:anchorOf "de manier waarop het ordecommissariaat werd ingevuld" ;
+    nif:beginIndex "1326" ;
+    nif:endIndex "1378" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w211w212w213w214w215w216w217w218w219w220w221w222w223w224w225> nif:anchorOf "de manier waarop het ordecommissariaat werd ingevuld voor de oorlog op papier vast te leggen" ;
+    nif:beginIndex "1326" ;
+    nif:endIndex "1418" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w214w215> nif:anchorOf "het ordecommissariaat" ;
+    nif:beginIndex "1343" ;
+    nif:endIndex "1364" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w215> nif:BeginIndex "1347" ;
+    nif:anchorOf "ordecommissariaat" ;
+    nif:endIndex "1364" ;
+    nif:lemma "orde_commissariaat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w217> nif:BeginIndex "1370" ;
+    nif:anchorOf "ingevuld" ;
+    nif:endIndex "1378" ;
+    nif:lemma "in_vullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w218w219w220> nif:anchorOf "voor de oorlog" ;
+    nif:beginIndex "1379" ;
+    nif:endIndex "1393" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w218" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w221w222> nif:anchorOf "op papier" ;
+    nif:beginIndex "1394" ;
+    nif:endIndex "1403" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w223> nif:anchorOf "vast" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1408" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w223" ;
+    nif:lemma "vast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w225> nif:BeginIndex "1412" ;
+    nif:anchorOf "leggen" ;
+    nif:endIndex "1418" ;
+    nif:lemma "vast_leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w228> nif:anchorOf "CIH" ;
+    nif:beginIndex "1424" ;
+    nif:endIndex "1427" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w229> nif:BeginIndex "1428" ;
+    nif:anchorOf "voert" ;
+    nif:endIndex "1433" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w230> nif:anchorOf "sindsdien" ;
+    nif:beginIndex "1434" ;
+    nif:endIndex "1443" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w230" ;
+    nif:lemma "sindsdien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w231> nif:anchorOf "alzo" ;
+    nif:beginIndex "1444" ;
+    nif:endIndex "1448" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w231" ;
+    nif:lemma "alzo" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w232w233> nif:anchorOf "haar ordecommissaristaken" ;
+    nif:beginIndex "1449" ;
+    nif:endIndex "1474" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w233> nif:BeginIndex "1454" ;
+    nif:anchorOf "ordecommissaristaken" ;
+    nif:endIndex "1474" ;
+    nif:lemma "orde_commissaris_taak" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w239> nif:anchorOf "Praefect" ;
+    nif:beginIndex "1500" ;
+    nif:endIndex "1508" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w242> nif:anchorOf "Orde-Praefect" ;
+    nif:beginIndex "1517" ;
+    nif:endIndex "1530" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w244w245> nif:anchorOf "Unitas S.R" ;
+    nif:beginIndex "1535" ;
+    nif:endIndex "1545" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w24w25> nif:anchorOf "Het dispuut" ;
+    nif:beginIndex "177" ;
+    nif:endIndex "188" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w252> nif:anchorOf "jaren" ;
+    nif:beginIndex "1565" ;
+    nif:endIndex "1570" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w253> nif:BeginIndex "1571" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1573" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w255> nif:BeginIndex "1578" ;
+    nif:anchorOf "ledenbestand" ;
+    nif:endIndex "1590" ;
+    nif:lemma "lid_bestand" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w26> nif:BeginIndex "189" ;
+    nif:anchorOf "bewaakt" ;
+    nif:endIndex "196" ;
+    nif:lemma "bewaken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w27w28w29> nif:anchorOf "binnen de vereniging" ;
+    nif:beginIndex "197" ;
+    nif:endIndex "217" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w2w3w4> nif:anchorOf "Collegium Illustrissimum Hermandad" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "38" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w30w31w32w33w34> nif:anchorOf "de orde en het protocol" ;
+    nif:beginIndex "218" ;
+    nif:endIndex "241" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w35w36w37> nif:anchorOf "tijdens protocollaire gelegenheden" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "276" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w40w41> nif:anchorOf "Algemene Ledenvergadering" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "309" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w51> nif:anchorOf "Novitiaat" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "369" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w53> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "380" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w53" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w54> nif:BeginIndex "381" ;
+    nif:anchorOf "begeleiden" ;
+    nif:endIndex "391" ;
+    nif:lemma "begeleiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w59> nif:anchorOf "CIH" ;
+    nif:beginIndex "422" ;
+    nif:endIndex "425" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w6> nif:anchorOf "CIH" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w61> nif:anchorOf "Senaat" ;
+    nif:beginIndex "429" ;
+    nif:endIndex "435" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w63> nif:anchorOf "Unitas" ;
+    nif:beginIndex "440" ;
+    nif:endIndex "446" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w64w65> nif:anchorOf "S. R." ;
+    nif:beginIndex "447" ;
+    nif:endIndex "451" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w66w67w68> nif:anchorOf "bij officiële gelegenheden" ;
+    nif:beginIndex "452" ;
+    nif:endIndex "478" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w70w71w72> nif:anchorOf "Buiten de vereniging" ;
+    nif:beginIndex "480" ;
+    nif:endIndex "500" ;
+    nif:head "bgnProc:1661__Collegium_Illustrissimum_Hermandad.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w73> nif:BeginIndex "501" ;
+    nif:anchorOf "begeleidt" ;
+    nif:endIndex "510" ;
+    nif:lemma "begeleiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w75> nif:anchorOf "Collegium" ;
+    nif:beginIndex "515" ;
+    nif:endIndex "524" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w84> nif:anchorOf "jaar" ;
+    nif:beginIndex "585" ;
+    nif:endIndex "589" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w86w87> nif:anchorOf "Universiteit Utrecht" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "614" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w9> nif:anchorOf "Collegium" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "60" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w93> nif:BeginIndex "650" ;
+    nif:anchorOf "leerstoelbenoemingen" ;
+    nif:endIndex "670" ;
+    nif:lemma "leerstoel_benoeming" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w99w100> nif:anchorOf "Juan Carlos" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "717" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_11t_12t_13> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w12w13w14> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_127t_128t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w128w129w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w170> ;
+    xs:date "2017-05-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_170t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w171w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_195t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w196w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_198t_199t_200t_201t_202t_203t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w199w200w201w202w203w204w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_210t_211t_212t_213t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w211w212w213w214w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_210t_211t_212t_213t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w211w212w213w214w215w216w217w218w219w220w221w222w223w224w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_213t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w214w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_217t_218t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w218w219w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_230> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w231> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_231t_232> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w232w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_23t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w24w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_26t_27t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w27w28w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_29t_30t_31t_32t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w30w31w32w33w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_34t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w35w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_65t_66t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w66w67w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w70w71w72> .
+
+bgn:Person-1661 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w108w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w113w114>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w138w139>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w144w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w151w152w153>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w158w159w160w161>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w175w176w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w188w189w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w193w194>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w207w208>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w20w21w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w228>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w242>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w244w245>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w64w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w86w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1661__Collegium_Illustrissimum_Hermandad.naf#w99w100> .
+

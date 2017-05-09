@@ -1,0 +1,257 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_1>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_6>,
+        bgn:Person-2649 ;
+    ore:proxyFor bgn:Person-2649 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w14> nif:lemma "per" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2649 ;
+    bgn:aggregatedPerson bgn:Person-2649 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_1> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w2> .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_12> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w13> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_13t_14> .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_6> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w7> .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w102> nif:anchorOf "Kfz" ;
+    nif:beginIndex "702" ;
+    nif:endIndex "705" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w106> nif:anchorOf "Sd" ;
+    nif:beginIndex "732" ;
+    nif:endIndex "734" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w108> nif:anchorOf "Kfz" ;
+    nif:beginIndex "735" ;
+    nif:endIndex "738" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w10w11> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w113> nif:anchorOf "Kfz" ;
+    nif:beginIndex "748" ;
+    nif:endIndex "751" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w116w117w118w119> nif:anchorOf "Leichte Gepanzerte Munitionskraftwagen Sd" ;
+    nif:beginIndex "757" ;
+    nif:endIndex "799" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w121> nif:anchorOf "Kfz" ;
+    nif:beginIndex "800" ;
+    nif:endIndex "803" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w124w125> nif:anchorOf "Leichte Gepanzerte" ;
+    nif:beginIndex "809" ;
+    nif:endIndex "827" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w126w127> nif:anchorOf "Beobachunskraftwagen M10" ;
+    nif:beginIndex "828" ;
+    nif:endIndex "853" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w128w129> nif:anchorOf "Wolverine M18" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "868" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w13> nif:BeginIndex "68" ;
+    nif:anchorOf "gerangschikt" ;
+    nif:endIndex "80" ;
+    nif:lemma "gerangschikt" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w132> nif:anchorOf "Jackson" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "889" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w134w135> nif:anchorOf "Light Tank" ;
+    nif:beginIndex "894" ;
+    nif:endIndex "904" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w144> nif:anchorOf "Grant" ;
+    nif:beginIndex "952" ;
+    nif:endIndex "957" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w146> nif:anchorOf "Sherman" ;
+    nif:beginIndex "962" ;
+    nif:endIndex "969" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w14w15> nif:anchorOf "per land" ;
+    nif:beginIndex "81" ;
+    nif:endIndex "89" ;
+    nif:head "bgnProc:2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w14" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w150w151w152> nif:anchorOf "GMC M7 Priest" ;
+    nif:beginIndex "988" ;
+    nif:endIndex "1002" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w154> nif:anchorOf "Scott" ;
+    nif:beginIndex "1007" ;
+    nif:endIndex "1012" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w156> nif:anchorOf "GMC" ;
+    nif:beginIndex "1018" ;
+    nif:endIndex "1021" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w158w159w160w161w162w163w164w165w166w167w168w169w170w171w172w173w174w175> nif:anchorOf "GMC T34 Calliope Achilles Archer Tetrarch Vickers Light Tank Challenger A34 Comet Cruiser Cromwell Crusader Sherman Firefly Matilda" ;
+    nif:beginIndex "1027" ;
+    nif:endIndex "1169" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w179w180> nif:anchorOf "Mk I/Mk" ;
+    nif:beginIndex "1185" ;
+    nif:endIndex "1192" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w182w183> nif:anchorOf "Valentine Churchill" ;
+    nif:beginIndex "1197" ;
+    nif:endIndex "1217" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w185w186w187w188w189w190w191w192w193w194w195w196w197w198w199> nif:anchorOf "Infantry Tank Mk IV Deacon M7 Priest Sexton Bren Gun Carrier Daimler Scout Car Staghound" ;
+    nif:beginIndex "1219" ;
+    nif:endIndex "1313" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w18w19w20w21w22w23w24w25w26w27w28w29w30w31> nif:anchorOf "Hetzer Jagdpanther Jagdpanzer IV Jagdtiger Panzerjager I Marder I Marder II Marder III Nashorn" ;
+    nif:beginIndex "101" ;
+    nif:endIndex "203" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w2> nif:BeginIndex "4" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "6" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w33> nif:anchorOf "Hornisse" ;
+    nif:beginIndex "205" ;
+    nif:endIndex "213" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w36w37w38w39w40> nif:anchorOf "III Stug IV Hetzer Panzerkampfwagen" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "259" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w45w46> nif:anchorOf "Panzerkampfwagen 38" ;
+    nif:beginIndex "267" ;
+    nif:endIndex "286" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w50w51w52w53w54w55w56w57w58w59w60w61w62w63w64w65w66w67w68w69w70w71w72w73w74> nif:anchorOf "Panzerkampfwagen I Panzerkampfwagen II Panzerkampfwagen III Panzerkampfwagen IV Panzerkampfwagen V Panther Panzerkampfwagen VI Tiger Panzerkampfwagen VIb Königstiger Panzerkampfwagen VIII Maus Hummel Wespe Grille Sturmpanzer I" ;
+    nif:beginIndex "291" ;
+    nif:endIndex "528" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w7> nif:BeginIndex "32" ;
+    nif:anchorOf "gebruikt" ;
+    nif:endIndex "40" ;
+    nif:lemma "gebruikt" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w76> nif:anchorOf "Bison" ;
+    nif:beginIndex "530" ;
+    nif:endIndex "535" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w78w79w80w81w82w83w84w85w86> nif:anchorOf "Sturmpanzer II Sturmpanzer III StuH42 Sturmhaubitze Sturmtiger Strumpanzer IV" ;
+    nif:beginIndex "538" ;
+    nif:endIndex "619" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w88> nif:anchorOf "Brummbär" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "629" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w90w91w92> nif:anchorOf "Kleines Kettenkraftrad Sd" ;
+    nif:beginIndex "632" ;
+    nif:endIndex "658" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w94> nif:anchorOf "Kfz" ;
+    nif:beginIndex "659" ;
+    nif:endIndex "662" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w97w98w99w100> nif:anchorOf "Leichte Gepanzerte Kraftwagen Sd" ;
+    nif:beginIndex "668" ;
+    nif:endIndex "701" .
+
+<http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#t_13t_14> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w14w15> .
+
+bgn:Person-2649 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w108>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w10w11>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w116w117w118w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w121>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w124w125>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w126w127>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w128w129>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w146>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w150w151w152>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w154>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w156>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w158w159w160w161w162w163w164w165w166w167w168w169w170w171w172w173w174w175>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w182w183>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w185w186w187w188w189w190w191w192w193w194w195w196w197w198w199>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w18w19w20w21w22w23w24w25w26w27w28w29w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w36w37w38w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w45w46>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w50w51w52w53w54w55w56w57w58w59w60w61w62w63w64w65w66w67w68w69w70w71w72w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w78w79w80w81w82w83w84w85w86>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w90w91w92>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w94>,
+        <http://data.biographynet.nl/rdf/170506221754/2649__Lijst_van_voertuigen_uit_de_Tweede_Wereldoorlog.naf#w97w98w99w100> .
+

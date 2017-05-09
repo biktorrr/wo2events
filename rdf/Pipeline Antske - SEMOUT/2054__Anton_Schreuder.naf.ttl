@@ -1,0 +1,958 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_103t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_109t_110t_111t_112t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_119t_120t_121t_122t_123t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_127t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_131t_132t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_175t_176t_177t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_181t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_196t_197t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_231t_232t_233t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_244t_245t_246t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_251t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_259>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_270t_271t_272t_273t_274t_275t_276t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_292t_293t_294>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_299>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_300>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_304t_305t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_309>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_313t_314t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_31t_32t_33t_34t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_332>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_333>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_335t_336>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_338t_339>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_77t_78t_79t_80t_81t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_97t_98t_99t_100t_101>,
+        bgn:Person-2054 ;
+    ore:proxyFor bgn:Person-2054 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w59> ;
+    stevensFam:isPartnerIn <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w105> nif:lemma "familie_hotel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w108> nif:lemma "kamer" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w110> nif:lemma "vanaf" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w120> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w130> nif:lemma "oorlog_jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w132> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w176> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w182> nif:lemma "stempel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w197> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w215> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w246> nif:lemma "hotel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w253> nif:lemma "wapen_voorraad" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w271> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w305> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w48> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w78> nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w87> nif:lemma "hotel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w99> nif:lemma "oppervlakte" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2054__Anton_Schreuder#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2054__Anton_Schreuder .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2054 ;
+    bgn:aggregatedPerson bgn:Person-2054 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2054__Anton_Schreuder ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2054__Anton_Schreuder ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w106> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_103t_104> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_106t_107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w116> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_118> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_119t_120t_121t_122t_123t_124t_125> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_109t_110t_111t_112t_113t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w131> ;
+    pb:Arg0 bgn:Person-2054 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_134> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_131t_132t_133> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_127t_128t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w139> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w14w15w16> ;
+    xs:date "1971-02-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w148> ;
+    pb:A1 bgn:Person-2054 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_148> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_150t_151> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w185> ;
+    pb:Arg0 bgn:Person-2054 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_181t_182t_183> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_175t_176t_177t_178t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w200> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_195> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_196t_197t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_213> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w214> ;
+    pb:A1 bgn:Person-2054 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_214t_215t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_219> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_238> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w239> ;
+    pb:A1 bgn:Person-2054 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_231t_232t_233t_234> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w242> ;
+    pb:Arg1 bgn:Person-2054 .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_249> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w250> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_244t_245t_246t_247> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_254> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w255> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_251t_252> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_259> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w260> ;
+    pb:Arg1 bgn:Person-2054 .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_263> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w264> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_268>,
+        bgn:Person-2054 .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w28> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_31t_32t_33t_34t_35>,
+        bgn:Person-2054 ;
+    pb:AM-LOC bgn:Person-2054 ;
+    pb:AM-TMP bgn:Person-2054 .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_283> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w284> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_279> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_270t_271t_272t_273t_274t_275t_276t_277> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_282> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_299> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w300> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_292t_293t_294> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_300> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w301> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_301> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_309> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w310> ;
+    pb:A0 bgn:Person-2054 ;
+    pb:A1 bgn:Person-2054 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_304t_305t_306> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_313t_314t_315> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w314w315w316> ;
+    xs:date "1947-03-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_332> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w333> ;
+    pb:A0 bgn:Person-2054 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_333> ;
+    pb:A2 bgn:Person-2054 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_338t_339> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_335t_336> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w336w337> ;
+    xs:date "2017-11-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_42> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w43> ;
+    xs:gYear "1930" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w46> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_46> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_54>,
+        bgn:Person-2054 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_47t_48> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w73> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_71>,
+        bgn:Person-2054 .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w77> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_73> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_85t_86> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_77t_78t_79t_80t_81t_82> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w8w9w10> ;
+    xs:date "1912-08-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_82> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w83> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w97> ;
+    pb:Arg0 bgn:Person-2054 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_97t_98t_99t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w104w105> nif:anchorOf "Het familiehotel" ;
+    nif:beginIndex "561" ;
+    nif:endIndex "577" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w106> nif:BeginIndex "578" ;
+    nif:anchorOf "telde" ;
+    nif:endIndex "583" ;
+    nif:lemma "tellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w107w108> nif:anchorOf "13 kamers" ;
+    nif:beginIndex "584" ;
+    nif:endIndex "593" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w108" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w110w111w112w113w114w115> nif:anchorOf "Vanaf het uitbreken van de oorlog" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "628" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w110" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w112> nif:BeginIndex "605" ;
+    nif:anchorOf "uitbreken" ;
+    nif:endIndex "614" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w116> nif:BeginIndex "629" ;
+    nif:anchorOf "bood" ;
+    nif:endIndex "633" ;
+    nif:lemma "bieden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w119> nif:anchorOf "onderdak" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "652" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w119" ;
+    nif:lemma "onderdak" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w12> nif:anchorOf "Ede" ;
+    nif:beginIndex "53" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w120w121w122w123w124w125w126> nif:anchorOf "aan enige tientallen joodse vluchtelingen en onderduikers" ;
+    nif:beginIndex "653" ;
+    nif:endIndex "710" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w128w129w130> nif:anchorOf "Het laatste oorlogsjaar" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "735" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w130" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w131> nif:BeginIndex "736" ;
+    nif:anchorOf "verbleven" ;
+    nif:endIndex "745" ;
+    nif:lemma "verblijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w132w133w134> nif:anchorOf "in het hotel" ;
+    nif:beginIndex "746" ;
+    nif:endIndex "758" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w132" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w135> nif:anchorOf "ook" ;
+    nif:beginIndex "759" ;
+    nif:endIndex "762" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w135" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w136> nif:anchorOf "Britse" ;
+    nif:beginIndex "763" ;
+    nif:endIndex "769" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w138> nif:anchorOf "die" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "794" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w138" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w139> nif:BeginIndex "795" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "800" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w144w145> nif:anchorOf "Market Garden" ;
+    nif:beginIndex "832" ;
+    nif:endIndex "845" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w147> nif:anchorOf "Schreuder" ;
+    nif:beginIndex "848" ;
+    nif:endIndex "857" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w148> nif:BeginIndex "858" ;
+    nif:anchorOf "sloot" ;
+    nif:endIndex "863" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w149> nif:anchorOf "zich" ;
+    nif:beginIndex "864" ;
+    nif:endIndex "868" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w149" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w14w15w16> nif:anchorOf "25 februari 1971" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "74" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w151w152> nif:anchorOf "januari 1942" ;
+    nif:beginIndex "872" ;
+    nif:endIndex "884" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w156w157w158> nif:anchorOf "Nederlandse Binnenlandse Strijdkrachten" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "935" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w162> nif:BeginIndex "947" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "951" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w170> nif:BeginIndex "999" ;
+    nif:anchorOf "uitwisselen" ;
+    nif:endIndex "1010" ;
+    nif:lemma "uit_wisselen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w176w177w178w179w180> nif:anchorOf "Voor het verzet en vluchtelingen" ;
+    nif:beginIndex "1049" ;
+    nif:endIndex "1081" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w176" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w18> nif:BeginIndex "76" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "79" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w182w183w184> nif:anchorOf "stempels en documenten" ;
+    nif:beginIndex "1089" ;
+    nif:endIndex "1111" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w185> nif:BeginIndex "1112" ;
+    nif:anchorOf "vervalst" ;
+    nif:endIndex "1120" ;
+    nif:lemma "vervalsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w190w191> nif:anchorOf "Alice Cohn" ;
+    nif:beginIndex "1149" ;
+    nif:endIndex "1159" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w196> nif:anchorOf "die" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1186" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w196" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w197w198w199> nif:anchorOf "in het hotel" ;
+    nif:beginIndex "1187" ;
+    nif:endIndex "1199" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w197" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w1w2w3> nif:anchorOf "Gerrit Schreuder" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w20> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "84" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w200> nif:BeginIndex "1200" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "1206" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w210w211> nif:anchorOf "De Leperkoen" ;
+    nif:beginIndex "1256" ;
+    nif:endIndex "1268" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w214> nif:BeginIndex "1277" ;
+    nif:anchorOf "verborgen" ;
+    nif:endIndex "1286" ;
+    nif:lemma "verbergen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w215w216w217> nif:anchorOf "op het terrein" ;
+    nif:beginIndex "1287" ;
+    nif:endIndex "1301" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w219> nif:anchorOf "Schreuder" ;
+    nif:beginIndex "1303" ;
+    nif:endIndex "1312" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w220> nif:BeginIndex "1313" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1316" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w229> nif:anchorOf "Amersfoort-Ede" ;
+    nif:beginIndex "1365" ;
+    nif:endIndex "1379" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w232w233w234w235> nif:anchorOf "zondag 8 april 1945" ;
+    nif:beginIndex "1385" ;
+    nif:endIndex "1404" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w237w238> nif:anchorOf "De Leperkoen" ;
+    nif:beginIndex "1410" ;
+    nif:endIndex "1422" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w239> nif:BeginIndex "1423" ;
+    nif:anchorOf "verraden" ;
+    nif:endIndex "1431" ;
+    nif:lemma "verraden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w241> nif:anchorOf "Schreuder" ;
+    nif:beginIndex "1433" ;
+    nif:endIndex "1442" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w242> nif:BeginIndex "1443" ;
+    nif:anchorOf "dook" ;
+    nif:endIndex "1447" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w245w246w247w248> nif:anchorOf "Het hotel en terrein" ;
+    nif:beginIndex "1455" ;
+    nif:endIndex "1475" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w246" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w24w25> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "123" ;
+    nif:endIndex "142" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w250> nif:BeginIndex "1481" ;
+    nif:anchorOf "doorzocht" ;
+    nif:endIndex "1490" ;
+    nif:lemma "doorzoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w252w253> nif:anchorOf "de wapenvoorraad" ;
+    nif:beginIndex "1492" ;
+    nif:endIndex "1508" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w253" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w255> nif:BeginIndex "1514" ;
+    nif:anchorOf "opgegraven" ;
+    nif:endIndex "1524" ;
+    nif:lemma "op_graven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w257w258> nif:anchorOf "Margaretha Schoorl" ;
+    nif:beginIndex "1526" ;
+    nif:endIndex "1544" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w260> nif:BeginIndex "1550" ;
+    nif:anchorOf "gevangengenomen" ;
+    nif:endIndex "1565" ;
+    nif:lemma "gevangen_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w264> nif:BeginIndex "1588" ;
+    nif:anchorOf "afgevoerd" ;
+    nif:endIndex "1597" ;
+    nif:lemma "af_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w266w267> nif:anchorOf "De Wormshoef" ;
+    nif:beginIndex "1603" ;
+    nif:endIndex "1615" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w269> nif:anchorOf "Lunteren" ;
+    nif:beginIndex "1619" ;
+    nif:endIndex "1627" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w27> nif:anchorOf "Schreuder" ;
+    nif:beginIndex "145" ;
+    nif:endIndex "154" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w271w272w273w274w275w276w277w278> nif:anchorOf "Bij gebrek aan overtuigend bewijs van haar betrokkenheid" ;
+    nif:beginIndex "1629" ;
+    nif:endIndex "1685" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w271" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w28> nif:BeginIndex "155" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "161" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w280> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "1691" ;
+    nif:endIndex "1694" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w280" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w283> nif:anchorOf "dagen" ;
+    nif:beginIndex "1704" ;
+    nif:endIndex "1709" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w284> nif:BeginIndex "1710" ;
+    nif:anchorOf "vrijgelaten" ;
+    nif:endIndex "1721" ;
+    nif:lemma "vrij_laten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w293w294w295> nif:anchorOf "op het moment" ;
+    nif:beginIndex "1754" ;
+    nif:endIndex "1767" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w300> nif:BeginIndex "1790" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1795" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w301> nif:BeginIndex "1796" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1798" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w302> nif:anchorOf "niets" ;
+    nif:beginIndex "1799" ;
+    nif:endIndex "1804" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w302" ;
+    nif:lemma "niets" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w305w306w307> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "1814" ;
+    nif:endIndex "1826" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w305" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w309> nif:anchorOf "Schreuder" ;
+    nif:beginIndex "1832" ;
+    nif:endIndex "1841" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w31> nif:anchorOf "HBS" ;
+    nif:beginIndex "168" ;
+    nif:endIndex "171" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w310> nif:BeginIndex "1842" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "1855" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w312> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "1859" ;
+    nif:endIndex "1866" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w314w315w316> nif:anchorOf "12 maart 1947" ;
+    nif:beginIndex "1870" ;
+    nif:endIndex "1883" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w319> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "1892" ;
+    nif:endIndex "1903" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w323w324w325w326w327w328> nif:anchorOf "Medal of Freedom with Silver Palm" ;
+    nif:beginIndex "1920" ;
+    nif:endIndex "1953" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w32w33w34w35w36> nif:anchorOf "de opleiding radiotelegrafist ( marconist" ;
+    nif:beginIndex "172" ;
+    nif:endIndex "212" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w33" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w33> nif:BeginIndex "175" ;
+    nif:anchorOf "opleiding" ;
+    nif:endIndex "184" ;
+    nif:lemma "opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w331> nif:anchorOf "Engelse" ;
+    nif:beginIndex "1958" ;
+    nif:endIndex "1965" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w333> nif:BeginIndex "1975" ;
+    nif:anchorOf "onderscheidde" ;
+    nif:endIndex "1988" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w334> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1989" ;
+    nif:endIndex "1992" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w334" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w336w337> nif:anchorOf "26 november" ;
+    nif:beginIndex "1996" ;
+    nif:endIndex "2007" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w339w340> nif:anchorOf "datzelfde jaar" ;
+    nif:beginIndex "2012" ;
+    nif:endIndex "2026" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w343w344w345w346w347w348w349> nif:anchorOf "Silver Laurel Leaf Emblem for Brave Conduct" ;
+    nif:beginIndex "2034" ;
+    nif:endIndex "2077" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w39w40> nif:anchorOf "Radio Holland" ;
+    nif:beginIndex "218" ;
+    nif:endIndex "231" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w43> nif:anchorOf "1930" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "241" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w45> nif:anchorOf "1935" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "250" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w46> nif:BeginIndex "251" ;
+    nif:anchorOf "voer" ;
+    nif:endIndex "255" ;
+    nif:lemma "varen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w47> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "259" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w47" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w48w49> nif:anchorOf "als scheepsofficier" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "279" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w52> nif:anchorOf "KPM" ;
+    nif:beginIndex "287" ;
+    nif:endIndex "290" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w55> nif:anchorOf "Rotterdamse" ;
+    nif:beginIndex "297" ;
+    nif:endIndex "308" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w56> nif:anchorOf "Lloyd" ;
+    nif:beginIndex "309" ;
+    nif:endIndex "314" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w59> a bgn:pron_3ms ;
+    nif:anchorOf "zijn" ;
+    nif:beginIndex "321" ;
+    nif:endIndex "325" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w5w6> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "32" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w69w70> nif:anchorOf "De Leperkoen" ;
+    nif:beginIndex "376" ;
+    nif:endIndex "388" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w72> nif:anchorOf "Lunteren" ;
+    nif:beginIndex "392" ;
+    nif:endIndex "400" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w73> nif:BeginIndex "401" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "405" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w74> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "409" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w74" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w77> nif:BeginIndex "426" ;
+    nif:anchorOf "beheerde" ;
+    nif:endIndex "434" ;
+    nif:lemma "beheren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w78w79w80w81w82w83> nif:anchorOf "samen met zijn vrouw van 1935" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "464" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w78" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w83> nif:anchorOf "1935" ;
+    nif:beginIndex "460" ;
+    nif:endIndex "464" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w85> nif:anchorOf "1961" ;
+    nif:beginIndex "469" ;
+    nif:endIndex "473" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w86w87> nif:anchorOf "het hotel" ;
+    nif:beginIndex "474" ;
+    nif:endIndex "483" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w87" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w8w9w10> nif:anchorOf "21 augustus 1912" ;
+    nif:beginIndex "34" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w90> nif:anchorOf "Leperkoen" ;
+    nif:beginIndex "489" ;
+    nif:endIndex "498" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w97> nif:BeginIndex "530" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "533" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w98w99w100w101w102> nif:anchorOf "een oppervlakte van 15 ha" ;
+    nif:beginIndex "534" ;
+    nif:endIndex "559" ;
+    nif:head "bgnProc:2054__Anton_Schreuder.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_103t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w104w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_109t_110t_111t_112t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w110w111w112w113w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w119> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_119t_120t_121t_122t_123t_124t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w120w121w122w123w124w125w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_127t_128t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w128w129w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_131t_132t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w132w133w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_150t_151> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w151w152> ;
+    xs:gYearMonth "1942-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_175t_176t_177t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w176w177w178w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_181t_182t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w182w183w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_196t_197t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w197w198w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_231t_232t_233t_234> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w232w233w234w235> ;
+    xs:date "1945-04-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_244t_245t_246t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w245w246w247w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_251t_252> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w252w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_270t_271t_272t_273t_274t_275t_276t_277> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w271w272w273w274w275w276w277w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_279> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w280> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_282> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w283> ;
+    xs:period "P1D" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_292t_293t_294> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w293w294w295> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_301> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w302> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_304t_305t_306> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w305w306w307> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_31t_32t_33t_34t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w32w33w34w35w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_333> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w334> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_338t_339> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w339w340> ;
+    xs:gYear "2017" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_44> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w45> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_77t_78t_79t_80t_81t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w78w79w80w81w82w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_84> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w85> ;
+    xs:gYear "1961" .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_85t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w86w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#t_97t_98t_99t_100t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w98w99w100w101w102> .
+
+bgn:Person-2054 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w136>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w144w145>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w147>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w156w157w158>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w190w191>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w210w211>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w219>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w229>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w237w238>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w241>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w24w25>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w257w258>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w266w267>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w269>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w309>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w312>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w319>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w323w324w325w326w327w328>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w331>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w343w344w345w346w347w348w349>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w69w70>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/2054__Anton_Schreuder.naf#w90> .
+

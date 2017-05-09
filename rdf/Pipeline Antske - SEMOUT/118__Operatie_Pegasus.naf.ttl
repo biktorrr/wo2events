@@ -1,0 +1,708 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_152t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_175t_176t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_182t_183t_184t_185t_186t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_19t_20t_21t_22t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_201t_202t_203t_204t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_207t_208t_209t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_211t_212t_213t_214t_215t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_229t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_260t_261t_262t_263t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_267t_268t_269t_270t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_277t_278t_279t_280t_281t_282t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_34t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_78t_79t_80t_81t_82t_83t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_80t_81t_82t_83t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_93>,
+        bgn:Person-118 ;
+    ore:proxyFor bgn:Person-118 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w155> nif:lemma "activiteit" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w176> nif:lemma "meer" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w183> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w20> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w203> nif:lemma "opdracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w208> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w212> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w230> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w261> nif:lemma "gedurende" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w269> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w278> nif:lemma "alleen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w35> nif:lemma "vanuit" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w58> nif:lemma "duizenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w79> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w81> nif:lemma "nadat" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-118__Operatie_Pegasus#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-118__Operatie_Pegasus .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-118 ;
+    bgn:aggregatedPerson bgn:Person-118 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-118__Operatie_Pegasus ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-118__Operatie_Pegasus ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w116> ;
+    pb:Arg0 bgn:Person-118 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_118> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_113> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w124> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_133>,
+        bgn:Person-118 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_118>,
+        bgn:Person-118 .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w131> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w157> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_152t_153t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w180> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_175t_176t_177t_178> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_188> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w189> ;
+    pb:Arg0 bgn:Person-118 ;
+    pb:Arg1 bgn:Person-118 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_182t_183t_184t_185t_186t_187> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_2> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w3> ;
+    pb:Arg0 bgn:Person-118 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_18>,
+        bgn:Person-118 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_19t_20t_21t_22t_23> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_41> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_33> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w207> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_203t_204> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w219> ;
+    pb:A0 bgn:Person-118 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_201t_202t_203t_204t_205t_206> ;
+    pb:A3 bgn:Person-118 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_207t_208t_209t_210> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_211t_212t_213t_214t_215t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_227> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w228> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_229t_230t_231> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_228> ;
+    pb:AM-TMP bgn:Person-118 .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_249> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w276> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_267t_268t_269t_270t_271> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_277t_278t_279t_280t_281t_282t_283> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_274> ;
+    pb:ArgM-MNR bgn:Person-118 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_260t_261t_262t_263t_264> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w39> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_33> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_34t_35t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w60> ;
+    pb:A0 bgn:Person-118 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_56t_57t_58> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_65> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w72> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_67> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_74> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_69> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w78> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_78t_79t_80t_81t_82t_83t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w80> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_76> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_80t_81t_82t_83t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w84> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_81> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w91> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w92> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w94> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w103> nif:anchorOf "Veluwe" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "634" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w107> nif:BeginIndex "652" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "656" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w110> nif:anchorOf "Britse" ;
+    nif:beginIndex "665" ;
+    nif:endIndex "671" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w113> nif:anchorOf "niet" ;
+    nif:beginIndex "685" ;
+    nif:endIndex "689" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w113" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w114> nif:anchorOf "snel" ;
+    nif:beginIndex "690" ;
+    nif:endIndex "694" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w114" ;
+    nif:lemma "snel" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w116> nif:BeginIndex "699" ;
+    nif:anchorOf "oprukken" ;
+    nif:endIndex "707" ;
+    nif:lemma "op_rukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w119> nif:anchorOf "Rijn" ;
+    nif:beginIndex "716" ;
+    nif:endIndex "720" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w124> nif:BeginIndex "736" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "743" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w131> nif:BeginIndex "779" ;
+    nif:anchorOf "evacueren" ;
+    nif:endIndex "788" ;
+    nif:lemma "evacueren" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w134> nif:anchorOf "Rijn" ;
+    nif:beginIndex "797" ;
+    nif:endIndex "801" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w137w138> nif:anchorOf "David Doby" ;
+    nif:beginIndex "821" ;
+    nif:endIndex "831" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w14> nif:anchorOf "Renkum" ;
+    nif:beginIndex "72" ;
+    nif:endIndex "78" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w150> nif:anchorOf "Rijn" ;
+    nif:beginIndex "910" ;
+    nif:endIndex "914" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w153w154w155> nif:anchorOf "de diverse activiteiten" ;
+    nif:beginIndex "923" ;
+    nif:endIndex "946" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w155" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w157> nif:BeginIndex "950" ;
+    nif:anchorOf "coördineren" ;
+    nif:endIndex "961" ;
+    nif:lemma "coördineren" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w159w160> nif:anchorOf "Operatie Pegasus" ;
+    nif:beginIndex "964" ;
+    nif:endIndex "980" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w17> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "96" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w171> nif:BeginIndex "1021" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1024" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w175> nif:anchorOf "waarbij" ;
+    nif:beginIndex "1037" ;
+    nif:endIndex "1044" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w175" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w176w177w178w179> nif:anchorOf "meer dan 100 mensen" ;
+    nif:beginIndex "1045" ;
+    nif:endIndex "1064" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w176" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w180> nif:BeginIndex "1065" ;
+    nif:anchorOf "geëvacueerd" ;
+    nif:endIndex "1076" ;
+    nif:lemma "evacueren" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w183w184w185w186w187w188> nif:anchorOf "In de nacht van 22-23 oktober" ;
+    nif:beginIndex "1085" ;
+    nif:endIndex "1114" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w189> nif:BeginIndex "1115" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "1120" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w19> nif:anchorOf "Gelderland" ;
+    nif:beginIndex "107" ;
+    nif:endIndex "117" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w190w191> nif:anchorOf "Easy Company" ;
+    nif:beginIndex "1121" ;
+    nif:endIndex "1133" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w194w195w196w197> nif:anchorOf "506th Parachute Infantry Regiment" ;
+    nif:beginIndex "1142" ;
+    nif:endIndex "1175" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w199> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "1177" ;
+    nif:endIndex "1188" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w1w2> nif:anchorOf "Pegasus" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w200w201> nif:anchorOf "101e Luchtlandingsdivisie" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1214" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w202w203w204w205w206w207> nif:anchorOf "de opdracht de evacuatie te beveiligen" ;
+    nif:beginIndex "1215" ;
+    nif:endIndex "1253" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w203" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w204w205> nif:anchorOf "de evacuatie" ;
+    nif:beginIndex "1227" ;
+    nif:endIndex "1239" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w205" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w205> nif:BeginIndex "1230" ;
+    nif:anchorOf "evacuatie" ;
+    nif:endIndex "1239" ;
+    nif:lemma "evacuatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w207> nif:BeginIndex "1243" ;
+    nif:anchorOf "beveiligen" ;
+    nif:endIndex "1253" ;
+    nif:lemma "beveiligen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w208w209w210w211> nif:anchorOf "door een sterke patrouille" ;
+    nif:beginIndex "1254" ;
+    nif:endIndex "1280" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w208" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w20w21w22w23w24> nif:anchorOf "in oktober en november 1944" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "145" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w20" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w212w213w214w215w216w217> nif:anchorOf "naar de noordkant van de rivier" ;
+    nif:beginIndex "1281" ;
+    nif:endIndex "1312" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w219> nif:BeginIndex "1316" ;
+    nif:anchorOf "sturen" ;
+    nif:endIndex "1322" ;
+    nif:lemma "sturen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w226w227> nif:anchorOf "Pegasus 1" ;
+    nif:beginIndex "1358" ;
+    nif:endIndex "1367" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w228> nif:BeginIndex "1368" ;
+    nif:anchorOf "bevonden" ;
+    nif:endIndex "1376" ;
+    nif:lemma "bevinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w229> nif:anchorOf "zich" ;
+    nif:beginIndex "1377" ;
+    nif:endIndex "1381" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w229" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w230w231w232> nif:anchorOf "onder andere brigadegeneraal" ;
+    nif:beginIndex "1382" ;
+    nif:endIndex "1410" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w230" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w233w234> nif:anchorOf "Gerald Lathbury" ;
+    nif:beginIndex "1411" ;
+    nif:endIndex "1426" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w239w240w241w242w243> nif:anchorOf "Charles Douw van der Krap" ;
+    nif:beginIndex "1448" ;
+    nif:endIndex "1473" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w250> nif:BeginIndex "1507" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1510" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w261w262w263w264w265> nif:anchorOf "Gedurende de winter van 1944" ;
+    nif:beginIndex "1576" ;
+    nif:endIndex "1604" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w261" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w268w269w270w271w272> nif:anchorOf "een aantal andere geallieerde militairen" ;
+    nif:beginIndex "1613" ;
+    nif:endIndex "1653" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w269" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w275> nif:anchorOf "Rijn" ;
+    nif:beginIndex "1662" ;
+    nif:endIndex "1666" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w276> nif:BeginIndex "1667" ;
+    nif:anchorOf "gesmokkeld" ;
+    nif:endIndex "1677" ;
+    nif:lemma "smokkelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w278w279w280w281w282w283w284> nif:anchorOf "alleen of in kleine groepjes veelal" ;
+    nif:beginIndex "1679" ;
+    nif:endIndex "1715" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w278" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w287> nif:anchorOf "Biesbosch" ;
+    nif:beginIndex "1723" ;
+    nif:endIndex "1732" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w3> nif:BeginIndex "17" ;
+    nif:anchorOf "betrof" ;
+    nif:endIndex "23" ;
+    nif:lemma "betreffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w34> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "196" ;
+    nif:endIndex "202" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w35w36w37> nif:anchorOf "vanuit bezet gebied" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "222" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w39> nif:BeginIndex "226" ;
+    nif:anchorOf "evacueren" ;
+    nif:endIndex "235" ;
+    nif:lemma "evacueren" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w42> nif:anchorOf "Nederrijn" ;
+    nif:beginIndex "244" ;
+    nif:endIndex "253" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w51> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "305" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w54> nif:anchorOf "Britse" ;
+    nif:beginIndex "315" ;
+    nif:endIndex "321" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w55w56> nif:anchorOf "1e Luchtlandingsdivisie" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "345" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w56> nif:BeginIndex "325" ;
+    nif:anchorOf "Luchtlandingsdivisie" ;
+    nif:endIndex "345" ;
+    nif:lemma "lucht_landing_divisie" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w57w58w59> nif:anchorOf "vele duizenden militairen" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "371" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w60> nif:BeginIndex "372" ;
+    nif:anchorOf "achterlaten" ;
+    nif:endIndex "383" ;
+    nif:lemma "achter_laten" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w66> nif:anchorOf "Rijn" ;
+    nif:beginIndex "409" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w68> nif:anchorOf "Sommigen" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "423" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w68" ;
+    nif:lemma "sommig" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w70> nif:anchorOf "zich" ;
+    nif:beginIndex "431" ;
+    nif:endIndex "435" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w70" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w72> nif:BeginIndex "439" ;
+    nif:anchorOf "verbergen" ;
+    nif:endIndex "448" ;
+    nif:lemma "verbergen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w75> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "457" ;
+    nif:endIndex "465" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w77> nif:anchorOf "anderen" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "474" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w77" ;
+    nif:lemma "ander" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w78> nif:BeginIndex "475" ;
+    nif:anchorOf "wisten" ;
+    nif:endIndex "481" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w79w80w81w82w83w84w85> nif:anchorOf "te ontsnappen nadat ze gevangen waren genomen" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "527" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w79" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w80> nif:BeginIndex "485" ;
+    nif:anchorOf "ontsnappen" ;
+    nif:endIndex "495" ;
+    nif:lemma "ontsnappen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w81w82w83w84w85> nif:anchorOf "nadat ze gevangen waren genomen" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "527" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w82> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "504" ;
+    nif:head "bgnProc:118__Operatie_Pegasus.naf#w82" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w84> nif:BeginIndex "514" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "519" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w8w9> nif:anchorOf "Pegasus 1" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "59" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w91> nif:BeginIndex "554" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "560" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w92> nif:BeginIndex "561" ;
+    nif:anchorOf "opgevangen" ;
+    nif:endIndex "571" ;
+    nif:lemma "op_vangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w94> nif:BeginIndex "575" ;
+    nif:anchorOf "verborgen" ;
+    nif:endIndex "584" ;
+    nif:lemma "verbergen" .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_152t_153t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w153w154w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_175t_176t_177t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w176w177w178w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_182t_183t_184t_185t_186t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w183w184w185w186w187w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_19t_20t_21t_22t_23> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w20w21w22w23w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_201t_202t_203t_204t_205t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w202w203w204w205w206w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_203t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w204w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_207t_208t_209t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w208w209w210w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_211t_212t_213t_214t_215t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w212w213w214w215w216w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_228> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_229t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w230w231w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_260t_261t_262t_263t_264> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w261w262w263w264w265> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_267t_268t_269t_270t_271> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w268w269w270w271w272> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_277t_278t_279t_280t_281t_282t_283> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w278w279w280w281w282w283w284> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_34t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w35w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_78t_79t_80t_81t_82t_83t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w79w80w81w82w83w84w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_80t_81t_82t_83t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w81w82w83w84w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w77> .
+
+bgn:Person-118 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w137w138>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w150>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w159w160>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w190w191>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w194w195w196w197>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w199>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w200w201>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w226w227>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w233w234>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w239w240w241w242w243>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w275>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w287>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w54>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/118__Operatie_Pegasus.naf#w8w9> .
+

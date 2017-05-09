@@ -1,0 +1,596 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_100t_101t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_120t_121t_122t_123t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_187t_188t_189t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_62t_63t_64t_65t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_72t_73t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_83>,
+        bgn:Person-1321 ;
+    ore:proxyFor bgn:Person-1321 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w121> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w133> nif:lemma "kruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w189> nif:lemma "dodenherdenking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w58> nif:lemma "adres" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w63> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w73> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1321__Cornelis_van_der_Vegte#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1321__Cornelis_van_der_Vegte .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1321 ;
+    bgn:aggregatedPerson bgn:Person-1321 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1321__Cornelis_van_der_Vegte ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1321__Cornelis_van_der_Vegte ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w106> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_104> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_100t_101t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w119> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_112> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_117> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w127> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_120t_121t_122t_123t_124t_125> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w14w15w16> ;
+    xs:date "1941-09-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w144> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_139> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w147> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_145>,
+        bgn:Person-1321 .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w172> ;
+    xs:gYear "2007" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w183> ;
+    pb:A1 bgn:Person-1321 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w186> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_187t_188t_189t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_189> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w197> ;
+    pb:Arg1 bgn:Person-1321 .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_23> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w37> ;
+    pb:A0 bgn:Person-1321 .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w38> ;
+    pb:ArgM-TMP bgn:Person-1321 .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w56> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_56> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w62> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_58> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_62t_63t_64t_65t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w72> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_70> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_72t_73t_74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w8w9w10> ;
+    xs:date "1900-02-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w101w102w103> nif:anchorOf "Eind december 1940" ;
+    nif:beginIndex "565" ;
+    nif:endIndex "583" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w105> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "589" ;
+    nif:endIndex "592" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w105" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w106> nif:BeginIndex "593" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "605" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w109w110w111> nif:anchorOf "29 september 1941" ;
+    nif:beginIndex "612" ;
+    nif:endIndex "629" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w113> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "635" ;
+    nif:endIndex "638" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w113" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w116> nif:anchorOf "Bussumerheide" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "658" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w118> nif:anchorOf "Crailo" ;
+    nif:beginIndex "663" ;
+    nif:endIndex "669" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w119> nif:BeginIndex "670" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "682" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w121w122w123w124w125w126> nif:anchorOf "Op de plaats van zijn executie" ;
+    nif:beginIndex "685" ;
+    nif:endIndex "715" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w127> nif:BeginIndex "716" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "721" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w129> nif:anchorOf "1978" ;
+    nif:beginIndex "728" ;
+    nif:endIndex "732" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w130w131w132w133w134w135w136w137w138w139w140w141w142w143w144> nif:anchorOf "een monumentaal houten kruis ter vervanging van het eenvoudige kruis dat er sinds 1945 stond" ;
+    nif:beginIndex "733" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w140> nif:anchorOf "dat" ;
+    nif:beginIndex "802" ;
+    nif:endIndex "805" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w140" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w143> nif:anchorOf "1945" ;
+    nif:beginIndex "815" ;
+    nif:endIndex "819" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w144> nif:BeginIndex "820" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "825" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w146> nif:anchorOf "Hierop" ;
+    nif:beginIndex "827" ;
+    nif:endIndex "833" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w146" ;
+    nif:lemma "hierop" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w147> nif:BeginIndex "834" ;
+    nif:anchorOf "stonden" ;
+    nif:endIndex "841" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w14w15w16> nif:anchorOf "29 september 1941" ;
+    nif:beginIndex "74" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w151> nif:anchorOf "A.A" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "857" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w157w158w159> nif:anchorOf "J. van Hamel" ;
+    nif:beginIndex "876" ;
+    nif:endIndex "888" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w161w162> nif:anchorOf "R. P." ;
+    nif:beginIndex "890" ;
+    nif:endIndex "894" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w164> nif:anchorOf "Jacob" ;
+    nif:beginIndex "897" ;
+    nif:endIndex "902" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w169> nif:anchorOf "Vegte" ;
+    nif:beginIndex "914" ;
+    nif:endIndex "919" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w172> nif:anchorOf "2007" ;
+    nif:beginIndex "924" ;
+    nif:endIndex "928" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w177> nif:anchorOf "A.J" ;
+    nif:beginIndex "947" ;
+    nif:endIndex "950" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w179w180w181> nif:anchorOf "L. van Zomeren" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "965" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w18> nif:BeginIndex "93" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "96" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w182> nif:anchorOf "aan" ;
+    nif:beginIndex "966" ;
+    nif:endIndex "969" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w182" ;
+    nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w183> nif:BeginIndex "970" ;
+    nif:anchorOf "toegevoegd" ;
+    nif:endIndex "980" ;
+    nif:lemma "toe_voegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w186> nif:BeginIndex "985" ;
+    nif:anchorOf "vindt" ;
+    nif:endIndex "990" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w187> nif:anchorOf "jaarlijks" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "1000" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w188w189w190w191w192> nif:anchorOf "een dodenherdenking plaats op 4" ;
+    nif:beginIndex "1001" ;
+    nif:endIndex "1032" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w190> nif:anchorOf "plaats" ;
+    nif:beginIndex "1021" ;
+    nif:endIndex "1027" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w190" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w193> nif:anchorOf "mei." ;
+    nif:beginIndex "1033" ;
+    nif:endIndex "1037" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w193" ;
+    nif:lemma "mei" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w194w195w196> nif:anchorOf "Van der Vegte" ;
+    nif:beginIndex "1039" ;
+    nif:endIndex "1052" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w197> nif:BeginIndex "1053" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1055" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w1w2w3w4> nif:anchorOf "van der Vegte" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "101" ;
+    nif:endIndex "111" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w201w202> nif:anchorOf "Eerebegraafplaats Bloemendaal" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1100" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w24> nif:BeginIndex "133" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "136" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w28w29w30w31> nif:anchorOf "Comité voor Vrij Nederland" ;
+    nif:beginIndex "160" ;
+    nif:endIndex "186" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w35w36> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "197" ;
+    nif:endIndex "216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w37> nif:BeginIndex "217" ;
+    nif:anchorOf "uitbrak" ;
+    nif:endIndex "224" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w38> nif:BeginIndex "225" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "228" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w39w40w41> nif:anchorOf "Van der Vegte" ;
+    nif:beginIndex "229" ;
+    nif:endIndex "242" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w48> nif:anchorOf "N.V" ;
+    nif:beginIndex "287" ;
+    nif:endIndex "290" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w50w51> nif:anchorOf "De Arbeiderspers" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "308" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w53> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "312" ;
+    nif:endIndex "321" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w55> nif:anchorOf "Daar" ;
+    nif:beginIndex "323" ;
+    nif:endIndex "327" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w55" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w56> nif:BeginIndex "328" ;
+    nif:anchorOf "verzamelde" ;
+    nif:endIndex "338" ;
+    nif:lemma "verzamelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w57> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w57" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w58w59w60w61w62w63w64w65w66w67w68w69> nif:anchorOf "adressen die van nut waren voor de opbouw van een illegale organisatie" ;
+    nif:beginIndex "343" ;
+    nif:endIndex "413" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w59> nif:anchorOf "die" ;
+    nif:beginIndex "352" ;
+    nif:endIndex "355" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w59" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w6> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w62> nif:BeginIndex "364" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "369" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w63w64w65w66w67w68w69> nif:anchorOf "voor de opbouw van een illegale organisatie" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "413" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w71> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "418" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w71" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w72> nif:BeginIndex "419" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "423" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w73w74w75> nif:anchorOf "in het verzet" ;
+    nif:beginIndex "424" ;
+    nif:endIndex "437" ;
+    nif:head "bgnProc:1321__Cornelis_van_der_Vegte.naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w77> nif:BeginIndex "441" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "445" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w81> nif:anchorOf "Engelsen" ;
+    nif:beginIndex "469" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w84> nif:BeginIndex "483" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "487" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w88w89w90w91> nif:anchorOf "Comité voor Vrij Nederland" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "526" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w8w9w10> nif:anchorOf "1 februari 1900" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w96w97> nif:anchorOf "Rudolf Pieter" ;
+    nif:beginIndex "542" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w99> nif:anchorOf "Jacob" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "563" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_100t_101t_102> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w101w102w103> ;
+    xs:gYearMonth "1940-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_108t_109t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w109w110w111> ;
+    xs:date "1941-09-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_120t_121t_122t_123t_124t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w121w122w123w124w125w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_128> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w129> ;
+    xs:gYear "1978" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_129t_130t_131t_132t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w130w131w132w133w134w135w136w137w138w139w140w141w142w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_142> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w143> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_186> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w187> ;
+    xs:gYear "XXXX" .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_187t_188t_189t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w188w189w190w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w58w59w60w61w62w63w64w65w66w67w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_62t_63t_64t_65t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w63w64w65w66w67w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#t_72t_73t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w73w74w75> .
+
+bgn:Person-1321 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w157w158w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w161w162>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w179w180w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w194w195w196>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w201w202>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w28w29w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w39w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w88w89w90w91>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w96w97>,
+        <http://data.biographynet.nl/rdf/170506221754/1321__Cornelis_van_der_Vegte.naf#w99> .
+

@@ -1,0 +1,839 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_133t_134t_135t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_161t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_178t_179t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_192t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_196t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_249t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_259>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_263t_264t_265t_266t_267t_268t_269t_270t_271t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_270>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_62t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_85t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_91t_92t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_9t_10t_11>,
+        bgn:Person-1448 ;
+    ore:proxyFor bgn:Person-1448 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w133> nif:lemma "regering" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w134> nif:lemma "onduidelijkheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w163> nif:lemma "loopbaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w182> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w194> nif:lemma "marine_schip" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w198> nif:lemma "vlieg_dek_schip" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w234> nif:lemma "geschut" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w241> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w251> nif:lemma "loopbaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w270> nif:lemma "rang" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w52> nif:lemma "tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w63> nif:lemma "zoals" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w72> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w86> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w92> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1448__Adri_van_Es#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1448__Adri_van_Es .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1448 ;
+    bgn:aggregatedPerson bgn:Person-1448 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1448__Adri_van_Es ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1448__Adri_van_Es ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w101> ;
+    pb:Arg0 bgn:Person-1448 ;
+    pb:ArgM-PRD bgn:Person-1448 ;
+    pb:ArgM-TMP bgn:Person-1448 .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w111> ;
+    pb:ArgM bgn:Person-1448 .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w129> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_127> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_133t_134t_135t_136t_137> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w142> ;
+    pb:Arg0 bgn:Person-1448 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w16w17w18> ;
+    xs:date "1994-01-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w161> ;
+    pb:A0 bgn:Person-1448 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_161t_162> ;
+    pb:AM-PRD bgn:Person-1448 .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w184> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_177> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_176> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_181t_182> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_178t_179t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w192> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_190> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_192t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_196t_197>,
+        bgn:Person-1448 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_204> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w205> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w209> ;
+    pb:ArgM-TMP bgn:Person-1448 .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w213> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_220> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w221> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_223> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w224> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_222> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_232t_233> ;
+    pb:Arg2 bgn:Person-1448 ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_244> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_237> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w238> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_244> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_245> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w246> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_239> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_244> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_240t_241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_248> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w249> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_247> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_249t_250> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_262> ;
+    pb:AM-TMP bgn:Person-1448 .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_270> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w271> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_260> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_263t_264t_265t_266t_267t_268t_269t_270t_271t_272> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_259> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_262> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w54> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_50t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_67> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w68> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_49> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_60> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_66> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_62t_63t_64t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w71> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_71t_72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w85> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_85t_86t_87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w97> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_90> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_91t_92t_93t_94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w10w11w12> ;
+    xs:date "1913-04-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w1> nif:anchorOf "Adrianus" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "8" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w101> nif:BeginIndex "556" ;
+    nif:anchorOf "trad" ;
+    nif:endIndex "560" ;
+    nif:lemma "af_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w107w108> nif:anchorOf "kabinet-Biesheuvel II" ;
+    nif:beginIndex "580" ;
+    nif:endIndex "601" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w10w11w12> nif:anchorOf "28 april 1913" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w111> nif:BeginIndex "609" ;
+    nif:anchorOf "conflict" ;
+    nif:endIndex "617" ;
+    nif:lemma "conflict" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w114w115> nif:anchorOf "De Koster" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "640" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w118> nif:BeginIndex "646" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "649" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w128> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "708" ;
+    nif:endIndex "711" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w128" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w129> nif:BeginIndex "712" ;
+    nif:anchorOf "verweet" ;
+    nif:endIndex "719" ;
+    nif:lemma "verwijten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w131> nif:anchorOf "1970" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "727" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w132w133> nif:anchorOf "de regering" ;
+    nif:beginIndex "728" ;
+    nif:endIndex "739" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w134w135w136w137w138> nif:anchorOf "onduidelijkheid over gezag en tolerantie" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "780" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w134" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w14> nif:anchorOf "Wassenaar" ;
+    nif:beginIndex "52" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w141> nif:anchorOf "Es" ;
+    nif:beginIndex "786" ;
+    nif:endIndex "788" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w142> nif:BeginIndex "789" ;
+    nif:anchorOf "zou" ;
+    nif:endIndex "792" ;
+    nif:lemma "zullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w146> nif:BeginIndex "816" ;
+    nif:anchorOf "zijn" ;
+    nif:beginIndex "816" ;
+    nif:endIndex "820" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w146" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w151> nif:anchorOf "Jong" ;
+    nif:beginIndex "848" ;
+    nif:endIndex "852" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w155> nif:BeginIndex "875" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "878" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w158w159w160> nif:anchorOf "Adri van Es" ;
+    nif:beginIndex "889" ;
+    nif:endIndex "900" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w161> nif:BeginIndex "901" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "906" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w162w163> nif:anchorOf "zijn loopbaan" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "920" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w168w169w170w171w172> nif:anchorOf "Koninklijk Instituut voor de Marine" ;
+    nif:beginIndex "948" ;
+    nif:endIndex "983" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w16w17w18> nif:anchorOf "6 januari 1994" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "77" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w174> nif:anchorOf "KIM" ;
+    nif:beginIndex "985" ;
+    nif:endIndex "988" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w177> nif:anchorOf "waar" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "995" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w177" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w178> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "996" ;
+    nif:endIndex "999" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w178" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w179w180w181> nif:anchorOf "begin jaren 30" ;
+    nif:beginIndex "1000" ;
+    nif:endIndex "1014" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w182w183> nif:anchorOf "als marineofficier" ;
+    nif:beginIndex "1015" ;
+    nif:endIndex "1033" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w184> nif:BeginIndex "1034" ;
+    nif:anchorOf "afstudeerde" ;
+    nif:endIndex "1045" ;
+    nif:lemma "af_studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w186> nif:BeginIndex "1047" ;
+    nif:anchorOf "luitenant-ter-zee" ;
+    nif:endIndex "1064" ;
+    nif:lemma "luitenant-ter_zee" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w191> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1080" ;
+    nif:endIndex "1083" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w191" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w192> nif:BeginIndex "1084" ;
+    nif:anchorOf "commandeerde" ;
+    nif:endIndex "1096" ;
+    nif:lemma "commanderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w193w194> nif:anchorOf "verschillende marineschepen" ;
+    nif:beginIndex "1097" ;
+    nif:endIndex "1124" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w194" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w196> nif:anchorOf "waaronder" ;
+    nif:beginIndex "1126" ;
+    nif:endIndex "1135" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w196" ;
+    nif:lemma "waaronder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w197w198> nif:anchorOf "het vliegdekschip" ;
+    nif:beginIndex "1136" ;
+    nif:endIndex "1153" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w20> nif:BeginIndex "79" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "82" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w200w201> nif:anchorOf "Hr. Ms." ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1164" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w202w203> nif:anchorOf "Karel Doorman" ;
+    nif:beginIndex "1165" ;
+    nif:endIndex "1178" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w205> nif:anchorOf "1948" ;
+    nif:beginIndex "1180" ;
+    nif:endIndex "1184" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w209> nif:BeginIndex "1190" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1193" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w213> nif:BeginIndex "1212" ;
+    nif:anchorOf "kustverdediging" ;
+    nif:endIndex "1227" ;
+    nif:lemma "kust_verdediging" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w215> nif:anchorOf "Ameland" ;
+    nif:beginIndex "1231" ;
+    nif:endIndex "1238" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w218> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1250" ;
+    nif:endIndex "1256" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w22> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "87" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w221> nif:anchorOf "1940" ;
+    nif:beginIndex "1268" ;
+    nif:endIndex "1272" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w223> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1274" ;
+    nif:endIndex "1277" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w223" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w224> nif:BeginIndex "1278" ;
+    nif:anchorOf "blies" ;
+    nif:endIndex "1283" ;
+    nif:lemma "op_blazen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w231> nif:anchorOf "Winkelman" ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1326" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w233w234> nif:anchorOf "het geschut" ;
+    nif:beginIndex "1328" ;
+    nif:endIndex "1339" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w234" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w238> nif:BeginIndex "1349" ;
+    nif:anchorOf "voorkomen" ;
+    nif:endIndex "1358" ;
+    nif:lemma "voorkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w240> nif:anchorOf "deze" ;
+    nif:beginIndex "1363" ;
+    nif:endIndex "1367" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w240" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w241w242> nif:anchorOf "in handen" ;
+    nif:beginIndex "1368" ;
+    nif:endIndex "1377" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w241" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w245> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "1385" ;
+    nif:endIndex "1393" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w246> nif:BeginIndex "1394" ;
+    nif:anchorOf "viel" ;
+    nif:endIndex "1398" ;
+    nif:lemma "vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w248> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1400" ;
+    nif:endIndex "1403" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w248" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w249> nif:BeginIndex "1404" ;
+    nif:anchorOf "vervolgde" ;
+    nif:endIndex "1413" ;
+    nif:lemma "vervolgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w250w251> nif:anchorOf "zijn loopbaan" ;
+    nif:beginIndex "1414" ;
+    nif:endIndex "1427" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w251" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w254w255> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "1434" ;
+    nif:endIndex "1453" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w260> nif:anchorOf "waar" ;
+    nif:beginIndex "1469" ;
+    nif:endIndex "1473" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w260" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w261> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1474" ;
+    nif:endIndex "1477" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w261" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w263> nif:anchorOf "1967" ;
+    nif:beginIndex "1481" ;
+    nif:endIndex "1485" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w264w265w266w267w268w269w270w271w272w273> nif:anchorOf "de op één na hoogst haalbare rang behaalde van viceadmiraal" ;
+    nif:beginIndex "1486" ;
+    nif:endIndex "1545" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w270" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w271> nif:BeginIndex "1520" ;
+    nif:anchorOf "behaalde" ;
+    nif:endIndex "1528" ;
+    nif:lemma "behalen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w3> nif:anchorOf "Adri" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w31> nif:BeginIndex "155" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "158" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w33w34> nif:anchorOf "IJzeren Adriaan" ;
+    nif:beginIndex "160" ;
+    nif:endIndex "175" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w40w41> nif:anchorOf "De Sfinx" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "203" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w45> nif:anchorOf "Es" ;
+    nif:beginIndex "211" ;
+    nif:endIndex "213" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w46> nif:BeginIndex "214" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "217" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w50> nif:anchorOf "die" ;
+    nif:beginIndex "238" ;
+    nif:endIndex "241" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w50" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w51w52> nif:anchorOf "enige tijd" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "252" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w54> nif:BeginIndex "262" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "265" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w59> nif:anchorOf "Defensie" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w6> nif:anchorOf "Es" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w61> nif:anchorOf "het" ;
+    nif:beginIndex "298" ;
+    nif:endIndex "301" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w61" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w62> nif:anchorOf "daarna" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "308" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w62" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w63w64w65w66> nif:anchorOf "zoals gebruikelijk bij adjudanten" ;
+    nif:beginIndex "309" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w67> nif:anchorOf "ver" ;
+    nif:beginIndex "343" ;
+    nif:endIndex "346" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w67" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w68> nif:BeginIndex "347" ;
+    nif:anchorOf "schopte" ;
+    nif:endIndex "354" ;
+    nif:lemma "schoppen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w71> nif:BeginIndex "360" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "363" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w72w73> nif:anchorOf "onder meer" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w78w79> nif:anchorOf "Karel Doorman" ;
+    nif:beginIndex "409" ;
+    nif:endIndex "422" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w8> nif:anchorOf "Amersfoort" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w82> nif:BeginIndex "428" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "432" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w85> nif:BeginIndex "455" ;
+    nif:anchorOf "marinezaken" ;
+    nif:endIndex "466" ;
+    nif:lemma "marine_zaak" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w86w87w88> nif:anchorOf "in het kabinet-Marijnen" ;
+    nif:beginIndex "467" ;
+    nif:endIndex "490" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w86" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w91> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "499" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w91" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w92w93w94w95> nif:anchorOf "in zes achtereenvolgende kabinetten" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "535" ;
+    nif:head "bgnProc:1448__Adri_van_Es.naf#w92" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w97> nif:BeginIndex "540" ;
+    nif:anchorOf "blijven" ;
+    nif:endIndex "547" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w99w100> nif:anchorOf "Van Es" ;
+    nif:beginIndex "549" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_130> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w131> ;
+    xs:gYear "1970" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_131t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w132w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_133t_134t_135t_136t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w134w135w136w137w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_161t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w162w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_178t_179t_180> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w179w180w181> ;
+    xs:date "193" .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_192t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w193w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_196t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w197w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_232t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w233w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_239> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w240> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_240t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w241w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_249t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w250w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_259> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w260> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_260> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w261> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_263t_264t_265t_266t_267t_268t_269t_270t_271t_272> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w264w265w266w267w268w269w270w271w272w273> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_62t_63t_64t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w63w64w65w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_71t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w72w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_85t_86t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w86w87w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_91t_92t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w92w93w94w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#t_262> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w263> ;
+    xs:gYear "1967" .
+
+bgn:Person-1448 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w107w108>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w114w115>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w158w159w160>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w168w169w170w171w172>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w200w201>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w218>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w231>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w245>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w254w255>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w78w79>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1448__Adri_van_Es.naf#w99w100> .
+

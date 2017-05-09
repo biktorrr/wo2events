@@ -1,0 +1,902 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_112t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_117t_118t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_122t_123t_124t_125t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_123t_124t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_163t_164t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_190t_191t_192t_193t_194t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_206t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_218t_219t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_227t_228t_229t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_249t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_255t_256t_257t_258t_259t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_272t_273>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_283t_284t_285>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_288>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_290t_291t_292>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_296t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_313>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_316>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_317>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_323>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_41t_42t_43t_44t_45t_46t_47t_48t_49t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_46t_47t_48t_49t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_73t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_98t_99>,
+        bgn:Person-169 ;
+    ore:proxyFor bgn:Person-169 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w100> nif:lemma "dode" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w114> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w118> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w123> nif:lemma "omdat" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w125> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w190> nif:lemma "herdenking_monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w191> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w251> nif:lemma "doel" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w258> nif:lemma "munitie" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w274> nif:lemma "trein" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w286> nif:lemma "bombardement" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w298> nif:lemma "bom" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w39> nif:lemma "bom" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w43> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w47> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w71> nif:lemma "compleet" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w75> nif:lemma "station_gebouw" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-169__Bombardement_op_Zutphen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-169__Bombardement_op_Zutphen .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-169 ;
+    bgn:aggregatedPerson bgn:Person-169 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-169__Bombardement_op_Zutphen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-169__Bombardement_op_Zutphen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w102> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_98t_99> ;
+    pb:AM-LOC bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w116> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_112t_113t_114> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_117t_118t_119t_120> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_122t_123t_124t_125t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w129> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_123t_124t_125> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w142> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_140> ;
+    pb:ArgM-LOC bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w160> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_151> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_158>,
+        bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_168> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w169> ;
+    pb:Arg1 bgn:Person-169 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_163t_164t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w172> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_170> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_180>,
+        bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w188> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_188t_189> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_190t_191t_192t_193t_194t_195> ;
+    pb:ArgM-TMP bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w200> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_197> ;
+    pb:ArgM-TMP bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w21> ;
+    pb:Arg1 bgn:Person-169 ;
+    pb:ArgM-LOC bgn:Person-169 ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_33>,
+        bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_206t_207t_208> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w207w208w209> ;
+    xs:date "1946-05-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_210t_211> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w211w212> ;
+    xs:period "P2W" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_218t_219t_220> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w219w220w221> ;
+    xs:date "1944-10-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_237> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w238> ;
+    pb:A1 bgn:Person-169 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_231> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_227t_228t_229t_230>,
+        bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_240> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w241> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_241> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_252> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w253> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_249t_250> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_262> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w263> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_255t_256t_257t_258t_259t_260> ;
+    pb:Arg1 bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w276> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_272t_273> ;
+    pb:AM-LOC bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_286> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w287> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_283t_284t_285>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_288> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_287> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_290t_291t_292> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_295> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w296> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_296t_297> ;
+    pb:AM-LOC bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_313> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w314> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_317> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w318> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_316> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_323> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w324> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w36> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_33>,
+        bgn:Person-169 .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w40> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_37t_38> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_41t_42t_43t_44t_45t_46t_47t_48t_49t_50t_51> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_40> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_52> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w5> ;
+    pb:Arg0 bgn:Person-169 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_5> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_8t_9t_10> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w46> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_46t_47t_48t_49t_50t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w8> ;
+    xs:date "XXXX-WXX-6TMD" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w72> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_61>,
+        bgn:Person-169 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_69t_70> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w78> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_73t_74> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_76> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w81> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w102> nif:BeginIndex "640" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "648" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w111> nif:anchorOf "Warnsveldseweg" ;
+    nif:beginIndex "699" ;
+    nif:endIndex "713" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w113w114w115> nif:anchorOf "Het aantal doden" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "731" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w114" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w116> nif:BeginIndex "732" ;
+    nif:anchorOf "liep" ;
+    nif:endIndex "736" ;
+    nif:lemma "op_lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w118w119w120w121> nif:anchorOf "tot boven de honderd" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "760" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w123w124w125w126w127w128w129> nif:anchorOf "omdat een aantal vermisten nooit werd teruggevonden" ;
+    nif:beginIndex "762" ;
+    nif:endIndex "813" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w123" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w124w125w126> nif:anchorOf "een aantal vermisten" ;
+    nif:beginIndex "768" ;
+    nif:endIndex "788" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w127> nif:anchorOf "nooit" ;
+    nif:beginIndex "789" ;
+    nif:endIndex "794" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w127" ;
+    nif:lemma "nooit" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w129> nif:BeginIndex "800" ;
+    nif:anchorOf "teruggevonden" ;
+    nif:endIndex "813" ;
+    nif:lemma "terug_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w13> nif:anchorOf "Geallieerde" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "86" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w139> nif:anchorOf "Canadese" ;
+    nif:beginIndex "863" ;
+    nif:endIndex "871" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w141> nif:anchorOf "die" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "886" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w141" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w142> nif:BeginIndex "887" ;
+    nif:anchorOf "sneuvelden" ;
+    nif:endIndex "897" ;
+    nif:lemma "sneuvelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w147> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "927" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w151> nif:anchorOf "Zutphenaren" ;
+    nif:beginIndex "939" ;
+    nif:endIndex "950" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w152> nif:anchorOf "die" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "954" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w152" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w155w156> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "966" ;
+    nif:endIndex "985" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w159> nif:anchorOf "Nederlands-Indië" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1015" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w160> nif:BeginIndex "1016" ;
+    nif:anchorOf "omkwamen" ;
+    nif:endIndex "1024" ;
+    nif:lemma "om_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w164w165w166> nif:anchorOf "10 april 1950" ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1047" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w168> nif:anchorOf "Gideon-monument" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1067" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w169> nif:BeginIndex "1068" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "1075" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w171> nif:anchorOf "Het" ;
+    nif:beginIndex "1077" ;
+    nif:endIndex "1080" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w171" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w172> nif:BeginIndex "1081" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1086" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w175> nif:anchorOf "Kloosterhof" ;
+    nif:beginIndex "1094" ;
+    nif:endIndex "1105" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w178> nif:anchorOf "Broederenkerk" ;
+    nif:beginIndex "1113" ;
+    nif:endIndex "1126" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w17w18> nif:anchorOf "Oude IJsselbrug" ;
+    nif:beginIndex "109" ;
+    nif:endIndex "124" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w181> nif:anchorOf "Rozengracht" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1145" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w185> nif:anchorOf "Algemene" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1161" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w187> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1183" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w188> nif:BeginIndex "1184" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1186" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w189w190> nif:anchorOf "een herdenkingsmonument" ;
+    nif:beginIndex "1187" ;
+    nif:endIndex "1210" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w190" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w191w192w193w194w195w196> nif:anchorOf "bij het graf van dertien slachtoffers" ;
+    nif:beginIndex "1211" ;
+    nif:endIndex "1248" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w191" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w198> nif:anchorOf "Het" ;
+    nif:beginIndex "1250" ;
+    nif:endIndex "1253" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w198" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w20> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "128" ;
+    nif:endIndex "135" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w200> nif:BeginIndex "1259" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "1266" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w204w205> nif:anchorOf "Nationale Dodenherdenking" ;
+    nif:beginIndex "1286" ;
+    nif:endIndex "1311" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w207w208w209> nif:anchorOf "4 mei 1946" ;
+    nif:beginIndex "1315" ;
+    nif:endIndex "1325" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w21> nif:BeginIndex "136" ;
+    nif:anchorOf "bombarderen" ;
+    nif:endIndex "147" ;
+    nif:lemma "bombarderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w211w212> nif:anchorOf "Twee weken" ;
+    nif:beginIndex "1328" ;
+    nif:endIndex "1338" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w217> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "1364" ;
+    nif:endIndex "1371" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w219w220w221> nif:anchorOf "14 oktober 1944" ;
+    nif:beginIndex "1376" ;
+    nif:endIndex "1391" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w228w229w230w231> nif:anchorOf "donderdag 28 september 1944" ;
+    nif:beginIndex "1418" ;
+    nif:endIndex "1445" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w232> nif:anchorOf "ook" ;
+    nif:beginIndex "1446" ;
+    nif:endIndex "1449" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w232" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w237> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "1481" ;
+    nif:endIndex "1488" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w238> nif:BeginIndex "1489" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "1499" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w241> nif:BeginIndex "1509" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1512" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w242> nif:anchorOf "toen" ;
+    nif:beginIndex "1513" ;
+    nif:endIndex "1517" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w242" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w244> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1522" ;
+    nif:endIndex "1528" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w250w251> nif:anchorOf "Het doel" ;
+    nif:beginIndex "1570" ;
+    nif:endIndex "1578" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w251" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w253> nif:BeginIndex "1584" ;
+    nif:anchorOf "getroffen" ;
+    nif:endIndex "1593" ;
+    nif:lemma "treffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w256w257w258w259w260w261> nif:anchorOf "de ontploffende munitie waaronder pantsergranaten" ;
+    nif:beginIndex "1600" ;
+    nif:endIndex "1650" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w258" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w263> nif:BeginIndex "1652" ;
+    nif:anchorOf "beschadigde" ;
+    nif:endIndex "1663" ;
+    nif:lemma "beschadigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w271> nif:anchorOf "Buitensociëteit" ;
+    nif:beginIndex "1719" ;
+    nif:endIndex "1734" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w273w274> nif:anchorOf "De trein" ;
+    nif:beginIndex "1736" ;
+    nif:endIndex "1744" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w274" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w276> nif:BeginIndex "1751" ;
+    nif:anchorOf "opgesteld" ;
+    nif:endIndex "1760" ;
+    nif:lemma "op_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w279> nif:anchorOf "Overweg" ;
+    nif:beginIndex "1771" ;
+    nif:endIndex "1778" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w282> nif:anchorOf "Industrieweg" ;
+    nif:beginIndex "1785" ;
+    nif:endIndex "1797" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w284w285w286> nif:anchorOf "Een klein bombardement" ;
+    nif:beginIndex "1800" ;
+    nif:endIndex "1822" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w286" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w287> nif:BeginIndex "1823" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "1827" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w288> nif:anchorOf "nog" ;
+    nif:beginIndex "1828" ;
+    nif:endIndex "1831" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w288" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w289> nif:anchorOf "plaats" ;
+    nif:beginIndex "1832" ;
+    nif:endIndex "1838" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w289" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w291w292w293> nif:anchorOf "1 februari 1945" ;
+    nif:beginIndex "1842" ;
+    nif:endIndex "1857" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w296> nif:BeginIndex "1862" ;
+    nif:anchorOf "vielen" ;
+    nif:endIndex "1868" ;
+    nif:lemma "vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w297w298> nif:anchorOf "enkele bommen" ;
+    nif:beginIndex "1869" ;
+    nif:endIndex "1882" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w298" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w304> nif:anchorOf "Kerksteeg" ;
+    nif:beginIndex "1905" ;
+    nif:endIndex "1914" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w306w307> nif:anchorOf "Rode Torenstraat" ;
+    nif:beginIndex "1918" ;
+    nif:endIndex "1934" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w31> nif:anchorOf "Duitse" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w314> nif:BeginIndex "1968" ;
+    nif:anchorOf "beschadigd" ;
+    nif:endIndex "1978" ;
+    nif:lemma "beschadigd" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w317> nif:anchorOf "totaal" ;
+    nif:beginIndex "1989" ;
+    nif:endIndex "1995" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w317" ;
+    nif:lemma "totaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w318> nif:BeginIndex "1996" ;
+    nif:anchorOf "verwoest" ;
+    nif:endIndex "2004" ;
+    nif:lemma "verwoesten" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w324> nif:BeginIndex "2034" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "2036" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w34> nif:anchorOf "Arnhem" ;
+    nif:beginIndex "217" ;
+    nif:endIndex "223" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w36> nif:BeginIndex "227" ;
+    nif:anchorOf "verhinderen" ;
+    nif:endIndex "238" ;
+    nif:lemma "verhinderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w38w39> nif:anchorOf "De bommen" ;
+    nif:beginIndex "240" ;
+    nif:endIndex "249" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w39" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w4> nif:anchorOf "Zutphen" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w40> nif:BeginIndex "250" ;
+    nif:anchorOf "kwamen" ;
+    nif:endIndex "256" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w41> nif:anchorOf "echter" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "263" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w41" ;
+    nif:lemma "echter" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w42w43w44w45w46w47w48w49w50w51w52> nif:anchorOf "vooral op de nabijgelegen stadswijk aan de centrumkant van het station" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "334" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w43" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w46> nif:BeginIndex "290" ;
+    nif:anchorOf "stadswijk" ;
+    nif:endIndex "299" ;
+    nif:lemma "stad_wijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w47w48w49w50w51w52> nif:anchorOf "aan de centrumkant van het station" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "334" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w5> nif:BeginIndex "28" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "32" ;
+    nif:lemma "plaats_vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w53> nif:anchorOf "terecht" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w53" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w57> nif:BeginIndex "356" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "361" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w6> nif:anchorOf "plaats" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "39" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w6" ;
+    nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w62> nif:anchorOf "Rozengracht" ;
+    nif:beginIndex "387" ;
+    nif:endIndex "398" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w64> nif:anchorOf "Barlheze" ;
+    nif:beginIndex "400" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w66> nif:anchorOf "Kreijnckstraat" ;
+    nif:beginIndex "410" ;
+    nif:endIndex "424" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w68> nif:anchorOf "Apenstert" ;
+    nif:beginIndex "428" ;
+    nif:endIndex "437" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w70w71> nif:anchorOf "bijna compleet" ;
+    nif:beginIndex "445" ;
+    nif:endIndex "459" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w71" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w72> nif:BeginIndex "460" ;
+    nif:anchorOf "weggevaagd" ;
+    nif:endIndex "470" ;
+    nif:lemma "weg_vagen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w74w75> nif:anchorOf "Het stationsgebouw" ;
+    nif:beginIndex "472" ;
+    nif:endIndex "490" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w75" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w77> nif:anchorOf "zwaar" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "501" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w77" ;
+    nif:lemma "zwaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w78> nif:BeginIndex "502" ;
+    nif:anchorOf "beschadigd" ;
+    nif:endIndex "512" ;
+    nif:lemma "beschadigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w8> nif:anchorOf "zaterdagmiddag" ;
+    nif:beginIndex "43" ;
+    nif:endIndex "57" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w81> nif:BeginIndex "519" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "524" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w83> nif:anchorOf "1952" ;
+    nif:beginIndex "529" ;
+    nif:endIndex "533" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w99w100> nif:anchorOf "92 doden" ;
+    nif:beginIndex "624" ;
+    nif:endIndex "632" ;
+    nif:head "bgnProc:169__Bombardement_op_Zutphen.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w9w10w11> nif:anchorOf "14 oktober 1944" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_112t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w113w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_117t_118t_119t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w118w119w120w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_122t_123t_124t_125t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w123w124w125w126w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_123t_124t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w124w125w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_163t_164t_165> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w164w165w166> ;
+    xs:date "1950-04-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_190t_191t_192t_193t_194t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w191w192w193w194w195w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_227t_228t_229t_230> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w228w229w230w231> ;
+    xs:date "1944-09-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_249t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w250w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_255t_256t_257t_258t_259t_260> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w256w257w258w259w260w261> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_272t_273> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w273w274> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_283t_284t_285> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w284w285w286> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_287> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w288> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_288> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w289> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_290t_291t_292> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w291w292w293> ;
+    xs:date "1945-02-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_296t_297> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w297w298> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_316> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w317> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_37t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w38w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_41t_42t_43t_44t_45t_46t_47t_48t_49t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w42w43w44w45w46w47w48w49w50w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_46t_47t_48t_49t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w47w48w49w50w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_5> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w6> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_73t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w74w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_82> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w83> ;
+    xs:gYear "1952" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w9w10w11> ;
+    xs:date "1944-10-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w99w100> .
+
+bgn:Person-169 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w139>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w147>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w155w156>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w17w18>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w181>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w204w205>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w217>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w244>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w271>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w279>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w282>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w304>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w306w307>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/169__Bombardement_op_Zutphen.naf#w68> .
+

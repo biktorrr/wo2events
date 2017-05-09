@@ -1,0 +1,264 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_39t_40t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_60t_61t_62t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_89>,
+        bgn:Person-1596 ;
+    ore:proxyFor bgn:Person-1596 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w40> nif:lemma "gedurende" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w61> nif:lemma "één" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1596__Johan_Bleeker#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1596__Johan_Bleeker .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1596 ;
+    bgn:aggregatedPerson bgn:Person-1596 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1596__Johan_Bleeker ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1596__Johan_Bleeker ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w12w13w14> ;
+    xs:date "1997-01-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w16> ;
+    pb:ArgM-TMP bgn:Person-1596 .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w38> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_38> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_49>,
+        bgn:Person-1596 ;
+    pb:ArgM-LOC bgn:Person-1596 ;
+    pb:ArgM-PRD bgn:Person-1596 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_39t_40t_41t_42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w6w7w8> ;
+    xs:date "1906-04-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w66> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_60t_61t_62t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_76> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w77> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w87> ;
+    pb:A1 bgn:Person-1596 ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_87> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w10> nif:anchorOf "Heerenveen" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w12w13w14> nif:anchorOf "28 januari 1997" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "71" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w16> nif:BeginIndex "73" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "76" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w19w20> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "88" ;
+    nif:endIndex "107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w1w2> nif:anchorOf "Bleeker" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w22> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "112" ;
+    nif:endIndex "123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w25> nif:anchorOf "Bleeker" ;
+    nif:beginIndex "142" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w26> nif:BeginIndex "150" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "153" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w29> nif:anchorOf "Heerenveen" ;
+    nif:beginIndex "169" ;
+    nif:endIndex "179" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w36w37> nif:anchorOf "Fokje Bleeker-Dijkstra" ;
+    nif:beginIndex "203" ;
+    nif:endIndex "225" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w38> nif:BeginIndex "226" ;
+    nif:anchorOf "huisvestte" ;
+    nif:endIndex "236" ;
+    nif:lemma "huisvesten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w39> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "240" ;
+    nif:head "bgnProc:1596__Johan_Bleeker.naf#w39" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w4> nif:anchorOf "Schoterland" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w40w41w42w43> nif:anchorOf "gedurende de gehele oorlog" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "267" ;
+    nif:head "bgnProc:1596__Johan_Bleeker.naf#w40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w46> nif:anchorOf "Joodse" ;
+    nif:beginIndex "278" ;
+    nif:endIndex "284" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w50> nif:anchorOf "Nederland" ;
+    nif:beginIndex "310" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w56> nif:anchorOf "Tjepkemastraat" ;
+    nif:beginIndex "353" ;
+    nif:endIndex "367" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w59> nif:anchorOf "Heerenveen" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "384" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w61w62w63w64w65> nif:anchorOf "Een van de bekendste hiervan" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "414" ;
+    nif:head "bgnProc:1596__Johan_Bleeker.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w66> nif:BeginIndex "415" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "418" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w67w68> nif:anchorOf "Letty Rudelsheim" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "435" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w6w7w8> nif:anchorOf "24 april 1906" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "41" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w73w74> nif:anchorOf "Joop Westerweel" ;
+    nif:beginIndex "460" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w77> nif:anchorOf "1942" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "487" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w87> nif:BeginIndex "538" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "545" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w88> nif:anchorOf "hiervoor" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "554" ;
+    nif:head "bgnProc:1596__Johan_Bleeker.naf#w88" ;
+    nif:lemma "hiervoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w90> nif:anchorOf "1981" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "562" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w92w93> nif:anchorOf "Jad Vasjem-onderscheiding" ;
+    nif:beginIndex "566" ;
+    nif:endIndex "591" .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_39t_40t_41t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w40w41w42w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_60t_61t_62t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w61w62w63w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#t_89> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w90> ;
+    xs:gYear "1981" .
+
+bgn:Person-1596 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w19w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w36w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w67w68>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1596__Johan_Bleeker.naf#w92w93> .
+

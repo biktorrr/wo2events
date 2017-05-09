@@ -1,0 +1,648 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_177t_178t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_17t_18t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_186t_187t_188t_189t_190t_191t_192t_193t_194t_195t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_193t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_204t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_84t_85t_86t_87t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_96>,
+        bgn:Person-462 ;
+    ore:proxyFor bgn:Person-462 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w111> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w148> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w179> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w18> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w187> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w195> nif:lemma "davidster" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w206> nif:lemma "plaquette" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w37> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w57> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w64> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w85> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w96> nif:lemma "tekst" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-462__Joods_monument_(Assen)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-462__Joods_monument_(Assen)> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-462 ;
+    bgn:aggregatedPerson bgn:Person-462 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-462__Joods_monument_(Assen)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-462__Joods_monument_(Assen)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w117> ;
+    pb:Arg0 bgn:Person-462 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_109t_110> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_113t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w132> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_132> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w137> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_135> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_142>,
+        bgn:Person-462 .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w146> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_146t_147>,
+        bgn:Person-462 .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_153> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w154> ;
+    xs:gYear "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_155> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w156> ;
+    xs:gYear "1970" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w183> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_177t_178t_179t_180t_181> ;
+    pb:AM-LOC bgn:Person-462 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_176> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w186> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_184> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_186t_187t_188t_189t_190t_191t_192t_193t_194t_195t_196> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w196> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_193t_194> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w21> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_21>,
+        bgn:Person-462 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_17t_18t_19> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w207> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_204t_205> ;
+    pb:AM-LOC bgn:Person-462 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_199> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_228> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w229> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w233> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_215> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_216t_217t_218>,
+        bgn:Person-462 .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_240> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w241> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_239> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_238> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_235> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w29> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_27> ;
+    pb:ArgM-TMP bgn:Person-462 .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w38> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_35t_36> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_60> ;
+    pb:AM-TMP bgn:Person-462 .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w62> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_60> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_56t_57t_58> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w74> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_69> ;
+    pb:Arg1 bgn:Person-462 .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w77> ;
+    pb:Arg0 bgn:Person-462 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_75> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_8> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w9> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_7>,
+        bgn:Person-462 .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w93> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_93t_94t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w97> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_93t_94t_95> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_84t_85t_86t_87t_88t_89t_90t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w110w111> nif:anchorOf "Het monument" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "640" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w111" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w114w115w116> nif:anchorOf "3 mei 1990" ;
+    nif:beginIndex "649" ;
+    nif:endIndex "659" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w117> nif:BeginIndex "660" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "667" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w119w120w121w122> nif:anchorOf "Martha Wolf-van der Laan" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "697" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w124w125> nif:anchorOf "Benjamin Wolf" ;
+    nif:beginIndex "701" ;
+    nif:endIndex "714" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w131> nif:anchorOf "Oudestraat" ;
+    nif:beginIndex "736" ;
+    nif:endIndex "746" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w132> nif:BeginIndex "747" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "749" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w133> nif:anchorOf "niet" ;
+    nif:beginIndex "750" ;
+    nif:endIndex "754" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w133" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w136> nif:anchorOf "dat" ;
+    nif:beginIndex "765" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w136" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w137> nif:BeginIndex "769" ;
+    nif:anchorOf "herinnert" ;
+    nif:endIndex "778" ;
+    nif:lemma "herinneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w140> nif:anchorOf "Joodse" ;
+    nif:beginIndex "786" ;
+    nif:endIndex "792" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w143> nif:anchorOf "Assen" ;
+    nif:beginIndex "807" ;
+    nif:endIndex "812" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w146> nif:BeginIndex "817" ;
+    nif:anchorOf "staan" ;
+    nif:endIndex "822" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w147w148> nif:anchorOf "twee monumenten" ;
+    nif:beginIndex "823" ;
+    nif:endIndex "838" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w148" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w151> nif:anchorOf "Joodse" ;
+    nif:beginIndex "845" ;
+    nif:endIndex "851" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w154> nif:anchorOf "1951" ;
+    nif:beginIndex "867" ;
+    nif:endIndex "871" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w156> nif:anchorOf "1970" ;
+    nif:beginIndex "873" ;
+    nif:endIndex "877" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w15w16> nif:anchorOf "Sam Drukker" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w170> nif:anchorOf "Joodse" ;
+    nif:beginIndex "949" ;
+    nif:endIndex "955" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w174> nif:anchorOf "Oranjestraat" ;
+    nif:beginIndex "972" ;
+    nif:endIndex "984" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w177> nif:anchorOf "2007" ;
+    nif:beginIndex "993" ;
+    nif:endIndex "997" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w178w179w180w181w182> nif:anchorOf "een monument in deze straat" ;
+    nif:beginIndex "998" ;
+    nif:endIndex "1025" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w179" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w183> nif:BeginIndex "1026" ;
+    nif:anchorOf "opgesteld" ;
+    nif:endIndex "1035" ;
+    nif:lemma "op_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w185> nif:anchorOf "Het" ;
+    nif:beginIndex "1037" ;
+    nif:endIndex "1040" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w185" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w186> nif:BeginIndex "1041" ;
+    nif:anchorOf "bestaat" ;
+    nif:endIndex "1048" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w187w188w189w190w191w192w193w194w195w196w197> nif:anchorOf "uit een zwerfsteen waarin in reliëf een davidster is aangebracht" ;
+    nif:beginIndex "1049" ;
+    nif:endIndex "1114" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w187" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w18w19w20> nif:anchorOf "Met dit gedenkteken" ;
+    nif:beginIndex "102" ;
+    nif:endIndex "121" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w18" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w194w195> nif:anchorOf "een davidster" ;
+    nif:beginIndex "1086" ;
+    nif:endIndex "1099" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w195" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w196> nif:BeginIndex "1100" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1102" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w2> nif:anchorOf "Joods" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "9" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w200> nif:anchorOf "2012" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1124" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w204> nif:anchorOf "Noordersingel" ;
+    nif:beginIndex "1137" ;
+    nif:endIndex "1150" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w205w206> nif:anchorOf "een plaquette" ;
+    nif:beginIndex "1151" ;
+    nif:endIndex "1164" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w207> nif:BeginIndex "1165" ;
+    nif:anchorOf "aangebracht" ;
+    nif:endIndex "1176" ;
+    nif:lemma "aan_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w21> nif:BeginIndex "122" ;
+    nif:anchorOf "herdenkt" ;
+    nif:endIndex "130" ;
+    nif:lemma "herdenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w216> nif:anchorOf "die" ;
+    nif:beginIndex "1227" ;
+    nif:endIndex "1230" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w216" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w217w218w219> nif:anchorOf "zeventig jaar daarvoor" ;
+    nif:beginIndex "1231" ;
+    nif:endIndex "1253" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w22> nif:anchorOf "Assen" ;
+    nif:beginIndex "131" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w223> nif:anchorOf "Noordersingelschool" ;
+    nif:beginIndex "1274" ;
+    nif:endIndex "1293" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w229> nif:anchorOf "huidige" ;
+    nif:beginIndex "1314" ;
+    nif:endIndex "1321" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w233> nif:BeginIndex "1343" ;
+    nif:anchorOf "weggevoerd" ;
+    nif:endIndex "1353" ;
+    nif:lemma "weg_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w236> nif:anchorOf "2012" ;
+    nif:beginIndex "1361" ;
+    nif:endIndex "1365" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w239> nif:anchorOf "Assen" ;
+    nif:beginIndex "1376" ;
+    nif:endIndex "1381" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w240> nif:anchorOf "stolpersteine" ;
+    nif:beginIndex "1382" ;
+    nif:endIndex "1395" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w240" ;
+    nif:lemma "stolpersteine" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w241> nif:BeginIndex "1396" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "1405" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w26> nif:anchorOf "Joodse" ;
+    nif:beginIndex "149" ;
+    nif:endIndex "155" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w28> nif:anchorOf "die" ;
+    nif:beginIndex "164" ;
+    nif:endIndex "167" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w28" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w29> nif:BeginIndex "168" ;
+    nif:anchorOf "vermoord" ;
+    nif:endIndex "176" ;
+    nif:lemma "vermoorden" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w33w34> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w36w37> nif:anchorOf "Het monument" ;
+    nif:beginIndex "217" ;
+    nif:endIndex "229" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w38> nif:BeginIndex "230" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "235" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w44> nif:anchorOf "Oudestraat" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "267" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w52w53w54> nif:anchorOf "Synagoge van Assen" ;
+    nif:beginIndex "303" ;
+    nif:endIndex "321" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w57w58w59> nif:anchorOf "voor de oorlog" ;
+    nif:beginIndex "328" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w57" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w6> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w61> nif:anchorOf "Joden" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "353" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w62> nif:BeginIndex "354" ;
+    nif:anchorOf "woonden" ;
+    nif:endIndex "361" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w64w65> nif:anchorOf "In cortenstaal" ;
+    nif:beginIndex "363" ;
+    nif:endIndex "377" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w70> nif:anchorOf "die" ;
+    nif:beginIndex "399" ;
+    nif:endIndex "402" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w70" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w72> nif:anchorOf "Joodse" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w74> nif:BeginIndex "420" ;
+    nif:anchorOf "heeft" ;
+    nif:endIndex "425" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w76> nif:anchorOf "zichzelf" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "435" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w76" ;
+    nif:lemma "zichzelf" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w77> nif:BeginIndex "436" ;
+    nif:anchorOf "afgebeeld" ;
+    nif:endIndex "445" ;
+    nif:lemma "af_beelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w8> nif:anchorOf "Assen" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w85w86w87w88w89w90w91w92> nif:anchorOf "In steen op het rechterdeel van het monument" ;
+    nif:beginIndex "487" ;
+    nif:endIndex "531" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w9> nif:BeginIndex "50" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "52" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w93> nif:BeginIndex "532" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "534" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w94w95w96> nif:anchorOf "de volgende tekst" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "552" ;
+    nif:head "bgnProc:462__Joods_monument_(Assen).naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w97> nif:BeginIndex "553" ;
+    nif:anchorOf "aangebracht" ;
+    nif:endIndex "564" ;
+    nif:lemma "aan_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_113t_114t_115> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w114w115w116> ;
+    xs:date "1990-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_176> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w177> ;
+    xs:gYear "2007" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_177t_178t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w178w179w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_17t_18t_19> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w18w19w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_186t_187t_188t_189t_190t_191t_192t_193t_194t_195t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w187w188w189w190w191w192w193w194w195w196w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_193t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w194w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_199> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w200> ;
+    xs:gYear "2012" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_204t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w205w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_215> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_216t_217t_218> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w217w218w219> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_235> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w236> ;
+    xs:gYear "2012" .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_239> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w240> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_84t_85t_86t_87t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w85w86w87w88w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w94w95w96> .
+
+bgn:Person-462 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w119w120w121w122>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w124w125>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w143>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w15w16>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w174>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w223>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w52w53w54>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/462__Joods_monument_(Assen).naf#w8> .
+

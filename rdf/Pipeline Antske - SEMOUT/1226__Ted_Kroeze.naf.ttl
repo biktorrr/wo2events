@@ -1,0 +1,366 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_19t_20t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_52t_53t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_64t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_99t_100t_101>,
+        bgn:Person-1226 ;
+    ore:proxyFor bgn:Person-1226 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w113> nif:lemma "naam" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1226__Ted_Kroeze#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1226__Ted_Kroeze .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1226 ;
+    bgn:aggregatedPerson bgn:Person-1226 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1226__Ted_Kroeze ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1226__Ted_Kroeze ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w106> ;
+    pb:Arg1 bgn:Person-1226 .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_109> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w110> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w115> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_111t_112> ;
+    pb:ArgM-LOC bgn:Person-1226 .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w23> ;
+    pb:Arg1 bgn:Person-1226 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_19t_20t_21>,
+        bgn:Person-1226 .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_3> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w4> ;
+    xs:gYear "1920",
+        "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w31> ;
+    pb:ArgM-TMP bgn:Person-1226 .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w40> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_37> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_47> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_5> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w6> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w51> ;
+    pb:Arg1 bgn:Person-1226 .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w61> ;
+    pb:Arg1 bgn:Person-1226 ;
+    pb:ArgM-LOC bgn:Person-1226 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_52t_53t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w74> ;
+    pb:Arg1 bgn:Person-1226 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_62>,
+        bgn:Person-1226 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_64t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w77> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_99t_100t_101> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w100w101w102> ;
+    xs:date "1952-07-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w100w101w102> nif:anchorOf "25 juli 1952" ;
+    nif:beginIndex "546" ;
+    nif:endIndex "558" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w104> nif:anchorOf "Kroeze" ;
+    nif:beginIndex "564" ;
+    nif:endIndex "570" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w106> nif:BeginIndex "579" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "592" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w109> nif:anchorOf "Verzetskruis" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "613" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w110> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "614" ;
+    nif:endIndex "623" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w112w113> nif:anchorOf "Zijn naam" ;
+    nif:beginIndex "625" ;
+    nif:endIndex "634" ;
+    nif:head "bgnProc:1226__Ted_Kroeze.naf#w113" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w115> nif:BeginIndex "641" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "648" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w121> nif:anchorOf "Frankenlaan" ;
+    nif:beginIndex "679" ;
+    nif:endIndex "690" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w123> nif:anchorOf "Apeldoorn" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "703" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w12w13> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w130w131> nif:anchorOf "Willem III-kazerne" ;
+    nif:beginIndex "727" ;
+    nif:endIndex "745" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w15w16w17> nif:anchorOf "Taeke Johan Kroeze" ;
+    nif:beginIndex "92" ;
+    nif:endIndex "110" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w1w2> nif:anchorOf "Kroeze" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w20w21w22> nif:anchorOf "13 april 1920" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "132" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w23> nif:BeginIndex "133" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "140" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w25> nif:anchorOf "Ermelo" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "150" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w28> nif:BeginIndex "156" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "159" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w31> nif:BeginIndex "171" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "174" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w35> nif:anchorOf "Ordedienst" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "202" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w38> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "213" ;
+    nif:endIndex "216" ;
+    nif:head "bgnProc:1226__Ted_Kroeze.naf#w38" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w4> nif:anchorOf "1920-1944" ;
+    nif:beginIndex "12" ;
+    nif:endIndex "21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w40> nif:BeginIndex "230" ;
+    nif:anchorOf "legde" ;
+    nif:endIndex "235" ;
+    nif:lemma "leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w48> nif:anchorOf "Nederland" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "283" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w50> nif:anchorOf "Kroeze" ;
+    nif:beginIndex "285" ;
+    nif:endIndex "291" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w51> nif:BeginIndex "292" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "296" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w53w54w55> nif:anchorOf "14 november 1944" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "316" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w6> nif:BeginIndex "23" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "26" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w60> nif:anchorOf "Apeldoorn" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "344" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w61> nif:BeginIndex "345" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "353" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w63> nif:anchorOf "daar" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "361" ;
+    nif:head "bgnProc:1226__Ted_Kroeze.naf#w63" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w65w66w67> nif:anchorOf "2 december 1944" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "380" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w71w72> nif:anchorOf "Willem III" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "404" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w74> nif:BeginIndex "413" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "425" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w76> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "430" ;
+    nif:head "bgnProc:1226__Ted_Kroeze.naf#w76" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w77> nif:BeginIndex "431" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "433" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w8> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "31" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w81> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "450" ;
+    nif:endIndex "460" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w83> nif:anchorOf "Loenen" ;
+    nif:beginIndex "469" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w85> nif:anchorOf "Apeldoorn" ;
+    nif:beginIndex "480" ;
+    nif:endIndex "489" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w95w96> nif:anchorOf "Koninklijk Besluit" ;
+    nif:beginIndex "516" ;
+    nif:endIndex "534" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_111t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w112w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_19t_20t_21> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w20w21w22> ;
+    xs:date "1920-04-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_52t_53t_54> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w53w54w55> ;
+    xs:date "1944-11-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_64t_65t_66> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w65w66w67> ;
+    xs:date "1944-12-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w76> .
+
+bgn:Person-1226 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w104>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w121>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w12w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w130w131>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w15w16w17>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w71w72>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w85>,
+        <http://data.biographynet.nl/rdf/170506221754/1226__Ted_Kroeze.naf#w95w96> .
+

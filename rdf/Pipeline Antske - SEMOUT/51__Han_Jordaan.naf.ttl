@@ -1,0 +1,892 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_118t_119t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_12t_13t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_136t_137t_138t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_186t_187t_188t_189t_190t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_193t_194t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_247t_248t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_24t_25t_26t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_254t_255t_256t_257t_258t_259>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_25t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_261t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_265t_266t_267t_268>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_270t_271t_272t_273t_274t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_273>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_277t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_75t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_90>,
+        bgn:Person-51 ;
+    ore:proxyFor bgn:Person-51 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w116> nif:lemma "onderduik_adres" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w138> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w189> nif:lemma "gedenken_plaat" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w194> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w248> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w25> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w255> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w263> nif:lemma "plaquette" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w266> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w27> nif:lemma "oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w271> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w279> nif:lemma "plaquette" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-51__Han_Jordaan#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-51__Han_Jordaan .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-51 ;
+    bgn:aggregatedPerson bgn:Person-51 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-51__Han_Jordaan ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-51__Han_Jordaan ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w113> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_113t_114t_115>,
+        bgn:Person-51 .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w122> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_126>,
+        bgn:Person-51 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_126> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_118t_119t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_12t_13t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w13w14w15> ;
+    xs:date "1945-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w133> ;
+    pb:A1 bgn:Person-51 .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w136> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_136t_137t_138t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w142> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_134> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_136> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_137t_138t_139> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_153t_154> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w154w155> ;
+    xs:date "2017-05-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_159t_160> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w160w161> ;
+    xs:date "2017-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w17> ;
+    pb:ArgM-TMP bgn:Person-51 .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_162> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w163> ;
+    xs:gYear "1953" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w167> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_164> ;
+    pb:A2 bgn:Person-51 ;
+    pb:AM-LOC bgn:Person-51 .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w186> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_193t_194t_195> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w190> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_186t_187t_188t_189t_190t_191> ;
+    pb:AM-LOC bgn:Person-51 .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_198t_199t_200> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w199w200w201> ;
+    xs:date "1942-05-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_249> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_250> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w251> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_251> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_252> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_253> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_247t_248t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_254t_255t_256t_257t_258t_259> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_256> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w257> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_255> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_263> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w264> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_261t_262> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_265t_266t_267t_268> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_264> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w28> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_25t_26> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w276> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_271> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_273> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_279> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w280> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_277t_278> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_270t_271t_272t_273t_274t_275> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w30> ;
+    pb:A0 bgn:Person-51 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_33> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_24t_25t_26t_27> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w37> ;
+    pb:Arg1 bgn:Person-51 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w45> ;
+    pb:Arg1 bgn:Person-51 .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_58t_59t_60> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w59w60w61> ;
+    xs:date "1942-03-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w65> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_53> ;
+    pb:Arg2 bgn:Person-51 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w7w8w9> ;
+    xs:date "1918-07-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w75> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_73> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_78> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_75t_76> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w81> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_73>,
+        bgn:Person-51 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_81> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w91> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w100> nif:anchorOf "Puck" ;
+    nif:beginIndex "519" ;
+    nif:endIndex "523" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w102> nif:anchorOf "Jurriaans" ;
+    nif:beginIndex "525" ;
+    nif:endIndex "534" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w108> nif:anchorOf "Amsterdamsestraatweg" ;
+    nif:beginIndex "554" ;
+    nif:endIndex "574" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w11> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "60" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w110> nif:anchorOf "Baarn" ;
+    nif:beginIndex "578" ;
+    nif:endIndex "583" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w112> nif:anchorOf "Ras" ;
+    nif:beginIndex "585" ;
+    nif:endIndex "588" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w113> nif:BeginIndex "589" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "592" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w114w115w116> nif:anchorOf "een ander onderduikadres" ;
+    nif:beginIndex "593" ;
+    nif:endIndex "617" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w119w120w121> nif:anchorOf "19 april 1942" ;
+    nif:beginIndex "622" ;
+    nif:endIndex "635" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w122> nif:BeginIndex "636" ;
+    nif:anchorOf "zond" ;
+    nif:endIndex "640" ;
+    nif:lemma "zenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w123> nif:anchorOf "Jordaan" ;
+    nif:beginIndex "641" ;
+    nif:endIndex "648" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w127> nif:anchorOf "Londen" ;
+    nif:beginIndex "666" ;
+    nif:endIndex "672" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w130> nif:anchorOf "RAF-piloten" ;
+    nif:beginIndex "680" ;
+    nif:endIndex "691" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w133> nif:BeginIndex "698" ;
+    nif:anchorOf "halen" ;
+    nif:endIndex "703" ;
+    nif:lemma "op_halen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w135> nif:anchorOf "Dit" ;
+    nif:beginIndex "705" ;
+    nif:endIndex "708" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w135" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w136> nif:BeginIndex "709" ;
+    nif:anchorOf "bleek" ;
+    nif:endIndex "714" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w137> nif:anchorOf "niet" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "719" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w137" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w137w138w139w140w141w142> nif:anchorOf "niet op korte termijn te kunnen" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "746" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w142" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w138w139w140> nif:anchorOf "op korte termijn" ;
+    nif:beginIndex "720" ;
+    nif:endIndex "736" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w138" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w13w14w15> nif:anchorOf "3 mei 1945" ;
+    nif:beginIndex "62" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w142> nif:BeginIndex "740" ;
+    nif:anchorOf "kunnen" ;
+    nif:endIndex "746" ;
+    nif:lemma "kunnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w144> nif:anchorOf "Ras" ;
+    nif:beginIndex "749" ;
+    nif:endIndex "752" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w147w148w149w150> nif:anchorOf "Anton van der Waals" ;
+    nif:beginIndex "763" ;
+    nif:endIndex "782" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w154w155> nif:anchorOf "1 mei" ;
+    nif:beginIndex "798" ;
+    nif:endIndex "803" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w158> nif:anchorOf "Jordaan" ;
+    nif:beginIndex "818" ;
+    nif:endIndex "825" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w160w161> nif:anchorOf "3 mei." ;
+    nif:beginIndex "829" ;
+    nif:endIndex "835" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w163> nif:anchorOf "1953" ;
+    nif:beginIndex "839" ;
+    nif:endIndex "843" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w165> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "849" ;
+    nif:endIndex "852" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w165" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w167> nif:BeginIndex "861" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "874" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w17> nif:BeginIndex "74" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "77" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w170w171> nif:anchorOf "Bronzen Kruis" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "896" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w184w185> nif:anchorOf "Landgoed Clingendael" ;
+    nif:beginIndex "953" ;
+    nif:endIndex "973" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w186> nif:BeginIndex "974" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "976" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w187w188w189w190w191w192> nif:anchorOf "een bronzen gedenkplaat geplaatst waarop staat" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "1023" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w190> nif:BeginIndex "1001" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "1010" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w194w195w196> nif:anchorOf "Op deze plaats" ;
+    nif:beginIndex "1026" ;
+    nif:endIndex "1040" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w194" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w199w200w201> nif:anchorOf "14 mei 1942" ;
+    nif:beginIndex "1051" ;
+    nif:endIndex "1062" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w1w2w3> nif:anchorOf "Johan Jordaan" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "21" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w203> nif:anchorOf "H.J" ;
+    nif:beginIndex "1072" ;
+    nif:endIndex "1075" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w205> nif:anchorOf "Jordaan" ;
+    nif:beginIndex "1077" ;
+    nif:endIndex "1084" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w208> nif:anchorOf "SOE" ;
+    nif:beginIndex "1094" ;
+    nif:endIndex "1097" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w212> nif:anchorOf "W.A.H.C" ;
+    nif:beginIndex "1108" ;
+    nif:endIndex "1115" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w214> nif:anchorOf "Boellaard" ;
+    nif:beginIndex "1117" ;
+    nif:endIndex "1126" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w216w217w218> nif:anchorOf "Gewestelijk Commandant O.D" ;
+    nif:beginIndex "1128" ;
+    nif:endIndex "1154" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w220> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "1156" ;
+    nif:endIndex "1163" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w223w224w225> nif:anchorOf "Heinrich Himmler Reichsführer" ;
+    nif:beginIndex "1170" ;
+    nif:endIndex "1199" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w226> nif:anchorOf "SS" ;
+    nif:beginIndex "1200" ;
+    nif:endIndex "1202" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w22w23> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "102" ;
+    nif:endIndex "121" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w231> nif:anchorOf "Seyss-Inquart" ;
+    nif:beginIndex "1222" ;
+    nif:endIndex "1235" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w233> nif:anchorOf "Rauter" ;
+    nif:beginIndex "1237" ;
+    nif:endIndex "1243" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w235> nif:anchorOf "Schumann" ;
+    nif:beginIndex "1245" ;
+    nif:endIndex "1253" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w237> nif:anchorOf "Harster" ;
+    nif:beginIndex "1255" ;
+    nif:endIndex "1262" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w239> nif:anchorOf "Wolff" ;
+    nif:beginIndex "1266" ;
+    nif:endIndex "1271" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w248w249w250> nif:anchorOf "Tijdens het verhoor" ;
+    nif:beginIndex "1301" ;
+    nif:endIndex "1320" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w248" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w250> nif:BeginIndex "1313" ;
+    nif:anchorOf "verhoor" ;
+    nif:endIndex "1320" ;
+    nif:lemma "verhoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w251> nif:BeginIndex "1321" ;
+    nif:anchorOf "wandelden" ;
+    nif:endIndex "1330" ;
+    nif:lemma "wandelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w252> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1331" ;
+    nif:endIndex "1333" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w252" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w253> nif:anchorOf "buiten" ;
+    nif:beginIndex "1334" ;
+    nif:endIndex "1340" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w253" ;
+    nif:lemma "buiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w254> nif:anchorOf "rond" ;
+    nif:beginIndex "1341" ;
+    nif:endIndex "1345" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w254" ;
+    nif:lemma "rond" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w255w256w257w258w259w260> nif:anchorOf "om niet afgeluisterd te kunnen worden" ;
+    nif:beginIndex "1346" ;
+    nif:endIndex "1383" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w255" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w256> nif:anchorOf "niet" ;
+    nif:beginIndex "1349" ;
+    nif:endIndex "1353" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w256" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w257> nif:BeginIndex "1354" ;
+    nif:anchorOf "afgeluisterd" ;
+    nif:endIndex "1366" ;
+    nif:lemma "af_luisteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w25w26w27w28> nif:anchorOf "Toen de oorlog uitbrak" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "146" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w25" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w262w263> nif:anchorOf "De plaquette" ;
+    nif:beginIndex "1386" ;
+    nif:endIndex "1398" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w263" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w264> nif:BeginIndex "1399" ;
+    nif:anchorOf "hing" ;
+    nif:endIndex "1403" ;
+    nif:lemma "hangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w265> nif:anchorOf "eerst" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1409" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w265" ;
+    nif:lemma "eerst" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w266w267w268w269> nif:anchorOf "op een ander gebouwtje" ;
+    nif:beginIndex "1410" ;
+    nif:endIndex "1432" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w266" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w26w27> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "129" ;
+    nif:endIndex "138" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w27" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w271w272w273w274w275w276> nif:anchorOf "Toen dat in 1986 werd afgebroken" ;
+    nif:beginIndex "1434" ;
+    nif:endIndex "1466" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w271" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w272> nif:anchorOf "dat" ;
+    nif:beginIndex "1439" ;
+    nif:endIndex "1442" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w272" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w274> nif:anchorOf "1986" ;
+    nif:beginIndex "1446" ;
+    nif:endIndex "1450" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w276> nif:BeginIndex "1456" ;
+    nif:anchorOf "afgebroken" ;
+    nif:endIndex "1466" ;
+    nif:lemma "af_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w278w279> nif:anchorOf "de plaquette" ;
+    nif:beginIndex "1472" ;
+    nif:endIndex "1484" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w279" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w28> nif:BeginIndex "139" ;
+    nif:anchorOf "uitbrak" ;
+    nif:endIndex "146" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w280> nif:BeginIndex "1485" ;
+    nif:anchorOf "verplaatst" ;
+    nif:endIndex "1495" ;
+    nif:lemma "verplaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w30> nif:BeginIndex "148" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "157" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w31w32> nif:anchorOf "Han Jordaan" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "169" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w34> nif:anchorOf "Engeland" ;
+    nif:beginIndex "173" ;
+    nif:endIndex "181" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w36> nif:anchorOf "Daar" ;
+    nif:beginIndex "183" ;
+    nif:endIndex "187" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w36" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w37> nif:BeginIndex "188" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "193" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w38> nif:anchorOf "Jordaan" ;
+    nif:beginIndex "194" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w41w42> nif:anchorOf "Johan Roessingh" ;
+    nif:beginIndex "209" ;
+    nif:endIndex "224" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w45> nif:BeginIndex "230" ;
+    nif:anchorOf "opleiding" ;
+    nif:endIndex "239" ;
+    nif:lemma "opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w47w48w49> nif:anchorOf "Special Operations Executive" ;
+    nif:beginIndex "244" ;
+    nif:endIndex "272" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w5> nif:anchorOf "Haaksbergen" ;
+    nif:beginIndex "23" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w51> nif:anchorOf "SOE" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "277" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w54> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "289" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w54" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w56w57> nif:anchorOf "Gosse Ras" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "303" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w59w60w61> nif:anchorOf "29 maart 1942" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "320" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w63> nif:anchorOf "Holten" ;
+    nif:beginIndex "325" ;
+    nif:endIndex "331" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w65> nif:BeginIndex "337" ;
+    nif:anchorOf "geparachuteerd" ;
+    nif:endIndex "351" ;
+    nif:lemma "geparachuteerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w69> nif:BeginIndex "366" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "369" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w74> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "388" ;
+    nif:endIndex "390" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w74" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w75> nif:BeginIndex "391" ;
+    nif:anchorOf "bleven" ;
+    nif:endIndex "397" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w76w77> nif:anchorOf "twee weken" ;
+    nif:beginIndex "398" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w79> nif:anchorOf "Twente" ;
+    nif:beginIndex "412" ;
+    nif:endIndex "418" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w7w8w9> nif:anchorOf "9 juli 1918" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w81> nif:BeginIndex "422" ;
+    nif:anchorOf "trokken" ;
+    nif:endIndex "429" ;
+    nif:lemma "trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w82> nif:anchorOf "toen" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "434" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w82" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w85> nif:anchorOf "Gooi" ;
+    nif:beginIndex "444" ;
+    nif:endIndex "448" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w87> nif:anchorOf "waar" ;
+    nif:beginIndex "450" ;
+    nif:endIndex "454" ;
+    nif:head "bgnProc:51__Han_Jordaan.naf#w87" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w88> nif:anchorOf "Ras" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "458" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w91> nif:BeginIndex "471" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "474" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w93> nif:anchorOf "Jordaan" ;
+    nif:beginIndex "476" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w97w98> nif:anchorOf "Hermanus Gerrit" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "517" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_113t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w114w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_118t_119t_120> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w119w120w121> ;
+    xs:date "1942-04-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_136t_137t_138t_139t_140t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w137w138w139w140w141w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_186t_187t_188t_189t_190t_191> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w187w188w189w190w191w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_193t_194t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w194w195w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_247t_248t_249> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w248w249w250> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_24t_25t_26t_27> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w25w26w27w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_252> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_254t_255t_256t_257t_258t_259> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w255w256w257w258w259w260> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_255> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w256> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_25t_26> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w26w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_261t_262> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w262w263> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_264> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w265> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_265t_266t_267t_268> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w266w267w268w269> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_270t_271t_272t_273t_274t_275> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w271w272w273w274w275w276> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_271> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w272> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_273> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w274> ;
+    xs:gYear "1986" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_277t_278> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w278w279> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_75t_76> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w76w77> ;
+    xs:period "P2W" .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w74> .
+
+bgn:Person-51 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w100>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w108>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w130>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w144>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w147w148w149w150>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w170w171>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w184w185>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w203>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w208>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w212>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w214>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w216w217w218>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w220>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w223w224w225>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w226>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w231>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w233>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w235>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w31w32>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w41w42>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w47w48w49>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w56w57>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w85>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w93>,
+        <http://data.biographynet.nl/rdf/170506221754/51__Han_Jordaan.naf#w97w98> .
+

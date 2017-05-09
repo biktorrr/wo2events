@@ -1,0 +1,796 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_1>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_106t_107t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_109t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_117t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_142t_143t_144t_145t_146t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_187t_188t_189t_190t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_206t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_20t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_22t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_27t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_33t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_45t_46t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_50t_51t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_98t_99>,
+        bgn:Person-170 ;
+    ore:proxyFor bgn:Person-170 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w100> nif:lemma "vrouw" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w104> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w106> nif:lemma "drama" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w107> nif:lemma "via" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w110> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w118> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w143> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w172> nif:lemma "procedure" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w189> nif:lemma "wegens" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w207> nif:lemma "cel" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w22> nif:lemma "vrouw" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w23> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w29> nif:lemma "aantal" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w47> nif:lemma "veel" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w51> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w91> nif:lemma "cel" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-170__Bunkerdrama#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-170__Bunkerdrama .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-170 ;
+    bgn:aggregatedPerson bgn:Person-170 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-170__Bunkerdrama ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-170__Bunkerdrama ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_1> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w2> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w101> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_98t_99> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w113> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_104t_105> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_109t_110t_111> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_106t_107t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w117> ;
+    pb:Arg1 bgn:Person-170 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_117t_118t_119> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w123> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_121> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_127>,
+        bgn:Person-170 .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w132> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_136> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_142t_143t_144t_145t_146t_147> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_137t_138t_139> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w138w139w140> ;
+    xs:period "P20Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w157> ;
+    pb:Arg0 bgn:Person-170 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_155> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_158> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w168> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w173> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_170t_171> ;
+    pb:A2 bgn:Person-170 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_169> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_166> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w187> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_187t_188t_189t_190t_191t_192> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w193> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_187> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_188t_189> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_190> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_2> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w3> ;
+    pb:ArgM-TMP bgn:Person-170 .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_204> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w205> ;
+    xs:gYear "1990" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w206> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_206t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_219> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w220> ;
+    pb:ArgM bgn:Person-170 .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_228t_229> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w229w230> ;
+    xs:date "2017-11-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w26> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_20t_21> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_19> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_22t_23t_24> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w32> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_27t_28t_29> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_34> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w37> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_33t_34> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_32> ;
+    pb:AM-LOC bgn:Person-170 .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w5> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_6t_7t_8> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w54> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_45t_46t_47t_48> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_50t_51t_52> ;
+    pb:ArgM-LOC bgn:Person-170 .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w58> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w93> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_89t_90> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w101> nif:BeginIndex "649" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "654" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w104w105w106w107w108w109w110w111w112w113> nif:anchorOf "Toen dit drama via de verzetspers in de openbaarheid kwam" ;
+    nif:beginIndex "667" ;
+    nif:endIndex "724" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w104" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w105w106> nif:anchorOf "dit drama" ;
+    nif:beginIndex "672" ;
+    nif:endIndex "681" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w107w108w109> nif:anchorOf "via de verzetspers" ;
+    nif:beginIndex "682" ;
+    nif:endIndex "700" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w110w111w112> nif:anchorOf "in de openbaarheid" ;
+    nif:beginIndex "701" ;
+    nif:endIndex "719" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w110" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w113> nif:BeginIndex "720" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "724" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w116> nif:anchorOf "Grünewald" ;
+    nif:beginIndex "731" ;
+    nif:endIndex "740" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w117> nif:BeginIndex "741" ;
+    nif:anchorOf "gedegradeerd" ;
+    nif:endIndex "753" ;
+    nif:lemma "degraderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w118w119w120> nif:anchorOf "tot gewoon soldaat" ;
+    nif:beginIndex "754" ;
+    nif:endIndex "772" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w122> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "774" ;
+    nif:endIndex "777" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w122" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w123> nif:BeginIndex "778" ;
+    nif:anchorOf "sneuvelde" ;
+    nif:endIndex "787" ;
+    nif:lemma "sneuvelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w126> nif:anchorOf "Oostfront" ;
+    nif:beginIndex "796" ;
+    nif:endIndex "805" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w128> nif:anchorOf "Hongarije" ;
+    nif:beginIndex "809" ;
+    nif:endIndex "818" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w131> nif:anchorOf "1947" ;
+    nif:beginIndex "824" ;
+    nif:endIndex "828" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w132> nif:BeginIndex "829" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "831" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w137> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "870" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w138w139w140> nif:anchorOf "tot 20 jaar" ;
+    nif:beginIndex "871" ;
+    nif:endIndex "882" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w141> nif:BeginIndex "883" ;
+    nif:anchorOf "gevangenisstraf" ;
+    nif:endIndex "898" ;
+    nif:lemma "gevangenis_straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w143w144w145w146w147w148> nif:anchorOf "vanwege haar aandeel in het bunkerdrama" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "950" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w148> nif:BeginIndex "939" ;
+    nif:anchorOf "bunkerdrama" ;
+    nif:endIndex "950" ;
+    nif:lemma "bunker_drama" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w151> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "956" ;
+    nif:endIndex "967" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w155> nif:anchorOf "1967" ;
+    nif:beginIndex "986" ;
+    nif:endIndex "990" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w156> nif:anchorOf "bewijsstukken" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "1004" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w156" ;
+    nif:lemma "bewijsstuk" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w157> nif:BeginIndex "1005" ;
+    nif:anchorOf "overhandigd" ;
+    nif:endIndex "1016" ;
+    nif:lemma "overhandigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w159> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "1021" ;
+    nif:endIndex "1030" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w16> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "103" ;
+    nif:endIndex "114" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w162> nif:BeginIndex "1037" ;
+    nif:anchorOf "betrokkenen" ;
+    nif:endIndex "1048" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w167> nif:anchorOf "1979" ;
+    nif:beginIndex "1068" ;
+    nif:endIndex "1072" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w168> nif:BeginIndex "1073" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1075" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w17> nif:BeginIndex "115" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "131" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w170> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "1079" ;
+    nif:endIndex "1088" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w171w172> nif:anchorOf "een procedure" ;
+    nif:beginIndex "1089" ;
+    nif:endIndex "1102" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w172" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w173> nif:BeginIndex "1103" ;
+    nif:anchorOf "gestart" ;
+    nif:endIndex "1110" ;
+    nif:lemma "starten" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w176> nif:anchorOf "SS'" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1123" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w178> nif:anchorOf "Strippel" ;
+    nif:beginIndex "1126" ;
+    nif:endIndex "1134" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w182> nif:anchorOf "Frankfurtse" ;
+    nif:beginIndex "1144" ;
+    nif:endIndex "1155" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w183> nif:anchorOf "rechtbank" ;
+    nif:beginIndex "1156" ;
+    nif:endIndex "1165" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w183" ;
+    nif:lemma "rechtbank" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w186> nif:anchorOf "1983" ;
+    nif:beginIndex "1175" ;
+    nif:endIndex "1179" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w187> nif:BeginIndex "1180" ;
+    nif:anchorOf "besloten" ;
+    nif:endIndex "1188" ;
+    nif:lemma "besluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w188> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1192" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w188" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w188w189w190w191w192w193> nif:anchorOf "hem wegens verjaring niet te veroordelen" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1229" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w193" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w189w190> nif:anchorOf "wegens verjaring" ;
+    nif:beginIndex "1193" ;
+    nif:endIndex "1209" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w18w19> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "142" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w190> nif:BeginIndex "1200" ;
+    nif:anchorOf "verjaring" ;
+    nif:endIndex "1209" ;
+    nif:lemma "verjaring" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w191> nif:anchorOf "niet" ;
+    nif:beginIndex "1210" ;
+    nif:endIndex "1214" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w191" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w193> nif:BeginIndex "1218" ;
+    nif:anchorOf "veroordelen" ;
+    nif:endIndex "1229" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w2> nif:BeginIndex "4" ;
+    nif:anchorOf "bunkerdrama" ;
+    nif:endIndex "15" ;
+    nif:lemma "bunker_drama" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w20> nif:anchorOf "waarbij" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "150" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w20" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w200w201w202w203> nif:anchorOf "Nationaal Monument Kamp Vught" ;
+    nif:beginIndex "1255" ;
+    nif:endIndex "1284" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w205> nif:anchorOf "1990" ;
+    nif:beginIndex "1288" ;
+    nif:endIndex "1292" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w206> nif:BeginIndex "1293" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1295" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w207w208> nif:anchorOf "cel 115" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1303" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w207" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w209> nif:BeginIndex "1304" ;
+    nif:anchorOf "nagebouwd" ;
+    nif:endIndex "1313" ;
+    nif:lemma "na_bouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w21w22> nif:anchorOf "tien vrouwen" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "163" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w22" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w220> nif:BeginIndex "1376" ;
+    nif:anchorOf "Bunkerdrama" ;
+    nif:endIndex "1387" ;
+    nif:lemma "bunker_drama" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w223w224> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "1399" ;
+    nif:endIndex "1409" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w225> nif:BeginIndex "1411" ;
+    nif:anchorOf "radio-uitzending" ;
+    nif:endIndex "1427" ;
+    nif:lemma "radio_uitzending" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w229w230> nif:anchorOf "15 november" ;
+    nif:beginIndex "1444" ;
+    nif:endIndex "1455" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w23w24w25> nif:anchorOf "om het leven" ;
+    nif:beginIndex "164" ;
+    nif:endIndex "176" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w23" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w26> nif:BeginIndex "177" ;
+    nif:anchorOf "kwamen" ;
+    nif:endIndex "183" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w28w29w30> nif:anchorOf "Een aantal vrouwen" ;
+    nif:beginIndex "186" ;
+    nif:endIndex "204" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w3> nif:BeginIndex "16" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "19" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w32> nif:BeginIndex "209" ;
+    nif:anchorOf "geprotesteerd" ;
+    nif:endIndex "222" ;
+    nif:lemma "protesteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w33> nif:anchorOf "waarna" ;
+    nif:beginIndex "223" ;
+    nif:endIndex "229" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w33" ;
+    nif:lemma "waarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w34w35> nif:anchorOf "een vergeldingsmaatregel" ;
+    nif:beginIndex "230" ;
+    nif:endIndex "254" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w35> nif:BeginIndex "234" ;
+    nif:anchorOf "vergeldingsmaatregel" ;
+    nif:endIndex "254" ;
+    nif:lemma "vergelding_maatregel" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w37> nif:BeginIndex "260" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "270" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w42w43w44> nif:anchorOf "SS-Hauptsturmführer Adam Grünewald" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "336" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w46w47w48w49> nif:anchorOf "Zo veel mogelijk vrouwen" ;
+    nif:beginIndex "338" ;
+    nif:endIndex "362" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w5> nif:BeginIndex "24" ;
+    nif:anchorOf "vergeldingsmaatregel" ;
+    nif:endIndex "44" ;
+    nif:lemma "vergelding_maatregel" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w51w52w53> nif:anchorOf "in één cel" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "380" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w51" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w54> nif:BeginIndex "381" ;
+    nif:anchorOf "opgesloten" ;
+    nif:endIndex "391" ;
+    nif:lemma "op_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w57> nif:anchorOf "net" ;
+    nif:beginIndex "398" ;
+    nif:endIndex "401" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w57" ;
+    nif:lemma "net" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w58> nif:BeginIndex "402" ;
+    nif:anchorOf "opgeleverde" ;
+    nif:endIndex "413" ;
+    nif:lemma "opgeleverd" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w62> nif:anchorOf "Bunker" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "439" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w7w8w9> nif:anchorOf "15 januari 1944" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "63" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w87w88> nif:anchorOf "veertien uur" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "587" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w90w91> nif:anchorOf "de cel" ;
+    nif:beginIndex "593" ;
+    nif:endIndex "599" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w91" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w92> nif:anchorOf "weer" ;
+    nif:beginIndex "600" ;
+    nif:endIndex "604" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w92" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w93> nif:BeginIndex "605" ;
+    nif:anchorOf "opengemaakt" ;
+    nif:endIndex "616" ;
+    nif:lemma "open_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w96> nif:BeginIndex "623" ;
+    nif:anchorOf "bleek" ;
+    nif:endIndex "628" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w99w100> nif:anchorOf "tien vrouwen" ;
+    nif:beginIndex "636" ;
+    nif:endIndex "648" ;
+    nif:head "bgnProc:170__Bunkerdrama.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_103t_104t_105t_106t_107t_108t_109t_110t_111t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w104w105w106w107w108w109w110w111w112w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_106t_107t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w107w108w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_109t_110t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w110w111w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_117t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w118w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_130> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w131> ;
+    xs:gYear "1947" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_142t_143t_144t_145t_146t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w143w144w145w146w147w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_154> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w155> ;
+    xs:gYear "1967" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_166> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w167> ;
+    xs:gYear "1979" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_185> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w186> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_187t_188t_189t_190t_191t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w188w189w190w191w192w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_19> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_206t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w207w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_20t_21> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w21w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_22t_23t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w23w24w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_27t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w28w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_33t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w34w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_45t_46t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w46w47w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_50t_51t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w51w52w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w7w8w9> ;
+    xs:date "1944-01-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_86t_87> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w87w88> ;
+    xs:period "P14H" .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w99w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_170t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w171w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w183> .
+
+bgn:Person-170 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w126>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w128>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w176>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w178>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w18w19>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w200w201w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w223w224>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w42w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/170__Bunkerdrama.naf#w62> .
+

@@ -1,0 +1,745 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_10t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_118t_119t_120t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_154t_155t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_163t_164t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_178t_179t_180t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_36t_37t_38t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_41t_42t_43t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_61t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_72t_73t_74t_75t_76t_77t_78t_79t_80t_81t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_80t_81t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_84t_85t_86t_87t_88t_89t_90t_91t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_88t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_99t_100t_101>,
+        bgn:Person-2257 ;
+    ore:proxyFor bgn:Person-2257 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w100> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w11> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w119> nif:lemma "één" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w124> nif:lemma "graf" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w129> nif:lemma "lichaam" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w149> nif:lemma "rabbijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w151> nif:lemma "graf" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w157> nif:lemma "grafsteen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w164> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w17> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w180> nif:lemma "grafschrift" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w25> nif:lemma "graf" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w37> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w42> nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w44> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w73> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w77> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w81> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w85> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w89> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w97> nif:lemma "smokkelaar" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2257__Erwin_Michael_Joseph#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2257__Erwin_Michael_Joseph .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2257 ;
+    bgn:aggregatedPerson bgn:Person-2257 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2257__Erwin_Michael_Joseph ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2257__Erwin_Michael_Joseph ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_103> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w104> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_95t_96> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_104> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_108t_109t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w109w110w111> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w118> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_118t_119t_120t_121> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_122t_123> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_113t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w130> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_127t_128> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_113t_114t_115>,
+        bgn:Person-2257 .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w138> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_134> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_136> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w145> ;
+    pb:Arg1 bgn:Person-2257 .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w147> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_147t_148> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_149t_150> ;
+    pb:ArgM-TMP bgn:Person-2257 .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w158> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_154t_155t_156> ;
+    pb:AM-TMP bgn:Person-2257 .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w170> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_163t_164t_165>,
+        bgn:Person-2257 .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w173> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w184> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_178t_179t_180t_181t_182> ;
+    pb:A1 bgn:Person-2257 .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_2> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w3> ;
+    pb:Arg1 bgn:Person-2257 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_15> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_10t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_16t_17t_18>,
+        bgn:Person-2257 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_3> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w27> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_23t_24>,
+        bgn:Person-2257 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_21> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_25> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w36> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_33> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_36t_37t_38t_39> ;
+    pb:AM-EXT <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_34> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w47> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_41t_42t_43t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_42> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_43t_44t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_57t_58t_59> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w58w59w60> ;
+    xs:date "1925-09-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_61t_62t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w62w63w64> ;
+    xs:date "1942-09-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w70> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_72t_73t_74t_75t_76t_77t_78t_79t_80t_81t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_70t_71> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w71w72> ;
+    xs:period "P16Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w80> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_76t_77> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_73> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_80t_81t_82> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w93> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_87> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_88t_89t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w95> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_95t_96> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_97> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_84t_85t_86t_87t_88t_89t_90t_91t_92> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_99t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w100w101w102> nif:anchorOf "met een hamer" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "580" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w104> nif:BeginIndex "584" ;
+    nif:anchorOf "begroeven" ;
+    nif:endIndex "593" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w105> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "597" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w105" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w109w110w111> nif:anchorOf "drie jaar later" ;
+    nif:beginIndex "611" ;
+    nif:endIndex "626" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w114w115w116> nif:anchorOf "23 juni 1945" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "643" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w118> nif:BeginIndex "645" ;
+    nif:anchorOf "wees" ;
+    nif:endIndex "649" ;
+    nif:lemma "aan_wijzen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w119w120w121w122> nif:anchorOf "een van de moordenaars" ;
+    nif:beginIndex "650" ;
+    nif:endIndex "672" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w11w12w13w14> nif:anchorOf "op een bijzondere plaats" ;
+    nif:beginIndex "61" ;
+    nif:endIndex "85" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w11" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w123w124> nif:anchorOf "het graf" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "681" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w124" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w128w129> nif:anchorOf "het lichaam" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "705" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w130> nif:BeginIndex "706" ;
+    nif:anchorOf "herbegraven" ;
+    nif:endIndex "717" ;
+    nif:lemma "her_begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w132> nif:anchorOf "Deurne" ;
+    nif:beginIndex "721" ;
+    nif:endIndex "727" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w135> nif:anchorOf "men" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "737" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w135" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w137> nif:anchorOf "1994" ;
+    nif:beginIndex "741" ;
+    nif:endIndex "745" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w138> nif:BeginIndex "746" ;
+    nif:anchorOf "ontdekte" ;
+    nif:endIndex "754" ;
+    nif:lemma "ontdekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w143> nif:anchorOf "Joodse" ;
+    nif:beginIndex "770" ;
+    nif:endIndex "776" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w145> nif:BeginIndex "784" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "788" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w147> nif:BeginIndex "790" ;
+    nif:anchorOf "kocht" ;
+    nif:endIndex "795" ;
+    nif:lemma "kopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w148w149> nif:anchorOf "een rabbijn" ;
+    nif:beginIndex "796" ;
+    nif:endIndex "807" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w149" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w150w151> nif:anchorOf "zijn graf" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "817" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w151" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w155w156w157> nif:anchorOf "een nieuwe grafsteen" ;
+    nif:beginIndex "829" ;
+    nif:endIndex "849" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w157" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w158> nif:BeginIndex "850" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "859" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w16> nif:anchorOf "namelijk" ;
+    nif:beginIndex "87" ;
+    nif:endIndex "95" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w16" ;
+    nif:lemma "namelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w160> nif:BeginIndex "862" ;
+    nif:anchorOf "Merk" ;
+    nif:endIndex "866" ;
+    nif:lemma "op_merken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w164w165w166> nif:anchorOf "vóór de overlijdensdatum" ;
+    nif:beginIndex "877" ;
+    nif:endIndex "901" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w164" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w168> nif:anchorOf "Latijns" ;
+    nif:beginIndex "906" ;
+    nif:endIndex "913" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w170> nif:BeginIndex "922" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "927" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w173> nif:BeginIndex "933" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "935" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w174> nif:anchorOf "eigenlijk" ;
+    nif:beginIndex "936" ;
+    nif:endIndex "945" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w174" ;
+    nif:lemma "eigenlijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w179w180w181w182w183> nif:anchorOf "Het grafschrift op de deksteen" ;
+    nif:beginIndex "971" ;
+    nif:endIndex "1001" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w17w18w19> nif:anchorOf "op een begraafplaats" ;
+    nif:beginIndex "96" ;
+    nif:endIndex "116" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w17" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w184> nif:BeginIndex "1002" ;
+    nif:anchorOf "luidt" ;
+    nif:endIndex "1007" ;
+    nif:lemma "luiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w186> nif:anchorOf "Jewish" ;
+    nif:beginIndex "1009" ;
+    nif:endIndex "1015" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w2> nif:anchorOf "Deurne" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "9" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w207> nif:anchorOf "Joodse" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1135" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w210> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1155" ;
+    nif:endIndex "1164" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w22> nif:anchorOf "1994" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "125" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w24w25> nif:anchorOf "het graf" ;
+    nif:beginIndex "131" ;
+    nif:endIndex "139" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w25" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w26> nif:anchorOf "officieel" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "149" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w26" ;
+    nif:lemma "officieel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w27> nif:BeginIndex "150" ;
+    nif:anchorOf "aangewezen" ;
+    nif:endIndex "160" ;
+    nif:lemma "aan_wijzen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w29> nif:anchorOf "Joodse" ;
+    nif:beginIndex "165" ;
+    nif:endIndex "171" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w3> nif:BeginIndex "10" ;
+    nif:anchorOf "bevindt" ;
+    nif:endIndex "17" ;
+    nif:lemma "bevinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w32> nif:anchorOf "Daarbij" ;
+    nif:beginIndex "187" ;
+    nif:endIndex "194" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w32" ;
+    nif:lemma "daarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w34> nif:anchorOf "het" ;
+    nif:beginIndex "200" ;
+    nif:endIndex "203" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w34" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w35> nif:anchorOf "religieus" ;
+    nif:beginIndex "204" ;
+    nif:endIndex "213" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w35" ;
+    nif:lemma "religieus" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w36> nif:BeginIndex "214" ;
+    nif:anchorOf "gescheiden" ;
+    nif:endIndex "224" ;
+    nif:lemma "scheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w37w38w39w40> nif:anchorOf "van de protestantse begraafplaats" ;
+    nif:beginIndex "225" ;
+    nif:endIndex "258" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w4> nif:anchorOf "zich" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "22" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w4" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w42w43w44w45w46w47> nif:anchorOf "dat het aan alle kanten omgeeft" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "291" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w42" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w43> nif:anchorOf "het" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "267" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w43" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w44w45w46> nif:anchorOf "aan alle kanten" ;
+    nif:beginIndex "268" ;
+    nif:endIndex "283" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w47> nif:BeginIndex "284" ;
+    nif:anchorOf "omgeeft" ;
+    nif:endIndex "291" ;
+    nif:lemma "omgeven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w50> nif:BeginIndex "298" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "300" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w54w55w56> nif:anchorOf "Erwin Michael Joseph" ;
+    nif:beginIndex "314" ;
+    nif:endIndex "334" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w58w59w60> nif:anchorOf "23 september 1925" ;
+    nif:beginIndex "336" ;
+    nif:endIndex "353" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w6> nif:anchorOf "Joodse" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w62w63w64> nif:anchorOf "16 september 1942" ;
+    nif:beginIndex "356" ;
+    nif:endIndex "373" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w68> nif:anchorOf "Joodse" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "387" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w70> nif:BeginIndex "397" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "400" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w71w72> nif:anchorOf "16 jaar" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w73w74w75w76w77w78w79w80w81w82w83> nif:anchorOf "toen hij in 1942 door mensensmokkelaars werd meegenomen naar een onderduikadres" ;
+    nif:beginIndex "409" ;
+    nif:endIndex "488" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w74> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "414" ;
+    nif:endIndex "417" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w74" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w76> nif:anchorOf "1942" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "425" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w77w78> nif:anchorOf "door mensensmokkelaars" ;
+    nif:beginIndex "426" ;
+    nif:endIndex "448" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w77" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w80> nif:BeginIndex "454" ;
+    nif:anchorOf "meegenomen" ;
+    nif:endIndex "464" ;
+    nif:lemma "mee_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w81w82w83> nif:anchorOf "naar een onderduikadres" ;
+    nif:beginIndex "465" ;
+    nif:endIndex "488" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w81" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w85w86w87w88w89w90w91w92w93> nif:anchorOf "In plaats van hem naar dit adres te brengen" ;
+    nif:beginIndex "490" ;
+    nif:endIndex "533" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w88> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "504" ;
+    nif:endIndex "507" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w88" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w89w90w91> nif:anchorOf "naar dit adres" ;
+    nif:beginIndex "508" ;
+    nif:endIndex "522" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w89" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w93> nif:BeginIndex "526" ;
+    nif:anchorOf "brengen" ;
+    nif:endIndex "533" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w95> nif:BeginIndex "535" ;
+    nif:anchorOf "sloegen" ;
+    nif:endIndex "542" ;
+    nif:lemma "dood_slaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w96w97> nif:anchorOf "de smokkelaars" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "557" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w97" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w98> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "561" ;
+    nif:head "bgnProc:2257__Erwin_Michael_Joseph.naf#w98" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_10t_11t_12t_13> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w11w12w13w14> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_118t_119t_120t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w119w120w121w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_136> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w137> ;
+    xs:gYear "1994" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_147t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w148w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_15> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_154t_155t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w155w156w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_163t_164t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w164w165w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_16t_17t_18> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w17w18w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_178t_179t_180t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w179w180w181w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_21> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w22> ;
+    xs:gYear "1994" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_23t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w24w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_3> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w4> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_36t_37t_38t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w37w38w39w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_41t_42t_43t_44t_45t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w42w43w44w45w46w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_43t_44t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w44w45w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_72t_73t_74t_75t_76t_77t_78t_79t_80t_81t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w73w74w75w76w77w78w79w80w81w82w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_75> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w76> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_80t_81t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w81w82w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_84t_85t_86t_87t_88t_89t_90t_91t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w85w86w87w88w89w90w91w92w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_88t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w89w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_99t_100t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w100w101w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_113t_114t_115> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w114w115w116> ;
+    xs:date "1945-06-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#t_95t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w96w97> .
+
+bgn:Person-2257 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w143>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w207>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w210>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w54w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2257__Erwin_Michael_Joseph.naf#w68> .
+

@@ -1,0 +1,518 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_102t_103t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_114t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_130t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_137t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_30t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_91>,
+        bgn:Person-1796 ;
+    ore:proxyFor bgn:Person-1796 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w103> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w109> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w115> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w119> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w131> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w139> nif:lemma "gebeurtenis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w142> nif:lemma "geschiedenis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w32> nif:lemma "loopbaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w50> nif:lemma "tot" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1796__Anno_Houwing#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1796__Anno_Houwing .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1796 ;
+    bgn:aggregatedPerson bgn:Person-1796 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1796__Anno_Houwing ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1796__Anno_Houwing ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w108> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_106> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_108t_109> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_102t_103t_104> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w12w13w14> ;
+    xs:date "1983-11-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w122> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_117> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_120> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_114t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_118t_119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w136> ;
+    pb:A1 bgn:Person-1796 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_130t_131t_132> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w140> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_137t_138> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w16> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_26>,
+        bgn:Person-1796 .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w30> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_30t_31>,
+        bgn:Person-1796 ;
+    pb:A2 bgn:Person-1796 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_43> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w49> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_49t_50> ;
+    pb:ArgM-LOC bgn:Person-1796 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_47> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w6w7w8> ;
+    xs:date "1905-10-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w70> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_68> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_70> ;
+    pb:AM-TMP bgn:Person-1796 .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w82> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_72> ;
+    pb:AM-DIR bgn:Person-1796 ;
+    pb:AM-MNR bgn:Person-1796 .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w84> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_72> ;
+    pb:ArgM-LOC bgn:Person-1796 .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w92> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w10> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "48" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w103w104w105> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "596" ;
+    nif:endIndex "608" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w103" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w107> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "614" ;
+    nif:endIndex "617" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w107" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w108> nif:BeginIndex "618" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "625" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w109w110> nif:anchorOf "tot commissaris" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "641" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w114> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "657" ;
+    nif:endIndex "667" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w115w116w117> nif:anchorOf "in welke hoedanigheid" ;
+    nif:beginIndex "668" ;
+    nif:endIndex "689" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w118> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "690" ;
+    nif:endIndex "693" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w118" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w119w120> nif:anchorOf "onder andere" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "706" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w121> nif:anchorOf "opdracht" ;
+    nif:beginIndex "707" ;
+    nif:endIndex "715" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w121" ;
+    nif:lemma "opdracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w122> nif:BeginIndex "716" ;
+    nif:anchorOf "gaf" ;
+    nif:endIndex "719" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w128> nif:anchorOf "Gerechtshof" ;
+    nif:beginIndex "749" ;
+    nif:endIndex "760" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w12w13w14> nif:anchorOf "29 november 1983" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w130> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "764" ;
+    nif:endIndex "774" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w131w132w133> nif:anchorOf "met harde hand" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "789" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w131" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w134> nif:anchorOf "uiteen" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "796" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w134" ;
+    nif:lemma "uiteen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w136> nif:BeginIndex "800" ;
+    nif:anchorOf "drijven" ;
+    nif:endIndex "807" ;
+    nif:lemma "drijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w138w139> nif:anchorOf "Deze gebeurtenis" ;
+    nif:beginIndex "809" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w139" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w140> nif:BeginIndex "826" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "830" ;
+    nif:lemma "in_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w141w142> nif:anchorOf "de geschiedenis" ;
+    nif:beginIndex "831" ;
+    nif:endIndex "846" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w145> nif:anchorOf "Kneppelfreed" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "866" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w16> nif:BeginIndex "68" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "71" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "76" ;
+    nif:endIndex "87" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w2> nif:anchorOf "Houwing" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w23> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "130" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w27> nif:anchorOf "1946-1968" ;
+    nif:beginIndex "155" ;
+    nif:endIndex "164" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w29> nif:anchorOf "Houwing" ;
+    nif:beginIndex "167" ;
+    nif:endIndex "174" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w30> nif:BeginIndex "175" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "180" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w31w32> nif:anchorOf "zijn loopbaan" ;
+    nif:beginIndex "181" ;
+    nif:endIndex "194" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w32" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w34> nif:anchorOf "1925" ;
+    nif:beginIndex "198" ;
+    nif:endIndex "202" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w38> nif:anchorOf "Groningen" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "235" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w4> nif:anchorOf "Wedde" ;
+    nif:beginIndex "14" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w40> nif:anchorOf "daarna" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "243" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w40" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w42> nif:anchorOf "Hilversum" ;
+    nif:beginIndex "247" ;
+    nif:endIndex "256" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w44> nif:anchorOf "Assen" ;
+    nif:beginIndex "260" ;
+    nif:endIndex "265" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w48> nif:anchorOf "1940" ;
+    nif:beginIndex "275" ;
+    nif:endIndex "279" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w49> nif:BeginIndex "280" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "287" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w50w51> nif:anchorOf "tot rijksrechercheur" ;
+    nif:beginIndex "288" ;
+    nif:endIndex "308" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w57> nif:anchorOf "Procureur-Generaal" ;
+    nif:beginIndex "331" ;
+    nif:endIndex "349" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w62> nif:anchorOf "Politie" ;
+    nif:beginIndex "369" ;
+    nif:endIndex "376" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w65> nif:anchorOf "Gerechtshof" ;
+    nif:beginIndex "385" ;
+    nif:endIndex "396" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w67> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "400" ;
+    nif:endIndex "410" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w69> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "412" ;
+    nif:endIndex "415" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w69" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w6w7w8> nif:anchorOf "9 oktober 1905" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "35" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w70> nif:BeginIndex "416" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "419" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w71> nif:anchorOf "ontslag" ;
+    nif:beginIndex "420" ;
+    nif:endIndex "427" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w71" ;
+    nif:lemma "ontslag" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w73> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "436" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w73" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w76> nif:anchorOf "Duitse" ;
+    nif:beginIndex "445" ;
+    nif:endIndex "451" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w79w80> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "466" ;
+    nif:endIndex "474" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w82> nif:BeginIndex "480" ;
+    nif:anchorOf "verplaatst" ;
+    nif:endIndex "490" ;
+    nif:lemma "verplaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w84> nif:BeginIndex "494" ;
+    nif:anchorOf "belandde" ;
+    nif:endIndex "502" ;
+    nif:lemma "belanden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w87> nif:anchorOf "Friese" ;
+    nif:beginIndex "510" ;
+    nif:endIndex "516" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w90> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "525" ;
+    nif:endIndex "528" ;
+    nif:head "bgnProc:1796__Anno_Houwing.naf#w90" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w92> nif:BeginIndex "535" ;
+    nif:anchorOf "beschouwd" ;
+    nif:endIndex "544" ;
+    nif:lemma "beschouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w99w100> nif:anchorOf "Friese Veemgericht" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_102t_103t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w103w104w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_114t_115t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w115w116w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_130t_131t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w131w132w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_137t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w138w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_140t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w141w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_26> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w27> ;
+    xs:gYear "1946",
+        "1968" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_30t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w31w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_33> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w34> ;
+    xs:gYear "1925" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_47> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w48> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_49t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w50w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w73> .
+
+bgn:Person-1796 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w128>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w130>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w79w80>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1796__Anno_Houwing.naf#w99w100> .
+

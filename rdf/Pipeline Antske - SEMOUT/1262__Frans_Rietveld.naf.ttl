@@ -1,0 +1,400 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_132t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_4t_5t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_50t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_94>,
+        bgn:Person-1262 ;
+    ore:proxyFor bgn:Person-1262 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w134> nif:lemma "straat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w52> nif:lemma "verzet_activiteit" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1262__Frans_Rietveld#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1262__Frans_Rietveld .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1262 ;
+    bgn:aggregatedPerson bgn:Person-1262 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1262__Frans_Rietveld ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1262__Frans_Rietveld ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w11w12w13> ;
+    xs:date "1941-03-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_126> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w127> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w132> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_132t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_14> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w15> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w28> ;
+    pb:A1 bgn:Person-1262 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_36>,
+        bgn:Person-1262 .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w40> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_38> ;
+    pb:A1 bgn:Person-1262 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_40> ;
+    pb:AM-TMP bgn:Person-1262 .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w50> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_38> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_50t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_4t_5t_6> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w5w6w7> ;
+    xs:date "1904-12-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w64> ;
+    pb:A1 bgn:Person-1262 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_72>,
+        bgn:Person-1262 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_65> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_57t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w85> ;
+    pb:ArgM-CAU bgn:Person-1262 .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w95> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_89> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w102> nif:anchorOf "Geuzen" ;
+    nif:beginIndex "610" ;
+    nif:endIndex "616" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w109> nif:BeginIndex "644" ;
+    nif:anchorOf "Februari-staking" ;
+    nif:beginIndex "644" ;
+    nif:endIndex "660" ;
+    nif:lemma "Februari_staking" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w111w112> nif:anchorOf "Frans Rietveld" ;
+    nif:beginIndex "663" ;
+    nif:endIndex "677" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w113> nif:BeginIndex "678" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "680" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w11w12w13> nif:anchorOf "13 maart 1941" ;
+    nif:beginIndex "64" ;
+    nif:endIndex "77" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w121w122w123w124w125w126w127w128> nif:anchorOf "Het lied der achttien dooden van Jan Campert" ;
+    nif:beginIndex "717" ;
+    nif:endIndex "761" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w127> nif:anchorOf "Jan" ;
+    nif:beginIndex "750" ;
+    nif:endIndex "753" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w131> nif:anchorOf "Schiedam" ;
+    nif:beginIndex "766" ;
+    nif:endIndex "774" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w132> nif:BeginIndex "775" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "777" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w133w134> nif:anchorOf "een straat" ;
+    nif:beginIndex "778" ;
+    nif:endIndex "788" ;
+    nif:head "bgnProc:1262__Frans_Rietveld.naf#w134" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w140> nif:anchorOf "Frans" ;
+    nif:beginIndex "812" ;
+    nif:endIndex "817" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w141> nif:anchorOf "Rietveldpad" ;
+    nif:beginIndex "818" ;
+    nif:endIndex "829" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w144w145> nif:anchorOf "Rietveld Geuzen" ;
+    nif:beginIndex "842" ;
+    nif:endIndex "858" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w15> nif:BeginIndex "79" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "82" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w17> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "87" ;
+    nif:endIndex "98" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w1w2> nif:anchorOf "Rietveld" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w21w22> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "126" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w24> nif:anchorOf "Rietveld" ;
+    nif:beginIndex "148" ;
+    nif:endIndex "156" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w25> nif:BeginIndex "157" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "160" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w28> nif:BeginIndex "173" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "179" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w35> nif:anchorOf "Wilton-Fijenoord" ;
+    nif:beginIndex "207" ;
+    nif:endIndex "223" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w37> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "236" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w39> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "238" ;
+    nif:endIndex "241" ;
+    nif:head "bgnProc:1262__Frans_Rietveld.naf#w39" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w4> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "16" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w40> nif:BeginIndex "242" ;
+    nif:anchorOf "sloot" ;
+    nif:endIndex "247" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w41> nif:anchorOf "zich" ;
+    nif:beginIndex "248" ;
+    nif:endIndex "252" ;
+    nif:head "bgnProc:1262__Frans_Rietveld.naf#w41" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w45> nif:anchorOf "Geuzengroep" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "275" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w47w48> nif:anchorOf "Bernardus IJzerdraat" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "301" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w50> nif:BeginIndex "305" ;
+    nif:anchorOf "verrichtte" ;
+    nif:endIndex "315" ;
+    nif:lemma "verrichten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w51w52> nif:anchorOf "velerlei verzetsactiviteiten" ;
+    nif:beginIndex "316" ;
+    nif:endIndex "344" ;
+    nif:head "bgnProc:1262__Frans_Rietveld.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w58w59w60> nif:anchorOf "29 november 1940" ;
+    nif:beginIndex "369" ;
+    nif:endIndex "385" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w5w6w7> nif:anchorOf "28 december 1904" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w64> nif:BeginIndex "400" ;
+    nif:anchorOf "zat" ;
+    nif:endIndex "403" ;
+    nif:lemma "vast_zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w65> nif:anchorOf "Rietveld" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "412" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w66> nif:anchorOf "vast" ;
+    nif:beginIndex "413" ;
+    nif:endIndex "417" ;
+    nif:head "bgnProc:1262__Frans_Rietveld.naf#w66" ;
+    nif:lemma "vast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w69w70w71> nif:anchorOf "Huis van Bewaring" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "442" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w73> nif:anchorOf "Scheveningen" ;
+    nif:beginIndex "446" ;
+    nif:endIndex "458" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w76> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "472" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w80> nif:anchorOf "Rietveld" ;
+    nif:beginIndex "476" ;
+    nif:endIndex "484" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w81> nif:BeginIndex "485" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "488" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w85> nif:BeginIndex "500" ;
+    nif:anchorOf "veroordeelden" ;
+    nif:endIndex "513" ;
+    nif:lemma "veroordeeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w88> nif:anchorOf "Geuzenproces" ;
+    nif:beginIndex "522" ;
+    nif:endIndex "534" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w9> nif:anchorOf "Waalsdorpervlakte" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w90> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "536" ;
+    nif:endIndex "539" ;
+    nif:head "bgnProc:1262__Frans_Rietveld.naf#w90" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w94> nif:anchorOf "Waalsdorpervlakte" ;
+    nif:beginIndex "551" ;
+    nif:endIndex "568" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w95> nif:BeginIndex "569" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "581" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_132t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w133w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_50t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w51w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_57t_58t_59> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w58w59w60> ;
+    xs:date "1940-11-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w39> .
+
+bgn:Person-1262 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w111w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w121w122w123w124w125w126w127w128>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w144w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w21w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w69w70w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w80>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1262__Frans_Rietveld.naf#w94> ;
+    xs:gYearMonth "2017-02" .
+

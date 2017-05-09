@@ -1,0 +1,904 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_105t_106t_107t_108t_109t_110t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_115t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_152t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_171t_172t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_202t_203t_204t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_248t_249t_250t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_254t_255t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_293>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_302>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_311>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_76t_77t_78t_79t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_94t_95t_96t_97t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_99>,
+        bgn:Person-1751 ;
+    ore:proxyFor bgn:Person-1751 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w106> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w136> nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w139> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w144> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w173> nif:lemma "vriend" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w193> nif:lemma "&amp;amp;amp;quot;" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w212> nif:lemma "familie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w221> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w249> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w77> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w96> nif:lemma "werk" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1751__Gerard_van_Hamel#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1751__Gerard_van_Hamel .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1751 ;
+    bgn:aggregatedPerson bgn:Person-1751 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1751__Gerard_van_Hamel ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1751__Gerard_van_Hamel ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w105> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_101> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_103> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_105t_106t_107t_108t_109t_110t_111t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w12w13w14> ;
+    xs:date "1944-07-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w121> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_119> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_115t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w142> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_138t_139t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w146> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_143t_144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w150> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_132> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w165> ;
+    pb:Arg1 bgn:Person-1751 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_152t_153t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w170> ;
+    pb:Arg1 bgn:Person-1751 ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_168> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_184>,
+        bgn:Person-1751 .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w178> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_171t_172t_173t_174> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_184>,
+        bgn:Person-1751 .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_199> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w200> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w209> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_201> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_202t_203t_204t_205t_206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w213> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_210t_211> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_216> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w217> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_215> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w223> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_218> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_220t_221> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_233> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w234> ;
+    pb:Arg1 bgn:Person-1751 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_240> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w237> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_240> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_243> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w244> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_247> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_242> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_248t_249t_250t_251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_254t_255t_256> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w255w256w257> ;
+    xs:date "1944-07-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_272> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w273> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_271> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_280>,
+        bgn:Person-1751 .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_293> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w294> ;
+    xs:gYear "1813" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_295> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w296> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_302> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w303> ;
+    xs:gYear "1813" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_311> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w312> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w47> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_45> ;
+    pb:Arg1 bgn:Person-1751 .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_52> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w53> ;
+    xs:gYear "1909",
+        "1964" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w6w7w8> ;
+    xs:date "1911-10-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_60> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w61> ;
+    xs:gYear "1915",
+        "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w66> ;
+    pb:A0 bgn:Person-1751 ;
+    pb:AM-LOC bgn:Person-1751 .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_75> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w76> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_76t_77t_78t_79t_80t_81> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_74> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w100> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_93> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_94t_95t_96t_97t_98> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_90t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w10> nif:anchorOf "Natzweiler-Struthof" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w100> nif:BeginIndex "553" ;
+    nif:anchorOf "voortgezet" ;
+    nif:endIndex "563" ;
+    nif:lemma "voort_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w102> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "565" ;
+    nif:endIndex "568" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w102" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w104> nif:anchorOf "veel" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "579" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w104" ;
+    nif:lemma "veel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w105> nif:BeginIndex "580" ;
+    nif:anchorOf "bijgedragen" ;
+    nif:endIndex "591" ;
+    nif:lemma "bij_dragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w106w107w108w109w110w111w112w113> nif:anchorOf "aan de financiering van de diverse opgezette verzetsactiviteiten" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "656" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w116w117w118> nif:anchorOf "10 augustus 1942" ;
+    nif:beginIndex "661" ;
+    nif:endIndex "677" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w120> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "683" ;
+    nif:endIndex "686" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w120" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w121> nif:BeginIndex "687" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "699" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w129> nif:anchorOf "Baarn" ;
+    nif:beginIndex "731" ;
+    nif:endIndex "736" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w12w13w14> nif:anchorOf "19 juli 1944" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w131> nif:anchorOf "Toen" ;
+    nif:beginIndex "738" ;
+    nif:endIndex "742" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w131" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w133> nif:anchorOf "ook" ;
+    nif:beginIndex "748" ;
+    nif:endIndex "751" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w133" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w134w135w136w137w138w139w140w141w142w143w144w145w146w147w148w149> nif:anchorOf "een groot deel van het door zijn broer opgezette en door hem uitgebouwde netwerk van spionnen" ;
+    nif:beginIndex "752" ;
+    nif:endIndex "845" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w136" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w139w140w141> nif:anchorOf "door zijn broer" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "790" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w139" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w142> nif:BeginIndex "791" ;
+    nif:anchorOf "opgezette" ;
+    nif:endIndex "800" ;
+    nif:lemma "opgezet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w144w145> nif:anchorOf "door hem" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "812" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w146> nif:BeginIndex "813" ;
+    nif:anchorOf "uitgebouwde" ;
+    nif:endIndex "824" ;
+    nif:lemma "uitgebouwd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w150> nif:BeginIndex "846" ;
+    nif:anchorOf "opgerold" ;
+    nif:endIndex "854" ;
+    nif:lemma "op_rollen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w153w154w155w156> nif:anchorOf "de lente van 1943" ;
+    nif:beginIndex "860" ;
+    nif:endIndex "877" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w158> nif:anchorOf "Gerard" ;
+    nif:beginIndex "883" ;
+    nif:endIndex "889" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w16> nif:BeginIndex "77" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "80" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w165> nif:BeginIndex "933" ;
+    nif:anchorOf "berecht" ;
+    nif:endIndex "940" ;
+    nif:lemma "berechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w167> nif:anchorOf "Gerard" ;
+    nif:beginIndex "946" ;
+    nif:endIndex "952" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w169> nif:anchorOf "niet" ;
+    nif:beginIndex "958" ;
+    nif:endIndex "962" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w169" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w170> nif:BeginIndex "963" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "974" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w172w173w174w175> nif:anchorOf "een vriend van hem" ;
+    nif:beginIndex "981" ;
+    nif:endIndex "999" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w178> nif:BeginIndex "1017" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1020" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w18> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w181> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1028" ;
+    nif:endIndex "1034" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w185> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1060" ;
+    nif:endIndex "1069" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w188> nif:anchorOf "Christiansen" ;
+    nif:beginIndex "1080" ;
+    nif:endIndex "1092" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w191> nif:BeginIndex "1098" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1102" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w194w195w196> nif:anchorOf "Nacht und Nebel" ;
+    nif:beginIndex "1108" ;
+    nif:endIndex "1123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w199> nif:anchorOf "wat" ;
+    nif:beginIndex "1135" ;
+    nif:endIndex "1138" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w199" ;
+    nif:lemma "wat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w1w2> nif:anchorOf "Anton" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w200> nif:BeginIndex "1139" ;
+    nif:anchorOf "inhield" ;
+    nif:endIndex "1146" ;
+    nif:lemma "in_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w202> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1151" ;
+    nif:endIndex "1154" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w202" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w203w204w205w206w207> nif:anchorOf "in nacht en nevel" ;
+    nif:beginIndex "1155" ;
+    nif:endIndex "1173" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w193" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w207> nif:BeginIndex "1168" ;
+    nif:anchorOf "nevel" ;
+    nif:endIndex "1173" ;
+    nif:lemma "nevel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w209> nif:BeginIndex "1175" ;
+    nif:anchorOf "opging" ;
+    nif:endIndex "1181" ;
+    nif:lemma "op_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w211w212> nif:anchorOf "Zijn familie" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1195" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w213> nif:BeginIndex "1196" ;
+    nif:anchorOf "wist" ;
+    nif:endIndex "1200" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w214> nif:anchorOf "niet" ;
+    nif:beginIndex "1201" ;
+    nif:endIndex "1205" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w214" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w215> nif:anchorOf "waar" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1210" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w215" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w215w216w217w218w219w220w221w222w223w224> nif:anchorOf "waar hij was en wat er met hem gebeuren zou" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1249" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w216> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1211" ;
+    nif:endIndex "1214" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w216" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w217> nif:BeginIndex "1215" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1218" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w219> nif:anchorOf "wat" ;
+    nif:beginIndex "1222" ;
+    nif:endIndex "1225" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w219" ;
+    nif:lemma "wat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w221w222> nif:anchorOf "met hem" ;
+    nif:beginIndex "1229" ;
+    nif:endIndex "1236" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w223> nif:BeginIndex "1237" ;
+    nif:anchorOf "gebeuren" ;
+    nif:endIndex "1245" ;
+    nif:lemma "gebeuren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w228w229w230> nif:anchorOf "Nacht und Nebel" ;
+    nif:beginIndex "1257" ;
+    nif:endIndex "1272" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w22w23> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w234> nif:BeginIndex "1292" ;
+    nif:anchorOf "opgesloten" ;
+    nif:endIndex "1302" ;
+    nif:lemma "op_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w237> nif:BeginIndex "1310" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1326" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w238> nif:anchorOf "Natzweiler-Struthof" ;
+    nif:beginIndex "1327" ;
+    nif:endIndex "1346" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w241> nif:anchorOf "Elzas" ;
+    nif:beginIndex "1353" ;
+    nif:endIndex "1358" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w243> nif:anchorOf "Daar" ;
+    nif:beginIndex "1360" ;
+    nif:endIndex "1364" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w243" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w244> nif:BeginIndex "1365" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1367" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w245w246w247> nif:anchorOf "Gerard van Hamel" ;
+    nif:beginIndex "1368" ;
+    nif:endIndex "1384" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w248> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "1385" ;
+    nif:endIndex "1397" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w248" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w249w250w251w252> nif:anchorOf "aan uitputting en tuberculose" ;
+    nif:beginIndex "1398" ;
+    nif:endIndex "1427" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w249" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w255w256w257> nif:anchorOf "19 juli 1944" ;
+    nif:beginIndex "1441" ;
+    nif:endIndex "1453" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w26> nif:anchorOf "Hamel" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w27> nif:BeginIndex "150" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "153" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w272> nif:anchorOf "Het" ;
+    nif:beginIndex "1527" ;
+    nif:endIndex "1530" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w272" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w273> nif:BeginIndex "1531" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1536" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w276w277w278w279> nif:anchorOf "Gerrit van der Veenlaan" ;
+    nif:beginIndex "1544" ;
+    nif:endIndex "1567" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w281> nif:anchorOf "Baarn" ;
+    nif:beginIndex "1571" ;
+    nif:endIndex "1576" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w283w284> nif:anchorOf "Gerard Anton" ;
+    nif:beginIndex "1579" ;
+    nif:endIndex "1591" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w286> nif:anchorOf "Hamel" ;
+    nif:beginIndex "1596" ;
+    nif:endIndex "1601" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w292> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1636" ;
+    nif:endIndex "1645" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w294> nif:anchorOf "1813" ;
+    nif:beginIndex "1650" ;
+    nif:endIndex "1654" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w296> nif:anchorOf "heden" ;
+    nif:beginIndex "1659" ;
+    nif:endIndex "1664" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w298w299w300w301w302w303w304w305> nif:anchorOf "Les arbitrages internationaux néerlandais de 1813 à nos" ;
+    nif:beginIndex "1667" ;
+    nif:endIndex "1722" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w303> nif:anchorOf "1813" ;
+    nif:beginIndex "1712" ;
+    nif:endIndex "1716" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w309w310> nif:anchorOf "Martinus Nijhoff" ;
+    nif:beginIndex "1744" ;
+    nif:endIndex "1760" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w312> nif:anchorOf "1938." ;
+    nif:beginIndex "1762" ;
+    nif:endIndex "1767" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w314w315w316> nif:anchorOf "Proefschrift Gemeentelijke Universiteit" ;
+    nif:beginIndex "1769" ;
+    nif:endIndex "1808" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w318> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "1813" ;
+    nif:endIndex "1822" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w35w36> nif:anchorOf "Joost Adriaan" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w38> nif:anchorOf "Hamel" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "224" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w4> nif:anchorOf "Hamel" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w40w41w42w43w44> nif:anchorOf "Maria Leocadie de Vries Feijens" ;
+    nif:beginIndex "228" ;
+    nif:endIndex "259" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w46> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "261" ;
+    nif:endIndex "264" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w46" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w47> nif:BeginIndex "265" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "268" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w50w51> nif:anchorOf "Maria Laetitia" ;
+    nif:beginIndex "280" ;
+    nif:endIndex "294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w53> nif:anchorOf "1909-1964" ;
+    nif:beginIndex "296" ;
+    nif:endIndex "305" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w59> nif:anchorOf "Lodewijk" ;
+    nif:beginIndex "328" ;
+    nif:endIndex "336" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w61> nif:anchorOf "1915-1941" ;
+    nif:beginIndex "338" ;
+    nif:endIndex "347" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w65> nif:anchorOf "Hamel" ;
+    nif:beginIndex "354" ;
+    nif:endIndex "359" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w66> nif:BeginIndex "360" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "369" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w69> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "388" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w6w7w8> nif:anchorOf "27 oktober 1911" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w72> nif:anchorOf "waar" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "407" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w72" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w75> nif:anchorOf "1938" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "419" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w76> nif:BeginIndex "420" ;
+    nif:anchorOf "promoveerde" ;
+    nif:endIndex "431" ;
+    nif:lemma "promoveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w77w78w79w80w81w82> nif:anchorOf "op het gebied van internationale rechtspraak" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "476" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w77" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w91w92> nif:anchorOf "juni 1941" ;
+    nif:beginIndex "508" ;
+    nif:endIndex "517" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w94> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "524" ;
+    nif:endIndex "527" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w94" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w95w96w97w98w99> nif:anchorOf "diens werk in het verzet" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "552" ;
+    nif:head "bgnProc:1751__Gerard_van_Hamel.naf#w96" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_105t_106t_107t_108t_109t_110t_111t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w106w107w108w109w110w111w112w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_115t_116t_117> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w116w117w118> ;
+    xs:date "1942-08-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_133t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w134w135w136w137w138w139w140w141w142w143w144w145w146w147w148w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_138t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w139w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_152t_153t_154t_155> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w153w154w155w156> ;
+    xs:gYearMonth "1943-SP" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_171t_172t_173t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w172w173w174w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_202t_203t_204t_205t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w203w204w205w206w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_210t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w211w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w215w216w217w218w219w220w221w222w223w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_215> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_242> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w243> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_248t_249t_250t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w249w250w251w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_271> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w272> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_74> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w75> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_76t_77t_78t_79t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w77w78w79w80w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_90t_91> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w91w92> ;
+    xs:gYearMonth "1941-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#t_94t_95t_96t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w95w96w97w98w99> .
+
+bgn:Person-1751 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w188>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w194w195w196>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w228w229w230>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w238>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w241>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w245w246w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w276w277w278w279>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w281>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w283w284>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w286>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w292>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w298w299w300w301w302w303w304w305>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w309w310>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w314w315w316>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w318>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w35w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w40w41w42w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1751__Gerard_van_Hamel.naf#w69> .
+

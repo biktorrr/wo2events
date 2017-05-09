@@ -1,0 +1,554 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_140t_141t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_151t_152t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_55t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_61t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_77t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_96t_97t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_9t_10t_11>,
+        bgn:Person-1525 ;
+    ore:proxyFor bgn:Person-1525 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w127> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w140> nif:lemma "tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w141> nif:lemma "zelfstandig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w62> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w79> nif:lemma "tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w80> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w99> nif:lemma "tijd" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1525__Jan_Gies#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1525__Jan_Gies .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1525 ;
+    bgn:aggregatedPerson bgn:Person-1525 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1525__Jan_Gies ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1525__Jan_Gies ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w108> ;
+    pb:Arg0 bgn:Person-1525 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_116>,
+        bgn:Person-1525 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_104t_105t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_118> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w119> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w121> ;
+    pb:Arg0 bgn:Person-1525 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_122t_123t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w130> ;
+    pb:Arg0 bgn:Person-1525 ;
+    pb:Arg4 bgn:Person-1525 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w147> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_136> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_138t_139> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_140t_141t_142t_143t_144> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_135> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w150> ;
+    pb:Arg1 bgn:Person-1525 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_151t_152t_153> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w16w17w18> ;
+    xs:date "1993-01-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w26> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_7>,
+        bgn:Person-1525 ;
+    pb:A1 bgn:Person-1525 ;
+    pb:AM-MNR bgn:Person-1525 .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w38> ;
+    pb:A1 bgn:Person-1525 ;
+    pb:AM-PNC bgn:Person-1525 .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_56> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w57> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w60> ;
+    pb:Arg0 bgn:Person-1525 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_58> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_55t_56>,
+        bgn:Person-1525 .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w65> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_79t_80> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_61t_62t_63> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_77t_78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w73> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_88> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w89> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w91> ;
+    pb:Arg0 bgn:Person-1525 ;
+    pb:Arg2 bgn:Person-1525 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_99> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_96t_97t_98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_91> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w92> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w10w11w12> ;
+    xs:date "1905-10-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w100> nif:anchorOf "alleen" ;
+    nif:beginIndex "515" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w100" ;
+    nif:lemma "alleen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w103> nif:anchorOf "Jekerstraat" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "539" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w105w106w107> nif:anchorOf "Begin jaren vijftig" ;
+    nif:beginIndex "541" ;
+    nif:endIndex "560" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w108> nif:BeginIndex "561" ;
+    nif:anchorOf "verhuisden" ;
+    nif:endIndex "571" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w109> nif:anchorOf "Jan" ;
+    nif:beginIndex "572" ;
+    nif:endIndex "575" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w10w11w12> nif:anchorOf "18 oktober 1905" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w111w112> nif:anchorOf "Miep Gies" ;
+    nif:beginIndex "579" ;
+    nif:endIndex "588" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w115> nif:anchorOf "Woestduinstraat" ;
+    nif:beginIndex "597" ;
+    nif:endIndex "612" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w117> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "616" ;
+    nif:endIndex "625" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w119> nif:anchorOf "Jan" ;
+    nif:beginIndex "627" ;
+    nif:endIndex "630" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w119w120> nif:anchorOf "Jan Gies" ;
+    nif:beginIndex "627" ;
+    nif:endIndex "635" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w121> nif:BeginIndex "636" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "644" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w123w124w125> nif:anchorOf "26 januari 1993" ;
+    nif:beginIndex "648" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w127w128w129> nif:anchorOf "Na zijn dood" ;
+    nif:beginIndex "665" ;
+    nif:endIndex "677" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w130> nif:BeginIndex "678" ;
+    nif:anchorOf "verhuisde" ;
+    nif:endIndex "687" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w131w132> nif:anchorOf "Miep Gies" ;
+    nif:beginIndex "688" ;
+    nif:endIndex "697" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w134> nif:anchorOf "Hoorn" ;
+    nif:beginIndex "703" ;
+    nif:endIndex "708" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w136> nif:anchorOf "waar" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "714" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w136" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w137> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "718" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w137" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w138> nif:anchorOf "nog" ;
+    nif:beginIndex "719" ;
+    nif:endIndex "722" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w138" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w139w140> nif:anchorOf "lange tijd" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "733" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w141w142w143w144w145> nif:anchorOf "zelfstandig en in goede gezondheid" ;
+    nif:beginIndex "734" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w147> nif:BeginIndex "775" ;
+    nif:anchorOf "geleefd" ;
+    nif:endIndex "782" ;
+    nif:lemma "leven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w149> nif:anchorOf "Miep" ;
+    nif:beginIndex "784" ;
+    nif:endIndex "788" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w150> nif:BeginIndex "789" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "797" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w152w153w154> nif:anchorOf "11 januari 2010" ;
+    nif:beginIndex "801" ;
+    nif:endIndex "816" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w157> nif:BeginIndex "821" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "825" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w16w17w18> nif:anchorOf "26 januari 1993" ;
+    nif:beginIndex "62" ;
+    nif:endIndex "77" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w1w2> nif:anchorOf "Augustus" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w20> nif:BeginIndex "79" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "82" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w26> nif:BeginIndex "105" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "110" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w30> nif:anchorOf "Miep" ;
+    nif:beginIndex "126" ;
+    nif:endIndex "130" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w32w33> nif:anchorOf "Anne Frank" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w38> nif:BeginIndex "164" ;
+    nif:anchorOf "verbergen" ;
+    nif:endIndex "173" ;
+    nif:lemma "verbergen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w4> nif:anchorOf "Jan" ;
+    nif:beginIndex "14" ;
+    nif:endIndex "17" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w41> nif:anchorOf "Jodenvervolging" ;
+    nif:beginIndex "182" ;
+    nif:endIndex "197" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w44w45> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "209" ;
+    nif:endIndex "228" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w49w50> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "256" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w52> nif:anchorOf "Jan" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "267" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w54w55> nif:anchorOf "Miep Gies" ;
+    nif:beginIndex "271" ;
+    nif:endIndex "280" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w56w57> nif:anchorOf "enige jaren" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "292" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w57" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w57> nif:anchorOf "jaren" ;
+    nif:beginIndex "287" ;
+    nif:endIndex "292" ;
+    nif:lemma "jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w59> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "296" ;
+    nif:endIndex "305" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w6> nif:anchorOf "Gies" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w60> nif:BeginIndex "306" ;
+    nif:anchorOf "wonen" ;
+    nif:endIndex "311" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w62w63w64> nif:anchorOf "Vanwege de woningnood" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "334" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w62" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w65> nif:BeginIndex "335" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "341" ;
+    nif:lemma "in_wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w66w67> nif:anchorOf "Otto Frank" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "352" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w69> nif:anchorOf "die" ;
+    nif:beginIndex "354" ;
+    nif:endIndex "357" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w69" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w73> nif:BeginIndex "371" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "374" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w76> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "402" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w78w79> nif:anchorOf "enige tijd" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "414" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w79" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w8> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w80w81> nif:anchorOf "bij ze" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "421" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w85> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "435" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w85" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w87> nif:anchorOf "Zwitserland" ;
+    nif:beginIndex "441" ;
+    nif:endIndex "452" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w89> nif:BeginIndex "464" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "467" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w91> nif:BeginIndex "469" ;
+    nif:anchorOf "woonden" ;
+    nif:endIndex "476" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w92> nif:anchorOf "Jan" ;
+    nif:beginIndex "477" ;
+    nif:endIndex "480" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w92w93> nif:anchorOf "Jan Gies" ;
+    nif:beginIndex "477" ;
+    nif:endIndex "485" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w97w98w99> nif:anchorOf "nog enige tijd" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "514" ;
+    nif:head "bgnProc:1525__Jan_Gies.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_104t_105t_106> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w105w106w107> ;
+    xs:date "195" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_122t_123t_124> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w123w124w125> ;
+    xs:date "1993-01-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_140t_141t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w141w142w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_151t_152t_153> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w152w153w154> ;
+    xs:date "2010-01-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_55t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w56w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_61t_62t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w62w63w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_77t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w78w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_79t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w80w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_96t_97t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w97w98w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w100> .
+
+bgn:Person-1525 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w111w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w117>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w119w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w131w132>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w44w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w49w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w54w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w66w67>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w87>,
+        <http://data.biographynet.nl/rdf/170506221754/1525__Jan_Gies.naf#w92w93> ;
+    xs:gYearMonth "2017-01" .
+

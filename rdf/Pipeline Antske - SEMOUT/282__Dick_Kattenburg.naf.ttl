@@ -1,0 +1,778 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_114t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_139t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_148t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_155t_156t_157t_158t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_193t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_196t_197t_198t_199t_200t_201t_202t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_206t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_98t_99t_100t_101>,
+        bgn:Person-282 ;
+    ore:proxyFor bgn:Person-282 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w115> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w129> nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w143> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w151> nif:lemma "compositie" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w156> nif:lemma "solo_stuk" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w195> nif:lemma "familie_lid" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w198> nif:lemma "doos" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w99> nif:lemma "hij" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-282__Dick_Kattenburg#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-282__Dick_Kattenburg .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-282 ;
+    bgn:aggregatedPerson bgn:Person-282 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-282__Dick_Kattenburg ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-282__Dick_Kattenburg ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w103> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_98t_99t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w12> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w114> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_112> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_114t_115t_116> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w120> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_118> ;
+    pb:A2 bgn:Person-282 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w126> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_118> ;
+    pb:Arg4 bgn:Person-282 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_127t_128> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w14> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w134> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_134> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_142t_143t_144> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_132> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_139t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_136t_137> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w137w138> ;
+    xs:date "2017-05-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w152> ;
+    pb:A0 bgn:Person-282 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_148t_149t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w155> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_153> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_155t_156t_157t_158t_159> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w163> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_163> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_161> ;
+    pb:AM-NEG bgn:Person-282 .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_173> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w175> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_171> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_170> ;
+    pb:Arg2 bgn:Person-282 .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w179> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_176> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_188> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w193> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_193t_194> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_196t_197t_198t_199t_200t_201t_202t_203> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_195> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_191> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_206t_207> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w207w208> ;
+    xs:gYearMonth "2010-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w29> ;
+    pb:Arg0 bgn:Person-282 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w34> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_37>,
+        bgn:Person-282 .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w41> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_39> ;
+    pb:Arg1 bgn:Person-282 .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w60> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_55> ;
+    pb:Arg1 bgn:Person-282 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w6w7w8> ;
+    xs:date "1919-11-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w80> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_80> ;
+    pb:Arg1 bgn:Person-282 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_78> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w92> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_90> ;
+    pb:Arg1 bgn:Person-282 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w10> nif:anchorOf "Auschwitz" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w103> nif:BeginIndex "532" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "537" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w106> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "554" ;
+    nif:endIndex "561" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w109w110w111> nif:anchorOf "5 mei 1944" ;
+    nif:beginIndex "566" ;
+    nif:endIndex "576" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w113> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "582" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w113" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w114> nif:BeginIndex "586" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "594" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w115w116w117> nif:anchorOf "tijdens een razzia" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "613" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w119> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "615" ;
+    nif:endIndex "618" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w119" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w12> nif:anchorOf "1944" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w120> nif:BeginIndex "619" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "623" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w121> nif:anchorOf "terecht" ;
+    nif:beginIndex "624" ;
+    nif:endIndex "631" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w121" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w123w124> nif:anchorOf "Kamp Westerbork" ;
+    nif:beginIndex "635" ;
+    nif:endIndex "650" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w126> nif:BeginIndex "654" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "658" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w127> nif:anchorOf "niet" ;
+    nif:beginIndex "659" ;
+    nif:endIndex "663" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w127" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w128w129> nif:anchorOf "veel later" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "674" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w131> nif:anchorOf "Auschwitz" ;
+    nif:beginIndex "680" ;
+    nif:endIndex "689" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w133> nif:anchorOf "Daar" ;
+    nif:beginIndex "691" ;
+    nif:endIndex "695" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w133" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w134> nif:BeginIndex "696" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "700" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w135> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "701" ;
+    nif:endIndex "704" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w135" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w137w138> nif:anchorOf "22 mei" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "718" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w14> nif:BeginIndex "64" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "67" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w140w141w142> nif:anchorOf "30 september 1944" ;
+    nif:beginIndex "722" ;
+    nif:endIndex "739" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w143w144w145> nif:anchorOf "om het leven" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "752" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w147> nif:anchorOf "Kattenburg" ;
+    nif:beginIndex "755" ;
+    nif:endIndex "765" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w149w150w151> nif:anchorOf "ongeveer dertig composities" ;
+    nif:beginIndex "772" ;
+    nif:endIndex "799" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w151" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w152> nif:BeginIndex "800" ;
+    nif:anchorOf "geschreven" ;
+    nif:endIndex "810" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w154> nif:anchorOf "Dit" ;
+    nif:beginIndex "812" ;
+    nif:endIndex "815" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w154" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w155> nif:BeginIndex "816" ;
+    nif:anchorOf "betrof" ;
+    nif:endIndex "822" ;
+    nif:lemma "betreffen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w156w157w158w159w160> nif:anchorOf "solostukken en kamermuziek en orkestwerken" ;
+    nif:beginIndex "823" ;
+    nif:endIndex "865" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w156" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w158> nif:BeginIndex "838" ;
+    nif:anchorOf "kamermuziek" ;
+    nif:endIndex "849" ;
+    nif:lemma "kamer_muziek" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w16> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "72" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w160> nif:BeginIndex "853" ;
+    nif:anchorOf "orkestwerken" ;
+    nif:endIndex "865" ;
+    nif:lemma "orkest_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w162> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "867" ;
+    nif:endIndex "876" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w162" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w163> nif:BeginIndex "877" ;
+    nif:anchorOf "schreef" ;
+    nif:endIndex "884" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w164> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "885" ;
+    nif:endIndex "888" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w164" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w166> nif:anchorOf "Joodse" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "902" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w168> nif:anchorOf "Palestijnse" ;
+    nif:beginIndex "906" ;
+    nif:endIndex "917" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w171> nif:anchorOf "die" ;
+    nif:beginIndex "928" ;
+    nif:endIndex "931" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w171" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w172> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "932" ;
+    nif:endIndex "935" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w172" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w173> nif:anchorOf "Roemeense" ;
+    nif:beginIndex "936" ;
+    nif:endIndex "945" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w174> nif:BeginIndex "946" ;
+    nif:anchorOf "volksmuziek" ;
+    nif:endIndex "957" ;
+    nif:lemma "volk_muziek" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w175> nif:BeginIndex "958" ;
+    nif:anchorOf "noemde" ;
+    nif:endIndex "964" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w177> nif:anchorOf "Lang" ;
+    nif:beginIndex "967" ;
+    nif:endIndex "971" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w177" ;
+    nif:lemma "lang" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w179> nif:BeginIndex "977" ;
+    nif:anchorOf "gedacht" ;
+    nif:endIndex "984" ;
+    nif:lemma "denken" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w189> nif:BeginIndex "1039" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1042" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w192> nif:anchorOf "2004" ;
+    nif:beginIndex "1047" ;
+    nif:endIndex "1051" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w193> nif:BeginIndex "1052" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "1056" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w194w195> nif:anchorOf "een familielid" ;
+    nif:beginIndex "1057" ;
+    nif:endIndex "1071" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w195" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w196> nif:anchorOf "echter" ;
+    nif:beginIndex "1072" ;
+    nif:endIndex "1078" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w196" ;
+    nif:lemma "echter" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w197w198w199w200w201w202w203w204> nif:anchorOf "een doos op zolder met nog meer composities" ;
+    nif:beginIndex "1079" ;
+    nif:endIndex "1122" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w198" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w1w2> nif:anchorOf "Kattenburg" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "15" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w207w208> nif:anchorOf "januari 2010" ;
+    nif:beginIndex "1127" ;
+    nif:endIndex "1139" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w21> nif:anchorOf "Kattenburg" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "129" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w221w222w223> nif:anchorOf "Leo Smit Ensemble" ;
+    nif:beginIndex "1204" ;
+    nif:endIndex "1221" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w227> nif:anchorOf "Muziek" ;
+    nif:beginIndex "1237" ;
+    nif:endIndex "1243" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w229w230> nif:anchorOf "Dick Kattenburg" ;
+    nif:beginIndex "1248" ;
+    nif:endIndex "1263" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w25> nif:anchorOf "Joodse" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w27> nif:BeginIndex "152" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "155" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w29> nif:BeginIndex "157" ;
+    nif:anchorOf "groeide" ;
+    nif:endIndex "164" ;
+    nif:lemma "op_groeien" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w32> nif:anchorOf "Naarden" ;
+    nif:beginIndex "171" ;
+    nif:endIndex "178" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w34> nif:BeginIndex "182" ;
+    nif:anchorOf "bezocht" ;
+    nif:endIndex "189" ;
+    nif:lemma "bezoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w36> nif:anchorOf "HBS" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w38> nif:anchorOf "Bussum" ;
+    nif:beginIndex "200" ;
+    nif:endIndex "206" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w4> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w40> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "208" ;
+    nif:endIndex "211" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w40" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w41> nif:BeginIndex "212" ;
+    nif:anchorOf "behaalde" ;
+    nif:endIndex "220" ;
+    nif:lemma "behalen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w49w50w51> nif:anchorOf "Collège Musical Belge" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "279" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w53> nif:anchorOf "Antwerpen" ;
+    nif:beginIndex "283" ;
+    nif:endIndex "292" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w55> nif:anchorOf "waar" ;
+    nif:beginIndex "294" ;
+    nif:endIndex "298" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w55" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w56> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "302" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w56" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w60> nif:BeginIndex "320" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "325" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w62w63> nif:anchorOf "Hugo Godron" ;
+    nif:beginIndex "330" ;
+    nif:endIndex "341" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w6w7w8> nif:anchorOf "11 november 1919" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "44" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w71> nif:BeginIndex "373" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "376" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w75w76> nif:anchorOf "Theo Kroeze" ;
+    nif:beginIndex "397" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w79> nif:anchorOf "1941" ;
+    nif:beginIndex "413" ;
+    nif:endIndex "417" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w80> nif:BeginIndex "418" ;
+    nif:anchorOf "behaalde" ;
+    nif:endIndex "426" ;
+    nif:lemma "behalen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w81> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "430" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w81" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w88w89> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "469" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w91> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "479" ;
+    nif:endIndex "482" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w91" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w92> nif:BeginIndex "483" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "488" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w93> nif:anchorOf "ook" ;
+    nif:beginIndex "489" ;
+    nif:endIndex "492" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w93" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w96w97> nif:anchorOf "Leo Smit" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "509" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w99w100w101w102> a bgn:pron_3ms ;
+    nif:anchorOf "Hij en zijn familie" ;
+    nif:beginIndex "512" ;
+    nif:endIndex "531" ;
+    nif:head "bgnProc:282__Dick_Kattenburg.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_108t_109t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w109w110w111> ;
+    xs:date "1944-05-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_114t_115t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w115w116w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_139t_140t_141> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w140w141w142> ;
+    xs:date "1944-09-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_148t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w149w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_155t_156t_157t_158t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w156w157w158w159w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_191> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w192> ;
+    xs:gYear "2004" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_193t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w194w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_195> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w196> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_196t_197t_198t_199t_200t_201t_202t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w197w198w199w200w201w202w203w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_78> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w79> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_98t_99t_100t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w99w100w101w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#t_118> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w119> .
+
+bgn:Person-282 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w123w124>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w147>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w173>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w221w222w223>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w229w230>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w49w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w62w63>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w75w76>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w88w89>,
+        <http://data.biographynet.nl/rdf/170506221754/282__Dick_Kattenburg.naf#w96w97> .
+

@@ -1,0 +1,456 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_121t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_31t_32t_33t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_54t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_67t_68t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_96t_97t_98t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_97>,
+        bgn:Person-841 ;
+    ore:proxyFor bgn:Person-841 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w116> nif:lemma "jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w119> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w122> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w32> nif:lemma "sinds" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w55> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w59> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w68> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w80> nif:lemma "begin" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w95> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w97> nif:lemma "tot" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-841__Louis_Peeters#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-841__Louis_Peeters .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-841 ;
+    bgn:aggregatedPerson bgn:Person-841 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-841__Louis_Peeters ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-841__Louis_Peeters ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w101> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_92> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_96t_97t_98t_99> ;
+    pb:ArgM-LOC bgn:Person-841 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_94t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w114> ;
+    pb:Arg1 bgn:Person-841 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_133>,
+        bgn:Person-841 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w126> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_120> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_121t_122t_123t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w136> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_120> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_133>,
+        bgn:Person-841 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_118t_119> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_127> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w31> ;
+    pb:A0 bgn:Person-841 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_36> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_31t_32t_33t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w40> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w54> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_54t_55t_56t_57> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w66> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_64> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_67t_68t_69t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w82> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_82> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_90> ;
+    pb:ArgM-PRD bgn:Person-841 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_79t_80> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w101> nif:BeginIndex "520" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "531" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w103> nif:anchorOf "Roermond" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "543" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w113> nif:anchorOf "Peeters" ;
+    nif:beginIndex "589" ;
+    nif:endIndex "596" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w114> nif:BeginIndex "597" ;
+    nif:anchorOf "emigreerde" ;
+    nif:endIndex "607" ;
+    nif:lemma "emigreren" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w115w116> nif:anchorOf "dat jaar" ;
+    nif:beginIndex "608" ;
+    nif:endIndex "616" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w118> nif:anchorOf "Ecuador" ;
+    nif:beginIndex "622" ;
+    nif:endIndex "629" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w119w120> nif:anchorOf "van waaruit" ;
+    nif:beginIndex "630" ;
+    nif:endIndex "641" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w12> nif:anchorOf "Brugge" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w121> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "645" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w121" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w122w123w124w125> nif:anchorOf "in de jaren 90" ;
+    nif:beginIndex "646" ;
+    nif:endIndex "660" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w126> nif:BeginIndex "661" ;
+    nif:anchorOf "terugkeerde" ;
+    nif:endIndex "672" ;
+    nif:lemma "terug_keren" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w128> nif:anchorOf "zich" ;
+    nif:beginIndex "676" ;
+    nif:endIndex "680" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w128" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w129> nif:anchorOf "vervolgens" ;
+    nif:beginIndex "681" ;
+    nif:endIndex "691" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w129" ;
+    nif:lemma "vervolgens" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w131> nif:anchorOf "Sint-Andries" ;
+    nif:beginIndex "695" ;
+    nif:endIndex "707" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w134> nif:anchorOf "Brugge" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "719" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w136> nif:BeginIndex "721" ;
+    nif:anchorOf "vestigde" ;
+    nif:endIndex "729" ;
+    nif:lemma "vestigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w16> nif:BeginIndex "70" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "73" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w18> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "88" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w1w2w3w4> nif:anchorOf "Philippe Joseph Peeters" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "29" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w22> nif:anchorOf "NSB" ;
+    nif:beginIndex "112" ;
+    nif:endIndex "115" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w24> nif:anchorOf "Peeters" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "125" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w31> nif:BeginIndex "155" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "161" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w32w33w34w35> nif:anchorOf "sinds 1931 als advocaat" ;
+    nif:beginIndex "162" ;
+    nif:endIndex "185" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w32" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w37> nif:anchorOf "Eindhoven" ;
+    nif:beginIndex "189" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w39> nif:anchorOf "Peeters" ;
+    nif:beginIndex "200" ;
+    nif:endIndex "207" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w40> nif:BeginIndex "208" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "211" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w41> nif:anchorOf "eerst" ;
+    nif:beginIndex "212" ;
+    nif:endIndex "217" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w41" ;
+    nif:lemma "eerst" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w45w46> nif:anchorOf "Zwart Front" ;
+    nif:beginIndex "230" ;
+    nif:endIndex "241" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w51> nif:anchorOf "NSB" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "262" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w54> nif:BeginIndex "268" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "271" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w55w56w57w58> nif:anchorOf "in de jaren 1941" ;
+    nif:beginIndex "272" ;
+    nif:endIndex "288" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w55" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w59w60> nif:anchorOf "tot 1943" ;
+    nif:beginIndex "289" ;
+    nif:endIndex "297" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w6> nif:anchorOf "Weert" ;
+    nif:beginIndex "31" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w63> nif:anchorOf "Maastricht" ;
+    nif:beginIndex "315" ;
+    nif:endIndex "325" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w65> nif:anchorOf "Ook" ;
+    nif:beginIndex "327" ;
+    nif:endIndex "330" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w65" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w66> nif:BeginIndex "331" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "334" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w68w69w70w71w72> nif:anchorOf "van september tot december 1942" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "370" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w68" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w73> nif:BeginIndex "371" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "381" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w78> nif:anchorOf "Heer" ;
+    nif:beginIndex "411" ;
+    nif:endIndex "415" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w80w81> nif:anchorOf "Begin 1944" ;
+    nif:beginIndex "417" ;
+    nif:endIndex "427" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w80" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w82> nif:BeginIndex "428" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "432" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w83> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "436" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w83" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w88w89> nif:anchorOf "Nederlandsche SS" ;
+    nif:beginIndex "452" ;
+    nif:endIndex "468" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w91> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "474" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w93> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "488" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w93" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w95w96> nif:anchorOf "in 1946" ;
+    nif:beginIndex "494" ;
+    nif:endIndex "501" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w97w98w99w100> nif:anchorOf "tot acht jaar cel" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "519" ;
+    nif:head "bgnProc:841__Louis_Peeters.naf#w97" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w98> nif:BeginIndex "506" ;
+    nif:anchorOf "acht" ;
+    nif:endIndex "510" ;
+    nif:lemma "acht" .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_121t_122t_123t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w122w123w124w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_31t_32t_33t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w32w33w34w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_54t_55t_56t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w55w56w57w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_67t_68t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w68w69w70w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_79t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w80w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_96t_97t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w97w98w99w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w121> .
+
+bgn:Person-841 a bgn:LOC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w45w46>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w88w89>,
+        <http://data.biographynet.nl/rdf/170506221754/841__Louis_Peeters.naf#w91> .
+

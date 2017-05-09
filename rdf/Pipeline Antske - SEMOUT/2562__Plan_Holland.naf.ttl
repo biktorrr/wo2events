@@ -1,0 +1,742 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_102t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_183t_184t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_195t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_206t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_219t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_36t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_85t_86t_87t_88t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_91>,
+        bgn:Person-2562 ;
+    ore:proxyFor bgn:Person-2562 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w104> nif:lemma "uitvoering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w123> nif:lemma "verzet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w140> nif:lemma "agent" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w142> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w147> nif:lemma "gauw" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w150> nif:lemma "ander" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w173> nif:lemma "bericht" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w184> nif:lemma "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w196> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w201> nif:lemma "overig" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w208> nif:lemma "alle" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w220> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w86> nif:lemma "om" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2562__Plan_Holland#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2562__Plan_Holland .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2562 ;
+    bgn:aggregatedPerson bgn:Person-2562 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2562__Plan_Holland ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2562__Plan_Holland ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w110> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_102t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_107> ;
+    pb:ArgM-ADV bgn:Person-2562 .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w112> ;
+    pb:Arg1 bgn:Person-2562 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_118>,
+        bgn:Person-2562 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_128>,
+        bgn:Person-2562 .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w125> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_121t_122> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w132> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_126> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_128> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w136> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_133> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w144> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_141t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w151> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_148t_149> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_145t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w163> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w165> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_161> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_163> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w170> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_161> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_176> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w177> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_171t_172> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_174> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w188> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_183t_184t_185t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_189> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w190> ;
+    xs:date "2017-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w198> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_183t_184t_185t_186> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_195t_196> ;
+    pb:ArgM-LOC bgn:Person-2562 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_191t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_2> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w3> ;
+    pb:ArgM-TMP bgn:Person-2562 .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w21> ;
+    pb:Arg0 bgn:Person-2562 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_9> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_201> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w202> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w210> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_206t_207t_208> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w223> ;
+    pb:Arg0 bgn:Person-2562 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_218> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_219t_220t_221> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w25> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_22> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w29> ;
+    pb:Arg0 bgn:Person-2562 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_29> ;
+    pb:Arg2 bgn:Person-2562 .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w47> ;
+    pb:Arg0 bgn:Person-2562 ;
+    pb:Arg1 bgn:Person-2562 ;
+    pb:Arg2 bgn:Person-2562 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_36t_37t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w73> ;
+    pb:A0 bgn:Person-2562 ;
+    pb:A1 bgn:Person-2562 ;
+    pb:AM-MNR bgn:Person-2562 .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w78> ;
+    pb:A1 bgn:Person-2562 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w82> ;
+    pb:Arg0 bgn:Person-2562 ;
+    pb:Arg1 bgn:Person-2562 .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w92> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_85t_86t_87t_88t_89t_90> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w10> nif:anchorOf "dat" ;
+    nif:beginIndex "57" ;
+    nif:endIndex "60" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w10" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w103w104> nif:anchorOf "de uitvoering" ;
+    nif:beginIndex "565" ;
+    nif:endIndex "578" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w104" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w107> nif:anchorOf "Plan" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "591" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w108> nif:anchorOf "mogelijk" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "600" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w108" ;
+    nif:lemma "mogelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w110> nif:BeginIndex "604" ;
+    nif:anchorOf "maken" ;
+    nif:endIndex "609" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w112> nif:BeginIndex "611" ;
+    nif:anchorOf "zond" ;
+    nif:endIndex "615" ;
+    nif:lemma "zenden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w113> nif:anchorOf "SOE" ;
+    nif:beginIndex "616" ;
+    nif:endIndex "619" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w116> nif:anchorOf "CID" ;
+    nif:beginIndex "630" ;
+    nif:endIndex "633" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w119> nif:anchorOf "Nederland" ;
+    nif:beginIndex "647" ;
+    nif:endIndex "656" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w121> nif:anchorOf "daar" ;
+    nif:beginIndex "660" ;
+    nif:endIndex "664" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w121" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w122w123> nif:anchorOf "het verzet" ;
+    nif:beginIndex "665" ;
+    nif:endIndex "675" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w123" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w125> nif:BeginIndex "679" ;
+    nif:anchorOf "organiseren" ;
+    nif:endIndex "690" ;
+    nif:lemma "organiseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w127> nif:anchorOf "inlichtingen" ;
+    nif:beginIndex "692" ;
+    nif:endIndex "704" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w127" ;
+    nif:lemma "inlichting" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w129> nif:anchorOf "Engeland" ;
+    nif:beginIndex "710" ;
+    nif:endIndex "718" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w130> nif:anchorOf "door" ;
+    nif:beginIndex "719" ;
+    nif:endIndex "723" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w130" ;
+    nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w132> nif:BeginIndex "727" ;
+    nif:anchorOf "geven" ;
+    nif:endIndex "732" ;
+    nif:lemma "door_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w134> nif:anchorOf "sabotage" ;
+    nif:beginIndex "736" ;
+    nif:endIndex "744" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w134" ;
+    nif:lemma "sabotage" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w136> nif:BeginIndex "748" ;
+    nif:anchorOf "plegen" ;
+    nif:endIndex "754" ;
+    nif:lemma "plegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w138w139w140> nif:anchorOf "De eerste agenten" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "773" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w13w14w15w16> nif:anchorOf "Britse Special Operations Executive" ;
+    nif:beginIndex "69" ;
+    nif:endIndex "104" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w142w143> nif:anchorOf "aan wal" ;
+    nif:beginIndex "781" ;
+    nif:endIndex "788" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w142" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w144> nif:BeginIndex "789" ;
+    nif:anchorOf "gezet" ;
+    nif:endIndex "794" ;
+    nif:lemma "zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w146w147> nif:anchorOf "al gauw" ;
+    nif:beginIndex "796" ;
+    nif:endIndex "803" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w149w150> nif:anchorOf "de anderen" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "821" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w150" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w151> nif:BeginIndex "822" ;
+    nif:anchorOf "geparachuteerd" ;
+    nif:endIndex "836" ;
+    nif:lemma "geparachuteerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w156> nif:BeginIndex "855" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "861" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w160> nif:anchorOf "Englandspiel" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "894" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w162> a bgn:pron_3p ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "899" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w162" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w163> nif:BeginIndex "900" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "906" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w164> nif:anchorOf "direct" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "913" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w164" ;
+    nif:lemma "direct" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w165> nif:BeginIndex "914" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "926" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w169> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "938" ;
+    nif:endIndex "946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w170> nif:BeginIndex "947" ;
+    nif:anchorOf "gebruikt" ;
+    nif:endIndex "955" ;
+    nif:lemma "gebruiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w172w173> nif:anchorOf "misleidende berichten" ;
+    nif:beginIndex "959" ;
+    nif:endIndex "980" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w175> nif:anchorOf "Engeland" ;
+    nif:beginIndex "986" ;
+    nif:endIndex "994" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w177> nif:BeginIndex "998" ;
+    nif:anchorOf "sturen" ;
+    nif:endIndex "1004" ;
+    nif:lemma "sturen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w18> nif:anchorOf "SOE" ;
+    nif:beginIndex "106" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w184w185w186w187> nif:anchorOf "40 van alle agenten" ;
+    nif:beginIndex "1031" ;
+    nif:endIndex "1050" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w184" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w188> nif:BeginIndex "1051" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1055" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w190> nif:anchorOf "6" ;
+    nif:beginIndex "1059" ;
+    nif:endIndex "1060" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w192w193> nif:anchorOf "7 september" ;
+    nif:beginIndex "1064" ;
+    nif:endIndex "1075" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w195> nif:anchorOf "Mauthausen" ;
+    nif:beginIndex "1079" ;
+    nif:endIndex "1089" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w196w197> nif:anchorOf "ter dood" ;
+    nif:beginIndex "1090" ;
+    nif:endIndex "1098" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w196" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w198> nif:BeginIndex "1099" ;
+    nif:anchorOf "gebracht" ;
+    nif:endIndex "1107" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w2> nif:anchorOf "Holland" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w200w201> nif:anchorOf "de overigen" ;
+    nif:beginIndex "1109" ;
+    nif:endIndex "1120" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w201" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w202> nif:BeginIndex "1121" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1125" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w207w208w209> nif:anchorOf "Niet alle agenten" ;
+    nif:beginIndex "1141" ;
+    nif:endIndex "1158" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w208" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w21> nif:BeginIndex "116" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "123" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w210> nif:BeginIndex "1159" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1163" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w216w217> nif:anchorOf "Pieter Dourlein" ;
+    nif:beginIndex "1188" ;
+    nif:endIndex "1203" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w219> nif:anchorOf "het" ;
+    nif:beginIndex "1210" ;
+    nif:endIndex "1213" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w219" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w220w221w222> nif:anchorOf "door zijn ontsnapping" ;
+    nif:beginIndex "1214" ;
+    nif:endIndex "1235" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w220" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w223> nif:BeginIndex "1236" ;
+    nif:anchorOf "overleefd" ;
+    nif:endIndex "1245" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w23> nif:anchorOf "Nederland" ;
+    nif:beginIndex "127" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w25> nif:BeginIndex "140" ;
+    nif:anchorOf "bevrijden" ;
+    nif:endIndex "149" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w28> nif:anchorOf "Engelsen" ;
+    nif:beginIndex "154" ;
+    nif:endIndex "162" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w29> nif:BeginIndex "163" ;
+    nif:anchorOf "noemden" ;
+    nif:endIndex "170" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w3> nif:BeginIndex "13" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "16" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w30> nif:anchorOf "dit" ;
+    nif:beginIndex "171" ;
+    nif:endIndex "174" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w30" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w32w33w34> nif:anchorOf "Plan for Holland" ;
+    nif:beginIndex "179" ;
+    nif:endIndex "195" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w37w38w39> nif:anchorOf "25 april 1942" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w42> nif:anchorOf "Plan" ;
+    nif:beginIndex "224" ;
+    nif:endIndex "228" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w44w45w46> nif:anchorOf "SOE-chef Collin Gubbins" ;
+    nif:beginIndex "234" ;
+    nif:endIndex "257" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w47> nif:BeginIndex "258" ;
+    nif:anchorOf "voorgelegd" ;
+    nif:endIndex "268" ;
+    nif:lemma "voor_leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w49w50w51w52> nif:anchorOf "Mattheus Reindert de Bruyne" ;
+    nif:beginIndex "273" ;
+    nif:endIndex "300" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w61> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "338" ;
+    nif:endIndex "349" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w62w63w64> nif:anchorOf "Centrale Inlichtingen Dienst" ;
+    nif:beginIndex "350" ;
+    nif:endIndex "378" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w66> nif:anchorOf "CID" ;
+    nif:beginIndex "380" ;
+    nif:endIndex "383" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w69w70> nif:anchorOf "De Bruyne" ;
+    nif:beginIndex "386" ;
+    nif:endIndex "395" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w6w7> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "47" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w72> nif:anchorOf "SOE-agenten" ;
+    nif:beginIndex "402" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w73> nif:BeginIndex "414" ;
+    nif:anchorOf "leveren" ;
+    nif:endIndex "421" ;
+    nif:lemma "leveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w76> nif:anchorOf "precies" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "437" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w76" ;
+    nif:lemma "precies" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w78> nif:BeginIndex "441" ;
+    nif:anchorOf "weten" ;
+    nif:endIndex "446" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w81> nif:anchorOf "Plan" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "459" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w82> nif:BeginIndex "460" ;
+    nif:anchorOf "omhelsde" ;
+    nif:endIndex "468" ;
+    nif:lemma "omhelzen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w86w87w88w89w90w91> nif:anchorOf "om een invasie op het vasteland" ;
+    nif:beginIndex "478" ;
+    nif:endIndex "509" ;
+    nif:head "bgnProc:2562__Plan_Holland.naf#w86" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w92> nif:BeginIndex "510" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "514" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w96> nif:anchorOf "België" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "532" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_102t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w103w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_141t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w142w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_191t_192> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w192w193> ;
+    xs:date "2017-09-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_195t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w196w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_206t_207t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w207w208w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_219t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w220w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_36t_37t_38> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w37w38w39> ;
+    xs:date "1942-04-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_85t_86t_87t_88t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w86w87w88w89w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_9> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w10> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_183t_184t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w184w185w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w162> .
+
+bgn:Person-2562 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w13w14w15w16>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w160>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w195>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w216w217>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w32w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w44w45w46>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w49w50w51w52>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w62w63w64>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w69w70>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/2562__Plan_Holland.naf#w96> .
+

@@ -1,0 +1,919 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_117t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_130t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_138t_139t_140t_141t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_163t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_168t_169t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_201t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_227t_228t_229t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_239t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_273>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_28t_29t_30t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_305>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_9t_10t_11>,
+        bgn:Person-431 ;
+    ore:proxyFor bgn:Person-431 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w107> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w118> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w121> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w133> nif:lemma "contract" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w140> nif:lemma "plaats" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w165> nif:lemma "seizoen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w169> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w202> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w228> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w29> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w39> nif:lemma "vanaf" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-431__Tonny_van_Ede#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-431__Tonny_van_Ede .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-431 ;
+    bgn:aggregatedPerson bgn:Person-431 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-431__Tonny_van_Ede ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-431__Tonny_van_Ede ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w106> ;
+    pb:Arg0 bgn:Person-431 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_102> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_106t_107> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w124> ;
+    pb:A1 bgn:Person-431 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_120t_121t_122> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_117t_118t_119> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_110t_111> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w134> ;
+    pb:A0 bgn:Person-431 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_130t_131t_132> ;
+    pb:A2 bgn:Person-431 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w145> ;
+    pb:Arg0 bgn:Person-431 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_137> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_138t_139t_140t_141t_142t_143> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w150> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_150> ;
+    pb:A1 bgn:Person-431 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_146t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w16w17w18> ;
+    xs:date "2011-02-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w167> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_161> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_160> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_163t_164> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w192> ;
+    pb:Arg0 bgn:Person-431 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_168t_169t_170t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_203> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w204> ;
+    pb:Arg1 bgn:Person-431 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_201t_202> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_194> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w218> ;
+    pb:ArgM-PNC bgn:Person-431 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_223> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w224> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_227t_228t_229t_230> ;
+    pb:AM-PNC bgn:Person-431 .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_239t_240t_241> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w240w241w242> ;
+    xs:date "2013-02-15" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_25> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w26> ;
+    xs:gYear "1947" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_260> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w261> ;
+    pb:Arg0 bgn:Person-431 ;
+    pb:ArgM-LOC bgn:Person-431 .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_273> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w274> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_296> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w297> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_297> ;
+    pb:A1 bgn:Person-431 .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_305> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w306> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w32> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_28t_29> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w37> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_23> ;
+    pb:ArgM-PRD bgn:Person-431 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_28t_29t_30t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w42> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_42> ;
+    pb:ArgM-MNR bgn:Person-431 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_38t_39t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w59> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_54> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w63> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_69>,
+        bgn:Person-431 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w74> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_74t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_79> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w80> ;
+    xs:gYear "1959" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w82> ;
+    pb:A0 bgn:Person-431 ;
+    pb:A1 bgn:Person-431 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_88> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w87> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w92> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_90> ;
+    pb:A2 bgn:Person-431 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w10w11w12> ;
+    xs:date "1924-12-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w1> nif:anchorOf "Antonie" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "7" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w101> nif:anchorOf "1963" ;
+    nif:beginIndex "556" ;
+    nif:endIndex "560" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w103> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "566" ;
+    nif:endIndex "569" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w103" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w105> nif:anchorOf "Sparta" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "581" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w106> nif:BeginIndex "582" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "589" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w107w108> nif:anchorOf "tot erelid" ;
+    nif:beginIndex "590" ;
+    nif:endIndex "600" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w10w11w12> nif:anchorOf "22 december 1924" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w111w112> nif:anchorOf "juni 1964" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "614" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w116w117> nif:anchorOf "Van Ede" ;
+    nif:beginIndex "633" ;
+    nif:endIndex "640" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w118w119w120> nif:anchorOf "op eigen verzoek" ;
+    nif:beginIndex "641" ;
+    nif:endIndex "657" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w121w122w123> nif:anchorOf "op de transferlijst" ;
+    nif:beginIndex "658" ;
+    nif:endIndex "677" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w124> nif:BeginIndex "678" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "687" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w126> nif:anchorOf "Sparta" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "695" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w128w129> nif:anchorOf "Van Ede" ;
+    nif:beginIndex "700" ;
+    nif:endIndex "707" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w130> nif:anchorOf "wel" ;
+    nif:beginIndex "708" ;
+    nif:endIndex "711" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w130" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w131w132w133> nif:anchorOf "een nieuw contract" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "730" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w133" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w134> nif:BeginIndex "731" ;
+    nif:anchorOf "aangeboden" ;
+    nif:endIndex "741" ;
+    nif:lemma "aan_bieden" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w138> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "752" ;
+    nif:endIndex "755" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w138" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w139w140w141w142w143w144> nif:anchorOf "geen plaats in het eerste elftal" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "788" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w14> nif:anchorOf "Zwijndrecht" ;
+    nif:beginIndex "55" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w145> nif:BeginIndex "789" ;
+    nif:anchorOf "garanderen" ;
+    nif:endIndex "799" ;
+    nif:lemma "garanderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w147w148w149> nif:anchorOf "Een maand later" ;
+    nif:beginIndex "801" ;
+    nif:endIndex "816" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w150> nif:BeginIndex "817" ;
+    nif:anchorOf "tekende" ;
+    nif:endIndex "824" ;
+    nif:lemma "tekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w151> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "828" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w151" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w156> nif:anchorOf "Schiedamse" ;
+    nif:beginIndex "849" ;
+    nif:endIndex "859" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w158w159> nif:anchorOf "Hermes DVS" ;
+    nif:beginIndex "878" ;
+    nif:endIndex "888" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w161> nif:anchorOf "waarvoor" ;
+    nif:beginIndex "890" ;
+    nif:endIndex "898" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w161" ;
+    nif:lemma "waarvoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w162> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "899" ;
+    nif:endIndex "902" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w162" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w163> nif:anchorOf "nog" ;
+    nif:beginIndex "903" ;
+    nif:endIndex "906" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w163" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w164w165> nif:anchorOf "twee seizoenen" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "921" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w165" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w167> nif:BeginIndex "926" ;
+    nif:anchorOf "uitkomen" ;
+    nif:endIndex "934" ;
+    nif:lemma "uit_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w169w170w171w172> nif:anchorOf "Na zijn actieve carrière" ;
+    nif:beginIndex "937" ;
+    nif:endIndex "961" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w169" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w16w17w18> nif:anchorOf "16 februari 2011" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "84" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w174w175> nif:anchorOf "Van Ede" ;
+    nif:beginIndex "966" ;
+    nif:endIndex "973" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w182> nif:anchorOf "Rotterdamse" ;
+    nif:beginIndex "1011" ;
+    nif:endIndex "1022" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w184> nif:anchorOf "Eurosport" ;
+    nif:beginIndex "1036" ;
+    nif:endIndex "1045" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w186> nif:anchorOf "Neptunus" ;
+    nif:beginIndex "1047" ;
+    nif:endIndex "1055" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w188> nif:anchorOf "Transvalia" ;
+    nif:beginIndex "1059" ;
+    nif:endIndex "1069" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w192> nif:BeginIndex "1082" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "1086" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w195> nif:anchorOf "2008" ;
+    nif:beginIndex "1091" ;
+    nif:endIndex "1095" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w20> nif:BeginIndex "86" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "89" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w200w201> nif:anchorOf "Het Kasteel" ;
+    nif:beginIndex "1120" ;
+    nif:endIndex "1131" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w202w203> nif:anchorOf "naar hem" ;
+    nif:beginIndex "1132" ;
+    nif:endIndex "1140" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w202" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w204> nif:BeginIndex "1141" ;
+    nif:anchorOf "vernoemd" ;
+    nif:endIndex "1149" ;
+    nif:lemma "vernoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w215> nif:anchorOf "Sparta" ;
+    nif:beginIndex "1203" ;
+    nif:endIndex "1209" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w217> nif:anchorOf "2008" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1217" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w218> nif:BeginIndex "1218" ;
+    nif:anchorOf "samengestelde" ;
+    nif:endIndex "1231" ;
+    nif:lemma "samengesteld" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w22> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "94" ;
+    nif:endIndex "104" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w221> nif:anchorOf "Sparta-spelers" ;
+    nif:beginIndex "1245" ;
+    nif:endIndex "1259" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w224> nif:BeginIndex "1273" ;
+    nif:anchorOf "eindigde" ;
+    nif:endIndex "1281" ;
+    nif:lemma "eindigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w225w226w227> nif:anchorOf "Tonny van Ede" ;
+    nif:beginIndex "1282" ;
+    nif:endIndex "1295" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w228w229w230w231> nif:anchorOf "op de tweede plaats" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1315" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w228" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w235w236w237> nif:anchorOf "Bok de Korver" ;
+    nif:beginIndex "1328" ;
+    nif:endIndex "1341" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w24> nif:anchorOf "die" ;
+    nif:beginIndex "116" ;
+    nif:endIndex "119" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w24" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w240w241w242> nif:anchorOf "15 februari 2013" ;
+    nif:beginIndex "1347" ;
+    nif:endIndex "1363" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w250> nif:anchorOf "Sparta" ;
+    nif:beginIndex "1395" ;
+    nif:endIndex "1401" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w252w253> nif:anchorOf "FC Eindhoven" ;
+    nif:beginIndex "1406" ;
+    nif:endIndex "1418" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w258> nif:anchorOf "Kasteel" ;
+    nif:beginIndex "1432" ;
+    nif:endIndex "1439" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w26> nif:anchorOf "1947" ;
+    nif:beginIndex "127" ;
+    nif:endIndex "131" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w261> nif:BeginIndex "1454" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "1461" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w263w264> nif:anchorOf "Van Ede" ;
+    nif:beginIndex "1466" ;
+    nif:endIndex "1473" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w267w268> nif:anchorOf "Ahmed Aboutaleb" ;
+    nif:beginIndex "1488" ;
+    nif:endIndex "1503" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w271w272w273> nif:anchorOf "Gonny van Ede" ;
+    nif:beginIndex "1514" ;
+    nif:endIndex "1527" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w274> nif:BeginIndex "1528" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1533" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w28> nif:anchorOf "1964" ;
+    nif:beginIndex "135" ;
+    nif:endIndex "139" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w280w281> nif:anchorOf "Jules Deelder" ;
+    nif:beginIndex "1564" ;
+    nif:endIndex "1577" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w285w286> nif:anchorOf "Jeroen Louis" ;
+    nif:beginIndex "1593" ;
+    nif:endIndex "1605" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w290w291w292> nif:anchorOf "De Oude Schicht" ;
+    nif:beginIndex "1626" ;
+    nif:endIndex "1641" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w297> nif:BeginIndex "1650" ;
+    nif:anchorOf "Ken" ;
+    nif:endIndex "1653" ;
+    nif:lemma "kennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w298> a bgn:pron_2s ;
+    nif:anchorOf "je" ;
+    nif:beginIndex "1654" ;
+    nif:endIndex "1656" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w298" ;
+    nif:lemma "je" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w299w300w301> nif:anchorOf "Tonny van Ede" ;
+    nif:beginIndex "1657" ;
+    nif:endIndex "1670" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w29w30> nif:anchorOf "in totaal" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "149" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w29w30w31w32> nif:anchorOf "in totaal 455 competitiewedstrijden" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "175" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w3> nif:anchorOf "Tonny" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w306> nif:BeginIndex "1678" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1680" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w314w315w316> nif:anchorOf "Sparta Rotterdam Lijst" ;
+    nif:beginIndex "1715" ;
+    nif:endIndex "1738" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w32> nif:BeginIndex "154" ;
+    nif:anchorOf "competitiewedstrijden" ;
+    nif:endIndex "175" ;
+    nif:lemma "competitie_wedstrijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w321> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "1759" ;
+    nif:endIndex "1769" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w36> nif:anchorOf "Sparta" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w37> nif:BeginIndex "202" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "209" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w39w40w41> nif:anchorOf "Vanaf zijn elfde" ;
+    nif:beginIndex "212" ;
+    nif:endIndex "228" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w39" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w42> nif:BeginIndex "229" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "232" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w43> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "236" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w43" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w46> nif:anchorOf "Sparta" ;
+    nif:beginIndex "245" ;
+    nif:endIndex "251" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w52w53> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "279" ;
+    nif:endIndex "298" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w55> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "303" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w55" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w58> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "312" ;
+    nif:endIndex "321" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w59> nif:BeginIndex "322" ;
+    nif:anchorOf "tewerkgesteld" ;
+    nif:endIndex "335" ;
+    nif:lemma "tewerk_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w6> nif:anchorOf "Ede" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w61> nif:BeginIndex "341" ;
+    nif:anchorOf "ontsnapte" ;
+    nif:endIndex "350" ;
+    nif:lemma "ontsnappen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w63> nif:BeginIndex "354" ;
+    nif:anchorOf "sloot" ;
+    nif:endIndex "359" ;
+    nif:lemma "sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w64> nif:anchorOf "zich" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "364" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w64" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w67w68> nif:anchorOf "Prinses Irenebrigade" ;
+    nif:beginIndex "372" ;
+    nif:endIndex "392" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w70> nif:anchorOf "Engeland" ;
+    nif:beginIndex "396" ;
+    nif:endIndex "404" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w72w73> nif:anchorOf "Van Ede" ;
+    nif:beginIndex "406" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w74> nif:BeginIndex "414" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "418" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w76w77> nif:anchorOf "Sparta Nederlands" ;
+    nif:beginIndex "423" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w8> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "34" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w80> nif:anchorOf "1959" ;
+    nif:beginIndex "453" ;
+    nif:endIndex "457" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w82> nif:BeginIndex "461" ;
+    nif:anchorOf "won" ;
+    nif:endIndex "464" ;
+    nif:lemma "winnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w84> nif:anchorOf "KNVB" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "472" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w87> nif:anchorOf "1958" ;
+    nif:beginIndex "482" ;
+    nif:endIndex "486" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w89> nif:anchorOf "1962" ;
+    nif:beginIndex "490" ;
+    nif:endIndex "494" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w91> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "496" ;
+    nif:endIndex "499" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w91" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w92> nif:BeginIndex "500" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "504" ;
+    nif:lemma "uit_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w93> nif:anchorOf "tweemaal" ;
+    nif:beginIndex "505" ;
+    nif:endIndex "513" ;
+    nif:head "bgnProc:431__Tonny_van_Ede.naf#w93" ;
+    nif:lemma "tweemaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w97> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "527" ;
+    nif:endIndex "537" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_100> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w101> ;
+    xs:gYear "1963" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_110t_111> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w111w112> ;
+    xs:gYearMonth "1964-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_117t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w118w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_130t_131t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w131w132w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_138t_139t_140t_141t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w139w140w141w142w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_146t_147t_148> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w147w148w149> ;
+    xs:gYearMonth "1964-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_163t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w164w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_168t_169t_170t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w169w170w171w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_194> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w195> ;
+    xs:gYear "2008" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_201t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w202w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_216> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w217> ;
+    xs:gYear "2008" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_227t_228t_229t_230> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w228w229w230w231> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_23> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_27> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w28> ;
+    xs:gYear "1964" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_28t_29t_30t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w29w30w31w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_297> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w298> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_88> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w89> ;
+    xs:gYear "1962" .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w93> .
+
+bgn:Person-431 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w105>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w126>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w128w129>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w156>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w158w159>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w174w175>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w188>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w200w201>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w221>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w225w226w227>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w235w236w237>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w250>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w252w253>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w258>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w263w264>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w267w268>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w271w272w273>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w280w281>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w285w286>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w290w291w292>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w299w300w301>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w314w315w316>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w321>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w52w53>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w58>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w67w68>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w70>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w76w77>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/431__Tonny_van_Ede.naf#w97> .
+

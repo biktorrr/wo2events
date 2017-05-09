@@ -1,0 +1,711 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_161t_162t_163t_164t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_168t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_182t_183t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_219t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_63t_64t_65t_66t_67t_68t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_65t_66t_67t_68t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_84t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_9>,
+        bgn:Person-2578 ;
+    ore:proxyFor bgn:Person-2578 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w143> nif:lemma "uitzondering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w162> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w182> nif:lemma "universiteit" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w185> nif:lemma "programma" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w222> nif:lemma "instelling" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w48> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w64> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w66> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2578__Tijdelijke_Academie#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2578__Tijdelijke_Academie .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2578 ;
+    bgn:aggregatedPerson bgn:Person-2578 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2578__Tijdelijke_Academie ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2578__Tijdelijke_Academie ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w106> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_103>,
+        bgn:Person-2578 ;
+    pb:A2 bgn:Person-2578 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_104> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_84t_85t_86>,
+        bgn:Person-2578 .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w130> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_123> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_135> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_125> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w140> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_130> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_135> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_131> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w144> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_141t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w151> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_147> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_154> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w155> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_147> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w160> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_166> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_160> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_170> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_161t_162t_163t_164t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_168t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_174> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w175> ;
+    xs:gYearMonth "2017-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w187> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_179t_180t_181> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_182t_183t_184> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w190> ;
+    pb:Arg1 bgn:Person-2578 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_188> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_201> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w202> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_199> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_188> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w208> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_203> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_217>,
+        bgn:Person-2578 .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w215> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_217>,
+        bgn:Person-2578 .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w223> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_219t_220t_221> ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_216> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_23t_24> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w24w25> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w4> ;
+    pb:ArgM-TMP bgn:Person-2578 .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_37t_38> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w38w39> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w51> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_47t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w63> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_63t_64t_65t_66t_67t_68t_69t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w65> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_65t_66t_67t_68t_69t_70t_71> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w79> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_77> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_9> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w10> ;
+    pb:ArgM bgn:Person-2578 .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w10> nif:BeginIndex "64" ;
+    nif:anchorOf "onderwijs" ;
+    nif:endIndex "73" ;
+    nif:lemma "onderwijs" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w101w102> nif:anchorOf "Tijdelijke Academie" ;
+    nif:beginIndex "643" ;
+    nif:endIndex "662" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w104> nif:anchorOf "Eindhoven" ;
+    nif:beginIndex "666" ;
+    nif:endIndex "675" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w105> nif:anchorOf "formeel" ;
+    nif:beginIndex "676" ;
+    nif:endIndex "683" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w105" ;
+    nif:lemma "formeel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w106> nif:BeginIndex "684" ;
+    nif:anchorOf "opgericht" ;
+    nif:endIndex "693" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w109w110w111w112> nif:anchorOf "Balthasar van der Pol" ;
+    nif:beginIndex "699" ;
+    nif:endIndex "720" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w117> nif:BeginIndex "744" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "747" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w118w119> nif:anchorOf "Hendrik Casimir" ;
+    nif:beginIndex "748" ;
+    nif:endIndex "763" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w12> nif:anchorOf "Zuid-Nederland" ;
+    nif:beginIndex "77" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w124> nif:anchorOf "die" ;
+    nif:beginIndex "795" ;
+    nif:endIndex "798" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w124" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w126> nif:anchorOf "1943" ;
+    nif:beginIndex "802" ;
+    nif:endIndex "806" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w130> nif:BeginIndex "839" ;
+    nif:anchorOf "getekend" ;
+    nif:endIndex "847" ;
+    nif:lemma "tekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w131> nif:anchorOf "die" ;
+    nif:beginIndex "848" ;
+    nif:endIndex "851" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w131" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w132> nif:anchorOf "toen" ;
+    nif:beginIndex "852" ;
+    nif:endIndex "856" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w132" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w136> nif:anchorOf "Nederland" ;
+    nif:beginIndex "872" ;
+    nif:endIndex "881" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w140> nif:BeginIndex "901" ;
+    nif:anchorOf "geëist" ;
+    nif:endIndex "907" ;
+    nif:lemma "eisen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w142w143> nif:anchorOf "een uitzondering" ;
+    nif:beginIndex "909" ;
+    nif:endIndex "925" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w144> nif:BeginIndex "926" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "929" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w148> nif:anchorOf "die" ;
+    nif:beginIndex "954" ;
+    nif:endIndex "957" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w148" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w149> nif:anchorOf "wel" ;
+    nif:beginIndex "958" ;
+    nif:endIndex "961" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w149" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w151> nif:BeginIndex "969" ;
+    nif:anchorOf "getekend" ;
+    nif:endIndex "977" ;
+    nif:lemma "tekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w153> nif:anchorOf "niet" ;
+    nif:beginIndex "983" ;
+    nif:endIndex "987" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w153" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w155> nif:BeginIndex "995" ;
+    nif:anchorOf "doorgestudeerd" ;
+    nif:endIndex "1009" ;
+    nif:lemma "door_studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w159> nif:anchorOf "Academie" ;
+    nif:beginIndex "1016" ;
+    nif:endIndex "1024" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w160> nif:BeginIndex "1025" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "1030" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w161> nif:anchorOf "ook" ;
+    nif:beginIndex "1031" ;
+    nif:endIndex "1034" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w161" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w162w163w164w165w166> nif:anchorOf "na de bevrijding van geheel" ;
+    nif:beginIndex "1035" ;
+    nif:endIndex "1062" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w162" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w167> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1063" ;
+    nif:endIndex "1072" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w169w170> nif:anchorOf "mei 1945" ;
+    nif:beginIndex "1076" ;
+    nif:endIndex "1084" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w171> nif:anchorOf "actief" ;
+    nif:beginIndex "1085" ;
+    nif:endIndex "1091" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w171" ;
+    nif:lemma "actief" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w175> nif:anchorOf "december" ;
+    nif:beginIndex "1104" ;
+    nif:endIndex "1112" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w178> nif:anchorOf "jaar" ;
+    nif:beginIndex "1121" ;
+    nif:endIndex "1125" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w180w181w182> nif:anchorOf "de andere universiteiten" ;
+    nif:beginIndex "1133" ;
+    nif:endIndex "1157" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w182" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w183w184w185> nif:anchorOf "hun gewone programma" ;
+    nif:beginIndex "1158" ;
+    nif:endIndex "1178" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w185" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w186> nif:anchorOf "'s" ;
+    nif:beginIndex "1178" ;
+    nif:endIndex "1180" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w186" ;
+    nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w187> nif:BeginIndex "1181" ;
+    nif:anchorOf "hervat" ;
+    nif:endIndex "1187" ;
+    nif:lemma "hervatten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w189> nif:anchorOf "Daarmee" ;
+    nif:beginIndex "1189" ;
+    nif:endIndex "1196" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w189" ;
+    nif:lemma "daarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w18w19> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "113" ;
+    nif:endIndex "132" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w190> nif:BeginIndex "1197" ;
+    nif:anchorOf "verdween" ;
+    nif:endIndex "1205" ;
+    nif:lemma "verdwijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w195w196> nif:anchorOf "Tijdelijke Academie" ;
+    nif:beginIndex "1226" ;
+    nif:endIndex "1245" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w200> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1255" ;
+    nif:endIndex "1257" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w200" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w201> nif:anchorOf "weer" ;
+    nif:beginIndex "1258" ;
+    nif:endIndex "1262" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w201" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w202> nif:BeginIndex "1263" ;
+    nif:anchorOf "gesloten" ;
+    nif:endIndex "1271" ;
+    nif:lemma "sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w204> nif:anchorOf "Het" ;
+    nif:beginIndex "1273" ;
+    nif:endIndex "1276" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w204" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w207> nif:anchorOf "1956" ;
+    nif:beginIndex "1285" ;
+    nif:endIndex "1289" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w208> nif:BeginIndex "1290" ;
+    nif:anchorOf "duren" ;
+    nif:endIndex "1295" ;
+    nif:lemma "duren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w211w212w213> nif:anchorOf "Technische Hogeschool Eindhoven" ;
+    nif:beginIndex "1307" ;
+    nif:endIndex "1338" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w215> nif:BeginIndex "1344" ;
+    nif:anchorOf "opgericht" ;
+    nif:endIndex "1353" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w217> nif:anchorOf "waarmee" ;
+    nif:beginIndex "1355" ;
+    nif:endIndex "1362" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w217" ;
+    nif:lemma "waarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w218> nif:anchorOf "Eindhoven" ;
+    nif:beginIndex "1363" ;
+    nif:endIndex "1372" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w219> nif:anchorOf "weer" ;
+    nif:beginIndex "1373" ;
+    nif:endIndex "1377" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w219" ;
+    nif:lemma "weer" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w22> nif:anchorOf "Academie" ;
+    nif:beginIndex "137" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w220w221w222> nif:anchorOf "een universitaire instelling" ;
+    nif:beginIndex "1378" ;
+    nif:endIndex "1406" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w223> nif:BeginIndex "1407" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "1412" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w24w25> nif:anchorOf "begin 1945" ;
+    nif:beginIndex "151" ;
+    nif:endIndex "161" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w27> nif:anchorOf "Eindhoven" ;
+    nif:beginIndex "165" ;
+    nif:endIndex "174" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w2w3> nif:anchorOf "Tijdelijke Academie" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w37> nif:anchorOf "Nederland" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "242" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w38w39> nif:anchorOf "eind 1944" ;
+    nif:beginIndex "243" ;
+    nif:endIndex "252" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w4> nif:BeginIndex "23" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "26" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w45w46> nif:anchorOf "Tijdelijke Academie" ;
+    nif:beginIndex "271" ;
+    nif:endIndex "290" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w47> nif:BeginIndex "291" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "294" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w48w49> nif:anchorOf "onder meer" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "305" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w48" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w51> nif:BeginIndex "310" ;
+    nif:anchorOf "opleiden" ;
+    nif:endIndex "318" ;
+    nif:lemma "op_leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w56w57w58> nif:anchorOf "Philips Natuurkundig Laboratorium" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "375" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w63> nif:BeginIndex "400" ;
+    nif:anchorOf "hogescholen" ;
+    nif:endIndex "411" ;
+    nif:lemma "hoog_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w64w65w66w67w68w69w70w71w72> nif:anchorOf "met opleidingen in de exacte wetenschappen en technische wetenschappen" ;
+    nif:beginIndex "412" ;
+    nif:endIndex "482" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w65> nif:BeginIndex "416" ;
+    nif:anchorOf "opleidingen" ;
+    nif:endIndex "427" ;
+    nif:lemma "opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w66w67w68w69w70w71w72> nif:anchorOf "in de exacte wetenschappen en technische wetenschappen" ;
+    nif:beginIndex "428" ;
+    nif:endIndex "482" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w66" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w77> nif:anchorOf "toen" ;
+    nif:beginIndex "504" ;
+    nif:endIndex "508" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w77" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w78> nif:anchorOf "nog" ;
+    nif:beginIndex "509" ;
+    nif:endIndex "512" ;
+    nif:head "bgnProc:2578__Tijdelijke_Academie.naf#w78" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w79> nif:BeginIndex "513" ;
+    nif:anchorOf "bezette" ;
+    nif:endIndex "520" ;
+    nif:lemma "bezet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w82> nif:anchorOf "Nederland" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "542" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w85w86w87> nif:anchorOf "26 februari 1945" ;
+    nif:beginIndex "547" ;
+    nif:endIndex "563" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w94> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "603" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_125> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w126> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_141t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w142w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_161t_162t_163t_164t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w162w163w164w165w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_168t_169> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w169w170> ;
+    xs:gYearMonth "1945-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_177> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w178> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_182t_183t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w183w184w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_199> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w200> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_206> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w207> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_219t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w220w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_63t_64t_65t_66t_67t_68t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w64w65w66w67w68w69w70w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_65t_66t_67t_68t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w66w67w68w69w70w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_84t_85t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w85w86w87> ;
+    xs:date "1945-02-26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w189> .
+
+bgn:Person-2578 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w101w102>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w104>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w109w110w111w112>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w118w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w136>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w18w19>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w195w196>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w211w212w213>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w218>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w45w46>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w56w57w58>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/2578__Tijdelijke_Academie.naf#w94> .
+

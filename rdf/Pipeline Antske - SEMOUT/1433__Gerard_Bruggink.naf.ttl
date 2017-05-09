@@ -1,0 +1,998 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_120t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_159t_160t_161t_162t_163t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_165t_166t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_192t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_20t_21t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_216t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228t_229t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_220t_221t_222t_223t_224t_225t_226t_227t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_233t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_245t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_253t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_270>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_271t_272t_273t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_275t_276t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_282t_283t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_287t_288t_289>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_295t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_313t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_40t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_90>,
+        bgn:Person-1433 ;
+    ore:proxyFor bgn:Person-1433 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w115> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w121> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w160> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w168> nif:lemma "onderscheiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w194> nif:lemma "luchtmacht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w209> nif:lemma "tijdlang" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w217> nif:lemma "alvorens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w221> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w234> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w247> nif:lemma "functie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w254> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w272> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w276> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w315> nif:lemma "replica" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w41> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w60> nif:lemma "seminarie" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1433__Gerard_Bruggink#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1433__Gerard_Bruggink .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1433 ;
+    bgn:aggregatedPerson bgn:Person-1433 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1433__Gerard_Bruggink ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1433__Gerard_Bruggink ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w102> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_110>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w105> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_103> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w107> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_102> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_110>,
+        bgn:Person-1433 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w109> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w12w13w14> ;
+    xs:date "1917-08-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w124> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_113> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_120t_121>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w139> ;
+    pb:ArgM-MNR bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w170> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_156> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_165t_166t_167> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_159t_160t_161t_162t_163t_164> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w172> ;
+    pb:Arg1 bgn:Person-1433 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_158>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w181> ;
+    pb:A1 bgn:Person-1433 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_179>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w183> ;
+    pb:Arg0 bgn:Person-1433 ;
+    pb:ArgM-REC bgn:Person-1433 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_158>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w190> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_192t_193>,
+        bgn:Person-1433 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_191> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w196> ;
+    pb:Arg1 bgn:Person-1433 ;
+    pb:Arg4 bgn:Person-1433 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_205> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w206> ;
+    pb:ArgM-PNC bgn:Person-1433 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_216t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228t_229t_230t_231> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_20t_21t_22> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w21w22w23> ;
+    xs:date "2005-12-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w213> ;
+    pb:ArgM bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_227> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w228> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w232> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_217> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_220t_221t_222t_223t_224t_225t_226t_227t_228t_229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_235> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w236> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_236> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_233t_234>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_24> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_247> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w248> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_244> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_245t_246> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_243> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_255> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w256> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_253t_254> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_270> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w271> ;
+    pb:Arg0 bgn:Person-1433 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_271t_272t_273t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_275t_276t_277> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_282t_283t_284> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w283w284w285> ;
+    xs:date "1948-07-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_287t_288t_289> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w288w289w290> ;
+    xs:date "1942-01-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_295t_296> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w296w297> ;
+    xs:gYearMonth "2009-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_297> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w298> ;
+    pb:ArgM-LOC bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_315> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w316> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_313t_314> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w39> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_28> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_37> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_34>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_43> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w44> ;
+    pb:ArgM-LOC bgn:Person-1433 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_40t_41t_42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w57> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_57t_58t_59>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w64> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_64> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_81>,
+        bgn:Person-1433 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w88> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_88> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_94>,
+        bgn:Person-1433 ;
+    pb:AM-TMP bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w91> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_94>,
+        bgn:Person-1433 .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w10> nif:anchorOf "Tubbergen" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w101> nif:anchorOf "1942" ;
+    nif:beginIndex "607" ;
+    nif:endIndex "611" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w102> nif:BeginIndex "612" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "616" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w103> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "617" ;
+    nif:endIndex "620" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w103" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w104> nif:anchorOf "krijgsgevangen" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "635" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w104" ;
+    nif:lemma "krijgsgevangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w105> nif:BeginIndex "636" ;
+    nif:anchorOf "gemaakt" ;
+    nif:endIndex "643" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w107> nif:BeginIndex "647" ;
+    nif:anchorOf "ondergebracht" ;
+    nif:endIndex "660" ;
+    nif:lemma "onder_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w109> nif:BeginIndex "664" ;
+    nif:anchorOf "werkkampen" ;
+    nif:endIndex "674" ;
+    nif:lemma "werk_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w111> nif:anchorOf "Thailand" ;
+    nif:beginIndex "678" ;
+    nif:endIndex "686" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w113> nif:anchorOf "waar" ;
+    nif:beginIndex "688" ;
+    nif:endIndex "692" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w113" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w114> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "693" ;
+    nif:endIndex "696" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w114" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w115w116> nif:anchorOf "onder andere" ;
+    nif:beginIndex "697" ;
+    nif:endIndex "709" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w120> nif:anchorOf "Birmaspoorweg" ;
+    nif:beginIndex "726" ;
+    nif:endIndex "739" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w121w122> nif:anchorOf "te werk" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "747" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w124> nif:BeginIndex "753" ;
+    nif:anchorOf "gesteld" ;
+    nif:endIndex "760" ;
+    nif:lemma "stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w12w13w14> nif:anchorOf "4 augustus 1917" ;
+    nif:beginIndex "56" ;
+    nif:endIndex "71" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w138> nif:anchorOf "Nederlands-Indië" ;
+    nif:beginIndex "822" ;
+    nif:endIndex "838" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w139> nif:BeginIndex "839" ;
+    nif:anchorOf "gedecoreerd" ;
+    nif:endIndex "850" ;
+    nif:lemma "gedecoreerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w142w143> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "858" ;
+    nif:endIndex "880" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w146> nif:anchorOf "Vliegerkruis" ;
+    nif:beginIndex "886" ;
+    nif:endIndex "898" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w149w150> nif:anchorOf "Bronzen Kruis" ;
+    nif:beginIndex "904" ;
+    nif:endIndex "917" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w153w154> nif:anchorOf "Eervolle Vermelding" ;
+    nif:beginIndex "925" ;
+    nif:endIndex "944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w157> nif:anchorOf "men" ;
+    nif:beginIndex "952" ;
+    nif:endIndex "955" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w157" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w159> nif:anchorOf "Nederland" ;
+    nif:beginIndex "959" ;
+    nif:endIndex "968" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w16> nif:anchorOf "Skipperville" ;
+    nif:beginIndex "74" ;
+    nif:endIndex "86" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w160w161w162w163w164w165> nif:anchorOf "voor één en dezelfde dappere daad" ;
+    nif:beginIndex "969" ;
+    nif:endIndex "1002" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w160" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w166w167w168> nif:anchorOf "slechts een onderscheiding" ;
+    nif:beginIndex "1003" ;
+    nif:endIndex "1029" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w168" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w170> nif:BeginIndex "1034" ;
+    nif:anchorOf "krijgen" ;
+    nif:endIndex "1041" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w172> nif:BeginIndex "1043" ;
+    nif:anchorOf "werden" ;
+    nif:endIndex "1049" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w174w175> nif:anchorOf "Eervolle Vermelding" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1072" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w178w179> nif:anchorOf "Bronzen Kruis" ;
+    nif:beginIndex "1080" ;
+    nif:endIndex "1093" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w18> nif:anchorOf "Alabama" ;
+    nif:beginIndex "88" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w180> nif:anchorOf "later" ;
+    nif:beginIndex "1094" ;
+    nif:endIndex "1099" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w180" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w181> nif:BeginIndex "1100" ;
+    nif:anchorOf "ingetrokken" ;
+    nif:endIndex "1111" ;
+    nif:lemma "in_trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w183> nif:BeginIndex "1115" ;
+    nif:anchorOf "vervangen" ;
+    nif:endIndex "1124" ;
+    nif:lemma "vervangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w186w187> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "1133" ;
+    nif:endIndex "1155" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w189> nif:anchorOf "Bruggink" ;
+    nif:beginIndex "1158" ;
+    nif:endIndex "1166" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w190> nif:BeginIndex "1167" ;
+    nif:anchorOf "verliet" ;
+    nif:endIndex "1174" ;
+    nif:lemma "verlaten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w192> nif:anchorOf "1955" ;
+    nif:beginIndex "1178" ;
+    nif:endIndex "1182" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w193w194> nif:anchorOf "de luchtmacht" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1196" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w194" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w196> nif:BeginIndex "1200" ;
+    nif:anchorOf "verhuisde" ;
+    nif:endIndex "1209" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w199> nif:anchorOf "jaar" ;
+    nif:beginIndex "1217" ;
+    nif:endIndex "1221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w1w2> nif:anchorOf "Meinardus" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w202w203> nif:anchorOf "Verenigde Staten" ;
+    nif:beginIndex "1230" ;
+    nif:endIndex "1246" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w205> nif:anchorOf "Eerst" ;
+    nif:beginIndex "1248" ;
+    nif:endIndex "1253" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w205" ;
+    nif:lemma "eerst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w206> nif:BeginIndex "1254" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1257" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w208w209> nif:anchorOf "een tijdlang" ;
+    nif:beginIndex "1262" ;
+    nif:endIndex "1274" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w209" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w213> nif:BeginIndex "1300" ;
+    nif:anchorOf "burgerluchtvaart" ;
+    nif:endIndex "1316" ;
+    nif:lemma "burger_luchtvaart" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w215> nif:anchorOf "Texas" ;
+    nif:beginIndex "1320" ;
+    nif:endIndex "1325" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w217w218w219w220w221w222w223w224w225w226w227w228w229w230w231w232> nif:anchorOf "alvorens hij vanaf 1959 voor allerlei onderzoeksorganisaties op het gebied van vliegtuigongelukken en vliegveiligheid ging werken" ;
+    nif:beginIndex "1327" ;
+    nif:endIndex "1456" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w217" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w218> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1336" ;
+    nif:endIndex "1339" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w218" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w21w22w23> nif:anchorOf "5 december 2005" ;
+    nif:beginIndex "98" ;
+    nif:endIndex "113" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w220> nif:anchorOf "1959" ;
+    nif:beginIndex "1346" ;
+    nif:endIndex "1350" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w221w222w223w224w225w226w227w228w229w230> nif:anchorOf "voor allerlei onderzoeksorganisaties op het gebied van vliegtuigongelukken en vliegveiligheid" ;
+    nif:beginIndex "1351" ;
+    nif:endIndex "1444" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w228> nif:BeginIndex "1406" ;
+    nif:anchorOf "vliegtuigongelukken" ;
+    nif:endIndex "1425" ;
+    nif:lemma "vliegtuig_ongeluk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w232> nif:BeginIndex "1450" ;
+    nif:anchorOf "werken" ;
+    nif:endIndex "1456" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w234w235> nif:anchorOf "Als zodanig" ;
+    nif:beginIndex "1458" ;
+    nif:endIndex "1469" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w234" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w236> nif:BeginIndex "1470" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "1476" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w237> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1477" ;
+    nif:endIndex "1480" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w237" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w242> nif:anchorOf "NTSB" ;
+    nif:beginIndex "1499" ;
+    nif:endIndex "1503" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w244> nif:anchorOf "waarbij" ;
+    nif:beginIndex "1505" ;
+    nif:endIndex "1512" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w244" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w245> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1513" ;
+    nif:endIndex "1516" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w245" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w246w247> nif:anchorOf "leidinggevende functies" ;
+    nif:beginIndex "1517" ;
+    nif:endIndex "1540" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w247" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w248> nif:BeginIndex "1541" ;
+    nif:anchorOf "vervulde" ;
+    nif:endIndex "1549" ;
+    nif:lemma "vervullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w25> nif:BeginIndex "115" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "118" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w253> nif:anchorOf "1982" ;
+    nif:beginIndex "1567" ;
+    nif:endIndex "1571" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w254w255> nif:anchorOf "met pensioen" ;
+    nif:beginIndex "1572" ;
+    nif:endIndex "1584" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w254" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w256> nif:BeginIndex "1585" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "1589" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w269w270> nif:anchorOf "Gerard Bruggink" ;
+    nif:beginIndex "1661" ;
+    nif:endIndex "1676" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w27> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "123" ;
+    nif:endIndex "134" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w271> nif:BeginIndex "1677" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1685" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w272w273w274w275> nif:anchorOf "na een lang ziekbed" ;
+    nif:beginIndex "1686" ;
+    nif:endIndex "1705" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w272" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w276w277w278> nif:anchorOf "op 88-jarige leeftijd" ;
+    nif:beginIndex "1706" ;
+    nif:endIndex "1727" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w276" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w280w281> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "1730" ;
+    nif:endIndex "1752" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w283w284w285> nif:anchorOf "14 juli 1948" ;
+    nif:beginIndex "1756" ;
+    nif:endIndex "1768" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w286> nif:anchorOf "Vliegerkruis" ;
+    nif:beginIndex "1770" ;
+    nif:endIndex "1782" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w288w289w290> nif:anchorOf "27 januari 1942" ;
+    nif:beginIndex "1786" ;
+    nif:endIndex "1801" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w29> nif:anchorOf "die" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "146" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w29" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w291w292w293w294> nif:anchorOf "Oorlogsherinneringskruis Wing Piloot KNIL" ;
+    nif:beginIndex "1803" ;
+    nif:endIndex "1845" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w296w297> nif:anchorOf "maart 2009" ;
+    nif:beginIndex "1850" ;
+    nif:endIndex "1860" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w298> nif:BeginIndex "1861" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "1865" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w301w302w303> nif:anchorOf "Nationaal Luchtvaart-Themapark Aviodrome" ;
+    nif:beginIndex "1873" ;
+    nif:endIndex "1913" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w314w315> nif:anchorOf "De replica" ;
+    nif:beginIndex "1976" ;
+    nif:endIndex "1986" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w315" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w316> nif:BeginIndex "1987" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1989" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w327> nif:anchorOf "Bruggink" ;
+    nif:beginIndex "2046" ;
+    nif:endIndex "2054" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w32w33> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "177" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w35> nif:anchorOf "Nederlands-Indië" ;
+    nif:beginIndex "181" ;
+    nif:endIndex "197" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w38> nif:anchorOf "Japanners" ;
+    nif:beginIndex "207" ;
+    nif:endIndex "216" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w39> nif:BeginIndex "217" ;
+    nif:anchorOf "vocht" ;
+    nif:endIndex "222" ;
+    nif:lemma "vechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w4> nif:anchorOf "Gerard" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w41w42w43> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "224" ;
+    nif:endIndex "236" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w41" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w44> nif:BeginIndex "237" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "240" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w48w49> nif:anchorOf "Verenigde Staten" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "267" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w52> nif:BeginIndex "283" ;
+    nif:anchorOf "vliegtuigongelukken" ;
+    nif:endIndex "302" ;
+    nif:lemma "vliegtuig_ongeluk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w56> nif:anchorOf "Bruggink" ;
+    nif:beginIndex "324" ;
+    nif:endIndex "332" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w57> nif:BeginIndex "333" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "339" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w58w59w60> nif:anchorOf "een katholiek seminarie" ;
+    nif:beginIndex "340" ;
+    nif:endIndex "363" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w6> nif:anchorOf "Gerry" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w63> nif:anchorOf "1939" ;
+    nif:beginIndex "368" ;
+    nif:endIndex "372" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w64> nif:BeginIndex "373" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "378" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w65> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "382" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w65" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w71w72> nif:anchorOf "Militaire Luchtvaart" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "427" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w75w76w77w78> nif:anchorOf "Koninklijk Nederlands Indisch Leger" ;
+    nif:beginIndex "436" ;
+    nif:endIndex "471" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w8> nif:anchorOf "Bruggink" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w82> nif:anchorOf "Nederlands-Indië" ;
+    nif:beginIndex "490" ;
+    nif:endIndex "506" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w86> nif:anchorOf "Japanse" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "521" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w88> nif:BeginIndex "528" ;
+    nif:anchorOf "voerde" ;
+    nif:endIndex "534" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w89> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "538" ;
+    nif:head "bgnProc:1433__Gerard_Bruggink.naf#w89" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w91> nif:BeginIndex "547" ;
+    nif:anchorOf "gevechtsvluchten" ;
+    nif:endIndex "563" ;
+    nif:lemma "gevecht_vlucht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w95> nif:anchorOf "Singapore" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "590" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w97> nif:anchorOf "Java" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "598" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_120t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w121w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_159t_160t_161t_162t_163t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w160w161w162w163w164w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_165t_166t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w166w167w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_191> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w192> ;
+    xs:gYear "1955" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_192t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w193w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_198> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w199> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_207t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w208w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_216t_217t_218t_219t_220t_221t_222t_223t_224t_225t_226t_227t_228t_229t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w217w218w219w220w221w222w223w224w225w226w227w228w229w230w231w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_219> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w220> ;
+    xs:gYear "1959" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_220t_221t_222t_223t_224t_225t_226t_227t_228t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w221w222w223w224w225w226w227w228w229w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_233t_234> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w234w235> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_236> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_244> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_245t_246> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w246w247> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_252> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w253> ;
+    xs:gYear "1982" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_253t_254> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w254w255> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_271t_272t_273t_274> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w272w273w274w275> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_275t_276t_277> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w276w277w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_313t_314> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w314w315> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_40t_41t_42> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w41w42w43> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_62> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w63> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_100> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w101> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w103> .
+
+bgn:Person-1433 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w138>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w142w143>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w146>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w149w150>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w153w154>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w174w175>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w178w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w186w187>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w242>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w269w270>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w280w281>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w286>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w291w292w293w294>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w301w302w303>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w327>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w48w49>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w71w72>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w75w76w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w86>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w95>,
+        <http://data.biographynet.nl/rdf/170506221754/1433__Gerard_Bruggink.naf#w97> .
+

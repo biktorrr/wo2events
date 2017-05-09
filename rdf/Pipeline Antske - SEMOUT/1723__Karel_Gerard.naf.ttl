@@ -1,0 +1,565 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_112t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_115t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_118t_119t_120t_121t_122t_123t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_156t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_170t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_58t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_99>,
+        bgn:Person-1723 ;
+    ore:proxyFor bgn:Person-1723 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w113> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w116> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w119> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w157> nif:lemma "H." .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w171> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w59> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w85> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1723__Karel_Gerard#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1723__Karel_Gerard .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1723 ;
+    bgn:aggregatedPerson bgn:Person-1723 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1723__Karel_Gerard ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1723__Karel_Gerard ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w112> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_115t_116t_117> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_112t_113t_114> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_118t_119t_120t_121t_122t_123t_124t_125t_126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w12w13w14> ;
+    xs:date "1945-04-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w127> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_125> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w147> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_156t_157> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_145> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_153t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w170> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_170t_171t_172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w196> ;
+    pb:A1 bgn:Person-1723 ;
+    pb:AM-LOC bgn:Person-1723 .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_198> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w26> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_26>,
+        bgn:Person-1723 .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w39> ;
+    pb:ArgM-TMP bgn:Person-1723 .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_43t_44t_45> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w44w45w46> ;
+    xs:date "1945-04-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w49> ;
+    pb:Arg1 bgn:Person-1723 ;
+    pb:ArgM-TMP bgn:Person-1723 .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w62> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_58t_59t_60> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_55> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w65> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_63> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_65>,
+        bgn:Person-1723 .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w7w8w9> ;
+    xs:date "1910-10-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w79> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_71> ;
+    pb:Arg1 bgn:Person-1723 .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w87> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_83t_84t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w92> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_90> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w100> nif:BeginIndex "616" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "620" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w107> nif:anchorOf "Gerard" ;
+    nif:beginIndex "646" ;
+    nif:endIndex "652" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w109> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "656" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w112> nif:BeginIndex "677" ;
+    nif:anchorOf "opgericht" ;
+    nif:endIndex "686" ;
+    nif:lemma "opgericht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w113w114w115> nif:anchorOf "in de vorm" ;
+    nif:beginIndex "687" ;
+    nif:endIndex "697" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w113" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w116w117w118> nif:anchorOf "van een kruis" ;
+    nif:beginIndex "698" ;
+    nif:endIndex "711" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w116" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w119w120w121w122w123w124w125w126w127> nif:anchorOf "met een gedenksteen op de plek waar hij stierf" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "758" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w125> nif:anchorOf "waar" ;
+    nif:beginIndex "743" ;
+    nif:endIndex "747" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w125" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w126> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "748" ;
+    nif:endIndex "751" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w126" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w127> nif:BeginIndex "752" ;
+    nif:anchorOf "stierf" ;
+    nif:endIndex "758" ;
+    nif:lemma "sterven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w12w13w14> nif:anchorOf "3 april 1945" ;
+    nif:beginIndex "53" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w134> nif:anchorOf "Breemarsweg" ;
+    nif:beginIndex "785" ;
+    nif:endIndex "796" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w146> nif:anchorOf "Hier" ;
+    nif:beginIndex "851" ;
+    nif:endIndex "855" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w146" ;
+    nif:lemma "hier" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w147> nif:BeginIndex "856" ;
+    nif:anchorOf "viel" ;
+    nif:endIndex "860" ;
+    nif:lemma "vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w154w155w156> nif:anchorOf "3 april 1945" ;
+    nif:beginIndex "893" ;
+    nif:endIndex "905" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w157w158> nif:anchorOf "H. K." ;
+    nif:beginIndex "906" ;
+    nif:endIndex "911" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w157" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w158> nif:BeginIndex "909" ;
+    nif:anchorOf "K." ;
+    nif:endIndex "911" ;
+    nif:lemma "K." .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w159> nif:anchorOf "Gerard" ;
+    nif:beginIndex "912" ;
+    nif:endIndex "918" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w16> nif:BeginIndex "67" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "70" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w164> nif:anchorOf "B.S" ;
+    nif:beginIndex "931" ;
+    nif:endIndex "934" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w166w167> nif:anchorOf "S. G." ;
+    nif:beginIndex "936" ;
+    nif:endIndex "940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w170> nif:BeginIndex "948" ;
+    nif:anchorOf "strijd" ;
+    nif:endIndex "954" ;
+    nif:lemma "strijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w171w172w173> nif:anchorOf "tegen de overweldigers" ;
+    nif:beginIndex "955" ;
+    nif:endIndex "977" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w171" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w176> nif:BeginIndex "986" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "988" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "86" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w180w181> nif:anchorOf "Groot Driene" ;
+    nif:beginIndex "1000" ;
+    nif:endIndex "1012" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w183> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "1016" ;
+    nif:endIndex "1023" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w185w186> nif:anchorOf "Karel Gerardstraat" ;
+    nif:beginIndex "1027" ;
+    nif:endIndex "1045" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w194> nif:anchorOf "Gerard" ;
+    nif:beginIndex "1081" ;
+    nif:endIndex "1087" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w196> nif:BeginIndex "1093" ;
+    nif:anchorOf "begraven" ;
+    nif:endIndex "1101" ;
+    nif:lemma "begraven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w199> nif:BeginIndex "1109" ;
+    nif:anchorOf "Ereveld" ;
+    nif:endIndex "1116" ;
+    nif:lemma "Ere_veld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w199w200> nif:anchorOf "Ereveld Loenen" ;
+    nif:beginIndex "1109" ;
+    nif:endIndex "1123" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w1w2w3> nif:anchorOf "Karel Gerard" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w22w23> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "114" ;
+    nif:endIndex "133" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w25> nif:anchorOf "Gerard" ;
+    nif:beginIndex "136" ;
+    nif:endIndex "142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w26> nif:BeginIndex "143" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "149" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w27> nif:anchorOf "deel" ;
+    nif:beginIndex "150" ;
+    nif:endIndex "154" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w27" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w31> nif:anchorOf "Binnenlandse" ;
+    nif:beginIndex "166" ;
+    nif:endIndex "178" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w38> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "228" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w39> nif:BeginIndex "229" ;
+    nif:anchorOf "rukten" ;
+    nif:endIndex "235" ;
+    nif:lemma "op_rukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w41> nif:anchorOf "Engelse" ;
+    nif:beginIndex "239" ;
+    nif:endIndex "246" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w44w45w46> nif:anchorOf "3 april 1945" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "268" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w49> nif:BeginIndex "275" ;
+    nif:anchorOf "vochten" ;
+    nif:endIndex "282" ;
+    nif:lemma "mee_vechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w5> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w53> nif:anchorOf "Gerard" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w56> nif:anchorOf "Deze" ;
+    nif:beginIndex "325" ;
+    nif:endIndex "329" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w56" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w58> nif:anchorOf "echter" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "341" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w58" ;
+    nif:lemma "echter" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w59w60w61> nif:anchorOf "door een scherpschutter" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "365" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w62> nif:BeginIndex "366" ;
+    nif:anchorOf "doodgeschoten" ;
+    nif:endIndex "379" ;
+    nif:lemma "dood_schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w64> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "381" ;
+    nif:endIndex "384" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w64" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w65> nif:BeginIndex "385" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "391" ;
+    nif:lemma "uit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w66> nif:anchorOf "deel" ;
+    nif:beginIndex "392" ;
+    nif:endIndex "396" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w66" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w72> nif:anchorOf "die" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "435" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w72" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w77w78> nif:anchorOf "slagerij Leverink" ;
+    nif:beginIndex "458" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w79> nif:BeginIndex "476" ;
+    nif:anchorOf "bevocht" ;
+    nif:endIndex "483" ;
+    nif:lemma "bevechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w7w8w9> nif:anchorOf "3 oktober 1910" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w81> nif:anchorOf "Gerard" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "491" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w84w85w86> nif:anchorOf "vlak na hem" ;
+    nif:beginIndex "499" ;
+    nif:endIndex "510" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w87> nif:BeginIndex "511" ;
+    nif:anchorOf "doodgeschoten" ;
+    nif:endIndex "524" ;
+    nif:lemma "doodgeschoten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w88> nif:anchorOf "Duitse" ;
+    nif:beginIndex "525" ;
+    nif:endIndex "531" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w91> nif:anchorOf "later" ;
+    nif:beginIndex "548" ;
+    nif:endIndex "553" ;
+    nif:head "bgnProc:1723__Karel_Gerard.naf#w91" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w92> nif:BeginIndex "554" ;
+    nif:anchorOf "blijken" ;
+    nif:endIndex "561" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w97> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "597" ;
+    nif:endIndex "604" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_112t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w113w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_115t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w116w117w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_118t_119t_120t_121t_122t_123t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w119w120w121w122w123w124w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_153t_154t_155> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w154w155w156> ;
+    xs:date "1945-04-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_156t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w157w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_170t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w171w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_26> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w27> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_58t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w59w60w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_83t_84t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w84w85w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w91> .
+
+bgn:Person-1723 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w107>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w166w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w180w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w183>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w185w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w199w200>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w38>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1723__Karel_Gerard.naf#w97> .
+

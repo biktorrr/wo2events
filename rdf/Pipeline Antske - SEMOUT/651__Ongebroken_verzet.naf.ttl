@@ -1,0 +1,229 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70t_71t_72t_73>,
+        bgn:Person-651 ;
+    ore:proxyFor bgn:Person-651 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w25> nif:lemma "leven" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w64> nif:lemma "verzet" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-651__Ongebroken_verzet#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-651__Ongebroken_verzet .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-651 ;
+    bgn:aggregatedPerson bgn:Person-651 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-651__Ongebroken_verzet ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-651__Ongebroken_verzet ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_11> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w12> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_10> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_13>,
+        bgn:Person-651 ;
+    pb:ArgM-LOC bgn:Person-651 .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w27> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_22> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_23t_24> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w30> ;
+    pb:ArgM bgn:Person-651 .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w5> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w50> ;
+    pb:Arg0 bgn:Person-651 ;
+    pb:Arg1 bgn:Person-651 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_55> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_43t_44t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w61> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_57t_58t_59> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70t_71t_72t_73> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w11> nif:anchorOf "Het" ;
+    nif:beginIndex "69" ;
+    nif:endIndex "72" ;
+    nif:head "bgnProc:651__Ongebroken_verzet.naf#w11" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w12> nif:BeginIndex "73" ;
+    nif:anchorOf "herdenkt" ;
+    nif:endIndex "81" ;
+    nif:lemma "herdenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w14> nif:anchorOf "Rotterdamse" ;
+    nif:beginIndex "86" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w18w19> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "111" ;
+    nif:endIndex "130" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w23> nif:anchorOf "die" ;
+    nif:beginIndex "153" ;
+    nif:endIndex "156" ;
+    nif:head "bgnProc:651__Ongebroken_verzet.naf#w23" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w24w25> nif:anchorOf "hun leven" ;
+    nif:beginIndex "157" ;
+    nif:endIndex "166" ;
+    nif:head "bgnProc:651__Ongebroken_verzet.naf#w25" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w27> nif:BeginIndex "174" ;
+    nif:anchorOf "gegeven" ;
+    nif:endIndex "181" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w30> nif:BeginIndex "188" ;
+    nif:anchorOf "strijd" ;
+    nif:endIndex "194" ;
+    nif:lemma "strijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w33> nif:anchorOf "Duitse" ;
+    nif:beginIndex "204" ;
+    nif:endIndex "210" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w39w40w41> nif:anchorOf "Hubert van Lith" ;
+    nif:beginIndex "239" ;
+    nif:endIndex "254" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w3w4> nif:anchorOf "Ongebroken verzet" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w44w45w46> nif:anchorOf "4 mei 1965" ;
+    nif:beginIndex "263" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w49> nif:anchorOf "Bernhard" ;
+    nif:beginIndex "285" ;
+    nif:endIndex "293" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w5> nif:BeginIndex "31" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "33" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w50> nif:BeginIndex "294" ;
+    nif:anchorOf "onthuld" ;
+    nif:endIndex "301" ;
+    nif:lemma "onthullen" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w56> nif:anchorOf "Westersingel" ;
+    nif:beginIndex "323" ;
+    nif:endIndex "335" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w58w59w60> nif:anchorOf "Het bronzen kunstwerk" ;
+    nif:beginIndex "337" ;
+    nif:endIndex "358" ;
+    nif:head "bgnProc:651__Ongebroken_verzet.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w60> nif:BeginIndex "349" ;
+    nif:anchorOf "kunstwerk" ;
+    nif:endIndex "358" ;
+    nif:lemma "kunst_werk" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w61> nif:BeginIndex "359" ;
+    nif:anchorOf "symboliseert" ;
+    nif:endIndex "371" ;
+    nif:lemma "symboliseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w62w63w64w65w66w67w68w69w70w71w72w73w74> nif:anchorOf "het ongebroken verzet: een staande man met rechte rug en geheven hoofd" ;
+    nif:beginIndex "372" ;
+    nif:endIndex "442" ;
+    nif:head "bgnProc:651__Ongebroken_verzet.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w9> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "57" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_10> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w11> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_22> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w23> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_23t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w24w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_43t_44t_45> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w44w45w46> ;
+    xs:date "1965-05-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70t_71t_72t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w62w63w64w65w66w67w68w69w70w71w72w73w74> .
+
+bgn:Person-651 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w18w19>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w39w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/651__Ongebroken_verzet.naf#w9> .
+

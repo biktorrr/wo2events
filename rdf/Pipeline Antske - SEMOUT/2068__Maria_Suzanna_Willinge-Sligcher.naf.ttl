@@ -1,0 +1,990 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_165t_166t_167t_168t_169t_170t_171t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_174t_175t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_179t_180t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_187t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_196t_197t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_219t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_241t_242t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_259>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_291t_292>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_73t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_76t_77t_78t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_9t_10t_11>,
+        bgn:Person-2068 ;
+    ore:proxyFor bgn:Person-2068 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w115> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w154> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w166> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w176> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w181> nif:lemma "man" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w189> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w198> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w209> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w212> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w220> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w78> nif:lemma "functie" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2068__Maria_Suzanna_Willinge-Sligcher#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2068__Maria_Suzanna_Willinge-Sligcher .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2068 ;
+    bgn:aggregatedPerson bgn:Person-2068 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2068__Maria_Suzanna_Willinge-Sligcher ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2068__Maria_Suzanna_Willinge-Sligcher ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w101> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_82> ;
+    pb:A2 bgn:Person-2068 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w105> ;
+    pb:A0 bgn:Person-2068 ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_108> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w112> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_112> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_113t_114> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w142> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_134> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_145> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w146> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_142> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_143t_144> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w157> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_165t_166t_167t_168t_169t_170t_171t_172> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_163> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_16t_17t_18> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w17w18w19> ;
+    xs:date "1989-03-27" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_176> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w177> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w178> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_178> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_179t_180t_181t_182> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_183> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_174t_175t_176> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w193> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_187t_188> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_191> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w196> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_194> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_201> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_196t_197t_198t_199> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_198t_199> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w199w200> ;
+    xs:gYearMonth "1947-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w208> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_206> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_208t_209> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_203t_204> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w215> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_219t_220t_221> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_217> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_211t_212t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w226> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_224> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w237> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_232> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_233> ;
+    pb:A2 bgn:Person-2068 .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_247> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w248> ;
+    pb:Arg1 bgn:Person-2068 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_241t_242t_243> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_248> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w249> ;
+    pb:ArgM-TMP bgn:Person-2068 .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_259> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w260> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_256> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_269> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w270> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_282> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w283> ;
+    xs:gYear "1942",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_291t_292> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w292w293> ;
+    xs:date "2017-08-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w32> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_24> ;
+    pb:Arg1 bgn:Person-2068 ;
+    pb:ArgM-TMP bgn:Person-2068 .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w36> ;
+    pb:A1 bgn:Person-2068 ;
+    pb:A2 bgn:Person-2068 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_44> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w45> ;
+    xs:gYear "1898",
+        "1989" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w53> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_47> ;
+    pb:ArgM-LOC bgn:Person-2068 .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w55> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_47> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_56t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_61> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w62> ;
+    xs:gYear "1918" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w69> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_65> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w72> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_72> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_76t_77t_78t_79t_80> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_73t_74> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w84> ;
+    pb:A0 bgn:Person-2068 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w10w11w12> ;
+    xs:date "1902-10-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w101> nif:BeginIndex "549" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "558" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w104> nif:anchorOf "1937" ;
+    nif:beginIndex "563" ;
+    nif:endIndex "567" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w105> nif:BeginIndex "568" ;
+    nif:anchorOf "vertrok" ;
+    nif:endIndex "575" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w106w107> nif:anchorOf "De Ruyter" ;
+    nif:beginIndex "576" ;
+    nif:endIndex "585" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w109> nif:anchorOf "Nederlands-Indië" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "607" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w10w11w12> nif:anchorOf "1 oktober 1902" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w111> nif:anchorOf "Samen" ;
+    nif:beginIndex "609" ;
+    nif:endIndex "614" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w111" ;
+    nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w112> nif:BeginIndex "615" ;
+    nif:anchorOf "kregen" ;
+    nif:endIndex "621" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w113> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "622" ;
+    nif:endIndex "625" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w113" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w114w115> nif:anchorOf "drie kinderen" ;
+    nif:beginIndex "626" ;
+    nif:endIndex "639" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w121w122> nif:anchorOf "Maria Willinge" ;
+    nif:beginIndex "665" ;
+    nif:endIndex "679" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w129> nif:anchorOf "Tjideng" ;
+    nif:beginIndex "717" ;
+    nif:endIndex "724" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w133> nif:anchorOf "Batavia" ;
+    nif:beginIndex "735" ;
+    nif:endIndex "742" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w135> nif:anchorOf "waar" ;
+    nif:beginIndex "744" ;
+    nif:endIndex "748" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w135" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w142> nif:BeginIndex "777" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "781" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w143> nif:anchorOf "die" ;
+    nif:beginIndex "782" ;
+    nif:endIndex "785" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w143" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w144w145> nif:anchorOf "de kampleiding" ;
+    nif:beginIndex "786" ;
+    nif:endIndex "800" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w145> nif:BeginIndex "789" ;
+    nif:anchorOf "kampleiding" ;
+    nif:endIndex "800" ;
+    nif:lemma "kamp_leiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w146> nif:BeginIndex "801" ;
+    nif:anchorOf "vormden" ;
+    nif:endIndex "808" ;
+    nif:lemma "vormen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w14w15> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w151> nif:anchorOf "Japanse" ;
+    nif:beginIndex "831" ;
+    nif:endIndex "838" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w154w155w156> nif:anchorOf "In het kamp" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "865" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w154" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w157> nif:BeginIndex "866" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "871" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w164> nif:anchorOf "geïnterneerd" ;
+    nif:beginIndex "905" ;
+    nif:endIndex "917" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w164" ;
+    nif:lemma "geïnterneerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w166w167w168w169w170w171w172w173> nif:anchorOf "in totaal 11.337 waarvan er 434 overleden" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "961" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w166" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w173> nif:BeginIndex "952" ;
+    nif:anchorOf "overleden" ;
+    nif:endIndex "961" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w175w176w177> nif:anchorOf "Pas in 1945" ;
+    nif:beginIndex "963" ;
+    nif:endIndex "974" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w176" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w177> nif:anchorOf "1945" ;
+    nif:beginIndex "970" ;
+    nif:endIndex "974" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w178> nif:BeginIndex "975" ;
+    nif:anchorOf "zagen" ;
+    nif:endIndex "980" ;
+    nif:lemma "terug_zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w179> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "981" ;
+    nif:endIndex "984" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w179" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w17w18w19> nif:anchorOf "27 maart 1989" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w180w181w182w183> nif:anchorOf "hun man c.q. vader" ;
+    nif:beginIndex "985" ;
+    nif:endIndex "1003" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w181" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w184> nif:anchorOf "terug" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1009" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w184" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w186> nif:anchorOf "Maria" ;
+    nif:beginIndex "1011" ;
+    nif:endIndex "1016" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w188w189> nif:anchorOf "de kinderen" ;
+    nif:beginIndex "1020" ;
+    nif:endIndex "1031" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w192> nif:anchorOf "1946" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1046" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w193> nif:BeginIndex "1047" ;
+    nif:anchorOf "gerepatrieerd" ;
+    nif:endIndex "1060" ;
+    nif:lemma "repatriëren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w195> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1062" ;
+    nif:endIndex "1065" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w195" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w196> nif:BeginIndex "1066" ;
+    nif:anchorOf "vloog" ;
+    nif:endIndex "1071" ;
+    nif:lemma "vliegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w197w198w199w200> nif:anchorOf "pas in januari 1947" ;
+    nif:beginIndex "1072" ;
+    nif:endIndex "1091" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w198" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w199w200> nif:anchorOf "januari 1947" ;
+    nif:beginIndex "1079" ;
+    nif:endIndex "1091" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w1w2> nif:anchorOf "Suzanna" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w202> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1097" ;
+    nif:endIndex "1106" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w204w205> nif:anchorOf "Eind april" ;
+    nif:beginIndex "1108" ;
+    nif:endIndex "1118" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w207> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1124" ;
+    nif:endIndex "1127" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w207" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w208> nif:BeginIndex "1128" ;
+    nif:anchorOf "bevorderd" ;
+    nif:endIndex "1137" ;
+    nif:lemma "bevorderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w209w210> nif:anchorOf "tot schout-bij-nacht" ;
+    nif:beginIndex "1138" ;
+    nif:endIndex "1158" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w209" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w21> nif:BeginIndex "93" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "96" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w212w213w214> nif:anchorOf "Na de capitulatie" ;
+    nif:beginIndex "1161" ;
+    nif:endIndex "1178" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w215> nif:BeginIndex "1179" ;
+    nif:anchorOf "zette" ;
+    nif:endIndex "1184" ;
+    nif:lemma "in_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w216w217> nif:anchorOf "Maria Willinge" ;
+    nif:beginIndex "1185" ;
+    nif:endIndex "1199" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w218> nif:anchorOf "zich" ;
+    nif:beginIndex "1200" ;
+    nif:endIndex "1204" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w218" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w220w221w222> nif:anchorOf "voor de hulpverlening" ;
+    nif:beginIndex "1208" ;
+    nif:endIndex "1229" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w220" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w225> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1234" ;
+    nif:endIndex "1243" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w226> nif:BeginIndex "1244" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1247" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w23> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "101" ;
+    nif:endIndex "112" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w232> nif:anchorOf "Pelita" ;
+    nif:beginIndex "1274" ;
+    nif:endIndex "1280" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w233> nif:anchorOf "die" ;
+    nif:beginIndex "1281" ;
+    nif:endIndex "1284" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w233" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w234> nif:anchorOf "vervolgingsslachtoffers" ;
+    nif:beginIndex "1285" ;
+    nif:endIndex "1308" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w234" ;
+    nif:lemma "vervolging_slachtoffer" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w236> nif:anchorOf "Indië" ;
+    nif:beginIndex "1313" ;
+    nif:endIndex "1318" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w237> nif:BeginIndex "1319" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "1324" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w240> nif:anchorOf "Beatrix" ;
+    nif:beginIndex "1332" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w242w243w244> nif:anchorOf "30 april 1980" ;
+    nif:beginIndex "1343" ;
+    nif:endIndex "1356" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w248> nif:BeginIndex "1375" ;
+    nif:anchorOf "ingehuldigd" ;
+    nif:endIndex "1386" ;
+    nif:lemma "in_huldigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w249> nif:BeginIndex "1387" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1390" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w25> nif:anchorOf "die" ;
+    nif:beginIndex "126" ;
+    nif:endIndex "129" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w25" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w250w251> nif:anchorOf "Maria Willinge" ;
+    nif:beginIndex "1391" ;
+    nif:endIndex "1405" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w257> nif:anchorOf "die" ;
+    nif:beginIndex "1436" ;
+    nif:endIndex "1439" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w257" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w260> nif:BeginIndex "1451" ;
+    nif:anchorOf "treden" ;
+    nif:endIndex "1457" ;
+    nif:lemma "op_treden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w270> nif:BeginIndex "1507" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1512" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w271w272w273> nif:anchorOf "Erik Hazelhoff Roelfzema" ;
+    nif:beginIndex "1513" ;
+    nif:endIndex "1537" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w275w276> nif:anchorOf "Ben Ubbink" ;
+    nif:beginIndex "1539" ;
+    nif:endIndex "1549" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w278w279> nif:anchorOf "Liepke Scheepstra" ;
+    nif:beginIndex "1553" ;
+    nif:endIndex "1570" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w282> nif:anchorOf "Oost-Azië" ;
+    nif:beginIndex "1585" ;
+    nif:endIndex "1594" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w283> nif:anchorOf "1942-1945" ;
+    nif:beginIndex "1595" ;
+    nif:endIndex "1604" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w285> nif:anchorOf "VOA" ;
+    nif:beginIndex "1606" ;
+    nif:endIndex "1609" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w288> nif:anchorOf "KB" ;
+    nif:beginIndex "1612" ;
+    nif:endIndex "1614" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w28w29> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "141" ;
+    nif:endIndex "160" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w292w293> nif:anchorOf "5 augustus" ;
+    nif:beginIndex "1625" ;
+    nif:endIndex "1635" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w31> nif:anchorOf "Batavia" ;
+    nif:beginIndex "164" ;
+    nif:endIndex "171" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w32> nif:BeginIndex "172" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "178" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w35> nif:anchorOf "1927" ;
+    nif:beginIndex "184" ;
+    nif:endIndex "188" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w36> nif:BeginIndex "189" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "196" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w37w38> nif:anchorOf "Maria Sligcher" ;
+    nif:beginIndex "197" ;
+    nif:endIndex "211" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w4> nif:anchorOf "Miep" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w40w41w42w43> nif:anchorOf "Johannes Jacobus Lukas Willinge" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "247" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w45> nif:anchorOf "1898-1989" ;
+    nif:beginIndex "249" ;
+    nif:endIndex "258" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w48> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "261" ;
+    nif:endIndex "264" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w48" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w51w52> nif:anchorOf "Den Helder" ;
+    nif:beginIndex "273" ;
+    nif:endIndex "283" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w53> nif:BeginIndex "284" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "291" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w55> nif:BeginIndex "295" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "299" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w57w58> nif:anchorOf "september 1915" ;
+    nif:beginIndex "303" ;
+    nif:endIndex "317" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w6> nif:anchorOf "Willinge-Sligcher" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "38" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w62> nif:anchorOf "1918" ;
+    nif:beginIndex "333" ;
+    nif:endIndex "337" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w64> nif:anchorOf "1921" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "346" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w66> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "352" ;
+    nif:endIndex "355" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w66" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w68> nif:anchorOf "Nederlands-Indië" ;
+    nif:beginIndex "361" ;
+    nif:endIndex "377" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w69> nif:BeginIndex "378" ;
+    nif:anchorOf "gestuurd" ;
+    nif:endIndex "386" ;
+    nif:lemma "sturen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w71> nif:anchorOf "daarna" ;
+    nif:beginIndex "388" ;
+    nif:endIndex "394" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w71" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w72> nif:BeginIndex "395" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "398" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w73> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "399" ;
+    nif:endIndex "402" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w73" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w74w75> nif:anchorOf "tien jaar" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "412" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w77w78w79w80w81> nif:anchorOf "verschillende functies binnen de marine" ;
+    nif:beginIndex "418" ;
+    nif:endIndex "457" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w78" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w8> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w83> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "459" ;
+    nif:endIndex "462" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w83" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w84> nif:BeginIndex "463" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "469" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w86w87w88> nif:anchorOf "Hogere Marine Krijgsschool" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "499" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w90w91> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "503" ;
+    nif:endIndex "511" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w94> nif:anchorOf "daarna" ;
+    nif:beginIndex "520" ;
+    nif:endIndex "526" ;
+    nif:head "bgnProc:2068__Maria_Suzanna_Willinge-Sligcher.naf#w94" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w97w98w99w100> nif:anchorOf "Hr Ms De Ruyter" ;
+    nif:beginIndex "533" ;
+    nif:endIndex "548" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_103> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w104> ;
+    xs:gYear "1937" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_113t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w114w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_153t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w154w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_163> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w164> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_165t_166t_167t_168t_169t_170t_171t_172> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w166w167w168w169w170w171w172w173> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_174t_175t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w175w176w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_179t_180t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w180w181w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_187t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w188w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_191> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w192> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_196t_197t_198t_199> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w197w198w199w200> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_203t_204> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w204w205> ;
+    xs:gYearMonth "2017-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_208t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w209w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_219t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w220w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_232> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_24> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w25> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_241t_242t_243> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w242w243w244> ;
+    xs:date "1980-04-30" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_256> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w257> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_34> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w35> ;
+    xs:gYear "1927" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_56t_57> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w57w58> ;
+    xs:gYearMonth "1915-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_63> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w64> ;
+    xs:gYear "1921" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_73t_74> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w74w75> ;
+    xs:period "P10Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_76t_77t_78t_79t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w77w78w79w80w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w113> ;
+    bnFam:hasNumberOfChildren "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_47> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w83> .
+
+bgn:Person-2068 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w106w107>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w121w122>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w14w15>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w186>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w216w217>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w225>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w232>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w236>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w240>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w250w251>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w271w272w273>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w275w276>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w278w279>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w282>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w285>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w288>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w28w29>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w40w41w42w43>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w51w52>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w86w87w88>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w90w91>,
+        <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#w97w98w99w100> ;
+    bnFam:hasNumberOfChildren "3" ;
+    stevensFam:isPartnerIn bgn:Person-2068 ;
+    owl:oneOf <http://data.biographynet.nl/rdf/170506221754/2068__Maria_Suzanna_Willinge-Sligcher.naf#t_112> .
+

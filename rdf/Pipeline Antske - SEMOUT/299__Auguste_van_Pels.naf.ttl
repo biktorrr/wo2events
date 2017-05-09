@@ -1,0 +1,799 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_156t_157t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_236t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_238t_239t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_32t_33t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_6t_7t_8>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_76t_77t_78t_79t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_93t_94t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_99>,
+        bgn:Person-299 ;
+    ore:proxyFor bgn:Person-299 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w132> nif:lemma "onderduiker" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w157> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w237> nif:lemma "ter" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w239> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w63> nif:lemma "en" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w94> nif:lemma "met" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-299__Auguste_van_Pels#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-299__Auguste_van_Pels .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-299 ;
+    bgn:aggregatedPerson bgn:Person-299 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-299__Auguste_van_Pels ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-299__Auguste_van_Pels ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w102> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_110> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_122>,
+        bgn:Person-299 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_107t_108t_109> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w130> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_130t_131> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w133> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_130t_131> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_134> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w135> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_130t_131> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w141> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_136> ;
+    pb:Arg2 bgn:Person-299 .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_151t_152> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w152w153> ;
+    xs:gYearMonth "1944-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w16w17w18> ;
+    xs:date "1945-04-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w162> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_154> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_156t_157t_158t_159t_160> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_163> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w164> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_154> ;
+    pb:ArgM-ADV bgn:Person-299 ;
+    pb:ArgM-LOC bgn:Person-299 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_165> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_164> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w180> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_180> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_182>,
+        bgn:Person-299 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_178> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_190> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w191> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_185> ;
+    pb:Arg1 bgn:Person-299 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_184> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_189> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w194> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_194> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_201> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w208> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_208> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_210t_211t_212>,
+        bgn:Person-299 .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w219> ;
+    pb:A0 bgn:Person-299 .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_233> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w242> ;
+    pb:Arg1 bgn:Person-299 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_236t_237> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_238t_239t_240> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w31> ;
+    pb:A0 bgn:Person-299 ;
+    pb:A2 bgn:Person-299 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_32t_33t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_44> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w45> ;
+    pb:Arg1 bgn:Person-299 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_49> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w50> ;
+    xs:gYear "1937" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w58> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w64> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_66>,
+        bgn:Person-299 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_6t_7t_8> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w7w8w9> ;
+    xs:date "1900-09-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_80> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w81> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w82> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_69> ;
+    pb:Arg1 bgn:Person-299 ;
+    pb:ArgM-DIR bgn:Person-299 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_76t_77t_78t_79t_80> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_68> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_70> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w100> ;
+    pb:Arg2 bgn:Person-299 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_93t_94t_95> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w100> nif:BeginIndex "547" ;
+    nif:anchorOf "emigreren" ;
+    nif:endIndex "556" ;
+    nif:lemma "emigreren" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w102> nif:BeginIndex "558" ;
+    nif:anchorOf "duikt" ;
+    nif:endIndex "563" ;
+    nif:lemma "duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w106> nif:anchorOf "Pels" ;
+    nif:beginIndex "579" ;
+    nif:endIndex "583" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w108w109w110> nif:anchorOf "13 juli 1942" ;
+    nif:beginIndex "587" ;
+    nif:endIndex "599" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w111> nif:anchorOf "onder" ;
+    nif:beginIndex "600" ;
+    nif:endIndex "605" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w111" ;
+    nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w116> nif:anchorOf "Frank" ;
+    nif:beginIndex "629" ;
+    nif:endIndex "634" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w119w120> nif:anchorOf "Fritz Pfeffer" ;
+    nif:beginIndex "647" ;
+    nif:endIndex "660" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w12> nif:anchorOf "Raguhn" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w123> nif:anchorOf "Prinsengracht" ;
+    nif:beginIndex "668" ;
+    nif:endIndex "681" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w127w128w129> nif:anchorOf "4 augustus 1944" ;
+    nif:beginIndex "691" ;
+    nif:endIndex "706" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w130> nif:BeginIndex "707" ;
+    nif:anchorOf "worden" ;
+    nif:endIndex "713" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w131w132> nif:anchorOf "de onderduikers" ;
+    nif:beginIndex "714" ;
+    nif:endIndex "729" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w132" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w133> nif:BeginIndex "730" ;
+    nif:anchorOf "verraden" ;
+    nif:endIndex "738" ;
+    nif:lemma "verraden" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w135> nif:BeginIndex "742" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "750" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w137> a bgn:pron_3p ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "752" ;
+    nif:endIndex "755" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w137" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w14> nif:anchorOf "Teresienstadt" ;
+    nif:beginIndex "69" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w140> nif:anchorOf "Westerbork" ;
+    nif:beginIndex "768" ;
+    nif:endIndex "778" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w141> nif:BeginIndex "779" ;
+    nif:anchorOf "getransporteerd" ;
+    nif:endIndex "794" ;
+    nif:lemma "transporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w150> nif:anchorOf "Auschwitz" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "850" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w152w153> nif:anchorOf "september 1944" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "868" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w155> a bgn:pron_3fs ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "870" ;
+    nif:endIndex "872" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w155" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w157w158w159w160w161> nif:anchorOf "van haar man en zoon" ;
+    nif:beginIndex "878" ;
+    nif:endIndex "898" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w157" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w162> nif:BeginIndex "899" ;
+    nif:anchorOf "gescheiden" ;
+    nif:endIndex "909" ;
+    nif:lemma "scheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w164> nif:BeginIndex "913" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "918" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w165> nif:anchorOf "daarna" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "925" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w165" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w166> nif:anchorOf "kort" ;
+    nif:beginIndex "926" ;
+    nif:endIndex "930" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w166" ;
+    nif:lemma "kort" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w168> nif:anchorOf "Anne" ;
+    nif:beginIndex "935" ;
+    nif:endIndex "939" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w16w17w18> nif:anchorOf "9 april 1945" ;
+    nif:beginIndex "84" ;
+    nif:endIndex "96" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w170> nif:anchorOf "Margot" ;
+    nif:beginIndex "941" ;
+    nif:endIndex "947" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w172> nif:anchorOf "Edith" ;
+    nif:beginIndex "951" ;
+    nif:endIndex "956" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w177> nif:anchorOf "Auschwitz-Birkenau" ;
+    nif:beginIndex "984" ;
+    nif:endIndex "1002" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w179> nif:anchorOf "Daarna" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1010" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w179" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w180> nif:BeginIndex "1011" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "1015" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w181> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1016" ;
+    nif:endIndex "1018" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w181" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w183> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "1024" ;
+    nif:endIndex "1037" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w185> nif:anchorOf "waar" ;
+    nif:beginIndex "1039" ;
+    nif:endIndex "1043" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w185" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w186> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1044" ;
+    nif:endIndex "1046" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w186" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w187> nif:anchorOf "Anne" ;
+    nif:beginIndex "1047" ;
+    nif:endIndex "1051" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w189> nif:anchorOf "Margot" ;
+    nif:beginIndex "1055" ;
+    nif:endIndex "1061" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w190> nif:anchorOf "opnieuw" ;
+    nif:beginIndex "1062" ;
+    nif:endIndex "1069" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w190" ;
+    nif:lemma "opnieuw" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w191> nif:BeginIndex "1070" ;
+    nif:anchorOf "tegenkwam" ;
+    nif:endIndex "1079" ;
+    nif:lemma "tegen_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w193> nif:anchorOf "Vandaar" ;
+    nif:beginIndex "1081" ;
+    nif:endIndex "1088" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w193" ;
+    nif:lemma "vandaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w194> nif:BeginIndex "1089" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "1093" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w195> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1094" ;
+    nif:endIndex "1096" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w195" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w197> nif:anchorOf "Raguhn" ;
+    nif:beginIndex "1102" ;
+    nif:endIndex "1108" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w1w2w3> nif:anchorOf "van Pels-Röttgen" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w20> nif:BeginIndex "98" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "101" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w202> nif:anchorOf "Buchenwald" ;
+    nif:beginIndex "1123" ;
+    nif:endIndex "1133" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w207> nif:anchorOf "Teresienstadt" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1166" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w208> nif:BeginIndex "1167" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1175" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w209> a bgn:pron_3fs ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1178" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w209" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w211w212w213> nif:anchorOf "9 april 1945" ;
+    nif:beginIndex "1182" ;
+    nif:endIndex "1194" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w216w217w218> nif:anchorOf "Rachel van Amerongen-Frankfoorder" ;
+    nif:beginIndex "1207" ;
+    nif:endIndex "1240" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w219> nif:BeginIndex "1241" ;
+    nif:anchorOf "verklaarde" ;
+    nif:endIndex "1251" ;
+    nif:lemma "verklaren" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w221> nif:anchorOf "Auguste" ;
+    nif:beginIndex "1256" ;
+    nif:endIndex "1263" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w223> nif:anchorOf "Pels" ;
+    nif:beginIndex "1268" ;
+    nif:endIndex "1272" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w226> nif:anchorOf "Nazi" ;
+    nif:beginIndex "1281" ;
+    nif:endIndex "1285" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w234> nif:BeginIndex "1328" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1330" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w237w238> nif:anchorOf "ter plekke" ;
+    nif:beginIndex "1342" ;
+    nif:endIndex "1352" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w237" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w239w240w241> nif:anchorOf "om het leven" ;
+    nif:beginIndex "1353" ;
+    nif:endIndex "1365" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w239" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w242> nif:BeginIndex "1366" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1370" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w244w245w246> nif:anchorOf "Auguste van Pels-Röttgen" ;
+    nif:beginIndex "1373" ;
+    nif:endIndex "1397" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w249w250> nif:anchorOf "Joods Monument" ;
+    nif:beginIndex "1405" ;
+    nif:endIndex "1419" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w26w27> nif:anchorOf "Het Achterhuis" ;
+    nif:beginIndex "129" ;
+    nif:endIndex "143" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w29w30> nif:anchorOf "Auguste Röttgen" ;
+    nif:beginIndex "146" ;
+    nif:endIndex "161" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w31> nif:BeginIndex "162" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "169" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w33w34w35> nif:anchorOf "5 december 1925" ;
+    nif:beginIndex "173" ;
+    nif:endIndex "188" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w37w38w39> nif:anchorOf "Hermann van Pels" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "209" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w43> nif:anchorOf "Peter" ;
+    nif:beginIndex "220" ;
+    nif:endIndex "225" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w45> nif:BeginIndex "231" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "238" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w47> nif:anchorOf "1926" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "246" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w5> nif:anchorOf "Buer" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w50> nif:anchorOf "1937" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "255" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w55> nif:anchorOf "Pels" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "285" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w58> nif:BeginIndex "297" ;
+    nif:anchorOf "nazidreiging" ;
+    nif:endIndex "309" ;
+    nif:lemma "nazi_dreiging" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w60> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "322" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w62> nif:anchorOf "Nederland" ;
+    nif:beginIndex "328" ;
+    nif:endIndex "337" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w64> nif:BeginIndex "341" ;
+    nif:anchorOf "vestigden" ;
+    nif:endIndex "350" ;
+    nif:lemma "vestigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w65> nif:anchorOf "zich" ;
+    nif:beginIndex "351" ;
+    nif:endIndex "355" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w65" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w67> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "359" ;
+    nif:endIndex "368" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w69> nif:anchorOf "waar" ;
+    nif:beginIndex "370" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w69" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w70> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "378" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w70" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w71> nif:anchorOf "eerst" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "384" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w71" ;
+    nif:lemma "eerst" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w76> nif:anchorOf "Biesboschstraat" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "418" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w77w78w79w80w81> nif:anchorOf "betrokken en in 1940" ;
+    nif:beginIndex "419" ;
+    nif:endIndex "440" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w7w8w9> nif:anchorOf "29 september 1900" ;
+    nif:beginIndex "32" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w81> nif:anchorOf "1940" ;
+    nif:beginIndex "436" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w82> nif:BeginIndex "441" ;
+    nif:anchorOf "verhuisden" ;
+    nif:endIndex "451" ;
+    nif:lemma "verhuizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w85w86> nif:anchorOf "Zuider Amstellaan" ;
+    nif:beginIndex "460" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w94w95w96> nif:anchorOf "met het gezin" ;
+    nif:beginIndex "517" ;
+    nif:endIndex "530" ;
+    nif:head "bgnProc:299__Auguste_van_Pels.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w98> nif:anchorOf "Amerika" ;
+    nif:beginIndex "536" ;
+    nif:endIndex "543" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_107t_108t_109> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w108w109w110> ;
+    xs:date "1942-07-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_156t_157t_158t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w157w158w159w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_210t_211t_212> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w211w212w213> ;
+    xs:date "1945-04-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_236t_237> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w237w238> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_238t_239t_240> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w239w240w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_32t_33t_34> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w33w34w35> ;
+    xs:date "1925-12-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w47> ;
+    xs:gYear "1926" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_69> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w70> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_76t_77t_78t_79t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w77w78w79w80w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_93t_94t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w94w95w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_126t_127t_128> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w127w128w129> ;
+    xs:date "1944-08-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w131w132> .
+
+bgn:Person-299 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w119w120>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w150>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w172>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w183>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w189>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w207>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w216w217w218>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w221>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w223>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w226>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w244w245w246>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w249w250>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w37w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w60>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w85w86>,
+        <http://data.biographynet.nl/rdf/170506221754/299__Auguste_van_Pels.naf#w98> ;
+    stevensFam:isPartnerIn bgn:Person-299 .
+

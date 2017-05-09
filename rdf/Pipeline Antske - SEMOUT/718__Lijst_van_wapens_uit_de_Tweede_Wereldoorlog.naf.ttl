@@ -1,0 +1,276 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_1>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_95>,
+        bgn:Person-718 ;
+    ore:proxyFor bgn:Person-718 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w13> nif:lemma "per" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-718 ;
+    bgn:aggregatedPerson bgn:Person-718 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_1> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w2> .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_11> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w12> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_12t_13> .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w124> ;
+    pb:Arg1 bgn:Person-718 .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_134> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w135> ;
+    pb:Arg1 bgn:Person-718 .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_19> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w20> ;
+    xs:gYear "1922" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w105w106w107> nif:anchorOf "Panzerschreck Panzerfaust Panzerbüchse" ;
+    nif:beginIndex "658" ;
+    nif:endIndex "698" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w117w118w119> nif:anchorOf "Lee-Enfield De Lisle" ;
+    nif:beginIndex "780" ;
+    nif:endIndex "801" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w12> nif:BeginIndex "56" ;
+    nif:anchorOf "gerangschikt" ;
+    nif:endIndex "68" ;
+    nif:lemma "gerangschikt" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w121w122> nif:anchorOf "M1 Garand" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "820" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w124> nif:BeginIndex "822" ;
+    nif:anchorOf "geïmporteerd" ;
+    nif:endIndex "834" ;
+    nif:lemma "geïmporteerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w127> nif:anchorOf "Amerikanen" ;
+    nif:beginIndex "842" ;
+    nif:endIndex "852" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w133> nif:anchorOf "Thompson" ;
+    nif:beginIndex "889" ;
+    nif:endIndex "897" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w135> nif:BeginIndex "899" ;
+    nif:anchorOf "geïmporteerd" ;
+    nif:endIndex "911" ;
+    nif:lemma "geïmporteerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w138> nif:anchorOf "Amerikanen" ;
+    nif:beginIndex "919" ;
+    nif:endIndex "929" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w13w14> nif:anchorOf "per land" ;
+    nif:beginIndex "69" ;
+    nif:endIndex "77" ;
+    nif:head "bgnProc:718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w13" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w143w144w145> nif:anchorOf "Bren LMG Handpistool" ;
+    nif:beginIndex "954" ;
+    nif:endIndex "975" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w147> nif:anchorOf "Colt" ;
+    nif:beginIndex "978" ;
+    nif:endIndex "982" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w151> nif:anchorOf "Springfield" ;
+    nif:beginIndex "1002" ;
+    nif:endIndex "1013" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w155w156w157w158w159w160> nif:anchorOf "M1 Carbine Johnson Automatisch Geweer Pistoolmitrailleurs" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1091" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w165w166w167> nif:anchorOf "Grease Gun Licht" ;
+    nif:beginIndex "1135" ;
+    nif:endIndex "1152" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w170w171w172w173> nif:anchorOf "Browning Automatic Rifle Machinegeweren" ;
+    nif:beginIndex "1169" ;
+    nif:endIndex "1209" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w175> nif:anchorOf "Browning" ;
+    nif:beginIndex "1212" ;
+    nif:endIndex "1220" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w177> nif:anchorOf "Browning" ;
+    nif:beginIndex "1228" ;
+    nif:endIndex "1236" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w18> nif:anchorOf "Browning" ;
+    nif:beginIndex "94" ;
+    nif:endIndex "102" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w183w184> nif:anchorOf "Bazooka Handpistool" ;
+    nif:beginIndex "1268" ;
+    nif:endIndex "1288" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w187w188> nif:anchorOf "Tokarev Geweren" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1312" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w190w191> nif:anchorOf "Mosin-Nagant Tokarev" ;
+    nif:beginIndex "1315" ;
+    nif:endIndex "1336" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w2> nif:BeginIndex "4" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "6" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w20> nif:anchorOf "1922" ;
+    nif:beginIndex "106" ;
+    nif:endIndex "110" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w201w202> nif:anchorOf "DP Antitankgeweer" ;
+    nif:beginIndex "1412" ;
+    nif:endIndex "1430" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w24w25> nif:anchorOf "Pistool M.25" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w35> nif:anchorOf "Lewis" ;
+    nif:beginIndex "189" ;
+    nif:endIndex "194" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w43> nif:anchorOf "Spandau" ;
+    nif:beginIndex "250" ;
+    nif:endIndex "257" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w47w48> nif:anchorOf "Eihandgranaat No." ;
+    nif:beginIndex "279" ;
+    nif:endIndex "296" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w50> nif:anchorOf "Eihandgranaat" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "313" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w59w60w61> nif:anchorOf "Walther P38 Walther" ;
+    nif:beginIndex "359" ;
+    nif:endIndex "379" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w64w65> nif:anchorOf "PPK/S Mauser" ;
+    nif:beginIndex "387" ;
+    nif:endIndex "400" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w66w67> nif:anchorOf "HSc Geweren" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "413" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w69> nif:anchorOf "Mauser" ;
+    nif:beginIndex "416" ;
+    nif:endIndex "422" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w72w73> nif:anchorOf "Mauser Karabiner" ;
+    nif:beginIndex "434" ;
+    nif:endIndex "450" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w96> nif:BeginIndex "599" ;
+    nif:anchorOf "MG" ;
+    nif:endIndex "601" ;
+    nif:lemma "milli_gram" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w9w10> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "54" .
+
+<http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#t_12t_13> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w13w14> .
+
+bgn:Person-718 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w105w106w107>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w117w118w119>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w121w122>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w127>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w138>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w143w144w145>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w147>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w151>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w155w156w157w158w159w160>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w165w166w167>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w170w171w172w173>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w183w184>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w187w188>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w190w191>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w201w202>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w24w25>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w59w60w61>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w64w65>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w66w67>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/718__Lijst_van_wapens_uit_de_Tweede_Wereldoorlog.naf#w9w10> .
+

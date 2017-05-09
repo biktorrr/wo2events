@@ -1,0 +1,915 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_127t_128t_129t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_136t_137t_138t_139t_140t_141t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_140t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_168t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_188t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_193t_194t_195t_196t_197t_198t_199t_200t_201t_202t_203t_204t_205t_206t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_203t_204t_205t_206t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_204t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_216t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_224t_225t_226t_227t_228t_229t_230t_231t_232t_233t_234t_235t_236t_237t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_226t_227t_228t_229t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_235t_236t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_245t_246t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_275t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_27t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_291>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_292>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_293t_294t_295t_296t_297t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_32t_33t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_5t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_91>,
+        bgn:Person-180 ;
+    ore:proxyFor bgn:Person-180 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w131> nif:lemma "executie" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w138> nif:lemma "poging" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w142> nif:lemma "executie" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w155> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w170> nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w19> nif:lemma "gevangene" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w190> nif:lemma "gevangene" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w194> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w204> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w206> nif:lemma "gevangene" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w218> nif:lemma "konvooi" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w228> nif:lemma "gevangene" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w236> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w246> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w277> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w29> nif:lemma "executie" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w294> nif:lemma "omdat" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w33> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w7> nif:lemma "gebeurtenis" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w71> nif:lemma "gevangene" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-180__Fusillade_bij_Dronrijp#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-180__Fusillade_bij_Dronrijp .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-180 ;
+    bgn:aggregatedPerson bgn:Person-180 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-180__Fusillade_bij_Dronrijp ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-180__Fusillade_bij_Dronrijp ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_108> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w109> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w123> ;
+    pb:Arg0 bgn:Person-180 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_127t_128t_129t_130> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w130> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w139> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_136t_137t_138t_139t_140t_141t_142t_143> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w144> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_140t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w150> ;
+    pb:A0 bgn:Person-180 ;
+    pb:A2 bgn:Person-180 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_145> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w158> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w161> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_165>,
+        bgn:Person-180 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_168t_169> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w167> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w173> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_173> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w187> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_180> ;
+    pb:AM-LOC bgn:Person-180 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_181> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_184> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w193> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_188t_189> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_193t_194t_195t_196t_197t_198t_199t_200t_201t_202t_203t_204t_205t_206t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_202> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w203> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_201> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_200> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_203t_204t_205t_206t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w208> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_204t_205> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w219> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_216t_217> ;
+    pb:Arg2 bgn:Person-180 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_214> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w226> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_224t_225t_226t_227t_228t_229t_230t_231t_232t_233t_234t_235t_236t_237t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_226t_227t_228t_229t_230> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_232> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w233> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_226t_227t_228t_229t_230> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_231> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_224> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_238> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w239> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_226t_227t_228t_229t_230> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_234> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_224> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_235t_236t_237> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w245> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_245t_246t_247> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w26> ;
+    pb:Arg0 bgn:Person-180 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_17t_18> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_16> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_258> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w259> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_267> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w268> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_265> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_274> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w275> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_275t_276> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w30> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_27t_28> ;
+    pb:ArgM-CAU bgn:Person-180 ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_32t_33t_34> ;
+    pb:ArgM-TMP bgn:Person-180 .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_291> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w292> ;
+    pb:ArgM-CAU bgn:Person-180 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_292>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_293t_294t_295t_296t_297t_298> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_297> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w298> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w5> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_5t_6> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_8>,
+        bgn:Person-180 .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w42> ;
+    pb:ArgM bgn:Person-180 .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w59> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_45>,
+        bgn:Person-180 .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w77> ;
+    pb:Arg0 bgn:Person-180 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_69t_70> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_75> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_91> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w92> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w102w103w104> nif:anchorOf "Dirk de Jong" ;
+    nif:beginIndex "643" ;
+    nif:endIndex "655" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w105w106w107> nif:anchorOf "Gerard de Jong" ;
+    nif:beginIndex "657" ;
+    nif:endIndex "671" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w108w109w110w111w112w113w114w115w116w117> nif:anchorOf "Hendrik Jan de Jong Ruurd Kooistra Johannes Marinus Ducanaeux Oudger" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "744" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w109> nif:anchorOf "Jan" ;
+    nif:beginIndex "681" ;
+    nif:endIndex "684" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w119> nif:anchorOf "Dijk" ;
+    nif:beginIndex "749" ;
+    nif:endIndex "753" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w123> nif:BeginIndex "775" ;
+    nif:anchorOf "overleefde" ;
+    nif:endIndex "785" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w125w126w127> nif:anchorOf "Gerard de Jong" ;
+    nif:beginIndex "793" ;
+    nif:endIndex "807" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w128w129w130w131> nif:anchorOf "de hierop volgende executie" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "835" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w131" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w129> nif:anchorOf "hierop" ;
+    nif:beginIndex "811" ;
+    nif:endIndex "817" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w129" ;
+    nif:lemma "hierop" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w130> nif:BeginIndex "818" ;
+    nif:anchorOf "volgende" ;
+    nif:endIndex "826" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w134w135> nif:anchorOf "Binnenlandse Strijdkrachten" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "868" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w137w138w139w140w141w142w143w144> nif:anchorOf "een poging gedaan om deze executies te voorkomen" ;
+    nif:beginIndex "876" ;
+    nif:endIndex "924" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w138" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w139> nif:BeginIndex "887" ;
+    nif:anchorOf "gedaan" ;
+    nif:endIndex "893" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w141w142> nif:anchorOf "deze executies" ;
+    nif:beginIndex "897" ;
+    nif:endIndex "911" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w142" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w144> nif:BeginIndex "915" ;
+    nif:anchorOf "voorkomen" ;
+    nif:endIndex "924" ;
+    nif:lemma "voorkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w146> nif:anchorOf "Zo" ;
+    nif:beginIndex "926" ;
+    nif:endIndex "928" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w146" ;
+    nif:lemma "zo" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w150> nif:BeginIndex "946" ;
+    nif:anchorOf "gegeven" ;
+    nif:endIndex "953" ;
+    nif:lemma "geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w153> nif:anchorOf "BS-gevechtsgroep" ;
+    nif:beginIndex "961" ;
+    nif:endIndex "977" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w155w156> nif:anchorOf "in actie" ;
+    nif:beginIndex "981" ;
+    nif:endIndex "989" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w155" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w158> nif:BeginIndex "993" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "998" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w15w16> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w161> nif:BeginIndex "1007" ;
+    nif:anchorOf "bereikte" ;
+    nif:endIndex "1015" ;
+    nif:lemma "bereiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w166> nif:anchorOf "Baijum" ;
+    nif:beginIndex "1033" ;
+    nif:endIndex "1039" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w167> nif:BeginIndex "1040" ;
+    nif:anchorOf "gestationeerde" ;
+    nif:endIndex "1054" ;
+    nif:lemma "gestationeerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w168> nif:anchorOf "BS-gevechtsgroep" ;
+    nif:beginIndex "1055" ;
+    nif:endIndex "1071" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w169w170> nif:anchorOf "te laat" ;
+    nif:beginIndex "1072" ;
+    nif:endIndex "1079" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w170" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w17> nif:anchorOf "waarbij" ;
+    nif:beginIndex "98" ;
+    nif:endIndex "105" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w17" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w173> nif:BeginIndex "1085" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1088" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w174> nif:anchorOf "ook" ;
+    nif:beginIndex "1089" ;
+    nif:endIndex "1092" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w174" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w181> nif:anchorOf "deze" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1133" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w181" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w182> nif:anchorOf "zich" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1138" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w182" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w184> nif:anchorOf "Putten" ;
+    nif:beginIndex "1142" ;
+    nif:endIndex "1148" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w185> nif:anchorOf "eerder" ;
+    nif:beginIndex "1149" ;
+    nif:endIndex "1155" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w187> nif:BeginIndex "1160" ;
+    nif:anchorOf "voorgedaan" ;
+    nif:endIndex "1170" ;
+    nif:lemma "voor_doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w189w190> nif:anchorOf "De gevangenen" ;
+    nif:beginIndex "1172" ;
+    nif:endIndex "1185" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w190" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w18w19> nif:anchorOf "14 gevangenen" ;
+    nif:beginIndex "106" ;
+    nif:endIndex "119" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w19" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w193> nif:BeginIndex "1200" ;
+    nif:anchorOf "ontzet" ;
+    nif:endIndex "1206" ;
+    nif:lemma "ontzetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w194w195w196w197w198w199w200w201w202w203w204w205w206w207w208> nif:anchorOf "bij de spoorlijn iets verderop waar men klaarlag om de gevangenen te bevrijden" ;
+    nif:beginIndex "1207" ;
+    nif:endIndex "1287" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w194" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w2> nif:anchorOf "Fusillade" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w201> nif:anchorOf "waar" ;
+    nif:beginIndex "1240" ;
+    nif:endIndex "1244" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w201" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w202> nif:anchorOf "men" ;
+    nif:beginIndex "1245" ;
+    nif:endIndex "1248" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w202" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w203> nif:BeginIndex "1249" ;
+    nif:anchorOf "klaarlag" ;
+    nif:endIndex "1257" ;
+    nif:lemma "klaar_liggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w204w205w206w207w208> nif:anchorOf "om de gevangenen te bevrijden" ;
+    nif:beginIndex "1258" ;
+    nif:endIndex "1287" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w204" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w205w206> nif:anchorOf "de gevangenen" ;
+    nif:beginIndex "1261" ;
+    nif:endIndex "1274" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w208> nif:BeginIndex "1278" ;
+    nif:anchorOf "bevrijden" ;
+    nif:endIndex "1287" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w215> nif:anchorOf "Dronrijp" ;
+    nif:beginIndex "1312" ;
+    nif:endIndex "1320" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w217w218> nif:anchorOf "het konvooi" ;
+    nif:beginIndex "1326" ;
+    nif:endIndex "1337" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w218" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w219> nif:BeginIndex "1338" ;
+    nif:anchorOf "verrast" ;
+    nif:endIndex "1345" ;
+    nif:lemma "verrassen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w222> nif:anchorOf "Engelse" ;
+    nif:beginIndex "1355" ;
+    nif:endIndex "1362" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w225> nif:anchorOf "Hierop" ;
+    nif:beginIndex "1377" ;
+    nif:endIndex "1383" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w225" ;
+    nif:lemma "hierop" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w225w226w227w228w229w230w231w232w233w234w235w236w237w238w239> nif:anchorOf "Hierop zijn de gevangenen uit de vrachtauto 's gezet en dus bij de brug gefusilleerd" ;
+    nif:beginIndex "1377" ;
+    nif:endIndex "1460" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w226" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w226> nif:BeginIndex "1384" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1388" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w227w228w229w230w231> nif:anchorOf "de gevangenen uit de vrachtauto" ;
+    nif:beginIndex "1389" ;
+    nif:endIndex "1420" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w228" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w232> nif:anchorOf "'s" ;
+    nif:beginIndex "1420" ;
+    nif:endIndex "1422" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w232" ;
+    nif:lemma "eens" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w233> nif:BeginIndex "1423" ;
+    nif:anchorOf "gezet" ;
+    nif:endIndex "1428" ;
+    nif:lemma "zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w235> nif:anchorOf "dus" ;
+    nif:beginIndex "1432" ;
+    nif:endIndex "1435" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w235" ;
+    nif:lemma "dus" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w236w237w238> nif:anchorOf "bij de brug" ;
+    nif:beginIndex "1436" ;
+    nif:endIndex "1447" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w236" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w239> nif:BeginIndex "1448" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1460" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w24> nif:anchorOf "SD" ;
+    nif:beginIndex "138" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w244> nif:anchorOf "Dronrijp" ;
+    nif:beginIndex "1480" ;
+    nif:endIndex "1488" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w245> nif:BeginIndex "1489" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1492" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w246w247w248> nif:anchorOf "na de executies" ;
+    nif:beginIndex "1493" ;
+    nif:endIndex "1508" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w246" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w252> nif:anchorOf "BS'" ;
+    nif:beginIndex "1523" ;
+    nif:endIndex "1526" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w259> nif:anchorOf "nu" ;
+    nif:beginIndex "1552" ;
+    nif:endIndex "1554" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w26> nif:BeginIndex "148" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "160" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w266> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "1584" ;
+    nif:endIndex "1587" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w266" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w268> nif:BeginIndex "1595" ;
+    nif:anchorOf "geroepen" ;
+    nif:endIndex "1603" ;
+    nif:lemma "roepen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w274> nif:anchorOf "Dronrijp" ;
+    nif:beginIndex "1621" ;
+    nif:endIndex "1629" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w275> nif:BeginIndex "1630" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1632" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w276w277> nif:anchorOf "een monument" ;
+    nif:beginIndex "1633" ;
+    nif:endIndex "1645" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w277" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w285w286w287> nif:anchorOf "Johannes Marinus Ducanaeux" ;
+    nif:beginIndex "1694" ;
+    nif:endIndex "1720" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w289w290w291> nif:anchorOf "Oudger van Dijk" ;
+    nif:beginIndex "1724" ;
+    nif:endIndex "1739" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w28w29> nif:anchorOf "De executie" ;
+    nif:beginIndex "163" ;
+    nif:endIndex "174" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w29" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w292> nif:BeginIndex "1740" ;
+    nif:anchorOf "ontbreken" ;
+    nif:endIndex "1749" ;
+    nif:lemma "ontbreken" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w293> nif:anchorOf "hierop" ;
+    nif:beginIndex "1750" ;
+    nif:endIndex "1756" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w293" ;
+    nif:lemma "hierop" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w294w295w296w297w298w299> nif:anchorOf "omdat zij in opspraak zijn geraakt" ;
+    nif:beginIndex "1757" ;
+    nif:endIndex "1791" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w294" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w298> nif:BeginIndex "1779" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1783" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w30> nif:BeginIndex "175" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "178" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w307> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1832" ;
+    nif:endIndex "1838" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w33w34w35> nif:anchorOf "voor de sabotage" ;
+    nif:beginIndex "195" ;
+    nif:endIndex "211" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w33" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w38w39> nif:anchorOf "Binnenlandse Strijdkrachten" ;
+    nif:beginIndex "220" ;
+    nif:endIndex "247" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w4> nif:anchorOf "Dronrijp" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w42> nif:BeginIndex "256" ;
+    nif:anchorOf "treinverkeer" ;
+    nif:endIndex "268" ;
+    nif:lemma "trein_verkeer" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w44> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "276" ;
+    nif:endIndex "286" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w46> nif:anchorOf "Franeker" ;
+    nif:beginIndex "290" ;
+    nif:endIndex "298" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w49> nif:BeginIndex "308" ;
+    nif:anchorOf "loshalen" ;
+    nif:endIndex "316" ;
+    nif:lemma "los_halen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w5> nif:BeginIndex "26" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "28" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w58> nif:anchorOf "Bolswarder" ;
+    nif:beginIndex "355" ;
+    nif:endIndex "365" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w59> nif:BeginIndex "366" ;
+    nif:anchorOf "vaart" ;
+    nif:endIndex "371" ;
+    nif:lemma "varen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w62> nif:anchorOf "Sicherheitsdienst" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "394" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w64> nif:anchorOf "Leeuwarden" ;
+    nif:beginIndex "399" ;
+    nif:endIndex "409" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w67w68w69> nif:anchorOf "11 april 1945" ;
+    nif:beginIndex "417" ;
+    nif:endIndex "430" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w6w7> nif:anchorOf "een gebeurtenis" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "44" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w7" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w70w71> nif:anchorOf "14 gevangenen" ;
+    nif:beginIndex "431" ;
+    nif:endIndex "444" ;
+    nif:head "bgnProc:180__Fusillade_bij_Dronrijp.naf#w71" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w76> nif:anchorOf "Dronrijp" ;
+    nif:beginIndex "462" ;
+    nif:endIndex "470" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w77> nif:BeginIndex "471" ;
+    nif:anchorOf "gebracht" ;
+    nif:endIndex "479" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w82w83w84w85w86w87w88w89w90> nif:anchorOf "Johannes Nieuwland Hendrik Jozef Spoelstra Douwe Tuinstra Mark Wierda" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "564" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w9> nif:anchorOf "Dronrijp" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w91w92w93w94w95w96w97> nif:anchorOf "Klaas Jan Wypcke Wierda Hyltje Wierda Sijbrandus" ;
+    nif:beginIndex "566" ;
+    nif:endIndex "616" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w92> nif:anchorOf "Jan" ;
+    nif:beginIndex "572" ;
+    nif:endIndex "575" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w99w100w101> nif:anchorOf "Dam Heinrich Harder" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "641" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_127t_128t_129t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w128w129w130w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_136t_137t_138t_139t_140t_141t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w137w138w139w140w141w142w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_140t_141> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w141w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_16> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_168t_169> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w169w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_17t_18> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w18w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_184> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w185> ;
+    xs:period "PAST_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_188t_189> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w189w190> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_193t_194t_195t_196t_197t_198t_199t_200t_201t_202t_203t_204t_205t_206t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w194w195w196w197w198w199w200w201w202w203w204w205w206w207w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_203t_204t_205t_206t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w204w205w206w207w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_204t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w205w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_216t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w217w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_224t_225t_226t_227t_228t_229t_230t_231t_232t_233t_234t_235t_236t_237t_238> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w225w226w227w228w229w230w231w232w233w234w235w236w237w238w239> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_234> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w235> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_235t_236t_237> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w236w237w238> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_245t_246t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w246w247w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_265> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w266> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_275t_276> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w276w277> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_27t_28> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w28w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_292> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w293> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_293t_294t_295t_296t_297t_298> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w294w295w296w297w298w299> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_32t_33t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w33w34w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_5t_6> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w6w7> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_66t_67t_68> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w67w68w69> ;
+    xs:date "1945-04-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#t_226t_227t_228t_229t_230> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w227w228w229w230w231> .
+
+bgn:Person-180 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w102w103w104>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w105w106w107>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w108w109w110w111w112w113w114w115w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w125w126w127>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w153>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w15w16>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w168>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w222>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w244>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w252>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w274>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w285w286w287>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w289w290w291>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w307>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w58>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w82w83w84w85w86w87w88w89w90>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w91w92w93w94w95w96w97>,
+        <http://data.biographynet.nl/rdf/170506221754/180__Fusillade_bij_Dronrijp.naf#w99w100w101> .
+

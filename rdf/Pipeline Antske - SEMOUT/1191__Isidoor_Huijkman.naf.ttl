@@ -1,0 +1,962 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_105t_106t_107t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_115t_116t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_120t_121t_122t_123t_124t_125t_126t_127t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_121t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_135t_136t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_138t_139t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_161t_162t_163t_164t_165t_166t_167t_168t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_170t_171t_172t_173t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_197t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_207t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_214t_215t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_219t_220t_221t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_239t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_251t_252>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_253t_254t_255t_256t_257t_258t_259t_260t_261t_262t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_276t_277t_278t_279>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_288>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_308t_309>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_310>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_312t_313t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_316t_317>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_318>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_320t_321t_322t_323t_324>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_326t_327>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_328>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_343>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_346t_347t_348t_349>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_350t_351>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_352t_353t_354>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_44t_45t_46t_47t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_63t_64t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_70t_71t_72t_73t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_81t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_93>,
+        bgn:Person-1191 ;
+    ore:proxyFor bgn:Person-1191 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w106> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w118> nif:lemma "werker" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w121> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w122> nif:lemma "begin" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w127> nif:lemma "arrestatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w129> nif:lemma "dichtbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w136> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w141> nif:lemma "heenkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w162> nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w175> nif:lemma "knok_ploeg" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w198> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w208> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w215> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w220> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w241> nif:lemma "kraak" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w252> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w255> nif:lemma "hoeveelheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w277> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w310> nif:lemma "kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w314> nif:lemma "alle" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w317> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w321> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w328> nif:lemma "man" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w347> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w352> nif:lemma "leven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w353> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w45> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w72> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w82> nif:lemma "door" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1191__Isidoor_Huijkman#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1191__Isidoor_Huijkman .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1191 ;
+    bgn:aggregatedPerson bgn:Person-1191 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1191__Isidoor_Huijkman ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1191__Isidoor_Huijkman ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w119> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_115t_116t_117> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_114> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_105t_106t_107t_108t_109t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w130> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_125t_126> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_127t_128> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_121t_122t_123t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w131> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_138t_139t_140> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_135t_136t_137> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_120t_121t_122t_123t_124t_125t_126t_127t_128t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w144> ;
+    pb:Arg1 bgn:Person-1191 ;
+    pb:ArgM-PRD bgn:Person-1191 .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w176> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_161t_162t_163t_164t_165t_166t_167t_168t_169> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_170t_171t_172t_173t_174> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w183> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w205> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_196> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_197t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w211> ;
+    pb:A0 bgn:Person-1191 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_226>,
+        bgn:Person-1191 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_207t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_214t_215t_216t_217t_218> ;
+    pb:AM-MNR bgn:Person-1191 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_219t_220t_221t_222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_242> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w243> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_239t_240> ;
+    pb:AM-TMP bgn:Person-1191 .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w26> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_30> ;
+    pb:ArgM-LOC bgn:Person-1191 ;
+    pb:ArgM-TMP bgn:Person-1191 .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_250> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w251> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_239t_240> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_253t_254t_255t_256t_257t_258t_259t_260t_261t_262t_263> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_251t_252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w276> ;
+    pb:Arg1 bgn:Person-1191 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_274> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_276t_277t_278t_279> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_288> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w289> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_287> ;
+    pb:A2 bgn:Person-1191 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_285> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_310> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w311> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_308t_309> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_318> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w319> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_312t_313t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_316t_317> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_328> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w329> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_326t_327> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_320t_321t_322t_323t_324>,
+        bgn:Person-1191 .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_343> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w344> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_350t_351> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_352t_353t_354> ;
+    pb:AM-PRD bgn:Person-1191 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_346t_347t_348t_349> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w59> ;
+    pb:A1 bgn:Person-1191 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_44t_45t_46t_47t_48t_49> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_54>,
+        bgn:Person-1191 .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w63> ;
+    pb:A0 bgn:Person-1191 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_63t_64t_65t_66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w67> ;
+    pb:Arg0 bgn:Person-1191 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_63> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w70> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_68> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_70t_71t_72t_73t_74t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w80> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_68> ;
+    pb:Arg2 bgn:Person-1191 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_80> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_81t_82t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w93> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_91> ;
+    pb:A1 bgn:Person-1191 ;
+    pb:AM-LOC bgn:Person-1191 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w10> nif:anchorOf "Vught" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w103w104> nif:anchorOf "Fritz Conijn" ;
+    nif:beginIndex "547" ;
+    nif:endIndex "559" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w106w107w108w109w110w111> nif:anchorOf "In de periode april-juli ' 44" ;
+    nif:beginIndex "562" ;
+    nif:endIndex "590" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w115> nif:anchorOf "Noord-Holland" ;
+    nif:beginIndex "604" ;
+    nif:endIndex "617" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w116w117w118> nif:anchorOf "veel illegale werkers" ;
+    nif:beginIndex "618" ;
+    nif:endIndex "639" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w119> nif:BeginIndex "640" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "652" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w121w122w123w124w125w126w127w128w129w130> nif:anchorOf "Toen begin juli ' 44 deze arrestaties steeds dichterbij kwamen" ;
+    nif:beginIndex "654" ;
+    nif:endIndex "715" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w122w123w124w125> nif:anchorOf "begin juli ' 44" ;
+    nif:beginIndex "659" ;
+    nif:endIndex "673" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w126w127> nif:anchorOf "deze arrestaties" ;
+    nif:beginIndex "674" ;
+    nif:endIndex "690" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w128w129> nif:anchorOf "steeds dichterbij" ;
+    nif:beginIndex "691" ;
+    nif:endIndex "708" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w130> nif:BeginIndex "709" ;
+    nif:anchorOf "kwamen" ;
+    nif:endIndex "715" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w131> nif:BeginIndex "716" ;
+    nif:anchorOf "zochten" ;
+    nif:endIndex "723" ;
+    nif:lemma "zoeken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w134> nif:anchorOf "KP'" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "743" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w136w137w138> nif:anchorOf "naar alle kanten" ;
+    nif:beginIndex "747" ;
+    nif:endIndex "763" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w136" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w139w140w141> nif:anchorOf "een goed heenkomen" ;
+    nif:beginIndex "764" ;
+    nif:endIndex "782" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w143> nif:anchorOf "Huijkman" ;
+    nif:beginIndex "784" ;
+    nif:endIndex "792" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w144> nif:BeginIndex "793" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "797" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w149w150w151w152> nif:anchorOf "Jan Arie de Groot" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "842" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w155> nif:anchorOf "Jos" ;
+    nif:beginIndex "845" ;
+    nif:endIndex "848" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w159> nif:anchorOf "Rotterdam-Kralingen" ;
+    nif:beginIndex "856" ;
+    nif:endIndex "875" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w16> nif:BeginIndex "70" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "73" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w161> nif:anchorOf "waar" ;
+    nif:beginIndex "877" ;
+    nif:endIndex "881" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w161" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w162w163w164w165w166w167w168w169w170> a bgn:pron_3p ;
+    nif:anchorOf "zij in de eerste helft van juli ' 44" ;
+    nif:beginIndex "882" ;
+    nif:endIndex "917" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w162" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w171w172w173w174w175> nif:anchorOf "een eigen onafhankelijke knokploeg" ;
+    nif:beginIndex "918" ;
+    nif:endIndex "953" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w175" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w176> nif:BeginIndex "954" ;
+    nif:anchorOf "vormden" ;
+    nif:endIndex "961" ;
+    nif:lemma "vormen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w179w180> nif:anchorOf "Ploeg Jos" ;
+    nif:beginIndex "966" ;
+    nif:endIndex "975" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w18> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "78" ;
+    nif:endIndex "89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w182> nif:anchorOf "Huijkman" ;
+    nif:beginIndex "978" ;
+    nif:endIndex "986" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w183> nif:BeginIndex "987" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "990" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w184> nif:anchorOf "tevens" ;
+    nif:beginIndex "991" ;
+    nif:endIndex "997" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w184" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w189w190> nif:anchorOf "H. G." ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1038" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w192w193> nif:anchorOf "Hervormde Groep" ;
+    nif:beginIndex "1040" ;
+    nif:endIndex "1055" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w197> nif:anchorOf "die" ;
+    nif:beginIndex "1068" ;
+    nif:endIndex "1071" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w197" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w198w199> nif:anchorOf "tot mei" ;
+    nif:beginIndex "1072" ;
+    nif:endIndex "1079" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w198" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w1w2> nif:anchorOf "Huijkman" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w202w203> nif:anchorOf "Groep 2000" ;
+    nif:beginIndex "1086" ;
+    nif:endIndex "1096" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w205> nif:BeginIndex "1098" ;
+    nif:anchorOf "heette" ;
+    nif:endIndex "1104" ;
+    nif:lemma "heten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w208w209w210> nif:anchorOf "Op zijn verzoek" ;
+    nif:beginIndex "1107" ;
+    nif:endIndex "1122" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w208" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w211> nif:BeginIndex "1123" ;
+    nif:anchorOf "kraakte" ;
+    nif:endIndex "1130" ;
+    nif:lemma "kraken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w213w214> nif:anchorOf "Ploeg Jos" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1143" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w215w216w217w218w219> nif:anchorOf "in de nacht van 25" ;
+    nif:beginIndex "1144" ;
+    nif:endIndex "1162" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w220w221w222w223> nif:anchorOf "op 26 juli 1944" ;
+    nif:beginIndex "1163" ;
+    nif:endIndex "1178" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w220" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w225> nif:anchorOf "Raadhuis" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1191" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w227> nif:anchorOf "Amstelveen" ;
+    nif:beginIndex "1195" ;
+    nif:endIndex "1205" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w22w23> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "117" ;
+    nif:endIndex "136" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w235w236w237w238> nif:anchorOf "Anton van den Hurk" ;
+    nif:beginIndex "1247" ;
+    nif:endIndex "1265" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w240w241> nif:anchorOf "Deze kraak" ;
+    nif:beginIndex "1267" ;
+    nif:endIndex "1277" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w241" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w243> nif:BeginIndex "1283" ;
+    nif:anchorOf "uitgevoerd" ;
+    nif:endIndex "1293" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w248w249w250> nif:anchorOf "H. G.-Amsterdam en" ;
+    nif:beginIndex "1313" ;
+    nif:endIndex "1330" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w25> nif:anchorOf "Huijkman" ;
+    nif:beginIndex "139" ;
+    nif:endIndex "147" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w251> nif:BeginIndex "1331" ;
+    nif:anchorOf "leverde" ;
+    nif:endIndex "1338" ;
+    nif:lemma "op_leveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w252w253> nif:anchorOf "onder meer" ;
+    nif:beginIndex "1339" ;
+    nif:endIndex "1349" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w252" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w254w255w256w257w258w259w260w261w262w263w264> nif:anchorOf "een hoeveelheid bonkaarten ruim vijfhonderd blanco persoonsbewijzen en diverse stempels" ;
+    nif:beginIndex "1350" ;
+    nif:endIndex "1438" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w255" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w26> nif:BeginIndex "148" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "151" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w274> nif:anchorOf "Huijkman" ;
+    nif:beginIndex "1487" ;
+    nif:endIndex "1495" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w275> nif:anchorOf "thuis" ;
+    nif:beginIndex "1496" ;
+    nif:endIndex "1501" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w275" ;
+    nif:lemma "thuis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w276> nif:BeginIndex "1502" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "1510" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w277w278w279w280> nif:anchorOf "op 1 september 1944" ;
+    nif:beginIndex "1511" ;
+    nif:endIndex "1530" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w277" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w284> nif:anchorOf "Weteringschans" ;
+    nif:beginIndex "1542" ;
+    nif:endIndex "1556" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w286> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "1560" ;
+    nif:endIndex "1569" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w288> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1576" ;
+    nif:endIndex "1579" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w288" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w289> nif:BeginIndex "1580" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "1592" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w29> nif:anchorOf "Duitse" ;
+    nif:beginIndex "163" ;
+    nif:endIndex "169" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w291w292> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "1598" ;
+    nif:endIndex "1608" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w299w300> nif:anchorOf "Dolle Dinsdag" ;
+    nif:beginIndex "1632" ;
+    nif:endIndex "1645" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w309w310> nif:anchorOf "het kamp" ;
+    nif:beginIndex "1684" ;
+    nif:endIndex "1692" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w310" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w31> nif:anchorOf "werkzaam" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "188" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w31" ;
+    nif:lemma "werkzaam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w311> nif:BeginIndex "1693" ;
+    nif:anchorOf "ontruimd" ;
+    nif:endIndex "1701" ;
+    nif:lemma "ontruimen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w313w314w315> nif:anchorOf "Niet alle gevangenen" ;
+    nif:beginIndex "1703" ;
+    nif:endIndex "1723" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w314" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w317w318> nif:anchorOf "op transport" ;
+    nif:beginIndex "1731" ;
+    nif:endIndex "1743" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w317" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w319> nif:BeginIndex "1744" ;
+    nif:anchorOf "gesteld" ;
+    nif:endIndex "1751" ;
+    nif:lemma "stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w321w322w323w324w325> nif:anchorOf "Op 5 en 6 september" ;
+    nif:beginIndex "1753" ;
+    nif:endIndex "1772" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w321" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w327w328> nif:anchorOf "eenenzeventig mannen" ;
+    nif:beginIndex "1780" ;
+    nif:endIndex "1800" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w328" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w329> nif:BeginIndex "1801" ;
+    nif:anchorOf "omgebracht" ;
+    nif:endIndex "1811" ;
+    nif:lemma "om_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w335w336> nif:anchorOf "Kamp Vught" ;
+    nif:beginIndex "1844" ;
+    nif:endIndex "1854" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w342w343> nif:anchorOf "Fritz Conijn" ;
+    nif:beginIndex "1878" ;
+    nif:endIndex "1890" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w344> nif:BeginIndex "1891" ;
+    nif:anchorOf "laat" ;
+    nif:endIndex "1895" ;
+    nif:lemma "laten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w345w346> nif:anchorOf "Isidoor Huijkman" ;
+    nif:beginIndex "1896" ;
+    nif:endIndex "1912" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w347w348w349w350> nif:anchorOf "op 6 september 1944" ;
+    nif:beginIndex "1913" ;
+    nif:endIndex "1932" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w347" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w351w352> nif:anchorOf "het leven" ;
+    nif:beginIndex "1933" ;
+    nif:endIndex "1942" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w352" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w353w354w355> nif:anchorOf "voor het executiepeloton" ;
+    nif:beginIndex "1943" ;
+    nif:endIndex "1967" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w353" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w37w38w39> nif:anchorOf "Amsterdamse Brandstof Maatschappij" ;
+    nif:beginIndex "211" ;
+    nif:endIndex "245" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w4> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w42> nif:BeginIndex "250" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "253" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w43> nif:anchorOf "Joods" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "259" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w45w46w47w48w49w50> nif:anchorOf "Met ingang van 3 mei 1942" ;
+    nif:beginIndex "262" ;
+    nif:endIndex "287" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w53> nif:anchorOf "Joden" ;
+    nif:beginIndex "301" ;
+    nif:endIndex "306" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w55> nif:anchorOf "Nederland" ;
+    nif:beginIndex "310" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w58> nif:anchorOf "Jodenster" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "344" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w59> nif:BeginIndex "345" ;
+    nif:anchorOf "dragen" ;
+    nif:endIndex "351" ;
+    nif:lemma "dragen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w62> nif:anchorOf "Huijkman" ;
+    nif:beginIndex "358" ;
+    nif:endIndex "366" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w63> nif:BeginIndex "367" ;
+    nif:anchorOf "besloot" ;
+    nif:endIndex "374" ;
+    nif:lemma "besluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w64> nif:anchorOf "dit" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "378" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w64" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w64w65w66w67> nif:anchorOf "dit niet te doen" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "391" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w67" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w65> nif:anchorOf "niet" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "383" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w65" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w67> nif:BeginIndex "387" ;
+    nif:anchorOf "doen" ;
+    nif:endIndex "391" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w69> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "396" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w69" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w70> nif:BeginIndex "397" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "400" ;
+    nif:lemma "aan_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w71w72w73w74w75w76> nif:anchorOf "de naam van een overleden oom" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "430" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w80> nif:BeginIndex "439" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "443" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w81> nif:anchorOf "verder" ;
+    nif:beginIndex "444" ;
+    nif:endIndex "450" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w81" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w82w83w84> nif:anchorOf "door het leven" ;
+    nif:beginIndex "451" ;
+    nif:endIndex "465" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w82" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w87w88w89> nif:anchorOf "Martin van Bremen" ;
+    nif:beginIndex "471" ;
+    nif:endIndex "488" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w92> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "491" ;
+    nif:endIndex "494" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w92" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w93> nif:BeginIndex "495" ;
+    nif:anchorOf "sloot" ;
+    nif:endIndex "500" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w94> nif:anchorOf "zich" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "505" ;
+    nif:head "bgnProc:1191__Isidoor_Huijkman.naf#w94" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w98> nif:anchorOf "KP-Alkmaar" ;
+    nif:beginIndex "517" ;
+    nif:endIndex "527" .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_105t_106t_107t_108t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w106w107w108w109w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_115t_116t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w116w117w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_120t_121t_122t_123t_124t_125t_126t_127t_128t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w121w122w123w124w125w126w127w128w129w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_121t_122t_123t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w122w123w124w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_135t_136t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w136w137w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_138t_139t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w139w140w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_161t_162t_163t_164t_165t_166t_167t_168t_169> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w162w163w164w165w166w167w168w169w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_170t_171t_172t_173t_174> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w171w172w173w174w175> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_197t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w198w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_207t_208t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w208w209w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_214t_215t_216t_217t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w215w216w217w218w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_219t_220t_221t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w220w221w222w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_251t_252> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w252w253> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_253t_254t_255t_256t_257t_258t_259t_260t_261t_262t_263> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w254w255w256w257w258w259w260w261w262w263w264> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_274> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w275> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_276t_277t_278t_279> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w277w278w279w280> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_287> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w288> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_308t_309> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w309w310> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_312t_313t_314> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w313w314w315> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_316t_317> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w317w318> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_320t_321t_322t_323t_324> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w321w322w323w324w325> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_326t_327> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w327w328> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_346t_347t_348t_349> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w347w348w349w350> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_350t_351> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w351w352> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_352t_353t_354> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w353w354w355> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_44t_45t_46t_47t_48t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w45w46w47w48w49w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_63t_64t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w64w65w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_70t_71t_72t_73t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w71w72w73w74w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_81t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w82w83w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_239t_240> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w240w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w69> .
+
+bgn:Person-1191 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w103w104>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w143>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w149w150w151w152>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w155>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w179w180>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w189w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w192w193>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w213w214>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w225>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w235w236w237w238>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w248w249w250>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w274>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w284>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w286>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w291w292>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w299w300>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w335w336>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w342w343>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w345w346>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w37w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w58>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w87w88w89>,
+        <http://data.biographynet.nl/rdf/170506221754/1191__Isidoor_Huijkman.naf#w98> .
+

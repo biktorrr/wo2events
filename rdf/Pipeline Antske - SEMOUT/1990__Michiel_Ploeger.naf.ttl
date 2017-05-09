@@ -1,0 +1,706 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_121t_122t_123t_124t_125t_126t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_140t_141t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_151t_152t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_157t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_170t_171t_172t_173t_174t_175t_176t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_232t_233t_234t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_44t_45t_46t_47t_48t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_71t_72t_73t_74t_75t_76t_77t_78t_79t_80t_81t_82t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_99>,
+        bgn:Person-1990 ;
+    ore:proxyFor bgn:Person-1990 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w101> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w122> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w141> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w147> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w152> nif:lemma "tegelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w158> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w171> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w233> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w45> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w73> nif:lemma "knok_ploeg" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1990__Michiel_Ploeger#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1990__Michiel_Ploeger .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1990 ;
+    bgn:aggregatedPerson bgn:Person-1990 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1990__Michiel_Ploeger ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1990__Michiel_Ploeger ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w109> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w119> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_121t_122t_123t_124t_125t_126t_127>,
+        bgn:Person-1990 ;
+    pb:ArgM-TMP bgn:Person-1990 .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_127> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w128> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_125> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w131> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_129> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w145> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_137> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_140t_141t_142t_143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w150> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_150>,
+        bgn:Person-1990 .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w156> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_150> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_151t_152t_153t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w17> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w162> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_150> ;
+    pb:ArgM-LOC bgn:Person-1990 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_157t_158t_159t_160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w170> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_170t_171t_172t_173t_174t_175t_176t_177t_178> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w198> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_196>,
+        bgn:Person-1990 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_213> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w214> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w237> ;
+    pb:A0 bgn:Person-1990 ;
+    pb:A1 bgn:Person-1990 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_239> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_232t_233t_234t_235> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_245> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w43> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_43> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_44t_45t_46t_47t_48t_49t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w71> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_71t_72t_73t_74t_75t_76t_77t_78t_79t_80t_81t_82t_83>,
+        bgn:Person-1990 .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_75> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w87> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_87> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_96> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w99> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_99> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w100> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "608" ;
+    nif:endIndex "611" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w100" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w101w102w103w104w105w106w107w108w109w110> nif:anchorOf "bij het verstoppen en verspreiden van wapens die gedropt werden" ;
+    nif:beginIndex "612" ;
+    nif:endIndex "675" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w101" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w103> nif:BeginIndex "620" ;
+    nif:anchorOf "verstoppen" ;
+    nif:endIndex "630" ;
+    nif:lemma "verstoppen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w105> nif:BeginIndex "634" ;
+    nif:anchorOf "verspreiden" ;
+    nif:endIndex "645" ;
+    nif:lemma "verspreiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w108> nif:anchorOf "die" ;
+    nif:beginIndex "657" ;
+    nif:endIndex "660" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w108" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w109> nif:BeginIndex "661" ;
+    nif:anchorOf "gedropt" ;
+    nif:endIndex "668" ;
+    nif:lemma "droppen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w10w11> nif:anchorOf "Woeste Hoeve" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w116w117w118> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "702" ;
+    nif:endIndex "720" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w119> nif:BeginIndex "721" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "724" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w120> nif:anchorOf "Michiel" ;
+    nif:beginIndex "725" ;
+    nif:endIndex "732" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w121> nif:anchorOf "deel" ;
+    nif:beginIndex "733" ;
+    nif:endIndex "737" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w121" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w122w123w124w125w126w127w128> nif:anchorOf "aan verschillende overvallen waarbij verzetsstrijders werden bevrijd" ;
+    nif:beginIndex "738" ;
+    nif:endIndex "806" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w125> nif:anchorOf "waarbij" ;
+    nif:beginIndex "767" ;
+    nif:endIndex "774" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w125" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w126> nif:anchorOf "verzetsstrijders" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "791" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w126" ;
+    nif:lemma "verzetsstrijder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w128> nif:BeginIndex "799" ;
+    nif:anchorOf "bevrijd" ;
+    nif:endIndex "806" ;
+    nif:lemma "bevrijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w130> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "811" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w130" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w131> nif:BeginIndex "812" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "818" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w138> nif:anchorOf "die" ;
+    nif:beginIndex "855" ;
+    nif:endIndex "858" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w138" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w140> nif:anchorOf "Twente" ;
+    nif:beginIndex "862" ;
+    nif:endIndex "868" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w141w142w143w144> nif:anchorOf "voor een militaire inlichtingengroep" ;
+    nif:beginIndex "869" ;
+    nif:endIndex "905" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w145> nif:BeginIndex "906" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "912" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w147w148w149> nif:anchorOf "In november 1944" ;
+    nif:beginIndex "915" ;
+    nif:endIndex "931" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w150> nif:BeginIndex "932" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "936" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w151> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "937" ;
+    nif:endIndex "940" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w151" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w152w153w154w155> nif:anchorOf "tegelijk met deze marconist" ;
+    nif:beginIndex "941" ;
+    nif:endIndex "968" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w156> nif:BeginIndex "969" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "981" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w158w159w160w161> nif:anchorOf "op 8 maart 1945" ;
+    nif:beginIndex "985" ;
+    nif:endIndex "1000" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w162> nif:BeginIndex "1001" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1013" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w164w165> nif:anchorOf "Woeste Hoeve" ;
+    nif:beginIndex "1017" ;
+    nif:endIndex "1029" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w167> nif:anchorOf "Apeldoorn" ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1043" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w17> nif:BeginIndex "72" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "75" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w170> nif:BeginIndex "1048" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1051" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w171w172w173w174w175w176w177w178w179> nif:anchorOf "in de nacht van 6 op 7 maart 1945" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1085" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w171" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w185> nif:anchorOf "Duitse" ;
+    nif:beginIndex "1113" ;
+    nif:endIndex "1119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w187> nif:anchorOf "Rauter" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1135" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w189w190> nif:anchorOf "Woeste Hoeve" ;
+    nif:beginIndex "1140" ;
+    nif:endIndex "1152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w19> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w195> nif:anchorOf "aldaar" ;
+    nif:beginIndex "1177" ;
+    nif:endIndex "1183" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w195" ;
+    nif:lemma "aldaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w197> nif:anchorOf "Nederlanders" ;
+    nif:beginIndex "1188" ;
+    nif:endIndex "1200" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w198> nif:BeginIndex "1201" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1213" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w1w2> nif:anchorOf "Ploeger" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "15" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w202w203> nif:anchorOf "Michiel Ploeger" ;
+    nif:beginIndex "1225" ;
+    nif:endIndex "1240" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w213> nif:anchorOf "dat" ;
+    nif:beginIndex "1289" ;
+    nif:endIndex "1292" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w213" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w214> nif:BeginIndex "1293" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1295" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w218w219> nif:anchorOf "Woeste Hoeve" ;
+    nif:beginIndex "1313" ;
+    nif:endIndex "1325" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w233w234w235w236> nif:anchorOf "Op 5 december 1952" ;
+    nif:beginIndex "1399" ;
+    nif:endIndex "1417" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w237> nif:BeginIndex "1418" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "1425" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w238w239> nif:anchorOf "Michiel Ploeger" ;
+    nif:beginIndex "1426" ;
+    nif:endIndex "1441" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w23w24> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w240> nif:anchorOf "postuum" ;
+    nif:beginIndex "1442" ;
+    nif:endIndex "1449" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w240" ;
+    nif:lemma "postuum" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w242w243w244> nif:anchorOf "Kruis van Verdienste" ;
+    nif:beginIndex "1454" ;
+    nif:endIndex "1474" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w246> nif:BeginIndex "1476" ;
+    nif:anchorOf "K." ;
+    nif:endIndex "1478" ;
+    nif:lemma "K." .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w246w247> nif:anchorOf "K. B." ;
+    nif:beginIndex "1476" ;
+    nif:endIndex "1480" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w258w259w260> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "1524" ;
+    nif:endIndex "1542" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w26w27> nif:anchorOf "Michiel Ploeger" ;
+    nif:beginIndex "141" ;
+    nif:endIndex "156" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w28> nif:BeginIndex "157" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "160" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w33w34w35> nif:anchorOf "Wapen der Genie" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "207" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w4> nif:anchorOf "Borger" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w42> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "236" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w42" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w43> nif:BeginIndex "237" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "240" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w44> nif:anchorOf "deel" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "245" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w44" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w45w46w47w48w49w50w51> nif:anchorOf "aan het verzet vanuit zijn gereformeerde geloofsovertuiging" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "305" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w45" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w53w54> nif:anchorOf "Michiel Ploeger" ;
+    nif:beginIndex "308" ;
+    nif:endIndex "323" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w55> nif:BeginIndex "324" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "327" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w58w59w60> nif:anchorOf "Johannes ter Horst" ;
+    nif:beginIndex "340" ;
+    nif:endIndex "358" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w65> nif:anchorOf "KP-Enschede" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "385" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w68> nif:anchorOf "KP-Twente" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "402" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w70> nif:anchorOf "Ploeger" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "411" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w71> nif:BeginIndex "412" ;
+    nif:anchorOf "ondersteunde" ;
+    nif:endIndex "424" ;
+    nif:lemma "ondersteunen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w72w73w74w75w76w77w78w79w80w81w82w83w84> nif:anchorOf "de knokploeg bij het verbergen en verplaatsen van bemanningen van neergestorte geallieerde vliegtuigen" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "527" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w76> nif:BeginIndex "446" ;
+    nif:anchorOf "verbergen" ;
+    nif:endIndex "455" ;
+    nif:lemma "verbergen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w78> nif:BeginIndex "459" ;
+    nif:anchorOf "verplaatsen" ;
+    nif:endIndex "470" ;
+    nif:lemma "verplaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w86> nif:anchorOf "Verder" ;
+    nif:beginIndex "529" ;
+    nif:endIndex "535" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w86" ;
+    nif:lemma "ver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w87> nif:BeginIndex "536" ;
+    nif:anchorOf "nam" ;
+    nif:endIndex "539" ;
+    nif:lemma "deel_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w88> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "543" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w88" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w89> nif:anchorOf "deel" ;
+    nif:beginIndex "544" ;
+    nif:endIndex "548" ;
+    nif:head "bgnProc:1990__Michiel_Ploeger.naf#w89" ;
+    nif:lemma "deel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w97> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "589" ;
+    nif:endIndex "598" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w99> nif:BeginIndex "602" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "607" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_100t_101t_102t_103t_104t_105t_106t_107t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w101w102w103w104w105w106w107w108w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_121t_122t_123t_124t_125t_126t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w122w123w124w125w126w127w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_140t_141t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w141w142w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_151t_152t_153t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w152w153w154w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_157t_158t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w158w159w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_170t_171t_172t_173t_174t_175t_176t_177t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w171w172w173w174w175w176w177w178w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_232t_233t_234t_235> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w233w234w235w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_239> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w240> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_41> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_44t_45t_46t_47t_48t_49t_50> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w45w46w47w48w49w50w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_71t_72t_73t_74t_75t_76t_77t_78t_79t_80t_81t_82t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w72w73w74w75w76w77w78w79w80w81w82w83w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_88> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w89> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_146t_147t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w147w148w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w151> .
+
+bgn:Person-1990 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w10w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w116w117w118>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w140>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w164w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w189w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w202w203>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w218w219>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w238w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w242w243w244>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w246w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w258w259w260>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w33w34w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w53w54>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w58w59w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w70>,
+        <http://data.biographynet.nl/rdf/170506221754/1990__Michiel_Ploeger.naf#w97> .
+

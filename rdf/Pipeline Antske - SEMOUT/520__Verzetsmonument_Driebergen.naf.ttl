@@ -1,0 +1,660 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_112t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_137t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_140t_141t_142t_143t_144t_145t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_147t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_156t_157t_158t_159t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_166t_167t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181t_182t_183t_184t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_174t_175t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_177t_178t_179t_180t_181t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_23t_24t_25t_26t_27t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_54t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_72t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_86t_87t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_93t_94t_95t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_99t_100t_101t_102t_103t_104t_105t_106>,
+        bgn:Person-520 ;
+    ore:proxyFor bgn:Person-520 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w100> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w106> nif:lemma "boei" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w113> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w129> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w139> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w141> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w148> nif:lemma "ten" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w154> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w158> nif:lemma "touw" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w167> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w175> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w179> nif:lemma "naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w24> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w58> nif:lemma "leven" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w59> nif:lemma "nadat" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w61> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w67> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w74> nif:lemma "ander" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w88> nif:lemma "opdracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w90> nif:lemma "gedenkteken" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w94> nif:lemma "één" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-520__Verzetsmonument_Driebergen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-520__Verzetsmonument_Driebergen .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-520 ;
+    bgn:aggregatedPerson bgn:Person-520 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-520__Verzetsmonument_Driebergen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-520__Verzetsmonument_Driebergen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_106> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w107> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_103> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_104t_105> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w110> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_112t_113t_114t_115>,
+        bgn:Person-520 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_110> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_111> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w131> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_127t_128> ;
+    pb:AM-LOC bgn:Person-520 .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w140> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_137t_138> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_140t_141t_142t_143t_144t_145t_146> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_147t_148t_149> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_152> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w153> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_151> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_156t_157t_158t_159t_160t_161> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_153t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w161> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_159> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_165> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w166> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_166t_167t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181t_182t_183t_184t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w186> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_177t_178t_179t_180t_181t_182t_183> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_174t_175t_176> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w23> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_23t_24t_25t_26t_27t_28t_29> ;
+    pb:AM-LOC bgn:Person-520 .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_36> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w37> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w5> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w54> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_52> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_56t_57> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_54t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w66> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w70> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_75> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w76> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_72t_73> ;
+    pb:ArgM-LOC bgn:Person-520 .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_83> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w84> ;
+    pb:Arg0 bgn:Person-520 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_86t_87t_88t_89t_90t_91> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w92> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_88t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w98> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_93t_94t_95t_96> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_99t_100t_101t_102t_103t_104t_105t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w100w101w102w103w104w105w106w107> nif:anchorOf "voor de keramische vrouwenfiguur die haar boeien verbreekt" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "686" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w100" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w103> nif:BeginIndex "647" ;
+    nif:anchorOf "vrouwenfiguur" ;
+    nif:endIndex "660" ;
+    nif:lemma "vrouw_figuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w104> nif:anchorOf "die" ;
+    nif:beginIndex "661" ;
+    nif:endIndex "664" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w104" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w105w106> nif:anchorOf "haar boeien" ;
+    nif:beginIndex "665" ;
+    nif:endIndex "676" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w106" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w107> nif:BeginIndex "677" ;
+    nif:anchorOf "verbreekt" ;
+    nif:endIndex "686" ;
+    nif:lemma "verbreken" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w109> nif:anchorOf "Harzing" ;
+    nif:beginIndex "688" ;
+    nif:endIndex "695" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w110> nif:BeginIndex "696" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "702" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w111> nif:anchorOf "wel" ;
+    nif:beginIndex "703" ;
+    nif:endIndex "706" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w111" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w112> nif:anchorOf "vaker" ;
+    nif:beginIndex "707" ;
+    nif:endIndex "712" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w112" ;
+    nif:lemma "vaak" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w113w114w115w116> nif:anchorOf "beelden van gebakken klei" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "738" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w113" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w12> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "66" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w120> nif:BeginIndex "749" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "751" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w128w129> nif:anchorOf "Het beeld" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "799" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w129" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w131> nif:BeginIndex "805" ;
+    nif:anchorOf "opgericht" ;
+    nif:endIndex "814" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w135w136> nif:anchorOf "De Wildbaan" ;
+    nif:beginIndex "827" ;
+    nif:endIndex "838" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w138w139> nif:anchorOf "Het monument" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "853" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w139" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w140> nif:BeginIndex "854" ;
+    nif:anchorOf "bestaat" ;
+    nif:endIndex "861" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w141w142w143w144w145w146w147> nif:anchorOf "uit een beeld van een jonge vrouwenfiguur" ;
+    nif:beginIndex "862" ;
+    nif:endIndex "903" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w147> nif:BeginIndex "890" ;
+    nif:anchorOf "vrouwenfiguur" ;
+    nif:endIndex "903" ;
+    nif:lemma "vrouw_figuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w148w149w150> nif:anchorOf "ten voeten uit" ;
+    nif:beginIndex "904" ;
+    nif:endIndex "918" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w148" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w152> a bgn:pron_3p ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "923" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w152" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w153> nif:BeginIndex "924" ;
+    nif:anchorOf "verbreekt" ;
+    nif:endIndex "933" ;
+    nif:lemma "verbreken" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w154w155w156> nif:anchorOf "met gebalde vuisten" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "953" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w154" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w157w158w159w160w161w162> nif:anchorOf "de touwen waarmee zij is geboeid" ;
+    nif:beginIndex "954" ;
+    nif:endIndex "986" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w158" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w160> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "972" ;
+    nif:endIndex "975" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w160" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w161> nif:BeginIndex "976" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "978" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w166> nif:BeginIndex "998" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1003" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w167w168w169w170w171w172w173w174w175w176w177w178w179w180w181w182w183w184w185w186> nif:anchorOf "op een gemetselde bakstenen sokkel waarop aan de voorzijde de namen van de twaalf omgekomen verzetsstrijders worden vermeld" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1129" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w167" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w16w17> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w175w176w177> nif:anchorOf "aan de voorzijde" ;
+    nif:beginIndex "1048" ;
+    nif:endIndex "1064" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w175" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w178w179w180w181w182w183w184> nif:anchorOf "de namen van de twaalf omgekomen verzetsstrijders" ;
+    nif:beginIndex "1065" ;
+    nif:endIndex "1114" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w179" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w186> nif:BeginIndex "1122" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "1129" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w192> nif:anchorOf "Utrechtse" ;
+    nif:beginIndex "1153" ;
+    nif:endIndex "1162" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w193> nif:anchorOf "Heuvelrug" ;
+    nif:beginIndex "1163" ;
+    nif:endIndex "1172" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w198> nif:anchorOf "Utrechtse" ;
+    nif:beginIndex "1205" ;
+    nif:endIndex "1214" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w199> nif:anchorOf "Heuvelrug" ;
+    nif:beginIndex "1215" ;
+    nif:endIndex "1224" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w22> nif:anchorOf "Driebergen" ;
+    nif:beginIndex "128" ;
+    nif:endIndex "138" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w23> nif:BeginIndex "139" ;
+    nif:anchorOf "herinnert" ;
+    nif:endIndex "148" ;
+    nif:lemma "herinneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w24w25w26w27w28w29w30> nif:anchorOf "aan twaalf omgekomen inwoners die actief waren" ;
+    nif:beginIndex "149" ;
+    nif:endIndex "195" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w24" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w30> nif:BeginIndex "190" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "195" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w37> nif:anchorOf "Jan" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "224" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w37w38w39> nif:anchorOf "Jan van Bijnen" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "235" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w4> nif:anchorOf "Driebergen" ;
+    nif:beginIndex "23" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w45w46> nif:anchorOf "Landelijke Knokploegen" ;
+    nif:beginIndex "275" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w5> nif:BeginIndex "34" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "36" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w50w51> nif:anchorOf "Samuel Esmeijer" ;
+    nif:beginIndex "318" ;
+    nif:endIndex "333" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w53> a bgn:pron_3p ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "338" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w53" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w54> nif:BeginIndex "339" ;
+    nif:anchorOf "verloren" ;
+    nif:endIndex "347" ;
+    nif:lemma "verliezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w55w56> nif:anchorOf "eind 1944" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "357" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w57w58> nif:anchorOf "het leven" ;
+    nif:beginIndex "358" ;
+    nif:endIndex "367" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w59w60w61w62w63w64w65w66w67w68w69w70w71> nif:anchorOf "nadat ze bij de voorbereiding van een bevrijdingsoverval bij een vuurgevecht betrokken raakten" ;
+    nif:beginIndex "368" ;
+    nif:endIndex "462" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w59" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w61w62w63w64w65w66w67w68w69> nif:anchorOf "bij de voorbereiding van een bevrijdingsoverval bij een vuurgevecht" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "444" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w66> nif:BeginIndex "406" ;
+    nif:anchorOf "bevrijdingsoverval" ;
+    nif:endIndex "424" ;
+    nif:lemma "bevrijding_overval" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w67w68w69> nif:anchorOf "bij een vuurgevecht" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "444" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w67" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w69> nif:BeginIndex "433" ;
+    nif:anchorOf "vuurgevecht" ;
+    nif:endIndex "444" ;
+    nif:lemma "vuur_gevecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w70> nif:BeginIndex "445" ;
+    nif:anchorOf "betrokken" ;
+    nif:endIndex "454" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w73w74> nif:anchorOf "Vier anderen" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "476" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w76> nif:BeginIndex "484" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "496" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w78w79> nif:anchorOf "Kamp Amersfoort" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "515" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w82w83> nif:anchorOf "Wim Harzing" ;
+    nif:beginIndex "530" ;
+    nif:endIndex "541" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w84> nif:BeginIndex "542" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "547" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w86> nif:anchorOf "1948" ;
+    nif:beginIndex "551" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w87w88w89w90w91w92> nif:anchorOf "de opdracht een gedenkteken te maken" ;
+    nif:beginIndex "556" ;
+    nif:endIndex "592" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w89w90> nif:anchorOf "een gedenkteken" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "583" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w90" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w92> nif:BeginIndex "587" ;
+    nif:anchorOf "maken" ;
+    nif:endIndex "592" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w94w95w96w97> nif:anchorOf "Een van zijn dochters" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "615" ;
+    nif:head "bgnProc:520__Verzetsmonument_Driebergen.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w98> nif:BeginIndex "616" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "621" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_111> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w112> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_112t_113t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w113w114w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_137t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w138w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_140t_141t_142t_143t_144t_145t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w141w142w143w144w145w146w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_147t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w148w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_153t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w154w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_156t_157t_158t_159t_160t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w157w158w159w160w161w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_166t_167t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181t_182t_183t_184t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w167w168w169w170w171w172w173w174w175w176w177w178w179w180w181w182w183w184w185w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_174t_175t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w175w176w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_177t_178t_179t_180t_181t_182t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w178w179w180w181w182w183w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_23t_24t_25t_26t_27t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w24w25w26w27w28w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_54t_55> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w55w56> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_56t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w57w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w59w60w61w62w63w64w65w66w67w68w69w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w61w62w63w64w65w66w67w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w67w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_72t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w73w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_85> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w86> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_86t_87t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w87w88w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_88t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w89w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_93t_94t_95t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w94w95w96w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#t_99t_100t_101t_102t_103t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w100w101w102w103w104w105w106w107> .
+
+bgn:Person-520 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w135w136>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w16w17>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w193>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w199>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w37w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w45w46>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w78w79>,
+        <http://data.biographynet.nl/rdf/170506221754/520__Verzetsmonument_Driebergen.naf#w82w83> .
+

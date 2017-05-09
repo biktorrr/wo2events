@@ -1,0 +1,332 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_11>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_2>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_22t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_50t_51t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_62t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_93>,
+        bgn:Person-776 ;
+    ore:proxyFor bgn:Person-776 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w91> nif:lemma "te" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-776__De_Typhoon#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-776__De_Typhoon .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-776 ;
+    bgn:aggregatedPerson bgn:Person-776 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-776__De_Typhoon ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-776__De_Typhoon ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_11> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w12> ;
+    pb:ArgM-CAU bgn:Person-776 .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_2> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w3> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w26> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_20> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_22t_23t_24> ;
+    pb:ArgM-MNR bgn:Person-776 .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w33> ;
+    pb:Arg2 bgn:Person-776 .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w47> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w48> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_50t_51t_52> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w51w52w53> ;
+    xs:date "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_6> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w7> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_9> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w62> ;
+    pb:Arg1 bgn:Person-776 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_62t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w73> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_68> ;
+    pb:A1 bgn:Person-776 .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_85> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w86> ;
+    xs:gYear "1992" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_86> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w87> ;
+    pb:A0 bgn:Person-776 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_90t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w92> ;
+    pb:Arg0 bgn:Person-776 .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w94> ;
+    pb:A0 bgn:Person-776 ;
+    pb:A2 bgn:Person-776 ;
+    pb:AM-PRD bgn:Person-776 .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w10> nif:anchorOf "Zaanstreek" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "57" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w101w102> nif:anchorOf "Dagblad Zaanstreek" ;
+    nif:beginIndex "560" ;
+    nif:endIndex "578" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w12> nif:BeginIndex "59" ;
+    nif:anchorOf "voortgekomen" ;
+    nif:endIndex "71" ;
+    nif:lemma "voortgekomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w15> nif:anchorOf "Zaanse" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "86" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w2> nif:anchorOf "Typhoon" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "10" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w21> nif:anchorOf "die" ;
+    nif:beginIndex "105" ;
+    nif:endIndex "108" ;
+    nif:head "bgnProc:776__De_Typhoon.naf#w21" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w23w24w25> nif:anchorOf "12 oktober 1944" ;
+    nif:beginIndex "112" ;
+    nif:endIndex "127" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w26> nif:BeginIndex "128" ;
+    nif:anchorOf "verscheen" ;
+    nif:endIndex "137" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w3> nif:BeginIndex "11" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "14" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w30w31> nif:anchorOf "Gerrit Groot" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "168" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w33> nif:BeginIndex "170" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "173" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w37> nif:anchorOf "Britse" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "198" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w39w40> nif:anchorOf "Hawker Typhoon" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "230" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w45> nif:anchorOf "die" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "254" ;
+    nif:head "bgnProc:776__De_Typhoon.naf#w45" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w47> nif:BeginIndex "260" ;
+    nif:anchorOf "gehaald" ;
+    nif:endIndex "267" ;
+    nif:lemma "halen" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w48> nif:BeginIndex "268" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "271" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w51w52w53> nif:anchorOf "de jaren zestig" ;
+    nif:beginIndex "282" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w59> nif:anchorOf "Stuurman" ;
+    nif:beginIndex "323" ;
+    nif:endIndex "331" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w61> nif:anchorOf "Zaandam" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "342" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w62> nif:BeginIndex "343" ;
+    nif:anchorOf "fuseerde" ;
+    nif:endIndex "351" ;
+    nif:lemma "fuseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w63w64w65> nif:anchorOf "begin jaren 70" ;
+    nif:beginIndex "352" ;
+    nif:endIndex "366" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w67> nif:anchorOf "Damiate" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "378" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w69> nif:anchorOf "die" ;
+    nif:beginIndex "380" ;
+    nif:endIndex "383" ;
+    nif:head "bgnProc:776__De_Typhoon.naf#w69" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w7> nif:BeginIndex "28" ;
+    nif:anchorOf "verschijnend" ;
+    nif:endIndex "40" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w71w72> nif:anchorOf "Haarlems Dagblad" ;
+    nif:beginIndex "388" ;
+    nif:endIndex "404" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w73> nif:BeginIndex "405" ;
+    nif:anchorOf "uitgaf" ;
+    nif:endIndex "411" ;
+    nif:lemma "uit_geven" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w79> nif:anchorOf "Damiate" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "440" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w82w83w84> nif:anchorOf "Verenigde Noordhollandse Dagbladen" ;
+    nif:beginIndex "448" ;
+    nif:endIndex "482" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w86> nif:anchorOf "1992" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "490" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w87> nif:BeginIndex "491" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "496" ;
+    nif:lemma "op_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w88w89> nif:anchorOf "De Typhoon" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "507" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w91w92> nif:anchorOf "te bestaan" ;
+    nif:beginIndex "511" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:776__De_Typhoon.naf#w91" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w92> nif:BeginIndex "514" ;
+    nif:anchorOf "bestaan" ;
+    nif:endIndex "521" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w94> nif:BeginIndex "525" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "529" ;
+    nif:lemma "op_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w97w98> nif:anchorOf "De Zaanlander" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "553" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_20> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_22t_23t_24> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w23w24w25> ;
+    xs:date "1944-10-12" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_62t_63t_64> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w63w64w65> ;
+    xs:date "197" .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w91w92> .
+
+bgn:Person-776 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w101w102>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w30w31>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w71w72>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w79>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w82w83w84>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w88w89>,
+        <http://data.biographynet.nl/rdf/170506221754/776__De_Typhoon.naf#w97w98> .
+

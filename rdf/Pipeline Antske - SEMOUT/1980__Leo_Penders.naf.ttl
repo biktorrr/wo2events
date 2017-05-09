@@ -1,0 +1,715 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_110t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_155t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_171t_172t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_183t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_205t_206t_207t_208t_209t_210t_211t_212t_213t_214t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_225t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_99>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_9t_10t_11>,
+        bgn:Person-1980 ;
+    ore:proxyFor bgn:Person-1980 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w151> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w159> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w172> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w192> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w206> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w227> nif:lemma "plein" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w46> nif:lemma "met" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1980__Leo_Penders#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1980__Leo_Penders .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1980 ;
+    bgn:aggregatedPerson bgn:Person-1980 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1980__Leo_Penders ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1980__Leo_Penders ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w105> ;
+    pb:Arg1 bgn:Person-1980 .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w108> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_120>,
+        bgn:Person-1980 .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_114> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w115> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_108> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_113> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_110t_111t_112>,
+        bgn:Person-1980 .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w122> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_108> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_120> ;
+    pb:ArgM-TMP bgn:Person-1980 .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w14> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w142> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_139> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w158> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_153> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_150t_151> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_158t_159t_160> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_155t_156> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_160> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_165> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w175> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_168> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_171t_172t_173> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w188> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_186> ;
+    pb:ArgM-MNR bgn:Person-1980 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_183t_184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_193> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w194> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_194> ;
+    pb:Arg4 bgn:Person-1980 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_191t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_202> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w203> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_203> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_205t_206t_207t_208t_209t_210t_211t_212t_213t_214t_215> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_204> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_201> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_219> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w220> ;
+    pb:Arg1 bgn:Person-1980 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_232>,
+        bgn:Person-1980 .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_229> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w230> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_225t_226> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_239> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w240> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_225t_226> ;
+    pb:ArgM-LOC bgn:Person-1980 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_232>,
+        bgn:Person-1980 .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w28> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w43> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56t_57t_58t_59> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_60> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_43> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_5> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w6> ;
+    xs:gYear "1915" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w72> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_65> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_70> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w73> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_70>,
+        bgn:Person-1980 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w93> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_90> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w10w11w12> ;
+    xs:date "1945-04-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w100> nif:BeginIndex "635" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "638" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w105> nif:BeginIndex "670" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "673" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w108> nif:BeginIndex "684" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "688" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w109> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "692" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w109" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w10w11w12> nif:anchorOf "24 april 1945" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "64" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w111w112w113> nif:anchorOf "21 juli 1944" ;
+    nif:beginIndex "696" ;
+    nif:endIndex "708" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w114> nif:anchorOf "thuis" ;
+    nif:beginIndex "709" ;
+    nif:endIndex "714" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w114" ;
+    nif:lemma "thuis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w115> nif:BeginIndex "715" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "727" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w121> nif:anchorOf "Maastricht" ;
+    nif:beginIndex "758" ;
+    nif:endIndex "768" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w122> nif:BeginIndex "769" ;
+    nif:anchorOf "gebracht" ;
+    nif:endIndex "777" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w132w133> nif:anchorOf "District Gulpen" ;
+    nif:beginIndex "825" ;
+    nif:endIndex "840" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w14> nif:BeginIndex "66" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "69" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w140> nif:anchorOf "die" ;
+    nif:beginIndex "876" ;
+    nif:endIndex "879" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w140" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w141> nif:anchorOf "later" ;
+    nif:beginIndex "880" ;
+    nif:endIndex "885" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w141" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w142> nif:BeginIndex "886" ;
+    nif:anchorOf "bekend" ;
+    nif:endIndex "892" ;
+    nif:lemma "bekennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w149> nif:anchorOf "Wittem" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "926" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w151w152> nif:anchorOf "Van hieruit" ;
+    nif:beginIndex "928" ;
+    nif:endIndex "939" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w151" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w154> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "945" ;
+    nif:endIndex "948" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w154" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w156w157> nif:anchorOf "1 augustus" ;
+    nif:beginIndex "952" ;
+    nif:endIndex "962" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w158> nif:BeginIndex "963" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "975" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w159w160w161> nif:anchorOf "naar het concentratiekamp" ;
+    nif:beginIndex "976" ;
+    nif:endIndex "1001" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w16> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "74" ;
+    nif:endIndex "84" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w161> nif:BeginIndex "985" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1001" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w163> nif:anchorOf "Vught" ;
+    nif:beginIndex "1005" ;
+    nif:endIndex "1010" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w166> nif:BeginIndex "1021" ;
+    nif:anchorOf "acht" ;
+    nif:endIndex "1025" ;
+    nif:lemma "acht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w169> nif:anchorOf "die" ;
+    nif:beginIndex "1043" ;
+    nif:endIndex "1046" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w169" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w172w173w174> nif:anchorOf "in het verzet" ;
+    nif:beginIndex "1055" ;
+    nif:endIndex "1068" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w172" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w175> nif:BeginIndex "1069" ;
+    nif:anchorOf "zaten" ;
+    nif:endIndex "1074" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w184w185> nif:anchorOf "6 september" ;
+    nif:beginIndex "1110" ;
+    nif:endIndex "1121" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w187> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1127" ;
+    nif:endIndex "1130" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w187" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w188> nif:BeginIndex "1131" ;
+    nif:anchorOf "getransporteerd" ;
+    nif:endIndex "1146" ;
+    nif:lemma "transporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w190> nif:anchorOf "Oranienburg" ;
+    nif:beginIndex "1152" ;
+    nif:endIndex "1163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w192w193> nif:anchorOf "van daaruit" ;
+    nif:beginIndex "1167" ;
+    nif:endIndex "1178" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w192" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w194> nif:BeginIndex "1179" ;
+    nif:anchorOf "belandde" ;
+    nif:endIndex "1187" ;
+    nif:lemma "belanden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w195> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1188" ;
+    nif:endIndex "1191" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w195" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w198> nif:BeginIndex "1199" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1215" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w199w200> nif:anchorOf "Bergen Belsen" ;
+    nif:beginIndex "1216" ;
+    nif:endIndex "1229" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w1w2w3w4> nif:anchorOf "Maria Hendricus Penders" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "27" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w202> nif:anchorOf "Hier" ;
+    nif:beginIndex "1231" ;
+    nif:endIndex "1235" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w202" ;
+    nif:lemma "hier" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w203> nif:BeginIndex "1236" ;
+    nif:anchorOf "stierf" ;
+    nif:endIndex "1242" ;
+    nif:lemma "sterven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w204> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1243" ;
+    nif:endIndex "1246" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w204" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w205> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "1247" ;
+    nif:endIndex "1259" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w205" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w206w207w208w209w210w211w212w213w214w215w216> nif:anchorOf "aan de ontberingen door tyfus aan het eind van de oorlog" ;
+    nif:beginIndex "1260" ;
+    nif:endIndex "1316" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w21> nif:anchorOf "Penders" ;
+    nif:beginIndex "115" ;
+    nif:endIndex "122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w218> nif:anchorOf "Penders" ;
+    nif:beginIndex "1319" ;
+    nif:endIndex "1326" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w220> nif:BeginIndex "1333" ;
+    nif:anchorOf "herdacht" ;
+    nif:endIndex "1341" ;
+    nif:lemma "herdenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w226w227> nif:anchorOf "een plein" ;
+    nif:beginIndex "1366" ;
+    nif:endIndex "1375" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w227" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w230> nif:BeginIndex "1385" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1387" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w233> nif:anchorOf "Gulpen" ;
+    nif:beginIndex "1400" ;
+    nif:endIndex "1406" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w236w237> nif:anchorOf "Kapelaan Pendersplein" ;
+    nif:beginIndex "1412" ;
+    nif:endIndex "1433" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w240> nif:BeginIndex "1443" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "1450" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w245> nif:anchorOf "Voerendaal" ;
+    nif:beginIndex "1481" ;
+    nif:endIndex "1491" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w26> nif:anchorOf "Gulpen" ;
+    nif:beginIndex "140" ;
+    nif:endIndex "146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w28> nif:BeginIndex "148" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "151" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w36> nif:anchorOf "LO" ;
+    nif:beginIndex "197" ;
+    nif:endIndex "199" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w38w39> nif:anchorOf "Landelijke Organisatie" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "223" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w41> nif:anchorOf "Gulpen" ;
+    nif:beginIndex "225" ;
+    nif:endIndex "231" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w43> nif:BeginIndex "235" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "240" ;
+    nif:lemma "bezig_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w44> nif:anchorOf "zich" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "245" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w44" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w46w47w48w49w50w51w52w53w54w55w56w57w58w59w60> nif:anchorOf "met diverse verzetsactiviteiten zoals het onderbrengen van onderduikers en het mee onderhouden van de pilotenlijn" ;
+    nif:beginIndex "252" ;
+    nif:endIndex "365" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w51> nif:BeginIndex "294" ;
+    nif:anchorOf "onderbrengen" ;
+    nif:endIndex "306" ;
+    nif:lemma "onder_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w57> nif:BeginIndex "335" ;
+    nif:anchorOf "onderhouden" ;
+    nif:endIndex "346" ;
+    nif:lemma "onder_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w6> nif:anchorOf "1915" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w61> nif:anchorOf "waarmee" ;
+    nif:beginIndex "366" ;
+    nif:endIndex "373" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w61" ;
+    nif:lemma "waarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w62> nif:anchorOf "Engelse" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "381" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w64> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "385" ;
+    nif:endIndex "396" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w66> nif:anchorOf "die" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "408" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w66" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w71> nif:anchorOf "Nederland" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "441" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w72> nif:BeginIndex "442" ;
+    nif:anchorOf "kwamen" ;
+    nif:endIndex "448" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w73> nif:BeginIndex "449" ;
+    nif:anchorOf "doorgesluisd" ;
+    nif:endIndex "461" ;
+    nif:lemma "door_sluizen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w8> nif:anchorOf "Bergen-Belsen" ;
+    nif:beginIndex "36" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w80> nif:anchorOf "Frankrijk" ;
+    nif:beginIndex "493" ;
+    nif:endIndex "502" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w89> nif:anchorOf "Duitse" ;
+    nif:beginIndex "554" ;
+    nif:endIndex "560" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w91> nif:anchorOf "die" ;
+    nif:beginIndex "573" ;
+    nif:endIndex "576" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w91" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w92> nif:anchorOf "zich" ;
+    nif:beginIndex "577" ;
+    nif:endIndex "581" ;
+    nif:head "bgnProc:1980__Leo_Penders.naf#w92" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w93> nif:BeginIndex "582" ;
+    nif:anchorOf "voordeed" ;
+    nif:endIndex "590" ;
+    nif:lemma "voor_doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w96> nif:anchorOf "Duitse" ;
+    nif:beginIndex "599" ;
+    nif:endIndex "605" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_110t_111t_112> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w111w112w113> ;
+    xs:date "1944-07-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_140> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w141> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_150t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w151w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_155t_156> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w156w157> ;
+    xs:date "2017-08-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_158t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w159w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_171t_172t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w172w173w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_183t_184> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w184w185> ;
+    xs:date "2017-09-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_191t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w192w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_201> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_203> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w204> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_205t_206t_207t_208t_209t_210t_211t_212t_213t_214t_215> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w206w207w208w209w210w211w212w213w214w215w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56t_57t_58t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w46w47w48w49w50w51w52w53w54w55w56w57w58w59w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_225t_226> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w226w227> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w109> .
+
+bgn:Person-1980 a bgn:LOC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w121>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w132w133>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w163>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w199w200>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w218>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w233>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w236w237>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w245>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w38w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w80>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w89>,
+        <http://data.biographynet.nl/rdf/170506221754/1980__Leo_Penders.naf#w96> .
+

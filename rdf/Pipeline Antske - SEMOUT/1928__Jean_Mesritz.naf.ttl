@@ -1,0 +1,938 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_125t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_140t_141t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_157t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_164t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_170t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_182t_183t_184t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_216t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_220t_221t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_226t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_261t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_267t_268t_269t_270t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_273>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_274t_275t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_33t_34t_35t_36t_37t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_48t_49t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_92>,
+        bgn:Person-1928 ;
+    ore:proxyFor bgn:Person-1928 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w126> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w136> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w141> nif:lemma "erin" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w146> nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w183> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w211> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w215> nif:lemma "mede" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w221> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w228> nif:lemma "gedenk_steen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w263> nif:lemma "personage" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w268> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w275> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w34> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w82> nif:lemma "plan" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1928__Jean_Mesritz#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1928__Jean_Mesritz .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1928 ;
+    bgn:aggregatedPerson bgn:Person-1928 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1928__Jean_Mesritz ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1928__Jean_Mesritz ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w119> ;
+    pb:Arg1 bgn:Person-1928 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_134> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w135> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_135t_136> ;
+    pb:Arg1 bgn:Person-1928 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_125t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w140> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_138> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_140t_141t_142> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_142> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w147> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_144t_145>,
+        bgn:Person-1928 .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w148> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_144t_145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w150> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_144t_145>,
+        bgn:Person-1928 .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w15w16w17> ;
+    xs:date "1945-03-31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_159> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w160> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_154> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_157t_158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_163> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w164> ;
+    pb:Arg1 bgn:Person-1928 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_164t_165t_166> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w178> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_173>,
+        bgn:Person-1928 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_170t_171>,
+        bgn:Person-1928 .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_184> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w185> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w190> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_188> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_198>,
+        bgn:Person-1928 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_182t_183t_184t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_196> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w197> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_201> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w202> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_202> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_204> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_205> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w209> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_207> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_209> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_210t_211t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w218> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_216t_217> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w225> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_216t_217> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_219> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_220t_221t_222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_228> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w229> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_226t_227> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_237>,
+        bgn:Person-1928 .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w232> ;
+    pb:ArgM bgn:Person-1928 .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_238> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w239> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_248> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w249> ;
+    xs:gYear "1977" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_256> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w257> ;
+    pb:Arg0 bgn:Person-1928 ;
+    pb:Arg1 bgn:Person-1928 ;
+    pb:ArgM-TMP bgn:Person-1928 .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_263> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w264> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_261t_262> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_264> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w265> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_277> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w278> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_273> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_267t_268t_269t_270t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_274t_275t_276> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w40> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_33t_34t_35t_36t_37t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_64> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w65> ;
+    pb:Arg0 bgn:Person-1928 ;
+    pb:Arg1 bgn:Person-1928 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_48t_49t_50> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w70> ;
+    pb:AM-DIR <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w83> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_80t_81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_88t_89> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w89w90> ;
+    xs:date "2017-10-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w9w10w11> ;
+    xs:date "1918-03-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_92> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w93> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w100w101> nif:anchorOf "Hans Hers" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "535" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w103w104w105> nif:anchorOf "Lodewijk van Hamel" ;
+    nif:beginIndex "537" ;
+    nif:endIndex "555" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w107w108w109> nif:anchorOf "Lourens Baas Becking" ;
+    nif:beginIndex "559" ;
+    nif:endIndex "579" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w115w116w117> nif:anchorOf "Nederlandse Marine Luchtvaartdienst" ;
+    nif:beginIndex "611" ;
+    nif:endIndex "646" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w119> nif:BeginIndex "654" ;
+    nif:anchorOf "opgepikt" ;
+    nif:endIndex "662" ;
+    nif:lemma "op_pikken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w122> nif:anchorOf "Tjeukemeer" ;
+    nif:beginIndex "670" ;
+    nif:endIndex "680" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w124> nif:anchorOf "Friesland" ;
+    nif:beginIndex "684" ;
+    nif:endIndex "693" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w126w127w128w129> nif:anchorOf "Bij de tweede poging" ;
+    nif:beginIndex "695" ;
+    nif:endIndex "715" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w13> nif:anchorOf "Neuengamme" ;
+    nif:beginIndex "53" ;
+    nif:endIndex "63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w131> nif:anchorOf "Jouster" ;
+    nif:beginIndex "721" ;
+    nif:endIndex "728" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w133w134> nif:anchorOf "Heije Schaper" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "753" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w135> nif:BeginIndex "754" ;
+    nif:anchorOf "beschoten" ;
+    nif:endIndex "763" ;
+    nif:lemma "beschieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w136w137> nif:anchorOf "door afweergeschut" ;
+    nif:beginIndex "764" ;
+    nif:endIndex "782" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w136" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w139> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "784" ;
+    nif:endIndex "787" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w139" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w140> nif:BeginIndex "788" ;
+    nif:anchorOf "slaagde" ;
+    nif:endIndex "795" ;
+    nif:lemma "slagen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w141w142w143> nif:anchorOf "erin te ontkomen" ;
+    nif:beginIndex "796" ;
+    nif:endIndex "812" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w143> nif:BeginIndex "804" ;
+    nif:anchorOf "ontkomen" ;
+    nif:endIndex "812" ;
+    nif:lemma "ontkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w145w146> nif:anchorOf "de groep" ;
+    nif:beginIndex "818" ;
+    nif:endIndex "826" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w147> nif:BeginIndex "827" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "831" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w148> nif:BeginIndex "832" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "840" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w150> nif:BeginIndex "844" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "856" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w153> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "865" ;
+    nif:endIndex "876" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w155> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "878" ;
+    nif:endIndex "880" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w155" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w158w159> nif:anchorOf "april 1941" ;
+    nif:beginIndex "891" ;
+    nif:endIndex "901" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w15w16w17> nif:anchorOf "31 maart 1945" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "78" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w160> nif:BeginIndex "902" ;
+    nif:anchorOf "berecht" ;
+    nif:endIndex "909" ;
+    nif:lemma "berechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w162> nif:anchorOf "Mesritz" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "918" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w164> nif:BeginIndex "924" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "935" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w165w166w167> nif:anchorOf "tot twee jaar" ;
+    nif:beginIndex "936" ;
+    nif:endIndex "949" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w171w172> nif:anchorOf "juni 1941" ;
+    nif:beginIndex "964" ;
+    nif:endIndex "973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w174> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "979" ;
+    nif:endIndex "982" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w174" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w177> nif:anchorOf "Oranjehotel" ;
+    nif:beginIndex "993" ;
+    nif:endIndex "1004" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w178> nif:BeginIndex "1005" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "1017" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w180w181> nif:anchorOf "Zuchthaus Münster" ;
+    nif:beginIndex "1023" ;
+    nif:endIndex "1040" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w183w184w185w186> nif:anchorOf "Toen die gebombardeerd werd" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1069" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w184> nif:anchorOf "die" ;
+    nif:beginIndex "1047" ;
+    nif:endIndex "1050" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w184" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w185> nif:BeginIndex "1051" ;
+    nif:anchorOf "gebombardeerd" ;
+    nif:endIndex "1064" ;
+    nif:lemma "bombarderen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w189> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1076" ;
+    nif:endIndex "1079" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w189" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w19> nif:BeginIndex "80" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "83" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w190> nif:BeginIndex "1080" ;
+    nif:anchorOf "overgeplaatst" ;
+    nif:endIndex "1093" ;
+    nif:lemma "over_plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w192> nif:BeginIndex "1099" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "1115" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w193w194> nif:anchorOf "Brual Rhede" ;
+    nif:beginIndex "1116" ;
+    nif:endIndex "1127" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w197> nif:BeginIndex "1133" ;
+    nif:anchorOf "veenkamp" ;
+    nif:endIndex "1141" ;
+    nif:lemma "veen_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w199> nif:anchorOf "Papenburg" ;
+    nif:beginIndex "1146" ;
+    nif:endIndex "1155" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w1w2w3w4> nif:anchorOf "Claire Adrien Mesritz" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w201> nif:anchorOf "Uiteindelijk" ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1169" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w201" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w202> nif:BeginIndex "1170" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1174" ;
+    nif:lemma "terecht_komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w203> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1175" ;
+    nif:endIndex "1178" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w203" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w205> nif:anchorOf "Neuengamme" ;
+    nif:beginIndex "1182" ;
+    nif:endIndex "1192" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w206> nif:anchorOf "terecht" ;
+    nif:beginIndex "1193" ;
+    nif:endIndex "1200" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w206" ;
+    nif:lemma "terecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w208> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1202" ;
+    nif:endIndex "1205" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w208" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w209> nif:BeginIndex "1206" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "1212" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w210> nif:anchorOf "daar" ;
+    nif:beginIndex "1213" ;
+    nif:endIndex "1217" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w210" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w211w212w213> nif:anchorOf "in de paardenstal" ;
+    nif:beginIndex "1218" ;
+    nif:endIndex "1235" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w211" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w215w216w217w218w219w220w221w222w223w224w225> nif:anchorOf "mede omdat hij rookte en niet in de keuken mocht werken" ;
+    nif:beginIndex "1238" ;
+    nif:endIndex "1293" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w215" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w217w218> nif:anchorOf "hij rookte" ;
+    nif:beginIndex "1249" ;
+    nif:endIndex "1259" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w218" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w218> nif:BeginIndex "1253" ;
+    nif:anchorOf "rookte" ;
+    nif:endIndex "1259" ;
+    nif:lemma "roken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w220> nif:anchorOf "niet" ;
+    nif:beginIndex "1263" ;
+    nif:endIndex "1267" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w220" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w221w222w223> nif:anchorOf "in de keuken" ;
+    nif:beginIndex "1268" ;
+    nif:endIndex "1280" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w221" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w225> nif:BeginIndex "1287" ;
+    nif:anchorOf "werken" ;
+    nif:endIndex "1293" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w227w228> nif:anchorOf "Zijn gedenksteen" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1312" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w228" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w229> nif:BeginIndex "1313" ;
+    nif:anchorOf "staat" ;
+    nif:endIndex "1318" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w232> nif:BeginIndex "1326" ;
+    nif:anchorOf "ereveld" ;
+    nif:endIndex "1333" ;
+    nif:lemma "ere_veld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w234> nif:anchorOf "Hamburg-Ohlsdorf" ;
+    nif:beginIndex "1337" ;
+    nif:endIndex "1353" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w238> nif:anchorOf "Nederlanders" ;
+    nif:beginIndex "1364" ;
+    nif:endIndex "1376" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w239> nif:BeginIndex "1377" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1381" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w245w246w247> nif:anchorOf "Soldaat van Oranje" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1422" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w249> nif:anchorOf "1977" ;
+    nif:beginIndex "1424" ;
+    nif:endIndex "1428" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w255w256> nif:anchorOf "Jean Mesritz" ;
+    nif:beginIndex "1447" ;
+    nif:endIndex "1459" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w257> nif:BeginIndex "1460" ;
+    nif:anchorOf "gespeeld" ;
+    nif:endIndex "1468" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w259w260> nif:anchorOf "Huib Rooymans" ;
+    nif:beginIndex "1474" ;
+    nif:endIndex "1487" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w25w26> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "122" ;
+    nif:endIndex "141" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w262w263> nif:anchorOf "Het personage" ;
+    nif:beginIndex "1489" ;
+    nif:endIndex "1502" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w263" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w264> nif:BeginIndex "1503" ;
+    nif:anchorOf "heet" ;
+    nif:endIndex "1507" ;
+    nif:lemma "heten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w265> nif:anchorOf "Jan" ;
+    nif:beginIndex "1508" ;
+    nif:endIndex "1511" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w265w266> nif:anchorOf "Jan Weinberg" ;
+    nif:beginIndex "1508" ;
+    nif:endIndex "1520" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w268w269w270w271w272> nif:anchorOf "In afwijking van de werkelijkheid" ;
+    nif:beginIndex "1522" ;
+    nif:endIndex "1555" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w268" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w274> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1562" ;
+    nif:endIndex "1565" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w274" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w275w276w277> nif:anchorOf "in de film" ;
+    nif:beginIndex "1566" ;
+    nif:endIndex "1576" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w275" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w278> nif:BeginIndex "1577" ;
+    nif:anchorOf "gefusilleerd" ;
+    nif:endIndex "1589" ;
+    nif:lemma "fusilleren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w28w29> nif:anchorOf "Denis Mesritz" ;
+    nif:beginIndex "143" ;
+    nif:endIndex "156" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w30> nif:BeginIndex "157" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "160" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w34w35w36w37w38w39> nif:anchorOf "Bij het uitbreken van de oorlog" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "205" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w36> nif:BeginIndex "182" ;
+    nif:anchorOf "uitbreken" ;
+    nif:endIndex "191" ;
+    nif:lemma "uit_breken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w40> nif:BeginIndex "206" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "209" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w41> nif:anchorOf "Mesritz" ;
+    nif:beginIndex "210" ;
+    nif:endIndex "217" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w45w46> nif:anchorOf "Universiteit Leiden" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "252" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w49w50w51> nif:anchorOf "13 augustus 1940" ;
+    nif:beginIndex "257" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w53> nif:anchorOf "Mesritz" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "288" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w55w56> nif:anchorOf "Erik Michielsen" ;
+    nif:beginIndex "290" ;
+    nif:endIndex "305" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w58w59> nif:anchorOf "Carel Kranenburg" ;
+    nif:beginIndex "309" ;
+    nif:endIndex "325" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w61> nif:anchorOf "Scheveningse" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "341" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w65> nif:BeginIndex "357" ;
+    nif:anchorOf "kapen" ;
+    nif:endIndex "362" ;
+    nif:lemma "kapen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w68> nif:anchorOf "Engeland" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "379" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w6w7> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w70> nif:BeginIndex "383" ;
+    nif:anchorOf "varen" ;
+    nif:endIndex "388" ;
+    nif:lemma "varen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w74> nif:BeginIndex "400" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "403" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w78> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "423" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w81w82> nif:anchorOf "het plan" ;
+    nif:beginIndex "437" ;
+    nif:endIndex "445" ;
+    nif:head "bgnProc:1928__Jean_Mesritz.naf#w82" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w83> nif:BeginIndex "446" ;
+    nif:anchorOf "mislukte" ;
+    nif:endIndex "454" ;
+    nif:lemma "mislukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w89w90> nif:anchorOf "13 oktober" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w93> nif:anchorOf "jaar" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "496" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w95> nif:anchorOf "Mesritz" ;
+    nif:beginIndex "501" ;
+    nif:endIndex "508" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w97w98> nif:anchorOf "Marion Smit" ;
+    nif:beginIndex "513" ;
+    nif:endIndex "524" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w9w10w11> nif:anchorOf "2 maart 1918" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_125t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w126w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_135t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w136w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_140t_141t_142> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w141w142w143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_157t_158> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w158w159> ;
+    xs:gYearMonth "1941-04" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_164t_165t_166> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w165w166w167> ;
+    xs:period "P2Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_170t_171> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w171w172> ;
+    xs:gYearMonth "1941-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_182t_183t_184t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w183w184w185w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_209> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w210> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_210t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w211w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_214t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w215w216w217w218w219w220w221w222w223w224w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_219> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w220> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_220t_221t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w221w222w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_226t_227> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w227w228> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_261t_262> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w262w263> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_267t_268t_269t_270t_271> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w268w269w270w271w272> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_273> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w274> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_274t_275t_276> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w275w276w277> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_33t_34t_35t_36t_37t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w34w35w36w37w38w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_48t_49t_50> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w49w50w51> ;
+    xs:date "1940-08-13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_216t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w217w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w145w146> .
+
+bgn:Person-1928 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w100w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w103w104w105>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w107w108w109>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w115w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w133w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w153>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w162>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w177>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w180w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w193w194>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w199>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w234>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w238>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w245w246w247>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w255w256>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w259w260>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w25w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w265w266>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w28w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w45w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w58w59>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w95>,
+        <http://data.biographynet.nl/rdf/170506221754/1928__Jean_Mesritz.naf#w97w98> .
+

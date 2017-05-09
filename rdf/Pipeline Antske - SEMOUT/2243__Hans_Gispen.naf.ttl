@@ -1,0 +1,911 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_107t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_110t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_128t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_171t_172t_173t_174t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_196t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_219>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_231t_232t_233t_234t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_238>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_267>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_285>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_294>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_306>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_311>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_312>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_313>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_9t_10t_11>,
+        bgn:Person-2243 ;
+    ore:proxyFor bgn:Person-2243 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w173> nif:lemma "rol" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w197> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w212> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w233> nif:lemma "zoon" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2243__Hans_Gispen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2243__Hans_Gispen .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2243 ;
+    bgn:aggregatedPerson bgn:Person-2243 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2243__Hans_Gispen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2243__Hans_Gispen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w105> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_105> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_107t_108> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w108w109> ;
+    xs:date "2017-02-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_110t_111> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w111w112> ;
+    xs:date "2017-06-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_125t_126> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w126w127> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w131> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_131> ;
+    pb:Arg3 bgn:Person-2243 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_128t_129> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w140> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_137> ;
+    pb:A1 bgn:Person-2243 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_138> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w151> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_151> ;
+    pb:A2 bgn:Person-2243 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_149> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w16w17w18> ;
+    xs:date "1968-06-16" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w167> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_151> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_164> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_165> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w170> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_170> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_171t_172t_173t_174t_175> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_176> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w183> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_181> ;
+    pb:Arg2 bgn:Person-2243 ;
+    pb:ArgM-LOC bgn:Person-2243 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w196> ;
+    pb:A0 bgn:Person-2243 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_196t_197> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_201> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w202> ;
+    xs:gYear "1961" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w210> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_210> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_211t_212t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w218> ;
+    pb:A0 bgn:Person-2243 ;
+    pb:A1 bgn:Person-2243 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_219> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_230> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w231> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_229> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_231t_232t_233t_234t_235> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_238> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w239> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_255> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w256> ;
+    xs:gYear "1833",
+        "1909" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_264> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w265> ;
+    xs:gYear "1871",
+        "1934" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_266> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w267> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_267> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_286> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w287> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_285> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_283> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_284> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_294> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w295> ;
+    xs:gYear "1900",
+        "1986" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_296> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w297> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_306> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w307> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_313> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w314> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_311>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_312> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w33> ;
+    pb:A0 bgn:Person-2243 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_33> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_39>,
+        bgn:Person-2243 .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w59> ;
+    pb:A0 bgn:Person-2243 ;
+    pb:AM-MNR bgn:Person-2243 .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w62> ;
+    pb:Arg1 bgn:Person-2243 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_71> ;
+    pb:ArgM-LOC bgn:Person-2243 .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_65> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w66> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_67> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w68> ;
+    xs:gYear "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_73> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w74> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w78> ;
+    pb:Arg1 bgn:Person-2243 .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_82> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w83> ;
+    xs:gYear "1956" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_84> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w85> ;
+    xs:gYear "1961" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w10w11w12> ;
+    xs:date "1905-08-11" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w103> nif:anchorOf "1945" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "599" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w105> nif:BeginIndex "601" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "604" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w106> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "608" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w106" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w108w109> nif:anchorOf "23 februari" ;
+    nif:beginIndex "613" ;
+    nif:endIndex "624" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w10w11w12> nif:anchorOf "11 augustus 1905" ;
+    nif:beginIndex "39" ;
+    nif:endIndex "55" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w111w112> nif:anchorOf "23 juni" ;
+    nif:beginIndex "629" ;
+    nif:endIndex "636" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w119> nif:anchorOf "Handel" ;
+    nif:beginIndex "681" ;
+    nif:endIndex "687" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w121> nif:anchorOf "Nijverheid" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "699" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w123> nif:anchorOf "Landbouw" ;
+    nif:beginIndex "703" ;
+    nif:endIndex "711" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w126w127> nif:anchorOf "eind 1945" ;
+    nif:beginIndex "717" ;
+    nif:endIndex "726" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w129w130> nif:anchorOf "eind 1946" ;
+    nif:beginIndex "731" ;
+    nif:endIndex "740" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w131> nif:BeginIndex "741" ;
+    nif:anchorOf "zat" ;
+    nif:endIndex "744" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w132> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "745" ;
+    nif:endIndex "748" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w132" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w135w136> nif:anchorOf "Staatscommissie-De Vries" ;
+    nif:beginIndex "755" ;
+    nif:endIndex "779" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w138> nif:anchorOf "die" ;
+    nif:beginIndex "781" ;
+    nif:endIndex "784" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w138" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w139> nif:anchorOf "zich" ;
+    nif:beginIndex "785" ;
+    nif:endIndex "789" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w139" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w14> nif:anchorOf "Nijmegen" ;
+    nif:beginIndex "58" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w140> nif:BeginIndex "790" ;
+    nif:anchorOf "bezighield" ;
+    nif:endIndex "800" ;
+    nif:lemma "bezig_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w145w146w147> nif:anchorOf "De Nederlandsche Bank" ;
+    nif:beginIndex "828" ;
+    nif:endIndex "849" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w150> nif:anchorOf "1946" ;
+    nif:beginIndex "854" ;
+    nif:endIndex "858" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w151> nif:BeginIndex "859" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "864" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w152> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "865" ;
+    nif:endIndex "868" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w152" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w158> nif:anchorOf "ARP" ;
+    nif:beginIndex "899" ;
+    nif:endIndex "902" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w161w162> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "923" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w165> nif:anchorOf "daarin" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "940" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w165" ;
+    nif:lemma "daarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w166> nif:anchorOf "niet" ;
+    nif:beginIndex "941" ;
+    nif:endIndex "945" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w166" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w167> nif:BeginIndex "946" ;
+    nif:anchorOf "verkozen" ;
+    nif:endIndex "954" ;
+    nif:lemma "verkiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w169> nif:anchorOf "sindsdien" ;
+    nif:beginIndex "956" ;
+    nif:endIndex "965" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w169" ;
+    nif:lemma "sindsdien" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w16w17w18> nif:anchorOf "16 juni 1968" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "80" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w170> nif:BeginIndex "966" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "973" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w171> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "974" ;
+    nif:endIndex "977" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w171" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w172w173w174w175w176> nif:anchorOf "geen rol in de politiek" ;
+    nif:beginIndex "978" ;
+    nif:endIndex "1001" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w177> nif:anchorOf "meer" ;
+    nif:beginIndex "1002" ;
+    nif:endIndex "1006" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w177" ;
+    nif:lemma "meer" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w180> nif:anchorOf "1946" ;
+    nif:beginIndex "1012" ;
+    nif:endIndex "1016" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w182> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1022" ;
+    nif:endIndex "1025" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w182" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w183> nif:BeginIndex "1026" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "1033" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w185> nif:anchorOf "Ridder" ;
+    nif:beginIndex "1038" ;
+    nif:endIndex "1044" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w188w189w190w191w192> nif:anchorOf "Orde van de Nederlandse Leeuw" ;
+    nif:beginIndex "1051" ;
+    nif:endIndex "1080" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w194w195> nif:anchorOf "Hans Gispen" ;
+    nif:beginIndex "1083" ;
+    nif:endIndex "1094" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w196> nif:BeginIndex "1095" ;
+    nif:anchorOf "leed" ;
+    nif:endIndex "1099" ;
+    nif:lemma "lijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w197w198> nif:anchorOf "aan tuberculose" ;
+    nif:beginIndex "1100" ;
+    nif:endIndex "1115" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w197" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w1w2> nif:anchorOf "Hendrik" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "16" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w20> nif:BeginIndex "82" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "85" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w202> nif:anchorOf "1961" ;
+    nif:beginIndex "1129" ;
+    nif:endIndex "1133" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w209> nif:anchorOf "1968" ;
+    nif:beginIndex "1168" ;
+    nif:endIndex "1172" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w210> nif:BeginIndex "1173" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "1181" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w211> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1182" ;
+    nif:endIndex "1185" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w211" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w212w213w214> nif:anchorOf "op 62-jarige leeftijd" ;
+    nif:beginIndex "1186" ;
+    nif:endIndex "1207" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w216w217> nif:anchorOf "Hans Gispen" ;
+    nif:beginIndex "1210" ;
+    nif:endIndex "1221" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w218> nif:BeginIndex "1222" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "1229" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w22> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w220> nif:anchorOf "1930" ;
+    nif:beginIndex "1233" ;
+    nif:endIndex "1237" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w222> nif:anchorOf "Barendina" ;
+    nif:beginIndex "1242" ;
+    nif:endIndex "1251" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w224> nif:anchorOf "Dina" ;
+    nif:beginIndex "1253" ;
+    nif:endIndex "1257" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w227> nif:anchorOf "Eijnsbergen" ;
+    nif:beginIndex "1263" ;
+    nif:endIndex "1274" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w230> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "1279" ;
+    nif:endIndex "1282" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w230" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w231> nif:BeginIndex "1283" ;
+    nif:anchorOf "kregen" ;
+    nif:endIndex "1289" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w232w233w234w235w236> nif:anchorOf "2 zoons en 2 dochters" ;
+    nif:beginIndex "1290" ;
+    nif:endIndex "1311" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w233" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w238> nif:anchorOf "Gispen" ;
+    nif:beginIndex "1314" ;
+    nif:endIndex "1320" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w239> nif:BeginIndex "1321" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1324" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w247w248> nif:anchorOf "Willem Gispen" ;
+    nif:beginIndex "1384" ;
+    nif:endIndex "1397" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w252w253w254> nif:anchorOf "Willem Hendrik Gispen" ;
+    nif:beginIndex "1415" ;
+    nif:endIndex "1436" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w256> nif:anchorOf "1833-1909" ;
+    nif:beginIndex "1438" ;
+    nif:endIndex "1447" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w261w262w263> nif:anchorOf "Willem Hendrik Gispen" ;
+    nif:beginIndex "1463" ;
+    nif:endIndex "1484" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w265> nif:anchorOf "1871-1934" ;
+    nif:beginIndex "1486" ;
+    nif:endIndex "1495" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w267> nif:BeginIndex "1497" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1502" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w268> nif:anchorOf "allen" ;
+    nif:beginIndex "1503" ;
+    nif:endIndex "1508" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w268" ;
+    nif:lemma "allen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w26w27> nif:anchorOf "Anti-Revolutionaire Partij" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "147" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w276w277> nif:anchorOf "Gereformeerde Kerken" ;
+    nif:beginIndex "1542" ;
+    nif:endIndex "1562" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w279> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1566" ;
+    nif:endIndex "1575" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w284> nif:anchorOf "waartoe" ;
+    nif:beginIndex "1610" ;
+    nif:endIndex "1617" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w284" ;
+    nif:lemma "waartoe" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w285> nif:anchorOf "ook" ;
+    nif:beginIndex "1618" ;
+    nif:endIndex "1621" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w285" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w286> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1622" ;
+    nif:endIndex "1625" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w286" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w287> nif:BeginIndex "1626" ;
+    nif:anchorOf "behoorde" ;
+    nif:endIndex "1634" ;
+    nif:lemma "behoren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w29> nif:anchorOf "ARP" ;
+    nif:beginIndex "149" ;
+    nif:endIndex "152" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w291w292w293> nif:anchorOf "Willem Hendrik Gispen" ;
+    nif:beginIndex "1648" ;
+    nif:endIndex "1669" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w295> nif:anchorOf "1900-1986" ;
+    nif:beginIndex "1671" ;
+    nif:endIndex "1680" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w297> nif:BeginIndex "1682" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1685" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w302w303w304> nif:anchorOf "Vrije Universiteit Amsterdam" ;
+    nif:beginIndex "1714" ;
+    nif:endIndex "1742" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w307> nif:anchorOf "1956" ;
+    nif:beginIndex "1749" ;
+    nif:endIndex "1753" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w312> nif:anchorOf "destijds" ;
+    nif:beginIndex "1781" ;
+    nif:endIndex "1789" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w312" ;
+    nif:lemma "destijds" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w313> nif:anchorOf "nog" ;
+    nif:beginIndex "1790" ;
+    nif:endIndex "1793" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w313" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w314> nif:BeginIndex "1794" ;
+    nif:anchorOf "gereformeerde" ;
+    nif:endIndex "1807" ;
+    nif:lemma "gereformeerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w318w319w320> nif:anchorOf "Parlement & Politiek" ;
+    nif:beginIndex "1836" ;
+    nif:endIndex "1856" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w32> nif:anchorOf "Gispen" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "162" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w33> nif:BeginIndex "163" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "172" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w34> nif:anchorOf "economie" ;
+    nif:beginIndex "173" ;
+    nif:endIndex "181" ;
+    nif:head "bgnProc:2243__Hans_Gispen.naf#w34" ;
+    nif:lemma "economie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w37w38> nif:anchorOf "Nederlandsche Handels-Hoogeschool" ;
+    nif:beginIndex "189" ;
+    nif:endIndex "222" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w4> nif:anchorOf "Hans" ;
+    nif:beginIndex "18" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w40> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "235" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w52w53> nif:anchorOf "Economische Zaken" ;
+    nif:beginIndex "290" ;
+    nif:endIndex "307" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w59> nif:BeginIndex "334" ;
+    nif:anchorOf "gewerkt" ;
+    nif:endIndex "341" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w6> nif:anchorOf "Gispen" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w62> nif:BeginIndex "348" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "351" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w66> nif:anchorOf "1939" ;
+    nif:beginIndex "373" ;
+    nif:endIndex "377" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w68> nif:anchorOf "1951" ;
+    nif:beginIndex "382" ;
+    nif:endIndex "386" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w72> nif:anchorOf "1951" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w74> nif:anchorOf "1956" ;
+    nif:beginIndex "413" ;
+    nif:endIndex "417" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w78> nif:BeginIndex "440" ;
+    nif:anchorOf "hoofddirectie" ;
+    nif:endIndex "453" ;
+    nif:lemma "hoofd_directie" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w8> nif:anchorOf "Baarn" ;
+    nif:beginIndex "32" ;
+    nif:endIndex "37" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w80> nif:anchorOf "Organon" ;
+    nif:beginIndex "458" ;
+    nif:endIndex "465" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w83> nif:anchorOf "1956" ;
+    nif:beginIndex "471" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w85> nif:anchorOf "1961" ;
+    nif:beginIndex "480" ;
+    nif:endIndex "484" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w94w95w96> nif:anchorOf "NV Koninklijke Zwanenberg/Organon" ;
+    nif:beginIndex "531" ;
+    nif:endIndex "564" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_102> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w103> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_128t_129> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w129w130> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_137> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_149> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w150> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_171t_172t_173t_174t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w172w173w174w175w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_176> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w177> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_179> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w180> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_196t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w197w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_208> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w209> ;
+    xs:gYear "1968" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_211t_212t_213> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w212w213w214> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_219> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w220> ;
+    xs:gYear "1930" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_229> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w230> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_231t_232t_233t_234t_235> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w232w233w234w235w236> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_267> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w268> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_283> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w284> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_284> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_285> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w286> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_311> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w312> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_312> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w313> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_71> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w72> ;
+    xs:gYear "1951" .
+
+<http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w152> .
+
+bgn:Person-2243 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w121>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w123>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w135w136>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w145w146w147>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w161w162>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w188w189w190w191w192>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w194w195>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w216w217>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w222>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w224>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w227>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w238>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w247w248>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w252w253w254>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w261w262w263>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w276w277>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w279>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w291w292w293>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w302w303w304>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w318w319w320>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w52w53>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w80>,
+        <http://data.biographynet.nl/rdf/170506221754/2243__Hans_Gispen.naf#w94w95w96> ;
+    stevensFam:isPartnerIn bgn:Person-2243 .
+

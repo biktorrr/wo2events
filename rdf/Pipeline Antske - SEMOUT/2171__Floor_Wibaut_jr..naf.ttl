@@ -1,0 +1,323 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_51t_52t_53t_54t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_97>,
+        bgn:Person-2171 ;
+    ore:proxyFor bgn:Person-2171 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w52> nif:lemma "met" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2171__Floor_Wibaut_jr#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2171__Floor_Wibaut_jr .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2171 ;
+    bgn:aggregatedPerson bgn:Person-2171 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2171__Floor_Wibaut_jr ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2171__Floor_Wibaut_jr ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w103> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_96> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_95> ;
+    pb:AM-LOC bgn:Person-2171 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w15w16w17> ;
+    xs:date "1974-05-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_25> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w40> ;
+    pb:Arg0 bgn:Person-2171 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_42t_43> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_43> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w47> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w50> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_51t_52t_53t_54t_55> ;
+    pb:ArgM-PNC bgn:Person-2171 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_48> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w70> ;
+    pb:ArgM-LOC bgn:Person-2171 .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w9w10w11> ;
+    xs:date "1887-05-31" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w91> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w1> nif:anchorOf "Florentinus" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "11" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w101w102> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "540" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w103> nif:BeginIndex "541" ;
+    nif:anchorOf "bezighield" ;
+    nif:endIndex "551" ;
+    nif:lemma "bezig_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w13> nif:anchorOf "Zeist" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "59" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w15w16w17> nif:anchorOf "7 mei 1974" ;
+    nif:beginIndex "61" ;
+    nif:endIndex "71" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w19> nif:BeginIndex "73" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "76" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w21> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "81" ;
+    nif:endIndex "92" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w26> nif:BeginIndex "119" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "122" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w3> nif:anchorOf "Floor" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w34> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "146" ;
+    nif:endIndex "157" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w36> nif:anchorOf "Wibaut" ;
+    nif:beginIndex "168" ;
+    nif:endIndex "174" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w39> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "179" ;
+    nif:endIndex "188" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w40> nif:BeginIndex "189" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "192" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w41> nif:anchorOf "Wibaut" ;
+    nif:beginIndex "193" ;
+    nif:endIndex "199" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w43w44> nif:anchorOf "een oogartspraktijk" ;
+    nif:beginIndex "204" ;
+    nif:endIndex "223" ;
+    nif:head "bgnProc:2171__Floor_Wibaut_jr..naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w44> nif:BeginIndex "208" ;
+    nif:anchorOf "oogartspraktijk" ;
+    nif:endIndex "223" ;
+    nif:lemma "oog_arts_praktijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w47> nif:anchorOf "1945" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "237" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w49> nif:anchorOf "1958" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "245" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w5> nif:anchorOf "Wibaut" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w50> nif:BeginIndex "246" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "249" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w52w53w54w55w56> nif:anchorOf "met onderbrekingen vier periodes lang" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "291" ;
+    nif:head "bgnProc:2171__Floor_Wibaut_jr..naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w59> nif:anchorOf "PvdA" ;
+    nif:beginIndex "300" ;
+    nif:endIndex "304" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w63w64> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "316" ;
+    nif:endIndex "328" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w68w69> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "336" ;
+    nif:endIndex "355" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w7> nif:anchorOf "Middelburg" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "38" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w70> nif:BeginIndex "356" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "359" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w75> nif:BeginIndex "378" ;
+    nif:anchorOf "artsenverzet" ;
+    nif:endIndex "390" ;
+    nif:lemma "arts_verzet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w91> nif:BeginIndex "469" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "472" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w92> nif:anchorOf "tevens" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "479" ;
+    nif:head "bgnProc:2171__Floor_Wibaut_jr..naf#w92" ;
+    nif:lemma "tevens" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w93> nif:anchorOf "voornamelijk" ;
+    nif:beginIndex "480" ;
+    nif:endIndex "492" ;
+    nif:head "bgnProc:2171__Floor_Wibaut_jr..naf#w93" ;
+    nif:lemma "voornamelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w96> nif:anchorOf "waarmee" ;
+    nif:beginIndex "505" ;
+    nif:endIndex "512" ;
+    nif:head "bgnProc:2171__Floor_Wibaut_jr..naf#w96" ;
+    nif:lemma "waarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w97> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "513" ;
+    nif:endIndex "516" ;
+    nif:head "bgnProc:2171__Floor_Wibaut_jr..naf#w97" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w98> nif:anchorOf "zich" ;
+    nif:beginIndex "517" ;
+    nif:endIndex "521" ;
+    nif:head "bgnProc:2171__Floor_Wibaut_jr..naf#w98" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w9w10w11> nif:anchorOf "31 mei 1887" ;
+    nif:beginIndex "40" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_42t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w43w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_48> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w49> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_51t_52t_53t_54t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w52w53w54w55w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w96> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w97> .
+
+<http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w98> .
+
+bgn:Person-2171 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w101w102>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w34>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w63w64>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w68w69>,
+        <http://data.biographynet.nl/rdf/170506221754/2171__Floor_Wibaut_jr..naf#w7> .
+

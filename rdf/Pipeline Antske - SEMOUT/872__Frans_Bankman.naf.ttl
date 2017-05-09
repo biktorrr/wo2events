@@ -1,0 +1,733 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_122t_123t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_135t_136t_137t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_143t_144t_145t_146t_147t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_17t_18t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_187t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_216t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_240>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_242t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_28t_29t_30t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_34t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_37t_38t_39t_40t_41t_42t_43t_44t_45t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_39t_40t_41t_42t_43t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_51t_52t_53t_54t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_59t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_60>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_98>,
+        bgn:Person-872 ;
+    ore:proxyFor bgn:Person-872 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w115> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w137> nif:lemma "lied" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w144> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w153> nif:lemma "refrein" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w155> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w170> nif:lemma "nieuw" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w180> nif:lemma "hand" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w188> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w243> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w30> nif:lemma "bekendheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w35> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w38> nif:lemma "vanwege" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w40> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w60> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-872__Frans_Bankman#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-872__Frans_Bankman .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-872 ;
+    bgn:aggregatedPerson bgn:Person-872 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-872__Frans_Bankman ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-872__Frans_Bankman ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w106> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_102> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_101> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_104> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w118> ;
+    pb:A0 bgn:Person-872 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_107> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w12w13w14> ;
+    xs:date "1885-04-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w133> ;
+    pb:A1 bgn:Person-872 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_122t_123t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_134> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w135> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_135t_136t_137t_138t_139> ;
+    pb:ArgM-TMP bgn:Person-872 .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w150> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_143t_144t_145t_146t_147t_148> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w154> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_169t_170> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_166> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w167> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_165> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_168> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_167> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_176> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w177> ;
+    pb:Arg0 bgn:Person-872 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_178t_179> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_177> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_17t_18t_19> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w18w19w20> ;
+    xs:date "1942-02-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_182> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w183> ;
+    pb:Arg0 bgn:Person-872 ;
+    pb:ArgM-EXT bgn:Person-872 ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_187t_188> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w186> ;
+    pb:Arg0 bgn:Person-872 .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_202> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w203> ;
+    xs:date "1942-2-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_21> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_211> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_216t_217> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w217w218> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_220> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w221> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w242> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_240> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_242t_243> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w33> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_33> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_28t_29t_30t_31> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_37t_38t_39t_40t_41t_42t_43t_44t_45t_46> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_34t_35t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w46> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_39t_40t_41t_42t_43t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w50> ;
+    pb:Arg1 bgn:Person-872 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_59t_60> ;
+    pb:ArgM-LOC bgn:Person-872 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_51t_52t_53t_54t_55t_56t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_60> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w61> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_93> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w99> ;
+    pb:Arg0 bgn:Person-872 .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w10> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "55" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w102> nif:anchorOf "dat" ;
+    nif:beginIndex "601" ;
+    nif:endIndex "604" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w102" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w103> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "608" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w103" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w105> nif:anchorOf "1940" ;
+    nif:beginIndex "612" ;
+    nif:endIndex "616" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w106> nif:BeginIndex "617" ;
+    nif:anchorOf "schreef" ;
+    nif:endIndex "624" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w108> nif:anchorOf "dat" ;
+    nif:beginIndex "628" ;
+    nif:endIndex "631" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w108" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w110w111> nif:anchorOf "datzelfde jaar" ;
+    nif:beginIndex "635" ;
+    nif:endIndex "649" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w113w114> nif:anchorOf "Piet Heins" ;
+    nif:beginIndex "655" ;
+    nif:endIndex "665" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w115w116> nif:anchorOf "op muziek" ;
+    nif:beginIndex "666" ;
+    nif:endIndex "675" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w118> nif:BeginIndex "681" ;
+    nif:anchorOf "gezet" ;
+    nif:endIndex "686" ;
+    nif:lemma "zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w121> nif:anchorOf "Mussert" ;
+    nif:beginIndex "693" ;
+    nif:endIndex "700" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w123w124w125> nif:anchorOf "9 november 1940" ;
+    nif:beginIndex "704" ;
+    nif:endIndex "719" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w12w13w14> nif:anchorOf "10 april 1885" ;
+    nif:beginIndex "57" ;
+    nif:endIndex "70" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w131> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "744" ;
+    nif:endIndex "755" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w132> nif:anchorOf "Dam" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "759" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w133> nif:BeginIndex "760" ;
+    nif:anchorOf "afnam" ;
+    nif:endIndex "765" ;
+    nif:lemma "af_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w135> nif:BeginIndex "767" ;
+    nif:anchorOf "daverde" ;
+    nif:endIndex "774" ;
+    nif:lemma "daveren" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w136w137w138w139w140> nif:anchorOf "dit lied over het plein" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "798" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w137" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w144w145w146w147w148w149> nif:anchorOf "tot het eind van de bezetting" ;
+    nif:beginIndex "810" ;
+    nif:endIndex "839" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w144" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w150> nif:BeginIndex "840" ;
+    nif:anchorOf "nagalmen" ;
+    nif:endIndex "848" ;
+    nif:lemma "na_galmen" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w152w153> nif:anchorOf "Het refrein" ;
+    nif:beginIndex "850" ;
+    nif:endIndex "861" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w154> nif:BeginIndex "862" ;
+    nif:anchorOf "klonk" ;
+    nif:endIndex "867" ;
+    nif:lemma "klinken" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w155w156> nif:anchorOf "als volgt" ;
+    nif:beginIndex "868" ;
+    nif:endIndex "877" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w155" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w16> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "73" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w166> nif:anchorOf "Wij" ;
+    nif:beginIndex "918" ;
+    nif:endIndex "921" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w166" ;
+    nif:lemma "wij" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w167> nif:BeginIndex "922" ;
+    nif:anchorOf "melden" ;
+    nif:endIndex "928" ;
+    nif:lemma "melden" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w168> a bgn:pron_2 ;
+    nif:anchorOf "u" ;
+    nif:beginIndex "929" ;
+    nif:endIndex "930" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w168" ;
+    nif:lemma "u" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w169> nif:anchorOf "den" ;
+    nif:beginIndex "931" ;
+    nif:endIndex "934" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w169" ;
+    nif:lemma "den" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w170w171> nif:anchorOf "nieuwen tijd" ;
+    nif:beginIndex "935" ;
+    nif:endIndex "947" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w170" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w174w175> nif:anchorOf "Dietsche Gouwen" ;
+    nif:beginIndex "954" ;
+    nif:endIndex "969" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w177> nif:BeginIndex "971" ;
+    nif:anchorOf "reikt" ;
+    nif:endIndex "976" ;
+    nif:lemma "reiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w178> nif:anchorOf "elkaar" ;
+    nif:beginIndex "977" ;
+    nif:endIndex "983" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w178" ;
+    nif:lemma "elkaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w179w180> nif:anchorOf "de hand" ;
+    nif:beginIndex "984" ;
+    nif:endIndex "991" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w180" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w182> nif:anchorOf "WA" ;
+    nif:beginIndex "994" ;
+    nif:endIndex "996" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w183> nif:BeginIndex "997" ;
+    nif:anchorOf "marcheert" ;
+    nif:endIndex "1006" ;
+    nif:lemma "marcheren" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w185> nif:anchorOf "WA" ;
+    nif:beginIndex "1008" ;
+    nif:endIndex "1010" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w186> nif:BeginIndex "1011" ;
+    nif:anchorOf "marcheert" ;
+    nif:endIndex "1020" ;
+    nif:lemma "marcheren" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w188w189> nif:anchorOf "Voor ons" ;
+    nif:beginIndex "1023" ;
+    nif:endIndex "1031" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w188" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w18w19w20> nif:anchorOf "6 februari 1942" ;
+    nif:beginIndex "84" ;
+    nif:endIndex "99" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w190> nif:anchorOf "Volk" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1036" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w192> nif:anchorOf "Vaderland" ;
+    nif:beginIndex "1040" ;
+    nif:endIndex "1049" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w194> nif:anchorOf "Bankman" ;
+    nif:beginIndex "1052" ;
+    nif:endIndex "1059" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w199w200w201> nif:anchorOf "De Nieuwe Ooster" ;
+    nif:beginIndex "1091" ;
+    nif:endIndex "1107" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w1w2> nif:anchorOf "Bankman" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w203> nif:anchorOf "10-2-1942" ;
+    nif:beginIndex "1111" ;
+    nif:endIndex "1120" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w212> nif:BeginIndex "1161" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1164" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w213> nif:anchorOf "Meinoud" ;
+    nif:beginIndex "1165" ;
+    nif:endIndex "1172" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w214w215w216> nif:anchorOf "Rost van Tonningen" ;
+    nif:beginIndex "1173" ;
+    nif:endIndex "1191" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w217w218> nif:anchorOf "Een jaar" ;
+    nif:beginIndex "1193" ;
+    nif:endIndex "1201" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w22> nif:BeginIndex "101" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "104" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w221> nif:BeginIndex "1210" ;
+    nif:anchorOf "overlijden" ;
+    nif:endIndex "1220" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w223> nif:anchorOf "Nenasu" ;
+    nif:beginIndex "1233" ;
+    nif:endIndex "1239" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w237> nif:anchorOf "Jan" ;
+    nif:beginIndex "1322" ;
+    nif:endIndex "1325" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w239> nif:anchorOf "Haas" ;
+    nif:beginIndex "1329" ;
+    nif:endIndex "1333" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w24> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "109" ;
+    nif:endIndex "119" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w241> nif:anchorOf "Die" ;
+    nif:beginIndex "1335" ;
+    nif:endIndex "1338" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w241" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w242> nif:BeginIndex "1339" ;
+    nif:anchorOf "koos" ;
+    nif:endIndex "1343" ;
+    nif:lemma "kiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w243w244> nif:anchorOf "als titel" ;
+    nif:beginIndex "1344" ;
+    nif:endIndex "1353" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w243" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w27> nif:anchorOf "NSB-aanhanger" ;
+    nif:beginIndex "131" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w29w30w31w32> nif:anchorOf "Zijn bekendheid als dichter" ;
+    nif:beginIndex "147" ;
+    nif:endIndex "174" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w30" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w33> nif:BeginIndex "175" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "180" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w34> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "181" ;
+    nif:endIndex "184" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w34" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w35w36w37> nif:anchorOf "in nationaalsocialistische kringen" ;
+    nif:beginIndex "185" ;
+    nif:endIndex "219" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w38w39w40w41w42w43w44w45w46w47> nif:anchorOf "vanwege zijn op het gedachtegoed van die beweging toegespitste gedichten" ;
+    nif:beginIndex "220" ;
+    nif:endIndex "292" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w38" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w40w41w42w43w44w45> nif:anchorOf "op het gedachtegoed van die beweging" ;
+    nif:beginIndex "233" ;
+    nif:endIndex "269" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w40" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w46> nif:BeginIndex "270" ;
+    nif:anchorOf "toegespitste" ;
+    nif:endIndex "282" ;
+    nif:lemma "toegespitst" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w49> nif:anchorOf "Bankman" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "302" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w50> nif:BeginIndex "303" ;
+    nif:anchorOf "publiceerde" ;
+    nif:endIndex "314" ;
+    nif:lemma "publiceren" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w52w53w54w55w56w57w58> nif:anchorOf "de jaren dertig van de twintigste eeuw" ;
+    nif:beginIndex "321" ;
+    nif:endIndex "359" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w59> nif:BeginIndex "360" ;
+    nif:anchorOf "strijdliederen" ;
+    nif:endIndex "374" ;
+    nif:lemma "strijd_lied" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w60w61> nif:anchorOf "in dichtvorm" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "387" ;
+    nif:head "bgnProc:872__Frans_Bankman.naf#w60" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w61> nif:BeginIndex "378" ;
+    nif:anchorOf "dichtvorm" ;
+    nif:endIndex "387" ;
+    nif:lemma "dicht_vorm" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w63> nif:anchorOf "Volk" ;
+    nif:beginIndex "391" ;
+    nif:endIndex "395" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w65> nif:anchorOf "Vaderland" ;
+    nif:beginIndex "399" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w6w7> nif:anchorOf "Frans Willems" ;
+    nif:beginIndex "30" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w71w72> nif:anchorOf "Nationaal-Socialistische Beweging" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "463" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w75w76> nif:anchorOf "De Daad" ;
+    nif:beginIndex "470" ;
+    nif:endIndex "477" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w82> nif:anchorOf "Amsterdamse" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "511" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w86> nif:anchorOf "NSB" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "531" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w94> nif:BeginIndex "572" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "575" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w98> nif:anchorOf "WA" ;
+    nif:beginIndex "586" ;
+    nif:endIndex "588" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w99> nif:BeginIndex "589" ;
+    nif:anchorOf "marcheert" ;
+    nif:endIndex "598" ;
+    nif:lemma "marcheren" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_104> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w105> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_109t_110> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w110w111> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_122t_123t_124> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w123w124w125> ;
+    xs:date "1940-11-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_135t_136t_137t_138t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w136w137w138w139w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_143t_144t_145t_146t_147t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w144w145w146w147w148w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_151t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w152w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_167> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_169t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w170w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_187t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w188w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_240> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w241> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_242t_243> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w243w244> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_28t_29t_30t_31> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w29w30w31w32> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_34t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w35w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_37t_38t_39t_40t_41t_42t_43t_44t_45t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w38w39w40w41w42w43w44w45w46w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_39t_40t_41t_42t_43t_44> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w40w41w42w43w44w45> .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_51t_52t_53t_54t_55t_56t_57> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w52w53w54w55w56w57w58> ;
+    xs:date "203" .
+
+<http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#t_59t_60> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w60w61> .
+
+bgn:Person-872 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w113w114>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w121>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w174w175>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w182>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w190>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w194>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w199w200w201>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w213>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w214w215w216>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w223>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w237>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w65>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w71w72>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w75w76>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w86>,
+        <http://data.biographynet.nl/rdf/170506221754/872__Frans_Bankman.naf#w98> ;
+    xs:gYearMonth "2017-01" .
+

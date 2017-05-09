@@ -1,0 +1,872 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_103t_104t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_107t_108t_109t_110t_111t_112t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_108t_109t_110t_111t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_162t_163t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_177t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_182t_183t_184t_185t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_41t_42t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_48t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_50t_51t_52t_53t_54t_55t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_65t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_74t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_77t_78t_79t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_89t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_91t_92t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_9t_10t_11>,
+        bgn:Person-1085 ;
+    ore:proxyFor bgn:Person-1085 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w104> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w108> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w109> nif:lemma "mens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w124> nif:lemma "medemens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w143> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w163> nif:lemma "binnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w183> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w38> nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w42> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w46> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w52> nif:lemma "opdracht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w67> nif:lemma "oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w76> nif:lemma "broer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w78> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w91> nif:lemma "geloof" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w94> nif:lemma "rol" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1085__Albert_Beens#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1085__Albert_Beens .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1085 ;
+    bgn:aggregatedPerson bgn:Person-1085 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1085__Albert_Beens ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1085__Albert_Beens ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w103> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_103t_104t_105> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_107t_108t_109t_110t_111t_112t_113t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_111> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w112> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_109> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w116> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_108t_109t_110t_111t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w119> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_127> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w128> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_120> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_122t_123> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_125> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w14> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w138> ;
+    pb:A1 bgn:Person-1085 .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w142> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_142t_143t_144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_149> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w150> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_148> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_157> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w162> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_162t_163t_164> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w181> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_181>,
+        bgn:Person-1085 .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w188> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_181> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_177t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_182t_183t_184t_185t_186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w190> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_181>,
+        bgn:Person-1085 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_177t_178t_179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w196> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_193> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_194> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w209> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_207> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_216> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w217> ;
+    pb:Arg1 bgn:Person-1085 .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_23> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w34> ;
+    pb:Arg1 bgn:Person-1085 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_41t_42t_43> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w41> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_37t_38t_39t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_52> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w53> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_46> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_50t_51t_52t_53t_54t_55t_56> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_48t_49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w57> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_54> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w59> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_59> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w6w7w8> ;
+    xs:date "1918-11-19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w69> ;
+    pb:Arg0 bgn:Person-1085 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_65t_66> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w77> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_74t_75> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_77t_78t_79t_80t_81> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w82> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_74t_75> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_87> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w88> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w95> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_89t_90> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_91t_92t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w10w11w12> ;
+    xs:date "1944-08-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w103> nif:BeginIndex "542" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "546" ;
+    nif:lemma "in_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w104w105w106> nif:anchorOf "tegen zijn principes" ;
+    nif:beginIndex "547" ;
+    nif:endIndex "567" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w104" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w108w109w110w111w112w113w114w115w116> nif:anchorOf "om mensen die niets gedaan hadden op te pakken" ;
+    nif:beginIndex "571" ;
+    nif:endIndex "617" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w108" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w109w110w111w112w113> nif:anchorOf "mensen die niets gedaan hadden" ;
+    nif:beginIndex "574" ;
+    nif:endIndex "604" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w109" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w10w11w12> nif:anchorOf "21 augustus 1944" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w110> nif:anchorOf "die" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "584" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w110" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w111> nif:anchorOf "niets" ;
+    nif:beginIndex "585" ;
+    nif:endIndex "590" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w111" ;
+    nif:lemma "niets" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w112> nif:BeginIndex "591" ;
+    nif:anchorOf "gedaan" ;
+    nif:endIndex "597" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w116> nif:BeginIndex "611" ;
+    nif:anchorOf "pakken" ;
+    nif:endIndex "617" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w118> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "622" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w118" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w119> nif:BeginIndex "623" ;
+    nif:anchorOf "vond" ;
+    nif:endIndex "627" ;
+    nif:lemma "vinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w121> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "632" ;
+    nif:endIndex "635" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w121" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w122> nif:anchorOf "dat" ;
+    nif:beginIndex "636" ;
+    nif:endIndex "639" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w122" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w123w124> nif:anchorOf "zijn medemensen" ;
+    nif:beginIndex "640" ;
+    nif:endIndex "655" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w124" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w125> nif:anchorOf "niet" ;
+    nif:beginIndex "656" ;
+    nif:endIndex "660" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w125" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w126> nif:anchorOf "aan" ;
+    nif:beginIndex "661" ;
+    nif:endIndex "664" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w126" ;
+    nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w128> nif:BeginIndex "671" ;
+    nif:anchorOf "doen" ;
+    nif:endIndex "675" ;
+    nif:lemma "aan_doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w137> nif:anchorOf "Albert" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "719" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w138> nif:BeginIndex "720" ;
+    nif:anchorOf "ontslagen" ;
+    nif:endIndex "729" ;
+    nif:lemma "ontslaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w14> nif:BeginIndex "63" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "66" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w142> nif:BeginIndex "744" ;
+    nif:anchorOf "betrokken" ;
+    nif:endIndex "753" ;
+    nif:lemma "betrokken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w143w144w145> nif:anchorOf "bij het verzet" ;
+    nif:beginIndex "754" ;
+    nif:endIndex "768" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w143" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w147> nif:anchorOf "Later" ;
+    nif:beginIndex "770" ;
+    nif:endIndex "775" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w147" ;
+    nif:lemma "laat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w149> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "782" ;
+    nif:endIndex "785" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w149" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w150> nif:BeginIndex "786" ;
+    nif:anchorOf "onderduiken" ;
+    nif:endIndex "797" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w154> nif:anchorOf "Klazienaveen" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "820" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w158> nif:anchorOf "Zwartemeer" ;
+    nif:beginIndex "833" ;
+    nif:endIndex "843" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w16> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "71" ;
+    nif:endIndex "81" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w160w161> nif:anchorOf "Albert Beens" ;
+    nif:beginIndex "845" ;
+    nif:endIndex "857" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w162> nif:BeginIndex "858" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "861" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w163w164w165> nif:anchorOf "binnen het verzet" ;
+    nif:beginIndex "862" ;
+    nif:endIndex "879" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w170> nif:BeginIndex "903" ;
+    nif:anchorOf "vervoeren" ;
+    nif:endIndex "912" ;
+    nif:lemma "vervoeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w178w179w180> nif:anchorOf "21 augustus 1944" ;
+    nif:beginIndex "961" ;
+    nif:endIndex "977" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w181> nif:BeginIndex "978" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "982" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w182> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "983" ;
+    nif:endIndex "986" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w182" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w183w184w185w186w187> nif:anchorOf "tijdens een controle op persoonsbewijzen" ;
+    nif:beginIndex "987" ;
+    nif:endIndex "1027" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w188> nif:BeginIndex "1028" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "1040" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w190> nif:BeginIndex "1044" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "1056" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w192> nif:anchorOf "Emmen" ;
+    nif:beginIndex "1062" ;
+    nif:endIndex "1067" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w193> nif:anchorOf "alwaar" ;
+    nif:beginIndex "1068" ;
+    nif:endIndex "1074" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w193" ;
+    nif:lemma "alwaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w194> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1075" ;
+    nif:endIndex "1078" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w194" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w195> nif:anchorOf "zwaar" ;
+    nif:beginIndex "1079" ;
+    nif:endIndex "1084" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w195" ;
+    nif:lemma "zwaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w196> nif:BeginIndex "1085" ;
+    nif:anchorOf "mishandeld" ;
+    nif:endIndex "1095" ;
+    nif:lemma "mishandelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w1w2> nif:anchorOf "Beens" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "12" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w206> nif:anchorOf "Assen" ;
+    nif:beginIndex "1141" ;
+    nif:endIndex "1146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w208> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1152" ;
+    nif:endIndex "1155" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w208" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w209> nif:BeginIndex "1156" ;
+    nif:anchorOf "geëxecuteerd" ;
+    nif:endIndex "1168" ;
+    nif:lemma "executeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w20w21> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "105" ;
+    nif:endIndex "124" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w214> nif:anchorOf "Beensstraat" ;
+    nif:beginIndex "1177" ;
+    nif:endIndex "1188" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w216> nif:anchorOf "Emmen" ;
+    nif:beginIndex "1192" ;
+    nif:endIndex "1197" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w217> nif:BeginIndex "1198" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1200" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w219w220> nif:anchorOf "Albert Beens" ;
+    nif:beginIndex "1206" ;
+    nif:endIndex "1218" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w24> nif:BeginIndex "131" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "134" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w29> nif:anchorOf "Zuidoost" ;
+    nif:beginIndex "158" ;
+    nif:endIndex "166" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w30> nif:anchorOf "Drenthe" ;
+    nif:beginIndex "167" ;
+    nif:endIndex "174" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w32w33> nif:anchorOf "Albert Beens" ;
+    nif:beginIndex "176" ;
+    nif:endIndex "188" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w34> nif:BeginIndex "189" ;
+    nif:anchorOf "woonde" ;
+    nif:endIndex "195" ;
+    nif:lemma "wonen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w35> nif:anchorOf "oorspronkelijk" ;
+    nif:beginIndex "196" ;
+    nif:endIndex "210" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w35" ;
+    nif:lemma "oorspronkelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w37> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "214" ;
+    nif:endIndex "223" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w38w39w40w41> nif:anchorOf "waar hij werkzaam was" ;
+    nif:beginIndex "224" ;
+    nif:endIndex "245" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w38" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w4> nif:anchorOf "Genemuiden" ;
+    nif:beginIndex "14" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w41> nif:BeginIndex "242" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "245" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w42w43w44> nif:anchorOf "bij de politie" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "260" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w46w47w48w49w50w51w52w53w54w55w56w57> nif:anchorOf "Toen hij in mei 1943 de opdracht kreeg om joden te arresteren" ;
+    nif:beginIndex "262" ;
+    nif:endIndex "323" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w46" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w47> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "267" ;
+    nif:endIndex "270" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w47" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w49w50> nif:anchorOf "mei 1943" ;
+    nif:beginIndex "274" ;
+    nif:endIndex "282" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w51w52w53w54w55w56w57> nif:anchorOf "de opdracht kreeg om joden te arresteren" ;
+    nif:beginIndex "283" ;
+    nif:endIndex "323" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w53> nif:BeginIndex "295" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "300" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w55> nif:anchorOf "joden" ;
+    nif:beginIndex "304" ;
+    nif:endIndex "309" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w55" ;
+    nif:lemma "jood" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w57> nif:BeginIndex "313" ;
+    nif:anchorOf "arresteren" ;
+    nif:endIndex "323" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w59> nif:BeginIndex "325" ;
+    nif:anchorOf "weigerde" ;
+    nif:endIndex "333" ;
+    nif:lemma "weigeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w60> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "334" ;
+    nif:endIndex "337" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w60" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w64> nif:anchorOf "Henk" ;
+    nif:beginIndex "350" ;
+    nif:endIndex "354" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w66w67> nif:anchorOf "de oorlog" ;
+    nif:beginIndex "361" ;
+    nif:endIndex "370" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w67" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w68> nif:anchorOf "wel" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w68" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w69> nif:BeginIndex "375" ;
+    nif:anchorOf "overleefd" ;
+    nif:endIndex "384" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w6w7w8> nif:anchorOf "19 november 1918" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w74> nif:anchorOf "waarom" ;
+    nif:beginIndex "398" ;
+    nif:endIndex "404" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w74" ;
+    nif:lemma "waarom" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w75w76> nif:anchorOf "zijn broer" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "415" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w77> nif:BeginIndex "416" ;
+    nif:anchorOf "weigerde" ;
+    nif:endIndex "424" ;
+    nif:lemma "weigeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w78w79w80w81w82> nif:anchorOf "om joden op te halen" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "445" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w78" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w79> nif:anchorOf "joden" ;
+    nif:beginIndex "428" ;
+    nif:endIndex "433" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w79" ;
+    nif:lemma "jood" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w82> nif:BeginIndex "440" ;
+    nif:anchorOf "halen" ;
+    nif:endIndex "445" ;
+    nif:lemma "op_halen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w87> a bgn:pron_1s ;
+    nif:anchorOf "Ik" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "463" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w87" ;
+    nif:lemma "ik" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w88> nif:BeginIndex "464" ;
+    nif:anchorOf "denk" ;
+    nif:endIndex "468" ;
+    nif:lemma "denken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w90w91> nif:anchorOf "zijn geloof" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "484" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w92w93w94> nif:anchorOf "een belangrijke rol" ;
+    nif:beginIndex "485" ;
+    nif:endIndex "504" ;
+    nif:head "bgnProc:1085__Albert_Beens.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w95> nif:BeginIndex "505" ;
+    nif:anchorOf "speelde" ;
+    nif:endIndex "512" ;
+    nif:lemma "spelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w97> nif:anchorOf "Albert" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "520" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w98> nif:BeginIndex "521" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "524" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_103t_104t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w104w105w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_107t_108t_109t_110t_111t_112t_113t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w108w109w110w111w112w113w114w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_108t_109t_110t_111t_112> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w109w110w111w112w113> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w118> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_125> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w126> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_162t_163t_164> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w163w164w165> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_182t_183t_184t_185t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w183w184w185w186w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_193> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_207> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w208> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_41t_42t_43> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w42w43w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_45t_46t_47t_48t_49t_50t_51t_52t_53t_54t_55t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w46w47w48w49w50w51w52w53w54w55w56w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_46> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_48t_49> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w49w50> ;
+    xs:gYearMonth "1943-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_50t_51t_52t_53t_54t_55t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w51w52w53w54w55w56w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_65t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w66w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_77t_78t_79t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w78w79w80w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_89t_90> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w90w91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_91t_92t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w92w93w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_177t_178t_179> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w178w179w180> ;
+    xs:date "1944-08-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_37t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w38w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_74t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w75w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w182> .
+
+bgn:Person-1085 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w137>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w154>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w160w161>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w206>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w20w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w214>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w216>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w219w220>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1085__Albert_Beens.naf#w97> .
+

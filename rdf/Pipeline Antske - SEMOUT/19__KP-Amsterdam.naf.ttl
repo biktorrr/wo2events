@@ -1,0 +1,215 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_35t_36t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_73t_74t_75t_76t_77t_78t_79t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_8>,
+        bgn:Person-19 ;
+    ore:proxyFor bgn:Person-19 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w36> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w74> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-19__KP-Amsterdam#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-19__KP-Amsterdam .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-19 ;
+    bgn:aggregatedPerson bgn:Person-19 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-19__KP-Amsterdam ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-19__KP-Amsterdam ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w20> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_17> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_4> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w5> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_42> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w43> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_35t_36t_37t_38t_39t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w58> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_55> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w62> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_73t_74t_75t_76t_77t_78t_79t_80t_81> ;
+    pb:ArgM-TMP bgn:Person-19 .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_8> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w9> ;
+    pb:ArgM-TMP bgn:Person-19 .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w11> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "70" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w15w16> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "101" ;
+    nif:endIndex "120" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w18> nif:anchorOf "Knokploegen" ;
+    nif:beginIndex "122" ;
+    nif:endIndex "133" ;
+    nif:head "bgnProc:19__KP-Amsterdam.naf#w18" ;
+    nif:lemma "knok_ploeg" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w20> nif:BeginIndex "141" ;
+    nif:anchorOf "opgericht" ;
+    nif:endIndex "150" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w2w3> nif:anchorOf "Knokploeg Amsterdam" ;
+    nif:beginIndex "3" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w36w37w38w39w40w41> nif:anchorOf "aan distributiebonnen persoonsbewijzen en dergelijke" ;
+    nif:beginIndex "254" ;
+    nif:endIndex "307" ;
+    nif:head "bgnProc:19__KP-Amsterdam.naf#w36" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w37> nif:BeginIndex "258" ;
+    nif:anchorOf "distributiebonnen" ;
+    nif:endIndex "275" ;
+    nif:lemma "distributie_bon" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w43> nif:BeginIndex "311" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "316" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w45w46w47w48> nif:anchorOf "Jacob van der Veen" ;
+    nif:beginIndex "319" ;
+    nif:endIndex "337" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w49> nif:BeginIndex "338" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "341" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w5> nif:BeginIndex "24" ;
+    nif:anchorOf "afgekort" ;
+    nif:endIndex "32" ;
+    nif:lemma "afgekort" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w56> nif:anchorOf "die" ;
+    nif:beginIndex "392" ;
+    nif:endIndex "395" ;
+    nif:head "bgnProc:19__KP-Amsterdam.naf#w56" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w58> nif:BeginIndex "404" ;
+    nif:anchorOf "onderduiken" ;
+    nif:endIndex "415" ;
+    nif:lemma "onder_duiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w61> nif:anchorOf "KP-Amsterdam" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "433" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w62> nif:BeginIndex "434" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "437" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w7> nif:anchorOf "KP-Amsterdam" ;
+    nif:beginIndex "37" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w70w71w72w73> nif:anchorOf "Huis van Bewaring Weteringschans" ;
+    nif:beginIndex "479" ;
+    nif:endIndex "511" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w74w75w76w77w78w79w80w81w82> nif:anchorOf "in de nacht van 14 op 15 juli 1944" ;
+    nif:beginIndex "512" ;
+    nif:endIndex "546" ;
+    nif:head "bgnProc:19__KP-Amsterdam.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w86w87> nif:anchorOf "Johannes Post" ;
+    nif:beginIndex "565" ;
+    nif:endIndex "578" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w9> nif:BeginIndex "51" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "54" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_17> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_35t_36t_37t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w36w37w38w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#t_73t_74t_75t_76t_77t_78t_79t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w74w75w76w77w78w79w80w81w82> .
+
+bgn:Person-19 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w15w16>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w45w46w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w70w71w72w73>,
+        <http://data.biographynet.nl/rdf/170506221754/19__KP-Amsterdam.naf#w86w87> .
+

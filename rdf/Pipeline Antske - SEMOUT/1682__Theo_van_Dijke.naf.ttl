@@ -1,0 +1,956 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_103t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_10t_11t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_139t_140t_141t_142t_143t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_161t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_164>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_16t_17t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_174t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_182t_183t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_274t_275t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_285t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_297>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_298t_299t_300>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_304>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_317>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_319>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_320>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_76t_77t_78t_79t_80t_81t_82t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_83t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_98t_99t_100>,
+        bgn:Person-1682 ;
+    ore:proxyFor bgn:Person-1682 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w105> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w140> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w163> nif:lemma "groep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w176> nif:lemma "tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w183> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w275> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w287> nif:lemma "kruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w299> nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w77> nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w84> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w99> nif:lemma "uit" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1682__Theo_van_Dijke#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1682__Theo_van_Dijke .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1682 ;
+    bgn:aggregatedPerson bgn:Person-1682 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1682__Theo_van_Dijke ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1682__Theo_van_Dijke ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w106> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_103t_104> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_98t_99t_100> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_102> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_10t_11t_12> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w11w12w13> ;
+    xs:date "1923-11-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_117> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w118> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_119> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w124> ;
+    pb:ArgM bgn:Person-1682 .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_146> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w147> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_147> ;
+    pb:Arg4 bgn:Person-1682 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_139t_140t_141t_142t_143t_144t_145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w156> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_151> ;
+    pb:A1 bgn:Person-1682 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_150> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_152> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_154> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_164> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w165> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_161t_162> ;
+    pb:AM-DIS bgn:Person-1682 .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_16t_17t_18> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w17w18w19> ;
+    xs:date "1987-06-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_180> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w181> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_173> ;
+    pb:Arg2 bgn:Person-1682 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_171> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_174t_175> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w190> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_186> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_191> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_182t_183t_184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_198> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w199> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w21> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_205> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w206> ;
+    xs:gYear "1961" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w209> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_216> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w217> ;
+    xs:gYear "1973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_218> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w219> ;
+    xs:gYear "1979" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_227> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w228> ;
+    xs:gYear "1979" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_234> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w235> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_255> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w256> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w27> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_25> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_272> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w273> ;
+    pb:Arg0 bgn:Person-1682 ;
+    pb:Arg1 bgn:Person-1682 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_266> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_274t_275t_276> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_264>,
+        bgn:Person-1682 .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_284> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w285> ;
+    pb:Arg0 bgn:Person-1682 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_285t_286> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_304> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w305> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_297> ;
+    pb:Arg2 bgn:Person-1682 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_298t_299t_300> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_315> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w316> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_297> ;
+    pb:Arg1 bgn:Person-1682 .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_320> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w321> ;
+    pb:A0 bgn:Person-1682 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_319> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_317> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w74> ;
+    pb:Arg1 bgn:Person-1682 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_76t_77t_78t_79t_80t_81t_82t_83t_84t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w83> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_80> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w86> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_83t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w91> ;
+    pb:A2 bgn:Person-1682 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w103> nif:anchorOf "nog" ;
+    nif:beginIndex "524" ;
+    nif:endIndex "527" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w103" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w104w105> nif:anchorOf "twee kinderen" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "541" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w106> nif:BeginIndex "542" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "549" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w110> nif:anchorOf "Leo" ;
+    nif:beginIndex "560" ;
+    nif:endIndex "563" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w114> nif:anchorOf "Co" ;
+    nif:beginIndex "579" ;
+    nif:endIndex "581" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w116w117> nif:anchorOf "Van Dijke" ;
+    nif:beginIndex "584" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w118> nif:BeginIndex "594" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "598" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w11w12w13> nif:anchorOf "25 november 1923" ;
+    nif:beginIndex "44" ;
+    nif:endIndex "60" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w120> nif:anchorOf "1941" ;
+    nif:beginIndex "602" ;
+    nif:endIndex "606" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w124> nif:BeginIndex "624" ;
+    nif:anchorOf "gemeentesecretariaat" ;
+    nif:endIndex "644" ;
+    nif:lemma "gemeente_secretariaat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w126> nif:anchorOf "Lopik" ;
+    nif:beginIndex "648" ;
+    nif:endIndex "653" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w130w131> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "666" ;
+    nif:endIndex "685" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w137w138> nif:anchorOf "Landelijke Knokploegen" ;
+    nif:beginIndex "708" ;
+    nif:endIndex "730" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w140w141w142w143w144w145w146> nif:anchorOf "Na een mislukte overval op een distributiekantoor" ;
+    nif:beginIndex "732" ;
+    nif:endIndex "781" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w147> nif:BeginIndex "782" ;
+    nif:anchorOf "vluchtte" ;
+    nif:endIndex "790" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w148> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "794" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w148" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w15> nif:anchorOf "Ede" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w150> nif:anchorOf "Steenbergen" ;
+    nif:beginIndex "800" ;
+    nif:endIndex "811" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w151> nif:anchorOf "waar" ;
+    nif:beginIndex "812" ;
+    nif:endIndex "816" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w151" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w152> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "817" ;
+    nif:endIndex "820" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w152" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w153> nif:anchorOf "zich" ;
+    nif:beginIndex "821" ;
+    nif:endIndex "825" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w153" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w155> nif:anchorOf "1944" ;
+    nif:beginIndex "829" ;
+    nif:endIndex "833" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w156> nif:BeginIndex "834" ;
+    nif:anchorOf "aansloot" ;
+    nif:endIndex "842" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w159w160> nif:anchorOf "Stoottroepen Brabant" ;
+    nif:beginIndex "850" ;
+    nif:endIndex "870" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w162w163> nif:anchorOf "Deze groep" ;
+    nif:beginIndex "872" ;
+    nif:endIndex "882" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w165> nif:BeginIndex "888" ;
+    nif:anchorOf "ingezet" ;
+    nif:endIndex "895" ;
+    nif:lemma "in_zetten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w167> nif:anchorOf "Moerdijk" ;
+    nif:beginIndex "900" ;
+    nif:endIndex "908" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w170> nif:anchorOf "Zeeland" ;
+    nif:beginIndex "915" ;
+    nif:endIndex "922" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w172> nif:anchorOf "Ook" ;
+    nif:beginIndex "924" ;
+    nif:endIndex "927" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w172" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w174> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "933" ;
+    nif:endIndex "936" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w174" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w175w176> nif:anchorOf "enige tijd" ;
+    nif:beginIndex "937" ;
+    nif:endIndex "947" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w176" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w179> nif:anchorOf "Poolse" ;
+    nif:beginIndex "956" ;
+    nif:endIndex "962" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w17w18w19> nif:anchorOf "3 juni 1987" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "79" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w181> nif:BeginIndex "974" ;
+    nif:anchorOf "ingedeeld" ;
+    nif:endIndex "983" ;
+    nif:lemma "in_delen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w183w184w185> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "986" ;
+    nif:endIndex "998" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w187> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1007" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w187" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w190> nif:BeginIndex "1022" ;
+    nif:anchorOf "werken" ;
+    nif:endIndex "1028" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w192> nif:anchorOf "Delft" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1037" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w195> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1044" ;
+    nif:endIndex "1047" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w195" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w199> nif:BeginIndex "1064" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1067" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w1w2> nif:anchorOf "Karel" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w206> nif:anchorOf "1961" ;
+    nif:beginIndex "1101" ;
+    nif:endIndex "1105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w208> nif:anchorOf "1973" ;
+    nif:beginIndex "1110" ;
+    nif:endIndex "1114" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w209> nif:BeginIndex "1115" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1118" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w21> nif:BeginIndex "81" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "84" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w213> nif:anchorOf "Axel" ;
+    nif:beginIndex "1140" ;
+    nif:endIndex "1144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w217> nif:anchorOf "1973" ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1161" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w219> nif:anchorOf "1979" ;
+    nif:beginIndex "1166" ;
+    nif:endIndex "1170" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w223> nif:anchorOf "Zuid-Hollandse" ;
+    nif:beginIndex "1191" ;
+    nif:endIndex "1205" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w225> nif:anchorOf "Maassluis" ;
+    nif:beginIndex "1211" ;
+    nif:endIndex "1220" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w228> nif:anchorOf "1979" ;
+    nif:beginIndex "1226" ;
+    nif:endIndex "1230" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w23> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w234> nif:anchorOf "1987" ;
+    nif:beginIndex "1252" ;
+    nif:endIndex "1256" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w235> nif:BeginIndex "1257" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1260" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w240> nif:anchorOf "Gelderse" ;
+    nif:beginIndex "1285" ;
+    nif:endIndex "1293" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w242> nif:anchorOf "Ede" ;
+    nif:beginIndex "1301" ;
+    nif:endIndex "1304" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w245> nif:BeginIndex "1310" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1313" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w249> nif:anchorOf "ARP" ;
+    nif:beginIndex "1325" ;
+    nif:endIndex "1328" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w252> nif:anchorOf "CDA" ;
+    nif:beginIndex "1336" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w254w255> nif:anchorOf "Van Dijke" ;
+    nif:beginIndex "1342" ;
+    nif:endIndex "1351" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w256> nif:BeginIndex "1352" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1355" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w257> nif:anchorOf "Officier" ;
+    nif:beginIndex "1356" ;
+    nif:endIndex "1364" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w26> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "115" ;
+    nif:endIndex "118" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w26" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w260w261w262> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "1371" ;
+    nif:endIndex "1393" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w265> nif:anchorOf "1982" ;
+    nif:beginIndex "1398" ;
+    nif:endIndex "1402" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w267> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1409" ;
+    nif:endIndex "1412" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w267" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w269> nif:anchorOf "Prins" ;
+    nif:beginIndex "1418" ;
+    nif:endIndex "1423" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w27> nif:BeginIndex "119" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "122" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w270> nif:anchorOf "Bernhard" ;
+    nif:beginIndex "1424" ;
+    nif:endIndex "1432" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w272> nif:anchorOf "Verzetsherdenkingskruis" ;
+    nif:beginIndex "1437" ;
+    nif:endIndex "1460" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w273> nif:BeginIndex "1461" ;
+    nif:anchorOf "uitgereikt" ;
+    nif:endIndex "1471" ;
+    nif:lemma "uit_reiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w275w276w277> nif:anchorOf "voor getoonde dapperheid" ;
+    nif:beginIndex "1473" ;
+    nif:endIndex "1497" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w275" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w280w281> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "1509" ;
+    nif:endIndex "1528" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w283w284> nif:anchorOf "Van Dijke" ;
+    nif:beginIndex "1530" ;
+    nif:endIndex "1539" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w285> nif:BeginIndex "1540" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "1545" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w286w287> nif:anchorOf "het kruis" ;
+    nif:beginIndex "1546" ;
+    nif:endIndex "1555" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w287" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w292w293w294> nif:anchorOf "Pieter van Dijke" ;
+    nif:beginIndex "1580" ;
+    nif:endIndex "1596" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w298> nif:anchorOf "die" ;
+    nif:beginIndex "1617" ;
+    nif:endIndex "1620" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w298" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w299w300w301> nif:anchorOf "samen met hem" ;
+    nif:beginIndex "1621" ;
+    nif:endIndex "1634" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w299" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w304> nif:anchorOf "Trouwgroep" ;
+    nif:beginIndex "1641" ;
+    nif:endIndex "1651" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w305> nif:BeginIndex "1652" ;
+    nif:anchorOf "zaten" ;
+    nif:endIndex "1657" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w315> nif:anchorOf "Trouw" ;
+    nif:beginIndex "1714" ;
+    nif:endIndex "1719" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w316> nif:BeginIndex "1720" ;
+    nif:anchorOf "verzorgden" ;
+    nif:endIndex "1730" ;
+    nif:lemma "verzorgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w318> nif:anchorOf "Ook" ;
+    nif:beginIndex "1732" ;
+    nif:endIndex "1735" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w318" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w31w32w33> nif:anchorOf "Kees van Dijke" ;
+    nif:beginIndex "135" ;
+    nif:endIndex "149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w320> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1741" ;
+    nif:endIndex "1744" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w320" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w321> nif:BeginIndex "1745" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "1758" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w324> nif:anchorOf "Poolse" ;
+    nif:beginIndex "1767" ;
+    nif:endIndex "1773" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w37> nif:anchorOf "Lopik" ;
+    nif:beginIndex "166" ;
+    nif:endIndex "171" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w39w40> nif:anchorOf "Kaatje Krijger" ;
+    nif:beginIndex "175" ;
+    nif:endIndex "189" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w4> nif:anchorOf "Theo" ;
+    nif:beginIndex "16" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w45w46w47> nif:anchorOf "Mattheus Karel Krijger" ;
+    nif:beginIndex "213" ;
+    nif:endIndex "235" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w58w59w60> nif:anchorOf "Pieter van Dijke" ;
+    nif:beginIndex "298" ;
+    nif:endIndex "314" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w63> nif:anchorOf "Commissaris" ;
+    nif:beginIndex "322" ;
+    nif:endIndex "333" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w68> nif:anchorOf "Utrecht" ;
+    nif:beginIndex "353" ;
+    nif:endIndex "360" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w6w7> nif:anchorOf "van Dijke" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w71> nif:anchorOf "Theo" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "369" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w73> nif:anchorOf "Kaatje" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "377" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w74> nif:BeginIndex "378" ;
+    nif:anchorOf "overleed" ;
+    nif:endIndex "386" ;
+    nif:lemma "overlijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w76> nif:anchorOf "1925" ;
+    nif:beginIndex "390" ;
+    nif:endIndex "394" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w77w78w79w80w81w82w83w84w85w86> nif:anchorOf "toen de bus waar zij in zat te water raakte" ;
+    nif:beginIndex "395" ;
+    nif:endIndex "438" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w77" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w81> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "412" ;
+    nif:endIndex "415" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w81" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w82> nif:anchorOf "in" ;
+    nif:beginIndex "416" ;
+    nif:endIndex "418" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w82" ;
+    nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w83> nif:BeginIndex "419" ;
+    nif:anchorOf "zat" ;
+    nif:endIndex "422" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w84w85> nif:anchorOf "te water" ;
+    nif:beginIndex "423" ;
+    nif:endIndex "431" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w84" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w86> nif:BeginIndex "432" ;
+    nif:anchorOf "raakte" ;
+    nif:endIndex "438" ;
+    nif:lemma "raken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w89w90> nif:anchorOf "Van Dijke" ;
+    nif:beginIndex "446" ;
+    nif:endIndex "455" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w9> nif:anchorOf "Jaarsveld" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "42" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w91> nif:BeginIndex "456" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "463" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w92> nif:anchorOf "opnieuw" ;
+    nif:beginIndex "464" ;
+    nif:endIndex "471" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w92" ;
+    nif:lemma "opnieuw" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w94> nif:anchorOf "1929" ;
+    nif:beginIndex "475" ;
+    nif:endIndex "479" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w96w97> nif:anchorOf "Teuntje Breure" ;
+    nif:beginIndex "484" ;
+    nif:endIndex "498" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w99w100w101> nif:anchorOf "Uit dit huwelijk" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "516" ;
+    nif:head "bgnProc:1682__Theo_van_Dijke.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_103t_104> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w104w105> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_119> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w120> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_139t_140t_141t_142t_143t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w140w141w142w143w144w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_152> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w153> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_154> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w155> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_161t_162> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w162w163> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_174t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w175w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_182t_183t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w183w184w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_186> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_207> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w208> ;
+    xs:gYear "1973" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_233> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w234> ;
+    xs:gYear "1987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_264> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w265> ;
+    xs:gYear "1982" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_266> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w267> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_274t_275t_276> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w275w276w277> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_285t_286> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w286w287> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_298t_299t_300> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w299w300w301> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_317> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w318> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_319> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w320> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_75> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w76> ;
+    xs:gYear "1925" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_76t_77t_78t_79t_80t_81t_82t_83t_84t_85> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w77w78w79w80w81w82w83w84w85w86> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_83t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w84w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_93> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w94> ;
+    xs:gYear "1929" .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_98t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w99w100w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#t_297> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w298> .
+
+bgn:Person-1682 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w116w117>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w126>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w130w131>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w137w138>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w15>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w150>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w159w160>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w170>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w213>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w225>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w240>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w242>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w249>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w252>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w254w255>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w257>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w260w261w262>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w269>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w270>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w280w281>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w283w284>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w292w293w294>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w304>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w315>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w31w32w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w324>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w45w46w47>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w58w59w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w89w90>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1682__Theo_van_Dijke.naf#w96w97> ;
+    stevensFam:isPartnerIn bgn:Person-1682 .
+

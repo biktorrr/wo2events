@@ -1,0 +1,784 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_112t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_116t_117t_118t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_12>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_138t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_146t_147t_148t_149t_150t_151t_152t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_150t_151t_152>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_153>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_169t_170t_171t_172t_173t_174t_175t_176t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_172>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_177>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_211t_212t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_241t_242t_243>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_248t_249t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_249t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_251t_252t_253>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_47>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_83t_84t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_95>,
+        bgn:Person-823 ;
+    ore:proxyFor bgn:Person-823 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w117> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w171> nif:lemma "en" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w199> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w216> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w251> nif:lemma "jaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w252> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w63> nif:lemma "tot" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-823__Arie_van_de_Graaff#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-823__Arie_van_de_Graaff .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-823 ;
+    bgn:aggregatedPerson bgn:Person-823 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-823__Arie_van_de_Graaff ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-823__Arie_van_de_Graaff ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w110> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w116> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_108> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_116t_117t_118t_119> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_112t_113t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_12> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w13> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_14>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_16> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_122t_123> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w123w124> ;
+    xs:gYearMonth "1945-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w131> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_129> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_135>,
+        bgn:Person-823 .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_138t_139> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w139w140> ;
+    xs:date "2017-04-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_141> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w142> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w148> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_158>,
+        bgn:Person-823 .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_153> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w154> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_148> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_146t_147t_148t_149t_150t_151t_152t_153> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_150t_151t_152> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w156> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_148> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_158>,
+        bgn:Person-823 .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w168> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_169t_170t_171t_172t_173t_174t_175t_176t_177> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w170> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_169t_170t_171t_172t_173t_174t_175t_176t_177> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_172> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w173> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_169t_170t_171t_172t_173t_174t_175t_176t_177> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_171> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_177> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w178> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_178> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_197> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w198> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_196> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_198t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_210> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w211> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_211t_212t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w225> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_221> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_241t_242t_243> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w242w243w244> ;
+    xs:date "1951-05-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_249t_250> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w250w251> ;
+    xs:period "P6Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_254> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w255> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_247> ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_251t_252t_253> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_245> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_248t_249t_250> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_30> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w31> ;
+    pb:Arg1 bgn:Person-823 ;
+    pb:ArgM-LOC bgn:Person-823 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_26> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_47> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w48> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_46> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w66> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_59> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_62t_63> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_58> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w70> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w79> ;
+    pb:Arg1 bgn:Person-823 ;
+    pb:Arg2 bgn:Person-823 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_93> ;
+    pb:ArgM-TMP bgn:Person-823 .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_81> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w82> ;
+    xs:date "2017-05-02" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_83t_84t_85> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w84w85w86> ;
+    xs:date "1944-09-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w9w10w11> ;
+    xs:date "1888-09-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w96> ;
+    pb:ArgM-CAU bgn:Person-823 .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w101> nif:anchorOf "Binnenlandse" ;
+    nif:beginIndex "517" ;
+    nif:endIndex "529" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w103> nif:anchorOf "J.A.W" ;
+    nif:beginIndex "536" ;
+    nif:endIndex "541" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w107> nif:anchorOf "die" ;
+    nif:beginIndex "551" ;
+    nif:endIndex "554" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w107" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w109> nif:anchorOf "Engeland" ;
+    nif:beginIndex "558" ;
+    nif:endIndex "566" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w110> nif:BeginIndex "567" ;
+    nif:anchorOf "verbleef" ;
+    nif:endIndex "575" ;
+    nif:lemma "verblijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w113w114w115> nif:anchorOf "25 september 1944" ;
+    nif:beginIndex "580" ;
+    nif:endIndex "597" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w116> nif:BeginIndex "598" ;
+    nif:anchorOf "ontslagen" ;
+    nif:endIndex "607" ;
+    nif:lemma "ontslaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w117w118w119w120> nif:anchorOf "van al zijn functies" ;
+    nif:beginIndex "608" ;
+    nif:endIndex "628" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w117" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w123w124> nif:anchorOf "maart 1945" ;
+    nif:beginIndex "634" ;
+    nif:endIndex "644" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w13> nif:BeginIndex "51" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "54" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w130> nif:anchorOf "nog" ;
+    nif:beginIndex "685" ;
+    nif:endIndex "688" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w130" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w131> nif:BeginIndex "689" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "696" ;
+    nif:lemma "benoemd" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w133> nif:BeginIndex "701" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "711" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w136> nif:anchorOf "Rijssen" ;
+    nif:beginIndex "729" ;
+    nif:endIndex "736" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w139w140> nif:anchorOf "28 april" ;
+    nif:beginIndex "743" ;
+    nif:endIndex "751" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w142> nif:BeginIndex "756" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "766" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w145> nif:anchorOf "Lopik" ;
+    nif:beginIndex "784" ;
+    nif:endIndex "789" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w147w148w149w150w151w152w153w154> nif:anchorOf "Daar werd hij op 7 mei 1945 gearresteerd" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "831" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w148" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w148> nif:BeginIndex "796" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "800" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w149> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "801" ;
+    nif:endIndex "804" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w149" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w15> nif:anchorOf "1943" ;
+    nif:beginIndex "59" ;
+    nif:endIndex "63" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w151w152w153> nif:anchorOf "7 mei 1945" ;
+    nif:beginIndex "808" ;
+    nif:endIndex "818" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w154> nif:BeginIndex "819" ;
+    nif:anchorOf "gearresteerd" ;
+    nif:endIndex "831" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w156> nif:BeginIndex "835" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "847" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w159> nif:anchorOf "IJsselstein" ;
+    nif:beginIndex "858" ;
+    nif:endIndex "869" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w164> nif:anchorOf "Vught" ;
+    nif:beginIndex "889" ;
+    nif:endIndex "894" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w167> nif:anchorOf "1948" ;
+    nif:beginIndex "899" ;
+    nif:endIndex "903" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w168> nif:BeginIndex "904" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "908" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w17> nif:anchorOf "1944" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w170> nif:BeginIndex "913" ;
+    nif:anchorOf "berecht" ;
+    nif:endIndex "920" ;
+    nif:lemma "berecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w170w171w172w173w174w175w176w177w178> nif:anchorOf "berecht en schuldig bevonden aan het arresteren of doen" ;
+    nif:beginIndex "913" ;
+    nif:endIndex "968" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w171" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w172> nif:anchorOf "schuldig" ;
+    nif:beginIndex "924" ;
+    nif:endIndex "932" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w172" ;
+    nif:lemma "schuldig" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w173> nif:BeginIndex "933" ;
+    nif:anchorOf "bevonden" ;
+    nif:endIndex "941" ;
+    nif:lemma "bevonden" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w176> nif:BeginIndex "950" ;
+    nif:anchorOf "arresteren" ;
+    nif:endIndex "960" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w178> nif:BeginIndex "964" ;
+    nif:anchorOf "doen" ;
+    nif:endIndex "968" ;
+    nif:lemma "doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w179> nif:BeginIndex "969" ;
+    nif:anchorOf "arresteren" ;
+    nif:endIndex "979" ;
+    nif:lemma "arresteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w197> nif:anchorOf "hulp" ;
+    nif:beginIndex "1093" ;
+    nif:endIndex "1097" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w197" ;
+    nif:lemma "hulp" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w198> nif:BeginIndex "1098" ;
+    nif:anchorOf "verlenen" ;
+    nif:endIndex "1106" ;
+    nif:lemma "verlenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w199w200w201> nif:anchorOf "aan de vijand" ;
+    nif:beginIndex "1107" ;
+    nif:endIndex "1120" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w199" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w1w2w3w4> nif:anchorOf "van de Graaff" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "18" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w20> nif:anchorOf "Steenbergen" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "101" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w207w208w209w210> nif:anchorOf "Bijzondere Raad van Cassatie" ;
+    nif:beginIndex "1139" ;
+    nif:endIndex "1167" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w211> nif:BeginIndex "1168" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "1179" ;
+    nif:lemma "veroordeeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w212w213w214> nif:anchorOf "tot tien jaar" ;
+    nif:beginIndex "1180" ;
+    nif:endIndex "1193" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w215> nif:BeginIndex "1194" ;
+    nif:anchorOf "gevangenisstraf" ;
+    nif:endIndex "1209" ;
+    nif:lemma "gevangenis_straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w216w217w218w219w220w221w222w223w224w225> nif:anchorOf "met ontzetting uit het recht om ambten te mogen bekleden" ;
+    nif:beginIndex "1210" ;
+    nif:endIndex "1266" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w216" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w222> nif:anchorOf "ambten" ;
+    nif:beginIndex "1242" ;
+    nif:endIndex "1248" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w222" ;
+    nif:lemma "ambt" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w225> nif:BeginIndex "1258" ;
+    nif:anchorOf "bekleden" ;
+    nif:endIndex "1266" ;
+    nif:lemma "bekleden" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w227w228w229w230> nif:anchorOf "Arie Van de Graaff" ;
+    nif:beginIndex "1269" ;
+    nif:endIndex "1287" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w22w23w24> nif:anchorOf "Van der Graaf" ;
+    nif:beginIndex "104" ;
+    nif:endIndex "117" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w242w243w244> nif:anchorOf "7 mei 1951" ;
+    nif:beginIndex "1354" ;
+    nif:endIndex "1364" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w246> nif:anchorOf "Daarmee" ;
+    nif:beginIndex "1366" ;
+    nif:endIndex "1373" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w246" ;
+    nif:lemma "daarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w248> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1380" ;
+    nif:endIndex "1383" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w248" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w249w250w251> nif:anchorOf "precies 6 jaar" ;
+    nif:beginIndex "1384" ;
+    nif:endIndex "1398" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w251" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w250w251> nif:anchorOf "6 jaar" ;
+    nif:beginIndex "1392" ;
+    nif:endIndex "1398" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w252w253w254> nif:anchorOf "van zijn straf" ;
+    nif:beginIndex "1399" ;
+    nif:endIndex "1413" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w252" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w255> nif:BeginIndex "1414" ;
+    nif:anchorOf "uitgezeten" ;
+    nif:endIndex "1424" ;
+    nif:lemma "uit_zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w27> nif:anchorOf "1888" ;
+    nif:beginIndex "126" ;
+    nif:endIndex "130" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w29w30> nif:anchorOf "Den Helder" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w31> nif:BeginIndex "145" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "152" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w37w38w39w40> nif:anchorOf "Jacob van de Graaff" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "199" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w43w44> nif:anchorOf "Grietje Visser" ;
+    nif:beginIndex "207" ;
+    nif:endIndex "221" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w47> nif:anchorOf "1935" ;
+    nif:beginIndex "226" ;
+    nif:endIndex "230" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w48> nif:BeginIndex "231" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "235" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w53w54> nif:anchorOf "Nationaal-Socialistische Beweging" ;
+    nif:beginIndex "251" ;
+    nif:endIndex "284" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w56> nif:anchorOf "NSB" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "289" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w59> nif:anchorOf "waarin" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "298" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w59" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w60> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "302" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w60" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w62> nif:anchorOf "1942" ;
+    nif:beginIndex "306" ;
+    nif:endIndex "310" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w63w64> nif:anchorOf "tot kringleider" ;
+    nif:beginIndex "311" ;
+    nif:endIndex "326" ;
+    nif:head "bgnProc:823__Arie_van_de_Graaff.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w66> nif:BeginIndex "332" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "339" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w69> nif:anchorOf "1943" ;
+    nif:beginIndex "344" ;
+    nif:endIndex "348" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w6w7> nif:anchorOf "Den Helder" ;
+    nif:beginIndex "20" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w70> nif:BeginIndex "349" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "353" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w74> nif:anchorOf "Steenbergen" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "386" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w78> nif:anchorOf "Graaff" ;
+    nif:beginIndex "395" ;
+    nif:endIndex "401" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w79> nif:BeginIndex "402" ;
+    nif:anchorOf "vluchtte" ;
+    nif:endIndex "410" ;
+    nif:lemma "vluchten" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w81w82> nif:anchorOf "Dolle Dinsdag" ;
+    nif:beginIndex "414" ;
+    nif:endIndex "427" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w82> nif:anchorOf "Dinsdag" ;
+    nif:beginIndex "420" ;
+    nif:endIndex "427" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w84w85w86> nif:anchorOf "5 september 1944" ;
+    nif:beginIndex "429" ;
+    nif:endIndex "445" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w89> nif:anchorOf "Steenbergen" ;
+    nif:beginIndex "451" ;
+    nif:endIndex "462" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w94> nif:anchorOf "Olst" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "487" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w96> nif:BeginIndex "491" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "495" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w99> nif:anchorOf "Minister" ;
+    nif:beginIndex "504" ;
+    nif:endIndex "512" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w9w10w11> nif:anchorOf "21 september 1888" ;
+    nif:beginIndex "32" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_112t_113t_114> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w113w114w115> ;
+    xs:date "1944-09-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_116t_117t_118t_119> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w117w118w119w120> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_129> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_14> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w15> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_146t_147t_148t_149t_150t_151t_152t_153> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w147w148w149w150w151w152w153w154> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_150t_151t_152> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w151w152w153> ;
+    xs:date "1945-05-07" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w17> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_166> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w167> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_171> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w172> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_198t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w199w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_211t_212t_213> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w212w213w214> ;
+    xs:period "P10Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_215t_216t_217t_218t_219t_220t_221t_222t_223t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w216w217w218w219w220w221w222w223w224w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_248t_249t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w249w250w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_251t_252t_253> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w252w253w254> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_26> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w27> ;
+    xs:gYear "1888" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_46> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w47> ;
+    xs:gYear "1935" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_61> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w62> ;
+    xs:gYear "1942" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_62t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w63w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_68> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w69> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_148> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w149> .
+
+<http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#t_169t_170t_171t_172t_173t_174t_175t_176t_177> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w170w171w172w173w174w175w176w177w178> .
+
+bgn:Person-823 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w136>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w145>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w164>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w207w208w209w210>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w227w228w229w230>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w22w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w37w38w39w40>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w53w54>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w81w82>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w89>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w94>,
+        <http://data.biographynet.nl/rdf/170506221754/823__Arie_van_de_Graaff.naf#w99> .
+

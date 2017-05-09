@@ -1,0 +1,359 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_31>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_51t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_70t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_85t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_96t_97t_98t_99t_100>,
+        bgn:Person-839 ;
+    ore:proxyFor bgn:Person-839 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w97> nif:lemma "uit" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-839__Gerrit_Nijk#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-839__Gerrit_Nijk .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-839 ;
+    bgn:aggregatedPerson bgn:Person-839 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-839__Gerrit_Nijk ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-839__Gerrit_Nijk ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w20> ;
+    pb:ArgM-ADV bgn:Person-839 ;
+    pb:ArgM-TMP bgn:Person-839 .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w28> ;
+    pb:Arg1 bgn:Person-839 .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_31> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w32> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_32> ;
+    pb:AM-TMP bgn:Person-839 .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_41> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w42> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_43> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w44> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w49> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_49> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_62>,
+        bgn:Person-839 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_51t_52t_53>,
+        bgn:Person-839 .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_5> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w6> ;
+    xs:gYear "1903",
+        "1987" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w64> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_57> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_7> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w8> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w74> ;
+    pb:A0 bgn:Person-839 ;
+    pb:A1 bgn:Person-839 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_70t_71t_72> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_80> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w81> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_79> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w96> ;
+    pb:A1 bgn:Person-839 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_96t_97t_98t_99t_100> ;
+    pb:AM-LOC bgn:Person-839 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_85t_86> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w10> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "43" ;
+    nif:endIndex "53" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w15w16> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "76" ;
+    nif:endIndex "95" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w19> nif:anchorOf "NSB" ;
+    nif:beginIndex "106" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w1w2> nif:anchorOf "Nijk" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "11" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w20> nif:BeginIndex "110" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "120" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w23> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "138" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w26> nif:anchorOf "Nijk" ;
+    nif:beginIndex "152" ;
+    nif:endIndex "156" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w28> nif:BeginIndex "162" ;
+    nif:anchorOf "aangesteld" ;
+    nif:endIndex "172" ;
+    nif:lemma "aan_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w30> nif:BeginIndex "177" ;
+    nif:anchorOf "waarnemend" ;
+    nif:endIndex "187" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w32> nif:BeginIndex "201" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "207" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w33> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "208" ;
+    nif:endIndex "211" ;
+    nif:head "bgnProc:839__Gerrit_Nijk.naf#w33" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w37> nif:anchorOf "Olst" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "231" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w4> nif:anchorOf "Steggerda" ;
+    nif:beginIndex "13" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w42> nif:anchorOf "1941" ;
+    nif:beginIndex "246" ;
+    nif:endIndex "250" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w44> nif:BeginIndex "255" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "258" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w48> nif:anchorOf "NSB" ;
+    nif:beginIndex "275" ;
+    nif:endIndex "278" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w49> nif:BeginIndex "279" ;
+    nif:anchorOf "verving" ;
+    nif:endIndex "286" ;
+    nif:lemma "vervangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w50> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "287" ;
+    nif:endIndex "290" ;
+    nif:head "bgnProc:839__Gerrit_Nijk.naf#w50" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w52w53w54> nif:anchorOf "1 december 1942" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "310" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w55w56> nif:anchorOf "Mello Sichterman" ;
+    nif:beginIndex "311" ;
+    nif:endIndex "327" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w58> nif:anchorOf "die" ;
+    nif:beginIndex "329" ;
+    nif:endIndex "332" ;
+    nif:head "bgnProc:839__Gerrit_Nijk.naf#w58" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w6> nif:anchorOf "1903-1987" ;
+    nif:beginIndex "24" ;
+    nif:endIndex "33" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w63> nif:anchorOf "Almelo" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "371" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w64> nif:BeginIndex "372" ;
+    nif:anchorOf "waarnam" ;
+    nif:endIndex "379" ;
+    nif:lemma "waar_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w66> nif:anchorOf "Hengelo" ;
+    nif:beginIndex "383" ;
+    nif:endIndex "390" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w68> nif:anchorOf "Nijk" ;
+    nif:beginIndex "392" ;
+    nif:endIndex "396" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w71w72w73> nif:anchorOf "22 juni 1943" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "417" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w74> nif:BeginIndex "418" ;
+    nif:anchorOf "opgevolgd" ;
+    nif:endIndex "427" ;
+    nif:lemma "op_volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w76w77> nif:anchorOf "Johannes Best" ;
+    nif:beginIndex "433" ;
+    nif:endIndex "446" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w8> nif:BeginIndex "35" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "38" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w80> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "458" ;
+    nif:head "bgnProc:839__Gerrit_Nijk.naf#w80" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w81> nif:BeginIndex "459" ;
+    nif:anchorOf "terugging" ;
+    nif:endIndex "468" ;
+    nif:lemma "terug_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w83> nif:anchorOf "Olst" ;
+    nif:beginIndex "474" ;
+    nif:endIndex "478" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w86w87> nif:anchorOf "september 1946" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "497" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w89w90> nif:anchorOf "G. Nijk" ;
+    nif:beginIndex "503" ;
+    nif:endIndex "510" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w95> nif:anchorOf "Zuiveringsbesluit" ;
+    nif:beginIndex "528" ;
+    nif:endIndex "545" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w96> nif:BeginIndex "546" ;
+    nif:anchorOf "ontslagen" ;
+    nif:endIndex "555" ;
+    nif:lemma "ontslaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w97w98w99w100w101> nif:anchorOf "uit zijn ambt van notaris" ;
+    nif:beginIndex "556" ;
+    nif:endIndex "581" ;
+    nif:head "bgnProc:839__Gerrit_Nijk.naf#w97" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_51t_52t_53> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w52w53w54> ;
+    xs:date "1942-12-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_70t_71t_72> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w71w72w73> ;
+    xs:date "1943-06-22" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_85t_86> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w86w87> ;
+    xs:gYearMonth "1946-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#t_96t_97t_98t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w97w98w99w100w101> .
+
+bgn:Person-839 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w15w16>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w19>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w68>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w76w77>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w89w90>,
+        <http://data.biographynet.nl/rdf/170506221754/839__Gerrit_Nijk.naf#w95> .
+

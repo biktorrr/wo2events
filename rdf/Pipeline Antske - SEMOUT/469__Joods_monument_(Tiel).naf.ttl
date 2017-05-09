@@ -1,0 +1,862 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_100>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_119>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_121t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_142>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_146t_147t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_166t_167t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_180t_181t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_239t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_243t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_261t_262t_263t_264t_265t_266>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_263t_264>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_274>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_276>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_29t_30t_31t_32t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_46>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_50t_51t_52t_53t_54t_55t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_55t_56t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_60t_61t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_74t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_91t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_94t_95t_96t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_9t_10t_11>,
+        bgn:Person-469 ;
+    ore:proxyFor bgn:Person-469 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w10> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w122> nif:lemma "naast" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w147> nif:lemma "en" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w167> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w178> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w181> nif:lemma "veel" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w245> nif:lemma "monument" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w262> nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w265> nif:lemma "moskee" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w30> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w52> nif:lemma "wolk" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w56> nif:lemma "naar" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w61> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w76> nif:lemma "woord" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w93> nif:lemma "geheel" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w95> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-469__Joods_monument_(Tiel)#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used <http://data.biographynet.nl/rdf/BioDes-469__Joods_monument_(Tiel)> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-469 ;
+    bgn:aggregatedPerson bgn:Person-469 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#PersonDes> ;
+    ore:aggregates <http://data.biographynet.nl/rdf/BioDes-469__Joods_monument_(Tiel)> ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom <http://data.biographynet.nl/rdf/BioDes-469__Joods_monument_(Tiel)> ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_100> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w101> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_109>,
+        bgn:Person-469 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_94t_95t_96t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w117> ;
+    pb:ArgM-TMP bgn:Person-469 .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_119> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w120> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_102> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w130> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_133> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w134> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_131> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w136> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_146t_147t_148t_149> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_121t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132t_133> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_142> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w143> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_139> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_141> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w170> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_174> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_177t_178> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_166t_167t_168> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w18> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_13> ;
+    pb:Arg1 bgn:Person-469 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_9t_10t_11> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w184> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_180t_181t_182> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w187> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w190> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_188> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_190> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w20> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_18> ;
+    pb:AM-TMP bgn:Person-469 .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_201> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w202> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_233> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w234> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_228t_229t_230t_231t_232> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_227> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w237> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_239t_240t_241> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w240w241w242> ;
+    xs:date "1996-05-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_245> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w246> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_243t_244> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_259>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_261t_262t_263t_264t_265t_266>,
+        bgn:Person-469 ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_246> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_262> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w263> ;
+    xs:period "PRESENT_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w266> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_263t_264> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_274> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w275> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_276> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_282> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_273> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w29> ;
+    pb:ArgM-CAU bgn:Person-469 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_29t_30t_31t_32t_33> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_3> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w4> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w42> ;
+    pb:Arg1 bgn:Person-469 .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_46> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w47> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w50> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_48> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_50t_51t_52t_53t_54t_55t_56t_57t_58> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w59> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_54> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_55t_56t_57> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_66> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w67> ;
+    pb:Arg1 bgn:Person-469 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_60t_61t_62> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w69> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_67> ;
+    pb:A1 bgn:Person-469 .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_79> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w80> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_73> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_74t_75t_76t_77> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w86> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_82> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w91> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_88t_89> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_91t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w101> nif:BeginIndex "585" ;
+    nif:anchorOf "verwerkt" ;
+    nif:endIndex "593" ;
+    nif:lemma "verwerken" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w102> nif:anchorOf "waaruit" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "601" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w102" ;
+    nif:lemma "waaruit" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w103> nif:anchorOf "overdag" ;
+    nif:beginIndex "602" ;
+    nif:endIndex "609" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w103" ;
+    nif:lemma "overdag" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w104> nif:anchorOf "continu" ;
+    nif:beginIndex "610" ;
+    nif:endIndex "617" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w104" ;
+    nif:lemma "continu" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w10w11w12> nif:anchorOf "Met het monument" ;
+    nif:beginIndex "47" ;
+    nif:endIndex "63" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w10" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w110> nif:anchorOf "Tiel" ;
+    nif:beginIndex "638" ;
+    nif:endIndex "642" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w115w116> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "661" ;
+    nif:endIndex "680" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w117> nif:BeginIndex "681" ;
+    nif:anchorOf "vermoorde" ;
+    nif:endIndex "690" ;
+    nif:lemma "vermoord" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w118> nif:anchorOf "Joodse" ;
+    nif:beginIndex "691" ;
+    nif:endIndex "697" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w120> nif:BeginIndex "707" ;
+    nif:anchorOf "klinken" ;
+    nif:endIndex "714" ;
+    nif:lemma "klinken" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w122w123w124w125w126w127w128w129w130w131w132w133w134> nif:anchorOf "Naast hun namen en de namen van de concentratiekampen waar zij vermoord zijn" ;
+    nif:beginIndex "716" ;
+    nif:endIndex "792" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w130> nif:BeginIndex "751" ;
+    nif:anchorOf "concentratiekampen" ;
+    nif:endIndex "769" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w132> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "778" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w132" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w134> nif:BeginIndex "788" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "792" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w136> nif:BeginIndex "794" ;
+    nif:anchorOf "klinkt" ;
+    nif:endIndex "800" ;
+    nif:lemma "klinken" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w14> nif:anchorOf "Tiel" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w140> nif:anchorOf "die" ;
+    nif:beginIndex "815" ;
+    nif:endIndex "818" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w140" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w142> nif:anchorOf "Tiel" ;
+    nif:beginIndex "822" ;
+    nif:endIndex "826" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w143> nif:BeginIndex "827" ;
+    nif:anchorOf "gesproken" ;
+    nif:endIndex "836" ;
+    nif:lemma "spreken" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w147w148w149w150> nif:anchorOf "En dit nooit meer" ;
+    nif:beginIndex "846" ;
+    nif:endIndex "863" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w147" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w16> nif:anchorOf "Joodse" ;
+    nif:beginIndex "76" ;
+    nif:endIndex "82" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w167w168w169> nif:anchorOf "in de synagoge" ;
+    nif:beginIndex "941" ;
+    nif:endIndex "955" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w167" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w170> nif:BeginIndex "956" ;
+    nif:anchorOf "kwamen" ;
+    nif:endIndex "962" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w175> nif:anchorOf "Tiel" ;
+    nif:beginIndex "984" ;
+    nif:endIndex "988" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w178w179> nif:anchorOf "bij elkaar" ;
+    nif:beginIndex "1001" ;
+    nif:endIndex "1011" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w178" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w18> nif:BeginIndex "95" ;
+    nif:anchorOf "herdenken" ;
+    nif:endIndex "104" ;
+    nif:lemma "herdenken" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w181w182w183> nif:anchorOf "Velen van hen" ;
+    nif:beginIndex "1013" ;
+    nif:endIndex "1026" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w181" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w184> nif:BeginIndex "1027" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1031" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w187> nif:BeginIndex "1048" ;
+    nif:anchorOf "vernietigingskampen" ;
+    nif:endIndex "1067" ;
+    nif:lemma "vernietiging_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w189> nif:anchorOf "Niemand" ;
+    nif:beginIndex "1069" ;
+    nif:endIndex "1076" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w189" ;
+    nif:lemma "niemand" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w19> nif:anchorOf "die" ;
+    nif:beginIndex "105" ;
+    nif:endIndex "108" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w19" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w190> nif:BeginIndex "1077" ;
+    nif:anchorOf "keerde" ;
+    nif:endIndex "1083" ;
+    nif:lemma "terug_keren" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w191> nif:anchorOf "terug" ;
+    nif:beginIndex "1084" ;
+    nif:endIndex "1089" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w191" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w198> nif:anchorOf "Tiel" ;
+    nif:beginIndex "1126" ;
+    nif:endIndex "1130" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w2> nif:anchorOf "Joods" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "9" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w20> nif:BeginIndex "109" ;
+    nif:anchorOf "vervolgd" ;
+    nif:endIndex "117" ;
+    nif:lemma "vervolgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w202> nif:BeginIndex "1149" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1151" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w208w209> nif:anchorOf "Johan Goedhart" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1197" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w211w212w213> nif:anchorOf "Willem den Ouden" ;
+    nif:beginIndex "1201" ;
+    nif:endIndex "1217" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w215w216w217> nif:anchorOf "Willem den Ouden" ;
+    nif:beginIndex "1219" ;
+    nif:endIndex "1235" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w218> nif:BeginIndex "1236" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1238" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w223> nif:anchorOf "Goedhart" ;
+    nif:beginIndex "1261" ;
+    nif:endIndex "1269" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w228> nif:anchorOf "waarin" ;
+    nif:beginIndex "1300" ;
+    nif:endIndex "1306" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w228" ;
+    nif:lemma "waarin" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w234> nif:BeginIndex "1339" ;
+    nif:anchorOf "samenvloeien" ;
+    nif:endIndex "1351" ;
+    nif:lemma "samen_vloeien" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w237> nif:BeginIndex "1357" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1359" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w240w241w242> nif:anchorOf "3 mei 1996" ;
+    nif:beginIndex "1371" ;
+    nif:endIndex "1381" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w244w245> nif:anchorOf "Het monument" ;
+    nif:beginIndex "1384" ;
+    nif:endIndex "1396" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w245" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w246> nif:BeginIndex "1397" ;
+    nif:anchorOf "bevindt" ;
+    nif:endIndex "1404" ;
+    nif:lemma "bevinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w247> nif:anchorOf "zich" ;
+    nif:beginIndex "1405" ;
+    nif:endIndex "1409" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w247" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w24w25> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "134" ;
+    nif:endIndex "153" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w257> nif:anchorOf "Sint-Agnietenstraat" ;
+    nif:beginIndex "1460" ;
+    nif:endIndex "1479" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w260> nif:anchorOf "Tiel" ;
+    nif:beginIndex "1489" ;
+    nif:endIndex "1493" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w262w263w264w265w266w267> nif:anchorOf "waar nu een moskee is gevestigd" ;
+    nif:beginIndex "1495" ;
+    nif:endIndex "1526" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w262" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w263> nif:anchorOf "nu" ;
+    nif:beginIndex "1500" ;
+    nif:endIndex "1502" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w264w265> nif:anchorOf "een moskee" ;
+    nif:beginIndex "1503" ;
+    nif:endIndex "1513" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w265" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w266> nif:BeginIndex "1514" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1516" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w269> nif:anchorOf "Joods" ;
+    nif:beginIndex "1529" ;
+    nif:endIndex "1534" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w274> nif:anchorOf "Tiel" ;
+    nif:beginIndex "1556" ;
+    nif:endIndex "1560" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w275> nif:BeginIndex "1561" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1565" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w277> nif:anchorOf "ook" ;
+    nif:beginIndex "1569" ;
+    nif:endIndex "1572" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w277" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w283> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1600" ;
+    nif:endIndex "1609" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w284> nif:anchorOf "Joodse" ;
+    nif:beginIndex "1610" ;
+    nif:endIndex "1616" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w29> nif:BeginIndex "172" ;
+    nif:anchorOf "bestaat" ;
+    nif:endIndex "179" ;
+    nif:lemma "bestaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w30w31w32w33w34> nif:anchorOf "uit een wandplaat en boog" ;
+    nif:beginIndex "180" ;
+    nif:endIndex "205" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w30" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w4> nif:BeginIndex "19" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "21" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w42> nif:BeginIndex "242" ;
+    nif:anchorOf "uitsparingen" ;
+    nif:endIndex "254" ;
+    nif:lemma "uit_paring" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w44> nif:anchorOf "Hebreeuwse" ;
+    nif:beginIndex "259" ;
+    nif:endIndex "269" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w47> nif:BeginIndex "281" ;
+    nif:anchorOf "druppelvormen" ;
+    nif:endIndex "294" ;
+    nif:lemma "druppel_vorm" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w49> nif:anchorOf "Het" ;
+    nif:beginIndex "296" ;
+    nif:endIndex "299" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w49" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w50> nif:BeginIndex "300" ;
+    nif:anchorOf "stelt" ;
+    nif:endIndex "305" ;
+    nif:lemma "voor_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w51w52w53w54w55w56w57w58w59> nif:anchorOf "een wolk voor waaruit regendruppels naar de grond vallen" ;
+    nif:beginIndex "306" ;
+    nif:endIndex "362" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w52" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w55> nif:anchorOf "regendruppels" ;
+    nif:beginIndex "328" ;
+    nif:endIndex "341" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w55" ;
+    nif:lemma "regendruppel" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w56w57w58> nif:anchorOf "naar de grond" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "355" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w56" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w59> nif:BeginIndex "356" ;
+    nif:anchorOf "vallen" ;
+    nif:endIndex "362" ;
+    nif:lemma "vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w61w62w63> nif:anchorOf "In de wolk" ;
+    nif:beginIndex "364" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w64> nif:BeginIndex "375" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "377" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w67> nif:BeginIndex "387" ;
+    nif:anchorOf "afgebeeld" ;
+    nif:endIndex "396" ;
+    nif:lemma "af_beelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w68> nif:anchorOf "die" ;
+    nif:beginIndex "397" ;
+    nif:endIndex "400" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w68" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w69> nif:BeginIndex "401" ;
+    nif:anchorOf "wijst" ;
+    nif:endIndex "406" ;
+    nif:lemma "wijzen" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w72> nif:anchorOf "Hebreeuwse" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "425" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w74> nif:anchorOf "die" ;
+    nif:beginIndex "434" ;
+    nif:endIndex "437" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w74" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w75w76w77w78> nif:anchorOf "het woord Yizkor" ;
+    nif:beginIndex "438" ;
+    nif:endIndex "455" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w8> nif:anchorOf "Tiel" ;
+    nif:beginIndex "41" ;
+    nif:endIndex "45" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w80> nif:BeginIndex "457" ;
+    nif:anchorOf "vormen" ;
+    nif:endIndex "463" ;
+    nif:lemma "vormen" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w83> nif:anchorOf "Men" ;
+    nif:beginIndex "466" ;
+    nif:endIndex "469" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w83" ;
+    nif:lemma "men" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w85> nif:anchorOf "zich" ;
+    nif:beginIndex "474" ;
+    nif:endIndex "478" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w85" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w86> nif:BeginIndex "479" ;
+    nif:anchorOf "herinneren" ;
+    nif:endIndex "489" ;
+    nif:lemma "herinneren" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w89w90> nif:anchorOf "Een geluidsinstallatie" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "514" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w90" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w90> nif:BeginIndex "496" ;
+    nif:anchorOf "geluidsinstallatie" ;
+    nif:endIndex "514" ;
+    nif:lemma "geluid_installatie" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w91> nif:BeginIndex "515" ;
+    nif:anchorOf "completeert" ;
+    nif:endIndex "526" ;
+    nif:lemma "completeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w92w93> nif:anchorOf "het geheel" ;
+    nif:beginIndex "527" ;
+    nif:endIndex "537" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w93" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w95w96w97w98> nif:anchorOf "In een paar regendruppels" ;
+    nif:beginIndex "539" ;
+    nif:endIndex "564" ;
+    nif:head "bgnProc:469__Joods_monument_(Tiel).naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_102> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w103> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_121t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w122w123w124w125w126w127w128w129w130w131w132w133w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_146t_147t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w147w148w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_166t_167t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w167w168w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_177t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w178w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_18> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_180t_181t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w181w182w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_227> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w228> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_243t_244> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w244w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_246> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w247> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_261t_262t_263t_264t_265t_266> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w262w263w264w265w266w267> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_263t_264> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w264w265> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_276> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w277> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_29t_30t_31t_32t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w30w31w32w33w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_50t_51t_52t_53t_54t_55t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w51w52w53w54w55w56w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_55t_56t_57> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w56w57w58> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_60t_61t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w61w62w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_73> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w74> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_74t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w75w76w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_88t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w89w90> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_91t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w92w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_94t_95t_96t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w95w96w97w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#t_9t_10t_11> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w10w11w12> .
+
+bgn:Person-469 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w115w116>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w118>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w142>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w2>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w208w209>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w211w212w213>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w215w216w217>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w223>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w24w25>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w257>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w260>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w269>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w274>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w283>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w284>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w44>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w72>,
+        <http://data.biographynet.nl/rdf/170506221754/469__Joods_monument_(Tiel).naf#w8> .
+

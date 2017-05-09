@@ -1,0 +1,538 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_100t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_141>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_19t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_22t_23t_24>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_61t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_73t_74t_75t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_97t_98t_99>,
+        bgn:Person-2323 ;
+    ore:proxyFor bgn:Person-2323 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w102> nif:lemma "kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w121> nif:lemma "sinds" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w15> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w44> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w58> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w61> nif:lemma "hoe" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w63> nif:lemma "bewaker" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w64> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w74> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w92> nif:lemma "leiding" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2323__Walter_Heinrich#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2323__Walter_Heinrich .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2323 ;
+    bgn:aggregatedPerson bgn:Person-2323 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2323__Walter_Heinrich ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2323__Walter_Heinrich ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w103> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_100t_101>,
+        bgn:Person-2323 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_97t_98t_99> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w117> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_105>,
+        bgn:Person-2323 ;
+    pb:AM-DIS bgn:Person-2323 ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_106> ;
+    pb:AM-TMP bgn:Person-2323 .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w124> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_120t_121t_122> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_141> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w142> ;
+    xs:gYear "1939",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_16> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w17> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_14t_15> ;
+    pb:ArgM-PRD bgn:Person-2323 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_19t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_22t_23t_24> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w37> ;
+    pb:Arg1 bgn:Person-2323 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_43t_44t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w57> ;
+    pb:A2 bgn:Person-2323 ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w60> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w69> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_61t_62> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_63t_64t_65> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_7> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w8> ;
+    pb:ArgM-TMP bgn:Person-2323 .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w72> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_72> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_73t_74t_75t_76> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w77> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_78> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w79> ;
+    pb:Arg2 bgn:Person-2323 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_9> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w10> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w93> ;
+    pb:A0 bgn:Person-2323 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_90t_91> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_84> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w10> nif:BeginIndex "55" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "58" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w101w102> nif:anchorOf "het kamp" ;
+    nif:beginIndex "594" ;
+    nif:endIndex "602" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w102" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w103> nif:BeginIndex "603" ;
+    nif:anchorOf "verliet" ;
+    nif:endIndex "610" ;
+    nif:lemma "verlaten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w106> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "617" ;
+    nif:endIndex "620" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w106" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w107> nif:anchorOf "niet" ;
+    nif:beginIndex "621" ;
+    nif:endIndex "625" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w107" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w109> nif:anchorOf "Stöver" ;
+    nif:beginIndex "631" ;
+    nif:endIndex "637" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w112w113w114w115w116> nif:anchorOf "SS-Schutzhaftlagerführer II Karl Peter Berg" ;
+    nif:beginIndex "648" ;
+    nif:endIndex "691" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w117> nif:BeginIndex "692" ;
+    nif:anchorOf "opgevolgd" ;
+    nif:endIndex "701" ;
+    nif:lemma "op_volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w119> nif:anchorOf "Lagerkommandant" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "721" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w12> nif:anchorOf "Duitse" ;
+    nif:beginIndex "63" ;
+    nif:endIndex "69" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w121w122w123> nif:anchorOf "Sinds die tijd" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "737" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w121" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w124> nif:BeginIndex "738" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "740" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w125w126> nif:anchorOf "Walter Heinrich" ;
+    nif:beginIndex "741" ;
+    nif:endIndex "756" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w129w130w131> nif:anchorOf "L. de Jong" ;
+    nif:beginIndex "769" ;
+    nif:endIndex "779" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w13> nif:anchorOf "SS-Obersturmführer" ;
+    nif:beginIndex "70" ;
+    nif:endIndex "88" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w134w135w136> nif:anchorOf "Koninkrijk der Nederlanden" ;
+    nif:beginIndex "785" ;
+    nif:endIndex "811" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w139w140> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "818" ;
+    nif:endIndex "837" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w142> nif:anchorOf "1939-1945" ;
+    nif:beginIndex "839" ;
+    nif:endIndex "848" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w15w16> nif:anchorOf "Als zodanig" ;
+    nif:beginIndex "90" ;
+    nif:endIndex "101" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w15" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w17> nif:BeginIndex "102" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "105" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w1w2> nif:anchorOf "Heinrich" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "15" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w20w21> nif:anchorOf "augustus 1941" ;
+    nif:beginIndex "114" ;
+    nif:endIndex "127" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w23w24w25> nif:anchorOf "1 maart 1943" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w27> nif:anchorOf "Lagerkommandant" ;
+    nif:beginIndex "149" ;
+    nif:endIndex "164" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w33w34> nif:anchorOf "Kamp Amersfoort" ;
+    nif:beginIndex "192" ;
+    nif:endIndex "207" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w36> nif:anchorOf "Heinrich" ;
+    nif:beginIndex "210" ;
+    nif:endIndex "218" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w37> nif:BeginIndex "219" ;
+    nif:anchorOf "stelde" ;
+    nif:endIndex "225" ;
+    nif:lemma "aan_stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w39> nif:anchorOf "SS'" ;
+    nif:beginIndex "234" ;
+    nif:endIndex "237" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w43> nif:anchorOf "Wachkommando" ;
+    nif:beginIndex "249" ;
+    nif:endIndex "261" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w44w45w46> nif:anchorOf "in het kamp" ;
+    nif:beginIndex "262" ;
+    nif:endIndex "273" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w51> nif:anchorOf "SS'" ;
+    nif:beginIndex "288" ;
+    nif:endIndex "291" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w55> nif:BeginIndex "303" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "319" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w56> nif:anchorOf "Dachau" ;
+    nif:beginIndex "320" ;
+    nif:endIndex "326" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w57> nif:BeginIndex "327" ;
+    nif:anchorOf "overkomen" ;
+    nif:endIndex "336" ;
+    nif:lemma "overkomen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w58w59w60w61w62w63w64w65w66w67w68w69> nif:anchorOf "om te demonstreren hoe de bewakers met de gevangenen om moesten gaan" ;
+    nif:beginIndex "337" ;
+    nif:endIndex "405" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w58" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w60> nif:BeginIndex "343" ;
+    nif:anchorOf "demonstreren" ;
+    nif:endIndex "355" ;
+    nif:lemma "demonstreren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w61w62w63w64w65w66w67w68w69> nif:anchorOf "hoe de bewakers met de gevangenen om moesten gaan" ;
+    nif:beginIndex "356" ;
+    nif:endIndex "405" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w62w63> nif:anchorOf "de bewakers" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "371" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w64w65w66> nif:anchorOf "met de gevangenen" ;
+    nif:beginIndex "372" ;
+    nif:endIndex "389" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w69> nif:BeginIndex "401" ;
+    nif:anchorOf "gaan" ;
+    nif:endIndex "405" ;
+    nif:lemma "om_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w6w7> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "45" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w71> nif:anchorOf "Heinrich" ;
+    nif:beginIndex "407" ;
+    nif:endIndex "415" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w71" ;
+    nif:lemma "Heinrich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w72> nif:BeginIndex "416" ;
+    nif:anchorOf "verbood" ;
+    nif:endIndex "423" ;
+    nif:lemma "verbieden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w73> nif:anchorOf "mishandelingen" ;
+    nif:beginIndex "424" ;
+    nif:endIndex "438" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w73" ;
+    nif:lemma "mishandeling" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w74w75w76w77> nif:anchorOf "als hij ze zag" ;
+    nif:beginIndex "439" ;
+    nif:endIndex "453" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w74" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w75> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "443" ;
+    nif:endIndex "446" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w75" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w76> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "447" ;
+    nif:endIndex "449" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w76" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w77> nif:BeginIndex "450" ;
+    nif:anchorOf "zag" ;
+    nif:endIndex "453" ;
+    nif:lemma "zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w79> nif:BeginIndex "459" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "462" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w8> nif:BeginIndex "46" ;
+    nif:anchorOf "vermist" ;
+    nif:endIndex "53" ;
+    nif:lemma "vermist" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w80> nif:anchorOf "veelal" ;
+    nif:beginIndex "463" ;
+    nif:endIndex "469" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w80" ;
+    nif:lemma "veelal" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w85> nif:anchorOf "waarbij" ;
+    nif:beginIndex "487" ;
+    nif:endIndex "494" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w85" ;
+    nif:lemma "waarbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w86w87w88w89w90> nif:anchorOf "Schutzhaftlagerführer I Johann Friedrich Stöver" ;
+    nif:beginIndex "495" ;
+    nif:endIndex "542" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w91w92> nif:anchorOf "de leiding" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "553" ;
+    nif:head "bgnProc:2323__Walter_Heinrich.naf#w92" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w93> nif:BeginIndex "554" ;
+    nif:anchorOf "overnam" ;
+    nif:endIndex "561" ;
+    nif:lemma "over_nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w96> nif:anchorOf "Heinrich" ;
+    nif:beginIndex "569" ;
+    nif:endIndex "577" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w98w99w100> nif:anchorOf "1 maart 1943" ;
+    nif:beginIndex "581" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_100t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w101w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_105> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w106> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_14t_15> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w15w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_19t_20> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w20w21> ;
+    xs:gYearMonth "1941-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_22t_23t_24> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w23w24w25> ;
+    xs:date "1943-03-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_43t_44t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w44w45w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_57t_58t_59t_60t_61t_62t_63t_64t_65t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w58w59w60w61w62w63w64w65w66w67w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_61t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w62w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_63t_64t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w64w65w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_73t_74t_75t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w74w75w76w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_75> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_97t_98t_99> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w98w99w100> ;
+    xs:date "1943-03-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#t_60t_61t_62t_63t_64t_65t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w61w62w63w64w65w66w67w68w69> .
+
+bgn:Person-2323 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w112w113w114w115w116>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w125w126>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w129w130w131>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w134w135w136>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w139w140>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w33w34>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w6w7>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w86w87w88w89w90>,
+        <http://data.biographynet.nl/rdf/170506221754/2323__Walter_Heinrich.naf#w96> .
+

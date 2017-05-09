@@ -1,0 +1,825 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_194t_195t_196t_197t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_201>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_209t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_216t_217t_218t_219t_220t_221t_222t_223t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_220>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_221t_222t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_226t_227t_228t_229t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_251t_252t_253t_254t_255t_256t_257t_258t_259t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_271>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_273t_274t_275t_276t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_281>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_288>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_311>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_36t_37t_38t_39t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_44>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_46t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_57t_58t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_60t_61t_62t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_70t_71t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_75t_76t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_86t_87t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_99t_100>,
+        bgn:Person-958 ;
+    ore:proxyFor bgn:Person-958 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w101> nif:lemma "op_lei" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w136> nif:lemma "bezig" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w154> nif:lemma "op" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w195> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w210> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w217> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w222> nif:lemma "hond_kenner" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w227> nif:lemma "ceerde" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w254> nif:lemma "groot" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w275> nif:lemma "man" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w37> nif:lemma "lijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w49> nif:lemma "roman" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w61> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w71> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w76> nif:lemma "onder" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-958__Jan_van_Rheenen#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-958__Jan_van_Rheenen .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-958 ;
+    bgn:aggregatedPerson bgn:Person-958 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-958__Jan_van_Rheenen ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-958__Jan_van_Rheenen ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_111> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w112> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_113> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w114> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_112> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_131> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w132> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_130> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_133> ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_132> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w14w15w16> ;
+    xs:date "1971-10-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w157> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_157> ;
+    pb:Arg1 bgn:Person-958 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_153t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w162> ;
+    pb:Arg1 bgn:Person-958 .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w168> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_157> ;
+    pb:Arg1 bgn:Person-958 .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w190> ;
+    pb:Arg0 bgn:Person-958 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_188> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_201> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w202> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_192> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_207> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_194t_195t_196t_197t_198t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_204> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w205> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_207> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_212> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w213> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_226t_227t_228t_229t_230t_231> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_216t_217t_218t_219t_220t_221t_222t_223t_224> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_215> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_209t_210t_211> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_220> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w221> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_221t_222t_223> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_224> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_235> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w236> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_236> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_256> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w257> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_261> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w262> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_251t_252t_253t_254t_255t_256t_257t_258t_259t_260> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_273t_274t_275t_276t_277> ;
+    pb:ArgM-TMP bgn:Person-958 .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_271> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w272> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_281> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w282> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_284> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_288> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w289> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_296> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w297> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_303> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w304> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_311> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w312> ;
+    xs:gYear "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_41> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w42> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_36t_37t_38t_39t_40> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_45> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w46> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_46t_47t_48> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w66> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_60t_61t_62t_63> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_56> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_57t_58t_59> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_73> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w74> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_74>,
+        bgn:Person-958 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_75t_76t_77> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_70t_71t_72> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w8w9w10> ;
+    xs:date "1909-12-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_89> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w90> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_86t_87t_88> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_97> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w98> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_98> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_99t_100> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_86t_87t_88> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w100w101> nif:anchorOf "een oplei" ;
+    nif:beginIndex "534" ;
+    nif:endIndex "543" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w101" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w106> nif:BeginIndex "556" ;
+    nif:anchorOf "SS-school" ;
+    nif:beginIndex "556" ;
+    nif:endIndex "565" ;
+    nif:lemma "SS_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w108> nif:anchorOf "Avegoor" ;
+    nif:beginIndex "569" ;
+    nif:endIndex "576" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w112> nif:anchorOf "jaren" ;
+    nif:beginIndex "585" ;
+    nif:endIndex "590" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w113> nif:anchorOf "1944-1945" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "600" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w114> nif:BeginIndex "601" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "604" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w115w116> nif:anchorOf "Van Rheenen" ;
+    nif:beginIndex "605" ;
+    nif:endIndex "616" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w12> nif:anchorOf "Oss" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "49" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w123w124> nif:anchorOf "George Kettmanns" ;
+    nif:beginIndex "660" ;
+    nif:endIndex "676" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w127w128w129> nif:anchorOf "De Amsterdamsche Keurkamer" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "738" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w131> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "740" ;
+    nif:endIndex "743" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w131" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w132> nif:BeginIndex "744" ;
+    nif:anchorOf "hield" ;
+    nif:endIndex "749" ;
+    nif:lemma "houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w133> nif:anchorOf "zich" ;
+    nif:beginIndex "750" ;
+    nif:endIndex "754" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w133" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w134> nif:anchorOf "daar" ;
+    nif:beginIndex "755" ;
+    nif:endIndex "759" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w134" ;
+    nif:lemma "daar" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w135w136w137w138w139w140w141w142w143w144w145w146w147w148w149w150w151w152> nif:anchorOf "voornamelijk bezig met de literaire aangelegenheden en niet zozeer met de technische of financiële aspecten van het uitgeversvak" ;
+    nif:beginIndex "760" ;
+    nif:endIndex "888" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w136" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w14w15w16> nif:anchorOf "3 oktober 1971" ;
+    nif:beginIndex "51" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w154w155w156> nif:anchorOf "Op deze manier" ;
+    nif:beginIndex "890" ;
+    nif:endIndex "904" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w154" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w157> nif:BeginIndex "905" ;
+    nif:anchorOf "trachtte" ;
+    nif:endIndex "913" ;
+    nif:lemma "trachten" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w158> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "914" ;
+    nif:endIndex "917" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w158" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w162> nif:BeginIndex "940" ;
+    nif:anchorOf "frontdienst" ;
+    nif:endIndex "951" ;
+    nif:lemma "front_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w166> nif:anchorOf "Kettmann" ;
+    nif:beginIndex "968" ;
+    nif:endIndex "976" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w168> nif:BeginIndex "980" ;
+    nif:anchorOf "compenseren" ;
+    nif:endIndex "991" ;
+    nif:lemma "compenseren" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w176> nif:BeginIndex "1016" ;
+    nif:anchorOf "scheen" ;
+    nif:endIndex "1022" ;
+    nif:lemma "schijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w179> nif:anchorOf "Verloren" ;
+    nif:beginIndex "1031" ;
+    nif:endIndex "1039" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w18> nif:BeginIndex "67" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "70" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w187w188> nif:anchorOf "Pont Neuf" ;
+    nif:beginIndex "1073" ;
+    nif:endIndex "1082" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w189> nif:anchorOf "clandestien" ;
+    nif:beginIndex "1083" ;
+    nif:endIndex "1094" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w189" ;
+    nif:lemma "clandestien" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w190> nif:BeginIndex "1095" ;
+    nif:anchorOf "uitgegeven" ;
+    nif:endIndex "1105" ;
+    nif:lemma "uitgegeven" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w193> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1121" ;
+    nif:endIndex "1124" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w193" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w195w196w197w198w199w200w201> nif:anchorOf "in het kader van de naoorlogse zuivering" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1170" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w195" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w1w2w3> nif:anchorOf "van Rheenen" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "15" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "85" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w202> nif:BeginIndex "1171" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "1182" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w205> nif:BeginIndex "1191" ;
+    nif:anchorOf "gevangenisstraf" ;
+    nif:endIndex "1206" ;
+    nif:lemma "gevangenis_straf" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w208> nif:anchorOf "jaar" ;
+    nif:beginIndex "1221" ;
+    nif:endIndex "1225" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w210w211w212> nif:anchorOf "Na zijn straftijd" ;
+    nif:beginIndex "1227" ;
+    nif:endIndex "1244" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w213> nif:BeginIndex "1245" ;
+    nif:anchorOf "ontwikkelde" ;
+    nif:endIndex "1256" ;
+    nif:lemma "ontwikkelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w214w215> nif:anchorOf "Van Rheenen" ;
+    nif:beginIndex "1257" ;
+    nif:endIndex "1268" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w216> nif:anchorOf "zich" ;
+    nif:beginIndex "1269" ;
+    nif:endIndex "1273" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w216" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w217w218w219w220w221w222w223w224w225> nif:anchorOf "als een be ­ kende hondenkenner en hij publi" ;
+    nif:beginIndex "1274" ;
+    nif:endIndex "1316" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w217" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w221> nif:BeginIndex "1285" ;
+    nif:anchorOf "kende" ;
+    nif:endIndex "1290" ;
+    nif:lemma "kennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w222w223w224> nif:anchorOf "hondenkenner en hij" ;
+    nif:beginIndex "1291" ;
+    nif:endIndex "1310" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w225> nif:anchorOf "publi" ;
+    nif:beginIndex "1311" ;
+    nif:endIndex "1316" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w225" ;
+    nif:lemma "publi" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w227w228w229w230w231w232> nif:anchorOf "ceerde over dit onderwerp talloze boeken" ;
+    nif:beginIndex "1317" ;
+    nif:endIndex "1357" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w227" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w234w235> nif:anchorOf "Van Rheenen" ;
+    nif:beginIndex "1360" ;
+    nif:endIndex "1371" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w236> nif:BeginIndex "1372" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1375" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w237> nif:anchorOf "ook" ;
+    nif:beginIndex "1376" ;
+    nif:endIndex "1379" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w237" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w245w246> nif:anchorOf "The Fountainhead" ;
+    nif:beginIndex "1418" ;
+    nif:endIndex "1434" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w248w249w250> nif:anchorOf "De Eeuwige Bron" ;
+    nif:beginIndex "1437" ;
+    nif:endIndex "1452" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w252w253w254w255w256w257w258w259w260w261> nif:anchorOf "de eerste grote - in 1943 in de V. S." ;
+    nif:beginIndex "1455" ;
+    nif:endIndex "1491" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w254" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w257> nif:anchorOf "1943" ;
+    nif:beginIndex "1476" ;
+    nif:endIndex "1480" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w262> nif:BeginIndex "1492" ;
+    nif:anchorOf "verschenen" ;
+    nif:endIndex "1502" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w266w267> nif:anchorOf "Ayn Rand" ;
+    nif:beginIndex "1521" ;
+    nif:endIndex "1529" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "129" ;
+    nif:endIndex "148" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w270> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "1537" ;
+    nif:endIndex "1547" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w272> nif:anchorOf "1938" ;
+    nif:beginIndex "1550" ;
+    nif:endIndex "1554" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w274w275w276w277w278> nif:anchorOf "Een man met een tjalk" ;
+    nif:beginIndex "1557" ;
+    nif:endIndex "1578" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w275" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w282> nif:anchorOf "1939" ;
+    nif:beginIndex "1588" ;
+    nif:endIndex "1592" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w285> nif:BeginIndex "1598" ;
+    nif:anchorOf "glijbaan" ;
+    nif:endIndex "1606" ;
+    nif:lemma "glij_baan" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w289> nif:anchorOf "1944" ;
+    nif:beginIndex "1616" ;
+    nif:endIndex "1620" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w297> nif:anchorOf "1944" ;
+    nif:beginIndex "1645" ;
+    nif:endIndex "1649" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w29w30> nif:anchorOf "Van Rheenen" ;
+    nif:beginIndex "155" ;
+    nif:endIndex "166" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w304> nif:anchorOf "1944" ;
+    nif:beginIndex "1674" ;
+    nif:endIndex "1678" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w312> nif:anchorOf "1945" ;
+    nif:beginIndex "1710" ;
+    nif:endIndex "1714" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w314w315> nif:anchorOf "Verloren koninkrijk" ;
+    nif:beginIndex "1717" ;
+    nif:endIndex "1736" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w37w38w39w40w41> nif:anchorOf "lijk voor de geïllustreerde pers" ;
+    nif:beginIndex "196" ;
+    nif:endIndex "228" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w37" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w42> nif:BeginIndex "229" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "235" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w45> nif:anchorOf "1938" ;
+    nif:beginIndex "240" ;
+    nif:endIndex "244" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w46> nif:BeginIndex "245" ;
+    nif:anchorOf "verscheen" ;
+    nif:endIndex "254" ;
+    nif:lemma "verschijnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w47w48w49> nif:anchorOf "zijn eerste roman" ;
+    nif:beginIndex "255" ;
+    nif:endIndex "272" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w49" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w57> nif:anchorOf "die" ;
+    nif:beginIndex "297" ;
+    nif:endIndex "300" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w57" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w58w59w60> nif:anchorOf "een jaar later" ;
+    nif:beginIndex "301" ;
+    nif:endIndex "315" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w5w6> nif:anchorOf "Den Haag" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w61w62w63w64> nif:anchorOf "door een tweede roman" ;
+    nif:beginIndex "316" ;
+    nif:endIndex "337" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w66> nif:BeginIndex "343" ;
+    nif:anchorOf "gevolgd" ;
+    nif:endIndex "350" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w69> nif:BeginIndex "355" ;
+    nif:anchorOf "glijbaan" ;
+    nif:endIndex "363" ;
+    nif:lemma "glij_baan" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w71w72w73> nif:anchorOf "Tijdens de bezetting" ;
+    nif:beginIndex "365" ;
+    nif:endIndex "385" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w71" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w74> nif:BeginIndex "386" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "392" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w75> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "393" ;
+    nif:endIndex "396" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w75" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w76w77w78> nif:anchorOf "onder meer rapporta" ;
+    nif:beginIndex "397" ;
+    nif:endIndex "416" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w83w84> nif:anchorOf "Vrijwilligerslegioen Nederland" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "460" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w87w88w89> nif:anchorOf "23 oktober 1942" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "483" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w8w9w10> nif:anchorOf "10 december 1909" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w90> nif:BeginIndex "484" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "487" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w95w96> nif:anchorOf "Nederlandsche SS" ;
+    nif:beginIndex "503" ;
+    nif:endIndex "519" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w98> nif:BeginIndex "523" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "529" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w99> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "530" ;
+    nif:endIndex "533" ;
+    nif:head "bgnProc:958__Jan_van_Rheenen.naf#w99" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_112> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w113> ;
+    xs:gYear "1944",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_134t_135t_136t_137t_138t_139t_140t_141t_142t_143t_144t_145t_146t_147t_148t_149t_150t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w135w136w137w138w139w140w141w142w143w144w145w146w147w148w149w150w151w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_153t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w154w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_194t_195t_196t_197t_198t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w195w196w197w198w199w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_209t_210t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w210w211w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_215> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_216t_217t_218t_219t_220t_221t_222t_223t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w217w218w219w220w221w222w223w224w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_221t_222t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w222w223w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_226t_227t_228t_229t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w227w228w229w230w231w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_236> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w237> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_251t_252t_253t_254t_255t_256t_257t_258t_259t_260> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w252w253w254w255w256w257w258w259w260w261> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_273t_274t_275t_276t_277> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w274w275w276w277w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_36t_37t_38t_39t_40> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w37w38w39w40w41> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_44> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w45> ;
+    xs:gYear "1938" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_46t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w47w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_57t_58t_59> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w58w59w60> ;
+    xs:period "PAST_REF" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_60t_61t_62t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w61w62w63w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_70t_71t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w71w72w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_75t_76t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w76w77w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_98> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w99> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w100w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_207> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w208> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_86t_87t_88> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w87w88w89> ;
+    xs:date "1942-10-23" .
+
+bgn:Person-958 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w108>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w115w116>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w123w124>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w127w128w129>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w187w188>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w214w215>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w234w235>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w245w246>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w248w249w250>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w266w267>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w270>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w314w315>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w83w84>,
+        <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#w95w96> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/958__Jan_van_Rheenen.naf#t_107> .
+

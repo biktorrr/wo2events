@@ -1,0 +1,994 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_117t_118t_119t_120t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_143t_144t_145t_146t_147t_148t_149t_150t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_147t_148t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_14t_15t_16>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_154t_155t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_182t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_229t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_239>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_252t_253t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_257>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_277>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_279t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_284t_285t_286t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_288>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_291t_292>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_293>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_294t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_299>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_309t_310t_311t_312t_313>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_314>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_315>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_50>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_86t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_8t_9t_10>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_98>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_99>,
+        bgn:Person-1403 ;
+    ore:proxyFor bgn:Person-1403 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w119> nif:lemma "rang" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w132> nif:lemma "familie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w144> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w146> nif:lemma "gezin" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w148> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w183> nif:lemma "te" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w253> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w281> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w285> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w293> nif:lemma "familie" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w295> nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w311> nif:lemma "rest" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w87> nif:lemma "per" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1403__Fernand_Janssens#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1403__Fernand_Janssens .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1403 ;
+    bgn:aggregatedPerson bgn:Person-1403 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1403__Fernand_Janssens ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1403__Fernand_Janssens ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w123> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_117t_118t_119t_120t_121>,
+        bgn:Person-1403 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_103>,
+        bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w126> ;
+    pb:Arg1 bgn:Person-1403 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w130> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_130t_131> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_133t_134t_135t_136t_137> ;
+    pb:ArgM-LOC bgn:Person-1403 ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_138t_139t_140> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_143t_144t_145t_146t_147t_148t_149t_150t_151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w138> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_136> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_135> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_14t_15t_16> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w15w16w17> ;
+    xs:date "1943-10-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w152> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_144t_145> ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_147t_148t_149> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w158> ;
+    pb:Arg0 bgn:Person-1403 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_154t_155t_156>,
+        bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w163> ;
+    pb:ArgM bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_176> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w177> ;
+    pb:A1 bgn:Person-1403 ;
+    pb:AM-TMP bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_185> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w186> ;
+    pb:Arg1 bgn:Person-1403 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_182t_183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_206> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w207> ;
+    pb:Arg0 bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_223> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w224> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_222> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_249>,
+        bgn:Person-1403 ;
+    pb:AM-LOC bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_229t_230t_231> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w230w231w232> ;
+    xs:date "1943-02-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_239> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w240> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_249>,
+        bgn:Person-1403 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_249>,
+        bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_241> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w242> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_249>,
+        bgn:Person-1403 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_249>,
+        bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_257> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w258> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_252t_253t_254> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w27> ;
+    pb:ArgM-TMP bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_261> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w262> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_259> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w266> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_278> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w279> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_277> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_279t_280> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_288> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w289> ;
+    pb:A1 bgn:Person-1403 ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_284t_285t_286t_287> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_296> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w297> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_291t_292> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_293> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_294t_295> ;
+    pb:ArgM-TMP bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_299> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w300> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_298> ;
+    pb:Arg1 bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_315> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w316> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_308> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_309t_310t_311t_312t_313> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_314> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_36> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w37> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_33> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w50> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_47> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_45>,
+        bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_50> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w51> ;
+    pb:Arg0 bgn:Person-1403 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_47>,
+        bgn:Person-1403 .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_62> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w63> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_77> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w78> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_78> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_93> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_76> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w85> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_78> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_82> ;
+    pb:ArgM-DIR <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_81> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_8t_9t_10> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w9w10w11> ;
+    xs:date "1910-10-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w96> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_78> ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_90> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_93> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_86t_87> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_98> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w99> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_99> ;
+    pb:A4 bgn:Person-1403 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w100> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "582" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w100" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w103> nif:anchorOf "Amerika" ;
+    nif:beginIndex "596" ;
+    nif:endIndex "603" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w104> nif:anchorOf "waar" ;
+    nif:beginIndex "604" ;
+    nif:endIndex "608" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w104" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w108w109w110w111w112> nif:anchorOf "Royal Netherlands Military Flying School" ;
+    nif:beginIndex "620" ;
+    nif:endIndex "660" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w114> nif:anchorOf "Jackson" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "671" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w116> nif:anchorOf "Mississippi" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "684" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w118w119w120w121w122> nif:anchorOf "de rang van eerste luitenant-vlieger" ;
+    nif:beginIndex "686" ;
+    nif:endIndex "722" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w119" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w123> nif:BeginIndex "723" ;
+    nif:anchorOf "bereikte" ;
+    nif:endIndex "731" ;
+    nif:lemma "bereiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w126> nif:BeginIndex "752" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "756" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w129> nif:anchorOf "Jackson" ;
+    nif:beginIndex "766" ;
+    nif:endIndex "773" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w13> nif:anchorOf "Jackson" ;
+    nif:beginIndex "68" ;
+    nif:endIndex "75" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w130> nif:BeginIndex "774" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "779" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w131w132> nif:anchorOf "de familie" ;
+    nif:beginIndex "780" ;
+    nif:endIndex "790" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w132" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w133> nif:anchorOf "regelmatig" ;
+    nif:beginIndex "791" ;
+    nif:endIndex "801" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w133" ;
+    nif:lemma "regelmatig" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w136> nif:anchorOf "die" ;
+    nif:beginIndex "813" ;
+    nif:endIndex "816" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w136" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w137> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "817" ;
+    nif:endIndex "820" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w137" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w138> nif:BeginIndex "821" ;
+    nif:anchorOf "ondertekende" ;
+    nif:endIndex "833" ;
+    nif:lemma "ondertekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w144w145w146w147w148w149w150w151w152> nif:anchorOf "om zijn gezin niet in de problemen te brengen" ;
+    nif:beginIndex "847" ;
+    nif:endIndex "892" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w145w146> nif:anchorOf "zijn gezin" ;
+    nif:beginIndex "850" ;
+    nif:endIndex "860" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w146" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w147> nif:anchorOf "niet" ;
+    nif:beginIndex "861" ;
+    nif:endIndex "865" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w147" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w148w149w150> nif:anchorOf "in de problemen" ;
+    nif:beginIndex "866" ;
+    nif:endIndex "881" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w148" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w152> nif:BeginIndex "885" ;
+    nif:anchorOf "brengen" ;
+    nif:endIndex "892" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w155w156w157> nif:anchorOf "21 oktober 1943" ;
+    nif:beginIndex "898" ;
+    nif:endIndex "913" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w158> nif:BeginIndex "914" ;
+    nif:anchorOf "verongelukte" ;
+    nif:endIndex "926" ;
+    nif:lemma "verongelukken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w159w160> nif:anchorOf "Faam Janssens" ;
+    nif:beginIndex "927" ;
+    nif:endIndex "940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w15w16w17> nif:anchorOf "21 oktober 1943" ;
+    nif:beginIndex "77" ;
+    nif:endIndex "92" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w163> nif:BeginIndex "953" ;
+    nif:anchorOf "testvlucht" ;
+    nif:endIndex "963" ;
+    nif:lemma "test_vlucht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w165> nif:anchorOf "Jackson" ;
+    nif:beginIndex "967" ;
+    nif:endIndex "974" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w167> nif:anchorOf "Mississippi" ;
+    nif:beginIndex "976" ;
+    nif:endIndex "987" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w171> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1013" ;
+    nif:endIndex "1024" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w173> nif:anchorOf "Jhr" ;
+    nif:beginIndex "1042" ;
+    nif:endIndex "1045" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w175w176> nif:anchorOf "Bodo Sandberg" ;
+    nif:beginIndex "1047" ;
+    nif:endIndex "1060" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w177> nif:BeginIndex "1061" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "1066" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w181w182> nif:anchorOf "Faam Janssens" ;
+    nif:beginIndex "1082" ;
+    nif:endIndex "1095" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w183w184> nif:anchorOf "te ruste" ;
+    nif:beginIndex "1096" ;
+    nif:endIndex "1104" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w183" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w186> nif:BeginIndex "1108" ;
+    nif:anchorOf "leggen" ;
+    nif:endIndex "1114" ;
+    nif:lemma "leggen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w19> nif:BeginIndex "94" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "97" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w192> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1134" ;
+    nif:endIndex "1145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w196w197w198> nif:anchorOf "Cedar Lawn Cemetery" ;
+    nif:beginIndex "1169" ;
+    nif:endIndex "1188" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w1w2w3w4w5> nif:anchorOf "Adrianus Antonius Maria Janssens" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w200> nif:anchorOf "Jackson" ;
+    nif:beginIndex "1192" ;
+    nif:endIndex "1199" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w205> nif:anchorOf "Janssens" ;
+    nif:beginIndex "1212" ;
+    nif:endIndex "1220" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w207> nif:BeginIndex "1222" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1224" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w21> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "102" ;
+    nif:endIndex "112" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w220> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1275" ;
+    nif:endIndex "1286" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w223> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1306" ;
+    nif:endIndex "1309" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w223" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w224> nif:BeginIndex "1310" ;
+    nif:anchorOf "ontving" ;
+    nif:endIndex "1317" ;
+    nif:lemma "ontvangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w226w227> nif:anchorOf "Koninklijk Besluit" ;
+    nif:beginIndex "1322" ;
+    nif:endIndex "1340" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w228> nif:anchorOf "no.11" ;
+    nif:beginIndex "1341" ;
+    nif:endIndex "1346" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w230w231w232> nif:anchorOf "25 februari 1943" ;
+    nif:beginIndex "1351" ;
+    nif:endIndex "1367" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w234w235w236> nif:anchorOf "Kruis van Verdienste" ;
+    nif:beginIndex "1372" ;
+    nif:endIndex "1392" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w24> nif:anchorOf "Engelandvaarder" ;
+    nif:beginIndex "127" ;
+    nif:endIndex "142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w240> nif:BeginIndex "1414" ;
+    nif:anchorOf "voorbereiden" ;
+    nif:endIndex "1426" ;
+    nif:lemma "voor_bereiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w242> nif:BeginIndex "1430" ;
+    nif:anchorOf "uitvoeren" ;
+    nif:endIndex "1439" ;
+    nif:lemma "uit_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w250> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1479" ;
+    nif:endIndex "1488" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w253w254w255> nif:anchorOf "na vele moeilijkheden" ;
+    nif:beginIndex "1497" ;
+    nif:endIndex "1518" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w253" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w258> nif:BeginIndex "1529" ;
+    nif:anchorOf "ondervonden" ;
+    nif:endIndex "1540" ;
+    nif:lemma "ondervinden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w26> nif:anchorOf "Janssens" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w260> nif:anchorOf "Engeland" ;
+    nif:beginIndex "1542" ;
+    nif:endIndex "1550" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w262> nif:BeginIndex "1556" ;
+    nif:anchorOf "bereikt" ;
+    nif:endIndex "1563" ;
+    nif:lemma "bereiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w265> nif:anchorOf "Janssens" ;
+    nif:beginIndex "1571" ;
+    nif:endIndex "1579" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w266> nif:BeginIndex "1580" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1583" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w27> nif:BeginIndex "153" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "156" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w274> nif:anchorOf "Rapenburg" ;
+    nif:beginIndex "1613" ;
+    nif:endIndex "1622" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w276> nif:anchorOf "Leiden" ;
+    nif:beginIndex "1626" ;
+    nif:endIndex "1632" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w278> nif:anchorOf "Deze" ;
+    nif:beginIndex "1634" ;
+    nif:endIndex "1638" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w278" ;
+    nif:lemma "deze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w279> nif:BeginIndex "1639" ;
+    nif:anchorOf "had" ;
+    nif:endIndex "1642" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w280w281> nif:anchorOf "veel kinderen" ;
+    nif:beginIndex "1643" ;
+    nif:endIndex "1656" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w281" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w284> nif:anchorOf "Faam" ;
+    nif:beginIndex "1663" ;
+    nif:endIndex "1667" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w285w286w287w288> nif:anchorOf "met een protestante vrouw" ;
+    nif:beginIndex "1668" ;
+    nif:endIndex "1693" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w285" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w289> nif:BeginIndex "1694" ;
+    nif:anchorOf "trouwde" ;
+    nif:endIndex "1701" ;
+    nif:lemma "trouwen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w292w293> nif:anchorOf "de familie" ;
+    nif:beginIndex "1709" ;
+    nif:endIndex "1719" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w293" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w294> a bgn:pron_3ms ;
+    nif:anchorOf "hem" ;
+    nif:beginIndex "1720" ;
+    nif:endIndex "1723" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w294" ;
+    nif:lemma "hem" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w295w296> nif:anchorOf "niet meer" ;
+    nif:beginIndex "1724" ;
+    nif:endIndex "1733" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w295" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w297> nif:BeginIndex "1734" ;
+    nif:anchorOf "zien" ;
+    nif:endIndex "1738" ;
+    nif:lemma "zien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w299> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1740" ;
+    nif:endIndex "1743" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w299" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w300> nif:BeginIndex "1744" ;
+    nif:anchorOf "heeft" ;
+    nif:endIndex "1749" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w304> nif:anchorOf "Rolf" ;
+    nif:beginIndex "1762" ;
+    nif:endIndex "1766" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w306w307> nif:anchorOf "Onno Janssens" ;
+    nif:beginIndex "1770" ;
+    nif:endIndex "1783" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w309> nif:anchorOf "die" ;
+    nif:beginIndex "1785" ;
+    nif:endIndex "1788" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w309" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w310w311w312w313w314> nif:anchorOf "de rest van de familie" ;
+    nif:beginIndex "1789" ;
+    nif:endIndex "1811" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w311" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w315> nif:anchorOf "nooit" ;
+    nif:beginIndex "1812" ;
+    nif:endIndex "1817" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w315" ;
+    nif:lemma "nooit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w316> nif:BeginIndex "1818" ;
+    nif:anchorOf "ontmoet" ;
+    nif:endIndex "1825" ;
+    nif:lemma "ontmoeten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w31w32> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "175" ;
+    nif:endIndex "194" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w34> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "196" ;
+    nif:endIndex "199" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w34" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w37> nif:BeginIndex "210" ;
+    nif:anchorOf "genoemd" ;
+    nif:endIndex "217" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w42w43> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "234" ;
+    nif:endIndex "253" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w46> nif:anchorOf "Nederland" ;
+    nif:beginIndex "264" ;
+    nif:endIndex "273" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w48> nif:anchorOf "Engeland" ;
+    nif:beginIndex "279" ;
+    nif:endIndex "287" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w50> nif:BeginIndex "291" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "296" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w51> nif:BeginIndex "297" ;
+    nif:anchorOf "liep" ;
+    nif:endIndex "301" ;
+    nif:lemma "lopen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w52> nif:anchorOf "Faam" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "306" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w53> nif:anchorOf "Janssens" ;
+    nif:beginIndex "307" ;
+    nif:endIndex "315" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w57> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "327" ;
+    nif:endIndex "338" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w58> nif:anchorOf "Luchtmachtpiloten" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "356" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w59w60w61> nif:anchorOf "Jhr Bodo Sandberg" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "374" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w63> nif:anchorOf "Jan" ;
+    nif:beginIndex "376" ;
+    nif:endIndex "379" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w63w64> nif:anchorOf "Jan Bosch" ;
+    nif:beginIndex "376" ;
+    nif:endIndex "385" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w66> nif:anchorOf "A.C.H" ;
+    nif:beginIndex "389" ;
+    nif:endIndex "394" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w7> nif:anchorOf "Wognum" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "48" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w71> nif:anchorOf "België" ;
+    nif:beginIndex "420" ;
+    nif:endIndex "426" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w73> nif:anchorOf "Frankrijk" ;
+    nif:beginIndex "430" ;
+    nif:endIndex "439" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w75> nif:anchorOf "Zwitserland" ;
+    nif:beginIndex "445" ;
+    nif:endIndex "456" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w77> nif:anchorOf "Vandaar" ;
+    nif:beginIndex "458" ;
+    nif:endIndex "465" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w77" ;
+    nif:lemma "vandaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w78> nif:BeginIndex "466" ;
+    nif:anchorOf "slaagde" ;
+    nif:endIndex "473" ;
+    nif:lemma "slagen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w79> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "474" ;
+    nif:endIndex "477" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w79" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w82> nif:anchorOf "Frankrijk" ;
+    nif:beginIndex "487" ;
+    nif:endIndex "496" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w83> nif:anchorOf "Spanje" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "503" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w85> nif:BeginIndex "507" ;
+    nif:anchorOf "bereiken" ;
+    nif:endIndex "515" ;
+    nif:lemma "bereiken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w87w88> nif:anchorOf "per schip" ;
+    nif:beginIndex "519" ;
+    nif:endIndex "528" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w87" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w91> nif:anchorOf "Bilbao" ;
+    nif:beginIndex "537" ;
+    nif:endIndex "543" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w94> nif:anchorOf "Engeland" ;
+    nif:beginIndex "550" ;
+    nif:endIndex "558" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w96> nif:BeginIndex "562" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "567" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w98> nif:anchorOf "Daarna" ;
+    nif:beginIndex "570" ;
+    nif:endIndex "576" ;
+    nif:head "bgnProc:1403__Fernand_Janssens.naf#w98" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w99> nif:BeginIndex "577" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "581" ;
+    nif:lemma "door_gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w9w10w11> nif:anchorOf "28 oktober 1910" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_117t_118t_119t_120t_121> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w118w119w120w121w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w131w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_136> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w137> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_143t_144t_145t_146t_147t_148t_149t_150t_151> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w144w145w146w147w148w149w150w151w152> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_147t_148t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w148w149w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_154t_155t_156> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w155w156w157> ;
+    xs:date "1943-10-21" .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_182t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w183w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_222> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_252t_253t_254> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w253w254w255> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_277> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w278> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_279t_280> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w280w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_284t_285t_286t_287> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w285w286w287w288> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_291t_292> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w292w293> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_293> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w294> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_294t_295> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w295w296> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_298> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w299> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_308> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w309> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_309t_310t_311t_312t_313> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w310w311w312w313w314> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_314> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w315> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_86t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w87w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w79> .
+
+bgn:Person-1403 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w108w109w110w111w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w116>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w13>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w159w160>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w173>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w175w176>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w181w182>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w196w197w198>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w1w2w3w4w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w200>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w220>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w226w227>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w228>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w234w235w236>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w250>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w26>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w260>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w265>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w274>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w276>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w284>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w304>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w306w307>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w31w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w42w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w46>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w53>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w58>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w59w60w61>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w63w64>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w7>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w82>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w91>,
+        <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#w94> ;
+    stevensFam:isPartnerIn <http://data.biographynet.nl/rdf/170506221754/1403__Fernand_Janssens.naf#t_287> .
+

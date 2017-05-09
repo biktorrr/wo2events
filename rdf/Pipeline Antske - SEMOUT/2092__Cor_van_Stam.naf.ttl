@@ -1,0 +1,543 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_190>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_191>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_33t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_37t_38t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_69>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_7t_8t_9>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_87t_88t_89>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_90>,
+        bgn:Person-2092 ;
+    ore:proxyFor bgn:Person-2092 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w105> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w35> nif:lemma "verzet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w38> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w88> nif:lemma "op" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2092__Cor_van_Stam#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2092__Cor_van_Stam .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2092 ;
+    bgn:aggregatedPerson bgn:Person-2092 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2092__Cor_van_Stam ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2092__Cor_van_Stam ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w108> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_104t_105t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_118> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w119> ;
+    xs:gYear "1940",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w123> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_121> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_136> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w137> ;
+    xs:gYear "1973" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_138> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w139> ;
+    xs:gYear "1983" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w14w15w16> ;
+    xs:date "1995-08-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_143> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w144> ;
+    pb:Arg1 bgn:Person-2092 .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w145> ;
+    pb:A1 bgn:Person-2092 .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_150> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w151> ;
+    pb:ArgM-CAU bgn:Person-2092 .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w18> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_11>,
+        bgn:Person-2092 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_31> ;
+    pb:ArgM-LOC bgn:Person-2092 ;
+    pb:ArgM-PRD bgn:Person-2092 .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_170> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w171> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_169> ;
+    pb:Arg1 bgn:Person-2092 ;
+    pb:ArgM-PRD bgn:Person-2092 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_191> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w192> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_192> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_196> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_190> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_35> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w36> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_33t_34> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_55>,
+        bgn:Person-2092 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_37t_38t_39> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_36> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w60> ;
+    pb:A0 bgn:Person-2092 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_85>,
+        bgn:Person-2092 .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_69> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w70> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_67> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_85> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_75> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w76> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w8w9w10> ;
+    xs:date "1920-01-06" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_81> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w82> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_80> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w91> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_87t_88t_89> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w1> nif:anchorOf "Cornelis" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "8" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w103> nif:anchorOf "Noord-Holland" ;
+    nif:beginIndex "580" ;
+    nif:endIndex "593" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w105w106w107> nif:anchorOf "Na de oorlog" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "607" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w108> nif:BeginIndex "608" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "612" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w110> nif:anchorOf "Stam" ;
+    nif:beginIndex "617" ;
+    nif:endIndex "621" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w115> nif:anchorOf "Noord-Holland" ;
+    nif:beginIndex "649" ;
+    nif:endIndex "662" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w118w119> nif:anchorOf "Stichting 1940-1945" ;
+    nif:beginIndex "670" ;
+    nif:endIndex "689" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w119> nif:anchorOf "1940-1945" ;
+    nif:beginIndex "680" ;
+    nif:endIndex "689" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w12> nif:anchorOf "Annecy" ;
+    nif:beginIndex "42" ;
+    nif:endIndex "48" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w122> nif:anchorOf "1985" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "698" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w123> nif:BeginIndex "699" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "703" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w129> nif:BeginIndex "734" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "736" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w134> nif:anchorOf "Haarlemmermeer" ;
+    nif:beginIndex "761" ;
+    nif:endIndex "775" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w137> nif:anchorOf "1973" ;
+    nif:beginIndex "788" ;
+    nif:endIndex "792" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w139> nif:anchorOf "1983" ;
+    nif:beginIndex "797" ;
+    nif:endIndex "801" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w141> nif:anchorOf "Cor" ;
+    nif:beginIndex "804" ;
+    nif:endIndex "807" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w143> nif:anchorOf "Stam" ;
+    nif:beginIndex "812" ;
+    nif:endIndex "816" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w144> nif:BeginIndex "817" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "819" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w145> nif:BeginIndex "820" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "833" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w148w149> nif:anchorOf "Bronzen Leeuw" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "854" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w14w15w16> nif:anchorOf "20 augustus 1995" ;
+    nif:beginIndex "50" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w151> nif:BeginIndex "856" ;
+    nif:anchorOf "uitgereikt" ;
+    nif:endIndex "866" ;
+    nif:lemma "uitgereikt" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w154> nif:anchorOf "Bernhard" ;
+    nif:beginIndex "878" ;
+    nif:endIndex "886" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w158> nif:anchorOf "Officier" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "904" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w161w162w163> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "933" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w170> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "975" ;
+    nif:endIndex "978" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w170" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w171> nif:BeginIndex "979" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "984" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w177w178> nif:anchorOf "Trijntje Jansen" ;
+    nif:beginIndex "1007" ;
+    nif:endIndex "1022" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w18> nif:BeginIndex "68" ;
+    nif:anchorOf "coördineerde" ;
+    nif:endIndex "80" ;
+    nif:lemma "coördineren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w181> nif:anchorOf "1990" ;
+    nif:beginIndex "1027" ;
+    nif:endIndex "1031" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w184> nif:anchorOf "Israëlische" ;
+    nif:beginIndex "1043" ;
+    nif:endIndex "1054" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w188w189> nif:anchorOf "Yad Vashem" ;
+    nif:beginIndex "1074" ;
+    nif:endIndex "1084" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w191> nif:anchorOf "Ook" ;
+    nif:beginIndex "1086" ;
+    nif:endIndex "1089" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w191" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w192> nif:BeginIndex "1090" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "1095" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w193> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1096" ;
+    nif:endIndex "1099" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w193" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w197> nif:anchorOf "Haarlemmermeer" ;
+    nif:beginIndex "1123" ;
+    nif:endIndex "1137" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w20w21w22w23> nif:anchorOf "Cor van de Meer" ;
+    nif:beginIndex "85" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w26w27> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "107" ;
+    nif:endIndex "126" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w3> nif:anchorOf "Cor" ;
+    nif:beginIndex "10" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w32> nif:anchorOf "Haarlemmermeer" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "158" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w34w35> nif:anchorOf "Dat verzet" ;
+    nif:beginIndex "160" ;
+    nif:endIndex "170" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w36> nif:BeginIndex "171" ;
+    nif:anchorOf "richtte" ;
+    nif:endIndex "178" ;
+    nif:lemma "richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w37> nif:anchorOf "zich" ;
+    nif:beginIndex "179" ;
+    nif:endIndex "183" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w37" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w38w39w40> nif:anchorOf "in het bijzonder" ;
+    nif:beginIndex "184" ;
+    nif:endIndex "200" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w38" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w55> nif:anchorOf "Joodse" ;
+    nif:beginIndex "279" ;
+    nif:endIndex "285" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w56> nif:anchorOf "Nederlanders" ;
+    nif:beginIndex "286" ;
+    nif:endIndex "298" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w59> nif:anchorOf "Stam" ;
+    nif:beginIndex "305" ;
+    nif:endIndex "309" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w6> nif:anchorOf "Stam" ;
+    nif:beginIndex "19" ;
+    nif:endIndex "23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w60> nif:BeginIndex "310" ;
+    nif:anchorOf "schreef" ;
+    nif:endIndex "317" ;
+    nif:lemma "schrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w63> nif:anchorOf "Wacht" ;
+    nif:beginIndex "327" ;
+    nif:endIndex "332" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w68> nif:anchorOf "dat" ;
+    nif:beginIndex "351" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w68" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w69> nif:anchorOf "betrekking" ;
+    nif:beginIndex "355" ;
+    nif:endIndex "365" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w69" ;
+    nif:lemma "betrekking" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w70> nif:BeginIndex "366" ;
+    nif:anchorOf "heeft" ;
+    nif:endIndex "371" ;
+    nif:lemma "hebben" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w76> nif:BeginIndex "397" ;
+    nif:anchorOf "opblazen" ;
+    nif:endIndex "405" ;
+    nif:lemma "op_blazen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w81> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "429" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w82> nif:BeginIndex "430" ;
+    nif:anchorOf "ondermijnde" ;
+    nif:endIndex "441" ;
+    nif:lemma "ondermijnd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w83> nif:anchorOf "Ringdijk" ;
+    nif:beginIndex "442" ;
+    nif:endIndex "450" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w86> nif:anchorOf "Haarlemmermeer" ;
+    nif:beginIndex "459" ;
+    nif:endIndex "473" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w88w89w90> nif:anchorOf "Op 25-jarige leeftijd" ;
+    nif:beginIndex "475" ;
+    nif:endIndex "496" ;
+    nif:head "bgnProc:2092__Cor_van_Stam.naf#w88" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w8w9w10> nif:anchorOf "6 januari 1920" ;
+    nif:beginIndex "25" ;
+    nif:endIndex "39" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w91> nif:BeginIndex "497" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "501" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w93> nif:anchorOf "Stam" ;
+    nif:beginIndex "506" ;
+    nif:endIndex "510" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w98w99> nif:anchorOf "Binnenlandse Strijdkrachten" ;
+    nif:beginIndex "541" ;
+    nif:endIndex "568" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w105w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_121> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w122> ;
+    xs:gYear "1985" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_169> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w170> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_180> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w181> ;
+    xs:gYear "1990" .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_190> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w191> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_33t_34> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w34w35> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_37t_38t_39> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w38w39w40> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#t_87t_88t_89> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w88w89w90> .
+
+bgn:Person-2092 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w115>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w118w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w143>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w148w149>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w154>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w158>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w161w162w163>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w177w178>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w184>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w188w189>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w197>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w20w21w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w26w27>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w3>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w56>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w63>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w86>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w93>,
+        <http://data.biographynet.nl/rdf/170506221754/2092__Cor_van_Stam.naf#w98w99> .
+

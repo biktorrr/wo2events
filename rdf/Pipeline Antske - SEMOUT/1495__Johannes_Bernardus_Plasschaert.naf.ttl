@@ -1,0 +1,909 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_121t_122t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_123>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_124t_125t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_152t_153t_154t_155t_156t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_162t_163t_164t_165t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_172t_173t_174t_175t_176t_177t_178>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_185>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_186t_187t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_201t_202t_203t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_201t_202t_203t_204t_205t_206t_207t_208t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_207>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_208t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_209t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_213t_214t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_218>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_220t_221>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_223>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_225>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_226t_227t_228t_229t_230t_231t_232t_233t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_227t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_229t_230t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245t_246t_247t_248t_249t_250t_251t_252t_253t_254t_255t_256t_257t_258t_259t_260t_261t_262t_263t_264t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_247t_248t_249t_250t_251t_252t_253t_254t_255t_256t_257>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_257>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_259t_260t_261>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_263>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_294>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_63t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_67>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_69t_70t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_88t_89t_90t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_99>,
+        bgn:Person-1495 ;
+    ore:proxyFor bgn:Person-1495 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w122> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w125> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w128> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w153> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w163> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w169> nif:lemma "vijand" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w173> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w189> nif:lemma "mitrailleur" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w204> nif:lemma "stuk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w209> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w210> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w214> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w222> nif:lemma "poging" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w227> nif:lemma "omdat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w229> nif:lemma "stuk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w230> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w237> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w249> nif:lemma "troep" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w260> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w64> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w70> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w89> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1495__Johannes_Bernardus_Plasschaert#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1495__Johannes_Bernardus_Plasschaert .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1495 ;
+    bgn:aggregatedPerson bgn:Person-1495 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1495__Johannes_Bernardus_Plasschaert ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1495__Johannes_Bernardus_Plasschaert ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_109> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w110> ;
+    pb:A0 bgn:Person-1495 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_123> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_126> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_136> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w137> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_121t_122t_123> ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_124t_125t_126> ;
+    pb:ArgM-TMP bgn:Person-1495 .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_139> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w140> ;
+    pb:ArgM bgn:Person-1495 .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_161> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w162> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_159> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_160> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_162t_163t_164t_165t_166> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_152t_153t_154t_155t_156t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_17> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w172> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_172t_173t_174t_175t_176t_177t_178> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_179> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w180> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_181> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w182> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w190> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_183> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_186t_187t_188> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w201> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_198> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_201t_202t_203t_204t_205t_206t_207t_208t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_207> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w208> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_198> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_201t_202t_203t_204> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_208t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_218> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w219> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_216> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_209t_210t_211t_212> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_213t_214t_215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_225> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w226> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_223> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_220t_221> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_226t_227t_228t_229t_230t_231t_232t_233t_234> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_231> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_234> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w235> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_229t_230t_231> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_227t_228> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_257> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w258> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_250> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_263> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w264> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_247t_248t_249t_250t_251t_252t_253t_254t_255t_256t_257> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245t_246t_247t_248t_249t_250t_251t_252t_253t_254t_255t_256t_257t_258t_259t_260t_261t_262t_263t_264t_265> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_265> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w266> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_247t_248t_249t_250t_251t_252t_253t_254t_255t_256t_257> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_262> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_259t_260t_261> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_284> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w285> ;
+    pb:Arg1 bgn:Person-1495 ;
+    pb:Arg2 bgn:Person-1495 ;
+    pb:ArgM-LOC bgn:Person-1495 ;
+    pb:ArgM-TMP bgn:Person-1495 .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_294> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w295> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w39> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_37> ;
+    pb:Arg2 bgn:Person-1495 .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w52> ;
+    pb:Arg1 bgn:Person-1495 .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w69> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_61> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_69t_70t_71> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_67> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w75> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_88t_89t_90t_91> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w95> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w100> ;
+    pb:Arg1 bgn:Person-1495 ;
+    pb:Arg2 bgn:Person-1495 .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w100> nif:BeginIndex "553" ;
+    nif:anchorOf "binnenviel" ;
+    nif:endIndex "563" ;
+    nif:lemma "binnen_vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w102> nif:anchorOf "Dordrecht" ;
+    nif:beginIndex "567" ;
+    nif:endIndex "576" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w109> nif:anchorOf "zo" ;
+    nif:beginIndex "603" ;
+    nif:endIndex "605" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w109" ;
+    nif:lemma "zo" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w110> nif:BeginIndex "606" ;
+    nif:anchorOf "stelt" ;
+    nif:endIndex "611" ;
+    nif:lemma "stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w115w116w117w118w119> nif:anchorOf "Kapittel van de Militaire Willems-Orde" ;
+    nif:beginIndex "635" ;
+    nif:endIndex "673" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w12> nif:anchorOf "Laren" ;
+    nif:beginIndex "61" ;
+    nif:endIndex "66" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w122w123w124> nif:anchorOf "in den strijd" ;
+    nif:beginIndex "680" ;
+    nif:endIndex "693" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w122" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w124> nif:BeginIndex "687" ;
+    nif:anchorOf "strijd" ;
+    nif:endIndex "693" ;
+    nif:lemma "strijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w125w126w127> nif:anchorOf "door het bedrijven" ;
+    nif:beginIndex "694" ;
+    nif:endIndex "712" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w125" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w127> nif:BeginIndex "703" ;
+    nif:anchorOf "bedrijven" ;
+    nif:endIndex "712" ;
+    nif:lemma "bedrijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w128w129w130w131w132w133w134w135w136> nif:anchorOf "van uitstekende daden van moed beleid en trouw" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "760" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w137> nif:BeginIndex "761" ;
+    nif:anchorOf "onderscheiden" ;
+    nif:endIndex "774" ;
+    nif:lemma "onderscheiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w140> nif:BeginIndex "781" ;
+    nif:anchorOf "gevechten" ;
+    nif:endIndex "790" ;
+    nif:lemma "gevecht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w143> nif:anchorOf "Duitschers" ;
+    nif:beginIndex "800" ;
+    nif:endIndex "810" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w145> nif:anchorOf "Dordtrecht" ;
+    nif:beginIndex "814" ;
+    nif:endIndex "824" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w153w154w155w156w157w158> nif:anchorOf "Met een zwakke en ongeoefende afdeeling" ;
+    nif:beginIndex "849" ;
+    nif:endIndex "888" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w160> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "895" ;
+    nif:endIndex "898" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w160" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w161> nif:anchorOf "stand" ;
+    nif:beginIndex "899" ;
+    nif:endIndex "904" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w161" ;
+    nif:lemma "stand" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w162> nif:BeginIndex "905" ;
+    nif:anchorOf "gehouden" ;
+    nif:endIndex "913" ;
+    nif:lemma "stand_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w163w164w165w166w167> nif:anchorOf "tegen een overmachtigen en zwaar" ;
+    nif:beginIndex "914" ;
+    nif:endIndex "946" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w163" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w169w170w171w172w173w174w175w176w177w178w179> nif:anchorOf "vijand en diens binnendringen in de binnenstad van de verkeersbrug uit" ;
+    nif:beginIndex "958" ;
+    nif:endIndex "1028" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w169" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w169w170w171w172w173w174w175w176w177w178w179w180w181w182> nif:anchorOf "vijand en diens binnendringen in de binnenstad van de verkeersbrug uit weten te beletten" ;
+    nif:beginIndex "958" ;
+    nif:endIndex "1046" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w169" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w172> nif:BeginIndex "974" ;
+    nif:anchorOf "binnendringen" ;
+    nif:endIndex "987" ;
+    nif:lemma "binnen_dringen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w173w174w175w176w177w178w179> nif:anchorOf "in de binnenstad van de verkeersbrug uit" ;
+    nif:beginIndex "988" ;
+    nif:endIndex "1028" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w173" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w18> nif:BeginIndex "81" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "84" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w180> nif:BeginIndex "1029" ;
+    nif:anchorOf "weten" ;
+    nif:endIndex "1034" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w182> nif:BeginIndex "1038" ;
+    nif:anchorOf "beletten" ;
+    nif:endIndex "1046" ;
+    nif:lemma "beletten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w184> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1048" ;
+    nif:endIndex "1051" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w184" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w186> nif:anchorOf "persoonlijk" ;
+    nif:beginIndex "1058" ;
+    nif:endIndex "1069" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w186" ;
+    nif:lemma "persoonlijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w187w188w189> nif:anchorOf "een lichte mitrailleur" ;
+    nif:beginIndex "1070" ;
+    nif:endIndex "1092" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w189" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w190> nif:BeginIndex "1093" ;
+    nif:anchorOf "bediend" ;
+    nif:endIndex "1100" ;
+    nif:lemma "bedienen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w199> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1157" ;
+    nif:endIndex "1160" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w199" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w1w2w3> nif:anchorOf "Bernardus Plasschaert" ;
+    nif:beginIndex "9" ;
+    nif:endIndex "30" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w20> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "89" ;
+    nif:endIndex "99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w201> nif:BeginIndex "1167" ;
+    nif:anchorOf "getracht" ;
+    nif:endIndex "1175" ;
+    nif:lemma "trachten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w202w203w204w205> nif:anchorOf "een achtergebleven stuk pantserafweergeschut" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1220" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w204" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w202w203w204w205w206w207w208w209w210w211w212w213w214w215w216w217w218w219> nif:anchorOf "een achtergebleven stuk pantserafweergeschut terug te halen door onder zwaar vijandelijk vuur met een auto daarheen te rijden" ;
+    nif:beginIndex "1176" ;
+    nif:endIndex "1301" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w204" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w208> nif:BeginIndex "1230" ;
+    nif:anchorOf "halen" ;
+    nif:endIndex "1235" ;
+    nif:lemma "terug_halen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w209w210w211w212w213w214w215w216w217w218w219> nif:anchorOf "door onder zwaar vijandelijk vuur met een auto daarheen te rijden" ;
+    nif:beginIndex "1236" ;
+    nif:endIndex "1301" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w209" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w210w211w212w213> nif:anchorOf "onder zwaar vijandelijk vuur" ;
+    nif:beginIndex "1241" ;
+    nif:endIndex "1269" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w214w215w216> nif:anchorOf "met een auto" ;
+    nif:beginIndex "1270" ;
+    nif:endIndex "1282" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w214" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w217> nif:anchorOf "daarheen" ;
+    nif:beginIndex "1283" ;
+    nif:endIndex "1291" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w217" ;
+    nif:lemma "daarheen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w219> nif:BeginIndex "1295" ;
+    nif:anchorOf "rijden" ;
+    nif:endIndex "1301" ;
+    nif:lemma "rijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w221w222> nif:anchorOf "deze poging" ;
+    nif:beginIndex "1303" ;
+    nif:endIndex "1314" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w222" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w224> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1321" ;
+    nif:endIndex "1324" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w224" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w226> nif:BeginIndex "1332" ;
+    nif:anchorOf "staken" ;
+    nif:endIndex "1338" ;
+    nif:lemma "staken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w227w228w229w230w231w232w233w234w235> nif:anchorOf "omdat het stuk door vijandelijk granaatvuur onbruikbaar werd geschoten" ;
+    nif:beginIndex "1339" ;
+    nif:endIndex "1409" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w227" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w228w229> nif:anchorOf "het stuk" ;
+    nif:beginIndex "1345" ;
+    nif:endIndex "1353" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w229" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w230w231w232> nif:anchorOf "door vijandelijk granaatvuur" ;
+    nif:beginIndex "1354" ;
+    nif:endIndex "1382" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w230" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w232> nif:BeginIndex "1371" ;
+    nif:anchorOf "granaatvuur" ;
+    nif:endIndex "1382" ;
+    nif:lemma "granaat_vuur" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w233> nif:anchorOf "onbruikbaar" ;
+    nif:beginIndex "1383" ;
+    nif:endIndex "1394" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w233" ;
+    nif:lemma "onbruikbaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w235> nif:BeginIndex "1400" ;
+    nif:anchorOf "geschoten" ;
+    nif:endIndex "1409" ;
+    nif:lemma "schieten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w237w238w239w240w241w242w243w244w245w246> nif:anchorOf "Door zijn onverschrokken houding en bezielende leiding gedurende de oorlogsdagen" ;
+    nif:beginIndex "1411" ;
+    nif:endIndex "1491" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w237" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w237w238w239w240w241w242w243w244w245w246w247w248w249w250w251w252w253w254w255w256w257w258w259w260w261w262w263w264w265w266> nif:anchorOf "Door zijn onverschrokken houding en bezielende leiding gedurende de oorlogsdagen heeft zijn troep die door onvoldoende slaap en voeding uitgeput was tot het uiterste stand weten te houden" ;
+    nif:beginIndex "1411" ;
+    nif:endIndex "1600" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w237" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w248w249w250w251w252w253w254w255w256w257w258> nif:anchorOf "zijn troep die door onvoldoende slaap en voeding uitgeput was" ;
+    nif:beginIndex "1498" ;
+    nif:endIndex "1560" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w249" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w251> nif:anchorOf "die" ;
+    nif:beginIndex "1510" ;
+    nif:endIndex "1513" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w251" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w258> nif:BeginIndex "1557" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1560" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w260w261w262> nif:anchorOf "tot het uiterste" ;
+    nif:beginIndex "1562" ;
+    nif:endIndex "1578" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w260" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w263> nif:anchorOf "stand" ;
+    nif:beginIndex "1579" ;
+    nif:endIndex "1584" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w263" ;
+    nif:lemma "stand" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w264> nif:BeginIndex "1585" ;
+    nif:anchorOf "weten" ;
+    nif:endIndex "1590" ;
+    nif:lemma "weten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w266> nif:BeginIndex "1594" ;
+    nif:anchorOf "houden" ;
+    nif:endIndex "1600" ;
+    nif:lemma "stand_houden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w270w271> nif:anchorOf "Koninklijk Besluit" ;
+    nif:beginIndex "1607" ;
+    nif:endIndex "1625" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w277w278> nif:anchorOf "Bart Plasschaert" ;
+    nif:beginIndex "1652" ;
+    nif:endIndex "1668" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w280> nif:anchorOf "Ridder" ;
+    nif:beginIndex "1673" ;
+    nif:endIndex "1679" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w283w284> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "1686" ;
+    nif:endIndex "1708" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w285> nif:BeginIndex "1709" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "1716" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w287w288> nif:anchorOf "Bart Plasschaert" ;
+    nif:beginIndex "1719" ;
+    nif:endIndex "1735" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w295> nif:BeginIndex "1778" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1781" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w299w300w301> nif:anchorOf "Orde van Oranje-Nassau" ;
+    nif:beginIndex "1797" ;
+    nif:endIndex "1819" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w30> nif:anchorOf "Duitse" ;
+    nif:beginIndex "155" ;
+    nif:endIndex "161" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w306> nif:BeginIndex "1836" ;
+    nif:anchorOf "Oorlogsherinneringskruis" ;
+    nif:beginIndex "1836" ;
+    nif:endIndex "1860" ;
+    nif:lemma "Oor_log_herinnering_kruis" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w310> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1873" ;
+    nif:endIndex "1882" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w314w315w316w317> nif:anchorOf "Onderscheidingsteken voor Langdurige Dienst" ;
+    nif:beginIndex "1893" ;
+    nif:endIndex "1936" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w323> nif:anchorOf "XXXV" ;
+    nif:beginIndex "1966" ;
+    nif:endIndex "1970" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w326> nif:anchorOf "Huwelijksmedaille" ;
+    nif:beginIndex "1975" ;
+    nif:endIndex "1992" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w33> nif:anchorOf "Dordrecht" ;
+    nif:beginIndex "172" ;
+    nif:endIndex "181" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w330w331> nif:anchorOf "Inhuldigingsmedaille 1948" ;
+    nif:beginIndex "2002" ;
+    nif:endIndex "2027" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w334w335> nif:anchorOf "Kruis voor" ;
+    nif:beginIndex "2035" ;
+    nif:endIndex "2045" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w38> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "199" ;
+    nif:endIndex "202" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w38" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w39> nif:BeginIndex "203" ;
+    nif:anchorOf "benoemd" ;
+    nif:endIndex "210" ;
+    nif:lemma "benoemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w47w48> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "243" ;
+    nif:endIndex "265" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w50w51> nif:anchorOf "Bart Plasschaert" ;
+    nif:beginIndex "268" ;
+    nif:endIndex "284" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w52> nif:BeginIndex "285" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "288" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w6> nif:anchorOf "Middelburg" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w60> nif:anchorOf "Genie" ;
+    nif:beginIndex "330" ;
+    nif:endIndex "335" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w62> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "337" ;
+    nif:endIndex "340" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w62" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w64w65> nif:anchorOf "in 1973" ;
+    nif:beginIndex "346" ;
+    nif:endIndex "353" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w64" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w68> nif:anchorOf "eervol" ;
+    nif:beginIndex "366" ;
+    nif:endIndex "372" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w68" ;
+    nif:lemma "eervol" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w69> nif:BeginIndex "373" ;
+    nif:anchorOf "ontslagen" ;
+    nif:endIndex "382" ;
+    nif:lemma "ontslaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w70w71w72> nif:anchorOf "uit de dienst" ;
+    nif:beginIndex "383" ;
+    nif:endIndex "396" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w74> nif:anchorOf "Plasschaert" ;
+    nif:beginIndex "399" ;
+    nif:endIndex "410" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w75> nif:BeginIndex "411" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "414" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w83> nif:anchorOf "Genie" ;
+    nif:beginIndex "460" ;
+    nif:endIndex "465" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w88> nif:anchorOf "Nederland" ;
+    nif:beginIndex "493" ;
+    nif:endIndex "502" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w89w90w91w92> nif:anchorOf "in 1939 en 1940" ;
+    nif:beginIndex "503" ;
+    nif:endIndex "518" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w89" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w94> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "520" ;
+    nif:endIndex "523" ;
+    nif:head "bgnProc:1495__Johannes_Bernardus_Plasschaert.naf#w94" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w95> nif:BeginIndex "524" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "527" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w98> nif:anchorOf "Duitse" ;
+    nif:beginIndex "536" ;
+    nif:endIndex "542" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w99> nif:anchorOf "Wehrmacht" ;
+    nif:beginIndex "543" ;
+    nif:endIndex "552" .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_121t_122t_123> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w122w123w124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_124t_125t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w125w126w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_127t_128t_129t_130t_131t_132t_133t_134t_135> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w128w129w130w131w132w133w134w135w136> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_152t_153t_154t_155t_156t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w153w154w155w156w157w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_162t_163t_164t_165t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w163w164w165w166w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w169w170w171w172w173w174w175w176w177w178w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_168t_169t_170t_171t_172t_173t_174t_175t_176t_177t_178t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w169w170w171w172w173w174w175w176w177w178w179w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_172t_173t_174t_175t_176t_177t_178> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w173w174w175w176w177w178w179> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_183> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_185> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w186> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_186t_187t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w187w188w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_201t_202t_203t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w202w203w204w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_201t_202t_203t_204t_205t_206t_207t_208t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w202w203w204w205w206w207w208w209w210w211w212w213w214w215w216w217w218w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_208t_209t_210t_211t_212t_213t_214t_215t_216t_217t_218> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w209w210w211w212w213w214w215w216w217w218w219> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_209t_210t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w210w211w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_213t_214t_215> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w214w215w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_220t_221> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w221w222> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_223> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w224> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_226t_227t_228t_229t_230t_231t_232t_233t_234> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w227w228w229w230w231w232w233w234w235> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_227t_228> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w228w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_229t_230t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w230w231w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_232> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w237w238w239w240w241w242w243w244w245w246> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_236t_237t_238t_239t_240t_241t_242t_243t_244t_245t_246t_247t_248t_249t_250t_251t_252t_253t_254t_255t_256t_257t_258t_259t_260t_261t_262t_263t_264t_265> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w237w238w239w240w241w242w243w244w245w246w247w248w249w250w251w252w253w254w255w256w257w258w259w260w261w262w263w264w265w266> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_259t_260t_261> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w260w261w262> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_262> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w263> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w64w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_67> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w68> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_69t_70t_71> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w70w71w72> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_88t_89t_90t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w89w90w91w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#t_247t_248t_249t_250t_251t_252t_253t_254t_255t_256t_257> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w248w249w250w251w252w253w254w255w256w257w258> .
+
+bgn:Person-1495 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w102>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w115w116w117w118w119>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w143>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w145>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w270w271>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w277w278>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w280>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w283w284>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w287w288>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w299w300w301>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w306>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w310>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w314w315w316w317>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w323>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w326>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w33>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w330w331>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w334w335>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w50w51>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w98>,
+        <http://data.biographynet.nl/rdf/170506221754/1495__Johannes_Bernardus_Plasschaert.naf#w99> .
+

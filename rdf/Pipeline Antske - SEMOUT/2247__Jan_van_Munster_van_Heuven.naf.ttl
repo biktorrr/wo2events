@@ -1,0 +1,554 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_129t_130t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_133t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_135>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_23>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_41>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_72t_73t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_75t_76t_77t_78t_79t_80t_81t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_77t_78>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_79>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_80>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_85>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_86>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_87>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_9t_10t_11>,
+        bgn:Person-2247 ;
+    ore:proxyFor bgn:Person-2247 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w130> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w135> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w57> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w73> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w76> nif:lemma "omdat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w78> nif:lemma "om" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2247__Jan_van_Munster_van_Heuven#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2247__Jan_van_Munster_van_Heuven .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2247 ;
+    bgn:aggregatedPerson bgn:Person-2247 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2247__Jan_van_Munster_van_Heuven ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2247__Jan_van_Munster_van_Heuven ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_108> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w109> ;
+    xs:gYear "1948" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_116> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w117> ;
+    xs:gYear "1918" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_120> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w121> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_126> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w127> ;
+    xs:gYear "1919" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w14> ;
+    pb:ArgM-TMP bgn:Person-2247 .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_135> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w136> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_129t_130t_131> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_133t_134> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_138> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w139> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_139> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_23> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w24> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_35> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w36> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_41> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w42> ;
+    xs:gYear "1885",
+        "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_51> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w52> ;
+    xs:gYear "1889",
+        "1975" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_55> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w56> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_54> ;
+    pb:A4 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_60> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_56t_57t_58> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w72> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_70> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_72t_73t_74> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_75t_76t_77t_78t_79t_80t_81t_82> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w83> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_76> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_77t_78> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_80> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_79> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_85> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w86> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_97>,
+        bgn:Person-2247 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_86> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_87> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_95> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w96> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_91> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_93t_94> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_92> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w10w11w12> ;
+    xs:date "1917-10-03" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w100w101> nif:anchorOf "Bruin Tammes" ;
+    nif:beginIndex "540" ;
+    nif:endIndex "552" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w109> nif:anchorOf "1948" ;
+    nif:beginIndex "583" ;
+    nif:endIndex "587" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w10w11w12> nif:anchorOf "3 oktober 1917" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "62" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w111> nif:anchorOf "Londen" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "597" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w113w114w115> nif:anchorOf "Moyra Frances Browne" ;
+    nif:beginIndex "602" ;
+    nif:endIndex "622" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w117> nif:anchorOf "1918" ;
+    nif:beginIndex "624" ;
+    nif:endIndex "628" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w121> nif:anchorOf "1958" ;
+    nif:beginIndex "636" ;
+    nif:endIndex "640" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w123w124w125> nif:anchorOf "Gabrielle Reinette Ruijs" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "669" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w127> nif:anchorOf "1919" ;
+    nif:beginIndex "671" ;
+    nif:endIndex "675" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w130w131w132> nif:anchorOf "uit beide huwelijken" ;
+    nif:beginIndex "678" ;
+    nif:endIndex "698" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w130" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w134w135> nif:anchorOf "geen kinderen" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "719" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w136> nif:BeginIndex "720" ;
+    nif:anchorOf "geboren" ;
+    nif:endIndex "727" ;
+    nif:lemma "geboren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w139> nif:BeginIndex "733" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "736" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w14> nif:BeginIndex "64" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "67" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w140> nif:anchorOf "voorts" ;
+    nif:beginIndex "737" ;
+    nif:endIndex "743" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w140" ;
+    nif:lemma "voorts" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w143w144> nif:anchorOf "B. V." ;
+    nif:beginIndex "758" ;
+    nif:endIndex "762" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w147w148w149w150> nif:anchorOf "C. J. van Houten" ;
+    nif:beginIndex "777" ;
+    nif:endIndex "792" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w154> nif:anchorOf "Vaals" ;
+    nif:beginIndex "803" ;
+    nif:endIndex "808" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w159> nif:anchorOf "KLM" ;
+    nif:beginIndex "843" ;
+    nif:endIndex "846" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w17w18> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "74" ;
+    nif:endIndex "93" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w1w2w3w4> nif:anchorOf "Arnaud van Munster" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w20> nif:anchorOf "RAF-vlieger" ;
+    nif:beginIndex "98" ;
+    nif:endIndex "109" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w22w23> nif:anchorOf "Van Heuven" ;
+    nif:beginIndex "112" ;
+    nif:endIndex "122" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w24> nif:BeginIndex "123" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "126" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w29w30> nif:anchorOf "Van Heuven" ;
+    nif:beginIndex "146" ;
+    nif:endIndex "156" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w36> nif:anchorOf "Jan" ;
+    nif:beginIndex "181" ;
+    nif:endIndex "184" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w36w37w38> nif:anchorOf "Jan van Munster" ;
+    nif:beginIndex "181" ;
+    nif:endIndex "196" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w40> nif:anchorOf "Heuven" ;
+    nif:beginIndex "201" ;
+    nif:endIndex "207" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w42> nif:anchorOf "1885-1940" ;
+    nif:beginIndex "209" ;
+    nif:endIndex "218" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w48w49w50> nif:anchorOf "Johanna Cecilia Bleckmann" ;
+    nif:beginIndex "242" ;
+    nif:endIndex "267" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w52> nif:anchorOf "1889-1975" ;
+    nif:beginIndex "269" ;
+    nif:endIndex "278" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w55> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "281" ;
+    nif:endIndex "284" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w55" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w56> nif:BeginIndex "285" ;
+    nif:anchorOf "vertrok" ;
+    nif:endIndex "292" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w57w58w59> nif:anchorOf "in de oorlog" ;
+    nif:beginIndex "293" ;
+    nif:endIndex "305" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w57" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w61> nif:anchorOf "Engeland" ;
+    nif:beginIndex "311" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w63> nif:BeginIndex "323" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "327" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w67> nif:anchorOf "RAF" ;
+    nif:beginIndex "343" ;
+    nif:endIndex "346" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w69> nif:anchorOf "daarna" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "354" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w69" ;
+    nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w71> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "360" ;
+    nif:endIndex "363" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w71" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w72> nif:BeginIndex "364" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "373" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w73w74w75> nif:anchorOf "bij het kustcommando" ;
+    nif:beginIndex "374" ;
+    nif:endIndex "394" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w73" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w75> nif:BeginIndex "382" ;
+    nif:anchorOf "kustcommando" ;
+    nif:endIndex "394" ;
+    nif:lemma "kust_commando" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w76w77w78w79w80w81w82w83> nif:anchorOf "omdat hij om gezondheidsredenen niet hoog mocht vliegen" ;
+    nif:beginIndex "395" ;
+    nif:endIndex "450" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w76" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w77> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "401" ;
+    nif:endIndex "404" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w77" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w78w79> nif:anchorOf "om gezondheidsredenen" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "426" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w78" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w8> nif:anchorOf "Bloemendaal" ;
+    nif:beginIndex "35" ;
+    nif:endIndex "46" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w80> nif:anchorOf "niet" ;
+    nif:beginIndex "427" ;
+    nif:endIndex "431" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w80" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w81> nif:anchorOf "hoog" ;
+    nif:beginIndex "432" ;
+    nif:endIndex "436" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w81" ;
+    nif:lemma "hoog" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w83> nif:BeginIndex "443" ;
+    nif:anchorOf "vliegen" ;
+    nif:endIndex "450" ;
+    nif:lemma "vliegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w85> nif:anchorOf "Dat" ;
+    nif:beginIndex "452" ;
+    nif:endIndex "455" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w85" ;
+    nif:lemma "dat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w86> nif:BeginIndex "456" ;
+    nif:anchorOf "gold" ;
+    nif:endIndex "460" ;
+    nif:lemma "gelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w87> nif:anchorOf "daarentegen" ;
+    nif:beginIndex "461" ;
+    nif:endIndex "472" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w87" ;
+    nif:lemma "daarentegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w88> nif:anchorOf "niet" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "477" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w88" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w92> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "493" ;
+    nif:endIndex "496" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w92" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w93> nif:anchorOf "mede" ;
+    nif:beginIndex "497" ;
+    nif:endIndex "501" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w93" ;
+    nif:lemma "mede" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w94w95> nif:anchorOf "de vliegopleiding" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "519" ;
+    nif:head "bgnProc:2247__Jan_van_Munster_van_Heuven.naf#w95" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w95> nif:BeginIndex "505" ;
+    nif:anchorOf "vliegopleiding" ;
+    nif:endIndex "519" ;
+    nif:lemma "vlieg_opleiding" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w96> nif:BeginIndex "520" ;
+    nif:anchorOf "volgde" ;
+    nif:endIndex "526" ;
+    nif:lemma "volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w98> nif:anchorOf "Engeland" ;
+    nif:beginIndex "530" ;
+    nif:endIndex "538" .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_129t_130t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w130w131w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_133t_134> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w134w135> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_54> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w55> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_72t_73t_74> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w73w74w75> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_75t_76t_77t_78t_79t_80t_81t_82> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w76w77w78w79w80w81w82w83> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_76> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w77> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_77t_78> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w78w79> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_79> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w80> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_80> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w81> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_84> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w85> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_86> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w87> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_87> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w88> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_91> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w92> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w94w95> .
+
+bgn:Person-2247 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w100w101>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w113w114w115>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w123w124w125>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w143w144>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w147w148w149w150>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w154>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w159>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w17w18>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w1w2w3w4>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w20>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w22w23>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w29w30>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w36w37w38>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w48w49w50>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w61>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w67>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/2247__Jan_van_Munster_van_Heuven.naf#w98> .
+

@@ -1,0 +1,281 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_27t_28t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_40t_41t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_43t_44t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_46t_47t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_57>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_63t_64>,
+        bgn:Person-1734 ;
+    ore:proxyFor bgn:Person-1734 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w28> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w44> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w47> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w65> nif:lemma "straat" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1734__Anna_Griese-Goudkuil#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1734__Anna_Griese-Goudkuil .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1734 ;
+    bgn:aggregatedPerson bgn:Person-1734 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1734__Anna_Griese-Goudkuil ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1734__Anna_Griese-Goudkuil ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_26> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w27> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_25> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_27t_28t_29> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_36>,
+        bgn:Person-1734 .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_3> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w4> ;
+    xs:gYear "1903",
+        "1945" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w40> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_46t_47t_48>,
+        bgn:Person-1734 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_54> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_43t_44t_45> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_40t_41t_42> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_57> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w58> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_56> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_55> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_6> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w7> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w63> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_63t_64> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w11> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "64" ;
+    nif:endIndex "73" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w17> nif:anchorOf "Waarheidsgroep" ;
+    nif:beginIndex "93" ;
+    nif:endIndex "107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w1w2> nif:anchorOf "Griese-Goudkuil" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w21w22w23w24> nif:anchorOf "Communistische Partij van Nederland" ;
+    nif:beginIndex "123" ;
+    nif:endIndex "158" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w26> a bgn:pron_3fs ;
+    nif:anchorOf "Zij" ;
+    nif:beginIndex "160" ;
+    nif:endIndex "163" ;
+    nif:head "bgnProc:1734__Anna_Griese-Goudkuil.naf#w26" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w27> nif:BeginIndex "164" ;
+    nif:anchorOf "verleende" ;
+    nif:endIndex "173" ;
+    nif:lemma "verlenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w28w29w30> nif:anchorOf "onder meer onderdak" ;
+    nif:beginIndex "174" ;
+    nif:endIndex "193" ;
+    nif:head "bgnProc:1734__Anna_Griese-Goudkuil.naf#w28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w32> nif:anchorOf "Joodse" ;
+    nif:beginIndex "198" ;
+    nif:endIndex "204" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w35> nif:anchorOf "Nederland" ;
+    nif:beginIndex "223" ;
+    nif:endIndex "232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w37> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "236" ;
+    nif:endIndex "245" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w39> nif:anchorOf "Anna" ;
+    nif:beginIndex "248" ;
+    nif:endIndex "252" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w4> nif:anchorOf "1903-1945" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w40> nif:BeginIndex "253" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "257" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w41w42w43> nif:anchorOf "een paar dagen" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "272" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w44w45w46> nif:anchorOf "voor de bevrijding" ;
+    nif:beginIndex "273" ;
+    nif:endIndex "291" ;
+    nif:head "bgnProc:1734__Anna_Griese-Goudkuil.naf#w44" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w47w48w49> nif:anchorOf "om het leven" ;
+    nif:beginIndex "292" ;
+    nif:endIndex "304" ;
+    nif:head "bgnProc:1734__Anna_Griese-Goudkuil.naf#w47" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w52> nif:anchorOf "Engels" ;
+    nif:beginIndex "313" ;
+    nif:endIndex "319" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w55> nif:anchorOf "Leusden" ;
+    nif:beginIndex "336" ;
+    nif:endIndex "343" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w56> nif:anchorOf "waar" ;
+    nif:beginIndex "344" ;
+    nif:endIndex "348" ;
+    nif:head "bgnProc:1734__Anna_Griese-Goudkuil.naf#w56" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w57> a bgn:pron_3fs ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "349" ;
+    nif:endIndex "352" ;
+    nif:head "bgnProc:1734__Anna_Griese-Goudkuil.naf#w57" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w58> nif:BeginIndex "353" ;
+    nif:anchorOf "gevangen" ;
+    nif:endIndex "361" ;
+    nif:lemma "vangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w62> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "380" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w63> nif:BeginIndex "381" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "383" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w64w65> nif:anchorOf "een straat" ;
+    nif:beginIndex "384" ;
+    nif:endIndex "394" ;
+    nif:head "bgnProc:1734__Anna_Griese-Goudkuil.naf#w65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w7> nif:BeginIndex "34" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "37" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w70w71> nif:anchorOf "Anna Griesepad" ;
+    nif:beginIndex "415" ;
+    nif:endIndex "429" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w76> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "451" ;
+    nif:endIndex "460" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w78> nif:anchorOf "Gemeentelijke" ;
+    nif:beginIndex "462" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w80> nif:anchorOf "Rotterdam" ;
+    nif:beginIndex "490" ;
+    nif:endIndex "499" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_27t_28t_29> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w28w29w30> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_40t_41t_42> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w41w42w43> ;
+    xs:period "PXD" .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_43t_44t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w44w45w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_46t_47t_48> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w47w48w49> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_55> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w56> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_56> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#t_63t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w64w65> .
+
+bgn:Person-1734 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w21w22w23w24>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w35>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w52>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w70w71>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w76>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1734__Anna_Griese-Goudkuil.naf#w80> .
+

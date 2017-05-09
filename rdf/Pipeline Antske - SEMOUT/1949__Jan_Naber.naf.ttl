@@ -1,0 +1,955 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_0>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_126>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_140>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_141t_142t_143>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_144t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_148>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_149>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_152t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_173>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_174t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_177t_178t_179>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_183>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_190t_191t_192t_193t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_191t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_197t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_207t_208t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_224t_225t_226t_227t_228t_229t_230t_231t_232t_233t_234t_235t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_230>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_232t_233>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_246t_247t_248>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_249t_250t_251>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_262>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_275t_276t_277t_278t_279t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_281>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_282t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_39>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_42>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_95>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_9t_10t_11>,
+        bgn:Person-1949 ;
+    ore:proxyFor bgn:Person-1949 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w107> nif:lemma "verzet_naam" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w142> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w145> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w153> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w175> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w178> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w191> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w192> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w211> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w226> nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w233> nif:lemma "van" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w250> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w278> nif:lemma "kind" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w284> nif:lemma "ongeluk" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1949__Jan_Naber#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1949__Jan_Naber .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1949 ;
+    bgn:aggregatedPerson bgn:Person-1949 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1949__Jan_Naber ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1949__Jan_Naber ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_0> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w1> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w108> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_108> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_105t_106> ;
+    pb:AM-TMP bgn:Person-1949 .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_115> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w116> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_114>,
+        bgn:Person-1949 ;
+    pb:ArgM-LOC bgn:Person-1949 .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_120> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w121> ;
+    pb:Arg1 bgn:Person-1949 ;
+    pb:Arg2 bgn:Person-1949 .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w129> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_126> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_13> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w14> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_132> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_140> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w141> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_139> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_144t_145> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_141t_142t_143> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_148> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w149> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_149> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_152t_153t_154> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_157> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w158> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_158> ;
+    pb:A2 bgn:Person-1949 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_156> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_161> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w168> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_176> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w177> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_173> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_177t_178t_179> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_174t_175> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_183> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w184> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w190> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_187> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_190t_191t_192t_193t_194> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w195> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_191t_192> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w201> ;
+    pb:A0 bgn:Person-1949 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_222>,
+        bgn:Person-1949 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_210t_211t_212> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_197t_198t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_207t_208t_209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_228> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w229> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_224t_225t_226t_227t_228t_229t_230t_231t_232t_233t_234t_235t_236> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_224> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w237> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_231>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_232t_233> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_230> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_244> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w245> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_249t_250t_251>,
+        bgn:Person-1949 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_259> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_246t_247t_248> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_254> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w255> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_259> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_262> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w263> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_281> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w282> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_275t_276t_277t_278t_279t_280> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_282t_283> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w30> ;
+    pb:Arg1 bgn:Person-1949 ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_39> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w40> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_42> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w43> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_5> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w6> ;
+    xs:gYear "1923" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_53> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w54> ;
+    pb:Arg0 bgn:Person-1949 .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w95> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_95> ;
+    pb:Arg1 bgn:Person-1949 ;
+    pb:ArgM-PRD bgn:Person-1949 .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w10w11w12> ;
+    xs:date "1957-07-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w1> nif:anchorOf "Jan" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "3" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w101> nif:anchorOf "Nico" ;
+    nif:beginIndex "477" ;
+    nif:endIndex "481" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w103> nif:anchorOf "Victor" ;
+    nif:beginIndex "483" ;
+    nif:endIndex "489" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w106w107> nif:anchorOf "Hun verzetsnamen" ;
+    nif:beginIndex "492" ;
+    nif:endIndex "508" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w108> nif:BeginIndex "509" ;
+    nif:anchorOf "kozen" ;
+    nif:endIndex "514" ;
+    nif:lemma "kiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w109> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "515" ;
+    nif:endIndex "517" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w109" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w10w11w12> nif:anchorOf "29 juli 1957" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "50" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w111> nif:anchorOf "Victor" ;
+    nif:beginIndex "524" ;
+    nif:endIndex "530" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w114> nif:anchorOf "Latijn" ;
+    nif:beginIndex "538" ;
+    nif:endIndex "544" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w115> nif:anchorOf "overwinnaar" ;
+    nif:beginIndex "545" ;
+    nif:endIndex "556" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w115" ;
+    nif:lemma "overwinnaar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w116> nif:BeginIndex "557" ;
+    nif:anchorOf "betekent" ;
+    nif:endIndex "565" ;
+    nif:lemma "betekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w120> nif:anchorOf "Nico" ;
+    nif:beginIndex "577" ;
+    nif:endIndex "581" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w121> nif:BeginIndex "582" ;
+    nif:anchorOf "komt" ;
+    nif:endIndex "586" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w124> nif:anchorOf "Griekse" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "602" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w125> nif:anchorOf "Nikè" ;
+    nif:beginIndex "603" ;
+    nif:endIndex "607" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w127> nif:anchorOf "wat" ;
+    nif:beginIndex "609" ;
+    nif:endIndex "612" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w127" ;
+    nif:lemma "wat" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w128> nif:anchorOf "overwinning" ;
+    nif:beginIndex "613" ;
+    nif:endIndex "624" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w128" ;
+    nif:lemma "overwinning" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w129> nif:BeginIndex "625" ;
+    nif:anchorOf "betekent" ;
+    nif:endIndex "633" ;
+    nif:lemma "betekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w132> nif:anchorOf "NV" ;
+    nif:beginIndex "638" ;
+    nif:endIndex "640" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w133> nif:BeginIndex "641" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "644" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w14> nif:BeginIndex "52" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "55" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w140> a bgn:pron_3p ;
+    nif:anchorOf "Ze" ;
+    nif:beginIndex "671" ;
+    nif:endIndex "673" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w140" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w141> nif:BeginIndex "674" ;
+    nif:anchorOf "werkten" ;
+    nif:endIndex "681" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w142w143w144> nif:anchorOf "met zijn tweeën" ;
+    nif:beginIndex "682" ;
+    nif:endIndex "697" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w145w146> nif:anchorOf "aan acties" ;
+    nif:beginIndex "698" ;
+    nif:endIndex "708" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w149> nif:BeginIndex "713" ;
+    nif:anchorOf "sloten" ;
+    nif:endIndex "719" ;
+    nif:lemma "aan_sluiten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w150> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "720" ;
+    nif:endIndex "722" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w150" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w151> nif:anchorOf "zich" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "727" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w151" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w153w154w155> nif:anchorOf "bij andere knokploegen" ;
+    nif:beginIndex "732" ;
+    nif:endIndex "754" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w157> nif:anchorOf "Zo" ;
+    nif:beginIndex "756" ;
+    nif:endIndex "758" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w157" ;
+    nif:lemma "zo" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w158> nif:BeginIndex "759" ;
+    nif:anchorOf "werkten" ;
+    nif:endIndex "766" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w159> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "767" ;
+    nif:endIndex "769" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w159" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w16> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "60" ;
+    nif:endIndex "71" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w161> nif:anchorOf "1943" ;
+    nif:beginIndex "773" ;
+    nif:endIndex "777" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w162> nif:anchorOf "samen" ;
+    nif:beginIndex "778" ;
+    nif:endIndex "783" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w162" ;
+    nif:lemma "samen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w164w165> nif:anchorOf "Johannes Post" ;
+    nif:beginIndex "788" ;
+    nif:endIndex "801" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w167> nif:anchorOf "Naber" ;
+    nif:beginIndex "803" ;
+    nif:endIndex "808" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w168> nif:BeginIndex "809" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "812" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w171w172> nif:anchorOf "Jannie Raak" ;
+    nif:beginIndex "826" ;
+    nif:endIndex "837" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w174> nif:anchorOf "die" ;
+    nif:beginIndex "839" ;
+    nif:endIndex "842" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w174" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w175w176> nif:anchorOf "als koerierster" ;
+    nif:beginIndex "843" ;
+    nif:endIndex "858" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w175" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w177> nif:BeginIndex "859" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "865" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w178w179w180> nif:anchorOf "in het verzet" ;
+    nif:beginIndex "866" ;
+    nif:endIndex "879" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w178" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w184> nif:BeginIndex "892" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "895" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w185w186> nif:anchorOf "Henk Raak" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "905" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w188> nif:anchorOf "die" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "910" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w188" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w189> nif:anchorOf "onderduikers" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "923" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w189" ;
+    nif:lemma "onderduiker" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w190> nif:BeginIndex "924" ;
+    nif:anchorOf "hielp" ;
+    nif:endIndex "929" ;
+    nif:lemma "helpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w191w192w193w194w195> nif:anchorOf "om aan adressen te komen" ;
+    nif:beginIndex "930" ;
+    nif:endIndex "954" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w191" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w192w193> nif:anchorOf "aan adressen" ;
+    nif:beginIndex "933" ;
+    nif:endIndex "945" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w192" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w195> nif:BeginIndex "949" ;
+    nif:anchorOf "komen" ;
+    nif:endIndex "954" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w198w199w200> nif:anchorOf "17 november 1944" ;
+    nif:beginIndex "960" ;
+    nif:endIndex "976" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w1w2> nif:anchorOf "Naber" ;
+    nif:beginIndex "4" ;
+    nif:endIndex "9" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w201> nif:BeginIndex "977" ;
+    nif:anchorOf "pleegden" ;
+    nif:endIndex "985" ;
+    nif:lemma "plegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w202> nif:anchorOf "Naber" ;
+    nif:beginIndex "986" ;
+    nif:endIndex "991" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w204> nif:anchorOf "Rozeman" ;
+    nif:beginIndex "993" ;
+    nif:endIndex "1000" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w206w207> nif:anchorOf "Henk Raak" ;
+    nif:beginIndex "1004" ;
+    nif:endIndex "1013" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w208w209w210> nif:anchorOf "om vijf uur" ;
+    nif:beginIndex "1014" ;
+    nif:endIndex "1025" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w20w21> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "99" ;
+    nif:endIndex "118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w211w212w213> nif:anchorOf "in de ochtend" ;
+    nif:beginIndex "1026" ;
+    nif:endIndex "1039" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w211" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w221> nif:anchorOf "Hoofdstraat" ;
+    nif:beginIndex "1082" ;
+    nif:endIndex "1093" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w223> nif:anchorOf "Hoogeveen" ;
+    nif:beginIndex "1098" ;
+    nif:endIndex "1107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w225> nif:anchorOf "Hierbij" ;
+    nif:beginIndex "1109" ;
+    nif:endIndex "1116" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w225" ;
+    nif:lemma "hierbij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w225w226w227w228w229w230w231w232w233w234w235w236w237> nif:anchorOf "Hierbij werden 13.000 distributiekaarten buitgemaakt waarmee onderduikers van eten konden worden voorzien" ;
+    nif:beginIndex "1109" ;
+    nif:endIndex "1215" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w226" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w229> nif:BeginIndex "1150" ;
+    nif:anchorOf "buitgemaakt" ;
+    nif:endIndex "1161" ;
+    nif:lemma "buit_maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w23> nif:anchorOf "Naber" ;
+    nif:beginIndex "121" ;
+    nif:endIndex "126" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w231> nif:anchorOf "waarmee" ;
+    nif:beginIndex "1163" ;
+    nif:endIndex "1170" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w231" ;
+    nif:lemma "waarmee" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w232> nif:anchorOf "onderduikers" ;
+    nif:beginIndex "1171" ;
+    nif:endIndex "1183" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w232" ;
+    nif:lemma "onderduiker" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w233w234> nif:anchorOf "van eten" ;
+    nif:beginIndex "1184" ;
+    nif:endIndex "1192" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w237> nif:BeginIndex "1207" ;
+    nif:anchorOf "voorzien" ;
+    nif:endIndex "1215" ;
+    nif:lemma "voorzien" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w239> nif:anchorOf "Naber" ;
+    nif:beginIndex "1218" ;
+    nif:endIndex "1223" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w243w244> nif:anchorOf "Jannie Raak" ;
+    nif:beginIndex "1243" ;
+    nif:endIndex "1254" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w245> nif:BeginIndex "1255" ;
+    nif:anchorOf "kwamen" ;
+    nif:endIndex "1261" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w247w248w249> nif:anchorOf "29 juli 1957" ;
+    nif:beginIndex "1265" ;
+    nif:endIndex "1277" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w250w251w252> nif:anchorOf "om het leven" ;
+    nif:beginIndex "1278" ;
+    nif:endIndex "1290" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w250" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w255> nif:BeginIndex "1300" ;
+    nif:anchorOf "verkeersongeval" ;
+    nif:endIndex "1315" ;
+    nif:lemma "verkeer_ongeval" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w260> nif:anchorOf "Orvelte" ;
+    nif:beginIndex "1332" ;
+    nif:endIndex "1339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w262> nif:anchorOf "Naber" ;
+    nif:beginIndex "1341" ;
+    nif:endIndex "1346" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w263> nif:BeginIndex "1347" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1350" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w268> nif:anchorOf "Raak" ;
+    nif:beginIndex "1365" ;
+    nif:endIndex "1369" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w27> nif:anchorOf "Nico" ;
+    nif:beginIndex "141" ;
+    nif:endIndex "145" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w274> nif:anchorOf "Assen" ;
+    nif:beginIndex "1400" ;
+    nif:endIndex "1405" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w276w277w278w279w280w281> nif:anchorOf "De twee kinderen van het echtpaar" ;
+    nif:beginIndex "1407" ;
+    nif:endIndex "1440" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w278" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w282> nif:BeginIndex "1441" ;
+    nif:anchorOf "overleefden" ;
+    nif:endIndex "1452" ;
+    nif:lemma "overleven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w283w284> nif:anchorOf "het ongeluk" ;
+    nif:beginIndex "1453" ;
+    nif:endIndex "1464" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w284" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w289> nif:anchorOf "Hollandscheveld" ;
+    nif:beginIndex "1485" ;
+    nif:endIndex "1500" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w30> nif:BeginIndex "148" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "152" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w32> nif:anchorOf "Hoogeveen" ;
+    nif:beginIndex "157" ;
+    nif:endIndex "166" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w34> nif:BeginIndex "170" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "173" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w39> nif:anchorOf "1943" ;
+    nif:beginIndex "188" ;
+    nif:endIndex "192" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w4> nif:anchorOf "Hoogeveen" ;
+    nif:beginIndex "11" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w40> nif:BeginIndex "193" ;
+    nif:anchorOf "opgerichte" ;
+    nif:endIndex "203" ;
+    nif:lemma "opgericht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w43> nif:anchorOf "Jan" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "224" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w43w44> nif:anchorOf "Jan Gunnink" ;
+    nif:beginIndex "221" ;
+    nif:endIndex "232" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w48w49> nif:anchorOf "Ome Hein" ;
+    nif:beginIndex "247" ;
+    nif:endIndex "255" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w54> nif:BeginIndex "263" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "266" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w57> nif:anchorOf "KP-Meppel" ;
+    nif:beginIndex "277" ;
+    nif:endIndex "286" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w6> nif:anchorOf "1923" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "26" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w62w63> nif:anchorOf "Fokke Jagersma" ;
+    nif:beginIndex "302" ;
+    nif:endIndex "316" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w65w66> nif:anchorOf "Albert Rozeman" ;
+    nif:beginIndex "318" ;
+    nif:endIndex "332" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w69> nif:anchorOf "Victor" ;
+    nif:beginIndex "335" ;
+    nif:endIndex "341" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w73w74w75> nif:anchorOf "Gerrit de Boer" ;
+    nif:beginIndex "345" ;
+    nif:endIndex "359" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w77w78> nif:anchorOf "Henk Potman" ;
+    nif:beginIndex "361" ;
+    nif:endIndex "372" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w8> nif:anchorOf "Orvelte" ;
+    nif:beginIndex "29" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w84> nif:anchorOf "Gunnink" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "401" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w86> nif:anchorOf "Klaas" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "408" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w88> nif:anchorOf "Hendrik" ;
+    nif:beginIndex "410" ;
+    nif:endIndex "417" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w90> nif:anchorOf "Gerrit" ;
+    nif:beginIndex "421" ;
+    nif:endIndex "427" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w94> nif:anchorOf "Rozeman" ;
+    nif:beginIndex "440" ;
+    nif:endIndex "447" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w95> nif:BeginIndex "448" ;
+    nif:anchorOf "vormde" ;
+    nif:endIndex "454" ;
+    nif:lemma "vormen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w96> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "455" ;
+    nif:endIndex "458" ;
+    nif:head "bgnProc:1949__Jan_Naber.naf#w96" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w99> nif:anchorOf "NV" ;
+    nif:beginIndex "473" ;
+    nif:endIndex "475" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_108> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w109> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_126> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_141t_142t_143> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w142w143w144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_144t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w145w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_149> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w150> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_152t_153t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w153w154w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_158> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w159> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_160> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w161> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_173> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w174> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_174t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w175w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_177t_178t_179> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w178w179w180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_187> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w188> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_188> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w189> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_190t_191t_192t_193t_194> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w191w192w193w194w195> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_191t_192> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w192w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_197t_198t_199> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w198w199w200> ;
+    xs:date "1944-11-17" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_207t_208t_209> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w208w209w210> ;
+    xs:date "2017-05-02T05:00" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_210t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w211w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_224> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_224t_225t_226t_227t_228t_229t_230t_231t_232t_233t_234t_235t_236> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w225w226w227w228w229w230w231w232w233w234w235w236w237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_230> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w231> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_231> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_232t_233> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w233w234> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_246t_247t_248> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w247w248w249> ;
+    xs:date "1957-07-29" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_249t_250t_251> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w250w251w252> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_275t_276t_277t_278t_279t_280> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w276w277w278w279w280w281> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_282t_283> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w283w284> .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_38> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w39> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#t_95> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w96> .
+
+bgn:Person-1949 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w103>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w114>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w124>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w125>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w164w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w171w172>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w185w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w202>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w206w207>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w20w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w221>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w223>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w243w244>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w260>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w262>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w268>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w274>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w289>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w43w44>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w48w49>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w62w63>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w65w66>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w73w74w75>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w77w78>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w86>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w90>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w94>,
+        <http://data.biographynet.nl/rdf/170506221754/1949__Jan_Naber.naf#w99> .
+

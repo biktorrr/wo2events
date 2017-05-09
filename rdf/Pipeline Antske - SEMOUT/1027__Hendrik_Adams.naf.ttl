@@ -1,0 +1,911 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_102t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_105>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_107t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_113t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_11t_12t_13>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_125>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_126t_127>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_157>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_158>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_171>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_176t_177t_178t_179t_180t_181>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_189>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_192>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_198t_199t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_203>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_213>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_227>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_228>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_232>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_234>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_240t_241>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_243t_244>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_245t_246t_247>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_249>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_275>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_285t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_287>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_289>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_292t_293t_294>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_298>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_303>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_307t_308>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_56>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_5t_6t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_60t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_62t_63t_64t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_66t_67t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_68>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_98t_99t_100>,
+        bgn:Person-1027 ;
+    ore:proxyFor bgn:Person-1027 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w103> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w128> nif:lemma "onmiddellijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w177> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w199> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w242> nif:lemma "affaire_Adams" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w245> nif:lemma "tijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w246> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w287> nif:lemma "democratisering" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w293> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w61> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w63> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w67> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w99> nif:lemma "na" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1027__Hendrik_Adams#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1027__Hendrik_Adams .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1027 ;
+    bgn:aggregatedPerson bgn:Person-1027 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1027__Hendrik_Adams ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1027__Hendrik_Adams ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_101> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w102> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_96> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_102t_103> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_98t_99t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_105> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w106> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_96> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_109t_110> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_107t_108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_110> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_11t_12t_13> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w12w13w14> ;
+    xs:date "1980-12-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w123> ;
+    pb:Arg0 bgn:Person-1027 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_116> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_113t_114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_125> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w126> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_124> ;
+    pb:A2 bgn:Person-1027 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_126t_127> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_130> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w131> ;
+    pb:ArgM bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_133> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w134> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w138> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_158> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w159> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_156> ;
+    pb:Arg1 bgn:Person-1027 ;
+    pb:ArgM-REC <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w168> ;
+    pb:Arg0 bgn:Person-1027 ;
+    pb:Arg1 bgn:Person-1027 ;
+    pb:ArgM-TMP bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_171> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w172> ;
+    pb:Arg1 bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_174> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w175> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_176t_177t_178t_179t_180t_181> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_175> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_189> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w190> ;
+    pb:A0 bgn:Person-1027 ;
+    pb:A1 bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_192> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w193> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_203> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w204> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_198t_199t_200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_213> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w214> ;
+    pb:A1 bgn:Person-1027 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_228> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_227> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_210t_211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_234> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w235> ;
+    pb:A0 bgn:Person-1027 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_232> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_236> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w237> ;
+    xs:gYearMonth "2017-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_242> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w243> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_240t_241> ;
+    pb:Arg3 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_245t_246t_247> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_243t_244> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_249> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w250> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_240t_241> ;
+    pb:A2 bgn:Person-1027 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_250> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_275> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w276> ;
+    pb:A0 bgn:Person-1027 ;
+    pb:AM-LOC bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_287> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w288> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_284>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_285t_286> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_296> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w297> ;
+    pb:A0 bgn:Person-1027 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_284> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_292t_293t_294> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_289> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_298> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w299> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_303> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_307t_308> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w308w309> ;
+    xs:date "2017-10-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_33> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w34> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_21> ;
+    pb:ArgM-LOC bgn:Person-1027 ;
+    pb:ArgM-TMP bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_49> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w50> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_42>,
+        bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_56> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w57> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w60> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_42>,
+        bgn:Person-1027 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_66t_67t_68> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_60t_61> ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_62t_63t_64t_65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_5t_6t_7> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w6w7w8> ;
+    xs:date "1900-07-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_68> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_74> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w75> ;
+    pb:ArgM-TMP bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w85> ;
+    pb:ArgM-TMP bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_92> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w93> ;
+    pb:Arg1 bgn:Person-1027 .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w10> nif:anchorOf "Velp" ;
+    nif:beginIndex "48" ;
+    nif:endIndex "52" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w102> nif:BeginIndex "608" ;
+    nif:anchorOf "veroordeeld" ;
+    nif:endIndex "619" ;
+    nif:lemma "veroordelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w103w104> nif:anchorOf "voor collaboratie" ;
+    nif:beginIndex "620" ;
+    nif:endIndex "637" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w103" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w106> nif:BeginIndex "641" ;
+    nif:anchorOf "verloor" ;
+    nif:endIndex "648" ;
+    nif:lemma "verliezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w108w109> nif:anchorOf "tien jaar" ;
+    nif:beginIndex "654" ;
+    nif:endIndex "663" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w110w111> nif:anchorOf "het kiesrecht" ;
+    nif:beginIndex "664" ;
+    nif:endIndex "677" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w111" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w111> nif:BeginIndex "668" ;
+    nif:anchorOf "kiesrecht" ;
+    nif:endIndex "677" ;
+    nif:lemma "kies_recht" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w114w115> nif:anchorOf "september 1966" ;
+    nif:beginIndex "683" ;
+    nif:endIndex "697" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w117> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "703" ;
+    nif:endIndex "706" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w117" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w120> nif:anchorOf "Boerenpartij" ;
+    nif:beginIndex "715" ;
+    nif:endIndex "727" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w123> nif:BeginIndex "740" ;
+    nif:anchorOf "afgevaardigd" ;
+    nif:endIndex "752" ;
+    nif:lemma "af_vaardigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w125> nif:anchorOf "Dit" ;
+    nif:beginIndex "754" ;
+    nif:endIndex "757" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w125" ;
+    nif:lemma "dit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w126> nif:BeginIndex "758" ;
+    nif:anchorOf "leidde" ;
+    nif:endIndex "764" ;
+    nif:lemma "leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w127w128> nif:anchorOf "vrijwel onmiddellijk" ;
+    nif:beginIndex "765" ;
+    nif:endIndex "785" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w12w13w14> nif:anchorOf "23 december 1980" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "70" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w131> nif:BeginIndex "794" ;
+    nif:anchorOf "conflict" ;
+    nif:endIndex "802" ;
+    nif:lemma "conflict" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w133> nif:anchorOf "VVD-collega" ;
+    nif:beginIndex "807" ;
+    nif:endIndex "818" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w134> nif:anchorOf "Jan" ;
+    nif:beginIndex "819" ;
+    nif:endIndex "822" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w134w135> nif:anchorOf "Jan Baas" ;
+    nif:beginIndex "819" ;
+    nif:endIndex "827" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w138> nif:BeginIndex "834" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "837" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w148> nif:anchorOf "Adams" ;
+    nif:beginIndex "896" ;
+    nif:endIndex "901" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w150> nif:BeginIndex "903" ;
+    nif:anchorOf "Rijkslandbouwwinterschool" ;
+    nif:beginIndex "903" ;
+    nif:endIndex "928" ;
+    nif:lemma "Rijks_landbouw_winter_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w152> nif:anchorOf "Emmen" ;
+    nif:beginIndex "932" ;
+    nif:endIndex "937" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w157> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "948" ;
+    nif:endIndex "951" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w157" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w158> nif:anchorOf "zich" ;
+    nif:beginIndex "952" ;
+    nif:endIndex "956" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w158" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w159> nif:BeginIndex "957" ;
+    nif:anchorOf "keerde" ;
+    nif:endIndex "963" ;
+    nif:lemma "keren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w16> nif:BeginIndex "72" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "75" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w161> nif:anchorOf "Adams" ;
+    nif:beginIndex "970" ;
+    nif:endIndex "975" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w166> nif:anchorOf "Adams" ;
+    nif:beginIndex "1012" ;
+    nif:endIndex "1017" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w168> nif:BeginIndex "1025" ;
+    nif:anchorOf "gedreigd" ;
+    nif:endIndex "1033" ;
+    nif:lemma "dreigen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w169> nif:anchorOf "Baas" ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1038" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w172> nif:BeginIndex "1048" ;
+    nif:anchorOf "deporteren" ;
+    nif:endIndex "1058" ;
+    nif:lemma "deporteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w175> nif:BeginIndex "1064" ;
+    nif:anchorOf "kwam" ;
+    nif:endIndex "1068" ;
+    nif:lemma "komen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w176> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "1069" ;
+    nif:endIndex "1081" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w176" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w177w178w179w180w181w182> nif:anchorOf "tot fysiek geweld tussen beide senatoren" ;
+    nif:beginIndex "1082" ;
+    nif:endIndex "1122" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w177" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w18> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "90" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w185> nif:anchorOf "Kamerleden" ;
+    nif:beginIndex "1127" ;
+    nif:endIndex "1137" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w190> nif:BeginIndex "1161" ;
+    nif:anchorOf "steunden" ;
+    nif:endIndex "1169" ;
+    nif:lemma "steunen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w191> nif:anchorOf "Baas" ;
+    nif:beginIndex "1170" ;
+    nif:endIndex "1174" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w193> nif:BeginIndex "1178" ;
+    nif:anchorOf "stelden" ;
+    nif:endIndex "1185" ;
+    nif:lemma "stellen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w198> nif:anchorOf "Adams" ;
+    nif:beginIndex "1218" ;
+    nif:endIndex "1223" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w199w200w201> nif:anchorOf "onder deze omstandigheden" ;
+    nif:beginIndex "1224" ;
+    nif:endIndex "1249" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w199" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w1w2> nif:anchorOf "Adams" ;
+    nif:beginIndex "8" ;
+    nif:endIndex "13" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w204> nif:BeginIndex "1264" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1267" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w211w212> nif:anchorOf "oktober 1966" ;
+    nif:beginIndex "1290" ;
+    nif:endIndex "1302" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w214> nif:BeginIndex "1304" ;
+    nif:anchorOf "trok" ;
+    nif:endIndex "1308" ;
+    nif:lemma "terug_trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w215> nif:anchorOf "Adams" ;
+    nif:beginIndex "1309" ;
+    nif:endIndex "1314" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w22> nif:anchorOf "die" ;
+    nif:beginIndex "120" ;
+    nif:endIndex "123" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w22" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w228> nif:anchorOf "zich" ;
+    nif:beginIndex "1380" ;
+    nif:endIndex "1384" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w228" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w229> nif:anchorOf "terug" ;
+    nif:beginIndex "1385" ;
+    nif:endIndex "1390" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w229" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w233> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1404" ;
+    nif:endIndex "1407" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w233" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w235> nif:BeginIndex "1413" ;
+    nif:anchorOf "opgevolgd" ;
+    nif:endIndex "1422" ;
+    nif:lemma "op_volgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w237> nif:anchorOf "Jan" ;
+    nif:beginIndex "1428" ;
+    nif:endIndex "1431" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w237w238w239> nif:anchorOf "Jan de Groote" ;
+    nif:beginIndex "1428" ;
+    nif:endIndex "1441" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w241w242> nif:anchorOf "De affaire-Adams" ;
+    nif:beginIndex "1444" ;
+    nif:endIndex "1460" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w242" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w243> nif:BeginIndex "1461" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1464" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w244w245> nif:anchorOf "enige tijd" ;
+    nif:beginIndex "1465" ;
+    nif:endIndex "1475" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w245" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w246w247w248> nif:anchorOf "in het nieuws" ;
+    nif:beginIndex "1476" ;
+    nif:endIndex "1489" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w246" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w25> nif:anchorOf "Boerenpartij" ;
+    nif:beginIndex "132" ;
+    nif:endIndex "144" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w250> nif:BeginIndex "1493" ;
+    nif:anchorOf "leidde" ;
+    nif:endIndex "1499" ;
+    nif:lemma "leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w251> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "1500" ;
+    nif:endIndex "1512" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w251" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w257> nif:anchorOf "Boerenpartij" ;
+    nif:beginIndex "1535" ;
+    nif:endIndex "1547" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w263w264> nif:anchorOf "Hendrik Koekoek" ;
+    nif:beginIndex "1572" ;
+    nif:endIndex "1587" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w266> nif:anchorOf "Adams" ;
+    nif:beginIndex "1593" ;
+    nif:endIndex "1598" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w276> nif:BeginIndex "1646" ;
+    nif:anchorOf "leidde" ;
+    nif:endIndex "1652" ;
+    nif:lemma "leiden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w281> nif:anchorOf "Noodraad" ;
+    nif:beginIndex "1675" ;
+    nif:endIndex "1683" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w285> nif:anchorOf "die" ;
+    nif:beginIndex "1695" ;
+    nif:endIndex "1698" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w285" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w286w287> nif:anchorOf "interne democratisering" ;
+    nif:beginIndex "1699" ;
+    nif:endIndex "1722" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w287" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w288> nif:BeginIndex "1723" ;
+    nif:anchorOf "voorstond" ;
+    nif:endIndex "1732" ;
+    nif:lemma "voor_staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w290> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "1738" ;
+    nif:endIndex "1750" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w290" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w292> nif:anchorOf "Koekoek" ;
+    nif:beginIndex "1756" ;
+    nif:endIndex "1763" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w293w294w295> nif:anchorOf "aan de kant" ;
+    nif:beginIndex "1764" ;
+    nif:endIndex "1775" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w293" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w297> nif:BeginIndex "1781" ;
+    nif:anchorOf "geschoven" ;
+    nif:endIndex "1790" ;
+    nif:lemma "schuiven" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w299> nif:BeginIndex "1793" ;
+    nif:anchorOf "Vuistslag" ;
+    nif:endIndex "1802" ;
+    nif:lemma "vuist_slag" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w304> nif:anchorOf "1966" ;
+    nif:beginIndex "1831" ;
+    nif:endIndex "1835" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w308w309> nif:anchorOf "5 oktober" ;
+    nif:beginIndex "1853" ;
+    nif:endIndex "1862" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w31w32> nif:anchorOf "Eerste Kamer" ;
+    nif:beginIndex "167" ;
+    nif:endIndex "179" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w34> nif:BeginIndex "186" ;
+    nif:anchorOf "gezeten" ;
+    nif:endIndex "193" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w36> nif:anchorOf "Adams" ;
+    nif:beginIndex "196" ;
+    nif:endIndex "201" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w4> nif:anchorOf "Gasselternijveen" ;
+    nif:beginIndex "15" ;
+    nif:endIndex "31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w43> nif:anchorOf "Gasselte" ;
+    nif:beginIndex "232" ;
+    nif:endIndex "240" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w44w45> nif:anchorOf "Jakob Adams" ;
+    nif:beginIndex "241" ;
+    nif:endIndex "252" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w47w48> nif:anchorOf "Janna Zuiderweg" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "271" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w50> nif:BeginIndex "273" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "276" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w57> nif:BeginIndex "317" ;
+    nif:anchorOf "Landbouwhogeschool" ;
+    nif:endIndex "335" ;
+    nif:lemma "Landbouw_hoog_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w57w58> nif:anchorOf "Landbouwhogeschool Wageningen" ;
+    nif:beginIndex "317" ;
+    nif:endIndex "346" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w60> nif:BeginIndex "350" ;
+    nif:anchorOf "werkte" ;
+    nif:endIndex "356" ;
+    nif:lemma "werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w61w62> nif:anchorOf "onder meer" ;
+    nif:beginIndex "357" ;
+    nif:endIndex "367" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w61" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w63w64w65w66> nif:anchorOf "als rijkspluimveeconsulent en leraar" ;
+    nif:beginIndex "368" ;
+    nif:endIndex "404" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w67w68w69> nif:anchorOf "aan een landbouwschool" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "427" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w67" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w69> nif:BeginIndex "413" ;
+    nif:anchorOf "landbouwschool" ;
+    nif:endIndex "427" ;
+    nif:lemma "landbouw_school" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w6w7w8> nif:anchorOf "24 juli 1900" ;
+    nif:beginIndex "33" ;
+    nif:endIndex "45" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w73w74> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "435" ;
+    nif:endIndex "454" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w75> nif:BeginIndex "455" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "458" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w82w83> nif:anchorOf "De Misthoorn" ;
+    nif:beginIndex "502" ;
+    nif:endIndex "514" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w85> nif:BeginIndex "518" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "521" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w92> nif:anchorOf "SS" ;
+    nif:beginIndex "544" ;
+    nif:endIndex "546" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w93> nif:BeginIndex "547" ;
+    nif:anchorOf "gelieerde" ;
+    nif:endIndex "556" ;
+    nif:lemma "gelieerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w95> nif:anchorOf "Saxo-Frisia" ;
+    nif:beginIndex "569" ;
+    nif:endIndex "580" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w97> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "582" ;
+    nif:endIndex "585" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w97" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w99w100w101> nif:anchorOf "na de bevrijding" ;
+    nif:beginIndex "591" ;
+    nif:endIndex "607" ;
+    nif:head "bgnProc:1027__Hendrik_Adams.naf#w99" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_102t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w103w104> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_107t_108> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w108w109> ;
+    xs:period "P10Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_113t_114> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w114w115> ;
+    xs:gYearMonth "1966-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_116> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_124> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w125> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_126t_127> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w127w128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_156> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w157> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_157> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w158> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_175> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w176> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_176t_177t_178t_179t_180t_181> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w177w178w179w180w181w182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_198t_199t_200> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w199w200w201> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_21> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_210t_211> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w211w212> ;
+    xs:gYearMonth "1966-10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_227> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w228> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_228> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w229> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_232> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w233> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_243t_244> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w244w245> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_245t_246t_247> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w246w247w248> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_285t_286> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w286w287> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_289> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w290> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_292t_293t_294> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w293w294w295> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_303> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w304> ;
+    xs:gYear "1966" .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_60t_61> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w61w62> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_62t_63t_64t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w63w64w65w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_66t_67t_68> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w67w68w69> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_98t_99t_100> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w99w100w101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_240t_241> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w241w242> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_284> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w285> .
+
+<http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#t_96> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w97> .
+
+bgn:Person-1027 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w10>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w120>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w133>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w134w135>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w148>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w150>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w152>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w161>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w166>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w18>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w185>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w191>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w237w238w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w257>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w263w264>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w266>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w281>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w292>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w31w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w36>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w4>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w43>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w44w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w57w58>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w73w74>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w82w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w92>,
+        <http://data.biographynet.nl/rdf/170506221754/1027__Hendrik_Adams.naf#w95> ;
+    pb:ArgM bgn:Person-1027 .
+

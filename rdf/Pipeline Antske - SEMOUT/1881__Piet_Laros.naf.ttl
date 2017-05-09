@@ -1,0 +1,880 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_106t_107t_108t_109t_110>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_121>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_130t_131t_132t_133>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_134>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_137>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_138>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_141t_142t_143t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_165>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_174>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_195>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_205t_206>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_21>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_216t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_22>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_226>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_228t_229>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_239t_240t_241t_242>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_246t_247t_248t_249t_250>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_257t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_259t_260>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_269>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_278>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_281t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_3>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_30t_31t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_3t_4>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_43>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_5>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_52>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_54>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_55t_56t_57t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_83>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_84>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_90>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_92t_93t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_96>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_97>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_99>,
+        bgn:Person-1881 ;
+    ore:proxyFor bgn:Person-1881 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w107> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w142> nif:lemma "tot" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w206> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w209> nif:lemma "behandeling" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w217> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w241> nif:lemma "steeds" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w247> nif:lemma "tegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w261> nif:lemma "steeds" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w282> nif:lemma "over" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w31> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w56> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w93> nif:lemma "in" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1881__Piet_Laros#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1881__Piet_Laros .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1881 ;
+    bgn:aggregatedPerson bgn:Person-1881 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1881__Piet_Laros ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1881__Piet_Laros ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w105> ;
+    pb:Arg1 bgn:Person-1881 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_114> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_106t_107t_108t_109t_110> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_103> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_121> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w122> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w123> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_115> ;
+    pb:ArgM-PRD bgn:Person-1881 .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_134> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w135> ;
+    pb:A0 bgn:Person-1881 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_130t_131t_132t_133> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_131> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_137> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w138> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_138> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_139>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_141t_142t_143t_144> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_15> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w16> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w168> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_159> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_165> ;
+    pb:AM-LOC bgn:Person-1881 .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_174> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w175> ;
+    xs:gYear "1968" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w176> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_216t_217>,
+        bgn:Person-1881 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_197>,
+        bgn:Person-1881 .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w19> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_17> ;
+    pb:AM-MNR bgn:Person-1881 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_62>,
+        bgn:Person-1881 .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_195> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w196> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_197> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w210> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_204> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_207t_208> ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_205t_206> ;
+    pb:ArgM-TMP bgn:Person-1881 .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_22> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w23> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_21> ;
+    pb:A1 bgn:Person-1881 ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_30t_31t_32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w223> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_226> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w227> ;
+    xs:gYear "1969" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_228t_229> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w229w230> ;
+    xs:period "P30Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_236> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_237> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w238> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_246t_247t_248t_249t_250>,
+        bgn:Person-1881 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_254> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_239t_240t_241t_242> ;
+    pb:ArgM-LOC bgn:Person-1881 .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_255> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w256> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_254> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_257t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_259t_260> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_272> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w273> ;
+    pb:A1 bgn:Person-1881 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_269> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_283> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w284> ;
+    pb:Arg0 bgn:Person-1881 ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_278> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_281t_282> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_3> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w4> ;
+    xs:gYear "1901" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_3t_4> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w4w5> ;
+    xs:gYear "1997" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_40> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w41> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_36> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_49> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_38> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_43> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w44> ;
+    xs:gYear "1936" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_5> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w6> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_54> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w55> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_55t_56t_57t_58> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_52> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_51> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_84> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w85> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_83> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_90> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w91> ;
+    pb:Arg1 bgn:Person-1881 ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_92t_93t_94> ;
+    pb:ArgM-LOC bgn:Person-1881 .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_96> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w97> ;
+    pb:Arg1 bgn:Person-1881 ;
+    pb:ArgM-ADV <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_97> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_99> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w100> nif:BeginIndex "542" ;
+    nif:anchorOf "concentratiekamp" ;
+    nif:endIndex "558" ;
+    nif:lemma "concentratie_kamp" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w101> nif:anchorOf "Buchenwald" ;
+    nif:beginIndex "559" ;
+    nif:endIndex "569" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w104> nif:anchorOf "1946" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "579" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w105> nif:BeginIndex "580" ;
+    nif:anchorOf "kreeg" ;
+    nif:endIndex "585" ;
+    nif:lemma "terug_krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w106> nif:anchorOf "Laros" ;
+    nif:beginIndex "586" ;
+    nif:endIndex "591" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w107w108w109w110w111> nif:anchorOf "als een van de weinigen" ;
+    nif:beginIndex "592" ;
+    nif:endIndex "615" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w11> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "56" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w113> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "630" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w115> nif:anchorOf "terug" ;
+    nif:beginIndex "645" ;
+    nif:endIndex "650" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w115" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w116> nif:anchorOf "die" ;
+    nif:beginIndex "651" ;
+    nif:endIndex "654" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w116" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w119> nif:anchorOf "Spanjestrijder" ;
+    nif:beginIndex "663" ;
+    nif:endIndex "677" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w122> nif:BeginIndex "689" ;
+    nif:anchorOf "krijgsdienst" ;
+    nif:endIndex "701" ;
+    nif:lemma "krijg_dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w123> nif:BeginIndex "702" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "705" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w129> nif:anchorOf "Laros" ;
+    nif:beginIndex "739" ;
+    nif:endIndex "744" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w131w132w133w134> nif:anchorOf "daar nog jaren op" ;
+    nif:beginIndex "753" ;
+    nif:endIndex "770" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w135" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w132> nif:anchorOf "nog" ;
+    nif:beginIndex "758" ;
+    nif:endIndex "761" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w132" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w133> nif:anchorOf "jaren" ;
+    nif:beginIndex "762" ;
+    nif:endIndex "767" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w135> nif:BeginIndex "771" ;
+    nif:anchorOf "wachten" ;
+    nif:endIndex "778" ;
+    nif:lemma "wachten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w138> nif:BeginIndex "783" ;
+    nif:anchorOf "kregen" ;
+    nif:endIndex "789" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w139> nif:anchorOf "die" ;
+    nif:beginIndex "790" ;
+    nif:endIndex "793" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w139" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w140> nif:anchorOf "toen" ;
+    nif:beginIndex "794" ;
+    nif:endIndex "798" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w140" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w142w143w144w145> nif:anchorOf "tot hun grote weerzin" ;
+    nif:beginIndex "800" ;
+    nif:endIndex "821" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w142" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w153> nif:anchorOf "Oostfrontstrijders" ;
+    nif:beginIndex "850" ;
+    nif:endIndex "868" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w157> nif:anchorOf "Nazi-gezinde" ;
+    nif:beginIndex "880" ;
+    nif:endIndex "892" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w15w16> nif:anchorOf "Spaanse Burgeroorlog" ;
+    nif:beginIndex "77" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w16> nif:BeginIndex "85" ;
+    nif:anchorOf "Burgeroorlog" ;
+    nif:endIndex "97" ;
+    nif:lemma "burger_oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w160> nif:anchorOf "die" ;
+    nif:beginIndex "906" ;
+    nif:endIndex "909" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w160" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w163w164w165> nif:anchorOf "Tweede Wereld Oorlog" ;
+    nif:beginIndex "916" ;
+    nif:endIndex "936" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w166> nif:anchorOf "dienst" ;
+    nif:beginIndex "937" ;
+    nif:endIndex "943" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w166" ;
+    nif:lemma "dienst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w168> nif:BeginIndex "951" ;
+    nif:anchorOf "genomen" ;
+    nif:endIndex "958" ;
+    nif:lemma "nemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w171> nif:anchorOf "Duitse" ;
+    nif:beginIndex "966" ;
+    nif:endIndex "972" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w175> nif:anchorOf "1968" ;
+    nif:beginIndex "984" ;
+    nif:endIndex "988" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w176> nif:BeginIndex "989" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "995" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w177w178> nif:anchorOf "Theo Uittenbogaard" ;
+    nif:beginIndex "996" ;
+    nif:endIndex "1014" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w18> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "99" ;
+    nif:endIndex "102" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w18" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w180> nif:anchorOf "VARA-radio-documentaire" ;
+    nif:beginIndex "1019" ;
+    nif:endIndex "1042" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w183w184w185w186> nif:anchorOf "De Oorlog Duurt Voort" ;
+    nif:beginIndex "1053" ;
+    nif:endIndex "1074" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w19> nif:BeginIndex "103" ;
+    nif:anchorOf "vertrok" ;
+    nif:endIndex "110" ;
+    nif:lemma "vertrekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w192> nif:anchorOf "Laros" ;
+    nif:beginIndex "1112" ;
+    nif:endIndex "1117" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w196> nif:BeginIndex "1126" ;
+    nif:anchorOf "terugkeer" ;
+    nif:endIndex "1135" ;
+    nif:lemma "terugkeer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w198> nif:anchorOf "Nederland" ;
+    nif:beginIndex "1139" ;
+    nif:endIndex "1148" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w1w2> nif:anchorOf "Laros" ;
+    nif:beginIndex "5" ;
+    nif:endIndex "10" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w205> a bgn:pron_3p ;
+    nif:anchorOf "zij" ;
+    nif:beginIndex "1173" ;
+    nif:endIndex "1176" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w205" ;
+    nif:lemma "zij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w206w207> nif:anchorOf "in meerderheid" ;
+    nif:beginIndex "1177" ;
+    nif:endIndex "1191" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w206" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w208w209> nif:anchorOf "dezelfde behandeling" ;
+    nif:beginIndex "1192" ;
+    nif:endIndex "1212" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w209" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w210> nif:BeginIndex "1213" ;
+    nif:anchorOf "kregen" ;
+    nif:endIndex "1219" ;
+    nif:lemma "krijgen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w214w215> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "1227" ;
+    nif:endIndex "1246" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w217w218> nif:anchorOf "als zij" ;
+    nif:beginIndex "1248" ;
+    nif:endIndex "1255" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w217" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w22> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "118" ;
+    nif:endIndex "121" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w22" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w223> nif:BeginIndex "1267" ;
+    nif:anchorOf "waren" ;
+    nif:endIndex "1272" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w227> nif:anchorOf "1969" ;
+    nif:beginIndex "1285" ;
+    nif:endIndex "1289" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w229w230> nif:anchorOf "dertig jaar" ;
+    nif:beginIndex "1291" ;
+    nif:endIndex "1302" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w23> nif:BeginIndex "122" ;
+    nif:anchorOf "hoorde" ;
+    nif:endIndex "128" ;
+    nif:lemma "horen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w236> nif:anchorOf "Spaanse" ;
+    nif:beginIndex "1323" ;
+    nif:endIndex "1330" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w237> nif:BeginIndex "1331" ;
+    nif:anchorOf "burgeroorlog" ;
+    nif:endIndex "1343" ;
+    nif:lemma "burger_oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w238> nif:BeginIndex "1344" ;
+    nif:anchorOf "protesteerde" ;
+    nif:endIndex "1356" ;
+    nif:lemma "protesteren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w239> nif:anchorOf "Laros" ;
+    nif:beginIndex "1357" ;
+    nif:endIndex "1362" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w240w241w242w243> nif:anchorOf "nog steeds en opnieuw" ;
+    nif:beginIndex "1363" ;
+    nif:endIndex "1384" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w241" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w246> nif:anchorOf "Binnenhof" ;
+    nif:beginIndex "1392" ;
+    nif:endIndex "1401" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w247w248w249w250w251> nif:anchorOf "tegen deze ' historische schanddaad" ;
+    nif:beginIndex "1402" ;
+    nif:endIndex "1436" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w247" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w255> nif:anchorOf "Waarom" ;
+    nif:beginIndex "1441" ;
+    nif:endIndex "1447" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w255" ;
+    nif:lemma "waarom" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w256> nif:BeginIndex "1448" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "1452" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w258w259> nif:anchorOf "dertig jaar" ;
+    nif:beginIndex "1456" ;
+    nif:endIndex "1467" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w260w261> nif:anchorOf "nog steeds" ;
+    nif:beginIndex "1468" ;
+    nif:endIndex "1478" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w261" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w270> nif:anchorOf "1976" ;
+    nif:beginIndex "1543" ;
+    nif:endIndex "1547" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w272> nif:anchorOf "Laros" ;
+    nif:beginIndex "1553" ;
+    nif:endIndex "1558" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w273> nif:BeginIndex "1559" ;
+    nif:anchorOf "bekend" ;
+    nif:endIndex "1565" ;
+    nif:lemma "bekennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w279> nif:anchorOf "die" ;
+    nif:beginIndex "1598" ;
+    nif:endIndex "1601" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w279" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w28> nif:anchorOf "Franco" ;
+    nif:beginIndex "146" ;
+    nif:endIndex "152" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w280w281> nif:anchorOf "Cherry Duyns" ;
+    nif:beginIndex "1602" ;
+    nif:endIndex "1614" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w282w283> nif:anchorOf "over hem" ;
+    nif:beginIndex "1615" ;
+    nif:endIndex "1623" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w282" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w284> nif:BeginIndex "1624" ;
+    nif:anchorOf "maakte" ;
+    nif:endIndex "1630" ;
+    nif:lemma "maken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w30> nif:anchorOf "Zuid-Spanje" ;
+    nif:beginIndex "156" ;
+    nif:endIndex "167" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w31w32w33> nif:anchorOf "om de wettige" ;
+    nif:beginIndex "168" ;
+    nif:endIndex "181" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w37> nif:anchorOf "Spaans" ;
+    nif:beginIndex "199" ;
+    nif:endIndex "205" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w39> nif:anchorOf "omver" ;
+    nif:beginIndex "215" ;
+    nif:endIndex "220" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w39" ;
+    nif:lemma "omver" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w4> nif:anchorOf "1901--1997" ;
+    nif:beginIndex "12" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w41> nif:BeginIndex "224" ;
+    nif:anchorOf "werpen" ;
+    nif:endIndex "230" ;
+    nif:lemma "omver_werpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w44> nif:anchorOf "1936" ;
+    nif:beginIndex "235" ;
+    nif:endIndex "239" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w4w5> nif:anchorOf "1901--1997 )" ;
+    nif:beginIndex "12" ;
+    nif:endIndex "22" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w50> nif:anchorOf "Parijs" ;
+    nif:beginIndex "258" ;
+    nif:endIndex "264" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w52> nif:anchorOf "waar" ;
+    nif:beginIndex "266" ;
+    nif:endIndex "270" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w52" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w53> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "271" ;
+    nif:endIndex "274" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w53" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w55> nif:BeginIndex "280" ;
+    nif:anchorOf "opgevangen" ;
+    nif:endIndex "290" ;
+    nif:lemma "op_vangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w56w57w58w59> nif:anchorOf "door andere socialistische jongeren" ;
+    nif:beginIndex "291" ;
+    nif:endIndex "326" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w56" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w6> nif:BeginIndex "23" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "26" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w63> nif:anchorOf "tersluiks" ;
+    nif:beginIndex "332" ;
+    nif:endIndex "341" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w63" ;
+    nif:lemma "tersluiks" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w75w76> nif:anchorOf "Léon Blum" ;
+    nif:beginIndex "403" ;
+    nif:endIndex "412" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w83> nif:anchorOf "Spanje" ;
+    nif:beginIndex "439" ;
+    nif:endIndex "445" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w84> nif:anchorOf "meermaals" ;
+    nif:beginIndex "446" ;
+    nif:endIndex "455" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w84" ;
+    nif:lemma "meermaals" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w85> nif:BeginIndex "456" ;
+    nif:anchorOf "gewond" ;
+    nif:endIndex "462" ;
+    nif:lemma "gewond" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w89w90> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "470" ;
+    nif:endIndex "489" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w91> nif:BeginIndex "490" ;
+    nif:anchorOf "zat" ;
+    nif:endIndex "493" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w92> nif:anchorOf "Laros" ;
+    nif:beginIndex "494" ;
+    nif:endIndex "499" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w93w94w95> nif:anchorOf "in het verzet" ;
+    nif:beginIndex "500" ;
+    nif:endIndex "513" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w93" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w97> nif:BeginIndex "517" ;
+    nif:anchorOf "belandde" ;
+    nif:endIndex "525" ;
+    nif:lemma "belanden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w98> nif:anchorOf "uiteindelijk" ;
+    nif:beginIndex "526" ;
+    nif:endIndex "538" ;
+    nif:head "bgnProc:1881__Piet_Laros.naf#w98" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_103> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w104> ;
+    xs:gYear "1946" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_106t_107t_108t_109t_110> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w107w108w109w110w111> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_130t_131t_132t_133> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w131w132w133w134> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_132> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w133> ;
+    xs:period "P1Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_138> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w139> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_139> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w140> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_141t_142t_143t_144> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w142w143w144w145> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_159> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_165> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w166> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_17> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w18> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_205t_206> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w206w207> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_207t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w208w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_21> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w22> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_216t_217> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w217w218> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_239t_240t_241t_242> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w240w241w242w243> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_246t_247t_248t_249t_250> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w247w248w249w250w251> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_257t_258> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w258w259> ;
+    xs:period "P30Y" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_259t_260> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w260w261> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_269> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w270> ;
+    xs:gYear "1976" .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_278> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w279> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_281t_282> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w282w283> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_30t_31t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w31w32w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_38> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w39> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_51> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w52> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_52> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w53> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_55t_56t_57t_58> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w56w57w58w59> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_62> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w63> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_83> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w84> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_92t_93t_94> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w93w94w95> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#t_254> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w255> .
+
+bgn:Person-1881 a bgn:LOC,
+        bgn:MISC,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w101>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w106>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w11>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w113>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w129>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w153>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w157>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w15w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w163w164w165>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w171>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w177w178>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w180>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w183w184w185w186>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w192>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w198>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w1w2>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w214w215>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w236>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w239>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w246>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w272>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w28>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w280w281>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w30>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w37>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w50>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w75w76>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w89w90>,
+        <http://data.biographynet.nl/rdf/170506221754/1881__Piet_Laros.naf#w92> .
+

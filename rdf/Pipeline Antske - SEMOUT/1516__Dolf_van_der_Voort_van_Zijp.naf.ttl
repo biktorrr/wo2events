@@ -1,0 +1,702 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_104t_105t_106t_107t_108t_109>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_112>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_114t_115t_116t_117t_118t_119t_120t_121t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_117>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_124>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_134t_135t_136>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_144>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_145>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_146>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_148t_149t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_152t_153t_154t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_156>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_160t_161>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_162>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_175>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_176t_177t_178t_179t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_187>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_18t_19t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_196>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_199>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_200>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_210>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_222>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_24t_25t_26>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_28>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_33>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_34>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_45>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_55>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_58>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_66>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_71>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_74>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_82>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_91>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_92>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_97>,
+        bgn:Person-1516 ;
+    ore:proxyFor bgn:Person-1516 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w105> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w115> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w149> nif:lemma "met" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w153> nif:lemma "in" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w162> nif:lemma "goud" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w177> nif:lemma "net" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1516__Dolf_van_der_Voort_van_Zijp#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1516__Dolf_van_der_Voort_van_Zijp .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1516 ;
+    bgn:aggregatedPerson bgn:Person-1516 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1516__Dolf_van_der_Voort_van_Zijp ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1516__Dolf_van_der_Voort_van_Zijp ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_112> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w113> ;
+    pb:Arg1 bgn:Person-1516 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_104t_105t_106t_107t_108t_109> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_97> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w117> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_117> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_114t_115t_116t_117t_118t_119t_120t_121t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_124> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w125> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_117> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_128> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_134t_135t_136> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w135w136w137> ;
+    xs:gYear "1980" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_144> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w145> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_145> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_147> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_148t_149t_150> ;
+    pb:AM-NEG <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_146> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_142>,
+        bgn:Person-1516 .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_156> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w157> ;
+    pb:ArgM-EXT <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_152t_153t_154t_155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_162> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w163> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_160t_161> ;
+    pb:Arg4 bgn:Person-1516 .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_175> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w176> ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_176t_177t_178t_179t_180> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_187> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w188> ;
+    pb:ArgM-TMP bgn:Person-1516 .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_18t_19t_20> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w19w20w21> ;
+    xs:date "1892-09-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_200> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w201> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_198> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_199> ;
+    pb:Arg4 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_204> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_196> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w210> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_210> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_222> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w223> ;
+    pb:ArgM-TMP bgn:Person-1516 .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_24t_25t_26> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w25w26w27> ;
+    xs:date "1978-03-08" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_28> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w29> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_34> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w35> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_33> ;
+    pb:Arg1 bgn:Person-1516 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w49> ;
+    pb:Arg1 bgn:Person-1516 ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_45> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_55> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w56> ;
+    xs:gYear "1924" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_58> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w59> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_59> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_66> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_65>,
+        bgn:Person-1516 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_57>,
+        bgn:Person-1516 .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_71> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w72> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_72> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_68t_69t_70> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_74> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_82> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w83> ;
+    pb:ArgM-PNC bgn:Person-1516 .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_91> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w92> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_90> ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_92> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w100w101w102> nif:anchorOf "Van der Voort" ;
+    nif:beginIndex "532" ;
+    nif:endIndex "545" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w104> nif:anchorOf "Zijp" ;
+    nif:beginIndex "550" ;
+    nif:endIndex "554" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w105w106w107w108w109w110> nif:anchorOf "in de uitslag van de dressuur" ;
+    nif:beginIndex "555" ;
+    nif:endIndex "584" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w113> nif:BeginIndex "593" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "600" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w115w116w117w118w119w120w121w122w123w124w125w126w127w128w129w130w131w132w133> nif:anchorOf "Na protest bleek hij met een andere deelnemer verwisseld te zijn en tweede te zijn geworden op dit onderdeel" ;
+    nif:beginIndex "602" ;
+    nif:endIndex "710" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w115" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w117> nif:BeginIndex "613" ;
+    nif:anchorOf "bleek" ;
+    nif:endIndex "618" ;
+    nif:lemma "blijken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w118> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "619" ;
+    nif:endIndex "622" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w118" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w11w12w13w14> nif:anchorOf "Zijp ( Klambir Lima" ;
+    nif:beginIndex "45" ;
+    nif:endIndex "63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w125> nif:BeginIndex "662" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "666" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w129> nif:BeginIndex "680" ;
+    nif:anchorOf "zijn" ;
+    nif:endIndex "684" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w135w136w137> nif:anchorOf "Vier jaar later" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "728" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w141> nif:anchorOf "Spelen" ;
+    nif:beginIndex "741" ;
+    nif:endIndex "747" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w143> nif:anchorOf "Amsterdam" ;
+    nif:beginIndex "751" ;
+    nif:endIndex "760" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w145> nif:BeginIndex "762" ;
+    nif:anchorOf "won" ;
+    nif:endIndex "765" ;
+    nif:lemma "winnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w146> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "766" ;
+    nif:endIndex "769" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w146" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w147> nif:anchorOf "opnieuw" ;
+    nif:beginIndex "770" ;
+    nif:endIndex "777" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w147" ;
+    nif:lemma "opnieuw" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w148> nif:anchorOf "goud" ;
+    nif:beginIndex "778" ;
+    nif:endIndex "782" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w148" ;
+    nif:lemma "goud" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w149w150w151> nif:anchorOf "met de landenploeg" ;
+    nif:beginIndex "783" ;
+    nif:endIndex "801" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w149" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w153w154w155w156> nif:anchorOf "In de individuele wedstrijd" ;
+    nif:beginIndex "803" ;
+    nif:endIndex "830" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w153" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w156> nif:BeginIndex "821" ;
+    nif:anchorOf "wedstrijd" ;
+    nif:endIndex "830" ;
+    nif:lemma "wedstrijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w157> nif:BeginIndex "831" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "835" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w16> nif:anchorOf "Sumatra" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "72" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w161w162> nif:anchorOf "Het goud" ;
+    nif:beginIndex "848" ;
+    nif:endIndex "856" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w162" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w163> nif:BeginIndex "857" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "861" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w166w167w168w169> nif:anchorOf "Charles Pahud de Mortanges" ;
+    nif:beginIndex "878" ;
+    nif:endIndex "904" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w171w172w173> nif:anchorOf "Van der Voort" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "920" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w175> nif:anchorOf "Zijp" ;
+    nif:beginIndex "925" ;
+    nif:endIndex "929" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w176> nif:BeginIndex "930" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "933" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w177w178w179w180w181> nif:anchorOf "net als al zijn teamgenoten" ;
+    nif:beginIndex "934" ;
+    nif:endIndex "961" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w177" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w187> nif:anchorOf "Spelen" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1005" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w188> nif:BeginIndex "1006" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1009" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w193w194w195> nif:anchorOf "Tweede Regiment Huzaren" ;
+    nif:beginIndex "1032" ;
+    nif:endIndex "1055" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w197> nif:anchorOf "Uiteindelijk" ;
+    nif:beginIndex "1057" ;
+    nif:endIndex "1069" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w197" ;
+    nif:lemma "uiteindelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w199> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1074" ;
+    nif:endIndex "1077" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w199" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w19w20w21> nif:anchorOf "1 september 1892" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "91" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w1w2w3> nif:anchorOf "Dirk Coenraad" ;
+    nif:beginIndex "6" ;
+    nif:endIndex "19" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w200> nif:anchorOf "het" ;
+    nif:beginIndex "1078" ;
+    nif:endIndex "1081" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w200" ;
+    nif:lemma "het" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w201> nif:BeginIndex "1082" ;
+    nif:anchorOf "brengen" ;
+    nif:endIndex "1089" ;
+    nif:lemma "brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w205> nif:anchorOf "Cavalerie" ;
+    nif:beginIndex "1109" ;
+    nif:endIndex "1118" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w208w209> nif:anchorOf "mei 1940" ;
+    nif:beginIndex "1123" ;
+    nif:endIndex "1131" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w210> nif:BeginIndex "1132" ;
+    nif:anchorOf "vocht" ;
+    nif:endIndex "1137" ;
+    nif:lemma "vechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w211> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "1138" ;
+    nif:endIndex "1141" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w211" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w214> nif:anchorOf "Grebbeberg" ;
+    nif:beginIndex "1148" ;
+    nif:endIndex "1158" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w221w222> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "1183" ;
+    nif:endIndex "1202" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w223> nif:BeginIndex "1203" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1206" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w23> nif:anchorOf "Monaco" ;
+    nif:beginIndex "94" ;
+    nif:endIndex "100" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w25w26w27> nif:anchorOf "8 maart 1978" ;
+    nif:beginIndex "102" ;
+    nif:endIndex "114" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w29> nif:BeginIndex "116" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "119" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w31> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "124" ;
+    nif:endIndex "134" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w34> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "147" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w34" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w35> nif:BeginIndex "148" ;
+    nif:anchorOf "deed" ;
+    nif:endIndex "152" ;
+    nif:lemma "mee_doen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w36> nif:anchorOf "tweemaal" ;
+    nif:beginIndex "153" ;
+    nif:endIndex "161" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w36" ;
+    nif:lemma "tweemaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w40w41> nif:anchorOf "Olympische Spelen" ;
+    nif:beginIndex "173" ;
+    nif:endIndex "190" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w46> nif:anchorOf "destijds" ;
+    nif:beginIndex "207" ;
+    nif:endIndex "215" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w46" ;
+    nif:lemma "destijds" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w47w48> nif:anchorOf "Championnat Équestre" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "236" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w49> nif:BeginIndex "237" ;
+    nif:anchorOf "genoemd" ;
+    nif:endIndex "244" ;
+    nif:lemma "noemen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w5> nif:anchorOf "Dolf" ;
+    nif:beginIndex "21" ;
+    nif:endIndex "25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w54w55> nif:anchorOf "Olympische Zomerspelen" ;
+    nif:beginIndex "253" ;
+    nif:endIndex "275" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w56> nif:anchorOf "1924" ;
+    nif:beginIndex "276" ;
+    nif:endIndex "280" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w58> nif:anchorOf "Parijs" ;
+    nif:beginIndex "284" ;
+    nif:endIndex "290" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w59> nif:BeginIndex "291" ;
+    nif:anchorOf "won" ;
+    nif:endIndex "294" ;
+    nif:lemma "winnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w60> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "295" ;
+    nif:endIndex "298" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w60" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w64w65> nif:anchorOf "Silver Piece" ;
+    nif:beginIndex "314" ;
+    nif:endIndex "326" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w66> nif:anchorOf "tweemaal" ;
+    nif:beginIndex "327" ;
+    nif:endIndex "335" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w66" ;
+    nif:lemma "tweemaal" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w67> nif:anchorOf "goud" ;
+    nif:beginIndex "336" ;
+    nif:endIndex "340" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w67" ;
+    nif:lemma "goud" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w69w70w71> nif:anchorOf "De individuele wedstrijd" ;
+    nif:beginIndex "342" ;
+    nif:endIndex "366" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w71" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w71> nif:BeginIndex "357" ;
+    nif:anchorOf "wedstrijd" ;
+    nif:endIndex "366" ;
+    nif:lemma "wedstrijd" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w72> nif:BeginIndex "367" ;
+    nif:anchorOf "won" ;
+    nif:endIndex "370" ;
+    nif:lemma "winnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w73> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "371" ;
+    nif:endIndex "374" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w73" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w75> nif:anchorOf "1976" ;
+    nif:beginIndex "379" ;
+    nif:endIndex "383" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w7w8w9> nif:anchorOf "van der Voort" ;
+    nif:beginIndex "27" ;
+    nif:endIndex "40" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w81> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "405" ;
+    nif:endIndex "416" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w83> nif:BeginIndex "423" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "427" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w91> nif:anchorOf "Parijs" ;
+    nif:beginIndex "468" ;
+    nif:endIndex "474" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w92> nif:BeginIndex "475" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "478" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w93> nif:anchorOf "trouwens" ;
+    nif:beginIndex "479" ;
+    nif:endIndex "487" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w93" ;
+    nif:lemma "trouwens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w98> nif:anchorOf "aanvankelijk" ;
+    nif:beginIndex "514" ;
+    nif:endIndex "526" ;
+    nif:head "bgnProc:1516__Dolf_van_der_Voort_van_Zijp.naf#w98" ;
+    nif:lemma "aanvankelijk" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_104t_105t_106t_107t_108t_109> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w105w106w107w108w109w110> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_114t_115t_116t_117t_118t_119t_120t_121t_122t_123t_124t_125t_126t_127t_128t_129t_130t_131t_132> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w115w116w117w118w119w120w121w122w123w124w125w126w127w128w129w130w131w132w133> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_145> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w146> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_146> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w147> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_147> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w148> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_148t_149t_150> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w149w150w151> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_152t_153t_154t_155> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w153w154w155w156> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_160t_161> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w161w162> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_176t_177t_178t_179t_180> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w177w178w179w180w181> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_196> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w197> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_199> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w200> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_207t_208> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w208w209> ;
+    xs:gYearMonth "1940-05" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_210> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w211> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_33> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w34> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_45> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w46> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_59> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w60> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_65> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w66> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_66> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w67> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_68t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w69w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_72> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w73> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_74> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w75> ;
+    xs:gYear "1976" .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_92> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w93> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_97> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w98> .
+
+<http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#t_117> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w118> .
+
+bgn:Person-1516 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w100w101w102>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w104>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w11w12w13w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w143>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w16>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w166w167w168w169>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w171w172w173>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w175>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w193w194w195>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w205>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w214>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w221w222>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w23>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w31>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w40w41>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w5>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w54w55>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w58>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w64w65>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w7w8w9>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w81>,
+        <http://data.biographynet.nl/rdf/170506221754/1516__Dolf_van_der_Voort_van_Zijp.naf#w91> .
+

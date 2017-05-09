@@ -1,0 +1,996 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_1>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_100t_101t_102t_103t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_104t_105t_106>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_113t_114t_115>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_147>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_151>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_163>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_169>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_176>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_17t_18t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_180>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_188>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_20>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_206t_207t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_209>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_210t_211>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_215>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_21t_22t_23t_24t_25>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_256t_257t_258>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_263t_264t_265>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_270t_271t_272>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_278t_279t_280>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_283>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_284t_285>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_286>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_289t_290t_291t_292t_293t_294t_295t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_294t_295>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_296>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_299t_300>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_301>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_312>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_340>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_341>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_343>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_347>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_34t_35t_36>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_51>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_52t_53>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_6>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_62>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_7>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_72>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_91t_92t_93>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_94>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_95t_96t_97t_98t_99>,
+        bgn:Person-2623 ;
+    ore:proxyFor bgn:Person-2623 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w101> nif:lemma "nadat" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w105> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w114> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w20> nif:lemma "land" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w209> nif:lemma "land" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w212> nif:lemma "geallieerd" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w23> nif:lemma "zijde" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w286> nif:lemma "drie_land_pact" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w292> nif:lemma "daarna" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w296> nif:lemma "staatsgreep" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w301> nif:lemma "regering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w35> nif:lemma "door" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w54> nif:lemma "mogendheid" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w94> nif:lemma "land" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w97> nif:lemma "zijde" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-2623 ;
+    bgn:aggregatedPerson bgn:Person-2623 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_1> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w2> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w103> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_104t_105t_106> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_116> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w117> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_113t_114t_115> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_147> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w148> ;
+    pb:Arg1 bgn:Person-2623 .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_151> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w152> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_178>,
+        bgn:Person-2623 ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_159>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_171>,
+        bgn:Person-2623 .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_163> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w164> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_169> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w170> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_166>,
+        bgn:Person-2623 .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_176> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w177> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_180> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w181> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_184> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w185> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_188> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w189> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_193> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w194> ;
+    xs:gYear "1943" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_197> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w198> ;
+    xs:gYear "1941" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_20> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w21> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_17t_18t_19> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_21t_22t_23t_24t_25> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_209> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w210> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_206t_207t_208> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_210t_211> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_214> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w215> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_206t_207t_208> ;
+    pb:ArgM-NEG <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_215> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_256t_257t_258> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w257w258w259> ;
+    xs:date "1941-03-01" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_263t_264t_265> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w264w265w266> ;
+    xs:date "1940-11-20" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_270t_271t_272> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w271w272w273> ;
+    xs:date "1940-11-23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_278t_279t_280> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w279w280w281> ;
+    xs:date "1940-11-24" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_283> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w284> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_282>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_284t_285> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_286> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_296> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w297> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_294t_295> ;
+    pb:AM-CAU <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_289t_290t_291t_292t_293t_294t_295t_296> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_301> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w302> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_299t_300> ;
+    pb:Arg2 bgn:Person-2623 ;
+    pb:ArgM-CAU <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_289t_290t_291t_292t_293t_294t_295t_296> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_312> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w313> ;
+    pb:ArgM <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_314>,
+        bgn:Person-2623 .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_32> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w33> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_34t_35t_36> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_30> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_343> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w344> ;
+    pb:Arg2 bgn:Person-2623 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_340>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_341> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_347> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w348> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_51> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w52> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_52t_53> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_50> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_62> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w63> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_68>,
+        bgn:Person-2623 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_63> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_7> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w8> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_6> ;
+    pb:ArgM-LOC bgn:Person-2623 .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_70> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w71> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_61> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_68>,
+        bgn:Person-2623 .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_72> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w73> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_90> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_83>,
+        bgn:Person-2623 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_88> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_94> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w95> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_91t_92t_93> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_95t_96t_97t_98t_99> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_100t_101t_102t_103t_104t_105t_106> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w101w102w103w104w105w106w107> nif:anchorOf "nadat ze aangevallen werden door een as-land" ;
+    nif:beginIndex "642" ;
+    nif:endIndex "686" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w101" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w102> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "648" ;
+    nif:endIndex "650" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w102" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w103> nif:BeginIndex "651" ;
+    nif:anchorOf "aangevallen" ;
+    nif:endIndex "662" ;
+    nif:lemma "aan_vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w105w106w107> nif:anchorOf "door een as-land" ;
+    nif:beginIndex "670" ;
+    nif:endIndex "686" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w105" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w109> nif:anchorOf "Albanië" ;
+    nif:beginIndex "689" ;
+    nif:endIndex "696" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w110> nif:anchorOf "België" ;
+    nif:beginIndex "698" ;
+    nif:endIndex "704" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w111> nif:anchorOf "China" ;
+    nif:beginIndex "706" ;
+    nif:endIndex "711" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w112> nif:anchorOf "Denemarken" ;
+    nif:beginIndex "713" ;
+    nif:endIndex "723" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w114w115w116> nif:anchorOf "na de capitulatie" ;
+    nif:beginIndex "725" ;
+    nif:endIndex "742" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w114" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w117> nif:BeginIndex "743" ;
+    nif:anchorOf "bleef" ;
+    nif:endIndex "748" ;
+    nif:lemma "blijven" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w119> nif:anchorOf "Deense" ;
+    nif:beginIndex "752" ;
+    nif:endIndex "758" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w11w12> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "49" ;
+    nif:endIndex "68" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w122> nif:anchorOf "Duitse" ;
+    nif:beginIndex "774" ;
+    nif:endIndex "780" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w126> nif:anchorOf "Egypte" ;
+    nif:beginIndex "801" ;
+    nif:endIndex "807" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w131> nif:anchorOf "Ethiopië" ;
+    nif:beginIndex "830" ;
+    nif:endIndex "838" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w132> nif:anchorOf "Filipijnen" ;
+    nif:beginIndex "840" ;
+    nif:endIndex "850" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w138> nif:anchorOf "Amerikaanse" ;
+    nif:beginIndex "874" ;
+    nif:endIndex "885" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w141> nif:anchorOf "Griekenland" ;
+    nif:beginIndex "894" ;
+    nif:endIndex "905" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w142> nif:anchorOf "Joegoslavië" ;
+    nif:beginIndex "907" ;
+    nif:endIndex "918" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w143w144w145w146> nif:anchorOf "Luxemburg Mongolië Nederland Noorwegen" ;
+    nif:beginIndex "920" ;
+    nif:endIndex "961" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w148> nif:BeginIndex "963" ;
+    nif:anchorOf "marionettenregering" ;
+    nif:endIndex "982" ;
+    nif:lemma "marionet_regering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w150w151> nif:anchorOf "Vidkun Quisling" ;
+    nif:beginIndex "987" ;
+    nif:endIndex "1002" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w152> nif:BeginIndex "1003" ;
+    nif:anchorOf "stond" ;
+    nif:endIndex "1008" ;
+    nif:lemma "staan" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w160> nif:anchorOf "Polen" ;
+    nif:beginIndex "1034" ;
+    nif:endIndex "1039" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w161> nif:anchorOf "Sovjet-Unie" ;
+    nif:beginIndex "1041" ;
+    nif:endIndex "1052" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w164> nif:anchorOf "1941" ;
+    nif:beginIndex "1060" ;
+    nif:endIndex "1064" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w167> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1080" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w169> nif:anchorOf "Molotov-von-Ribbentrop-nietaanvalsverdrag" ;
+    nif:beginIndex "1085" ;
+    nif:endIndex "1126" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w17> nif:anchorOf "Geallieerden" ;
+    nif:beginIndex "80" ;
+    nif:endIndex "92" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w170> nif:BeginIndex "1127" ;
+    nif:anchorOf "verbrak" ;
+    nif:endIndex "1134" ;
+    nif:lemma "verbreken" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w172> nif:anchorOf "Tsjecho-Slowakije" ;
+    nif:beginIndex "1137" ;
+    nif:endIndex "1154" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w173w174w175> nif:anchorOf "Verenigde Staten Bulgarije" ;
+    nif:beginIndex "1156" ;
+    nif:endIndex "1183" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w177> nif:anchorOf "1944" ;
+    nif:beginIndex "1185" ;
+    nif:endIndex "1189" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w179> nif:anchorOf "Finland" ;
+    nif:beginIndex "1192" ;
+    nif:endIndex "1199" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w181> nif:anchorOf "1944" ;
+    nif:beginIndex "1201" ;
+    nif:endIndex "1205" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w183> nif:anchorOf "Italië" ;
+    nif:beginIndex "1208" ;
+    nif:endIndex "1214" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w185> nif:anchorOf "1943" ;
+    nif:beginIndex "1216" ;
+    nif:endIndex "1220" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w187> nif:anchorOf "Roemenië" ;
+    nif:beginIndex "1223" ;
+    nif:endIndex "1231" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w189> nif:anchorOf "1944" ;
+    nif:beginIndex "1233" ;
+    nif:endIndex "1237" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w18w19w20> nif:anchorOf "De volgende landen" ;
+    nif:beginIndex "94" ;
+    nif:endIndex "112" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w20" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w191w192> nif:anchorOf "San Marino" ;
+    nif:beginIndex "1240" ;
+    nif:endIndex "1250" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w194> nif:anchorOf "1943" ;
+    nif:beginIndex "1252" ;
+    nif:endIndex "1256" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w196> nif:anchorOf "Sovjet-Unie" ;
+    nif:beginIndex "1259" ;
+    nif:endIndex "1270" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w198> nif:anchorOf "1941" ;
+    nif:beginIndex "1272" ;
+    nif:endIndex "1276" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w2> nif:BeginIndex "4" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "6" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w201> nif:anchorOf "As-bondgenoot" ;
+    nif:beginIndex "1279" ;
+    nif:endIndex "1292" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w204> nif:anchorOf "Poolse" ;
+    nif:beginIndex "1304" ;
+    nif:endIndex "1310" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w207w208w209> nif:anchorOf "De volgende landen" ;
+    nif:beginIndex "1322" ;
+    nif:endIndex "1340" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w209" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w21> nif:BeginIndex "113" ;
+    nif:anchorOf "kozen" ;
+    nif:endIndex "118" ;
+    nif:lemma "kiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w210> nif:BeginIndex "1341" ;
+    nif:anchorOf "steunden" ;
+    nif:endIndex "1349" ;
+    nif:lemma "steunen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w211w212> nif:anchorOf "de geallieerden" ;
+    nif:beginIndex "1350" ;
+    nif:endIndex "1365" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w212" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w215> nif:BeginIndex "1372" ;
+    nif:anchorOf "vochten" ;
+    nif:endIndex "1379" ;
+    nif:lemma "mee_vechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w216> nif:anchorOf "niet" ;
+    nif:beginIndex "1380" ;
+    nif:endIndex "1384" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w216" ;
+    nif:lemma "niet" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w219> nif:anchorOf "Argentinië" ;
+    nif:beginIndex "1391" ;
+    nif:endIndex "1401" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w220> nif:anchorOf "Bolivia" ;
+    nif:beginIndex "1403" ;
+    nif:endIndex "1410" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w221> nif:anchorOf "Chili" ;
+    nif:beginIndex "1412" ;
+    nif:endIndex "1417" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w223w224w225w226w227w228w229w230w231w232w233w234w235w236w237w238w239w240w241w242w243w244w245w246w247w248w249w250w251w252w253w254w255> nif:anchorOf "Costa Rica Cuba Dominicaanse Republiek Ecuador El Salvador Guatemala Haïti Honduras Irak Iran Libanon Liberia Nepal Nicaragua Panama Paraguay Peru Saoedi-Arabië Suriname Syrië Turkije Uruguay Venezuela Nazi-Duitsland Koninkrijk Italië Japans Keizerrijk Koninkrijk Bulgarije" ;
+    nif:beginIndex "1429" ;
+    nif:endIndex "1728" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w22w23w24w25w26> nif:anchorOf "de zijde van de geallieerden" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "147" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w23" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w257w258w259> nif:anchorOf "1 maart 1941" ;
+    nif:beginIndex "1730" ;
+    nif:endIndex "1742" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w261w262> nif:anchorOf "Koninkrijk Hongarije" ;
+    nif:beginIndex "1745" ;
+    nif:endIndex "1765" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w264w265w266> nif:anchorOf "20 november 1940" ;
+    nif:beginIndex "1767" ;
+    nif:endIndex "1783" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w268w269> nif:anchorOf "Koninkrijk Roemenië" ;
+    nif:beginIndex "1786" ;
+    nif:endIndex "1805" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w271w272w273> nif:anchorOf "23 november 1940" ;
+    nif:beginIndex "1807" ;
+    nif:endIndex "1823" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w276w277> nif:anchorOf "Slowaakse Republiek" ;
+    nif:beginIndex "1833" ;
+    nif:endIndex "1852" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w279w280w281> nif:anchorOf "24 november 1940" ;
+    nif:beginIndex "1854" ;
+    nif:endIndex "1870" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w283> nif:anchorOf "Joegoslavië" ;
+    nif:beginIndex "1873" ;
+    nif:endIndex "1884" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w284> nif:BeginIndex "1885" ;
+    nif:anchorOf "tekende" ;
+    nif:endIndex "1892" ;
+    nif:lemma "tekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w285w286> nif:anchorOf "het drielandenpact" ;
+    nif:beginIndex "1893" ;
+    nif:endIndex "1911" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w286" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w287> nif:anchorOf "ook" ;
+    nif:beginIndex "1912" ;
+    nif:endIndex "1915" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w287" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w290w291w292w293w294w295w296w297> nif:anchorOf "vrijwel direct daarna werd er een staatsgreep gepleegd" ;
+    nif:beginIndex "1922" ;
+    nif:endIndex "1976" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w292" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w295w296> nif:anchorOf "een staatsgreep" ;
+    nif:beginIndex "1952" ;
+    nif:endIndex "1967" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w296" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w297> nif:BeginIndex "1968" ;
+    nif:anchorOf "gepleegd" ;
+    nif:endIndex "1976" ;
+    nif:lemma "plegen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w300w301> nif:anchorOf "de regering" ;
+    nif:beginIndex "1985" ;
+    nif:endIndex "1996" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w301" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w302> nif:BeginIndex "1997" ;
+    nif:anchorOf "vervangen" ;
+    nif:endIndex "2006" ;
+    nif:lemma "vervangen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w305> nif:anchorOf "anti-Duitse" ;
+    nif:beginIndex "2016" ;
+    nif:endIndex "2027" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w308> nif:anchorOf "Finland" ;
+    nif:beginIndex "2039" ;
+    nif:endIndex "2046" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w31> a bgn:pron_3p ;
+    nif:anchorOf "ze" ;
+    nif:beginIndex "170" ;
+    nif:endIndex "172" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w31" ;
+    nif:lemma "ze" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w310w311> nif:anchorOf "Sociale Republiek" ;
+    nif:beginIndex "2059" ;
+    nif:endIndex "2076" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w313> nif:BeginIndex "2078" ;
+    nif:anchorOf "marionettenregering" ;
+    nif:endIndex "2097" ;
+    nif:lemma "marionet_regering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w315> nif:anchorOf "Italië" ;
+    nif:beginIndex "2101" ;
+    nif:endIndex "2107" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w317> nif:anchorOf "Italiaanse" ;
+    nif:beginIndex "2111" ;
+    nif:endIndex "2121" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w323> nif:anchorOf "Japans-China" ;
+    nif:beginIndex "2153" ;
+    nif:endIndex "2165" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w327w328w329> nif:anchorOf "Onafhankelijke Staat Kroatië" ;
+    nif:beginIndex "2189" ;
+    nif:endIndex "2217" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w33> nif:BeginIndex "178" ;
+    nif:anchorOf "aangevallen" ;
+    nif:endIndex "189" ;
+    nif:lemma "aan_vallen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w333> nif:anchorOf "Mantsjoekwo" ;
+    nif:beginIndex "2241" ;
+    nif:endIndex "2252" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w337w338w339> nif:anchorOf "San Marino Thailand" ;
+    nif:beginIndex "2276" ;
+    nif:endIndex "2296" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w341> nif:anchorOf "toen" ;
+    nif:beginIndex "2298" ;
+    nif:endIndex "2302" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w341" ;
+    nif:lemma "toen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w342> nif:anchorOf "nog" ;
+    nif:beginIndex "2303" ;
+    nif:endIndex "2306" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w342" ;
+    nif:lemma "nog" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w343> nif:anchorOf "Siam" ;
+    nif:beginIndex "2307" ;
+    nif:endIndex "2311" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w344> nif:BeginIndex "2312" ;
+    nif:anchorOf "geheten" ;
+    nif:endIndex "2319" ;
+    nif:lemma "heten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w346> nif:anchorOf "Vichy-Frankrijk" ;
+    nif:beginIndex "2322" ;
+    nif:endIndex "2337" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w348> nif:BeginIndex "2339" ;
+    nif:anchorOf "marionettenregering" ;
+    nif:endIndex "2358" ;
+    nif:lemma "marionet_regering" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w350> nif:anchorOf "Afghanistan" ;
+    nif:beginIndex "2361" ;
+    nif:endIndex "2372" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w351> nif:anchorOf "Ierland" ;
+    nif:beginIndex "2374" ;
+    nif:endIndex "2381" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w352> nif:anchorOf "Liechtenstein" ;
+    nif:beginIndex "2383" ;
+    nif:endIndex "2396" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w353> nif:anchorOf "Portugal" ;
+    nif:beginIndex "2398" ;
+    nif:endIndex "2406" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w354> nif:anchorOf "Spanje" ;
+    nif:beginIndex "2408" ;
+    nif:endIndex "2414" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w355> nif:anchorOf "Zweden" ;
+    nif:beginIndex "2416" ;
+    nif:endIndex "2422" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w35w36w37> nif:anchorOf "door een as-land" ;
+    nif:beginIndex "197" ;
+    nif:endIndex "213" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w35" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w360> nif:BeginIndex "2443" ;
+    nif:anchorOf "Winteroorlog" ;
+    nif:beginIndex "2443" ;
+    nif:endIndex "2455" ;
+    nif:lemma "Winter_oorlog" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w362> nif:anchorOf "Zwitserland" ;
+    nif:beginIndex "2458" ;
+    nif:endIndex "2469" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w39> nif:anchorOf "Australië" ;
+    nif:beginIndex "216" ;
+    nif:endIndex "225" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w40> nif:anchorOf "Brazilië" ;
+    nif:beginIndex "227" ;
+    nif:endIndex "235" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w41> nif:anchorOf "Canada" ;
+    nif:beginIndex "237" ;
+    nif:endIndex "243" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w42> nif:anchorOf "Frankrijk" ;
+    nif:beginIndex "245" ;
+    nif:endIndex "254" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w49> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "288" ;
+    nif:endIndex "297" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w51> nif:anchorOf "Vichy-Frankrijk" ;
+    nif:beginIndex "299" ;
+    nif:endIndex "314" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w52> nif:BeginIndex "315" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "318" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w53w54> nif:anchorOf "collaborerende mogendheid" ;
+    nif:beginIndex "319" ;
+    nif:endIndex "344" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w54" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w57> nif:anchorOf "Groenland" ;
+    nif:beginIndex "348" ;
+    nif:endIndex "357" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w59> nif:anchorOf "Deense" ;
+    nif:beginIndex "359" ;
+    nif:endIndex "365" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w62> nif:anchorOf "Groenland" ;
+    nif:beginIndex "375" ;
+    nif:endIndex "384" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w63> nif:BeginIndex "385" ;
+    nif:anchorOf "weigerde" ;
+    nif:endIndex "393" ;
+    nif:lemma "weigeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w64> nif:anchorOf "echter" ;
+    nif:beginIndex "394" ;
+    nif:endIndex "400" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w64" ;
+    nif:lemma "echter" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w66> nif:anchorOf "Duitse" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "410" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w69> nif:anchorOf "Denemarken" ;
+    nif:beginIndex "425" ;
+    nif:endIndex "435" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w7> nif:anchorOf "die" ;
+    nif:beginIndex "28" ;
+    nif:endIndex "31" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w7" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w71> nif:BeginIndex "439" ;
+    nif:anchorOf "erkennen" ;
+    nif:endIndex "447" ;
+    nif:lemma "erkennen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w73> nif:BeginIndex "451" ;
+    nif:anchorOf "koos" ;
+    nif:endIndex "455" ;
+    nif:lemma "kiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w78w79w80w81> nif:anchorOf "Mexico Nieuw-Zeeland Verenigd Koninkrijk" ;
+    nif:beginIndex "479" ;
+    nif:endIndex "521" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w8> nif:BeginIndex "32" ;
+    nif:anchorOf "meevochten" ;
+    nif:endIndex "42" ;
+    nif:lemma "mee_vechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w84> nif:anchorOf "IJsland" ;
+    nif:beginIndex "535" ;
+    nif:endIndex "542" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w89> nif:anchorOf "1944" ;
+    nif:beginIndex "568" ;
+    nif:endIndex "572" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w91> nif:anchorOf "Zuid-Afrika" ;
+    nif:beginIndex "575" ;
+    nif:endIndex "586" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w92w93w94> nif:anchorOf "De volgende landen" ;
+    nif:beginIndex "588" ;
+    nif:endIndex "606" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w94" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w95> nif:BeginIndex "607" ;
+    nif:anchorOf "kozen" ;
+    nif:endIndex "612" ;
+    nif:lemma "kiezen" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w96w97w98w99w100> nif:anchorOf "de zijde van de geallieerden" ;
+    nif:beginIndex "613" ;
+    nif:endIndex "641" ;
+    nif:head "bgnProc:2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w97" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_100t_101t_102t_103t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w101w102w103w104w105w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_101> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w102> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_104t_105t_106> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w105w106w107> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_113t_114t_115> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w114w115w116> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_17t_18t_19> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w18w19w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_210t_211> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w211w212> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_215> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w216> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_21t_22t_23t_24t_25> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w22w23w24w25w26> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_284t_285> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w285w286> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_286> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w287> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_294t_295> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w295w296> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_299t_300> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w300w301> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_340> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w341> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_341> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w342> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_34t_35t_36> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w35w36w37> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_52t_53> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w53w54> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_6> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w7> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_63> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w64> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_88> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w89> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_91t_92t_93> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w92w93w94> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_95t_96t_97t_98t_99> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w96w97w98w99w100> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_206t_207t_208> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w207w208w209> .
+
+<http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#t_289t_290t_291t_292t_293t_294t_295t_296> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w290w291w292w293w294w295w296w297> .
+
+bgn:Person-2623 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER,
+        sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w109>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w110>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w111>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w119>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w11w12>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w122>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w126>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w131>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w132>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w138>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w142>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w143w144w145w146>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w150w151>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w160>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w161>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w167>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w169>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w17>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w172>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w173w174w175>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w179>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w183>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w187>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w191w192>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w196>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w201>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w204>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w219>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w220>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w221>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w223w224w225w226w227w228w229w230w231w232w233w234w235w236w237w238w239w240w241w242w243w244w245w246w247w248w249w250w251w252w253w254w255>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w261w262>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w268w269>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w276w277>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w283>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w305>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w308>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w310w311>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w315>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w317>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w323>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w327w328w329>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w333>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w337w338w339>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w343>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w346>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w350>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w351>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w352>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w353>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w354>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w355>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w360>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w362>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w39>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w40>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w41>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w51>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w57>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w59>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w62>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w66>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w69>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w78w79w80w81>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w84>,
+        <http://data.biographynet.nl/rdf/170506221754/2623__Lijst_van_landen_in_de_Tweede_Wereldoorlog.naf#w91> .
+

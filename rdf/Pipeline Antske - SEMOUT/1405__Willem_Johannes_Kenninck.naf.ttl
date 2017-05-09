@@ -1,0 +1,247 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_13t_14t_15>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_18>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_27>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_28t_29t_30>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_33t_34t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_38>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_40>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_65>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_71t_72t_73>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_7t_8t_9>,
+        bgn:Person-1405 ;
+    ore:proxyFor bgn:Person-1405 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w31> nif:lemma "loopbaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w34> nif:lemma "als" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1405__Willem_Johannes_Kenninck#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1405__Willem_Johannes_Kenninck .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1405 ;
+    bgn:aggregatedPerson bgn:Person-1405 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1405__Willem_Johannes_Kenninck ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1405__Willem_Johannes_Kenninck ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_13t_14t_15> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w14w15w16> ;
+    xs:date "1940-05-14" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_18> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w19> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_27> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w28> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_28t_29t_30>,
+        bgn:Person-1405 ;
+    pb:AM-PRD <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_33t_34t_35> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_32> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_38> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w39> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_37> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_48> ;
+    pb:AM-LOC <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_44> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_40> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w41> ;
+    xs:gYear "1940" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_61> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w62> ;
+    pb:ArgM-LOC bgn:Person-1405 .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_65> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w66> ;
+    pb:ArgM-LOC bgn:Person-1405 .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_71t_72t_73> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w72w73w74> ;
+    xs:date "1946-05-09" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_7t_8t_9> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w8w9w10> ;
+    xs:date "1911-03-28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w12> nif:anchorOf "Overschie" ;
+    nif:beginIndex "54" ;
+    nif:endIndex "63" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w14w15w16> nif:anchorOf "14 mei 1940" ;
+    nif:beginIndex "65" ;
+    nif:endIndex "76" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w19> nif:BeginIndex "79" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "82" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w1w2w3> nif:anchorOf "Johannes Kenninck" ;
+    nif:beginIndex "7" ;
+    nif:endIndex "24" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w21> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "87" ;
+    nif:endIndex "97" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w25> nif:anchorOf "Cavalerie" ;
+    nif:beginIndex "119" ;
+    nif:endIndex "128" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w27> nif:anchorOf "Kennink" ;
+    nif:beginIndex "131" ;
+    nif:endIndex "138" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w28> nif:BeginIndex "139" ;
+    nif:anchorOf "begon" ;
+    nif:endIndex "144" ;
+    nif:lemma "beginnen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w29w30w31> nif:anchorOf "zijn militaire loopbaan" ;
+    nif:beginIndex "145" ;
+    nif:endIndex "168" ;
+    nif:head "bgnProc:1405__Willem_Johannes_Kenninck.naf#w31" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w33> nif:anchorOf "1931" ;
+    nif:beginIndex "172" ;
+    nif:endIndex "176" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w34w35w36> nif:anchorOf "als dienstplichtig soldaat" ;
+    nif:beginIndex "177" ;
+    nif:endIndex "203" ;
+    nif:head "bgnProc:1405__Willem_Johannes_Kenninck.naf#w34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w38> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "205" ;
+    nif:endIndex "208" ;
+    nif:head "bgnProc:1405__Willem_Johannes_Kenninck.naf#w38" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w39> nif:BeginIndex "209" ;
+    nif:anchorOf "vocht" ;
+    nif:endIndex "214" ;
+    nif:lemma "vechten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w41> nif:anchorOf "1940" ;
+    nif:beginIndex "218" ;
+    nif:endIndex "222" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w45> nif:anchorOf "Cavalerie" ;
+    nif:beginIndex "244" ;
+    nif:endIndex "253" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w49> nif:anchorOf "Duitsers" ;
+    nif:beginIndex "266" ;
+    nif:endIndex "274" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w56w57w58w59w60> nif:anchorOf "Kapittel van de Militaire Willems-Orde" ;
+    nif:beginIndex "301" ;
+    nif:endIndex "339" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w5w6> nif:anchorOf "Den Helder" ;
+    nif:beginIndex "26" ;
+    nif:endIndex "36" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w62> nif:BeginIndex "346" ;
+    nif:anchorOf "vermeld" ;
+    nif:endIndex "353" ;
+    nif:lemma "vermelden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w66> nif:BeginIndex "367" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "371" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w68w69> nif:anchorOf "Koninklijk Besluit" ;
+    nif:beginIndex "376" ;
+    nif:endIndex "394" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w72w73w74> nif:anchorOf "9 mei 1946" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "414" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w83> nif:anchorOf "IVe" ;
+    nif:beginIndex "471" ;
+    nif:endIndex "474" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w86w87> nif:anchorOf "Militaire Willems-Orde" ;
+    nif:beginIndex "486" ;
+    nif:endIndex "508" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w8w9w10> nif:anchorOf "28 maart 1911" ;
+    nif:beginIndex "38" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_28t_29t_30> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w29w30w31> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_32> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w33> ;
+    xs:gYear "1931" .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_33t_34t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w34w35w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#t_37> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w38> .
+
+bgn:Person-1405 a bgn:LOC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w12>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w1w2w3>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w21>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w25>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w27>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w49>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w56w57w58w59w60>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w5w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w68w69>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w83>,
+        <http://data.biographynet.nl/rdf/170506221754/1405__Willem_Johannes_Kenninck.naf#w86w87> .
+

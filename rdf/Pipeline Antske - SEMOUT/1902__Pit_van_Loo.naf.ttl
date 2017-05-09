@@ -1,0 +1,929 @@
+@prefix Cornetto: <https:/newsreader-project.eu/ontologies/cornetto/> .
+@prefix WordNet: <https:/newsreader-project.eu/ontologies/wordnet/> .
+@prefix bgn: <http://data.biographynet.nl/rdf/> .
+@prefix bgnProc: <http://data.biographynet.nl/rdf/170506221754/> .
+@prefix bnFam: <http://purl.org/collections/nl/biographyned/ontologies/family#> .
+@prefix bnProv: <https://github.com/antske/BiographyNet/provenance/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix eso: <https://github.com/newsreader/eso/> .
+@prefix fn: <https:/newsreader-project.eu/ontologies/framenet/> .
+@prefix fn-pb-role: <https:/newsreader-project.eu/ontologies/framenet_propbank/> .
+@prefix fn-role: <https:/newsreader-project.eu/ontologies/framenet/roles> .
+@prefix gaf: <http://groundedannotationframework.org/files/2014/01/> .
+@prefix geonames: <http://www.sws.geonames.org/> .
+@prefix mcr: <http://unknownresource/mcr/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owltime: <http://www.w3.org/TR/owl-time/> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix pb: <https:/newsreader-project.eu/ontologies/propbank/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix stevensFam: <http://www.cs.man.ac.uk/~stevensr/ontology/family.rdf.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#personDes> a bgn:PersonDes,
+        ore:Proxy ;
+    bgn:hasAssociation <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_100t_101>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_102>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_104>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_106t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_107>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_108>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_113>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_114>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_115t_116>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_118>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_119t_120t_121t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_120>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_122>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_126t_127t_128>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_129>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_130>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_131>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_150>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_153t_154>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_155>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_158t_159t_160>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_15t_16t_17>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_166>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_167>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_168>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_169t_170>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_182>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_183t_184>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_186>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_19>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_194>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_197>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_198>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_199t_200t_201t_202>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_203t_204t_205t_206t_207t_208t_209t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_204>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_205>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_208>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_209t_210t_211t_212>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_214>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_216>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_217>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_224>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_235>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_236>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_237>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_246>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_254>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_255>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_256>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_29>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_33t_34t_35>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_37>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_48>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_49>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_59>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_61>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_63>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_64>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_68t_69t_70>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_75>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_76>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_77>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_78t_79t_80t_81>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_88>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_9t_10t_11>,
+        bgn:Person-1902 ;
+    ore:proxyFor bgn:Person-1902 ;
+    ore:proxyIn <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#BioDes> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w107> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w120> nif:lemma "voor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w127> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w154> nif:lemma "als" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w159> nif:lemma "na" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w170> nif:lemma "onder" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w185> nif:lemma "beeld" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w200> nif:lemma "uit" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w204> nif:lemma "om" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w210> nif:lemma "aan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w34> nif:lemma "tijdens" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w69> nif:lemma "bij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w82> nif:lemma "bureau" .
+
+<https://github.com/antske/BiographyNet/provenance/170506221754-1902__Pit_van_Loo#processTotal> a bgn:Enrichment,
+        p-plan:Activity,
+        prov:Activity ;
+    prov:qualifiedAssociation <https://github.com/antske/BiographyNet/provenance/170506221754-qualifiedAssociation> ;
+    prov:used bgn:BioDes-1902__Pit_van_Loo .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#BioDes> a bgn:BioDes,
+        p-plan:Entity,
+        ore:Aggregation,
+        prov:Entity ;
+    bgn:aggregatedCHO bgn:Person-1902 ;
+    bgn:aggregatedPerson bgn:Person-1902 ;
+    bgn:hasPersonDes <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#PersonDes> ;
+    ore:aggregates bgn:BioDes-1902__Pit_van_Loo ;
+    prov:wasAttributedTo <https://github.com/antske/BiographyNet/provenance/170506221754#version> ;
+    prov:wasDerivedFrom bgn:BioDes-1902__Pit_van_Loo ;
+    prov:wasGeneratedBy <https://github.com/antske/BiographyNet/provenance/170506221754#processTotal> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_102> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w103> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_103>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_124> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_104> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w105> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_103> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_107> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_108> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w109> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_103> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_111>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_124> ;
+    pb:AM-PNC <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_106t_107> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_100t_101> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_118> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w119> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_114> ;
+    pb:Arg2 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_113> ;
+    pb:ArgM-PNC <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_119t_120t_121t_122> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_115t_116> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_122> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w123> ;
+    pb:Arg1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_120> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_129> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w130> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_130> ;
+    pb:AM-DIR bgn:Person-1902 ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_131> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_126t_127t_128> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_150> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w151> ;
+    xs:gYear "1946",
+        "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_155> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w156> ;
+    pb:ArgM-PRD <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_153t_154> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_158t_159t_160> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_15t_16t_17> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w16w17w18> ;
+    xs:date "1991-06-25" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_167> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w168> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_168> ;
+    pb:Arg1 bgn:Person-1902 ;
+    pb:ArgM-DIS <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_166> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_169t_170> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_186> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w187> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_183t_184> ;
+    pb:A2 bgn:Person-1902 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_182> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_19> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w20> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_194> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w195> ;
+    pb:A3 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_199t_200t_201t_202> ;
+    pb:AM-MNR <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_198> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_197> ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_193>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_203t_204t_205t_206t_207t_208t_209t_210t_211t_212> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_208> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w209> ;
+    pb:A2 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_209t_210t_211t_212> ;
+    pb:AM-EXT <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_205> ;
+    pb:AM-REC <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_204> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_217> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w218> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_214> ;
+    pb:A2 bgn:Person-1902 ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_216> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_224> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w225> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_235> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w236> ;
+    pb:A0 bgn:Person-1902 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_237> ;
+    pb:AM-DIS <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_236> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_246> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w247> ;
+    pb:Arg1 bgn:Person-1902 .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_256> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w257> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_254> ;
+    pb:Arg1 bgn:Person-1902 ;
+    pb:ArgM-MNR <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_255> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_29> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w30> ;
+    pb:A1 bgn:Person-1902 ;
+    pb:AM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_32>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_33t_34t_35> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_37> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w38> ;
+    pb:Arg1 bgn:Person-1902 .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_48> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w49> ;
+    pb:A0 bgn:Person-1902 ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_49> ;
+    pb:AM-LOC bgn:Person-1902 .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_59> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w60> ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_63> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w64> ;
+    pb:Arg0 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_64> ;
+    pb:ArgM-LOC <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_68t_69t_70>,
+        bgn:Person-1902 ;
+    pb:ArgM-TMP <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_61> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_76> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w77> ;
+    pb:A0 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_77> ;
+    pb:A1 <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_78t_79t_80t_81> ;
+    pb:AM-ADV <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_75> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_88> a sem:Event ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w89> ;
+    pb:ArgM-TMP bgn:Person-1902 .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_9t_10t_11> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w10w11w12> ;
+    xs:date "1905-04-18" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w1> nif:anchorOf "Pieter" ;
+    nif:beginIndex "0" ;
+    nif:endIndex "6" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w101w102> nif:anchorOf "Eind 1944" ;
+    nif:beginIndex "529" ;
+    nif:endIndex "538" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w103> nif:BeginIndex "539" ;
+    nif:anchorOf "werd" ;
+    nif:endIndex "543" ;
+    nif:lemma "worden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w104> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "544" ;
+    nif:endIndex "547" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w104" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w105> nif:BeginIndex "548" ;
+    nif:anchorOf "opgepakt" ;
+    nif:endIndex "556" ;
+    nif:lemma "op_pakken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w107w108> nif:anchorOf "voor verhoor" ;
+    nif:beginIndex "560" ;
+    nif:endIndex "572" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w107" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w108> nif:BeginIndex "565" ;
+    nif:anchorOf "verhoor" ;
+    nif:endIndex "572" ;
+    nif:lemma "verhoor" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w109> nif:BeginIndex "573" ;
+    nif:anchorOf "overgebracht" ;
+    nif:endIndex "585" ;
+    nif:lemma "over_brengen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w10w11w12> nif:anchorOf "18 april 1905" ;
+    nif:beginIndex "30" ;
+    nif:endIndex "43" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w112> nif:anchorOf "Scholtenhuis" ;
+    nif:beginIndex "595" ;
+    nif:endIndex "607" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w114> nif:anchorOf "waar" ;
+    nif:beginIndex "609" ;
+    nif:endIndex "613" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w114" ;
+    nif:lemma "waar" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w115> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "614" ;
+    nif:endIndex "617" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w115" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w116w117> nif:anchorOf "vier weken" ;
+    nif:beginIndex "618" ;
+    nif:endIndex "628" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w119> nif:BeginIndex "635" ;
+    nif:anchorOf "gezeten" ;
+    nif:endIndex "642" ;
+    nif:lemma "zitten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w120w121w122w123> nif:anchorOf "voor hij werd weggevoerd" ;
+    nif:beginIndex "643" ;
+    nif:endIndex "667" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w120" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w121> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "648" ;
+    nif:endIndex "651" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w121" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w123> nif:BeginIndex "657" ;
+    nif:anchorOf "weggevoerd" ;
+    nif:endIndex "667" ;
+    nif:lemma "weg_voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w125> nif:anchorOf "Duitsland" ;
+    nif:beginIndex "673" ;
+    nif:endIndex "682" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w127w128w129> nif:anchorOf "Na de bevrijding" ;
+    nif:beginIndex "684" ;
+    nif:endIndex "700" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w127" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w130> nif:BeginIndex "701" ;
+    nif:anchorOf "keerde" ;
+    nif:endIndex "707" ;
+    nif:lemma "terug_keren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w131> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "708" ;
+    nif:endIndex "711" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w131" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w132> nif:anchorOf "terug" ;
+    nif:beginIndex "712" ;
+    nif:endIndex "717" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w132" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w134> nif:anchorOf "Groningen" ;
+    nif:beginIndex "723" ;
+    nif:endIndex "732" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w14> nif:anchorOf "Haren" ;
+    nif:beginIndex "46" ;
+    nif:endIndex "51" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w141> nif:anchorOf "A.R" ;
+    nif:beginIndex "754" ;
+    nif:endIndex "757" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w146w147> nif:anchorOf "Sociale Zaken" ;
+    nif:beginIndex "775" ;
+    nif:endIndex "788" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w149> nif:anchorOf "Stadsbezittingen" ;
+    nif:beginIndex "792" ;
+    nif:endIndex "808" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w151> nif:anchorOf "1946-1958" ;
+    nif:beginIndex "810" ;
+    nif:endIndex "819" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w154w155> nif:anchorOf "Als architect" ;
+    nif:beginIndex "823" ;
+    nif:endIndex "836" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w154" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w156> nif:BeginIndex "837" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "840" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w157w158> nif:anchorOf "Van Loo" ;
+    nif:beginIndex "841" ;
+    nif:endIndex "848" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w159w160w161> nif:anchorOf "na de oorlog" ;
+    nif:beginIndex "849" ;
+    nif:endIndex "861" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w159" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w167> nif:anchorOf "Daarnaast" ;
+    nif:beginIndex "892" ;
+    nif:endIndex "901" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w167" ;
+    nif:lemma "daarnaast" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w168> nif:BeginIndex "902" ;
+    nif:anchorOf "ontwierp" ;
+    nif:endIndex "910" ;
+    nif:lemma "ontwerpen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w169> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "911" ;
+    nif:endIndex "914" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w169" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w16w17w18> nif:anchorOf "25 juni 1991" ;
+    nif:beginIndex "53" ;
+    nif:endIndex "65" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w170w171> nif:anchorOf "onder andere" ;
+    nif:beginIndex "915" ;
+    nif:endIndex "927" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w170" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w173> nif:anchorOf "Gedenkteken" ;
+    nif:beginIndex "932" ;
+    nif:endIndex "943" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w181> nif:anchorOf "Zevenhuizen" ;
+    nif:beginIndex "999" ;
+    nif:endIndex "1010" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w183> nif:anchorOf "waarop" ;
+    nif:beginIndex "1012" ;
+    nif:endIndex "1018" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w183" ;
+    nif:lemma "waarop" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w184w185> nif:anchorOf "een beeld" ;
+    nif:beginIndex "1019" ;
+    nif:endIndex "1028" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w185" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w187> nif:BeginIndex "1034" ;
+    nif:anchorOf "geplaatst" ;
+    nif:endIndex "1043" ;
+    nif:lemma "plaatsen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w189w190w191> nif:anchorOf "Wladimir de Vries" ;
+    nif:beginIndex "1048" ;
+    nif:endIndex "1065" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w194> nif:anchorOf "1958" ;
+    nif:beginIndex "1071" ;
+    nif:endIndex "1075" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w195> nif:BeginIndex "1076" ;
+    nif:anchorOf "trok" ;
+    nif:endIndex "1080" ;
+    nif:lemma "terug_trekken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w196w197> nif:anchorOf "Van Loo" ;
+    nif:beginIndex "1081" ;
+    nif:endIndex "1088" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w198> nif:anchorOf "zich" ;
+    nif:beginIndex "1089" ;
+    nif:endIndex "1093" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w198" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w199> nif:anchorOf "terug" ;
+    nif:beginIndex "1094" ;
+    nif:endIndex "1099" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w199" ;
+    nif:lemma "terug" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w20> nif:BeginIndex "67" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "70" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w200w201w202w203> nif:anchorOf "uit de gemeentelijke politiek" ;
+    nif:beginIndex "1100" ;
+    nif:endIndex "1129" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w200" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w204w205w206w207w208w209w210w211w212w213> nif:anchorOf "om zich meer te kunnen wijden aan tekenen en schilderen" ;
+    nif:beginIndex "1130" ;
+    nif:endIndex "1185" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w204" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w205> nif:anchorOf "zich" ;
+    nif:beginIndex "1133" ;
+    nif:endIndex "1137" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w205" ;
+    nif:lemma "zich" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w206> nif:anchorOf "meer" ;
+    nif:beginIndex "1138" ;
+    nif:endIndex "1142" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w206" ;
+    nif:lemma "meer" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w209> nif:BeginIndex "1153" ;
+    nif:anchorOf "wijden" ;
+    nif:endIndex "1159" ;
+    nif:lemma "wijden" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w210w211w212w213> nif:anchorOf "aan tekenen en schilderen" ;
+    nif:beginIndex "1160" ;
+    nif:endIndex "1185" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w210" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w215> a bgn:pron_3ms ;
+    nif:anchorOf "Hij" ;
+    nif:beginIndex "1187" ;
+    nif:endIndex "1190" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w215" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w217> nif:anchorOf "wel" ;
+    nif:beginIndex "1197" ;
+    nif:endIndex "1200" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w217" ;
+    nif:lemma "wel" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w218> nif:BeginIndex "1201" ;
+    nif:anchorOf "gerekend" ;
+    nif:endIndex "1209" ;
+    nif:lemma "rekenen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w22> nif:anchorOf "Nederlands" ;
+    nif:beginIndex "75" ;
+    nif:endIndex "85" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w221w222> nif:anchorOf "Nieuwe Realisten" ;
+    nif:beginIndex "1217" ;
+    nif:endIndex "1233" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w225> nif:BeginIndex "1239" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "1242" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w229> nif:anchorOf "Groninger" ;
+    nif:beginIndex "1254" ;
+    nif:endIndex "1263" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w231w232> nif:anchorOf "De Ploeg" ;
+    nif:beginIndex "1286" ;
+    nif:endIndex "1294" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w234w235> nif:anchorOf "Van Loo" ;
+    nif:beginIndex "1296" ;
+    nif:endIndex "1303" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w236> nif:BeginIndex "1304" ;
+    nif:anchorOf "verzamelde" ;
+    nif:endIndex "1314" ;
+    nif:lemma "verzamelen" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w237> nif:anchorOf "ook" ;
+    nif:beginIndex "1315" ;
+    nif:endIndex "1318" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w237" ;
+    nif:lemma "ook" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w238> nif:anchorOf "kunst" ;
+    nif:beginIndex "1319" ;
+    nif:endIndex "1324" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w238" ;
+    nif:lemma "kunst" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w246> nif:anchorOf "Ploegkunst" ;
+    nif:beginIndex "1361" ;
+    nif:endIndex "1371" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w247> nif:BeginIndex "1372" ;
+    nif:anchorOf "is" ;
+    nif:endIndex "1374" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w251w252w253> nif:anchorOf "Stichting De Ploeg" ;
+    nif:beginIndex "1393" ;
+    nif:endIndex "1411" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w255> nif:anchorOf "die" ;
+    nif:beginIndex "1413" ;
+    nif:endIndex "1416" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w255" ;
+    nif:lemma "die" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w256> nif:anchorOf "nauw" ;
+    nif:beginIndex "1417" ;
+    nif:endIndex "1421" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w256" ;
+    nif:lemma "nauw" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w257> nif:BeginIndex "1422" ;
+    nif:anchorOf "samenwerkt" ;
+    nif:endIndex "1432" ;
+    nif:lemma "samen_werken" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w260w261> nif:anchorOf "Groninger Museum" ;
+    nif:beginIndex "1441" ;
+    nif:endIndex "1457" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w265> nif:anchorOf "Nederlandse" ;
+    nif:beginIndex "1470" ;
+    nif:endIndex "1481" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w29> nif:anchorOf "Pit" ;
+    nif:beginIndex "122" ;
+    nif:endIndex "125" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w30> nif:BeginIndex "126" ;
+    nif:anchorOf "voerde" ;
+    nif:endIndex "132" ;
+    nif:lemma "voeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w31w32> nif:anchorOf "Van Loo" ;
+    nif:beginIndex "133" ;
+    nif:endIndex "140" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w33> nif:anchorOf "al" ;
+    nif:beginIndex "141" ;
+    nif:endIndex "143" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w33" ;
+    nif:lemma "al" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w34w35w36> nif:anchorOf "tijdens zijn studententijd" ;
+    nif:beginIndex "144" ;
+    nif:endIndex "170" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w34" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w38> nif:BeginIndex "174" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "177" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w42> nif:anchorOf "Driekoningentriptiek" ;
+    nif:beginIndex "194" ;
+    nif:endIndex "214" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w44w45> nif:anchorOf "Felix Timmermans" ;
+    nif:beginIndex "219" ;
+    nif:endIndex "235" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w47w48> nif:anchorOf "Van Loo" ;
+    nif:beginIndex "238" ;
+    nif:endIndex "245" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w49> nif:BeginIndex "246" ;
+    nif:anchorOf "studeerde" ;
+    nif:endIndex "255" ;
+    nif:lemma "studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w50> nif:anchorOf "bouwkunde" ;
+    nif:beginIndex "256" ;
+    nif:endIndex "265" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w50" ;
+    nif:lemma "bouw_kunde" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w53w54w55w56> nif:anchorOf "Technische Hogeschool van Delft" ;
+    nif:beginIndex "273" ;
+    nif:endIndex "304" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w6> nif:anchorOf "Loo" ;
+    nif:beginIndex "17" ;
+    nif:endIndex "20" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w60> nif:BeginIndex "314" ;
+    nif:anchorOf "afstuderen" ;
+    nif:endIndex "324" ;
+    nif:lemma "af_studeren" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w62> nif:anchorOf "1931" ;
+    nif:beginIndex "328" ;
+    nif:endIndex "332" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w64> nif:BeginIndex "334" ;
+    nif:anchorOf "ging" ;
+    nif:endIndex "338" ;
+    nif:lemma "gaan" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w65> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "339" ;
+    nif:endIndex "342" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w65" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w69w70w71> nif:anchorOf "bij een architect" ;
+    nif:beginIndex "356" ;
+    nif:endIndex "373" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w69" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w73> nif:anchorOf "Groningen" ;
+    nif:beginIndex "377" ;
+    nif:endIndex "386" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w76> nif:anchorOf "1939" ;
+    nif:beginIndex "391" ;
+    nif:endIndex "395" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w77> nif:BeginIndex "396" ;
+    nif:anchorOf "richtte" ;
+    nif:endIndex "403" ;
+    nif:lemma "op_richten" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w78> a bgn:pron_3ms ;
+    nif:anchorOf "hij" ;
+    nif:beginIndex "404" ;
+    nif:endIndex "407" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w78" ;
+    nif:lemma "hij" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w79w80w81w82> nif:anchorOf "zijn eigen bouwkundig bureau" ;
+    nif:beginIndex "408" ;
+    nif:endIndex "436" ;
+    nif:head "bgnProc:1902__Pit_van_Loo.naf#w82" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w8> nif:anchorOf "Winsum" ;
+    nif:beginIndex "22" ;
+    nif:endIndex "28" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w87w88> nif:anchorOf "Tweede Wereldoorlog" ;
+    nif:beginIndex "453" ;
+    nif:endIndex "472" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w89> nif:BeginIndex "473" ;
+    nif:anchorOf "was" ;
+    nif:endIndex "476" ;
+    nif:lemma "zijn" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w90w91> nif:anchorOf "Van Loo" ;
+    nif:beginIndex "477" ;
+    nif:endIndex "484" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_106t_107> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w107w108> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_113> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w114> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_114> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w115> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_115t_116> a xs:duration ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w116w117> ;
+    xs:period "P4W" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_119t_120t_121t_122> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w120w121w122w123> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_120> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w121> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_126t_127t_128> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w127w128w129> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_130> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w131> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_131> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w132> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_153t_154> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w154w155> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_158t_159t_160> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w159w160w161> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_166> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w167> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_168> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w169> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_169t_170> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w170w171> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_182> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w183> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_183t_184> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w184w185> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_193> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w194> ;
+    xs:gYear "1958" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_197> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w198> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_198> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w199> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_199t_200t_201t_202> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w200w201w202w203> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_203t_204t_205t_206t_207t_208t_209t_210t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w204w205w206w207w208w209w210w211w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_204> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w205> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_205> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w206> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_209t_210t_211t_212> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w210w211w212w213> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_214> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w215> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_216> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w217> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_236> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w237> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_237> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w238> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_254> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w255> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_255> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w256> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_32> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w33> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_33t_34t_35> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w34w35w36> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_49> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w50> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_64> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w65> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_68t_69t_70> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w69w70w71> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_75> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w76> ;
+    xs:gYear "1939" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_77> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w78> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_78t_79t_80t_81> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w79w80w81w82> .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_100t_101> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w101w102> ;
+    xs:gYear "1944" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_61> a xs:date ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w62> ;
+    xs:gYear "1931" .
+
+<http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#t_103> gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w104> .
+
+bgn:Person-1902 a bgn:LOC,
+        bgn:MISC,
+        bgn:ORG,
+        bgn:PER ;
+    gaf:denotedBy <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w1>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w112>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w125>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w134>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w14>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w141>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w146w147>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w149>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w157w158>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w173>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w181>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w189w190w191>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w196w197>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w22>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w221w222>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w229>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w231w232>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w234w235>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w246>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w251w252w253>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w260w261>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w265>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w29>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w31w32>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w42>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w44w45>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w47w48>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w53w54w55w56>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w6>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w73>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w8>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w87w88>,
+        <http://data.biographynet.nl/rdf/170506221754/1902__Pit_van_Loo.naf#w90w91> .
+
