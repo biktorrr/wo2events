@@ -1,0 +1,18 @@
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix vann:	 <http://purl.org/vocab/vann/> .
+@prefix lib:     <http://www.swi-prolog.org/rdf/library/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wo2e: <http://example.org/wo2events/> .
+
+<wo2_events>
+	a void:Dataset ;
+	lib:source <http://example.org/wo2events/> ;
+	dcterms:title "WOII events dataset"@nl ;
+	void:dataDump
+		<wikip_events_cleaned.ttl> ,
+		<oranjehotel_clean.ttl>,
+		<nob_persons_clean>,
+		<nob_persons_schema>,
+		<WO2_Thesaurus.ttl>,
+		<WO2_Thesaurus_events>.

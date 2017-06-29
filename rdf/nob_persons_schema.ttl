@@ -1,0 +1,97 @@
+@prefix  xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix nobp: <http://example.org/data/nob_persons/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+# Named toplevel resources (22)
+
+nobp:dataprovider_1
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "dataprovider_1" ;
+	rdfs:range rdfs:Literal .
+
+nobp:echtgenoot
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "echtgenoot" ;
+	rdfs:range rdfs:Literal .
+
+nobp:erelijstpaginanummer_1
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "erelijstpaginanummer_1" ;
+	rdfs:range xsd:integer .
+
+nobp:functie
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "functie" ;
+	rdfs:range rdfs:Literal .
+
+nobp:geboorte
+	a rdf:Property ;
+	rdfs:label "geboorte" ;
+	rdfs:range sem:Event .
+
+nobp:identifier_1
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "identifier_1" ;
+	rdfs:range rdfs:Literal .
+
+nobp:leeftijd
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "leeftijd" .
+
+nobp:monument_nr_1
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "monument_nr_1" ;
+	rdfs:range rdfs:Literal .
+
+nobp:monument_plaats_1
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "monument_plaats_1" ;
+	rdfs:range sem:Place .
+
+nobp:naam
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:subPropertyOf foaf:name;
+	rdfs:label "naam" ;
+	rdfs:range rdfs:Literal .
+
+nobp:nummer
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "nummer" ;
+	rdfs:range rdfs:Literal .
+
+nobp:nummer_2
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "nummer_2" ;
+	rdfs:range rdfs:Literal .
+
+nobp:source_1
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "source_1" ;
+	rdfs:range rdfs:Literal .
+
+nobp:sterven
+	a rdf:Property ;
+	rdfs:label "sterven" ;
+	rdfs:range sem:Event .
+
+nobp:type
+	a rdf:Property ;
+	rdfs:domain sem:Actor ;
+	rdfs:label "type" ;
+	rdfs:range rdfs:Literal .
